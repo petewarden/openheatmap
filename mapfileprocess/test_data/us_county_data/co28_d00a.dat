@@ -1,0 +1,609 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "28"
+ "003"
+ "Alcorn"
+ "06"
+ "County"
+ 
+ 2
+ "28"
+ "139"
+ "Tippah"
+ "06"
+ "County"
+ 
+ 3
+ "28"
+ "033"
+ "DeSoto"
+ "06"
+ "County"
+ 
+ 4
+ "28"
+ "141"
+ "Tishomingo"
+ "06"
+ "County"
+ 
+ 5
+ "28"
+ "093"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 6
+ "28"
+ "009"
+ "Benton"
+ "06"
+ "County"
+ 
+ 7
+ "28"
+ "143"
+ "Tunica"
+ "06"
+ "County"
+ 
+ 8
+ "28"
+ "137"
+ "Tate"
+ "06"
+ "County"
+ 
+ 9
+ "28"
+ "117"
+ "Prentiss"
+ "06"
+ "County"
+ 
+ 10
+ "28"
+ "145"
+ "Union"
+ "06"
+ "County"
+ 
+ 11
+ "28"
+ "071"
+ "Lafayette"
+ "06"
+ "County"
+ 
+ 12
+ "28"
+ "107"
+ "Panola"
+ "06"
+ "County"
+ 
+ 13
+ "28"
+ "027"
+ "Coahoma"
+ "06"
+ "County"
+ 
+ 14
+ "28"
+ "119"
+ "Quitman"
+ "06"
+ "County"
+ 
+ 15
+ "28"
+ "081"
+ "Lee"
+ "06"
+ "County"
+ 
+ 16
+ "28"
+ "057"
+ "Itawamba"
+ "06"
+ "County"
+ 
+ 17
+ "28"
+ "115"
+ "Pontotoc"
+ "06"
+ "County"
+ 
+ 18
+ "28"
+ "161"
+ "Yalobusha"
+ "06"
+ "County"
+ 
+ 19
+ "28"
+ "135"
+ "Tallahatchie"
+ "06"
+ "County"
+ 
+ 20
+ "28"
+ "013"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 21
+ "28"
+ "011"
+ "Bolivar"
+ "06"
+ "County"
+ 
+ 22
+ "28"
+ "095"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 23
+ "28"
+ "017"
+ "Chickasaw"
+ "06"
+ "County"
+ 
+ 24
+ "28"
+ "133"
+ "Sunflower"
+ "06"
+ "County"
+ 
+ 25
+ "28"
+ "043"
+ "Grenada"
+ "06"
+ "County"
+ 
+ 26
+ "28"
+ "025"
+ "Clay"
+ "06"
+ "County"
+ 
+ 27
+ "28"
+ "083"
+ "Leflore"
+ "06"
+ "County"
+ 
+ 28
+ "28"
+ "087"
+ "Lowndes"
+ "06"
+ "County"
+ 
+ 29
+ "28"
+ "155"
+ "Webster"
+ "06"
+ "County"
+ 
+ 30
+ "28"
+ "097"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 31
+ "28"
+ "015"
+ "Carroll"
+ "06"
+ "County"
+ 
+ 32
+ "28"
+ "105"
+ "Oktibbeha"
+ "06"
+ "County"
+ 
+ 33
+ "28"
+ "019"
+ "Choctaw"
+ "06"
+ "County"
+ 
+ 34
+ "28"
+ "151"
+ "Washington"
+ "06"
+ "County"
+ 
+ 35
+ "28"
+ "051"
+ "Holmes"
+ "06"
+ "County"
+ 
+ 36
+ "28"
+ "053"
+ "Humphreys"
+ "06"
+ "County"
+ 
+ 37
+ "28"
+ "103"
+ "Noxubee"
+ "06"
+ "County"
+ 
+ 38
+ "28"
+ "159"
+ "Winston"
+ "06"
+ "County"
+ 
+ 39
+ "28"
+ "007"
+ "Attala"
+ "06"
+ "County"
+ 
+ 40
+ "28"
+ "125"
+ "Sharkey"
+ "06"
+ "County"
+ 
+ 41
+ "28"
+ "163"
+ "Yazoo"
+ "06"
+ "County"
+ 
+ 42
+ "28"
+ "055"
+ "Issaquena"
+ "06"
+ "County"
+ 
+ 43
+ "28"
+ "099"
+ "Neshoba"
+ "06"
+ "County"
+ 
+ 44
+ "28"
+ "079"
+ "Leake"
+ "06"
+ "County"
+ 
+ 45
+ "28"
+ "069"
+ "Kemper"
+ "06"
+ "County"
+ 
+ 46
+ "28"
+ "089"
+ "Madison"
+ "06"
+ "County"
+ 
+ 47
+ "28"
+ "123"
+ "Scott"
+ "06"
+ "County"
+ 
+ 48
+ "28"
+ "149"
+ "Warren"
+ "06"
+ "County"
+ 
+ 49
+ "28"
+ "121"
+ "Rankin"
+ "06"
+ "County"
+ 
+ 50
+ "28"
+ "075"
+ "Lauderdale"
+ "06"
+ "County"
+ 
+ 51
+ "28"
+ "101"
+ "Newton"
+ "06"
+ "County"
+ 
+ 52
+ "28"
+ "049"
+ "Hinds"
+ "06"
+ "County"
+ 
+ 53
+ "28"
+ "023"
+ "Clarke"
+ "06"
+ "County"
+ 
+ 54
+ "28"
+ "021"
+ "Claiborne"
+ "06"
+ "County"
+ 
+ 55
+ "28"
+ "061"
+ "Jasper"
+ "06"
+ "County"
+ 
+ 56
+ "28"
+ "129"
+ "Smith"
+ "06"
+ "County"
+ 
+ 57
+ "28"
+ "029"
+ "Copiah"
+ "06"
+ "County"
+ 
+ 58
+ "28"
+ "127"
+ "Simpson"
+ "06"
+ "County"
+ 
+ 59
+ "28"
+ "153"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 60
+ "28"
+ "063"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 61
+ "28"
+ "067"
+ "Jones"
+ "06"
+ "County"
+ 
+ 62
+ "28"
+ "031"
+ "Covington"
+ "06"
+ "County"
+ 
+ 63
+ "28"
+ "065"
+ "Jefferson Davis"
+ "06"
+ "County"
+ 
+ 64
+ "28"
+ "077"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 65
+ "28"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 66
+ "28"
+ "085"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 67
+ "28"
+ "037"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 68
+ "28"
+ "041"
+ "Greene"
+ "06"
+ "County"
+ 
+ 69
+ "28"
+ "035"
+ "Forrest"
+ "06"
+ "County"
+ 
+ 70
+ "28"
+ "091"
+ "Marion"
+ "06"
+ "County"
+ 
+ 71
+ "28"
+ "111"
+ "Perry"
+ "06"
+ "County"
+ 
+ 72
+ "28"
+ "073"
+ "Lamar"
+ "06"
+ "County"
+ 
+ 73
+ "28"
+ "157"
+ "Wilkinson"
+ "06"
+ "County"
+ 
+ 74
+ "28"
+ "147"
+ "Walthall"
+ "06"
+ "County"
+ 
+ 75
+ "28"
+ "113"
+ "Pike"
+ "06"
+ "County"
+ 
+ 76
+ "28"
+ "005"
+ "Amite"
+ "06"
+ "County"
+ 
+ 77
+ "28"
+ "109"
+ "Pearl River"
+ "06"
+ "County"
+ 
+ 78
+ "28"
+ "039"
+ "George"
+ "06"
+ "County"
+ 
+ 79
+ "28"
+ "131"
+ "Stone"
+ "06"
+ "County"
+ 
+ 80
+ "28"
+ "059"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 81
+ "28"
+ "047"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 82
+ "28"
+ "045"
+ "Hancock"
+ "06"
+ "County"
+ 
+ 83
+ "28"
+ "059"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 84
+ "28"
+ "047"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 85
+ "28"
+ "047"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 86
+ "28"
+ "059"
+ "Jackson"
+ "06"
+ "County"
+ 

@@ -1,0 +1,595 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "12"
+ "063"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 2
+ "12"
+ "113"
+ "Santa Rosa"
+ "06"
+ "County"
+ 
+ 3
+ "12"
+ "033"
+ "Escambia"
+ "06"
+ "County"
+ 
+ 4
+ "12"
+ "091"
+ "Okaloosa"
+ "06"
+ "County"
+ 
+ 5
+ "12"
+ "059"
+ "Holmes"
+ "06"
+ "County"
+ 
+ 6
+ "12"
+ "131"
+ "Walton"
+ "06"
+ "County"
+ 
+ 7
+ "12"
+ "133"
+ "Washington"
+ "06"
+ "County"
+ 
+ 8
+ "12"
+ "089"
+ "Nassau"
+ "06"
+ "County"
+ 
+ 9
+ "12"
+ "039"
+ "Gadsden"
+ "06"
+ "County"
+ 
+ 10
+ "12"
+ "073"
+ "Leon"
+ "06"
+ "County"
+ 
+ 11
+ "12"
+ "065"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 12
+ "12"
+ "079"
+ "Madison"
+ "06"
+ "County"
+ 
+ 13
+ "12"
+ "047"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 14
+ "12"
+ "013"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 15
+ "12"
+ "077"
+ "Liberty"
+ "06"
+ "County"
+ 
+ 16
+ "12"
+ "023"
+ "Columbia"
+ "06"
+ "County"
+ 
+ 17
+ "12"
+ "031"
+ "Duval"
+ "06"
+ "County"
+ 
+ 18
+ "12"
+ "003"
+ "Baker"
+ "06"
+ "County"
+ 
+ 19
+ "12"
+ "005"
+ "Bay"
+ "06"
+ "County"
+ 
+ 20
+ "12"
+ "121"
+ "Suwannee"
+ "06"
+ "County"
+ 
+ 21
+ "12"
+ "123"
+ "Taylor"
+ "06"
+ "County"
+ 
+ 22
+ "12"
+ "129"
+ "Wakulla"
+ "06"
+ "County"
+ 
+ 23
+ "12"
+ "067"
+ "Lafayette"
+ "06"
+ "County"
+ 
+ 24
+ "12"
+ "109"
+ "St. Johns"
+ "06"
+ "County"
+ 
+ 25
+ "12"
+ "045"
+ "Gulf"
+ "06"
+ "County"
+ 
+ 26
+ "12"
+ "019"
+ "Clay"
+ "06"
+ "County"
+ 
+ 27
+ "12"
+ "007"
+ "Bradford"
+ "06"
+ "County"
+ 
+ 28
+ "12"
+ "125"
+ "Union"
+ "06"
+ "County"
+ 
+ 29
+ "12"
+ "037"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 30
+ "12"
+ "001"
+ "Alachua"
+ "06"
+ "County"
+ 
+ 31
+ "12"
+ "041"
+ "Gilchrist"
+ "06"
+ "County"
+ 
+ 32
+ "12"
+ "107"
+ "Putnam"
+ "06"
+ "County"
+ 
+ 33
+ "12"
+ "029"
+ "Dixie"
+ "06"
+ "County"
+ 
+ 34
+ "12"
+ "029"
+ "Dixie"
+ "06"
+ "County"
+ 
+ 35
+ "12"
+ "037"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 36
+ "12"
+ "037"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 37
+ "12"
+ "035"
+ "Flagler"
+ "06"
+ "County"
+ 
+ 38
+ "12"
+ "075"
+ "Levy"
+ "06"
+ "County"
+ 
+ 39
+ "12"
+ "083"
+ "Marion"
+ "06"
+ "County"
+ 
+ 40
+ "12"
+ "127"
+ "Volusia"
+ "06"
+ "County"
+ 
+ 41
+ "12"
+ "069"
+ "Lake"
+ "06"
+ "County"
+ 
+ 42
+ "12"
+ "017"
+ "Citrus"
+ "06"
+ "County"
+ 
+ 43
+ "12"
+ "119"
+ "Sumter"
+ "06"
+ "County"
+ 
+ 44
+ "12"
+ "117"
+ "Seminole"
+ "06"
+ "County"
+ 
+ 45
+ "12"
+ "009"
+ "Brevard"
+ "06"
+ "County"
+ 
+ 46
+ "12"
+ "095"
+ "Orange"
+ "06"
+ "County"
+ 
+ 47
+ "12"
+ "053"
+ "Hernando"
+ "06"
+ "County"
+ 
+ 48
+ "12"
+ "101"
+ "Pasco"
+ "06"
+ "County"
+ 
+ 49
+ "12"
+ "105"
+ "Polk"
+ "06"
+ "County"
+ 
+ 50
+ "12"
+ "097"
+ "Osceola"
+ "06"
+ "County"
+ 
+ 51
+ "12"
+ "057"
+ "Hillsborough"
+ "06"
+ "County"
+ 
+ 52
+ "12"
+ "103"
+ "Pinellas"
+ "06"
+ "County"
+ 
+ 53
+ "12"
+ "103"
+ "Pinellas"
+ "06"
+ "County"
+ 
+ 54
+ "12"
+ "061"
+ "Indian River"
+ "06"
+ "County"
+ 
+ 55
+ "12"
+ "055"
+ "Highlands"
+ "06"
+ "County"
+ 
+ 56
+ "12"
+ "081"
+ "Manatee"
+ "06"
+ "County"
+ 
+ 57
+ "12"
+ "049"
+ "Hardee"
+ "06"
+ "County"
+ 
+ 58
+ "12"
+ "093"
+ "Okeechobee"
+ "06"
+ "County"
+ 
+ 59
+ "12"
+ "111"
+ "St. Lucie"
+ "06"
+ "County"
+ 
+ 60
+ "12"
+ "115"
+ "Sarasota"
+ "06"
+ "County"
+ 
+ 61
+ "12"
+ "027"
+ "DeSoto"
+ "06"
+ "County"
+ 
+ 62
+ "12"
+ "085"
+ "Martin"
+ "06"
+ "County"
+ 
+ 63
+ "12"
+ "043"
+ "Glades"
+ "06"
+ "County"
+ 
+ 64
+ "12"
+ "015"
+ "Charlotte"
+ "06"
+ "County"
+ 
+ 65
+ "12"
+ "099"
+ "Palm Beach"
+ "06"
+ "County"
+ 
+ 66
+ "12"
+ "051"
+ "Hendry"
+ "06"
+ "County"
+ 
+ 67
+ "12"
+ "071"
+ "Lee"
+ "06"
+ "County"
+ 
+ 68
+ "12"
+ "071"
+ "Lee"
+ "06"
+ "County"
+ 
+ 69
+ "12"
+ "071"
+ "Lee"
+ "06"
+ "County"
+ 
+ 70
+ "12"
+ "071"
+ "Lee"
+ "06"
+ "County"
+ 
+ 71
+ "12"
+ "021"
+ "Collier"
+ "06"
+ "County"
+ 
+ 72
+ "12"
+ "011"
+ "Broward"
+ "06"
+ "County"
+ 
+ 73
+ "12"
+ "086"
+ "Miami-Dade"
+ "06"
+ "County"
+ 
+ 74
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 75
+ "12"
+ "086"
+ "Miami-Dade"
+ "06"
+ "County"
+ 
+ 76
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 77
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 78
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 79
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 80
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 81
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 82
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 83
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 84
+ "12"
+ "087"
+ "Monroe"
+ "06"
+ "County"
+ 

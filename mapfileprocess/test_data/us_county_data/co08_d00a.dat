@@ -1,0 +1,525 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "08"
+ "107"
+ "Routt"
+ "06"
+ "County"
+ 
+ 2
+ "08"
+ "081"
+ "Moffat"
+ "06"
+ "County"
+ 
+ 3
+ "08"
+ "057"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 4
+ "08"
+ "115"
+ "Sedgwick"
+ "06"
+ "County"
+ 
+ 5
+ "08"
+ "075"
+ "Logan"
+ "06"
+ "County"
+ 
+ 6
+ "08"
+ "123"
+ "Weld"
+ "06"
+ "County"
+ 
+ 7
+ "08"
+ "069"
+ "Larimer"
+ "06"
+ "County"
+ 
+ 8
+ "08"
+ "095"
+ "Phillips"
+ "06"
+ "County"
+ 
+ 9
+ "08"
+ "087"
+ "Morgan"
+ "06"
+ "County"
+ 
+ 10
+ "08"
+ "049"
+ "Grand"
+ "06"
+ "County"
+ 
+ 11
+ "08"
+ "125"
+ "Yuma"
+ "06"
+ "County"
+ 
+ 12
+ "08"
+ "121"
+ "Washington"
+ "06"
+ "County"
+ 
+ 13
+ "08"
+ "013"
+ "Boulder"
+ "06"
+ "County"
+ 
+ 14
+ "08"
+ "103"
+ "Rio Blanco"
+ "06"
+ "County"
+ 
+ 15
+ "08"
+ "045"
+ "Garfield"
+ "06"
+ "County"
+ 
+ 16
+ "08"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 17
+ "08"
+ "047"
+ "Gilpin"
+ "06"
+ "County"
+ 
+ 18
+ "08"
+ "037"
+ "Eagle"
+ "06"
+ "County"
+ 
+ 19
+ "08"
+ "117"
+ "Summit"
+ "06"
+ "County"
+ 
+ 20
+ "08"
+ "059"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 21
+ "08"
+ "031"
+ "Denver"
+ "06"
+ "County"
+ 
+ 22
+ "08"
+ "019"
+ "Clear Creek"
+ "06"
+ "County"
+ 
+ 23
+ "08"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 24
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 25
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 26
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 27
+ "08"
+ "031"
+ "Denver"
+ "06"
+ "County"
+ 
+ 28
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 29
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 30
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 31
+ "08"
+ "059"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 32
+ "08"
+ "059"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 33
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 34
+ "08"
+ "005"
+ "Arapahoe"
+ "06"
+ "County"
+ 
+ 35
+ "08"
+ "063"
+ "Kit Carson"
+ "06"
+ "County"
+ 
+ 36
+ "08"
+ "093"
+ "Park"
+ "06"
+ "County"
+ 
+ 37
+ "08"
+ "073"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 38
+ "08"
+ "039"
+ "Elbert"
+ "06"
+ "County"
+ 
+ 39
+ "08"
+ "035"
+ "Douglas"
+ "06"
+ "County"
+ 
+ 40
+ "08"
+ "065"
+ "Lake"
+ "06"
+ "County"
+ 
+ 41
+ "08"
+ "077"
+ "Mesa"
+ "06"
+ "County"
+ 
+ 42
+ "08"
+ "097"
+ "Pitkin"
+ "06"
+ "County"
+ 
+ 43
+ "08"
+ "051"
+ "Gunnison"
+ "06"
+ "County"
+ 
+ 44
+ "08"
+ "029"
+ "Delta"
+ "06"
+ "County"
+ 
+ 45
+ "08"
+ "041"
+ "El Paso"
+ "06"
+ "County"
+ 
+ 46
+ "08"
+ "119"
+ "Teller"
+ "06"
+ "County"
+ 
+ 47
+ "08"
+ "015"
+ "Chaffee"
+ "06"
+ "County"
+ 
+ 48
+ "08"
+ "017"
+ "Cheyenne"
+ "06"
+ "County"
+ 
+ 49
+ "08"
+ "043"
+ "Fremont"
+ "06"
+ "County"
+ 
+ 50
+ "08"
+ "085"
+ "Montrose"
+ "06"
+ "County"
+ 
+ 51
+ "08"
+ "061"
+ "Kiowa"
+ "06"
+ "County"
+ 
+ 52
+ "08"
+ "025"
+ "Crowley"
+ "06"
+ "County"
+ 
+ 53
+ "08"
+ "101"
+ "Pueblo"
+ "06"
+ "County"
+ 
+ 54
+ "08"
+ "109"
+ "Saguache"
+ "06"
+ "County"
+ 
+ 55
+ "08"
+ "091"
+ "Ouray"
+ "06"
+ "County"
+ 
+ 56
+ "08"
+ "099"
+ "Prowers"
+ "06"
+ "County"
+ 
+ 57
+ "08"
+ "011"
+ "Bent"
+ "06"
+ "County"
+ 
+ 58
+ "08"
+ "089"
+ "Otero"
+ "06"
+ "County"
+ 
+ 59
+ "08"
+ "027"
+ "Custer"
+ "06"
+ "County"
+ 
+ 60
+ "08"
+ "113"
+ "San Miguel"
+ "06"
+ "County"
+ 
+ 61
+ "08"
+ "053"
+ "Hinsdale"
+ "06"
+ "County"
+ 
+ 62
+ "08"
+ "055"
+ "Huerfano"
+ "06"
+ "County"
+ 
+ 63
+ "08"
+ "079"
+ "Mineral"
+ "06"
+ "County"
+ 
+ 64
+ "08"
+ "111"
+ "San Juan"
+ "06"
+ "County"
+ 
+ 65
+ "08"
+ "033"
+ "Dolores"
+ "06"
+ "County"
+ 
+ 66
+ "08"
+ "105"
+ "Rio Grande"
+ "06"
+ "County"
+ 
+ 67
+ "08"
+ "071"
+ "Las Animas"
+ "06"
+ "County"
+ 
+ 68
+ "08"
+ "003"
+ "Alamosa"
+ "06"
+ "County"
+ 
+ 69
+ "08"
+ "023"
+ "Costilla"
+ "06"
+ "County"
+ 
+ 70
+ "08"
+ "009"
+ "Baca"
+ "06"
+ "County"
+ 
+ 71
+ "08"
+ "067"
+ "La Plata"
+ "06"
+ "County"
+ 
+ 72
+ "08"
+ "083"
+ "Montezuma"
+ "06"
+ "County"
+ 
+ 73
+ "08"
+ "007"
+ "Archuleta"
+ "06"
+ "County"
+ 
+ 74
+ "08"
+ "021"
+ "Conejos"
+ "06"
+ "County"
+ 

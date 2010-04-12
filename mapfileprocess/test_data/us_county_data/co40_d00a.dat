@@ -1,0 +1,546 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "40"
+ "007"
+ "Beaver"
+ "06"
+ "County"
+ 
+ 2
+ "40"
+ "059"
+ "Harper"
+ "06"
+ "County"
+ 
+ 3
+ "40"
+ "025"
+ "Cimarron"
+ "06"
+ "County"
+ 
+ 4
+ "40"
+ "151"
+ "Woods"
+ "06"
+ "County"
+ 
+ 5
+ "40"
+ "035"
+ "Craig"
+ "06"
+ "County"
+ 
+ 6
+ "40"
+ "115"
+ "Ottawa"
+ "06"
+ "County"
+ 
+ 7
+ "40"
+ "105"
+ "Nowata"
+ "06"
+ "County"
+ 
+ 8
+ "40"
+ "147"
+ "Washington"
+ "06"
+ "County"
+ 
+ 9
+ "40"
+ "113"
+ "Osage"
+ "06"
+ "County"
+ 
+ 10
+ "40"
+ "071"
+ "Kay"
+ "06"
+ "County"
+ 
+ 11
+ "40"
+ "053"
+ "Grant"
+ "06"
+ "County"
+ 
+ 12
+ "40"
+ "003"
+ "Alfalfa"
+ "06"
+ "County"
+ 
+ 13
+ "40"
+ "139"
+ "Texas"
+ "06"
+ "County"
+ 
+ 14
+ "40"
+ "153"
+ "Woodward"
+ "06"
+ "County"
+ 
+ 15
+ "40"
+ "041"
+ "Delaware"
+ "06"
+ "County"
+ 
+ 16
+ "40"
+ "103"
+ "Noble"
+ "06"
+ "County"
+ 
+ 17
+ "40"
+ "131"
+ "Rogers"
+ "06"
+ "County"
+ 
+ 18
+ "40"
+ "047"
+ "Garfield"
+ "06"
+ "County"
+ 
+ 19
+ "40"
+ "045"
+ "Ellis"
+ "06"
+ "County"
+ 
+ 20
+ "40"
+ "117"
+ "Pawnee"
+ "06"
+ "County"
+ 
+ 21
+ "40"
+ "097"
+ "Mayes"
+ "06"
+ "County"
+ 
+ 22
+ "40"
+ "093"
+ "Major"
+ "06"
+ "County"
+ 
+ 23
+ "40"
+ "143"
+ "Tulsa"
+ "06"
+ "County"
+ 
+ 24
+ "40"
+ "119"
+ "Payne"
+ "06"
+ "County"
+ 
+ 25
+ "40"
+ "011"
+ "Blaine"
+ "06"
+ "County"
+ 
+ 26
+ "40"
+ "073"
+ "Kingfisher"
+ "06"
+ "County"
+ 
+ 27
+ "40"
+ "043"
+ "Dewey"
+ "06"
+ "County"
+ 
+ 28
+ "40"
+ "083"
+ "Logan"
+ "06"
+ "County"
+ 
+ 29
+ "40"
+ "037"
+ "Creek"
+ "06"
+ "County"
+ 
+ 30
+ "40"
+ "145"
+ "Wagoner"
+ "06"
+ "County"
+ 
+ 31
+ "40"
+ "021"
+ "Cherokee"
+ "06"
+ "County"
+ 
+ 32
+ "40"
+ "001"
+ "Adair"
+ "06"
+ "County"
+ 
+ 33
+ "40"
+ "129"
+ "Roger Mills"
+ "06"
+ "County"
+ 
+ 34
+ "40"
+ "081"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 35
+ "40"
+ "111"
+ "Okmulgee"
+ "06"
+ "County"
+ 
+ 36
+ "40"
+ "101"
+ "Muskogee"
+ "06"
+ "County"
+ 
+ 37
+ "40"
+ "039"
+ "Custer"
+ "06"
+ "County"
+ 
+ 38
+ "40"
+ "017"
+ "Canadian"
+ "06"
+ "County"
+ 
+ 39
+ "40"
+ "109"
+ "Oklahoma"
+ "06"
+ "County"
+ 
+ 40
+ "40"
+ "107"
+ "Okfuskee"
+ "06"
+ "County"
+ 
+ 41
+ "40"
+ "135"
+ "Sequoyah"
+ "06"
+ "County"
+ 
+ 42
+ "40"
+ "091"
+ "McIntosh"
+ "06"
+ "County"
+ 
+ 43
+ "40"
+ "015"
+ "Caddo"
+ "06"
+ "County"
+ 
+ 44
+ "40"
+ "009"
+ "Beckham"
+ "06"
+ "County"
+ 
+ 45
+ "40"
+ "133"
+ "Seminole"
+ "06"
+ "County"
+ 
+ 46
+ "40"
+ "149"
+ "Washita"
+ "06"
+ "County"
+ 
+ 47
+ "40"
+ "125"
+ "Pottawatomie"
+ "06"
+ "County"
+ 
+ 48
+ "40"
+ "061"
+ "Haskell"
+ "06"
+ "County"
+ 
+ 49
+ "40"
+ "051"
+ "Grady"
+ "06"
+ "County"
+ 
+ 50
+ "40"
+ "079"
+ "Le Flore"
+ "06"
+ "County"
+ 
+ 51
+ "40"
+ "027"
+ "Cleveland"
+ "06"
+ "County"
+ 
+ 52
+ "40"
+ "087"
+ "McClain"
+ "06"
+ "County"
+ 
+ 53
+ "40"
+ "121"
+ "Pittsburg"
+ "06"
+ "County"
+ 
+ 54
+ "40"
+ "063"
+ "Hughes"
+ "06"
+ "County"
+ 
+ 55
+ "40"
+ "075"
+ "Kiowa"
+ "06"
+ "County"
+ 
+ 56
+ "40"
+ "055"
+ "Greer"
+ "06"
+ "County"
+ 
+ 57
+ "40"
+ "077"
+ "Latimer"
+ "06"
+ "County"
+ 
+ 58
+ "40"
+ "057"
+ "Harmon"
+ "06"
+ "County"
+ 
+ 59
+ "40"
+ "123"
+ "Pontotoc"
+ "06"
+ "County"
+ 
+ 60
+ "40"
+ "065"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 61
+ "40"
+ "031"
+ "Comanche"
+ "06"
+ "County"
+ 
+ 62
+ "40"
+ "049"
+ "Garvin"
+ "06"
+ "County"
+ 
+ 63
+ "40"
+ "029"
+ "Coal"
+ "06"
+ "County"
+ 
+ 64
+ "40"
+ "137"
+ "Stephens"
+ "06"
+ "County"
+ 
+ 65
+ "40"
+ "127"
+ "Pushmataha"
+ "06"
+ "County"
+ 
+ 66
+ "40"
+ "005"
+ "Atoka"
+ "06"
+ "County"
+ 
+ 67
+ "40"
+ "141"
+ "Tillman"
+ "06"
+ "County"
+ 
+ 68
+ "40"
+ "099"
+ "Murray"
+ "06"
+ "County"
+ 
+ 69
+ "40"
+ "089"
+ "McCurtain"
+ "06"
+ "County"
+ 
+ 70
+ "40"
+ "033"
+ "Cotton"
+ "06"
+ "County"
+ 
+ 71
+ "40"
+ "019"
+ "Carter"
+ "06"
+ "County"
+ 
+ 72
+ "40"
+ "069"
+ "Johnston"
+ "06"
+ "County"
+ 
+ 73
+ "40"
+ "067"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 74
+ "40"
+ "095"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 75
+ "40"
+ "013"
+ "Bryan"
+ "06"
+ "County"
+ 
+ 76
+ "40"
+ "023"
+ "Choctaw"
+ "06"
+ "County"
+ 
+ 77
+ "40"
+ "085"
+ "Love"
+ "06"
+ "County"
+ 

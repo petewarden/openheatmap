@@ -1,0 +1,742 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "20"
+ "023"
+ "Cheyenne"
+ "06"
+ "County"
+ 
+ 2
+ "20"
+ "153"
+ "Rawlins"
+ "06"
+ "County"
+ 
+ 3
+ "20"
+ "089"
+ "Jewell"
+ "06"
+ "County"
+ 
+ 4
+ "20"
+ "183"
+ "Smith"
+ "06"
+ "County"
+ 
+ 5
+ "20"
+ "039"
+ "Decatur"
+ "06"
+ "County"
+ 
+ 6
+ "20"
+ "147"
+ "Phillips"
+ "06"
+ "County"
+ 
+ 7
+ "20"
+ "157"
+ "Republic"
+ "06"
+ "County"
+ 
+ 8
+ "20"
+ "201"
+ "Washington"
+ "06"
+ "County"
+ 
+ 9
+ "20"
+ "137"
+ "Norton"
+ "06"
+ "County"
+ 
+ 10
+ "20"
+ "117"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 11
+ "20"
+ "131"
+ "Nemaha"
+ "06"
+ "County"
+ 
+ 12
+ "20"
+ "013"
+ "Brown"
+ "06"
+ "County"
+ 
+ 13
+ "20"
+ "043"
+ "Doniphan"
+ "06"
+ "County"
+ 
+ 14
+ "20"
+ "029"
+ "Cloud"
+ "06"
+ "County"
+ 
+ 15
+ "20"
+ "085"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 16
+ "20"
+ "005"
+ "Atchison"
+ "06"
+ "County"
+ 
+ 17
+ "20"
+ "181"
+ "Sherman"
+ "06"
+ "County"
+ 
+ 18
+ "20"
+ "193"
+ "Thomas"
+ "06"
+ "County"
+ 
+ 19
+ "20"
+ "179"
+ "Sheridan"
+ "06"
+ "County"
+ 
+ 20
+ "20"
+ "163"
+ "Rooks"
+ "06"
+ "County"
+ 
+ 21
+ "20"
+ "141"
+ "Osborne"
+ "06"
+ "County"
+ 
+ 22
+ "20"
+ "123"
+ "Mitchell"
+ "06"
+ "County"
+ 
+ 23
+ "20"
+ "065"
+ "Graham"
+ "06"
+ "County"
+ 
+ 24
+ "20"
+ "027"
+ "Clay"
+ "06"
+ "County"
+ 
+ 25
+ "20"
+ "161"
+ "Riley"
+ "06"
+ "County"
+ 
+ 26
+ "20"
+ "149"
+ "Pottawatomie"
+ "06"
+ "County"
+ 
+ 27
+ "20"
+ "087"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 28
+ "20"
+ "103"
+ "Leavenworth"
+ "06"
+ "County"
+ 
+ 29
+ "20"
+ "143"
+ "Ottawa"
+ "06"
+ "County"
+ 
+ 30
+ "20"
+ "061"
+ "Geary"
+ "06"
+ "County"
+ 
+ 31
+ "20"
+ "105"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 32
+ "20"
+ "177"
+ "Shawnee"
+ "06"
+ "County"
+ 
+ 33
+ "20"
+ "197"
+ "Wabaunsee"
+ "06"
+ "County"
+ 
+ 34
+ "20"
+ "209"
+ "Wyandotte"
+ "06"
+ "County"
+ 
+ 35
+ "20"
+ "109"
+ "Logan"
+ "06"
+ "County"
+ 
+ 36
+ "20"
+ "199"
+ "Wallace"
+ "06"
+ "County"
+ 
+ 37
+ "20"
+ "167"
+ "Russell"
+ "06"
+ "County"
+ 
+ 38
+ "20"
+ "041"
+ "Dickinson"
+ "06"
+ "County"
+ 
+ 39
+ "20"
+ "051"
+ "Ellis"
+ "06"
+ "County"
+ 
+ 40
+ "20"
+ "063"
+ "Gove"
+ "06"
+ "County"
+ 
+ 41
+ "20"
+ "195"
+ "Trego"
+ "06"
+ "County"
+ 
+ 42
+ "20"
+ "045"
+ "Douglas"
+ "06"
+ "County"
+ 
+ 43
+ "20"
+ "091"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 44
+ "20"
+ "169"
+ "Saline"
+ "06"
+ "County"
+ 
+ 45
+ "20"
+ "053"
+ "Ellsworth"
+ "06"
+ "County"
+ 
+ 46
+ "20"
+ "127"
+ "Morris"
+ "06"
+ "County"
+ 
+ 47
+ "20"
+ "139"
+ "Osage"
+ "06"
+ "County"
+ 
+ 48
+ "20"
+ "111"
+ "Lyon"
+ "06"
+ "County"
+ 
+ 49
+ "20"
+ "059"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 50
+ "20"
+ "121"
+ "Miami"
+ "06"
+ "County"
+ 
+ 51
+ "20"
+ "203"
+ "Wichita"
+ "06"
+ "County"
+ 
+ 52
+ "20"
+ "171"
+ "Scott"
+ "06"
+ "County"
+ 
+ 53
+ "20"
+ "101"
+ "Lane"
+ "06"
+ "County"
+ 
+ 54
+ "20"
+ "071"
+ "Greeley"
+ "06"
+ "County"
+ 
+ 55
+ "20"
+ "135"
+ "Ness"
+ "06"
+ "County"
+ 
+ 56
+ "20"
+ "165"
+ "Rush"
+ "06"
+ "County"
+ 
+ 57
+ "20"
+ "009"
+ "Barton"
+ "06"
+ "County"
+ 
+ 58
+ "20"
+ "113"
+ "McPherson"
+ "06"
+ "County"
+ 
+ 59
+ "20"
+ "115"
+ "Marion"
+ "06"
+ "County"
+ 
+ 60
+ "20"
+ "159"
+ "Rice"
+ "06"
+ "County"
+ 
+ 61
+ "20"
+ "017"
+ "Chase"
+ "06"
+ "County"
+ 
+ 62
+ "20"
+ "031"
+ "Coffey"
+ "06"
+ "County"
+ 
+ 63
+ "20"
+ "003"
+ "Anderson"
+ "06"
+ "County"
+ 
+ 64
+ "20"
+ "107"
+ "Linn"
+ "06"
+ "County"
+ 
+ 65
+ "20"
+ "145"
+ "Pawnee"
+ "06"
+ "County"
+ 
+ 66
+ "20"
+ "055"
+ "Finney"
+ "06"
+ "County"
+ 
+ 67
+ "20"
+ "093"
+ "Kearny"
+ "06"
+ "County"
+ 
+ 68
+ "20"
+ "075"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 69
+ "20"
+ "083"
+ "Hodgeman"
+ "06"
+ "County"
+ 
+ 70
+ "20"
+ "185"
+ "Stafford"
+ "06"
+ "County"
+ 
+ 71
+ "20"
+ "079"
+ "Harvey"
+ "06"
+ "County"
+ 
+ 72
+ "20"
+ "155"
+ "Reno"
+ "06"
+ "County"
+ 
+ 73
+ "20"
+ "073"
+ "Greenwood"
+ "06"
+ "County"
+ 
+ 74
+ "20"
+ "047"
+ "Edwards"
+ "06"
+ "County"
+ 
+ 75
+ "20"
+ "015"
+ "Butler"
+ "06"
+ "County"
+ 
+ 76
+ "20"
+ "207"
+ "Woodson"
+ "06"
+ "County"
+ 
+ 77
+ "20"
+ "001"
+ "Allen"
+ "06"
+ "County"
+ 
+ 78
+ "20"
+ "011"
+ "Bourbon"
+ "06"
+ "County"
+ 
+ 79
+ "20"
+ "069"
+ "Gray"
+ "06"
+ "County"
+ 
+ 80
+ "20"
+ "057"
+ "Ford"
+ "06"
+ "County"
+ 
+ 81
+ "20"
+ "173"
+ "Sedgwick"
+ "06"
+ "County"
+ 
+ 82
+ "20"
+ "151"
+ "Pratt"
+ "06"
+ "County"
+ 
+ 83
+ "20"
+ "187"
+ "Stanton"
+ "06"
+ "County"
+ 
+ 84
+ "20"
+ "081"
+ "Haskell"
+ "06"
+ "County"
+ 
+ 85
+ "20"
+ "067"
+ "Grant"
+ "06"
+ "County"
+ 
+ 86
+ "20"
+ "097"
+ "Kiowa"
+ "06"
+ "County"
+ 
+ 87
+ "20"
+ "205"
+ "Wilson"
+ "06"
+ "County"
+ 
+ 88
+ "20"
+ "133"
+ "Neosho"
+ "06"
+ "County"
+ 
+ 89
+ "20"
+ "095"
+ "Kingman"
+ "06"
+ "County"
+ 
+ 90
+ "20"
+ "037"
+ "Crawford"
+ "06"
+ "County"
+ 
+ 91
+ "20"
+ "049"
+ "Elk"
+ "06"
+ "County"
+ 
+ 92
+ "20"
+ "191"
+ "Sumner"
+ "06"
+ "County"
+ 
+ 93
+ "20"
+ "035"
+ "Cowley"
+ "06"
+ "County"
+ 
+ 94
+ "20"
+ "119"
+ "Meade"
+ "06"
+ "County"
+ 
+ 95
+ "20"
+ "025"
+ "Clark"
+ "06"
+ "County"
+ 
+ 96
+ "20"
+ "007"
+ "Barber"
+ "06"
+ "County"
+ 
+ 97
+ "20"
+ "129"
+ "Morton"
+ "06"
+ "County"
+ 
+ 98
+ "20"
+ "189"
+ "Stevens"
+ "06"
+ "County"
+ 
+ 99
+ "20"
+ "175"
+ "Seward"
+ "06"
+ "County"
+ 
+ 100
+ "20"
+ "125"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 101
+ "20"
+ "077"
+ "Harper"
+ "06"
+ "County"
+ 
+ 102
+ "20"
+ "099"
+ "Labette"
+ "06"
+ "County"
+ 
+ 103
+ "20"
+ "033"
+ "Comanche"
+ "06"
+ "County"
+ 
+ 104
+ "20"
+ "021"
+ "Cherokee"
+ "06"
+ "County"
+ 
+ 105
+ "20"
+ "019"
+ "Chautauqua"
+ "06"
+ "County"
+ 

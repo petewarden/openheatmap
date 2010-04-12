@@ -1,0 +1,854 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "21"
+ "015"
+ "Boone"
+ "06"
+ "County"
+ 
+ 2
+ "21"
+ "037"
+ "Campbell"
+ "06"
+ "County"
+ 
+ 3
+ "21"
+ "117"
+ "Kenton"
+ "06"
+ "County"
+ 
+ 4
+ "21"
+ "191"
+ "Pendleton"
+ "06"
+ "County"
+ 
+ 5
+ "21"
+ "077"
+ "Gallatin"
+ "06"
+ "County"
+ 
+ 6
+ "21"
+ "023"
+ "Bracken"
+ "06"
+ "County"
+ 
+ 7
+ "21"
+ "081"
+ "Grant"
+ "06"
+ "County"
+ 
+ 8
+ "21"
+ "161"
+ "Mason"
+ "06"
+ "County"
+ 
+ 9
+ "21"
+ "041"
+ "Carroll"
+ "06"
+ "County"
+ 
+ 10
+ "21"
+ "089"
+ "Greenup"
+ "06"
+ "County"
+ 
+ 11
+ "21"
+ "223"
+ "Trimble"
+ "06"
+ "County"
+ 
+ 12
+ "21"
+ "135"
+ "Lewis"
+ "06"
+ "County"
+ 
+ 13
+ "21"
+ "187"
+ "Owen"
+ "06"
+ "County"
+ 
+ 14
+ "21"
+ "201"
+ "Robertson"
+ "06"
+ "County"
+ 
+ 15
+ "21"
+ "103"
+ "Henry"
+ "06"
+ "County"
+ 
+ 16
+ "21"
+ "097"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 17
+ "21"
+ "069"
+ "Fleming"
+ "06"
+ "County"
+ 
+ 18
+ "21"
+ "185"
+ "Oldham"
+ "06"
+ "County"
+ 
+ 19
+ "21"
+ "019"
+ "Boyd"
+ "06"
+ "County"
+ 
+ 20
+ "21"
+ "043"
+ "Carter"
+ "06"
+ "County"
+ 
+ 21
+ "21"
+ "209"
+ "Scott"
+ "06"
+ "County"
+ 
+ 22
+ "21"
+ "181"
+ "Nicholas"
+ "06"
+ "County"
+ 
+ 23
+ "21"
+ "205"
+ "Rowan"
+ "06"
+ "County"
+ 
+ 24
+ "21"
+ "111"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 25
+ "21"
+ "073"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 26
+ "21"
+ "017"
+ "Bourbon"
+ "06"
+ "County"
+ 
+ 27
+ "21"
+ "211"
+ "Shelby"
+ "06"
+ "County"
+ 
+ 28
+ "21"
+ "011"
+ "Bath"
+ "06"
+ "County"
+ 
+ 29
+ "21"
+ "127"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 30
+ "21"
+ "063"
+ "Elliott"
+ "06"
+ "County"
+ 
+ 31
+ "21"
+ "067"
+ "Fayette"
+ "06"
+ "County"
+ 
+ 32
+ "21"
+ "239"
+ "Woodford"
+ "06"
+ "County"
+ 
+ 33
+ "21"
+ "173"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 34
+ "21"
+ "163"
+ "Meade"
+ "06"
+ "County"
+ 
+ 35
+ "21"
+ "215"
+ "Spencer"
+ "06"
+ "County"
+ 
+ 36
+ "21"
+ "005"
+ "Anderson"
+ "06"
+ "County"
+ 
+ 37
+ "21"
+ "029"
+ "Bullitt"
+ "06"
+ "County"
+ 
+ 38
+ "21"
+ "175"
+ "Morgan"
+ "06"
+ "County"
+ 
+ 39
+ "21"
+ "049"
+ "Clark"
+ "06"
+ "County"
+ 
+ 40
+ "21"
+ "165"
+ "Menifee"
+ "06"
+ "County"
+ 
+ 41
+ "21"
+ "027"
+ "Breckinridge"
+ "06"
+ "County"
+ 
+ 42
+ "21"
+ "093"
+ "Hardin"
+ "06"
+ "County"
+ 
+ 43
+ "21"
+ "113"
+ "Jessamine"
+ "06"
+ "County"
+ 
+ 44
+ "21"
+ "115"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 45
+ "21"
+ "091"
+ "Hancock"
+ "06"
+ "County"
+ 
+ 46
+ "21"
+ "179"
+ "Nelson"
+ "06"
+ "County"
+ 
+ 47
+ "21"
+ "167"
+ "Mercer"
+ "06"
+ "County"
+ 
+ 48
+ "21"
+ "159"
+ "Martin"
+ "06"
+ "County"
+ 
+ 49
+ "21"
+ "101"
+ "Henderson"
+ "06"
+ "County"
+ 
+ 50
+ "21"
+ "197"
+ "Powell"
+ "06"
+ "County"
+ 
+ 51
+ "21"
+ "059"
+ "Daviess"
+ "06"
+ "County"
+ 
+ 52
+ "21"
+ "151"
+ "Madison"
+ "06"
+ "County"
+ 
+ 53
+ "21"
+ "229"
+ "Washington"
+ "06"
+ "County"
+ 
+ 54
+ "21"
+ "225"
+ "Union"
+ "06"
+ "County"
+ 
+ 55
+ "21"
+ "153"
+ "Magoffin"
+ "06"
+ "County"
+ 
+ 56
+ "21"
+ "237"
+ "Wolfe"
+ "06"
+ "County"
+ 
+ 57
+ "21"
+ "065"
+ "Estill"
+ "06"
+ "County"
+ 
+ 58
+ "21"
+ "079"
+ "Garrard"
+ "06"
+ "County"
+ 
+ 59
+ "21"
+ "071"
+ "Floyd"
+ "06"
+ "County"
+ 
+ 60
+ "21"
+ "195"
+ "Pike"
+ "06"
+ "County"
+ 
+ 61
+ "21"
+ "183"
+ "Ohio"
+ "06"
+ "County"
+ 
+ 62
+ "21"
+ "123"
+ "Larue"
+ "06"
+ "County"
+ 
+ 63
+ "21"
+ "155"
+ "Marion"
+ "06"
+ "County"
+ 
+ 64
+ "21"
+ "129"
+ "Lee"
+ "06"
+ "County"
+ 
+ 65
+ "21"
+ "021"
+ "Boyle"
+ "06"
+ "County"
+ 
+ 66
+ "21"
+ "025"
+ "Breathitt"
+ "06"
+ "County"
+ 
+ 67
+ "21"
+ "149"
+ "McLean"
+ "06"
+ "County"
+ 
+ 68
+ "21"
+ "233"
+ "Webster"
+ "06"
+ "County"
+ 
+ 69
+ "21"
+ "137"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 70
+ "21"
+ "085"
+ "Grayson"
+ "06"
+ "County"
+ 
+ 71
+ "21"
+ "109"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 72
+ "21"
+ "107"
+ "Hopkins"
+ "06"
+ "County"
+ 
+ 73
+ "21"
+ "045"
+ "Casey"
+ "06"
+ "County"
+ 
+ 74
+ "21"
+ "055"
+ "Crittenden"
+ "06"
+ "County"
+ 
+ 75
+ "21"
+ "189"
+ "Owsley"
+ "06"
+ "County"
+ 
+ 76
+ "21"
+ "203"
+ "Rockcastle"
+ "06"
+ "County"
+ 
+ 77
+ "21"
+ "119"
+ "Knott"
+ "06"
+ "County"
+ 
+ 78
+ "21"
+ "217"
+ "Taylor"
+ "06"
+ "County"
+ 
+ 79
+ "21"
+ "087"
+ "Green"
+ "06"
+ "County"
+ 
+ 80
+ "21"
+ "099"
+ "Hart"
+ "06"
+ "County"
+ 
+ 81
+ "21"
+ "193"
+ "Perry"
+ "06"
+ "County"
+ 
+ 82
+ "21"
+ "139"
+ "Livingston"
+ "06"
+ "County"
+ 
+ 83
+ "21"
+ "177"
+ "Muhlenberg"
+ "06"
+ "County"
+ 
+ 84
+ "21"
+ "031"
+ "Butler"
+ "06"
+ "County"
+ 
+ 85
+ "21"
+ "033"
+ "Caldwell"
+ "06"
+ "County"
+ 
+ 86
+ "21"
+ "051"
+ "Clay"
+ "06"
+ "County"
+ 
+ 87
+ "21"
+ "199"
+ "Pulaski"
+ "06"
+ "County"
+ 
+ 88
+ "21"
+ "061"
+ "Edmonson"
+ "06"
+ "County"
+ 
+ 89
+ "21"
+ "125"
+ "Laurel"
+ "06"
+ "County"
+ 
+ 90
+ "21"
+ "131"
+ "Leslie"
+ "06"
+ "County"
+ 
+ 91
+ "21"
+ "001"
+ "Adair"
+ "06"
+ "County"
+ 
+ 92
+ "21"
+ "133"
+ "Letcher"
+ "06"
+ "County"
+ 
+ 93
+ "21"
+ "007"
+ "Ballard"
+ "06"
+ "County"
+ 
+ 94
+ "21"
+ "145"
+ "McCracken"
+ "06"
+ "County"
+ 
+ 95
+ "21"
+ "227"
+ "Warren"
+ "06"
+ "County"
+ 
+ 96
+ "21"
+ "207"
+ "Russell"
+ "06"
+ "County"
+ 
+ 97
+ "21"
+ "169"
+ "Metcalfe"
+ "06"
+ "County"
+ 
+ 98
+ "21"
+ "143"
+ "Lyon"
+ "06"
+ "County"
+ 
+ 99
+ "21"
+ "009"
+ "Barren"
+ "06"
+ "County"
+ 
+ 100
+ "21"
+ "047"
+ "Christian"
+ "06"
+ "County"
+ 
+ 101
+ "21"
+ "219"
+ "Todd"
+ "06"
+ "County"
+ 
+ 102
+ "21"
+ "141"
+ "Logan"
+ "06"
+ "County"
+ 
+ 103
+ "21"
+ "157"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 104
+ "21"
+ "121"
+ "Knox"
+ "06"
+ "County"
+ 
+ 105
+ "21"
+ "095"
+ "Harlan"
+ "06"
+ "County"
+ 
+ 106
+ "21"
+ "221"
+ "Trigg"
+ "06"
+ "County"
+ 
+ 107
+ "21"
+ "231"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 108
+ "21"
+ "235"
+ "Whitley"
+ "06"
+ "County"
+ 
+ 109
+ "21"
+ "147"
+ "McCreary"
+ "06"
+ "County"
+ 
+ 110
+ "21"
+ "013"
+ "Bell"
+ "06"
+ "County"
+ 
+ 111
+ "21"
+ "039"
+ "Carlisle"
+ "06"
+ "County"
+ 
+ 112
+ "21"
+ "083"
+ "Graves"
+ "06"
+ "County"
+ 
+ 113
+ "21"
+ "057"
+ "Cumberland"
+ "06"
+ "County"
+ 
+ 114
+ "21"
+ "003"
+ "Allen"
+ "06"
+ "County"
+ 
+ 115
+ "21"
+ "053"
+ "Clinton"
+ "06"
+ "County"
+ 
+ 116
+ "21"
+ "213"
+ "Simpson"
+ "06"
+ "County"
+ 
+ 117
+ "21"
+ "171"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 118
+ "21"
+ "105"
+ "Hickman"
+ "06"
+ "County"
+ 
+ 119
+ "21"
+ "035"
+ "Calloway"
+ "06"
+ "County"
+ 
+ 120
+ "21"
+ "075"
+ "Fulton"
+ "06"
+ "County"
+ 
+ 121
+ "21"
+ "075"
+ "Fulton"
+ "06"
+ "County"
+ 

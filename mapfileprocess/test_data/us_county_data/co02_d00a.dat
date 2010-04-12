@@ -1,0 +1,798 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "02"
+ "185"
+ "North Slope"
+ "04"
+ "Borough"
+ 
+ 2
+ "02"
+ "290"
+ "Yukon-Koyukuk"
+ "05"
+ "Census Area"
+ 
+ 3
+ "02"
+ "188"
+ "Northwest Arctic"
+ "04"
+ "Borough"
+ 
+ 4
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 5
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 6
+ "02"
+ "240"
+ "Southeast Fairbanks"
+ "05"
+ "Census Area"
+ 
+ 7
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 8
+ "02"
+ "090"
+ "Fairbanks North Star"
+ "04"
+ "Borough"
+ 
+ 9
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 10
+ "02"
+ "068"
+ "Denali"
+ "04"
+ "Borough"
+ 
+ 11
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 12
+ "02"
+ "180"
+ "Nome"
+ "05"
+ "Census Area"
+ 
+ 13
+ "02"
+ "170"
+ "Matanuska-Susitna"
+ "04"
+ "Borough"
+ 
+ 14
+ "02"
+ "270"
+ "Wade Hampton"
+ "05"
+ "Census Area"
+ 
+ 15
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 16
+ "02"
+ "050"
+ "Bethel"
+ "05"
+ "Census Area"
+ 
+ 17
+ "02"
+ "020"
+ "Anchorage"
+ "12"
+ "Municipality"
+ 
+ 18
+ "02"
+ "122"
+ "Kenai Peninsula"
+ "04"
+ "Borough"
+ 
+ 19
+ "02"
+ "122"
+ "Kenai Peninsula"
+ "04"
+ "Borough"
+ 
+ 20
+ "02"
+ "070"
+ "Dillingham"
+ "05"
+ "Census Area"
+ 
+ 21
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 22
+ "02"
+ "164"
+ "Lake and Peninsula"
+ "04"
+ "Borough"
+ 
+ 23
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 24
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 25
+ "02"
+ "050"
+ "Bethel"
+ "05"
+ "Census Area"
+ 
+ 26
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 27
+ "02"
+ "282"
+ "Yakutat"
+ "03"
+ "City and Borough"
+ 
+ 28
+ "02"
+ "050"
+ "Bethel"
+ "05"
+ "Census Area"
+ 
+ 29
+ "02"
+ "261"
+ "Valdez-Cordova"
+ "05"
+ "Census Area"
+ 
+ 30
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 31
+ "02"
+ "100"
+ "Haines"
+ "04"
+ "Borough"
+ 
+ 32
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 33
+ "02"
+ "110"
+ "Juneau"
+ "03"
+ "City and Borough"
+ 
+ 34
+ "02"
+ "060"
+ "Bristol Bay"
+ "04"
+ "Borough"
+ 
+ 35
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 36
+ "02"
+ "070"
+ "Dillingham"
+ "05"
+ "Census Area"
+ 
+ 37
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 38
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 39
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 40
+ "02"
+ "110"
+ "Juneau"
+ "03"
+ "City and Borough"
+ 
+ 41
+ "02"
+ "232"
+ "Skagway-Hoonah-Angoon"
+ "05"
+ "Census Area"
+ 
+ 42
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 43
+ "02"
+ "220"
+ "Sitka"
+ "03"
+ "City and Borough"
+ 
+ 44
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 45
+ "02"
+ "220"
+ "Sitka"
+ "03"
+ "City and Borough"
+ 
+ 46
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 47
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 48
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 49
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 50
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 51
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 52
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 53
+ "02"
+ "164"
+ "Lake and Peninsula"
+ "04"
+ "Borough"
+ 
+ 54
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 55
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 56
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 57
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 58
+ "02"
+ "130"
+ "Ketchikan Gateway"
+ "04"
+ "Borough"
+ 
+ 59
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 60
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 61
+ "02"
+ "280"
+ "Wrangell-Petersburg"
+ "05"
+ "Census Area"
+ 
+ 62
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 63
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 64
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 65
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 66
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 67
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 68
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 69
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 70
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 71
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 72
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 73
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 74
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 75
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 76
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 77
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 78
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 79
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 80
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 81
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 82
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 83
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 84
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 85
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 86
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 87
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 88
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 89
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 90
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 91
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 92
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 93
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 94
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 95
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 96
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 97
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 98
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 99
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 100
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 101
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 102
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 103
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 104
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 105
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 106
+ "02"
+ "016"
+ "Aleutians West"
+ "05"
+ "Census Area"
+ 
+ 107
+ "02"
+ "220"
+ "Sitka"
+ "03"
+ "City and Borough"
+ 
+ 108
+ "02"
+ "150"
+ "Kodiak Island"
+ "04"
+ "Borough"
+ 
+ 109
+ "02"
+ "130"
+ "Ketchikan Gateway"
+ "04"
+ "Borough"
+ 
+ 110
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 111
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 
+ 112
+ "02"
+ "201"
+ "Prince of Wales-Outer Ketchikan"
+ "05"
+ "Census Area"
+ 
+ 113
+ "02"
+ "013"
+ "Aleutians East"
+ "04"
+ "Borough"
+ 

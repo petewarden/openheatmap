@@ -1,0 +1,3325 @@
+                 COUNTY NAMES AND CODES
+
+This file lists all counties and equivalent areas in the United States
+defined as of January 1, 1990, alphabetically by State with related codes.
+There are four codes shown:  the first code is the FIPS MSA/CMSA/NECMA code,
+the second code is the FIPS PMSA code, the third code is a combination of 
+the FIPS State and county codes, and the fourth code is the geographic 
+summary level (0 = United States total; 1 = state total; 2 = county in CMSA/
+PMSA; 3 = county in MSA; 4 = county in NECMA; 5 = county not in any metro
+area).  (MSA = metropolitan statistical area; CMSA = consolidated MSA; 
+NECMA = New England county MA; PMSA = primary MSA)
+
+                02000    1    ALASKA
+
+                02013    5    Aleutians East, AK
+                02016    5    Aleutians West, AK
+0380            02020    3    Anchorage, AK
+                02050    5    Bethel, AK
+                02060    5    Bristol Bay, AK
+                02068    5    Denali, AK
+                02070    5    Dillingham, AK
+                02090    5    Fairbanks North Star, AK
+                02100    5    Haines, AK
+                02110    5    Juneau, AK
+                02122    5    Kenai Peninsula, AK
+
+                02130    5    Ketchikan Gateway, AK
+                02150    5    Kodiak Island, AK
+                02164    5    Lake and Peninsula, AK
+                02170    5    Matanuska-Susitna, AK
+                02180    5    Nome, AK
+                02185    5    North Slope, AK
+                02188    5    Northwest Arctic, AK
+                02201    5    Prince of Wales-Outer Ketchikan, AK
+                02220    5    Sitka, AK
+                02232    5    Skagway-Hoonah-Angoon, AK
+
+                02240    5    Southeast Fairbanks, AK
+                02261    5    Valdez-Cordova, AK
+                02270    5    Wade Hampton, AK
+                02280    5    Wrangell-Petersburg, AK
+                02282    5    Yakutat, AK
+                02290    5    Yukon-Koyukuk, AK
+
+                01000    1    ALABAMA
+
+5240            01001    3    Autauga, AL
+5160            01003    3    Baldwin, AL
+                01005    5    Barbour, AL
+                01007    5    Bibb, AL
+1000            01009    3    Blount, AL
+                01011    5    Bullock, AL
+                01013    5    Butler, AL
+0450            01015    3    Calhoun, AL
+                01017    5    Chambers, AL
+                01019    5    Cherokee, AL
+                01021    5    Chilton, AL
+                01023    5    Choctaw, AL
+                01025    5    Clarke, AL
+                01027    5    Clay, AL
+                01029    5    Cleburne, AL
+                01031    5    Coffee, AL
+2650            01033    3    Colbert, AL
+                01035    5    Conecuh, AL
+                01037    5    Coosa, AL
+                01039    5    Covington, AL
+                01041    5    Crenshaw, AL
+                01043    5    Cullman, AL
+2180            01045    3    Dale, AL
+                01047    5    Dallas, AL
+                01049    5    De Kalb, AL
+5240            01051    3    Elmore, AL
+                01053    5    Escambia, AL
+2880            01055    3    Etowah, AL
+                01057    5    Fayette, AL
+                01059    5    Franklin, AL
+                01061    5    Geneva, AL
+                01063    5    Greene, AL
+                01065    5    Hale, AL
+                01067    5    Henry, AL
+2180            01069    3    Houston, AL
+                01071    5    Jackson, AL
+1000            01073    3    Jefferson, AL
+                01075    5    Lamar, AL
+2650            01077    3    Lauderdale, AL
+2030            01079    3    Lawrence, AL
+                01081    5    Lee, AL
+3440            01083    3    Limestone, AL
+                01085    5    Lowndes, AL
+                01087    5    Macon, AL
+3440            01089    3    Madison, AL
+                01091    5    Marengo, AL
+                01093    5    Marion, AL
+                01095    5    Marshall, AL
+5160            01097    3    Mobile, AL
+                01099    5    Monroe, AL
+5240            01101    3    Montgomery, AL
+2030            01103    3    Morgan, AL
+                01105    5    Perry, AL
+                01107    5    Pickens, AL
+                01109    5    Pike, AL
+                01111    5    Randolph, AL
+1800            01113    3    Russell, AL
+1000            01115    3    St. Clair, AL
+1000            01117    3    Shelby, AL
+                01119    5    Sumter, AL
+                01121    5    Talladega, AL
+                01123    5    Tallapoosa, AL
+8600            01125    3    Tuscaloosa, AL
+                01127    5    Walker, AL
+                01129    5    Washington, AL
+                01131    5    Wilcox, AL
+                01133    5    Winston, AL
+
+				04000    1    ARIZONA
+ 
+                04001    5    Apache, AZ
+                04003    5    Cochise, AZ
+                04005    5    Coconino, AZ
+                04007    5    Gila, AZ
+                04009    5    Graham, AZ
+                04011    5    Greenlee, AZ
+                04012    5    La Paz, AZ
+6200            04013    3    Maricopa, AZ
+4120            04015    3    Mohave, AZ
+                04017    5    Navajo, AZ
+8520            04019    3    Pima, AZ
+6200            04021    3    Pinal, AZ
+                04023    5    Santa Cruz, AZ
+                04025    5    Yavapai, AZ
+9360            04027    3    Yuma, AZ
+
+                05000    1    ARKANSAS
+
+                05001    5    Arkansas, AR
+                05003    5    Ashley, AR
+                05005    5    Baxter, AR
+2580            05007    3    Benton, AR
+                05009    5    Boone, AR
+                05011    5    Bradley, AR
+                05013    5    Calhoun, AR
+                05015    5    Carroll, AR
+                05017    5    Chicot, AR
+                05019    5    Clark, AR
+                05021    5    Clay, AR
+                05023    5    Cleburne, AR
+                05025    5    Cleveland, AR
+                05027    5    Columbia, AR
+                05029    5    Conway, AR
+                05031    5    Craighead, AR
+2720            05033    3    Crawford, AR
+4920            05035    3    Crittenden, AR
+                05037    5    Cross, AR
+                05039    5    Dallas, AR
+                05041    5    Desha, AR
+                05043    5    Drew, AR
+4400            05045    3    Faulkner, AR
+                05047    5    Franklin, AR
+                05049    5    Fulton, AR
+                05051    5    Garland, AR
+                05053    5    Grant, AR
+                05055    5    Greene, AR
+                05057    5    Hempstead, AR
+                05059    5    Hot Spring, AR
+                05061    5    Howard, AR
+                05063    5    Independence, AR
+                05065    5    Izard, AR
+                05067    5    Jackson, AR
+6240            05069    3    Jefferson, AR
+                05071    5    Johnson, AR
+                05073    5    Lafayette, AR
+                05075    5    Lawrence, AR
+                05077    5    Lee, AR
+                05079    5    Lincoln, AR
+                05081    5    Little River, AR
+                05083    5    Logan, AR
+4400            05085    3    Lonoke, AR
+                05087    5    Madison, AR
+                05089    5    Marion, AR
+8360            05091    3    Miller, AR
+                05093    5    Mississippi, AR
+                05095    5    Monroe, AR
+                05097    5    Montgomery, AR
+                05099    5    Nevada, AR
+                05101    5    Newton, AR
+                05103    5    Ouachita, AR
+                05105    5    Perry, AR
+                05107    5    Phillips, AR
+                05109    5    Pike, AR
+                05111    5    Poinsett, AR
+                05113    5    Polk, AR
+                05115    5    Pope, AR
+                05117    5    Prairie, AR
+4400            05119    3    Pulaski, AR
+                05121    5    Randolph, AR
+                05123    5    St. Francis, AR
+4400            05125    3    Saline, AR
+                05127    5    Scott, AR
+                05129    5    Searcy, AR
+2720            05131    3    Sebastian, AR
+                05133    5    Sevier, AR
+                05135    5    Sharp, AR
+                05137    5    Stone, AR
+                05139    5    Union, AR
+                05141    5    Van Buren, AR
+2580            05143    3    Washington, AR
+                05145    5    White, AR
+                05147    5    Woodruff, AR
+                05149    5    Yell, AR
+
+                06000    1    CALIFORNIA
+
+7362    5775    06001    2    Alameda, CA
+                06003    5    Alpine, CA
+                06005    5    Amador, CA
+1620            06007    3    Butte, CA
+                06009    5    Calaveras, CA
+                06011    5    Colusa, CA
+7362    5775    06013    2    Contra Costa, CA
+                06015    5    Del Norte, CA
+6922    6920    06017    2    El Dorado, CA
+2840            06019    3    Fresno, CA
+                06021    5    Glenn, CA
+                06023    5    Humboldt, CA
+                06025    5    Imperial, CA
+                06027    5    Inyo, CA
+0680            06029    3    Kern, CA
+                06031    5    Kings, CA
+                06033    5    Lake, CA
+                06035    5    Lassen, CA
+4472    4480    06037    2    Los Angeles, CA
+2840            06039    3    Madera, CA
+7362    7360    06041    2    Marin, CA
+                06043    5    Mariposa, CA
+                06045    5    Mendocino, CA
+4940            06047    3    Merced, CA
+                06049    5    Modoc, CA
+                06051    5    Mono, CA
+7120            06053    3    Monterey, CA
+7362    8720    06055    2    Napa, CA
+                06057    5    Nevada, CA
+4472    5945    06059    2    Orange, CA
+6922    6920    06061    2    Placer, CA
+                06063    5    Plumas, CA
+4472    6780    06065    2    Riverside, CA
+6922    6920    06067    2    Sacramento, CA
+                06069    5    San Benito, CA
+4472    6780    06071    2    San Bernardino, CA
+7320            06073    3    San Diego, CA
+7362    7360    06075    2    San Francisco, CA
+8120            06077    3    San Joaquin, CA
+7460            06079    3    San Luis Obispo, CA
+7362    7360    06081    2    San Mateo, CA
+7480            06083    3    Santa Barbara, CA
+7362    7400    06085    2    Santa Clara, CA
+7362    7485    06087    2    Santa Cruz, CA
+6690            06089    3    Shasta, CA
+                06091    5    Sierra, CA
+                06093    5    Siskiyou, CA
+7362    8720    06095    2    Solano, CA
+7362    7500    06097    2    Sonoma, CA
+5170            06099    3    Stanislaus, CA
+9340            06101    3    Sutter, CA
+                06103    5    Tehama, CA
+                06105    5    Trinity, CA
+8780            06107    3    Tulare, CA
+                06109    5    Tuolumne, CA
+4472    8735    06111    2    Ventura, CA
+6922    9270    06113    2    Yolo, CA
+9340            06115    3    Yuba, CA
+
+                08000    1    COLORADO
+
+2082    2080    08001    2    Adams, CO
+                08003    5    Alamosa, CO
+2082    2080    08005    2    Arapahoe, CO
+                08007    5    Archuleta, CO
+                08009    5    Baca, CO
+                08011    5    Bent, CO
+2082    1125    08013    2    Boulder, CO
+                08015    5    Chaffee, CO
+                08017    5    Cheyenne, CO
+                08019    5    Clear Creek, CO
+                08021    5    Conejos, CO
+                08023    5    Costilla, CO
+                08025    5    Crowley, CO
+                08027    5    Custer, CO
+                08029    5    Delta, CO
+2082    2080    08031    2    Denver, CO
+                08033    5    Dolores, CO
+2082    2080    08035    2    Douglas, CO
+                08037    5    Eagle, CO
+                08039    5    Elbert, CO
+1720            08041    3    El Paso, CO
+                08043    5    Fremont, CO
+                08045    5    Garfield, CO
+                08047    5    Gilpin, CO
+                08049    5    Grand, CO
+                08051    5    Gunnison, CO
+                08053    5    Hinsdale, CO
+                08055    5    Huerfano, CO
+                08057    5    Jackson, CO
+2082    2080    08059    2    Jefferson, CO
+                08061    5    Kiowa, CO
+                08063    5    Kit Carson, CO
+                08065    5    Lake, CO
+                08067    5    La Plata, CO
+2670            08069    3    Larimer, CO
+                08071    5    Las Animas, CO
+                08073    5    Lincoln, CO
+                08075    5    Logan, CO
+                08077    5    Mesa, CO
+                08079    5    Mineral, CO
+                08081    5    Moffat, CO
+                08083    5    Montezuma, CO
+                08085    5    Montrose, CO
+                08087    5    Morgan, CO
+                08089    5    Otero, CO
+                08091    5    Ouray, CO
+                08093    5    Park, CO
+                08095    5    Phillips, CO
+                08097    5    Pitkin, CO
+                08099    5    Prowers, CO
+6560            08101    3    Pueblo, CO
+                08103    5    Rio Blanco, CO
+                08105    5    Rio Grande, CO
+                08107    5    Routt, CO
+                08109    5    Saguache, CO
+                08111    5    San Juan, CO
+                08113    5    San Miguel, CO
+                08115    5    Sedgwick, CO
+                08117    5    Summit, CO
+                08119    5    Teller, CO
+                08121    5    Washington, CO
+2082    3060    08123    2    Weld, CO
+                08125    5    Yuma, CO
+
+                09000    1    CONNECTICUT
+
+5483            09001    4    Fairfield, CT
+3283            09003    4    Hartford, CT
+                09005    5    Litchfield, CT
+3283            09007    4    Middlesex, CT
+5483            09009    4    New Haven, CT
+5523            09011    4    New London, CT
+3283            09013    4    Tolland, CT
+                09015    5    Windham, CT
+
+                11000    1    DISTRICT OF COLUMBIA
+
+8872    8840    11001    2    District of Columbia
+
+                10000    1    DELAWARE
+
+2190            10001    3    Kent, DE
+6162    9160    10003    2    New Castle, DE
+                10005    5    Sussex, DE
+
+                12000    1    FLORIDA
+
+2900            12001    3    Alachua, FL
+                12003    5    Baker, FL
+6015            12005    3    Bay, FL
+                12007    5    Bradford, FL
+4900            12009    3    Brevard, FL
+4992    2680    12011    2    Broward, FL
+                12013    5    Calhoun, FL
+6580            12015    3    Charlotte, FL
+                12017    5    Citrus, FL
+3600            12019    3    Clay, FL
+5345            12021    3    Collier, FL
+                12023    5    Columbia, FL
+4992    5000    12025    2    Dade, FL
+                12027    5    De Soto, FL
+                12029    5    Dixie, FL
+3600            12031    3    Duval, FL
+6080            12033    3    Escambia, FL
+2020            12035    3    Flagler, FL
+                12037    5    Franklin, FL
+8240            12039    3    Gadsden, FL
+                12041    5    Gilchrist, FL
+                12043    5    Glades, FL
+                12045    5    Gulf, FL
+                12047    5    Hamilton, FL
+                12049    5    Hardee, FL
+                12051    5    Hendry, FL
+8280            12053    3    Hernando, FL
+                12055    5    Highlands, FL
+8280            12057    3    Hillsborough, FL
+                12059    5    Holmes, FL
+                12061    5    Indian River, FL
+                12063    5    Jackson, FL
+                12065    5    Jefferson, FL
+                12067    5    Lafayette, FL
+5960            12069    3    Lake, FL
+2700            12071    3    Lee, FL
+8240            12073    3    Leon, FL
+                12075    5    Levy, FL
+                12077    5    Liberty, FL
+                12079    5    Madison, FL
+7510            12081    3    Manatee, FL
+5790            12083    3    Marion, FL
+2710            12085    3    Martin, FL
+                12087    5    Monroe, FL
+3600            12089    3    Nassau, FL
+2750            12091    3    Okaloosa, FL
+                12093    5    Okeechobee, FL
+5960            12095    3    Orange, FL
+5960            12097    3    Osceola, FL
+8960            12099    3    Palm Beach, FL
+8280            12101    3    Pasco, FL
+8280            12103    3    Pinellas, FL
+3980            12105    3    Polk, FL
+                12107    5    Putnam, FL
+3600            12109    3    St. Johns, FL
+2710            12111    3    St. Lucie, FL
+6080            12113    3    Santa Rosa, FL
+7510            12115    3    Sarasota, FL
+5960            12117    3    Seminole, FL
+                12119    5    Sumter, FL
+                12121    5    Suwannee, FL
+                12123    5    Taylor, FL
+                12125    5    Union, FL
+2020            12127    3    Volusia, FL
+                12129    5    Wakulla, FL
+                12131    5    Walton, FL
+                12133    5    Washington, FL
+
+                13000    1    GEORGIA
+
+                13001    5    Appling, GA
+                13003    5    Atkinson, GA
+                13005    5    Bacon, GA
+                13007    5    Baker, GA
+                13009    5    Baldwin, GA
+                13011    5    Banks, GA
+0520            13013    3    Barrow, GA
+0520            13015    3    Bartow, GA
+                13017    5    Ben Hill, GA
+                13019    5    Berrien, GA
+4680            13021    3    Bibb, GA
+                13023    5    Bleckley, GA
+                13025    5    Brantley, GA
+                13027    5    Brooks, GA
+7520            13029    3    Bryan, GA
+                13031    5    Bulloch, GA
+                13033    5    Burke, GA
+                13035    5    Butts, GA
+                13037    5    Calhoun, GA
+                13039    5    Camden, GA
+                13043    5    Candler, GA
+0520            13045    3    Carroll, GA
+1560            13047    3    Catoosa, GA
+                13049    5    Charlton, GA
+7520            13051    3    Chatham, GA
+1800            13053    3    Chattahoochee, GA
+                13055    5    Chattooga, GA
+0520            13057    3    Cherokee, GA
+0500            13059    3    Clarke, GA
+                13061    5    Clay, GA
+0520            13063    3    Clayton, GA
+                13065    5    Clinch, GA
+0520            13067    3    Cobb, GA
+                13069    5    Coffee, GA
+                13071    5    Colquitt, GA
+0600            13073    3    Columbia, GA
+                13075    5    Cook, GA
+0520            13077    3    Coweta, GA
+                13079    5    Crawford, GA
+                13081    5    Crisp, GA
+1560            13083    3    Dade, GA
+                13085    5    Dawson, GA
+                13087    5    Decatur, GA
+0520            13089    3    De Kalb, GA
+                13091    5    Dodge, GA
+                13093    5    Dooly, GA
+0120            13095    3    Dougherty, GA
+0520            13097    3    Douglas, GA
+                13099    5    Early, GA
+                13101    5    Echols, GA
+7520            13103    3    Effingham, GA
+                13105    5    Elbert, GA
+                13107    5    Emanuel, GA
+                13109    5    Evans, GA
+                13111    5    Fannin, GA
+0520            13113    3    Fayette, GA
+                13115    5    Floyd, GA
+0520            13117    3    Forsyth, GA
+                13119    5    Franklin, GA
+0520            13121    3    Fulton, GA
+                13123    5    Gilmer, GA
+                13125    5    Glascock, GA
+                13127    5    Glynn, GA
+                13129    5    Gordon, GA
+                13131    5    Grady, GA
+                13133    5    Greene, GA
+0520            13135    3    Gwinnett, GA
+                13137    5    Habersham, GA
+                13139    5    Hall, GA
+                13141    5    Hancock, GA
+                13143    5    Haralson, GA
+1800            13145    3    Harris, GA
+                13147    5    Hart, GA
+                13149    5    Heard, GA
+0520            13151    3    Henry, GA
+4680            13153    3    Houston, GA
+                13155    5    Irwin, GA
+                13157    5    Jackson, GA
+                13159    5    Jasper, GA
+                13161    5    Jeff Davis, GA
+                13163    5    Jefferson, GA
+                13165    5    Jenkins, GA
+                13167    5    Johnson, GA
+4680            13169    3    Jones, GA
+                13171    5    Lamar, GA
+                13173    5    Lanier, GA
+                13175    5    Laurens, GA
+0120            13177    3    Lee, GA
+                13179    5    Liberty, GA
+                13181    5    Lincoln, GA
+                13183    5    Long, GA
+                13185    5    Lowndes, GA
+                13187    5    Lumpkin, GA
+                13189    5    McDuffie, GA
+                13191    5    McIntosh, GA
+                13193    5    Macon, GA
+0500            13195    3    Madison, GA
+                13197    5    Marion, GA
+                13199    5    Meriwether, GA
+                13201    5    Miller, GA
+                13205    5    Mitchell, GA
+                13207    5    Monroe, GA
+                13209    5    Montgomery, GA
+                13211    5    Morgan, GA
+                13213    5    Murray, GA
+1800            13215    3    Muscogee, GA
+0520            13217    3    Newton, GA
+0500            13219    3    Oconee, GA
+                13221    5    Oglethorpe, GA
+0520            13223    3    Paulding, GA
+4680            13225    3    Peach, GA
+0520            13227    3    Pickens, GA
+                13229    5    Pierce, GA
+                13231    5    Pike, GA
+                13233    5    Polk, GA
+                13235    5    Pulaski, GA
+                13237    5    Putnam, GA
+                13239    5    Quitman, GA
+                13241    5    Rabun, GA
+                13243    5    Randolph, GA
+0600            13245    3    Richmond, GA
+0520            13247    3    Rockdale, GA
+                13249    5    Schley, GA
+                13251    5    Screven, GA
+                13253    5    Seminole, GA
+0520            13255    3    Spalding, GA
+                13257    5    Stephens, GA
+                13259    5    Stewart, GA
+                13261    5    Sumter, GA
+                13263    5    Talbot, GA
+                13265    5    Taliaferro, GA
+                13267    5    Tattnall, GA
+                13269    5    Taylor, GA
+                13271    5    Telfair, GA
+                13273    5    Terrell, GA
+                13275    5    Thomas, GA
+                13277    5    Tift, GA
+                13279    5    Toombs, GA
+                13281    5    Towns, GA
+                13283    5    Treutlen, GA
+                13285    5    Troup, GA
+                13287    5    Turner, GA
+4680            13289    3    Twiggs, GA
+                13291    5    Union, GA
+                13293    5    Upson, GA
+1560            13295    3    Walker, GA
+0520            13297    3    Walton, GA
+                13299    5    Ware, GA
+                13301    5    Warren, GA
+                13303    5    Washington, GA
+                13305    5    Wayne, GA
+                13307    5    Webster, GA
+                13309    5    Wheeler, GA
+                13311    5    White, GA
+                13313    5    Whitfield, GA
+                13315    5    Wilcox, GA
+                13317    5    Wilkes, GA
+                13319    5    Wilkinson, GA
+                13321    5    Worth, GA
+
+                15000    1    HAWAII
+
+                15001    5    Hawaii, HI
+3320            15003    3    Honolulu, HI
+                15005    5    Kalawao, HI
+                15007    5    Kauai, HI
+                15009    5    Maui, HI
+
+                19000    1    IOWA
+
+                19001    5    Adair, IA
+                19003    5    Adams, IA
+                19005    5    Allamakee, IA
+                19007    5    Appanoose, IA
+                19009    5    Audubon, IA
+                19011    5    Benton, IA
+8920            19013    3    Black Hawk, IA
+                19015    5    Boone, IA
+                19017    5    Bremer, IA
+                19019    5    Buchanan, IA
+                19021    5    Buena Vista, IA
+                19023    5    Butler, IA
+                19025    5    Calhoun, IA
+                19027    5    Carroll, IA
+                19029    5    Cass, IA
+                19031    5    Cedar, IA
+                19033    5    Cerro Gordo, IA
+                19035    5    Cherokee, IA
+                19037    5    Chickasaw, IA
+                19039    5    Clarke, IA
+                19041    5    Clay, IA
+                19043    5    Clayton, IA
+                19045    5    Clinton, IA
+                19047    5    Crawford, IA
+2120            19049    3    Dallas, IA
+                19051    5    Davis, IA
+                19053    5    Decatur, IA
+                19055    5    Delaware, IA
+                19057    5    Des Moines, IA
+                19059    5    Dickinson, IA
+2200            19061    3    Dubuque, IA
+                19063    5    Emmet, IA
+                19065    5    Fayette, IA
+                19067    5    Floyd, IA
+                19069    5    Franklin, IA
+                19071    5    Fremont, IA
+                19073    5    Greene, IA
+                19075    5    Grundy, IA
+                19077    5    Guthrie, IA
+                19079    5    Hamilton, IA
+                19081    5    Hancock, IA
+                19083    5    Hardin, IA
+                19085    5    Harrison, IA
+                19087    5    Henry, IA
+                19089    5    Howard, IA
+                19091    5    Humboldt, IA
+                19093    5    Ida, IA
+                19095    5    Iowa, IA
+                19097    5    Jackson, IA
+                19099    5    Jasper, IA
+                19101    5    Jefferson, IA
+3500            19103    3    Johnson, IA
+                19105    5    Jones, IA
+                19107    5    Keokuk, IA
+                19109    5    Kossuth, IA
+                19111    5    Lee, IA
+1360            19113    3    Linn, IA
+                19115    5    Louisa, IA
+                19117    5    Lucas, IA
+                19119    5    Lyon, IA
+                19121    5    Madison, IA
+                19123    5    Mahaska, IA
+                19125    5    Marion, IA
+                19127    5    Marshall, IA
+                19129    5    Mills, IA
+                19131    5    Mitchell, IA
+                19133    5    Monona, IA
+                19135    5    Monroe, IA
+                19137    5    Montgomery, IA
+                19139    5    Muscatine, IA
+                19141    5    O'Brien, IA
+                19143    5    Osceola, IA
+                19145    5    Page, IA
+                19147    5    Palo Alto, IA
+                19149    5    Plymouth, IA
+                19151    5    Pocahontas, IA
+2120            19153    3    Polk, IA
+5920            19155    3    Pottawattamie, IA
+                19157    5    Poweshiek, IA
+                19159    5    Ringgold, IA
+                19161    5    Sac, IA
+1960            19163    3    Scott, IA
+                19165    5    Shelby, IA
+                19167    5    Sioux, IA
+                19169    5    Story, IA
+                19171    5    Tama, IA
+                19173    5    Taylor, IA
+                19175    5    Union, IA
+                19177    5    Van Buren, IA
+                19179    5    Wapello, IA
+2120            19181    3    Warren, IA
+                19183    5    Washington, IA
+                19185    5    Wayne, IA
+                19187    5    Webster, IA
+                19189    5    Winnebago, IA
+                19191    5    Winneshiek, IA
+7720            19193    3    Woodbury, IA
+                19195    5    Worth, IA
+                19197    5    Wright, IA
+
+                16000    1    IDAHO
+
+1080            16001    3    Ada, ID
+                16003    5    Adams, ID
+                16005    5    Bannock, ID
+                16007    5    Bear Lake, ID
+                16009    5    Benewah, ID
+                16011    5    Bingham, ID
+                16013    5    Blaine, ID
+                16015    5    Boise, ID
+                16017    5    Bonner, ID
+                16019    5    Bonneville, ID
+                16021    5    Boundary, ID
+                16023    5    Butte, ID
+                16025    5    Camas, ID
+1080            16027    3    Canyon, ID
+                16029    5    Caribou, ID
+                16031    5    Cassia, ID
+                16033    5    Clark, ID
+                16035    5    Clearwater, ID
+                16037    5    Custer, ID
+                16039    5    Elmore, ID
+                16041    5    Franklin, ID
+                16043    5    Fremont, ID
+                16045    5    Gem, ID
+                16047    5    Gooding, ID
+                16049    5    Idaho, ID
+                16051    5    Jefferson, ID
+                16053    5    Jerome, ID
+                16055    5    Kootenai, ID
+                16057    5    Latah, ID
+                16059    5    Lemhi, ID
+                16061    5    Lewis, ID
+                16063    5    Lincoln, ID
+                16065    5    Madison, ID
+                16067    5    Minidoka, ID
+                16069    5    Nez Perce, ID
+                16071    5    Oneida, ID
+                16073    5    Owyhee, ID
+                16075    5    Payette, ID
+                16077    5    Power, ID
+                16079    5    Shoshone, ID
+                16081    5    Teton, ID
+                16083    5    Twin Falls, ID
+                16085    5    Valley, ID
+                16087    5    Washington, ID
+
+                17000    1    ILLINOIS
+
+                17001    5    Adams, IL
+                17003    5    Alexander, IL
+                17005    5    Bond, IL
+6880            17007    3    Boone, IL
+                17009    5    Brown, IL
+                17011    5    Bureau, IL
+                17013    5    Calhoun, IL
+                17015    5    Carroll, IL
+                17017    5    Cass, IL
+1400            17019    3    Champaign, IL
+                17021    5    Christian, IL
+                17023    5    Clark, IL
+                17025    5    Clay, IL
+7040            17027    3    Clinton, IL
+                17029    5    Coles, IL
+1602    1600    17031    2    Cook, IL
+                17033    5    Crawford, IL
+                17035    5    Cumberland, IL
+1602    1600    17037    2    DeKalb, IL
+                17039    5    De Witt, IL
+                17041    5    Douglas, IL
+1602    1600    17043    2    DuPage, IL
+                17045    5    Edgar, IL
+                17047    5    Edwards, IL
+                17049    5    Effingham, IL
+                17051    5    Fayette, IL
+                17053    5    Ford, IL
+                17055    5    Franklin, IL
+                17057    5    Fulton, IL
+                17059    5    Gallatin, IL
+                17061    5    Greene, IL
+1602    1600    17063    2    Grundy, IL
+                17065    5    Hamilton, IL
+                17067    5    Hancock, IL
+                17069    5    Hardin, IL
+                17071    5    Henderson, IL
+1960            17073    3    Henry, IL
+                17075    5    Iroquois, IL
+                17077    5    Jackson, IL
+                17079    5    Jasper, IL
+                17081    5    Jefferson, IL
+7040            17083    3    Jersey, IL
+                17085    5    Jo Daviess, IL
+                17087    5    Johnson, IL
+1602    1600    17089    2    Kane, IL
+1602    3740    17091    2    Kankakee, IL
+1602    1600    17093    2    Kendall, IL
+                17095    5    Knox, IL
+1602    1600    17097    2    Lake, IL
+                17099    5    La Salle, IL
+                17101    5    Lawrence, IL
+                17103    5    Lee, IL
+                17105    5    Livingston, IL
+                17107    5    Logan, IL
+                17109    5    McDonough, IL
+1602    1600    17111    2    McHenry, IL
+1040            17113    3    McLean, IL
+2040            17115    3    Macon, IL
+                17117    5    Macoupin, IL
+7040            17119    3    Madison, IL
+                17121    5    Marion, IL
+                17123    5    Marshall, IL
+                17125    5    Mason, IL
+                17127    5    Massac, IL
+7880            17129    3    Menard, IL
+                17131    5    Mercer, IL
+7040            17133    3    Monroe, IL
+                17135    5    Montgomery, IL
+                17137    5    Morgan, IL
+                17139    5    Moultrie, IL
+6880            17141    3    Ogle, IL
+6120            17143    3    Peoria, IL
+                17145    5    Perry, IL
+                17147    5    Piatt, IL
+                17149    5    Pike, IL
+                17151    5    Pope, IL
+                17153    5    Pulaski, IL
+                17155    5    Putnam, IL
+                17157    5    Randolph, IL
+                17159    5    Richland, IL
+1960            17161    3    Rock Island, IL
+7040            17163    3    St. Clair, IL
+                17165    5    Saline, IL
+7880            17167    3    Sangamon, IL
+                17169    5    Schuyler, IL
+                17171    5    Scott, IL
+                17173    5    Shelby, IL
+                17175    5    Stark, IL
+                17177    5    Stephenson, IL
+6120            17179    3    Tazewell, IL
+                17181    5    Union, IL
+                17183    5    Vermilion, IL
+                17185    5    Wabash, IL
+                17187    5    Warren, IL
+                17189    5    Washington, IL
+                17191    5    Wayne, IL
+                17193    5    White, IL
+                17195    5    Whiteside, IL
+1602    1600    17197    2    Will, IL
+                17199    5    Williamson, IL
+6880            17201    3    Winnebago, IL
+6120            17203    3    Woodford, IL
+
+                18000    1    INDIANA
+
+2760            18001    3    Adams, IN
+2760            18003    3    Allen, IN
+                18005    5    Bartholomew, IN
+                18007    5    Benton, IN
+                18009    5    Blackford, IN
+3480            18011    3    Boone, IN
+                18013    5    Brown, IN
+                18015    5    Carroll, IN
+                18017    5    Cass, IN
+4520            18019    3    Clark, IN
+8320            18021    3    Clay, IN
+3920            18023    3    Clinton, IN
+                18025    5    Crawford, IN
+                18027    5    Daviess, IN
+1642    1640    18029    2    Dearborn, IN
+                18031    5    Decatur, IN
+2760            18033    3    De Kalb, IN
+5280            18035    3    Delaware, IN
+                18037    5    Dubois, IN
+2330            18039    3    Elkhart, IN
+                18041    5    Fayette, IN
+4520            18043    3    Floyd, IN
+                18045    5    Fountain, IN
+                18047    5    Franklin, IN
+                18049    5    Fulton, IN
+                18051    5    Gibson, IN
+                18053    5    Grant, IN
+                18055    5    Greene, IN
+3480            18057    3    Hamilton, IN
+3480            18059    3    Hancock, IN
+4520            18061    3    Harrison, IN
+3480            18063    3    Hendricks, IN
+                18065    5    Henry, IN
+3850            18067    3    Howard, IN
+2760            18069    3    Huntington, IN
+                18071    5    Jackson, IN
+                18073    5    Jasper, IN
+                18075    5    Jay, IN
+                18077    5    Jefferson, IN
+                18079    5    Jennings, IN
+3480            18081    3    Johnson, IN
+                18083    5    Knox, IN
+                18085    5    Kosciusko, IN
+                18087    5    Lagrange, IN
+1602    2960    18089    2    Lake, IN
+                18091    5    La Porte, IN
+                18093    5    Lawrence, IN
+3480            18095    3    Madison, IN
+3480            18097    3    Marion, IN
+                18099    5    Marshall, IN
+                18101    5    Martin, IN
+                18103    5    Miami, IN
+1020            18105    3    Monroe, IN
+                18107    5    Montgomery, IN
+3480            18109    3    Morgan, IN
+                18111    5    Newton, IN
+                18113    5    Noble, IN
+1642    1640    18115    2    Ohio, IN
+                18117    5    Orange, IN
+                18119    5    Owen, IN
+                18121    5    Parke, IN
+                18123    5    Perry, IN
+                18125    5    Pike, IN
+1602    2960    18127    2    Porter, IN
+2440            18129    3    Posey, IN
+                18131    5    Pulaski, IN
+                18133    5    Putnam, IN
+                18135    5    Randolph, IN
+                18137    5    Ripley, IN
+                18139    5    Rush, IN
+7800            18141    3    St. Joseph, IN
+4520            18143    3    Scott, IN
+3480            18145    3    Shelby, IN
+                18147    5    Spencer, IN
+                18149    5    Starke, IN
+                18151    5    Steuben, IN
+                18153    5    Sullivan, IN
+                18155    5    Switzerland, IN
+3920            18157    3    Tippecanoe, IN
+3850            18159    3    Tipton, IN
+                18161    5    Union, IN
+2440            18163    3    Vanderburgh, IN
+8320            18165    3    Vermillion, IN
+8320            18167    3    Vigo, IN
+                18169    5    Wabash, IN
+                18171    5    Warren, IN
+2440            18173    3    Warrick, IN
+                18175    5    Washington, IN
+                18177    5    Wayne, IN
+2760            18179    3    Wells, IN
+                18181    5    White, IN
+2760            18183    3    Whitley, IN
+
+                20000    1    KANSAS
+
+                20001    5    Allen, KS
+                20003    5    Anderson, KS
+                20005    5    Atchison, KS
+                20007    5    Barber, KS
+                20009    5    Barton, KS
+                20011    5    Bourbon, KS
+                20013    5    Brown, KS
+9040            20015    3    Butler, KS
+                20017    5    Chase, KS
+                20019    5    Chautauqua, KS
+                20021    5    Cherokee, KS
+                20023    5    Cheyenne, KS
+                20025    5    Clark, KS
+                20027    5    Clay, KS
+                20029    5    Cloud, KS
+                20031    5    Coffey, KS
+                20033    5    Comanche, KS
+                20035    5    Cowley, KS
+                20037    5    Crawford, KS
+                20039    5    Decatur, KS
+                20041    5    Dickinson, KS
+                20043    5    Doniphan, KS
+4150            20045    3    Douglas, KS
+                20047    5    Edwards, KS
+                20049    5    Elk, KS
+                20051    5    Ellis, KS
+                20053    5    Ellsworth, KS
+                20055    5    Finney, KS
+                20057    5    Ford, KS
+                20059    5    Franklin, KS
+                20061    5    Geary, KS
+                20063    5    Gove, KS
+                20065    5    Graham, KS
+                20067    5    Grant, KS
+                20069    5    Gray, KS
+                20071    5    Greeley, KS
+                20073    5    Greenwood, KS
+                20075    5    Hamilton, KS
+                20077    5    Harper, KS
+9040            20079    3    Harvey, KS
+                20081    5    Haskell, KS
+                20083    5    Hodgeman, KS
+                20085    5    Jackson, KS
+                20087    5    Jefferson, KS
+                20089    5    Jewell, KS
+3760            20091    3    Johnson, KS
+                20093    5    Kearny, KS
+                20095    5    Kingman, KS
+                20097    5    Kiowa, KS
+                20099    5    Labette, KS
+                20101    5    Lane, KS
+3760            20103    3    Leavenworth, KS
+                20105    5    Lincoln, KS
+                20107    5    Linn, KS
+                20109    5    Logan, KS
+                20111    5    Lyon, KS
+                20113    5    McPherson, KS
+                20115    5    Marion, KS
+                20117    5    Marshall, KS
+                20119    5    Meade, KS
+3760            20121    3    Miami, KS
+                20123    5    Mitchell, KS
+                20125    5    Montgomery, KS
+                20127    5    Morris, KS
+                20129    5    Morton, KS
+                20131    5    Nemaha, KS
+                20133    5    Neosho, KS
+                20135    5    Ness, KS
+                20137    5    Norton, KS
+                20139    5    Osage, KS
+                20141    5    Osborne, KS
+                20143    5    Ottawa, KS
+                20145    5    Pawnee, KS
+                20147    5    Phillips, KS
+                20149    5    Pottawatomie, KS
+                20151    5    Pratt, KS
+                20153    5    Rawlins, KS
+                20155    5    Reno, KS
+                20157    5    Republic, KS
+                20159    5    Rice, KS
+                20161    5    Riley, KS
+                20163    5    Rooks, KS
+                20165    5    Rush, KS
+                20167    5    Russell, KS
+                20169    5    Saline, KS
+                20171    5    Scott, KS
+9040            20173    3    Sedgwick, KS
+                20175    5    Seward, KS
+8440            20177    3    Shawnee, KS
+                20179    5    Sheridan, KS
+                20181    5    Sherman, KS
+                20183    5    Smith, KS
+                20185    5    Stafford, KS
+                20187    5    Stanton, KS
+                20189    5    Stevens, KS
+                20191    5    Sumner, KS
+                20193    5    Thomas, KS
+                20195    5    Trego, KS
+                20197    5    Wabaunsee, KS
+                20199    5    Wallace, KS
+                20201    5    Washington, KS
+                20203    5    Wichita, KS
+                20205    5    Wilson, KS
+                20207    5    Woodson, KS
+3760            20209    3    Wyandotte, KS
+
+                21000    1    KENTUCKY
+
+                21001    5    Adair, KY
+                21003    5    Allen, KY
+                21005    5    Anderson, KY
+                21007    5    Ballard, KY
+                21009    5    Barren, KY
+                21011    5    Bath, KY
+                21013    5    Bell, KY
+1642    1640    21015    2    Boone, KY
+4280            21017    3    Bourbon, KY
+3400            21019    3    Boyd, KY
+                21021    5    Boyle, KY
+                21023    5    Bracken, KY
+                21025    5    Breathitt, KY
+                21027    5    Breckinridge, KY
+4520            21029    3    Bullitt, KY
+                21031    5    Butler, KY
+                21033    5    Caldwell, KY
+                21035    5    Calloway, KY
+1642    1640    21037    2    Campbell, KY
+                21039    5    Carlisle, KY
+                21041    5    Carroll, KY
+                21043    5    Carter, KY
+                21045    5    Casey, KY
+1660            21047    3    Christian, KY
+4280            21049    3    Clark, KY
+                21051    5    Clay, KY
+                21053    5    Clinton, KY
+                21055    5    Crittenden, KY
+                21057    5    Cumberland, KY
+5990            21059    3    Daviess, KY
+                21061    5    Edmonson, KY
+                21063    5    Elliott, KY
+                21065    5    Estill, KY
+4280            21067    3    Fayette, KY
+                21069    5    Fleming, KY
+                21071    5    Floyd, KY
+                21073    5    Franklin, KY
+                21075    5    Fulton, KY
+1642    1640    21077    2    Gallatin, KY
+                21079    5    Garrard, KY
+1642    1640    21081    2    Grant, KY
+                21083    5    Graves, KY
+                21085    5    Grayson, KY
+                21087    5    Green, KY
+3400            21089    3    Greenup, KY
+                21091    5    Hancock, KY
+                21093    5    Hardin, KY
+                21095    5    Harlan, KY
+                21097    5    Harrison, KY
+                21099    5    Hart, KY
+2440            21101    3    Henderson, KY
+                21103    5    Henry, KY
+                21105    5    Hickman, KY
+                21107    5    Hopkins, KY
+                21109    5    Jackson, KY
+4520            21111    3    Jefferson, KY
+4280            21113    3    Jessamine, KY
+                21115    5    Johnson, KY
+1642    1640    21117    2    Kenton, KY
+                21119    5    Knott, KY
+                21121    5    Knox, KY
+                21123    5    Larue, KY
+                21125    5    Laurel, KY
+                21127    5    Lawrence, KY
+                21129    5    Lee, KY
+                21131    5    Leslie, KY
+                21133    5    Letcher, KY
+                21135    5    Lewis, KY
+                21137    5    Lincoln, KY
+                21139    5    Livingston, KY
+                21141    5    Logan, KY
+                21143    5    Lyon, KY
+                21145    5    McCracken, KY
+                21147    5    McCreary, KY
+                21149    5    McLean, KY
+4280            21151    3    Madison, KY
+                21153    5    Magoffin, KY
+                21155    5    Marion, KY
+                21157    5    Marshall, KY
+                21159    5    Martin, KY
+                21161    5    Mason, KY
+                21163    5    Meade, KY
+                21165    5    Menifee, KY
+                21167    5    Mercer, KY
+                21169    5    Metcalfe, KY
+                21171    5    Monroe, KY
+                21173    5    Montgomery, KY
+                21175    5    Morgan, KY
+                21177    5    Muhlenberg, KY
+                21179    5    Nelson, KY
+                21181    5    Nicholas, KY
+                21183    5    Ohio, KY
+4520            21185    3    Oldham, KY
+                21187    5    Owen, KY
+                21189    5    Owsley, KY
+1642    1640    21191    2    Pendleton, KY
+                21193    5    Perry, KY
+                21195    5    Pike, KY
+                21197    5    Powell, KY
+                21199    5    Pulaski, KY
+                21201    5    Robertson, KY
+                21203    5    Rockcastle, KY
+                21205    5    Rowan, KY
+                21207    5    Russell, KY
+4280            21209    3    Scott, KY
+                21211    5    Shelby, KY
+                21213    5    Simpson, KY
+                21215    5    Spencer, KY
+                21217    5    Taylor, KY
+                21219    5    Todd, KY
+                21221    5    Trigg, KY
+                21223    5    Trimble, KY
+                21225    5    Union, KY
+                21227    5    Warren, KY
+                21229    5    Washington, KY
+                21231    5    Wayne, KY
+                21233    5    Webster, KY
+                21235    5    Whitley, KY
+                21237    5    Wolfe, KY
+4280            21239    3    Woodford, KY
+
+                22000    1    LOUISIANA
+
+3880            22001    3    Acadia, LA
+                22003    5    Allen, LA
+                22005    5    Ascension, LA
+                22007    5    Assumption, LA
+                22009    5    Avoyelles, LA
+                22011    5    Beauregard, LA
+                22013    5    Bienville, LA
+7680            22015    3    Bossier, LA
+7680            22017    3    Caddo, LA
+3960            22019    3    Calcasieu, LA
+                22021    5    Caldwell, LA
+                22023    5    Cameron, LA
+                22025    5    Catahoula, LA
+                22027    5    Claiborne, LA
+                22029    5    Concordia, LA
+                22031    5    De Soto, LA
+0760            22033    3    East Baton Rouge, LA
+                22035    5    East Carroll, LA
+                22037    5    East Feliciana, LA
+                22039    5    Evangeline, LA
+                22041    5    Franklin, LA
+                22043    5    Grant, LA
+                22045    5    Iberia, LA
+                22047    5    Iberville, LA
+                22049    5    Jackson, LA
+5560            22051    3    Jefferson, LA
+                22053    5    Jefferson Davis, LA
+3880            22055    3    Lafayette, LA
+3350            22057    3    Lafourche, LA
+                22059    5    La Salle, LA
+                22061    5    Lincoln, LA
+0760            22063    3    Livingston, LA
+                22065    5    Madison, LA
+                22067    5    Morehouse, LA
+                22069    5    Natchitoches, LA
+5560            22071    3    Orleans, LA
+5200            22073    3    Ouachita, LA
+5560            22075    3    Plaquemines, LA
+                22077    5    Pointe Coupee, LA
+0220            22079    3    Rapides, LA
+                22081    5    Red River, LA
+                22083    5    Richland, LA
+                22085    5    Sabine, LA
+5560            22087    3    St. Bernard, LA
+5560            22089    3    St. Charles, LA
+                22091    5    St. Helena, LA
+5560            22093    3    St. James, LA
+5560            22095    3    St. John the Baptist, LA
+3880            22097    3    St. Landry, LA
+3880            22099    3    St. Martin, LA
+                22101    5    St. Mary, LA
+5560            22103    3    St. Tammany, LA
+                22105    5    Tangipahoa, LA
+                22107    5    Tensas, LA
+3350            22109    3    Terrebonne, LA
+                22111    5    Union, LA
+                22113    5    Vermilion, LA
+                22115    5    Vernon, LA
+                22117    5    Washington, LA
+7680            22119    3    Webster, LA
+0760            22121    3    West Baton Rouge, LA
+                22123    5    West Carroll, LA
+                22125    5    West Feliciana, LA
+                22127    5    Winn, LA
+
+                25000    1    MASSACHUSETTS
+
+0743            25001    4    Barnstable, MA
+6323            25003    4    Berkshire, MA
+1123            25005    4    Bristol, MA
+                25007    5    Dukes, MA
+1123            25009    4    Essex, MA
+                25011    5    Franklin, MA
+8003            25013    4    Hampden, MA
+8003            25015    4    Hampshire, MA
+1123            25017    4    Middlesex, MA
+                25019    5    Nantucket, MA
+1123            25021    4    Norfolk, MA
+1123            25023    4    Plymouth, MA
+1123            25025    4    Suffolk, MA
+1123            25027    4    Worcester, MA
+
+                24000    1    MARYLAND
+
+1900            24001    3    Allegany, MD
+8872    0720    24003    2    Anne Arundel, MD
+8872    0720    24005    2    Baltimore, MD
+8872    8840    24009    2    Calvert, MD
+                24011    5    Caroline, MD
+8872    0720    24013    2    Carroll, MD
+6162    9160    24015    2    Cecil, MD
+8872    8840    24017    2    Charles, MD
+                24019    5    Dorchester, MD
+8872    8840    24021    2    Frederick, MD
+                24023    5    Garrett, MD
+8872    0720    24025    2    Harford, MD
+8872    0720    24027    2    Howard, MD
+                24029    5    Kent, MD
+8872    8840    24031    2    Montgomery, MD
+8872    8840    24033    2    Prince George's, MD
+8872    0720    24035    2    Queen Anne's, MD
+                24037    5    St. Mary's, MD
+                24039    5    Somerset, MD
+                24041    5    Talbot, MD
+8872    3180    24043    2    Washington, MD
+                24045    5    Wicomico, MD
+                24047    5    Worcester, MD
+8872    0720    24510    2    Baltimore city, MD
+
+                23000    1    MAINE
+
+4243            23001    4    Androscoggin, ME
+                23003    5    Aroostook, ME
+6403            23005    4    Cumberland, ME
+                23007    5    Franklin, ME
+                23009    5    Hancock, ME
+                23011    5    Kennebec, ME
+                23013    5    Knox, ME
+                23015    5    Lincoln, ME
+                23017    5    Oxford, ME
+0733            23019    4    Penobscot, ME
+                23021    5    Piscataquis, ME
+                23023    5    Sagadahoc, ME
+                23025    5    Somerset, ME
+                23027    5    Waldo, ME
+                23029    5    Washington, ME
+                23031    5    York, ME
+
+                26000    1    MICHIGAN
+
+                26001    5    Alcona, MI
+                26003    5    Alger, MI
+3000            26005    3    Allegan, MI
+                26007    5    Alpena, MI
+                26009    5    Antrim, MI
+                26011    5    Arenac, MI
+                26013    5    Baraga, MI
+                26015    5    Barry, MI
+6960            26017    3    Bay, MI
+                26019    5    Benzie, MI
+0870            26021    3    Berrien, MI
+                26023    5    Branch, MI
+3720            26025    3    Calhoun, MI
+                26027    5    Cass, MI
+                26029    5    Charlevoix, MI
+                26031    5    Cheboygan, MI
+                26033    5    Chippewa, MI
+                26035    5    Clare, MI
+4040            26037    3    Clinton, MI
+                26039    5    Crawford, MI
+                26041    5    Delta, MI
+                26043    5    Dickinson, MI
+4040            26045    3    Eaton, MI
+                26047    5    Emmet, MI
+2162    2640    26049    2    Genesee, MI
+                26051    5    Gladwin, MI
+                26053    5    Gogebic, MI
+                26055    5    Grand Traverse, MI
+                26057    5    Gratiot, MI
+                26059    5    Hillsdale, MI
+                26061    5    Houghton, MI
+                26063    5    Huron, MI
+4040            26065    3    Ingham, MI
+                26067    5    Ionia, MI
+                26069    5    Iosco, MI
+                26071    5    Iron, MI
+                26073    5    Isabella, MI
+3520            26075    3    Jackson, MI
+3720            26077    3    Kalamazoo, MI
+                26079    5    Kalkaska, MI
+3000            26081    3    Kent, MI
+                26083    5    Keweenaw, MI
+                26085    5    Lake, MI
+2162    2160    26087    2    Lapeer, MI
+                26089    5    Leelanau, MI
+2162    0440    26091    2    Lenawee, MI
+2162    0440    26093    2    Livingston, MI
+                26095    5    Luce, MI
+                26097    5    Mackinac, MI
+2162    2160    26099    2    Macomb, MI
+                26101    5    Manistee, MI
+                26103    5    Marquette, MI
+                26105    5    Mason, MI
+                26107    5    Mecosta, MI
+                26109    5    Menominee, MI
+6960            26111    3    Midland, MI
+                26113    5    Missaukee, MI
+2162    2160    26115    2    Monroe, MI
+                26117    5    Montcalm, MI
+                26119    5    Montmorency, MI
+3000            26121    3    Muskegon, MI
+                26123    5    Newaygo, MI
+2162    2160    26125    2    Oakland, MI
+                26127    5    Oceana, MI
+                26129    5    Ogemaw, MI
+                26131    5    Ontonagon, MI
+                26133    5    Osceola, MI
+                26135    5    Oscoda, MI
+                26137    5    Otsego, MI
+3000            26139    3    Ottawa, MI
+                26141    5    Presque Isle, MI
+                26143    5    Roscommon, MI
+6960            26145    3    Saginaw, MI
+2162    2160    26147    2    St. Clair, MI
+                26149    5    St. Joseph, MI
+                26151    5    Sanilac, MI
+                26153    5    Schoolcraft, MI
+                26155    5    Shiawassee, MI
+                26157    5    Tuscola, MI
+3720            26159    3    Van Buren, MI
+2162    0440    26161    2    Washtenaw, MI
+2162    2160    26163    2    Wayne, MI
+                26165    5    Wexford, MI
+
+                27000    1    MINNESOTA
+
+                27001    5    Aitkin, MN
+5120            27003    3    Anoka, MN
+                27005    5    Becker, MN
+                27007    5    Beltrami, MN
+6980            27009    3    Benton, MN
+                27011    5    Big Stone, MN
+                27013    5    Blue Earth, MN
+                27015    5    Brown, MN
+                27017    5    Carlton, MN
+5120            27019    3    Carver, MN
+                27021    5    Cass, MN
+                27023    5    Chippewa, MN
+5120            27025    3    Chisago, MN
+2520            27027    3    Clay, MN
+                27029    5    Clearwater, MN
+                27031    5    Cook, MN
+                27033    5    Cottonwood, MN
+                27035    5    Crow Wing, MN
+5120            27037    3    Dakota, MN
+                27039    5    Dodge, MN
+                27041    5    Douglas, MN
+                27043    5    Faribault, MN
+                27045    5    Fillmore, MN
+                27047    5    Freeborn, MN
+                27049    5    Goodhue, MN
+                27051    5    Grant, MN
+5120            27053    3    Hennepin, MN
+3870            27055    3    Houston, MN
+                27057    5    Hubbard, MN
+5120            27059    3    Isanti, MN
+                27061    5    Itasca, MN
+                27063    5    Jackson, MN
+                27065    5    Kanabec, MN
+                27067    5    Kandiyohi, MN
+                27069    5    Kittson, MN
+                27071    5    Koochiching, MN
+                27073    5    Lac qui Parle, MN
+                27075    5    Lake, MN
+                27077    5    Lake of the Woods, MN
+                27079    5    Le Sueur, MN
+                27081    5    Lincoln, MN
+                27083    5    Lyon, MN
+                27085    5    McLeod, MN
+                27087    5    Mahnomen, MN
+                27089    5    Marshall, MN
+                27091    5    Martin, MN
+                27093    5    Meeker, MN
+                27095    5    Mille Lacs, MN
+                27097    5    Morrison, MN
+                27099    5    Mower, MN
+                27101    5    Murray, MN
+                27103    5    Nicollet, MN
+                27105    5    Nobles, MN
+                27107    5    Norman, MN
+6820            27109    3    Olmsted, MN
+                27111    5    Otter Tail, MN
+                27113    5    Pennington, MN
+                27115    5    Pine, MN
+                27117    5    Pipestone, MN
+2985            27119    3    Polk, MN
+                27121    5    Pope, MN
+5120            27123    3    Ramsey, MN
+                27125    5    Red Lake, MN
+                27127    5    Redwood, MN
+                27129    5    Renville, MN
+                27131    5    Rice, MN
+                27133    5    Rock, MN
+                27135    5    Roseau, MN
+2240            27137    3    St. Louis, MN
+5120            27139    3    Scott, MN
+5120            27141    3    Sherburne, MN
+                27143    5    Sibley, MN
+6980            27145    3    Stearns, MN
+                27147    5    Steele, MN
+                27149    5    Stevens, MN
+                27151    5    Swift, MN
+                27153    5    Todd, MN
+                27155    5    Traverse, MN
+                27157    5    Wabasha, MN
+                27159    5    Wadena, MN
+                27161    5    Waseca, MN
+5120            27163    3    Washington, MN
+                27165    5    Watonwan, MN
+                27167    5    Wilkin, MN
+                27169    5    Winona, MN
+5120            27171    3    Wright, MN
+                27173    5    Yellow Medicine, MN
+
+                29000    1    MISSOURI
+
+                29001    5    Adair, MO
+7000            29003    3    Andrew, MO
+                29005    5    Atchison, MO
+                29007    5    Audrain, MO
+                29009    5    Barry, MO
+                29011    5    Barton, MO
+                29013    5    Bates, MO
+                29015    5    Benton, MO
+                29017    5    Bollinger, MO
+1740            29019    3    Boone, MO
+7000            29021    3    Buchanan, MO
+                29023    5    Butler, MO
+                29025    5    Caldwell, MO
+                29027    5    Callaway, MO
+                29029    5    Camden, MO
+                29031    5    Cape Girardeau, MO
+                29033    5    Carroll, MO
+                29035    5    Carter, MO
+3760            29037    3    Cass, MO
+                29039    5    Cedar, MO
+                29041    5    Chariton, MO
+7920            29043    3    Christian, MO
+                29045    5    Clark, MO
+3760            29047    3    Clay, MO
+3760            29049    3    Clinton, MO
+                29051    5    Cole, MO
+                29053    5    Cooper, MO
+                29055    5    Crawford, MO
+                29057    5    Dade, MO
+                29059    5    Dallas, MO
+                29061    5    Daviess, MO
+                29063    5    De Kalb, MO
+                29065    5    Dent, MO
+                29067    5    Douglas, MO
+                29069    5    Dunklin, MO
+7040            29071    3    Franklin, MO
+                29073    5    Gasconade, MO
+                29075    5    Gentry, MO
+7920            29077    3    Greene, MO
+                29079    5    Grundy, MO
+                29081    5    Harrison, MO
+                29083    5    Henry, MO
+                29085    5    Hickory, MO
+                29087    5    Holt, MO
+                29089    5    Howard, MO
+                29091    5    Howell, MO
+                29093    5    Iron, MO
+3760            29095    3    Jackson, MO
+3710            29097    3    Jasper, MO
+7040            29099    3    Jefferson, MO
+                29101    5    Johnson, MO
+                29103    5    Knox, MO
+                29105    5    Laclede, MO
+3760            29107    3    Lafayette, MO
+                29109    5    Lawrence, MO
+                29111    5    Lewis, MO
+7040            29113    3    Lincoln, MO
+                29115    5    Linn, MO
+                29117    5    Livingston, MO
+                29119    5    McDonald, MO
+                29121    5    Macon, MO
+                29123    5    Madison, MO
+                29125    5    Maries, MO
+                29127    5    Marion, MO
+                29129    5    Mercer, MO
+                29131    5    Miller, MO
+                29133    5    Mississippi, MO
+                29135    5    Moniteau, MO
+                29137    5    Monroe, MO
+                29139    5    Montgomery, MO
+                29141    5    Morgan, MO
+                29143    5    New Madrid, MO
+3710            29145    3    Newton, MO
+                29147    5    Nodaway, MO
+                29149    5    Oregon, MO
+                29151    5    Osage, MO
+                29153    5    Ozark, MO
+                29155    5    Pemiscot, MO
+                29157    5    Perry, MO
+                29159    5    Pettis, MO
+                29161    5    Phelps, MO
+                29163    5    Pike, MO
+3760            29165    3    Platte, MO
+                29167    5    Polk, MO
+                29169    5    Pulaski, MO
+                29171    5    Putnam, MO
+                29173    5    Ralls, MO
+                29175    5    Randolph, MO
+3760            29177    3    Ray, MO
+                29179    5    Reynolds, MO
+                29181    5    Ripley, MO
+7040            29183    3    St. Charles, MO
+                29185    5    St. Clair, MO
+                29186    5    Ste. Genevieve, MO
+                29187    5    St. Francois, MO
+7040            29189    3    St. Louis, MO
+                29195    5    Saline, MO
+                29197    5    Schuyler, MO
+                29199    5    Scotland, MO
+                29201    5    Scott, MO
+                29203    5    Shannon, MO
+                29205    5    Shelby, MO
+                29207    5    Stoddard, MO
+                29209    5    Stone, MO
+                29211    5    Sullivan, MO
+                29213    5    Taney, MO
+                29215    5    Texas, MO
+                29217    5    Vernon, MO
+7040            29219    3    Warren, MO
+                29221    5    Washington, MO
+                29223    5    Wayne, MO
+7920            29225    3    Webster, MO
+                29227    5    Worth, MO
+                29229    5    Wright, MO
+7040            29510    3    St. Louis city, MO
+
+                28000    1    MISSISSIPPI
+
+                28001    5    Adams, MS
+                28003    5    Alcorn, MS
+                28005    5    Amite, MS
+                28007    5    Attala, MS
+                28009    5    Benton, MS
+                28011    5    Bolivar, MS
+                28013    5    Calhoun, MS
+                28015    5    Carroll, MS
+                28017    5    Chickasaw, MS
+                28019    5    Choctaw, MS
+                28021    5    Claiborne, MS
+                28023    5    Clarke, MS
+                28025    5    Clay, MS
+                28027    5    Coahoma, MS
+                28029    5    Copiah, MS
+                28031    5    Covington, MS
+4920            28033    3    DeSoto, MS
+                28035    5    Forrest, MS
+                28037    5    Franklin, MS
+                28039    5    George, MS
+                28041    5    Greene, MS
+                28043    5    Grenada, MS
+0920            28045    3    Hancock, MS
+0920            28047    3    Harrison, MS
+3560            28049    3    Hinds, MS
+                28051    5    Holmes, MS
+                28053    5    Humphreys, MS
+                28055    5    Issaquena, MS
+                28057    5    Itawamba, MS
+0920            28059    3    Jackson, MS
+                28061    5    Jasper, MS
+                28063    5    Jefferson, MS
+                28065    5    Jefferson Davis, MS
+                28067    5    Jones, MS
+                28069    5    Kemper, MS
+                28071    5    Lafayette, MS
+                28073    5    Lamar, MS
+                28075    5    Lauderdale, MS
+                28077    5    Lawrence, MS
+                28079    5    Leake, MS
+                28081    5    Lee, MS
+                28083    5    Leflore, MS
+                28085    5    Lincoln, MS
+                28087    5    Lowndes, MS
+3560            28089    3    Madison, MS
+                28091    5    Marion, MS
+                28093    5    Marshall, MS
+                28095    5    Monroe, MS
+                28097    5    Montgomery, MS
+                28099    5    Neshoba, MS
+                28101    5    Newton, MS
+                28103    5    Noxubee, MS
+                28105    5    Oktibbeha, MS
+                28107    5    Panola, MS
+                28109    5    Pearl River, MS
+                28111    5    Perry, MS
+                28113    5    Pike, MS
+                28115    5    Pontotoc, MS
+                28117    5    Prentiss, MS
+                28119    5    Quitman, MS
+3560            28121    3    Rankin, MS
+                28123    5    Scott, MS
+                28125    5    Sharkey, MS
+                28127    5    Simpson, MS
+                28129    5    Smith, MS
+                28131    5    Stone, MS
+                28133    5    Sunflower, MS
+                28135    5    Tallahatchie, MS
+                28137    5    Tate, MS
+                28139    5    Tippah, MS
+                28141    5    Tishomingo, MS
+                28143    5    Tunica, MS
+                28145    5    Union, MS
+                28147    5    Walthall, MS
+                28149    5    Warren, MS
+                28151    5    Washington, MS
+                28153    5    Wayne, MS
+                28155    5    Webster, MS
+                28157    5    Wilkinson, MS
+                28159    5    Winston, MS
+                28161    5    Yalobusha, MS
+                28163    5    Yazoo, MS
+
+
+                30000    1    MONTANA
+
+                30001    5    Beaverhead, MT
+                30003    5    Big Horn, MT
+                30005    5    Blaine, MT
+                30007    5    Broadwater, MT
+                30009    5    Carbon, MT
+                30011    5    Carter, MT
+3040            30013    3    Cascade, MT
+                30015    5    Chouteau, MT
+                30017    5    Custer, MT
+                30019    5    Daniels, MT
+                30021    5    Dawson, MT
+                30023    5    Deer Lodge, MT
+                30025    5    Fallon, MT
+                30027    5    Fergus, MT
+                30029    5    Flathead, MT
+                30031    5    Gallatin, MT
+                30033    5    Garfield, MT
+                30035    5    Glacier, MT
+                30037    5    Golden Valley, MT
+                30039    5    Granite, MT
+                30041    5    Hill, MT
+                30043    5    Jefferson, MT
+                30045    5    Judith Basin, MT
+                30047    5    Lake, MT
+                30049    5    Lewis and Clark, MT
+                30051    5    Liberty, MT
+                30053    5    Lincoln, MT
+                30055    5    McCone, MT
+                30057    5    Madison, MT
+                30059    5    Meagher, MT
+                30061    5    Mineral, MT
+                30063    5    Missoula, MT
+                30065    5    Musselshell, MT
+                30067    5    Park, MT
+                30069    5    Petroleum, MT
+                30071    5    Phillips, MT
+                30073    5    Pondera, MT
+                30075    5    Powder River, MT
+                30077    5    Powell, MT
+                30079    5    Prairie, MT
+                30081    5    Ravalli, MT
+                30083    5    Richland, MT
+                30085    5    Roosevelt, MT
+                30087    5    Rosebud, MT
+                30089    5    Sanders, MT
+                30091    5    Sheridan, MT
+                30093    5    Silver Bow, MT
+                30095    5    Stillwater, MT
+                30097    5    Sweet Grass, MT
+                30099    5    Teton, MT
+                30101    5    Toole, MT
+                30103    5    Treasure, MT
+                30105    5    Valley, MT
+                30107    5    Wheatland, MT
+                30109    5    Wibaux, MT
+0880            30111    3    Yellowstone, MT
+                30113    5    Yellowstone National Park, MT
+
+                37000    1    NORTH CAROLINA
+
+3120            37001    3    Alamance, NC
+3290            37003    3    Alexander, NC
+                37005    5    Alleghany, NC
+                37007    5    Anson, NC
+                37009    5    Ashe, NC
+                37011    5    Avery, NC
+                37013    5    Beaufort, NC
+                37015    5    Bertie, NC
+                37017    5    Bladen, NC
+                37019    5    Brunswick, NC
+0480            37021    3    Buncombe, NC
+3290            37023    3    Burke, NC
+1520            37025    3    Cabarrus, NC
+3290            37027    3    Caldwell, NC
+                37029    5    Camden, NC
+                37031    5    Carteret, NC
+                37033    5    Caswell, NC
+3290            37035    3    Catawba, NC
+6640            37037    3    Chatham, NC
+                37039    5    Cherokee, NC
+                37041    5    Chowan, NC
+                37043    5    Clay, NC
+                37045    5    Cleveland, NC
+                37047    5    Columbus, NC
+                37049    5    Craven, NC
+2560            37051    3    Cumberland, NC
+5720            37053    3    Currituck, NC
+                37055    5    Dare, NC
+3120            37057    3    Davidson, NC
+3120            37059    3    Davie, NC
+                37061    5    Duplin, NC
+6640            37063    3    Durham, NC
+6895            37065    3    Edgecombe, NC
+3120            37067    3    Forsyth, NC
+6640            37069    3    Franklin, NC
+1520            37071    3    Gaston, NC
+                37073    5    Gates, NC
+                37075    5    Graham, NC
+                37077    5    Granville, NC
+                37079    5    Greene, NC
+3120            37081    3    Guilford, NC
+                37083    5    Halifax, NC
+                37085    5    Harnett, NC
+                37087    5    Haywood, NC
+                37089    5    Henderson, NC
+                37091    5    Hertford, NC
+                37093    5    Hoke, NC
+                37095    5    Hyde, NC
+                37097    5    Iredell, NC
+                37099    5    Jackson, NC
+6640            37101    3    Johnston, NC
+                37103    5    Jones, NC
+                37105    5    Lee, NC
+                37107    5    Lenoir, NC
+1520            37109    3    Lincoln, NC
+                37111    5    McDowell, NC
+                37113    5    Macon, NC
+0480            37115    3    Madison, NC
+                37117    5    Martin, NC
+1520            37119    3    Mecklenburg, NC
+                37121    5    Mitchell, NC
+                37123    5    Montgomery, NC
+                37125    5    Moore, NC
+6895            37127    3    Nash, NC
+9200            37129    3    New Hanover, NC
+                37131    5    Northampton, NC
+3605            37133    3    Onslow, NC
+6640            37135    3    Orange, NC
+                37137    5    Pamlico, NC
+                37139    5    Pasquotank, NC
+                37141    5    Pender, NC
+                37143    5    Perquimans, NC
+                37145    5    Person, NC
+3150            37147    3    Pitt, NC
+                37149    5    Polk, NC
+3120            37151    3    Randolph, NC
+                37153    5    Richmond, NC
+                37155    5    Robeson, NC
+                37157    5    Rockingham, NC
+1520            37159    3    Rowan, NC
+                37161    5    Rutherford, NC
+                37163    5    Sampson, NC
+                37165    5    Scotland, NC
+                37167    5    Stanly, NC
+3120            37169    3    Stokes, NC
+                37171    5    Surry, NC
+                37173    5    Swain, NC
+                37175    5    Transylvania, NC
+                37177    5    Tyrrell, NC
+1520            37179    3    Union, NC
+                37181    5    Vance, NC
+6640            37183    3    Wake, NC
+                37185    5    Warren, NC
+                37187    5    Washington, NC
+                37189    5    Watauga, NC
+2980            37191    3    Wayne, NC
+                37193    5    Wilkes, NC
+                37195    5    Wilson, NC
+3120            37197    3    Yadkin, NC
+                37199    5    Yancey, NC
+
+                38000    1    NORTH DAKOTA
+
+                38001    5    Adams, ND
+                38003    5    Barnes, ND
+                38005    5    Benson, ND
+                38007    5    Billings, ND
+                38009    5    Bottineau, ND
+                38011    5    Bowman, ND
+                38013    5    Burke, ND
+1010            38015    3    Burleigh, ND
+2520            38017    3    Cass, ND
+                38019    5    Cavalier, ND
+                38021    5    Dickey, ND
+                38023    5    Divide, ND
+                38025    5    Dunn, ND
+                38027    5    Eddy, ND
+                38029    5    Emmons, ND
+                38031    5    Foster, ND
+                38033    5    Golden Valley, ND
+2985            38035    3    Grand Forks, ND
+                38037    5    Grant, ND
+                38039    5    Griggs, ND
+                38041    5    Hettinger, ND
+                38043    5    Kidder, ND
+                38045    5    La Moure, ND
+                38047    5    Logan, ND
+                38049    5    McHenry, ND
+                38051    5    McIntosh, ND
+                38053    5    McKenzie, ND
+                38055    5    McLean, ND
+                38057    5    Mercer, ND
+1010            38059    3    Morton, ND
+                38061    5    Mountrail, ND
+                38063    5    Nelson, ND
+                38065    5    Oliver, ND
+                38067    5    Pembina, ND
+                38069    5    Pierce, ND
+                38071    5    Ramsey, ND
+                38073    5    Ransom, ND
+                38075    5    Renville, ND
+                38077    5    Richland, ND
+                38079    5    Rolette, ND
+                38081    5    Sargent, ND
+                38083    5    Sheridan, ND
+                38085    5    Sioux, ND
+                38087    5    Slope, ND
+                38089    5    Stark, ND
+                38091    5    Steele, ND
+                38093    5    Stutsman, ND
+                38095    5    Towner, ND
+                38097    5    Traill, ND
+                38099    5    Walsh, ND
+                38101    5    Ward, ND
+                38103    5    Wells, ND
+                38105    5    Williams, ND
+
+                31000    1    NEBRASKA
+
+                31001    5    Adams, NE
+                31003    5    Antelope, NE
+                31005    5    Arthur, NE
+                31007    5    Banner, NE
+                31009    5    Blaine, NE
+                31011    5    Boone, NE
+                31013    5    Box Butte, NE
+                31015    5    Boyd, NE
+                31017    5    Brown, NE
+                31019    5    Buffalo, NE
+                31021    5    Burt, NE
+                31023    5    Butler, NE
+5920            31025    3    Cass, NE
+                31027    5    Cedar, NE
+                31029    5    Chase, NE
+                31031    5    Cherry, NE
+                31033    5    Cheyenne, NE
+                31035    5    Clay, NE
+                31037    5    Colfax, NE
+                31039    5    Cuming, NE
+                31041    5    Custer, NE
+7720            31043    3    Dakota, NE
+                31045    5    Dawes, NE
+                31047    5    Dawson, NE
+                31049    5    Deuel, NE
+                31051    5    Dixon, NE
+                31053    5    Dodge, NE
+5920            31055    3    Douglas, NE
+                31057    5    Dundy, NE
+                31059    5    Fillmore, NE
+                31061    5    Franklin, NE
+                31063    5    Frontier, NE
+                31065    5    Furnas, NE
+                31067    5    Gage, NE
+                31069    5    Garden, NE
+                31071    5    Garfield, NE
+                31073    5    Gosper, NE
+                31075    5    Grant, NE
+                31077    5    Greeley, NE
+                31079    5    Hall, NE
+                31081    5    Hamilton, NE
+                31083    5    Harlan, NE
+                31085    5    Hayes, NE
+                31087    5    Hitchcock, NE
+                31089    5    Holt, NE
+                31091    5    Hooker, NE
+                31093    5    Howard, NE
+                31095    5    Jefferson, NE
+                31097    5    Johnson, NE
+                31099    5    Kearney, NE
+                31101    5    Keith, NE
+                31103    5    Keya Paha, NE
+                31105    5    Kimball, NE
+                31107    5    Knox, NE
+4360            31109    3    Lancaster, NE
+                31111    5    Lincoln, NE
+                31113    5    Logan, NE
+                31115    5    Loup, NE
+                31117    5    McPherson, NE
+                31119    5    Madison, NE
+                31121    5    Merrick, NE
+                31123    5    Morrill, NE
+                31125    5    Nance, NE
+                31127    5    Nemaha, NE
+                31129    5    Nuckolls, NE
+                31131    5    Otoe, NE
+                31133    5    Pawnee, NE
+                31135    5    Perkins, NE
+                31137    5    Phelps, NE
+                31139    5    Pierce, NE
+                31141    5    Platte, NE
+                31143    5    Polk, NE
+                31145    5    Red Willow, NE
+                31147    5    Richardson, NE
+                31149    5    Rock, NE
+                31151    5    Saline, NE
+5920            31153    3    Sarpy, NE
+                31155    5    Saunders, NE
+                31157    5    Scotts Bluff, NE
+                31159    5    Seward, NE
+                31161    5    Sheridan, NE
+                31163    5    Sherman, NE
+                31165    5    Sioux, NE
+                31167    5    Stanton, NE
+                31169    5    Thayer, NE
+                31171    5    Thomas, NE
+                31173    5    Thurston, NE
+                31175    5    Valley, NE
+5920            31177    3    Washington, NE
+                31179    5    Wayne, NE
+                31181    5    Webster, NE
+                31183    5    Wheeler, NE
+                31185    5    York, NE
+
+                33000    1    NEW HAMPSHIRE
+
+                33001    5    Belknap, NH
+                33003    5    Carroll, NH
+                33005    5    Cheshire, NH
+                33007    5    Coos, NH
+                33009    5    Grafton, NH
+1123            33011    4    Hillsborough, NH
+                33013    5    Merrimack, NH
+1123            33015    4    Rockingham, NH
+1123            33017    4    Strafford, NH
+                33019    5    Sullivan, NH
+
+                34000    1    NEW JERSEY
+
+6162    0560    34001    2    Atlantic, NJ
+5602    0875    34003    2    Bergen, NJ
+6162    6160    34005    2    Burlington, NJ
+6162    6160    34007    2    Camden, NJ
+6162    0560    34009    2    Cape May, NJ
+6162    8760    34011    2    Cumberland, NJ
+5602    5640    34013    2    Essex, NJ
+6162    6160    34015    2    Gloucester, NJ
+5602    3640    34017    2    Hudson, NJ
+5602    5015    34019    2    Hunterdon, NJ
+5602    8480    34021    2    Mercer, NJ
+5602    5015    34023    2    Middlesex, NJ
+5602    5190    34025    2    Monmouth, NJ
+5602    5640    34027    2    Morris, NJ
+5602    5190    34029    2    Ocean, NJ
+5602    0875    34031    2    Passaic, NJ
+6162    6160    34033    2    Salem, NJ
+5602    5015    34035    2    Somerset, NJ
+5602    5640    34037    2    Sussex, NJ
+5602    5640    34039    2    Union, NJ
+5602    5640    34041    2    Warren, NJ
+
+                35000    1    NEW MEXICO
+
+0200            35001    3    Bernalillo, NM
+                35003    5    Catron, NM
+                35005    5    Chaves, NM
+                35006    5    Cibola, NM
+                35007    5    Colfax, NM
+                35009    5    Curry, NM
+                35011    5    De Baca, NM
+4100            35013    3    Dona Ana, NM
+                35015    5    Eddy, NM
+                35017    5    Grant, NM
+                35019    5    Guadalupe, NM
+                35021    5    Harding, NM
+                35023    5    Hidalgo, NM
+                35025    5    Lea, NM
+                35027    5    Lincoln, NM
+7490            35028    3    Los Alamos, NM
+                35029    5    Luna, NM
+                35031    5    McKinley, NM
+                35033    5    Mora, NM
+                35035    5    Otero, NM
+                35037    5    Quay, NM
+                35039    5    Rio Arriba, NM
+                35041    5    Roosevelt, NM
+0200            35043    3    Sandoval, NM
+                35045    5    San Juan, NM
+                35047    5    San Miguel, NM
+7490            35049    3    Santa Fe, NM
+                35051    5    Sierra, NM
+                35053    5    Socorro, NM
+                35055    5    Taos, NM
+                35057    5    Torrance, NM
+                35059    5    Union, NM
+0200            35061    3    Valencia, NM
+
+                32000    1    NEVADA
+
+                32001    5    Churchill, NV
+4120            32003    3    Clark, NV
+                32005    5    Douglas, NV
+                32007    5    Elko, NV
+                32009    5    Esmeralda, NV
+                32011    5    Eureka, NV
+                32013    5    Humboldt, NV
+                32015    5    Lander, NV
+                32017    5    Lincoln, NV
+                32019    5    Lyon, NV
+                32021    5    Mineral, NV
+4120            32023    3    Nye, NV
+                32027    5    Pershing, NV
+                32029    5    Storey, NV
+6720            32031    3    Washoe, NV
+                32033    5    White Pine, NV
+                32510    5    Carson City city, NV
+
+                36000    1    NEW YORK
+
+0160            36001    3    Albany, NY
+                36003    5    Allegany, NY
+5602    5600    36005    2    Bronx, NY
+0960            36007    3    Broome, NY
+                36009    5    Cattaraugus, NY
+8160            36011    3    Cayuga, NY
+3610            36013    3    Chautauqua, NY
+2335            36015    3    Chemung, NY
+                36017    5    Chenango, NY
+                36019    5    Clinton, NY
+                36021    5    Columbia, NY
+                36023    5    Cortland, NY
+                36025    5    Delaware, NY
+5602    2281    36027    2    Dutchess, NY
+1280            36029    3    Erie, NY
+                36031    5    Essex, NY
+                36033    5    Franklin, NY
+                36035    5    Fulton, NY
+6840            36037    3    Genesee, NY
+                36039    5    Greene, NY
+                36041    5    Hamilton, NY
+8680            36043    3    Herkimer, NY
+                36045    5    Jefferson, NY
+5602    5600    36047    2    Kings, NY
+                36049    5    Lewis, NY
+6840            36051    3    Livingston, NY
+8160            36053    3    Madison, NY
+6840            36055    3    Monroe, NY
+0160            36057    3    Montgomery, NY
+5602    5380    36059    2    Nassau, NY
+5602    5600    36061    2    New York, NY
+1280            36063    3    Niagara, NY
+8680            36065    3    Oneida, NY
+8160            36067    3    Onondaga, NY
+6840            36069    3    Ontario, NY
+5602    5660    36071    2    Orange, NY
+6840            36073    3    Orleans, NY
+8160            36075    3    Oswego, NY
+                36077    5    Otsego, NY
+5602    5600    36079    2    Putnam, NY
+5602    5600    36081    2    Queens, NY
+0160            36083    3    Rensselaer, NY
+5602    5600    36085    2    Richmond, NY
+5602    5600    36087    2    Rockland, NY
+                36089    5    St. Lawrence, NY
+0160            36091    3    Saratoga, NY
+0160            36093    3    Schenectady, NY
+0160            36095    3    Schoharie, NY
+                36097    5    Schuyler, NY
+                36099    5    Seneca, NY
+                36101    5    Steuben, NY
+5602    5380    36103    2    Suffolk, NY
+                36105    5    Sullivan, NY
+0960            36107    3    Tioga, NY
+                36109    5    Tompkins, NY
+                36111    5    Ulster, NY
+2975            36113    3    Warren, NY
+2975            36115    3    Washington, NY
+6840            36117    3    Wayne, NY
+5602    5600    36119    2    Westchester, NY
+                36121    5    Wyoming, NY
+                36123    5    Yates, NY
+
+                39000    1    OHIO
+
+                39001    5    Adams, OH
+4320            39003    3    Allen, OH
+                39005    5    Ashland, OH
+1692    1680    39007    2    Ashtabula, OH
+                39009    5    Athens, OH
+4320            39011    3    Auglaize, OH
+9000            39013    3    Belmont, OH
+1642    1640    39015    2    Brown, OH
+1642    3200    39017    2    Butler, OH
+1320            39019    3    Carroll, OH
+                39021    5    Champaign, OH
+2000            39023    3    Clark, OH
+1642    1640    39025    2    Clermont, OH
+                39027    5    Clinton, OH
+9320            39029    3    Columbiana, OH
+                39031    5    Coshocton, OH
+4800            39033    3    Crawford, OH
+1692    1680    39035    2    Cuyahoga, OH
+                39037    5    Darke, OH
+                39039    5    Defiance, OH
+1840            39041    3    Delaware, OH
+                39043    5    Erie, OH
+1840            39045    3    Fairfield, OH
+                39047    5    Fayette, OH
+1840            39049    3    Franklin, OH
+8400            39051    3    Fulton, OH
+                39053    5    Gallia, OH
+1692    1680    39055    2    Geauga, OH
+2000            39057    3    Greene, OH
+                39059    5    Guernsey, OH
+1642    1640    39061    2    Hamilton, OH
+                39063    5    Hancock, OH
+                39065    5    Hardin, OH
+                39067    5    Harrison, OH
+                39069    5    Henry, OH
+                39071    5    Highland, OH
+                39073    5    Hocking, OH
+                39075    5    Holmes, OH
+                39077    5    Huron, OH
+                39079    5    Jackson, OH
+8080            39081    3    Jefferson, OH
+                39083    5    Knox, OH
+1692    1680    39085    2    Lake, OH
+3400            39087    3    Lawrence, OH
+1840            39089    3    Licking, OH
+                39091    5    Logan, OH
+1692    1680    39093    2    Lorain, OH
+8400            39095    3    Lucas, OH
+1840            39097    3    Madison, OH
+9320            39099    3    Mahoning, OH
+                39101    5    Marion, OH
+1692    1680    39103    2    Medina, OH
+                39105    5    Meigs, OH
+                39107    5    Mercer, OH
+2000            39109    3    Miami, OH
+                39111    5    Monroe, OH
+2000            39113    3    Montgomery, OH
+                39115    5    Morgan, OH
+                39117    5    Morrow, OH
+                39119    5    Muskingum, OH
+                39121    5    Noble, OH
+                39123    5    Ottawa, OH
+                39125    5    Paulding, OH
+                39127    5    Perry, OH
+1840            39129    3    Pickaway, OH
+                39131    5    Pike, OH
+1692    0080    39133    2    Portage, OH
+                39135    5    Preble, OH
+                39137    5    Putnam, OH
+4800            39139    3    Richland, OH
+                39141    5    Ross, OH
+                39143    5    Sandusky, OH
+                39145    5    Scioto, OH
+                39147    5    Seneca, OH
+                39149    5    Shelby, OH
+1320            39151    3    Stark, OH
+1692    0080    39153    2    Summit, OH
+9320            39155    3    Trumbull, OH
+                39157    5    Tuscarawas, OH
+                39159    5    Union, OH
+                39161    5    Van Wert, OH
+                39163    5    Vinton, OH
+1642    1640    39165    2    Warren, OH
+6020            39167    3    Washington, OH
+                39169    5    Wayne, OH
+                39171    5    Williams, OH
+8400            39173    3    Wood, OH
+                39175    5    Wyandot, OH
+
+                40000    1    OKLAHOMA
+
+                40001    5    Adair, OK
+                40003    5    Alfalfa, OK
+                40005    5    Atoka, OK
+                40007    5    Beaver, OK
+                40009    5    Beckham, OK
+                40011    5    Blaine, OK
+                40013    5    Bryan, OK
+                40015    5    Caddo, OK
+5880            40017    3    Canadian, OK
+                40019    5    Carter, OK
+                40021    5    Cherokee, OK
+                40023    5    Choctaw, OK
+                40025    5    Cimarron, OK
+5880            40027    3    Cleveland, OK
+                40029    5    Coal, OK
+4200            40031    3    Comanche, OK
+                40033    5    Cotton, OK
+                40035    5    Craig, OK
+8560            40037    3    Creek, OK
+                40039    5    Custer, OK
+                40041    5    Delaware, OK
+                40043    5    Dewey, OK
+                40045    5    Ellis, OK
+2340            40047    3    Garfield, OK
+                40049    5    Garvin, OK
+                40051    5    Grady, OK
+                40053    5    Grant, OK
+                40055    5    Greer, OK
+                40057    5    Harmon, OK
+                40059    5    Harper, OK
+                40061    5    Haskell, OK
+                40063    5    Hughes, OK
+                40065    5    Jackson, OK
+                40067    5    Jefferson, OK
+                40069    5    Johnston, OK
+                40071    5    Kay, OK
+                40073    5    Kingfisher, OK
+                40075    5    Kiowa, OK
+                40077    5    Latimer, OK
+                40079    5    Le Flore, OK
+                40081    5    Lincoln, OK
+5880            40083    3    Logan, OK
+                40085    5    Love, OK
+5880            40087    3    McClain, OK
+                40089    5    McCurtain, OK
+                40091    5    McIntosh, OK
+                40093    5    Major, OK
+                40095    5    Marshall, OK
+                40097    5    Mayes, OK
+                40099    5    Murray, OK
+                40101    5    Muskogee, OK
+                40103    5    Noble, OK
+                40105    5    Nowata, OK
+                40107    5    Okfuskee, OK
+5880            40109    3    Oklahoma, OK
+                40111    5    Okmulgee, OK
+8560            40113    3    Osage, OK
+                40115    5    Ottawa, OK
+                40117    5    Pawnee, OK
+                40119    5    Payne, OK
+                40121    5    Pittsburg, OK
+                40123    5    Pontotoc, OK
+5880            40125    3    Pottawatomie, OK
+                40127    5    Pushmataha, OK
+                40129    5    Roger Mills, OK
+8560            40131    3    Rogers, OK
+                40133    5    Seminole, OK
+2720            40135    3    Sequoyah, OK
+                40137    5    Stephens, OK
+                40139    5    Texas, OK
+                40141    5    Tillman, OK
+8560            40143    3    Tulsa, OK
+8560            40145    3    Wagoner, OK
+                40147    5    Washington, OK
+                40149    5    Washita, OK
+                40151    5    Woods, OK
+                40153    5    Woodward, OK
+
+                41000    1    OREGON
+
+                41001    5    Baker, OR
+                41003    5    Benton, OR
+6442    6440    41005    2    Clackamas, OR
+                41007    5    Clatsop, OR
+6442    6449    41009    2    Columbia, OR
+                41011    5    Coos, OR
+                41013    5    Crook, OR
+                41015    5    Curry, OR
+                41017    5    Deschutes, OR
+                41019    5    Douglas, OR
+                41021    5    Gilliam, OR
+                41023    5    Grant, OR
+                41025    5    Harney, OR
+                41027    5    Hood River, OR
+4890            41029    3    Jackson, OR
+                41031    5    Jefferson, OR
+                41033    5    Josephine, OR
+                41035    5    Klamath, OR
+                41037    5    Lake, OR
+2400            41039    3    Lane, OR
+                41041    5    Lincoln, OR
+                41043    5    Linn, OR
+                41045    5    Malheur, OR
+6442    7080    41047    2    Marion, OR
+                41049    5    Morrow, OR
+6442    6440    41051    2    Multnomah, OR
+6442    7080    41053    2    Polk, OR
+                41055    5    Sherman, OR
+                41057    5    Tillamook, OR
+                41059    5    Umatilla, OR
+                41061    5    Union, OR
+                41063    5    Wallowa, OR
+                41065    5    Wasco, OR
+6442    6440    41067    2    Washington, OR
+                41069    5    Wheeler, OR
+6442    6440    41071    2    Yamhill, OR
+
+
+                42000    1    PENNSYLVANIA
+
+                42001    5    Adams, PA
+6280            42003    3    Allegheny, PA
+                42005    5    Armstrong, PA
+6280            42007    3    Beaver, PA
+                42009    5    Bedford, PA
+6680            42011    3    Berks, PA
+0280            42013    3    Blair, PA
+                42015    5    Bradford, PA
+6162    6160    42017    2    Bucks, PA
+6280            42019    3    Butler, PA
+
+3680            42021    3    Cambria, PA
+                42023    5    Cameron, PA
+0240            42025    3    Carbon, PA
+8050            42027    3    Centre, PA
+6162    6160    42029    2    Chester, PA
+                42031    5    Clarion, PA
+                42033    5    Clearfield, PA
+                42035    5    Clinton, PA
+7560            42037    3    Columbia, PA
+                42039    5    Crawford, PA
+
+3240            42041    3    Cumberland, PA
+3240            42043    3    Dauphin, PA
+6162    6160    42045    2    Delaware, PA
+                42047    5    Elk, PA
+2360            42049    3    Erie, PA
+6280            42051    3    Fayette, PA
+                42053    5    Forest, PA
+                42055    5    Franklin, PA
+                42057    5    Fulton, PA
+                42059    5    Greene, PA
+
+                42061    5    Huntingdon, PA
+                42063    5    Indiana, PA
+                42065    5    Jefferson, PA
+                42067    5    Juniata, PA
+7560            42069    3    Lackawanna, PA
+4000            42071    3    Lancaster, PA
+                42073    5    Lawrence, PA
+3240            42075    3    Lebanon, PA
+0240            42077    3    Lehigh, PA
+7560            42079    3    Luzerne, PA
+
+9140            42081    3    Lycoming, PA
+                42083    5    McKean, PA
+7610            42085    3    Mercer, PA
+                42087    5    Mifflin, PA
+                42089    5    Monroe, PA
+6162    6160    42091    2    Montgomery, PA
+                42093    5    Montour, PA
+0240            42095    3    Northampton, PA
+                42097    5    Northumberland, PA
+3240            42099    3    Perry, PA
+
+6162    6160    42101    2    Philadelphia, PA
+5602    5660    42103    2    Pike, PA
+                42105    5    Potter, PA
+                42107    5    Schuylkill, PA
+                42109    5    Snyder, PA
+3680            42111    3    Somerset, PA
+                42113    5    Sullivan, PA
+                42115    5    Susquehanna, PA
+                42117    5    Tioga, PA
+                42119    5    Union, PA
+
+                42121    5    Venango, PA
+                42123    5    Warren, PA
+6280            42125    3    Washington, PA
+                42127    5    Wayne, PA
+6280            42129    3    Westmoreland, PA
+7560            42131    3    Wyoming, PA
+9280            42133    3    York, PA
+
+
+                44000    1    RHODE ISLAND
+
+6483            44001    4    Bristol, RI
+6483            44003    4    Kent, RI
+                44005    5    Newport, RI
+6483            44007    4    Providence, RI
+6483            44009    4    Washington, RI
+
+
+                45000    1    SOUTH CAROLINA
+
+                45001    5    Abbeville, SC
+0600            45003    3    Aiken, SC
+                45005    5    Allendale, SC
+3160            45007    3    Anderson, SC
+                45009    5    Bamberg, SC
+                45011    5    Barnwell, SC
+                45013    5    Beaufort, SC
+1440            45015    3    Berkeley, SC
+                45017    5    Calhoun, SC
+1440            45019    3    Charleston, SC
+
+3160            45021    3    Cherokee, SC
+                45023    5    Chester, SC
+                45025    5    Chesterfield, SC
+                45027    5    Clarendon, SC
+                45029    5    Colleton, SC
+                45031    5    Darlington, SC
+                45033    5    Dillon, SC
+1440            45035    3    Dorchester, SC
+0600            45037    3    Edgefield, SC
+                45039    5    Fairfield, SC
+
+2655            45041    3    Florence, SC
+                45043    5    Georgetown, SC
+3160            45045    3    Greenville, SC
+                45047    5    Greenwood, SC
+                45049    5    Hampton, SC
+5330            45051    3    Horry, SC
+                45053    5    Jasper, SC
+                45055    5    Kershaw, SC
+                45057    5    Lancaster, SC
+                45059    5    Laurens, SC
+
+                45061    5    Lee, SC
+1760            45063    3    Lexington, SC
+                45065    5    McCormick, SC
+                45067    5    Marion, SC
+                45069    5    Marlboro, SC
+                45071    5    Newberry, SC
+                45073    5    Oconee, SC
+                45075    5    Orangeburg, SC
+3160            45077    3    Pickens, SC
+1760            45079    3    Richland, SC
+
+                45081    5    Saluda, SC
+3160            45083    3    Spartanburg, SC
+8140            45085    3    Sumter, SC
+                45087    5    Union, SC
+                45089    5    Williamsburg, SC
+1520            45091    3    York, SC
+
+
+                46000    1    SOUTH DAKOTA
+
+                46003    5    Aurora, SD
+                46005    5    Beadle, SD
+                46007    5    Bennett, SD
+                46009    5    Bon Homme, SD
+                46011    5    Brookings, SD
+                46013    5    Brown, SD
+                46015    5    Brule, SD
+                46017    5    Buffalo, SD
+                46019    5    Butte, SD
+                46021    5    Campbell, SD
+                46023    5    Charles Mix, SD
+                46025    5    Clark, SD
+                46027    5    Clay, SD
+                46029    5    Codington, SD
+                46031    5    Corson, SD
+                46033    5    Custer, SD
+                46035    5    Davison, SD
+                46037    5    Day, SD
+                46039    5    Deuel, SD
+                46041    5    Dewey, SD
+                46043    5    Douglas, SD
+                46045    5    Edmunds, SD
+                46047    5    Fall River, SD
+                46049    5    Faulk, SD
+                46051    5    Grant, SD
+                46053    5    Gregory, SD
+                46055    5    Haakon, SD
+                46057    5    Hamlin, SD
+                46059    5    Hand, SD
+                46061    5    Hanson, SD
+                46063    5    Harding, SD
+                46065    5    Hughes, SD
+                46067    5    Hutchinson, SD
+                46069    5    Hyde, SD
+                46071    5    Jackson, SD
+                46073    5    Jerauld, SD
+                46075    5    Jones, SD
+                46077    5    Kingsbury, SD
+                46079    5    Lake, SD
+                46081    5    Lawrence, SD
+7760            46083    3    Lincoln, SD
+                46085    5    Lyman, SD
+                46087    5    McCook, SD
+                46089    5    McPherson, SD
+                46091    5    Marshall, SD
+                46093    5    Meade, SD
+                46095    5    Mellette, SD
+                46097    5    Miner, SD
+7760            46099    3    Minnehaha, SD
+                46101    5    Moody, SD
+6660            46103    3    Pennington, SD
+                46105    5    Perkins, SD
+                46107    5    Potter, SD
+                46109    5    Roberts, SD
+                46111    5    Sanborn, SD
+                46113    5    Shannon, SD
+                46115    5    Spink, SD
+                46117    5    Stanley, SD
+                46119    5    Sully, SD
+                46121    5    Todd, SD
+                46123    5    Tripp, SD
+                46125    5    Turner, SD
+                46127    5    Union, SD
+                46129    5    Walworth, SD
+                46135    5    Yankton, SD
+                46137    5    Ziebach, SD
+
+                47000    1    TENNESSEE
+
+3840            47001    3    Anderson, TN
+                47003    5    Bedford, TN
+                47005    5    Benton, TN
+                47007    5    Bledsoe, TN
+3840            47009    3    Blount, TN
+                47011    5    Bradley, TN
+                47013    5    Campbell, TN
+                47015    5    Cannon, TN
+                47017    5    Carroll, TN
+3660            47019    3    Carter, TN
+5360            47021    3    Cheatham, TN
+                47023    5    Chester, TN
+                47025    5    Claiborne, TN
+                47027    5    Clay, TN
+                47029    5    Cocke, TN
+                47031    5    Coffee, TN
+                47033    5    Crockett, TN
+                47035    5    Cumberland, TN
+5360            47037    3    Davidson, TN
+                47039    5    Decatur, TN
+                47041    5    DeKalb, TN
+5360            47043    3    Dickson, TN
+                47045    5    Dyer, TN
+4920            47047    3    Fayette, TN
+                47049    5    Fentress, TN
+                47051    5    Franklin, TN
+                47053    5    Gibson, TN
+                47055    5    Giles, TN
+                47057    5    Grainger, TN
+                47059    5    Greene, TN
+                47061    5    Grundy, TN
+                47063    5    Hamblen, TN
+1560            47065    3    Hamilton, TN
+                47067    5    Hancock, TN
+                47069    5    Hardeman, TN
+                47071    5    Hardin, TN
+3660            47073    3    Hawkins, TN
+                47075    5    Haywood, TN
+                47077    5    Henderson, TN
+                47079    5    Henry, TN
+                47081    5    Hickman, TN
+                47083    5    Houston, TN
+                47085    5    Humphreys, TN
+                47087    5    Jackson, TN
+                47089    5    Jefferson, TN
+                47091    5    Johnson, TN
+3840            47093    3    Knox, TN
+                47095    5    Lake, TN
+                47097    5    Lauderdale, TN
+                47099    5    Lawrence, TN
+                47101    5    Lewis, TN
+                47103    5    Lincoln, TN
+3840            47105    3    Loudon, TN
+                47107    5    McMinn, TN
+                47109    5    McNairy, TN
+                47111    5    Macon, TN
+                47113    5    Madison, TN
+                47115    5    Marion, TN
+                47117    5    Marshall, TN
+                47119    5    Maury, TN
+                47121    5    Meigs, TN
+                47123    5    Monroe, TN
+1660            47125    3    Montgomery, TN
+                47127    5    Moore, TN
+                47129    5    Morgan, TN
+                47131    5    Obion, TN
+                47133    5    Overton, TN
+                47135    5    Perry, TN
+                47137    5    Pickett, TN
+                47139    5    Polk, TN
+                47141    5    Putnam, TN
+                47143    5    Rhea, TN
+                47145    5    Roane, TN
+5360            47147    3    Robertson, TN
+5360            47149    3    Rutherford, TN
+                47151    5    Scott, TN
+                47153    5    Sequatchie, TN
+3840            47155    3    Sevier, TN
+4920            47157    3    Shelby, TN
+                47159    5    Smith, TN
+                47161    5    Stewart, TN
+3660            47163    3    Sullivan, TN
+5360            47165    3    Sumner, TN
+4920            47167    3    Tipton, TN
+                47169    5    Trousdale, TN
+3660            47171    3    Unicoi, TN
+3840            47173    3    Union, TN
+                47175    5    Van Buren, TN
+                47177    5    Warren, TN
+3660            47179    3    Washington, TN
+                47181    5    Wayne, TN
+                47183    5    Weakley, TN
+                47185    5    White, TN
+5360            47187    3    Williamson, TN
+5360            47189    3    Wilson, TN
+
+                48000    1    TEXAS
+
+                48001    5    Anderson, TX
+                48003    5    Andrews, TX
+                48005    5    Angelina, TX
+                48007    5    Aransas, TX
+9080            48009    3    Archer, TX
+                48011    5    Armstrong, TX
+                48013    5    Atascosa, TX
+                48015    5    Austin, TX
+                48017    5    Bailey, TX
+                48019    5    Bandera, TX
+0640            48021    3    Bastrop, TX
+                48023    5    Baylor, TX
+                48025    5    Bee, TX
+3810            48027    3    Bell, TX
+7240            48029    3    Bexar, TX
+                48031    5    Blanco, TX
+                48033    5    Borden, TX
+                48035    5    Bosque, TX
+8360            48037    3    Bowie, TX
+3362    1145    48039    2    Brazoria, TX
+1260            48041    3    Brazos, TX
+                48043    5    Brewster, TX
+                48045    5    Briscoe, TX
+                48047    5    Brooks, TX
+                48049    5    Brown, TX
+                48051    5    Burleson, TX
+                48053    5    Burnet, TX
+0640            48055    3    Caldwell, TX
+                48057    5    Calhoun, TX
+                48059    5    Callahan, TX
+1240            48061    3    Cameron, TX
+                48063    5    Camp, TX
+                48065    5    Carson, TX
+                48067    5    Cass, TX
+                48069    5    Castro, TX
+3362    3360    48071    2    Chambers, TX
+                48073    5    Cherokee, TX
+                48075    5    Childress, TX
+                48077    5    Clay, TX
+                48079    5    Cochran, TX
+                48081    5    Coke, TX
+                48083    5    Coleman, TX
+1922    1920    48085    2    Collin, TX
+                48087    5    Collingsworth, TX
+                48089    5    Colorado, TX
+7240            48091    3    Comal, TX
+                48093    5    Comanche, TX
+                48095    5    Concho, TX
+                48097    5    Cooke, TX
+3810            48099    3    Coryell, TX
+                48101    5    Cottle, TX
+                48103    5    Crane, TX
+                48105    5    Crockett, TX
+                48107    5    Crosby, TX
+                48109    5    Culberson, TX
+                48111    5    Dallam, TX
+1922    1920    48113    2    Dallas, TX
+                48115    5    Dawson, TX
+                48117    5    Deaf Smith, TX
+                48119    5    Delta, TX
+1922    1920    48121    2    Denton, TX
+                48123    5    De Witt, TX
+                48125    5    Dickens, TX
+                48127    5    Dimmit, TX
+                48129    5    Donley, TX
+                48131    5    Duval, TX
+                48133    5    Eastland, TX
+5800            48135    3    Ector, TX
+                48137    5    Edwards, TX
+1922    1920    48139    2    Ellis, TX
+2320            48141    3    El Paso, TX
+                48143    5    Erath, TX
+                48145    5    Falls, TX
+                48147    5    Fannin, TX
+                48149    5    Fayette, TX
+                48151    5    Fisher, TX
+                48153    5    Floyd, TX
+                48155    5    Foard, TX
+3362    3360    48157    2    Fort Bend, TX
+                48159    5    Franklin, TX
+                48161    5    Freestone, TX
+                48163    5    Frio, TX
+                48165    5    Gaines, TX
+3362    2920    48167    2    Galveston, TX
+                48169    5    Garza, TX
+                48171    5    Gillespie, TX
+                48173    5    Glasscock, TX
+                48175    5    Goliad, TX
+                48177    5    Gonzales, TX
+                48179    5    Gray, TX
+7640            48181    3    Grayson, TX
+4420            48183    3    Gregg, TX
+                48185    5    Grimes, TX
+7240            48187    3    Guadalupe, TX
+                48189    5    Hale, TX
+                48191    5    Hall, TX
+                48193    5    Hamilton, TX
+                48195    5    Hansford, TX
+                48197    5    Hardeman, TX
+0840            48199    3    Hardin, TX
+3362    3360    48201    2    Harris, TX
+4420            48203    3    Harrison, TX
+                48205    5    Hartley, TX
+                48207    5    Haskell, TX
+0640            48209    3    Hays, TX
+                48211    5    Hemphill, TX
+1922    1920    48213    2    Henderson, TX
+4880            48215    3    Hidalgo, TX
+                48217    5    Hill, TX
+                48219    5    Hockley, TX
+1922    2800    48221    2    Hood, TX
+                48223    5    Hopkins, TX
+                48225    5    Houston, TX
+                48227    5    Howard, TX
+                48229    5    Hudspeth, TX
+1922    1920    48231    2    Hunt, TX
+                48233    5    Hutchinson, TX
+                48235    5    Irion, TX
+                48237    5    Jack, TX
+                48239    5    Jackson, TX
+                48241    5    Jasper, TX
+                48243    5    Jeff Davis, TX
+0840            48245    3    Jefferson, TX
+                48247    5    Jim Hogg, TX
+                48249    5    Jim Wells, TX
+1922    2800    48251    2    Johnson, TX
+                48253    5    Jones, TX
+                48255    5    Karnes, TX
+1922    1920    48257    2    Kaufman, TX
+                48259    5    Kendall, TX
+                48261    5    Kenedy, TX
+                48263    5    Kent, TX
+                48265    5    Kerr, TX
+                48267    5    Kimble, TX
+                48269    5    King, TX
+                48271    5    Kinney, TX
+                48273    5    Kleberg, TX
+                48275    5    Knox, TX
+                48277    5    Lamar, TX
+                48279    5    Lamb, TX
+                48281    5    Lampasas, TX
+                48283    5    La Salle, TX
+                48285    5    Lavaca, TX
+                48287    5    Lee, TX
+                48289    5    Leon, TX
+3362    3360    48291    2    Liberty, TX
+                48293    5    Limestone, TX
+                48295    5    Lipscomb, TX
+                48297    5    Live Oak, TX
+                48299    5    Llano, TX
+                48301    5    Loving, TX
+4600            48303    3    Lubbock, TX
+                48305    5    Lynn, TX
+                48307    5    McCulloch, TX
+8800            48309    3    McLennan, TX
+                48311    5    McMullen, TX
+                48313    5    Madison, TX
+                48315    5    Marion, TX
+                48317    5    Martin, TX
+                48319    5    Mason, TX
+                48321    5    Matagorda, TX
+                48323    5    Maverick, TX
+                48325    5    Medina, TX
+                48327    5    Menard, TX
+5800            48329    3    Midland, TX
+                48331    5    Milam, TX
+                48333    5    Mills, TX
+                48335    5    Mitchell, TX
+                48337    5    Montague, TX
+3362    3360    48339    2    Montgomery, TX
+                48341    5    Moore, TX
+                48343    5    Morris, TX
+                48345    5    Motley, TX
+                48347    5    Nacogdoches, TX
+                48349    5    Navarro, TX
+                48351    5    Newton, TX
+                48353    5    Nolan, TX
+1880            48355    3    Nueces, TX
+                48357    5    Ochiltree, TX
+                48359    5    Oldham, TX
+0840            48361    3    Orange, TX
+                48363    5    Palo Pinto, TX
+                48365    5    Panola, TX
+1922    2800    48367    2    Parker, TX
+                48369    5    Parmer, TX
+                48371    5    Pecos, TX
+                48373    5    Polk, TX
+0320            48375    3    Potter, TX
+                48377    5    Presidio, TX
+                48379    5    Rains, TX
+0320            48381    3    Randall, TX
+                48383    5    Reagan, TX
+                48385    5    Real, TX
+                48387    5    Red River, TX
+                48389    5    Reeves, TX
+                48391    5    Refugio, TX
+                48393    5    Roberts, TX
+                48395    5    Robertson, TX
+1922    1920    48397    2    Rockwall, TX
+                48399    5    Runnels, TX
+                48401    5    Rusk, TX
+                48403    5    Sabine, TX
+                48405    5    San Augustine, TX
+                48407    5    San Jacinto, TX
+1880            48409    3    San Patricio, TX
+                48411    5    San Saba, TX
+                48413    5    Schleicher, TX
+                48415    5    Scurry, TX
+                48417    5    Shackelford, TX
+                48419    5    Shelby, TX
+                48421    5    Sherman, TX
+8640            48423    3    Smith, TX
+                48425    5    Somervell, TX
+                48427    5    Starr, TX
+                48429    5    Stephens, TX
+                48431    5    Sterling, TX
+                48433    5    Stonewall, TX
+                48435    5    Sutton, TX
+                48437    5    Swisher, TX
+1922    2800    48439    2    Tarrant, TX
+0040            48441    3    Taylor, TX
+                48443    5    Terrell, TX
+                48445    5    Terry, TX
+                48447    5    Throckmorton, TX
+                48449    5    Titus, TX
+7200            48451    3    Tom Green, TX
+0640            48453    3    Travis, TX
+                48455    5    Trinity, TX
+                48457    5    Tyler, TX
+4420            48459    3    Upshur, TX
+                48461    5    Upton, TX
+                48463    5    Uvalde, TX
+                48465    5    Val Verde, TX
+                48467    5    Van Zandt, TX
+8750            48469    3    Victoria, TX
+                48471    5    Walker, TX
+3362    3360    48473    2    Waller, TX
+                48475    5    Ward, TX
+                48477    5    Washington, TX
+4080            48479    3    Webb, TX
+                48481    5    Wharton, TX
+                48483    5    Wheeler, TX
+9080            48485    3    Wichita, TX
+                48487    5    Wilbarger, TX
+                48489    5    Willacy, TX
+0640            48491    3    Williamson, TX
+7240            48493    3    Wilson, TX
+                48495    5    Winkler, TX
+                48497    5    Wise, TX
+                48499    5    Wood, TX
+                48501    5    Yoakum, TX
+                48503    5    Young, TX
+                48505    5    Zapata, TX
+                48507    5    Zavala, TX
+
+                49000    1    UTAH
+
+                49001    5    Beaver, UT
+                49003    5    Box Elder, UT
+                49005    5    Cache, UT
+                49007    5    Carbon, UT
+                49009    5    Daggett, UT
+7160            49011    3    Davis, UT
+                49013    5    Duchesne, UT
+                49015    5    Emery, UT
+                49017    5    Garfield, UT
+                49019    5    Grand, UT
+                49021    5    Iron, UT
+                49023    5    Juab, UT
+                49025    5    Kane, UT
+                49027    5    Millard, UT
+                49029    5    Morgan, UT
+                49031    5    Piute, UT
+                49033    5    Rich, UT
+7160            49035    3    Salt Lake, UT
+                49037    5    San Juan, UT
+                49039    5    Sanpete, UT
+                49041    5    Sevier, UT
+                49043    5    Summit, UT
+                49045    5    Tooele, UT
+                49047    5    Uintah, UT
+6520            49049    3    Utah, UT
+                49051    5    Wasatch, UT
+                49053    5    Washington, UT
+                49055    5    Wayne, UT
+7160            49057    3    Weber, UT
+
+                51000    1    VIRGINIA
+
+                51001    5    Accomack, VA
+1540            51003    3    Albemarle, VA
+                51005    5    Alleghany, VA
+                51007    5    Amelia, VA
+4640            51009    3    Amherst, VA
+                51011    5    Appomattox, VA
+8872    8840    51013    2    Arlington, VA
+                51015    5    Augusta, VA
+                51017    5    Bath, VA
+4640            51019    3    Bedford, VA
+                51021    5    Bland, VA
+6800            51023    3    Botetourt, VA
+                51025    5    Brunswick, VA
+                51027    5    Buchanan, VA
+                51029    5    Buckingham, VA
+4640            51031    3    Campbell, VA
+                51033    5    Caroline, VA
+                51035    5    Carroll, VA
+6760            51036    3    Charles City, VA
+                51037    5    Charlotte, VA
+6760            51041    3    Chesterfield, VA
+8872    8840    51043    2    Clarke, VA
+                51045    5    Craig, VA
+8872    8840    51047    2    Culpeper, VA
+                51049    5    Cumberland, VA
+                51051    5    Dickenson, VA
+6760            51053    3    Dinwiddie, VA
+                51057    5    Essex, VA
+8872    8840    51059    2    Fairfax, VA
+8872    8840    51061    2    Fauquier, VA
+                51063    5    Floyd, VA
+1540            51065    3    Fluvanna, VA
+                51067    5    Franklin, VA
+                51069    5    Frederick, VA
+                51071    5    Giles, VA
+5720            51073    3    Gloucester, VA
+6760            51075    3    Goochland, VA
+                51077    5    Grayson, VA
+1540            51079    3    Greene, VA
+                51081    5    Greensville, VA
+                51083    5    Halifax, VA
+6760            51085    3    Hanover, VA
+6760            51087    3    Henrico, VA
+                51089    5    Henry, VA
+                51091    5    Highland, VA
+5720            51093    3    Isle of Wight, VA
+5720            51095    3    James City, VA
+                51097    5    King and Queen, VA
+8872    8840    51099    2    King George, VA
+                51101    5    King William, VA
+                51103    5    Lancaster, VA
+                51105    5    Lee, VA
+8872    8840    51107    2    Loudoun, VA
+                51109    5    Louisa, VA
+                51111    5    Lunenburg, VA
+                51113    5    Madison, VA
+5720            51115    3    Mathews, VA
+                51117    5    Mecklenburg, VA
+                51119    5    Middlesex, VA
+                51121    5    Montgomery, VA
+                51125    5    Nelson, VA
+6760            51127    3    New Kent, VA
+                51131    5    Northampton, VA
+                51133    5    Northumberland, VA
+                51135    5    Nottoway, VA
+                51137    5    Orange, VA
+                51139    5    Page, VA
+                51141    5    Patrick, VA
+1950            51143    3    Pittsylvania, VA
+6760            51145    3    Powhatan, VA
+                51147    5    Prince Edward, VA
+6760            51149    3    Prince George, VA
+8872    8840    51153    2    Prince William, VA
+                51155    5    Pulaski, VA
+                51157    5    Rappahannock, VA
+                51159    5    Richmond, VA
+6800            51161    3    Roanoke, VA
+                51163    5    Rockbridge, VA
+                51165    5    Rockingham, VA
+                51167    5    Russell, VA
+3660            51169    3    Scott, VA
+                51171    5    Shenandoah, VA
+                51173    5    Smyth, VA
+                51175    5    Southampton, VA
+8872    8840    51177    2    Spotsylvania, VA
+8872    8840    51179    2    Stafford, VA
+                51181    5    Surry, VA
+                51183    5    Sussex, VA
+                51185    5    Tazewell, VA
+8872    8840    51187    2    Warren, VA
+3660            51191    3    Washington, VA
+                51193    5    Westmoreland, VA
+                51195    5    Wise, VA
+                51197    5    Wythe, VA
+5720            51199    3    York, VA
+
+8872    8840    51510    2    Alexandria, VA
+4640            51515    3    Bedford, VA
+3660            51520    3    Bristol, VA
+                51530    5    Buena Vista, VA
+1540            51540    3    Charlottesville, VA
+5720            51550    3    Chesapeake, VA
+                51560    5    Clifton Forge, VA
+6760            51570    3    Colonial Heights, VA
+                51580    5    Covington, VA
+1950            51590    3    Danville, VA
+                51595    5    Emporia, VA
+8872    8840    51600    2    Fairfax, VA
+8872    8840    51610    2    Falls Church, VA
+                51620    5    Franklin, VA
+8872    8840    51630    2    Fredericksburg, VA
+                51640    5    Galax, VA
+5720            51650    3    Hampton, VA
+                51660    5    Harrisonburg, VA
+6760            51670    3    Hopewell, VA
+                51678    5    Lexington, VA
+4640            51680    3    Lynchburg, VA
+8872    8840    51683    2    Manassas, VA
+8872    8840    51685    2    Manassas Park, VA
+                51690    5    Martinsville, VA
+5720            51700    3    Newport News, VA
+5720            51710    3    Norfolk, VA
+                51720    5    Norton, VA
+6760            51730    3    Petersburg, VA
+5720            51735    3    Poquoson, VA
+5720            51740    3    Portsmouth, VA
+                51750    5    Radford, VA
+6760            51760    3    Richmond, VA
+6800            51770    3    Roanoke, VA
+6800            51775    3    Salem, VA
+                51780    5    South Boston, VA
+                51790    5    Staunton, VA
+5720            51800    3    Suffolk, VA
+5720            51810    3    Virginia Beach, VA
+                51820    5    Waynesboro, VA
+5720            51830    3    Williamsburg, VA
+                51840    5    Winchester, VA
+
+                50000    1    VERMONT
+
+                50001    5    Addison, VT
+                50003    5    Bennington, VT
+                50005    5    Caledonia, VT
+1303            50007    4    Chittenden, VT
+                50009    5    Essex, VT
+1303            50011    4    Franklin, VT
+1303            50013    4    Grand Isle, VT
+                50015    5    Lamoille, VT
+                50017    5    Orange, VT
+                50019    5    Orleans, VT
+                50021    5    Rutland, VT
+                50023    5    Washington, VT
+                50025    5    Windham, VT
+                50027    5    Windsor, VT
+
+                53000    1    WASHINGTON
+
+                53001    5    Adams, WA
+                53003    5    Asotin, WA
+6740            53005    3    Benton, WA
+                53007    5    Chelan, WA
+                53009    5    Clallam, WA
+6442    6440    53011    2    Clark, WA
+                53013    5    Columbia, WA
+                53015    5    Cowlitz, WA
+                53017    5    Douglas, WA
+                53019    5    Ferry, WA
+6740            53021    3    Franklin, WA
+                53023    5    Garfield, WA
+                53025    5    Grant, WA
+                53027    5    Grays Harbor, WA
+7602    7600    53029    2    Island, WA
+                53031    5    Jefferson, WA
+7602    7600    53033    2    King, WA
+7602    1150    53035    2    Kitsap, WA
+                53037    5    Kittitas, WA
+                53039    5    Klickitat, WA
+                53041    5    Lewis, WA
+                53043    5    Lincoln, WA
+                53045    5    Mason, WA
+                53047    5    Okanogan, WA
+                53049    5    Pacific, WA
+                53051    5    Pend Oreille, WA
+7602    8200    53053    2    Pierce, WA
+                53055    5    San Juan, WA
+                53057    5    Skagit, WA
+                53059    5    Skamania, WA
+7602    7600    53061    2    Snohomish, WA
+7840            53063    3    Spokane, WA
+                53065    5    Stevens, WA
+7602    5910    53067    2    Thurston, WA
+                53069    5    Wahkiakum, WA
+                53071    5    Walla Walla, WA
+0860            53073    3    Whatcom, WA
+                53075    5    Whitman, WA
+9260            53077    3    Yakima, WA
+
+                55000    1    WISCONSIN
+
+                55001    5    Adams, WI
+                55003    5    Ashland, WI
+                55005    5    Barron, WI
+                55007    5    Bayfield, WI
+3080            55009    3    Brown, WI
+                55011    5    Buffalo, WI
+                55013    5    Burnett, WI
+0460            55015    3    Calumet, WI
+2290            55017    3    Chippewa, WI
+                55019    5    Clark, WI
+                55021    5    Columbia, WI
+                55023    5    Crawford, WI
+4720            55025    3    Dane, WI
+                55027    5    Dodge, WI
+                55029    5    Door, WI
+2240            55031    3    Douglas, WI
+                55033    5    Dunn, WI
+2290            55035    3    Eau Claire, WI
+                55037    5    Florence, WI
+                55039    5    Fond du Lac, WI
+                55041    5    Forest, WI
+                55043    5    Grant, WI
+                55045    5    Green, WI
+                55047    5    Green Lake, WI
+                55049    5    Iowa, WI
+                55051    5    Iron, WI
+                55053    5    Jackson, WI
+                55055    5    Jefferson, WI
+                55057    5    Juneau, WI
+1602    3800    55059    2    Kenosha, WI
+                55061    5    Kewaunee, WI
+3870            55063    3    La Crosse, WI
+                55065    5    Lafayette, WI
+                55067    5    Langlade, WI
+                55069    5    Lincoln, WI
+                55071    5    Manitowoc, WI
+8940            55073    3    Marathon, WI
+                55075    5    Marinette, WI
+                55077    5    Marquette, WI
+                55078    5    Menominee, WI
+5082    5080    55079    2    Milwaukee, WI
+                55081    5    Monroe, WI
+                55083    5    Oconto, WI
+                55085    5    Oneida, WI
+0460            55087    3    Outagamie, WI
+5082    5080    55089    2    Ozaukee, WI
+                55091    5    Pepin, WI
+5120            55093    3    Pierce, WI
+                55095    5    Polk, WI
+                55097    5    Portage, WI
+                55099    5    Price, WI
+5082    6600    55101    2    Racine, WI
+                55103    5    Richland, WI
+3620            55105    3    Rock, WI
+                55107    5    Rusk, WI
+5120            55109    3    St. Croix, WI
+                55111    5    Sauk, WI
+                55113    5    Sawyer, WI
+                55115    5    Shawano, WI
+7620            55117    3    Sheboygan, WI
+                55119    5    Taylor, WI
+                55121    5    Trempealeau, WI
+                55123    5    Vernon, WI
+                55125    5    Vilas, WI
+                55127    5    Walworth, WI
+                55129    5    Washburn, WI
+5082    5080    55131    2    Washington, WI
+5082    5080    55133    2    Waukesha, WI
+                55135    5    Waupaca, WI
+                55137    5    Waushara, WI
+0460            55139    3    Winnebago, WI
+                55141    5    Wood, WI
+
+                54000    1    WEST VIRGINIA
+
+                54001    5    Barbour, WV
+8872    8840    54003    2    Berkeley, WV
+                54005    5    Boone, WV
+                54007    5    Braxton, WV
+8080            54009    3    Brooke, WV
+3400            54011    3    Cabell, WV
+                54013    5    Calhoun, WV
+                54015    5    Clay, WV
+                54017    5    Doddridge, WV
+                54019    5    Fayette, WV
+                54021    5    Gilmer, WV
+                54023    5    Grant, WV
+                54025    5    Greenbrier, WV
+                54027    5    Hampshire, WV
+8080            54029    3    Hancock, WV
+                54031    5    Hardy, WV
+                54033    5    Harrison, WV
+                54035    5    Jackson, WV
+8872    8840    54037    2    Jefferson, WV
+1480            54039    3    Kanawha, WV
+                54041    5    Lewis, WV
+                54043    5    Lincoln, WV
+                54045    5    Logan, WV
+                54047    5    McDowell, WV
+                54049    5    Marion, WV
+9000            54051    3    Marshall, WV
+                54053    5    Mason, WV
+                54055    5    Mercer, WV
+1900            54057    3    Mineral, WV
+                54059    5    Mingo, WV
+                54061    5    Monongalia, WV
+                54063    5    Monroe, WV
+                54065    5    Morgan, WV
+                54067    5    Nicholas, WV
+9000            54069    3    Ohio, WV
+                54071    5    Pendleton, WV
+                54073    5    Pleasants, WV
+                54075    5    Pocahontas, WV
+                54077    5    Preston, WV
+1480            54079    3    Putnam, WV
+                54081    5    Raleigh, WV
+                54083    5    Randolph, WV
+                54085    5    Ritchie, WV
+                54087    5    Roane, WV
+                54089    5    Summers, WV
+                54091    5    Taylor, WV
+                54093    5    Tucker, WV
+                54095    5    Tyler, WV
+                54097    5    Upshur, WV
+3400            54099    3    Wayne, WV
+                54101    5    Webster, WV
+                54103    5    Wetzel, WV
+                54105    5    Wirt, WV
+6020            54107    3    Wood, WV
+                54109    5    Wyoming, WV
+
+                56000    1    WYOMING
+
+                56001    5    Albany, WY
+                56003    5    Big Horn, WY
+                56005    5    Campbell, WY
+                56007    5    Carbon, WY
+                56009    5    Converse, WY
+                56011    5    Crook, WY
+                56013    5    Fremont, WY
+                56015    5    Goshen, WY
+                56017    5    Hot Springs, WY
+                56019    5    Johnson, WY
+1580            56021    3    Laramie, WY
+                56023    5    Lincoln, WY
+1350            56025    3    Natrona, WY
+                56027    5    Niobrara, WY
+                56029    5    Park, WY
+                56031    5    Platte, WY
+                56033    5    Sheridan, WY
+                56035    5    Sublette, WY
+                56037    5    Sweetwater, WY
+                56039    5    Teton, WY
+                56041    5    Uinta, WY
+                56043    5    Washakie, WY
+                56045    5    Weston, WY

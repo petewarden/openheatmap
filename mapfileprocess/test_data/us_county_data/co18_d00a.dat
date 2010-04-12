@@ -1,0 +1,651 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "18"
+ "141"
+ "St. Joseph"
+ "06"
+ "County"
+ 
+ 2
+ "18"
+ "039"
+ "Elkhart"
+ "06"
+ "County"
+ 
+ 3
+ "18"
+ "091"
+ "LaPorte"
+ "06"
+ "County"
+ 
+ 4
+ "18"
+ "151"
+ "Steuben"
+ "06"
+ "County"
+ 
+ 5
+ "18"
+ "087"
+ "LaGrange"
+ "06"
+ "County"
+ 
+ 6
+ "18"
+ "127"
+ "Porter"
+ "06"
+ "County"
+ 
+ 7
+ "18"
+ "089"
+ "Lake"
+ "06"
+ "County"
+ 
+ 8
+ "18"
+ "033"
+ "DeKalb"
+ "06"
+ "County"
+ 
+ 9
+ "18"
+ "113"
+ "Noble"
+ "06"
+ "County"
+ 
+ 10
+ "18"
+ "099"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 11
+ "18"
+ "085"
+ "Kosciusko"
+ "06"
+ "County"
+ 
+ 12
+ "18"
+ "149"
+ "Starke"
+ "06"
+ "County"
+ 
+ 13
+ "18"
+ "183"
+ "Whitley"
+ "06"
+ "County"
+ 
+ 14
+ "18"
+ "073"
+ "Jasper"
+ "06"
+ "County"
+ 
+ 15
+ "18"
+ "003"
+ "Allen"
+ "06"
+ "County"
+ 
+ 16
+ "18"
+ "111"
+ "Newton"
+ "06"
+ "County"
+ 
+ 17
+ "18"
+ "049"
+ "Fulton"
+ "06"
+ "County"
+ 
+ 18
+ "18"
+ "131"
+ "Pulaski"
+ "06"
+ "County"
+ 
+ 19
+ "18"
+ "169"
+ "Wabash"
+ "06"
+ "County"
+ 
+ 20
+ "18"
+ "069"
+ "Huntington"
+ "06"
+ "County"
+ 
+ 21
+ "18"
+ "103"
+ "Miami"
+ "06"
+ "County"
+ 
+ 22
+ "18"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 23
+ "18"
+ "179"
+ "Wells"
+ "06"
+ "County"
+ 
+ 24
+ "18"
+ "181"
+ "White"
+ "06"
+ "County"
+ 
+ 25
+ "18"
+ "017"
+ "Cass"
+ "06"
+ "County"
+ 
+ 26
+ "18"
+ "015"
+ "Carroll"
+ "06"
+ "County"
+ 
+ 27
+ "18"
+ "007"
+ "Benton"
+ "06"
+ "County"
+ 
+ 28
+ "18"
+ "053"
+ "Grant"
+ "06"
+ "County"
+ 
+ 29
+ "18"
+ "075"
+ "Jay"
+ "06"
+ "County"
+ 
+ 30
+ "18"
+ "009"
+ "Blackford"
+ "06"
+ "County"
+ 
+ 31
+ "18"
+ "067"
+ "Howard"
+ "06"
+ "County"
+ 
+ 32
+ "18"
+ "157"
+ "Tippecanoe"
+ "06"
+ "County"
+ 
+ 33
+ "18"
+ "171"
+ "Warren"
+ "06"
+ "County"
+ 
+ 34
+ "18"
+ "023"
+ "Clinton"
+ "06"
+ "County"
+ 
+ 35
+ "18"
+ "159"
+ "Tipton"
+ "06"
+ "County"
+ 
+ 36
+ "18"
+ "095"
+ "Madison"
+ "06"
+ "County"
+ 
+ 37
+ "18"
+ "035"
+ "Delaware"
+ "06"
+ "County"
+ 
+ 38
+ "18"
+ "045"
+ "Fountain"
+ "06"
+ "County"
+ 
+ 39
+ "18"
+ "135"
+ "Randolph"
+ "06"
+ "County"
+ 
+ 40
+ "18"
+ "057"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 41
+ "18"
+ "107"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 42
+ "18"
+ "011"
+ "Boone"
+ "06"
+ "County"
+ 
+ 43
+ "18"
+ "165"
+ "Vermillion"
+ "06"
+ "County"
+ 
+ 44
+ "18"
+ "065"
+ "Henry"
+ "06"
+ "County"
+ 
+ 45
+ "18"
+ "177"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 46
+ "18"
+ "121"
+ "Parke"
+ "06"
+ "County"
+ 
+ 47
+ "18"
+ "059"
+ "Hancock"
+ "06"
+ "County"
+ 
+ 48
+ "18"
+ "097"
+ "Marion"
+ "06"
+ "County"
+ 
+ 49
+ "18"
+ "063"
+ "Hendricks"
+ "06"
+ "County"
+ 
+ 50
+ "18"
+ "133"
+ "Putnam"
+ "06"
+ "County"
+ 
+ 51
+ "18"
+ "041"
+ "Fayette"
+ "06"
+ "County"
+ 
+ 52
+ "18"
+ "139"
+ "Rush"
+ "06"
+ "County"
+ 
+ 53
+ "18"
+ "161"
+ "Union"
+ "06"
+ "County"
+ 
+ 54
+ "18"
+ "145"
+ "Shelby"
+ "06"
+ "County"
+ 
+ 55
+ "18"
+ "081"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 56
+ "18"
+ "109"
+ "Morgan"
+ "06"
+ "County"
+ 
+ 57
+ "18"
+ "167"
+ "Vigo"
+ "06"
+ "County"
+ 
+ 58
+ "18"
+ "021"
+ "Clay"
+ "06"
+ "County"
+ 
+ 59
+ "18"
+ "047"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 60
+ "18"
+ "119"
+ "Owen"
+ "06"
+ "County"
+ 
+ 61
+ "18"
+ "031"
+ "Decatur"
+ "06"
+ "County"
+ 
+ 62
+ "18"
+ "105"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 63
+ "18"
+ "005"
+ "Bartholomew"
+ "06"
+ "County"
+ 
+ 64
+ "18"
+ "013"
+ "Brown"
+ "06"
+ "County"
+ 
+ 65
+ "18"
+ "137"
+ "Ripley"
+ "06"
+ "County"
+ 
+ 66
+ "18"
+ "029"
+ "Dearborn"
+ "06"
+ "County"
+ 
+ 67
+ "18"
+ "153"
+ "Sullivan"
+ "06"
+ "County"
+ 
+ 68
+ "18"
+ "079"
+ "Jennings"
+ "06"
+ "County"
+ 
+ 69
+ "18"
+ "055"
+ "Greene"
+ "06"
+ "County"
+ 
+ 70
+ "18"
+ "071"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 71
+ "18"
+ "115"
+ "Ohio"
+ "06"
+ "County"
+ 
+ 72
+ "18"
+ "093"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 73
+ "18"
+ "155"
+ "Switzerland"
+ "06"
+ "County"
+ 
+ 74
+ "18"
+ "077"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 75
+ "18"
+ "083"
+ "Knox"
+ "06"
+ "County"
+ 
+ 76
+ "18"
+ "101"
+ "Martin"
+ "06"
+ "County"
+ 
+ 77
+ "18"
+ "027"
+ "Daviess"
+ "06"
+ "County"
+ 
+ 78
+ "18"
+ "143"
+ "Scott"
+ "06"
+ "County"
+ 
+ 79
+ "18"
+ "175"
+ "Washington"
+ "06"
+ "County"
+ 
+ 80
+ "18"
+ "117"
+ "Orange"
+ "06"
+ "County"
+ 
+ 81
+ "18"
+ "019"
+ "Clark"
+ "06"
+ "County"
+ 
+ 82
+ "18"
+ "125"
+ "Pike"
+ "06"
+ "County"
+ 
+ 83
+ "18"
+ "051"
+ "Gibson"
+ "06"
+ "County"
+ 
+ 84
+ "18"
+ "037"
+ "Dubois"
+ "06"
+ "County"
+ 
+ 85
+ "18"
+ "025"
+ "Crawford"
+ "06"
+ "County"
+ 
+ 86
+ "18"
+ "061"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 87
+ "18"
+ "043"
+ "Floyd"
+ "06"
+ "County"
+ 
+ 88
+ "18"
+ "123"
+ "Perry"
+ "06"
+ "County"
+ 
+ 89
+ "18"
+ "173"
+ "Warrick"
+ "06"
+ "County"
+ 
+ 90
+ "18"
+ "129"
+ "Posey"
+ "06"
+ "County"
+ 
+ 91
+ "18"
+ "147"
+ "Spencer"
+ "06"
+ "County"
+ 
+ 92
+ "18"
+ "163"
+ "Vanderburgh"
+ "06"
+ "County"
+ 

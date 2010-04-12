@@ -1,0 +1,497 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "22"
+ "015"
+ "Bossier"
+ "15"
+ "Parish"
+ 
+ 2
+ "22"
+ "017"
+ "Caddo"
+ "15"
+ "Parish"
+ 
+ 3
+ "22"
+ "119"
+ "Webster"
+ "15"
+ "Parish"
+ 
+ 4
+ "22"
+ "027"
+ "Claiborne"
+ "15"
+ "Parish"
+ 
+ 5
+ "22"
+ "111"
+ "Union"
+ "15"
+ "Parish"
+ 
+ 6
+ "22"
+ "067"
+ "Morehouse"
+ "15"
+ "Parish"
+ 
+ 7
+ "22"
+ "123"
+ "West Carroll"
+ "15"
+ "Parish"
+ 
+ 8
+ "22"
+ "035"
+ "East Carroll"
+ "15"
+ "Parish"
+ 
+ 9
+ "22"
+ "061"
+ "Lincoln"
+ "15"
+ "Parish"
+ 
+ 10
+ "22"
+ "073"
+ "Ouachita"
+ "15"
+ "Parish"
+ 
+ 11
+ "22"
+ "083"
+ "Richland"
+ "15"
+ "Parish"
+ 
+ 12
+ "22"
+ "013"
+ "Bienville"
+ "15"
+ "Parish"
+ 
+ 13
+ "22"
+ "065"
+ "Madison"
+ "15"
+ "Parish"
+ 
+ 14
+ "22"
+ "049"
+ "Jackson"
+ "15"
+ "Parish"
+ 
+ 15
+ "22"
+ "041"
+ "Franklin"
+ "15"
+ "Parish"
+ 
+ 16
+ "22"
+ "031"
+ "De Soto"
+ "15"
+ "Parish"
+ 
+ 17
+ "22"
+ "021"
+ "Caldwell"
+ "15"
+ "Parish"
+ 
+ 18
+ "22"
+ "107"
+ "Tensas"
+ "15"
+ "Parish"
+ 
+ 19
+ "22"
+ "081"
+ "Red River"
+ "15"
+ "Parish"
+ 
+ 20
+ "22"
+ "065"
+ "Madison"
+ "15"
+ "Parish"
+ 
+ 21
+ "22"
+ "069"
+ "Natchitoches"
+ "15"
+ "Parish"
+ 
+ 22
+ "22"
+ "127"
+ "Winn"
+ "15"
+ "Parish"
+ 
+ 23
+ "22"
+ "025"
+ "Catahoula"
+ "15"
+ "Parish"
+ 
+ 24
+ "22"
+ "059"
+ "La Salle"
+ "15"
+ "Parish"
+ 
+ 25
+ "22"
+ "085"
+ "Sabine"
+ "15"
+ "Parish"
+ 
+ 26
+ "22"
+ "043"
+ "Grant"
+ "15"
+ "Parish"
+ 
+ 27
+ "22"
+ "029"
+ "Concordia"
+ "15"
+ "Parish"
+ 
+ 28
+ "22"
+ "079"
+ "Rapides"
+ "15"
+ "Parish"
+ 
+ 29
+ "22"
+ "115"
+ "Vernon"
+ "15"
+ "Parish"
+ 
+ 30
+ "22"
+ "009"
+ "Avoyelles"
+ "15"
+ "Parish"
+ 
+ 31
+ "22"
+ "125"
+ "West Feliciana"
+ "15"
+ "Parish"
+ 
+ 32
+ "22"
+ "077"
+ "Pointe Coupee"
+ "15"
+ "Parish"
+ 
+ 33
+ "22"
+ "117"
+ "Washington"
+ "15"
+ "Parish"
+ 
+ 34
+ "22"
+ "039"
+ "Evangeline"
+ "15"
+ "Parish"
+ 
+ 35
+ "22"
+ "105"
+ "Tangipahoa"
+ "15"
+ "Parish"
+ 
+ 36
+ "22"
+ "091"
+ "St. Helena"
+ "15"
+ "Parish"
+ 
+ 37
+ "22"
+ "037"
+ "East Feliciana"
+ "15"
+ "Parish"
+ 
+ 38
+ "22"
+ "125"
+ "West Feliciana"
+ "15"
+ "Parish"
+ 
+ 39
+ "22"
+ "003"
+ "Allen"
+ "15"
+ "Parish"
+ 
+ 40
+ "22"
+ "011"
+ "Beauregard"
+ "15"
+ "Parish"
+ 
+ 41
+ "22"
+ "097"
+ "St. Landry"
+ "15"
+ "Parish"
+ 
+ 42
+ "22"
+ "033"
+ "East Baton Rouge"
+ "15"
+ "Parish"
+ 
+ 43
+ "22"
+ "103"
+ "St. Tammany"
+ "15"
+ "Parish"
+ 
+ 44
+ "22"
+ "121"
+ "West Baton Rouge"
+ "15"
+ "Parish"
+ 
+ 45
+ "22"
+ "063"
+ "Livingston"
+ "15"
+ "Parish"
+ 
+ 46
+ "22"
+ "099"
+ "St. Martin"
+ "15"
+ "Parish"
+ 
+ 47
+ "22"
+ "047"
+ "Iberville"
+ "15"
+ "Parish"
+ 
+ 48
+ "22"
+ "019"
+ "Calcasieu"
+ "15"
+ "Parish"
+ 
+ 49
+ "22"
+ "053"
+ "Jefferson Davis"
+ "15"
+ "Parish"
+ 
+ 50
+ "22"
+ "001"
+ "Acadia"
+ "15"
+ "Parish"
+ 
+ 51
+ "22"
+ "055"
+ "Lafayette"
+ "15"
+ "Parish"
+ 
+ 52
+ "22"
+ "005"
+ "Ascension"
+ "15"
+ "Parish"
+ 
+ 53
+ "22"
+ "095"
+ "St. John the Baptist"
+ "15"
+ "Parish"
+ 
+ 54
+ "22"
+ "089"
+ "St. Charles"
+ "15"
+ "Parish"
+ 
+ 55
+ "22"
+ "051"
+ "Jefferson"
+ "15"
+ "Parish"
+ 
+ 56
+ "22"
+ "071"
+ "Orleans"
+ "15"
+ "Parish"
+ 
+ 57
+ "22"
+ "093"
+ "St. James"
+ "15"
+ "Parish"
+ 
+ 58
+ "22"
+ "113"
+ "Vermilion"
+ "15"
+ "Parish"
+ 
+ 59
+ "22"
+ "045"
+ "Iberia"
+ "15"
+ "Parish"
+ 
+ 60
+ "22"
+ "007"
+ "Assumption"
+ "15"
+ "Parish"
+ 
+ 61
+ "22"
+ "087"
+ "St. Bernard"
+ "15"
+ "Parish"
+ 
+ 62
+ "22"
+ "087"
+ "St. Bernard"
+ "15"
+ "Parish"
+ 
+ 63
+ "22"
+ "023"
+ "Cameron"
+ "15"
+ "Parish"
+ 
+ 64
+ "22"
+ "099"
+ "St. Martin"
+ "15"
+ "Parish"
+ 
+ 65
+ "22"
+ "101"
+ "St. Mary"
+ "15"
+ "Parish"
+ 
+ 66
+ "22"
+ "057"
+ "Lafourche"
+ "15"
+ "Parish"
+ 
+ 67
+ "22"
+ "075"
+ "Plaquemines"
+ "15"
+ "Parish"
+ 
+ 68
+ "22"
+ "109"
+ "Terrebonne"
+ "15"
+ "Parish"
+ 
+ 69
+ "22"
+ "045"
+ "Iberia"
+ "15"
+ "Parish"
+ 
+ 70
+ "22"
+ "051"
+ "Jefferson"
+ "15"
+ "Parish"
+ 

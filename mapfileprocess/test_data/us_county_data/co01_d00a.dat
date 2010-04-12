@@ -1,0 +1,483 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "01"
+ "077"
+ "Lauderdale"
+ "06"
+ "County"
+ 
+ 2
+ "01"
+ "083"
+ "Limestone"
+ "06"
+ "County"
+ 
+ 3
+ "01"
+ "089"
+ "Madison"
+ "06"
+ "County"
+ 
+ 4
+ "01"
+ "071"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 5
+ "01"
+ "033"
+ "Colbert"
+ "06"
+ "County"
+ 
+ 6
+ "01"
+ "049"
+ "DeKalb"
+ "06"
+ "County"
+ 
+ 7
+ "01"
+ "079"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 8
+ "01"
+ "103"
+ "Morgan"
+ "06"
+ "County"
+ 
+ 9
+ "01"
+ "095"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 10
+ "01"
+ "059"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 11
+ "01"
+ "019"
+ "Cherokee"
+ "06"
+ "County"
+ 
+ 12
+ "01"
+ "093"
+ "Marion"
+ "06"
+ "County"
+ 
+ 13
+ "01"
+ "043"
+ "Cullman"
+ "06"
+ "County"
+ 
+ 14
+ "01"
+ "133"
+ "Winston"
+ "06"
+ "County"
+ 
+ 15
+ "01"
+ "009"
+ "Blount"
+ "06"
+ "County"
+ 
+ 16
+ "01"
+ "055"
+ "Etowah"
+ "06"
+ "County"
+ 
+ 17
+ "01"
+ "075"
+ "Lamar"
+ "06"
+ "County"
+ 
+ 18
+ "01"
+ "127"
+ "Walker"
+ "06"
+ "County"
+ 
+ 19
+ "01"
+ "115"
+ "St. Clair"
+ "06"
+ "County"
+ 
+ 20
+ "01"
+ "015"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 21
+ "01"
+ "029"
+ "Cleburne"
+ "06"
+ "County"
+ 
+ 22
+ "01"
+ "057"
+ "Fayette"
+ "06"
+ "County"
+ 
+ 23
+ "01"
+ "073"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 24
+ "01"
+ "121"
+ "Talladega"
+ "06"
+ "County"
+ 
+ 25
+ "01"
+ "125"
+ "Tuscaloosa"
+ "06"
+ "County"
+ 
+ 26
+ "01"
+ "117"
+ "Shelby"
+ "06"
+ "County"
+ 
+ 27
+ "01"
+ "107"
+ "Pickens"
+ "06"
+ "County"
+ 
+ 28
+ "01"
+ "111"
+ "Randolph"
+ "06"
+ "County"
+ 
+ 29
+ "01"
+ "027"
+ "Clay"
+ "06"
+ "County"
+ 
+ 30
+ "01"
+ "007"
+ "Bibb"
+ "06"
+ "County"
+ 
+ 31
+ "01"
+ "063"
+ "Greene"
+ "06"
+ "County"
+ 
+ 32
+ "01"
+ "017"
+ "Chambers"
+ "06"
+ "County"
+ 
+ 33
+ "01"
+ "123"
+ "Tallapoosa"
+ "06"
+ "County"
+ 
+ 34
+ "01"
+ "037"
+ "Coosa"
+ "06"
+ "County"
+ 
+ 35
+ "01"
+ "021"
+ "Chilton"
+ "06"
+ "County"
+ 
+ 36
+ "01"
+ "065"
+ "Hale"
+ "06"
+ "County"
+ 
+ 37
+ "01"
+ "119"
+ "Sumter"
+ "06"
+ "County"
+ 
+ 38
+ "01"
+ "105"
+ "Perry"
+ "06"
+ "County"
+ 
+ 39
+ "01"
+ "051"
+ "Elmore"
+ "06"
+ "County"
+ 
+ 40
+ "01"
+ "081"
+ "Lee"
+ "06"
+ "County"
+ 
+ 41
+ "01"
+ "047"
+ "Dallas"
+ "06"
+ "County"
+ 
+ 42
+ "01"
+ "001"
+ "Autauga"
+ "06"
+ "County"
+ 
+ 43
+ "01"
+ "087"
+ "Macon"
+ "06"
+ "County"
+ 
+ 44
+ "01"
+ "091"
+ "Marengo"
+ "06"
+ "County"
+ 
+ 45
+ "01"
+ "113"
+ "Russell"
+ "06"
+ "County"
+ 
+ 46
+ "01"
+ "101"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 47
+ "01"
+ "085"
+ "Lowndes"
+ "06"
+ "County"
+ 
+ 48
+ "01"
+ "023"
+ "Choctaw"
+ "06"
+ "County"
+ 
+ 49
+ "01"
+ "011"
+ "Bullock"
+ "06"
+ "County"
+ 
+ 50
+ "01"
+ "131"
+ "Wilcox"
+ "06"
+ "County"
+ 
+ 51
+ "01"
+ "005"
+ "Barbour"
+ "06"
+ "County"
+ 
+ 52
+ "01"
+ "109"
+ "Pike"
+ "06"
+ "County"
+ 
+ 53
+ "01"
+ "041"
+ "Crenshaw"
+ "06"
+ "County"
+ 
+ 54
+ "01"
+ "025"
+ "Clarke"
+ "06"
+ "County"
+ 
+ 55
+ "01"
+ "013"
+ "Butler"
+ "06"
+ "County"
+ 
+ 56
+ "01"
+ "099"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 57
+ "01"
+ "067"
+ "Henry"
+ "06"
+ "County"
+ 
+ 58
+ "01"
+ "035"
+ "Conecuh"
+ "06"
+ "County"
+ 
+ 59
+ "01"
+ "129"
+ "Washington"
+ "06"
+ "County"
+ 
+ 60
+ "01"
+ "045"
+ "Dale"
+ "06"
+ "County"
+ 
+ 61
+ "01"
+ "031"
+ "Coffee"
+ "06"
+ "County"
+ 
+ 62
+ "01"
+ "039"
+ "Covington"
+ "06"
+ "County"
+ 
+ 63
+ "01"
+ "003"
+ "Baldwin"
+ "06"
+ "County"
+ 
+ 64
+ "01"
+ "069"
+ "Houston"
+ "06"
+ "County"
+ 
+ 65
+ "01"
+ "053"
+ "Escambia"
+ "06"
+ "County"
+ 
+ 66
+ "01"
+ "061"
+ "Geneva"
+ "06"
+ "County"
+ 
+ 67
+ "01"
+ "097"
+ "Mobile"
+ "06"
+ "County"
+ 
+ 68
+ "01"
+ "097"
+ "Mobile"
+ "06"
+ "County"
+ 

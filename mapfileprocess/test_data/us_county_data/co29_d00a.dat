@@ -1,0 +1,812 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "29"
+ "045"
+ "Clark"
+ "06"
+ "County"
+ 
+ 2
+ "29"
+ "199"
+ "Scotland"
+ "06"
+ "County"
+ 
+ 3
+ "29"
+ "197"
+ "Schuyler"
+ "06"
+ "County"
+ 
+ 4
+ "29"
+ "171"
+ "Putnam"
+ "06"
+ "County"
+ 
+ 5
+ "29"
+ "005"
+ "Atchison"
+ "06"
+ "County"
+ 
+ 6
+ "29"
+ "129"
+ "Mercer"
+ "06"
+ "County"
+ 
+ 7
+ "29"
+ "147"
+ "Nodaway"
+ "06"
+ "County"
+ 
+ 8
+ "29"
+ "081"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 9
+ "29"
+ "227"
+ "Worth"
+ "06"
+ "County"
+ 
+ 10
+ "29"
+ "075"
+ "Gentry"
+ "06"
+ "County"
+ 
+ 11
+ "29"
+ "211"
+ "Sullivan"
+ "06"
+ "County"
+ 
+ 12
+ "29"
+ "001"
+ "Adair"
+ "06"
+ "County"
+ 
+ 13
+ "29"
+ "103"
+ "Knox"
+ "06"
+ "County"
+ 
+ 14
+ "29"
+ "079"
+ "Grundy"
+ "06"
+ "County"
+ 
+ 15
+ "29"
+ "087"
+ "Holt"
+ "06"
+ "County"
+ 
+ 16
+ "29"
+ "111"
+ "Lewis"
+ "06"
+ "County"
+ 
+ 17
+ "29"
+ "061"
+ "Daviess"
+ "06"
+ "County"
+ 
+ 18
+ "29"
+ "003"
+ "Andrew"
+ "06"
+ "County"
+ 
+ 19
+ "29"
+ "063"
+ "DeKalb"
+ "06"
+ "County"
+ 
+ 20
+ "29"
+ "121"
+ "Macon"
+ "06"
+ "County"
+ 
+ 21
+ "29"
+ "115"
+ "Linn"
+ "06"
+ "County"
+ 
+ 22
+ "29"
+ "117"
+ "Livingston"
+ "06"
+ "County"
+ 
+ 23
+ "29"
+ "205"
+ "Shelby"
+ "06"
+ "County"
+ 
+ 24
+ "29"
+ "127"
+ "Marion"
+ "06"
+ "County"
+ 
+ 25
+ "29"
+ "021"
+ "Buchanan"
+ "06"
+ "County"
+ 
+ 26
+ "29"
+ "025"
+ "Caldwell"
+ "06"
+ "County"
+ 
+ 27
+ "29"
+ "049"
+ "Clinton"
+ "06"
+ "County"
+ 
+ 28
+ "29"
+ "041"
+ "Chariton"
+ "06"
+ "County"
+ 
+ 29
+ "29"
+ "173"
+ "Ralls"
+ "06"
+ "County"
+ 
+ 30
+ "29"
+ "137"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 31
+ "29"
+ "033"
+ "Carroll"
+ "06"
+ "County"
+ 
+ 32
+ "29"
+ "175"
+ "Randolph"
+ "06"
+ "County"
+ 
+ 33
+ "29"
+ "163"
+ "Pike"
+ "06"
+ "County"
+ 
+ 34
+ "29"
+ "165"
+ "Platte"
+ "06"
+ "County"
+ 
+ 35
+ "29"
+ "177"
+ "Ray"
+ "06"
+ "County"
+ 
+ 36
+ "29"
+ "047"
+ "Clay"
+ "06"
+ "County"
+ 
+ 37
+ "29"
+ "195"
+ "Saline"
+ "06"
+ "County"
+ 
+ 38
+ "29"
+ "007"
+ "Audrain"
+ "06"
+ "County"
+ 
+ 39
+ "29"
+ "089"
+ "Howard"
+ "06"
+ "County"
+ 
+ 40
+ "29"
+ "107"
+ "Lafayette"
+ "06"
+ "County"
+ 
+ 41
+ "29"
+ "019"
+ "Boone"
+ "06"
+ "County"
+ 
+ 42
+ "29"
+ "095"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 43
+ "29"
+ "113"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 44
+ "29"
+ "139"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 45
+ "29"
+ "027"
+ "Callaway"
+ "06"
+ "County"
+ 
+ 46
+ "29"
+ "053"
+ "Cooper"
+ "06"
+ "County"
+ 
+ 47
+ "29"
+ "219"
+ "Warren"
+ "06"
+ "County"
+ 
+ 48
+ "29"
+ "183"
+ "St. Charles"
+ "06"
+ "County"
+ 
+ 49
+ "29"
+ "159"
+ "Pettis"
+ "06"
+ "County"
+ 
+ 50
+ "29"
+ "101"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 51
+ "29"
+ "135"
+ "Moniteau"
+ "06"
+ "County"
+ 
+ 52
+ "29"
+ "189"
+ "St. Louis"
+ "06"
+ "County"
+ 
+ 53
+ "29"
+ "037"
+ "Cass"
+ "06"
+ "County"
+ 
+ 54
+ "29"
+ "510"
+ "St. Louis"
+ "08"
+ "city"
+ 
+ 55
+ "29"
+ "051"
+ "Cole"
+ "06"
+ "County"
+ 
+ 56
+ "29"
+ "073"
+ "Gasconade"
+ "06"
+ "County"
+ 
+ 57
+ "29"
+ "071"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 58
+ "29"
+ "151"
+ "Osage"
+ "06"
+ "County"
+ 
+ 59
+ "29"
+ "141"
+ "Morgan"
+ "06"
+ "County"
+ 
+ 60
+ "29"
+ "083"
+ "Henry"
+ "06"
+ "County"
+ 
+ 61
+ "29"
+ "015"
+ "Benton"
+ "06"
+ "County"
+ 
+ 62
+ "29"
+ "099"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 63
+ "29"
+ "013"
+ "Bates"
+ "06"
+ "County"
+ 
+ 64
+ "29"
+ "131"
+ "Miller"
+ "06"
+ "County"
+ 
+ 65
+ "29"
+ "125"
+ "Maries"
+ "06"
+ "County"
+ 
+ 66
+ "29"
+ "029"
+ "Camden"
+ "06"
+ "County"
+ 
+ 67
+ "29"
+ "185"
+ "St. Clair"
+ "06"
+ "County"
+ 
+ 68
+ "29"
+ "055"
+ "Crawford"
+ "06"
+ "County"
+ 
+ 69
+ "29"
+ "221"
+ "Washington"
+ "06"
+ "County"
+ 
+ 70
+ "29"
+ "161"
+ "Phelps"
+ "06"
+ "County"
+ 
+ 71
+ "29"
+ "186"
+ "Ste. Genevieve"
+ "06"
+ "County"
+ 
+ 72
+ "29"
+ "187"
+ "St. Francois"
+ "06"
+ "County"
+ 
+ 73
+ "29"
+ "085"
+ "Hickory"
+ "06"
+ "County"
+ 
+ 74
+ "29"
+ "217"
+ "Vernon"
+ "06"
+ "County"
+ 
+ 75
+ "29"
+ "169"
+ "Pulaski"
+ "06"
+ "County"
+ 
+ 76
+ "29"
+ "157"
+ "Perry"
+ "06"
+ "County"
+ 
+ 77
+ "29"
+ "059"
+ "Dallas"
+ "06"
+ "County"
+ 
+ 78
+ "29"
+ "039"
+ "Cedar"
+ "06"
+ "County"
+ 
+ 79
+ "29"
+ "105"
+ "Laclede"
+ "06"
+ "County"
+ 
+ 80
+ "29"
+ "167"
+ "Polk"
+ "06"
+ "County"
+ 
+ 81
+ "29"
+ "065"
+ "Dent"
+ "06"
+ "County"
+ 
+ 82
+ "29"
+ "093"
+ "Iron"
+ "06"
+ "County"
+ 
+ 83
+ "29"
+ "011"
+ "Barton"
+ "06"
+ "County"
+ 
+ 84
+ "29"
+ "123"
+ "Madison"
+ "06"
+ "County"
+ 
+ 85
+ "29"
+ "031"
+ "Cape Girardeau"
+ "06"
+ "County"
+ 
+ 86
+ "29"
+ "215"
+ "Texas"
+ "06"
+ "County"
+ 
+ 87
+ "29"
+ "179"
+ "Reynolds"
+ "06"
+ "County"
+ 
+ 88
+ "29"
+ "017"
+ "Bollinger"
+ "06"
+ "County"
+ 
+ 89
+ "29"
+ "057"
+ "Dade"
+ "06"
+ "County"
+ 
+ 90
+ "29"
+ "225"
+ "Webster"
+ "06"
+ "County"
+ 
+ 91
+ "29"
+ "229"
+ "Wright"
+ "06"
+ "County"
+ 
+ 92
+ "29"
+ "077"
+ "Greene"
+ "06"
+ "County"
+ 
+ 93
+ "29"
+ "203"
+ "Shannon"
+ "06"
+ "County"
+ 
+ 94
+ "29"
+ "097"
+ "Jasper"
+ "06"
+ "County"
+ 
+ 95
+ "29"
+ "223"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 96
+ "29"
+ "109"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 97
+ "29"
+ "201"
+ "Scott"
+ "06"
+ "County"
+ 
+ 98
+ "29"
+ "207"
+ "Stoddard"
+ "06"
+ "County"
+ 
+ 99
+ "29"
+ "035"
+ "Carter"
+ "06"
+ "County"
+ 
+ 100
+ "29"
+ "043"
+ "Christian"
+ "06"
+ "County"
+ 
+ 101
+ "29"
+ "133"
+ "Mississippi"
+ "06"
+ "County"
+ 
+ 102
+ "29"
+ "067"
+ "Douglas"
+ "06"
+ "County"
+ 
+ 103
+ "29"
+ "145"
+ "Newton"
+ "06"
+ "County"
+ 
+ 104
+ "29"
+ "091"
+ "Howell"
+ "06"
+ "County"
+ 
+ 105
+ "29"
+ "209"
+ "Stone"
+ "06"
+ "County"
+ 
+ 106
+ "29"
+ "009"
+ "Barry"
+ "06"
+ "County"
+ 
+ 107
+ "29"
+ "023"
+ "Butler"
+ "06"
+ "County"
+ 
+ 108
+ "29"
+ "149"
+ "Oregon"
+ "06"
+ "County"
+ 
+ 109
+ "29"
+ "143"
+ "New Madrid"
+ "06"
+ "County"
+ 
+ 110
+ "29"
+ "181"
+ "Ripley"
+ "06"
+ "County"
+ 
+ 111
+ "29"
+ "213"
+ "Taney"
+ "06"
+ "County"
+ 
+ 112
+ "29"
+ "153"
+ "Ozark"
+ "06"
+ "County"
+ 
+ 113
+ "29"
+ "119"
+ "McDonald"
+ "06"
+ "County"
+ 
+ 114
+ "29"
+ "069"
+ "Dunklin"
+ "06"
+ "County"
+ 
+ 115
+ "29"
+ "155"
+ "Pemiscot"
+ "06"
+ "County"
+ 

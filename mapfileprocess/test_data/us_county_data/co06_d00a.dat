@@ -1,0 +1,483 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "06"
+ "093"
+ "Siskiyou"
+ "06"
+ "County"
+ 
+ 2
+ "06"
+ "015"
+ "Del Norte"
+ "06"
+ "County"
+ 
+ 3
+ "06"
+ "049"
+ "Modoc"
+ "06"
+ "County"
+ 
+ 4
+ "06"
+ "023"
+ "Humboldt"
+ "06"
+ "County"
+ 
+ 5
+ "06"
+ "105"
+ "Trinity"
+ "06"
+ "County"
+ 
+ 6
+ "06"
+ "089"
+ "Shasta"
+ "06"
+ "County"
+ 
+ 7
+ "06"
+ "035"
+ "Lassen"
+ "06"
+ "County"
+ 
+ 8
+ "06"
+ "103"
+ "Tehama"
+ "06"
+ "County"
+ 
+ 9
+ "06"
+ "063"
+ "Plumas"
+ "06"
+ "County"
+ 
+ 10
+ "06"
+ "007"
+ "Butte"
+ "06"
+ "County"
+ 
+ 11
+ "06"
+ "045"
+ "Mendocino"
+ "06"
+ "County"
+ 
+ 12
+ "06"
+ "021"
+ "Glenn"
+ "06"
+ "County"
+ 
+ 13
+ "06"
+ "091"
+ "Sierra"
+ "06"
+ "County"
+ 
+ 14
+ "06"
+ "115"
+ "Yuba"
+ "06"
+ "County"
+ 
+ 15
+ "06"
+ "033"
+ "Lake"
+ "06"
+ "County"
+ 
+ 16
+ "06"
+ "057"
+ "Nevada"
+ "06"
+ "County"
+ 
+ 17
+ "06"
+ "011"
+ "Colusa"
+ "06"
+ "County"
+ 
+ 18
+ "06"
+ "061"
+ "Placer"
+ "06"
+ "County"
+ 
+ 19
+ "06"
+ "101"
+ "Sutter"
+ "06"
+ "County"
+ 
+ 20
+ "06"
+ "017"
+ "El Dorado"
+ "06"
+ "County"
+ 
+ 21
+ "06"
+ "003"
+ "Alpine"
+ "06"
+ "County"
+ 
+ 22
+ "06"
+ "113"
+ "Yolo"
+ "06"
+ "County"
+ 
+ 23
+ "06"
+ "055"
+ "Napa"
+ "06"
+ "County"
+ 
+ 24
+ "06"
+ "097"
+ "Sonoma"
+ "06"
+ "County"
+ 
+ 25
+ "06"
+ "067"
+ "Sacramento"
+ "06"
+ "County"
+ 
+ 26
+ "06"
+ "051"
+ "Mono"
+ "06"
+ "County"
+ 
+ 27
+ "06"
+ "005"
+ "Amador"
+ "06"
+ "County"
+ 
+ 28
+ "06"
+ "095"
+ "Solano"
+ "06"
+ "County"
+ 
+ 29
+ "06"
+ "009"
+ "Calaveras"
+ "06"
+ "County"
+ 
+ 30
+ "06"
+ "109"
+ "Tuolumne"
+ "06"
+ "County"
+ 
+ 31
+ "06"
+ "041"
+ "Marin"
+ "06"
+ "County"
+ 
+ 32
+ "06"
+ "077"
+ "San Joaquin"
+ "06"
+ "County"
+ 
+ 33
+ "06"
+ "013"
+ "Contra Costa"
+ "06"
+ "County"
+ 
+ 34
+ "06"
+ "099"
+ "Stanislaus"
+ "06"
+ "County"
+ 
+ 35
+ "06"
+ "001"
+ "Alameda"
+ "06"
+ "County"
+ 
+ 36
+ "06"
+ "043"
+ "Mariposa"
+ "06"
+ "County"
+ 
+ 37
+ "06"
+ "041"
+ "Marin"
+ "06"
+ "County"
+ 
+ 38
+ "06"
+ "075"
+ "San Francisco"
+ "06"
+ "County"
+ 
+ 39
+ "06"
+ "075"
+ "San Francisco"
+ "06"
+ "County"
+ 
+ 40
+ "06"
+ "039"
+ "Madera"
+ "06"
+ "County"
+ 
+ 41
+ "06"
+ "081"
+ "San Mateo"
+ "06"
+ "County"
+ 
+ 42
+ "06"
+ "075"
+ "San Francisco"
+ "06"
+ "County"
+ 
+ 43
+ "06"
+ "047"
+ "Merced"
+ "06"
+ "County"
+ 
+ 44
+ "06"
+ "019"
+ "Fresno"
+ "06"
+ "County"
+ 
+ 45
+ "06"
+ "085"
+ "Santa Clara"
+ "06"
+ "County"
+ 
+ 46
+ "06"
+ "027"
+ "Inyo"
+ "06"
+ "County"
+ 
+ 47
+ "06"
+ "087"
+ "Santa Cruz"
+ "06"
+ "County"
+ 
+ 48
+ "06"
+ "069"
+ "San Benito"
+ "06"
+ "County"
+ 
+ 49
+ "06"
+ "053"
+ "Monterey"
+ "06"
+ "County"
+ 
+ 50
+ "06"
+ "107"
+ "Tulare"
+ "06"
+ "County"
+ 
+ 51
+ "06"
+ "031"
+ "Kings"
+ "06"
+ "County"
+ 
+ 52
+ "06"
+ "071"
+ "San Bernardino"
+ "06"
+ "County"
+ 
+ 53
+ "06"
+ "029"
+ "Kern"
+ "06"
+ "County"
+ 
+ 54
+ "06"
+ "079"
+ "San Luis Obispo"
+ "06"
+ "County"
+ 
+ 55
+ "06"
+ "083"
+ "Santa Barbara"
+ "06"
+ "County"
+ 
+ 56
+ "06"
+ "111"
+ "Ventura"
+ "06"
+ "County"
+ 
+ 57
+ "06"
+ "037"
+ "Los Angeles"
+ "06"
+ "County"
+ 
+ 58
+ "06"
+ "065"
+ "Riverside"
+ "06"
+ "County"
+ 
+ 59
+ "06"
+ "083"
+ "Santa Barbara"
+ "06"
+ "County"
+ 
+ 60
+ "06"
+ "083"
+ "Santa Barbara"
+ "06"
+ "County"
+ 
+ 61
+ "06"
+ "083"
+ "Santa Barbara"
+ "06"
+ "County"
+ 
+ 62
+ "06"
+ "111"
+ "Ventura"
+ "06"
+ "County"
+ 
+ 63
+ "06"
+ "059"
+ "Orange"
+ "06"
+ "County"
+ 
+ 64
+ "06"
+ "073"
+ "San Diego"
+ "06"
+ "County"
+ 
+ 65
+ "06"
+ "037"
+ "Los Angeles"
+ "06"
+ "County"
+ 
+ 66
+ "06"
+ "025"
+ "Imperial"
+ "06"
+ "County"
+ 
+ 67
+ "06"
+ "111"
+ "Ventura"
+ "06"
+ "County"
+ 
+ 68
+ "06"
+ "037"
+ "Los Angeles"
+ "06"
+ "County"
+ 

@@ -1,0 +1,476 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "36"
+ "089"
+ "St. Lawrence"
+ "06"
+ "County"
+ 
+ 2
+ "36"
+ "019"
+ "Clinton"
+ "06"
+ "County"
+ 
+ 3
+ "36"
+ "033"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 4
+ "36"
+ "031"
+ "Essex"
+ "06"
+ "County"
+ 
+ 5
+ "36"
+ "045"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 6
+ "36"
+ "049"
+ "Lewis"
+ "06"
+ "County"
+ 
+ 7
+ "36"
+ "041"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 8
+ "36"
+ "043"
+ "Herkimer"
+ "06"
+ "County"
+ 
+ 9
+ "36"
+ "115"
+ "Washington"
+ "06"
+ "County"
+ 
+ 10
+ "36"
+ "113"
+ "Warren"
+ "06"
+ "County"
+ 
+ 11
+ "36"
+ "075"
+ "Oswego"
+ "06"
+ "County"
+ 
+ 12
+ "36"
+ "065"
+ "Oneida"
+ "06"
+ "County"
+ 
+ 13
+ "36"
+ "011"
+ "Cayuga"
+ "06"
+ "County"
+ 
+ 14
+ "36"
+ "091"
+ "Saratoga"
+ "06"
+ "County"
+ 
+ 15
+ "36"
+ "073"
+ "Orleans"
+ "06"
+ "County"
+ 
+ 16
+ "36"
+ "063"
+ "Niagara"
+ "06"
+ "County"
+ 
+ 17
+ "36"
+ "055"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 18
+ "36"
+ "117"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 19
+ "36"
+ "035"
+ "Fulton"
+ "06"
+ "County"
+ 
+ 20
+ "36"
+ "067"
+ "Onondaga"
+ "06"
+ "County"
+ 
+ 21
+ "36"
+ "053"
+ "Madison"
+ "06"
+ "County"
+ 
+ 22
+ "36"
+ "037"
+ "Genesee"
+ "06"
+ "County"
+ 
+ 23
+ "36"
+ "029"
+ "Erie"
+ "06"
+ "County"
+ 
+ 24
+ "36"
+ "057"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 25
+ "36"
+ "069"
+ "Ontario"
+ "06"
+ "County"
+ 
+ 26
+ "36"
+ "099"
+ "Seneca"
+ "06"
+ "County"
+ 
+ 27
+ "36"
+ "051"
+ "Livingston"
+ "06"
+ "County"
+ 
+ 28
+ "36"
+ "083"
+ "Rensselaer"
+ "06"
+ "County"
+ 
+ 29
+ "36"
+ "093"
+ "Schenectady"
+ "06"
+ "County"
+ 
+ 30
+ "36"
+ "077"
+ "Otsego"
+ "06"
+ "County"
+ 
+ 31
+ "36"
+ "121"
+ "Wyoming"
+ "06"
+ "County"
+ 
+ 32
+ "36"
+ "095"
+ "Schoharie"
+ "06"
+ "County"
+ 
+ 33
+ "36"
+ "001"
+ "Albany"
+ "06"
+ "County"
+ 
+ 34
+ "36"
+ "023"
+ "Cortland"
+ "06"
+ "County"
+ 
+ 35
+ "36"
+ "123"
+ "Yates"
+ "06"
+ "County"
+ 
+ 36
+ "36"
+ "017"
+ "Chenango"
+ "06"
+ "County"
+ 
+ 37
+ "36"
+ "109"
+ "Tompkins"
+ "06"
+ "County"
+ 
+ 38
+ "36"
+ "101"
+ "Steuben"
+ "06"
+ "County"
+ 
+ 39
+ "36"
+ "013"
+ "Chautauqua"
+ "06"
+ "County"
+ 
+ 40
+ "36"
+ "097"
+ "Schuyler"
+ "06"
+ "County"
+ 
+ 41
+ "36"
+ "009"
+ "Cattaraugus"
+ "06"
+ "County"
+ 
+ 42
+ "36"
+ "003"
+ "Allegany"
+ "06"
+ "County"
+ 
+ 43
+ "36"
+ "025"
+ "Delaware"
+ "06"
+ "County"
+ 
+ 44
+ "36"
+ "021"
+ "Columbia"
+ "06"
+ "County"
+ 
+ 45
+ "36"
+ "039"
+ "Greene"
+ "06"
+ "County"
+ 
+ 46
+ "36"
+ "007"
+ "Broome"
+ "06"
+ "County"
+ 
+ 47
+ "36"
+ "107"
+ "Tioga"
+ "06"
+ "County"
+ 
+ 48
+ "36"
+ "015"
+ "Chemung"
+ "06"
+ "County"
+ 
+ 49
+ "36"
+ "111"
+ "Ulster"
+ "06"
+ "County"
+ 
+ 50
+ "36"
+ "027"
+ "Dutchess"
+ "06"
+ "County"
+ 
+ 51
+ "36"
+ "105"
+ "Sullivan"
+ "06"
+ "County"
+ 
+ 52
+ "36"
+ "071"
+ "Orange"
+ "06"
+ "County"
+ 
+ 53
+ "36"
+ "079"
+ "Putnam"
+ "06"
+ "County"
+ 
+ 54
+ "36"
+ "119"
+ "Westchester"
+ "06"
+ "County"
+ 
+ 55
+ "36"
+ "087"
+ "Rockland"
+ "06"
+ "County"
+ 
+ 56
+ "36"
+ "103"
+ "Suffolk"
+ "06"
+ "County"
+ 
+ 57
+ "36"
+ "103"
+ "Suffolk"
+ "06"
+ "County"
+ 
+ 58
+ "36"
+ "103"
+ "Suffolk"
+ "06"
+ "County"
+ 
+ 59
+ "36"
+ "005"
+ "Bronx"
+ "06"
+ "County"
+ 
+ 60
+ "36"
+ "119"
+ "Westchester"
+ "06"
+ "County"
+ 
+ 61
+ "36"
+ "061"
+ "New York"
+ "06"
+ "County"
+ 
+ 62
+ "36"
+ "059"
+ "Nassau"
+ "06"
+ "County"
+ 
+ 63
+ "36"
+ "005"
+ "Bronx"
+ "06"
+ "County"
+ 
+ 64
+ "36"
+ "081"
+ "Queens"
+ "06"
+ "County"
+ 
+ 65
+ "36"
+ "047"
+ "Kings"
+ "06"
+ "County"
+ 
+ 66
+ "36"
+ "061"
+ "New York"
+ "06"
+ "County"
+ 
+ 67
+ "36"
+ "085"
+ "Richmond"
+ "06"
+ "County"
+ 

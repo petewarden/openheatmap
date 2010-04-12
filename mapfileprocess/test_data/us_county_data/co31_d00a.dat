@@ -1,0 +1,658 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "31"
+ "165"
+ "Sioux"
+ "06"
+ "County"
+ 
+ 2
+ "31"
+ "045"
+ "Dawes"
+ "06"
+ "County"
+ 
+ 3
+ "31"
+ "161"
+ "Sheridan"
+ "06"
+ "County"
+ 
+ 4
+ "31"
+ "031"
+ "Cherry"
+ "06"
+ "County"
+ 
+ 5
+ "31"
+ "103"
+ "Keya Paha"
+ "06"
+ "County"
+ 
+ 6
+ "31"
+ "015"
+ "Boyd"
+ "06"
+ "County"
+ 
+ 7
+ "31"
+ "089"
+ "Holt"
+ "06"
+ "County"
+ 
+ 8
+ "31"
+ "107"
+ "Knox"
+ "06"
+ "County"
+ 
+ 9
+ "31"
+ "027"
+ "Cedar"
+ "06"
+ "County"
+ 
+ 10
+ "31"
+ "017"
+ "Brown"
+ "06"
+ "County"
+ 
+ 11
+ "31"
+ "149"
+ "Rock"
+ "06"
+ "County"
+ 
+ 12
+ "31"
+ "051"
+ "Dixon"
+ "06"
+ "County"
+ 
+ 13
+ "31"
+ "043"
+ "Dakota"
+ "06"
+ "County"
+ 
+ 14
+ "31"
+ "013"
+ "Box Butte"
+ "06"
+ "County"
+ 
+ 15
+ "31"
+ "139"
+ "Pierce"
+ "06"
+ "County"
+ 
+ 16
+ "31"
+ "003"
+ "Antelope"
+ "06"
+ "County"
+ 
+ 17
+ "31"
+ "179"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 18
+ "31"
+ "173"
+ "Thurston"
+ "06"
+ "County"
+ 
+ 19
+ "31"
+ "075"
+ "Grant"
+ "06"
+ "County"
+ 
+ 20
+ "31"
+ "091"
+ "Hooker"
+ "06"
+ "County"
+ 
+ 21
+ "31"
+ "119"
+ "Madison"
+ "06"
+ "County"
+ 
+ 22
+ "31"
+ "167"
+ "Stanton"
+ "06"
+ "County"
+ 
+ 23
+ "31"
+ "039"
+ "Cuming"
+ "06"
+ "County"
+ 
+ 24
+ "31"
+ "183"
+ "Wheeler"
+ "06"
+ "County"
+ 
+ 25
+ "31"
+ "071"
+ "Garfield"
+ "06"
+ "County"
+ 
+ 26
+ "31"
+ "171"
+ "Thomas"
+ "06"
+ "County"
+ 
+ 27
+ "31"
+ "115"
+ "Loup"
+ "06"
+ "County"
+ 
+ 28
+ "31"
+ "009"
+ "Blaine"
+ "06"
+ "County"
+ 
+ 29
+ "31"
+ "021"
+ "Burt"
+ "06"
+ "County"
+ 
+ 30
+ "31"
+ "069"
+ "Garden"
+ "06"
+ "County"
+ 
+ 31
+ "31"
+ "123"
+ "Morrill"
+ "06"
+ "County"
+ 
+ 32
+ "31"
+ "157"
+ "Scotts Bluff"
+ "06"
+ "County"
+ 
+ 33
+ "31"
+ "011"
+ "Boone"
+ "06"
+ "County"
+ 
+ 34
+ "31"
+ "117"
+ "McPherson"
+ "06"
+ "County"
+ 
+ 35
+ "31"
+ "037"
+ "Colfax"
+ "06"
+ "County"
+ 
+ 36
+ "31"
+ "005"
+ "Arthur"
+ "06"
+ "County"
+ 
+ 37
+ "31"
+ "141"
+ "Platte"
+ "06"
+ "County"
+ 
+ 38
+ "31"
+ "053"
+ "Dodge"
+ "06"
+ "County"
+ 
+ 39
+ "31"
+ "041"
+ "Custer"
+ "06"
+ "County"
+ 
+ 40
+ "31"
+ "077"
+ "Greeley"
+ "06"
+ "County"
+ 
+ 41
+ "31"
+ "175"
+ "Valley"
+ "06"
+ "County"
+ 
+ 42
+ "31"
+ "113"
+ "Logan"
+ "06"
+ "County"
+ 
+ 43
+ "31"
+ "007"
+ "Banner"
+ "06"
+ "County"
+ 
+ 44
+ "31"
+ "177"
+ "Washington"
+ "06"
+ "County"
+ 
+ 45
+ "31"
+ "125"
+ "Nance"
+ "06"
+ "County"
+ 
+ 46
+ "31"
+ "023"
+ "Butler"
+ "06"
+ "County"
+ 
+ 47
+ "31"
+ "155"
+ "Saunders"
+ "06"
+ "County"
+ 
+ 48
+ "31"
+ "033"
+ "Cheyenne"
+ "06"
+ "County"
+ 
+ 49
+ "31"
+ "143"
+ "Polk"
+ "06"
+ "County"
+ 
+ 50
+ "31"
+ "101"
+ "Keith"
+ "06"
+ "County"
+ 
+ 51
+ "31"
+ "121"
+ "Merrick"
+ "06"
+ "County"
+ 
+ 52
+ "31"
+ "111"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 53
+ "31"
+ "105"
+ "Kimball"
+ "06"
+ "County"
+ 
+ 54
+ "31"
+ "163"
+ "Sherman"
+ "06"
+ "County"
+ 
+ 55
+ "31"
+ "093"
+ "Howard"
+ "06"
+ "County"
+ 
+ 56
+ "31"
+ "055"
+ "Douglas"
+ "06"
+ "County"
+ 
+ 57
+ "31"
+ "049"
+ "Deuel"
+ "06"
+ "County"
+ 
+ 58
+ "31"
+ "153"
+ "Sarpy"
+ "06"
+ "County"
+ 
+ 59
+ "31"
+ "081"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 60
+ "31"
+ "025"
+ "Cass"
+ "06"
+ "County"
+ 
+ 61
+ "31"
+ "047"
+ "Dawson"
+ "06"
+ "County"
+ 
+ 62
+ "31"
+ "019"
+ "Buffalo"
+ "06"
+ "County"
+ 
+ 63
+ "31"
+ "185"
+ "York"
+ "06"
+ "County"
+ 
+ 64
+ "31"
+ "159"
+ "Seward"
+ "06"
+ "County"
+ 
+ 65
+ "31"
+ "079"
+ "Hall"
+ "06"
+ "County"
+ 
+ 66
+ "31"
+ "109"
+ "Lancaster"
+ "06"
+ "County"
+ 
+ 67
+ "31"
+ "135"
+ "Perkins"
+ "06"
+ "County"
+ 
+ 68
+ "31"
+ "131"
+ "Otoe"
+ "06"
+ "County"
+ 
+ 69
+ "31"
+ "063"
+ "Frontier"
+ "06"
+ "County"
+ 
+ 70
+ "31"
+ "085"
+ "Hayes"
+ "06"
+ "County"
+ 
+ 71
+ "31"
+ "029"
+ "Chase"
+ "06"
+ "County"
+ 
+ 72
+ "31"
+ "073"
+ "Gosper"
+ "06"
+ "County"
+ 
+ 73
+ "31"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 74
+ "31"
+ "059"
+ "Fillmore"
+ "06"
+ "County"
+ 
+ 75
+ "31"
+ "035"
+ "Clay"
+ "06"
+ "County"
+ 
+ 76
+ "31"
+ "151"
+ "Saline"
+ "06"
+ "County"
+ 
+ 77
+ "31"
+ "099"
+ "Kearney"
+ "06"
+ "County"
+ 
+ 78
+ "31"
+ "137"
+ "Phelps"
+ "06"
+ "County"
+ 
+ 79
+ "31"
+ "127"
+ "Nemaha"
+ "06"
+ "County"
+ 
+ 80
+ "31"
+ "067"
+ "Gage"
+ "06"
+ "County"
+ 
+ 81
+ "31"
+ "097"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 82
+ "31"
+ "145"
+ "Red Willow"
+ "06"
+ "County"
+ 
+ 83
+ "31"
+ "065"
+ "Furnas"
+ "06"
+ "County"
+ 
+ 84
+ "31"
+ "083"
+ "Harlan"
+ "06"
+ "County"
+ 
+ 85
+ "31"
+ "087"
+ "Hitchcock"
+ "06"
+ "County"
+ 
+ 86
+ "31"
+ "129"
+ "Nuckolls"
+ "06"
+ "County"
+ 
+ 87
+ "31"
+ "061"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 88
+ "31"
+ "169"
+ "Thayer"
+ "06"
+ "County"
+ 
+ 89
+ "31"
+ "181"
+ "Webster"
+ "06"
+ "County"
+ 
+ 90
+ "31"
+ "057"
+ "Dundy"
+ "06"
+ "County"
+ 
+ 91
+ "31"
+ "095"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 92
+ "31"
+ "133"
+ "Pawnee"
+ "06"
+ "County"
+ 
+ 93
+ "31"
+ "147"
+ "Richardson"
+ "06"
+ "County"
+ 

@@ -1,0 +1,483 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "42"
+ "049"
+ "Erie"
+ "06"
+ "County"
+ 
+ 2
+ "42"
+ "015"
+ "Bradford"
+ "06"
+ "County"
+ 
+ 3
+ "42"
+ "117"
+ "Tioga"
+ "06"
+ "County"
+ 
+ 4
+ "42"
+ "105"
+ "Potter"
+ "06"
+ "County"
+ 
+ 5
+ "42"
+ "083"
+ "McKean"
+ "06"
+ "County"
+ 
+ 6
+ "42"
+ "123"
+ "Warren"
+ "06"
+ "County"
+ 
+ 7
+ "42"
+ "127"
+ "Wayne"
+ "06"
+ "County"
+ 
+ 8
+ "42"
+ "115"
+ "Susquehanna"
+ "06"
+ "County"
+ 
+ 9
+ "42"
+ "039"
+ "Crawford"
+ "06"
+ "County"
+ 
+ 10
+ "42"
+ "131"
+ "Wyoming"
+ "06"
+ "County"
+ 
+ 11
+ "42"
+ "069"
+ "Lackawanna"
+ "06"
+ "County"
+ 
+ 12
+ "42"
+ "047"
+ "Elk"
+ "06"
+ "County"
+ 
+ 13
+ "42"
+ "053"
+ "Forest"
+ "06"
+ "County"
+ 
+ 14
+ "42"
+ "121"
+ "Venango"
+ "06"
+ "County"
+ 
+ 15
+ "42"
+ "023"
+ "Cameron"
+ "06"
+ "County"
+ 
+ 16
+ "42"
+ "103"
+ "Pike"
+ "06"
+ "County"
+ 
+ 17
+ "42"
+ "081"
+ "Lycoming"
+ "06"
+ "County"
+ 
+ 18
+ "42"
+ "113"
+ "Sullivan"
+ "06"
+ "County"
+ 
+ 19
+ "42"
+ "085"
+ "Mercer"
+ "06"
+ "County"
+ 
+ 20
+ "42"
+ "035"
+ "Clinton"
+ "06"
+ "County"
+ 
+ 21
+ "42"
+ "031"
+ "Clarion"
+ "06"
+ "County"
+ 
+ 22
+ "42"
+ "079"
+ "Luzerne"
+ "06"
+ "County"
+ 
+ 23
+ "42"
+ "065"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 24
+ "42"
+ "037"
+ "Columbia"
+ "06"
+ "County"
+ 
+ 25
+ "42"
+ "033"
+ "Clearfield"
+ "06"
+ "County"
+ 
+ 26
+ "42"
+ "027"
+ "Centre"
+ "06"
+ "County"
+ 
+ 27
+ "42"
+ "089"
+ "Monroe"
+ "06"
+ "County"
+ 
+ 28
+ "42"
+ "097"
+ "Northumberland"
+ "06"
+ "County"
+ 
+ 29
+ "42"
+ "019"
+ "Butler"
+ "06"
+ "County"
+ 
+ 30
+ "42"
+ "093"
+ "Montour"
+ "06"
+ "County"
+ 
+ 31
+ "42"
+ "005"
+ "Armstrong"
+ "06"
+ "County"
+ 
+ 32
+ "42"
+ "119"
+ "Union"
+ "06"
+ "County"
+ 
+ 33
+ "42"
+ "025"
+ "Carbon"
+ "06"
+ "County"
+ 
+ 34
+ "42"
+ "073"
+ "Lawrence"
+ "06"
+ "County"
+ 
+ 35
+ "42"
+ "095"
+ "Northampton"
+ "06"
+ "County"
+ 
+ 36
+ "42"
+ "107"
+ "Schuylkill"
+ "06"
+ "County"
+ 
+ 37
+ "42"
+ "063"
+ "Indiana"
+ "06"
+ "County"
+ 
+ 38
+ "42"
+ "109"
+ "Snyder"
+ "06"
+ "County"
+ 
+ 39
+ "42"
+ "007"
+ "Beaver"
+ "06"
+ "County"
+ 
+ 40
+ "42"
+ "087"
+ "Mifflin"
+ "06"
+ "County"
+ 
+ 41
+ "42"
+ "077"
+ "Lehigh"
+ "06"
+ "County"
+ 
+ 42
+ "42"
+ "061"
+ "Huntingdon"
+ "06"
+ "County"
+ 
+ 43
+ "42"
+ "013"
+ "Blair"
+ "06"
+ "County"
+ 
+ 44
+ "42"
+ "021"
+ "Cambria"
+ "06"
+ "County"
+ 
+ 45
+ "42"
+ "067"
+ "Juniata"
+ "06"
+ "County"
+ 
+ 46
+ "42"
+ "129"
+ "Westmoreland"
+ "06"
+ "County"
+ 
+ 47
+ "42"
+ "011"
+ "Berks"
+ "06"
+ "County"
+ 
+ 48
+ "42"
+ "003"
+ "Allegheny"
+ "06"
+ "County"
+ 
+ 49
+ "42"
+ "043"
+ "Dauphin"
+ "06"
+ "County"
+ 
+ 50
+ "42"
+ "099"
+ "Perry"
+ "06"
+ "County"
+ 
+ 51
+ "42"
+ "017"
+ "Bucks"
+ "06"
+ "County"
+ 
+ 52
+ "42"
+ "075"
+ "Lebanon"
+ "06"
+ "County"
+ 
+ 53
+ "42"
+ "125"
+ "Washington"
+ "06"
+ "County"
+ 
+ 54
+ "42"
+ "091"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 55
+ "42"
+ "041"
+ "Cumberland"
+ "06"
+ "County"
+ 
+ 56
+ "42"
+ "009"
+ "Bedford"
+ "06"
+ "County"
+ 
+ 57
+ "42"
+ "071"
+ "Lancaster"
+ "06"
+ "County"
+ 
+ 58
+ "42"
+ "055"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 59
+ "42"
+ "111"
+ "Somerset"
+ "06"
+ "County"
+ 
+ 60
+ "42"
+ "029"
+ "Chester"
+ "06"
+ "County"
+ 
+ 61
+ "42"
+ "133"
+ "York"
+ "06"
+ "County"
+ 
+ 62
+ "42"
+ "057"
+ "Fulton"
+ "06"
+ "County"
+ 
+ 63
+ "42"
+ "051"
+ "Fayette"
+ "06"
+ "County"
+ 
+ 64
+ "42"
+ "101"
+ "Philadelphia"
+ "06"
+ "County"
+ 
+ 65
+ "42"
+ "001"
+ "Adams"
+ "06"
+ "County"
+ 
+ 66
+ "42"
+ "045"
+ "Delaware"
+ "06"
+ "County"
+ 
+ 67
+ "42"
+ "059"
+ "Greene"
+ "06"
+ "County"
+ 
+ 68
+ "42"
+ "029"
+ "Chester"
+ "06"
+ "County"
+ 

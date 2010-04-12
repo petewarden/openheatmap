@@ -1,0 +1,623 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "27"
+ "077"
+ "Lake of the Woods"
+ "06"
+ "County"
+ 
+ 2
+ "27"
+ "069"
+ "Kittson"
+ "06"
+ "County"
+ 
+ 3
+ "27"
+ "135"
+ "Roseau"
+ "06"
+ "County"
+ 
+ 4
+ "27"
+ "071"
+ "Koochiching"
+ "06"
+ "County"
+ 
+ 5
+ "27"
+ "137"
+ "St. Louis"
+ "06"
+ "County"
+ 
+ 6
+ "27"
+ "089"
+ "Marshall"
+ "06"
+ "County"
+ 
+ 7
+ "27"
+ "007"
+ "Beltrami"
+ "06"
+ "County"
+ 
+ 8
+ "27"
+ "031"
+ "Cook"
+ "06"
+ "County"
+ 
+ 9
+ "27"
+ "075"
+ "Lake"
+ "06"
+ "County"
+ 
+ 10
+ "27"
+ "113"
+ "Pennington"
+ "06"
+ "County"
+ 
+ 11
+ "27"
+ "119"
+ "Polk"
+ "06"
+ "County"
+ 
+ 12
+ "27"
+ "029"
+ "Clearwater"
+ "06"
+ "County"
+ 
+ 13
+ "27"
+ "125"
+ "Red Lake"
+ "06"
+ "County"
+ 
+ 14
+ "27"
+ "061"
+ "Itasca"
+ "06"
+ "County"
+ 
+ 15
+ "27"
+ "087"
+ "Mahnomen"
+ "06"
+ "County"
+ 
+ 16
+ "27"
+ "107"
+ "Norman"
+ "06"
+ "County"
+ 
+ 17
+ "27"
+ "021"
+ "Cass"
+ "06"
+ "County"
+ 
+ 18
+ "27"
+ "057"
+ "Hubbard"
+ "06"
+ "County"
+ 
+ 19
+ "27"
+ "005"
+ "Becker"
+ "06"
+ "County"
+ 
+ 20
+ "27"
+ "027"
+ "Clay"
+ "06"
+ "County"
+ 
+ 21
+ "27"
+ "001"
+ "Aitkin"
+ "06"
+ "County"
+ 
+ 22
+ "27"
+ "159"
+ "Wadena"
+ "06"
+ "County"
+ 
+ 23
+ "27"
+ "035"
+ "Crow Wing"
+ "06"
+ "County"
+ 
+ 24
+ "27"
+ "017"
+ "Carlton"
+ "06"
+ "County"
+ 
+ 25
+ "27"
+ "111"
+ "Otter Tail"
+ "06"
+ "County"
+ 
+ 26
+ "27"
+ "167"
+ "Wilkin"
+ "06"
+ "County"
+ 
+ 27
+ "27"
+ "115"
+ "Pine"
+ "06"
+ "County"
+ 
+ 28
+ "27"
+ "153"
+ "Todd"
+ "06"
+ "County"
+ 
+ 29
+ "27"
+ "097"
+ "Morrison"
+ "06"
+ "County"
+ 
+ 30
+ "27"
+ "095"
+ "Mille Lacs"
+ "06"
+ "County"
+ 
+ 31
+ "27"
+ "065"
+ "Kanabec"
+ "06"
+ "County"
+ 
+ 32
+ "27"
+ "051"
+ "Grant"
+ "06"
+ "County"
+ 
+ 33
+ "27"
+ "041"
+ "Douglas"
+ "06"
+ "County"
+ 
+ 34
+ "27"
+ "155"
+ "Traverse"
+ "06"
+ "County"
+ 
+ 35
+ "27"
+ "009"
+ "Benton"
+ "06"
+ "County"
+ 
+ 36
+ "27"
+ "145"
+ "Stearns"
+ "06"
+ "County"
+ 
+ 37
+ "27"
+ "149"
+ "Stevens"
+ "06"
+ "County"
+ 
+ 38
+ "27"
+ "121"
+ "Pope"
+ "06"
+ "County"
+ 
+ 39
+ "27"
+ "059"
+ "Isanti"
+ "06"
+ "County"
+ 
+ 40
+ "27"
+ "025"
+ "Chisago"
+ "06"
+ "County"
+ 
+ 41
+ "27"
+ "011"
+ "Big Stone"
+ "06"
+ "County"
+ 
+ 42
+ "27"
+ "141"
+ "Sherburne"
+ "06"
+ "County"
+ 
+ 43
+ "27"
+ "171"
+ "Wright"
+ "06"
+ "County"
+ 
+ 44
+ "27"
+ "003"
+ "Anoka"
+ "06"
+ "County"
+ 
+ 45
+ "27"
+ "067"
+ "Kandiyohi"
+ "06"
+ "County"
+ 
+ 46
+ "27"
+ "151"
+ "Swift"
+ "06"
+ "County"
+ 
+ 47
+ "27"
+ "093"
+ "Meeker"
+ "06"
+ "County"
+ 
+ 48
+ "27"
+ "073"
+ "Lac qui Parle"
+ "06"
+ "County"
+ 
+ 49
+ "27"
+ "163"
+ "Washington"
+ "06"
+ "County"
+ 
+ 50
+ "27"
+ "073"
+ "Lac qui Parle"
+ "06"
+ "County"
+ 
+ 51
+ "27"
+ "053"
+ "Hennepin"
+ "06"
+ "County"
+ 
+ 52
+ "27"
+ "023"
+ "Chippewa"
+ "06"
+ "County"
+ 
+ 53
+ "27"
+ "123"
+ "Ramsey"
+ "06"
+ "County"
+ 
+ 54
+ "27"
+ "085"
+ "McLeod"
+ "06"
+ "County"
+ 
+ 55
+ "27"
+ "019"
+ "Carver"
+ "06"
+ "County"
+ 
+ 56
+ "27"
+ "173"
+ "Yellow Medicine"
+ "06"
+ "County"
+ 
+ 57
+ "27"
+ "037"
+ "Dakota"
+ "06"
+ "County"
+ 
+ 58
+ "27"
+ "129"
+ "Renville"
+ "06"
+ "County"
+ 
+ 59
+ "27"
+ "139"
+ "Scott"
+ "06"
+ "County"
+ 
+ 60
+ "27"
+ "143"
+ "Sibley"
+ "06"
+ "County"
+ 
+ 61
+ "27"
+ "049"
+ "Goodhue"
+ "06"
+ "County"
+ 
+ 62
+ "27"
+ "127"
+ "Redwood"
+ "06"
+ "County"
+ 
+ 63
+ "27"
+ "081"
+ "Lincoln"
+ "06"
+ "County"
+ 
+ 64
+ "27"
+ "083"
+ "Lyon"
+ "06"
+ "County"
+ 
+ 65
+ "27"
+ "131"
+ "Rice"
+ "06"
+ "County"
+ 
+ 66
+ "27"
+ "079"
+ "Le Sueur"
+ "06"
+ "County"
+ 
+ 67
+ "27"
+ "015"
+ "Brown"
+ "06"
+ "County"
+ 
+ 68
+ "27"
+ "103"
+ "Nicollet"
+ "06"
+ "County"
+ 
+ 69
+ "27"
+ "157"
+ "Wabasha"
+ "06"
+ "County"
+ 
+ 70
+ "27"
+ "013"
+ "Blue Earth"
+ "06"
+ "County"
+ 
+ 71
+ "27"
+ "117"
+ "Pipestone"
+ "06"
+ "County"
+ 
+ 72
+ "27"
+ "039"
+ "Dodge"
+ "06"
+ "County"
+ 
+ 73
+ "27"
+ "101"
+ "Murray"
+ "06"
+ "County"
+ 
+ 74
+ "27"
+ "147"
+ "Steele"
+ "06"
+ "County"
+ 
+ 75
+ "27"
+ "161"
+ "Waseca"
+ "06"
+ "County"
+ 
+ 76
+ "27"
+ "033"
+ "Cottonwood"
+ "06"
+ "County"
+ 
+ 77
+ "27"
+ "109"
+ "Olmsted"
+ "06"
+ "County"
+ 
+ 78
+ "27"
+ "169"
+ "Winona"
+ "06"
+ "County"
+ 
+ 79
+ "27"
+ "165"
+ "Watonwan"
+ "06"
+ "County"
+ 
+ 80
+ "27"
+ "133"
+ "Rock"
+ "06"
+ "County"
+ 
+ 81
+ "27"
+ "105"
+ "Nobles"
+ "06"
+ "County"
+ 
+ 82
+ "27"
+ "099"
+ "Mower"
+ "06"
+ "County"
+ 
+ 83
+ "27"
+ "047"
+ "Freeborn"
+ "06"
+ "County"
+ 
+ 84
+ "27"
+ "045"
+ "Fillmore"
+ "06"
+ "County"
+ 
+ 85
+ "27"
+ "043"
+ "Faribault"
+ "06"
+ "County"
+ 
+ 86
+ "27"
+ "063"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 87
+ "27"
+ "091"
+ "Martin"
+ "06"
+ "County"
+ 
+ 88
+ "27"
+ "055"
+ "Houston"
+ "06"
+ "County"
+ 

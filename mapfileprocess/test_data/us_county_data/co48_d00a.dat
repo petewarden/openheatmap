@@ -1,0 +1,1862 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "48"
+ "111"
+ "Dallam"
+ "06"
+ "County"
+ 
+ 2
+ "48"
+ "421"
+ "Sherman"
+ "06"
+ "County"
+ 
+ 3
+ "48"
+ "295"
+ "Lipscomb"
+ "06"
+ "County"
+ 
+ 4
+ "48"
+ "357"
+ "Ochiltree"
+ "06"
+ "County"
+ 
+ 5
+ "48"
+ "195"
+ "Hansford"
+ "06"
+ "County"
+ 
+ 6
+ "48"
+ "393"
+ "Roberts"
+ "06"
+ "County"
+ 
+ 7
+ "48"
+ "211"
+ "Hemphill"
+ "06"
+ "County"
+ 
+ 8
+ "48"
+ "341"
+ "Moore"
+ "06"
+ "County"
+ 
+ 9
+ "48"
+ "205"
+ "Hartley"
+ "06"
+ "County"
+ 
+ 10
+ "48"
+ "233"
+ "Hutchinson"
+ "06"
+ "County"
+ 
+ 11
+ "48"
+ "359"
+ "Oldham"
+ "06"
+ "County"
+ 
+ 12
+ "48"
+ "065"
+ "Carson"
+ "06"
+ "County"
+ 
+ 13
+ "48"
+ "179"
+ "Gray"
+ "06"
+ "County"
+ 
+ 14
+ "48"
+ "375"
+ "Potter"
+ "06"
+ "County"
+ 
+ 15
+ "48"
+ "483"
+ "Wheeler"
+ "06"
+ "County"
+ 
+ 16
+ "48"
+ "117"
+ "Deaf Smith"
+ "06"
+ "County"
+ 
+ 17
+ "48"
+ "381"
+ "Randall"
+ "06"
+ "County"
+ 
+ 18
+ "48"
+ "129"
+ "Donley"
+ "06"
+ "County"
+ 
+ 19
+ "48"
+ "087"
+ "Collingsworth"
+ "06"
+ "County"
+ 
+ 20
+ "48"
+ "011"
+ "Armstrong"
+ "06"
+ "County"
+ 
+ 21
+ "48"
+ "045"
+ "Briscoe"
+ "06"
+ "County"
+ 
+ 22
+ "48"
+ "191"
+ "Hall"
+ "06"
+ "County"
+ 
+ 23
+ "48"
+ "437"
+ "Swisher"
+ "06"
+ "County"
+ 
+ 24
+ "48"
+ "069"
+ "Castro"
+ "06"
+ "County"
+ 
+ 25
+ "48"
+ "369"
+ "Parmer"
+ "06"
+ "County"
+ 
+ 26
+ "48"
+ "075"
+ "Childress"
+ "06"
+ "County"
+ 
+ 27
+ "48"
+ "197"
+ "Hardeman"
+ "06"
+ "County"
+ 
+ 28
+ "48"
+ "487"
+ "Wilbarger"
+ "06"
+ "County"
+ 
+ 29
+ "48"
+ "345"
+ "Motley"
+ "06"
+ "County"
+ 
+ 30
+ "48"
+ "101"
+ "Cottle"
+ "06"
+ "County"
+ 
+ 31
+ "48"
+ "279"
+ "Lamb"
+ "06"
+ "County"
+ 
+ 32
+ "48"
+ "189"
+ "Hale"
+ "06"
+ "County"
+ 
+ 33
+ "48"
+ "017"
+ "Bailey"
+ "06"
+ "County"
+ 
+ 34
+ "48"
+ "153"
+ "Floyd"
+ "06"
+ "County"
+ 
+ 35
+ "48"
+ "155"
+ "Foard"
+ "06"
+ "County"
+ 
+ 36
+ "48"
+ "485"
+ "Wichita"
+ "06"
+ "County"
+ 
+ 37
+ "48"
+ "077"
+ "Clay"
+ "06"
+ "County"
+ 
+ 38
+ "48"
+ "337"
+ "Montague"
+ "06"
+ "County"
+ 
+ 39
+ "48"
+ "387"
+ "Red River"
+ "06"
+ "County"
+ 
+ 40
+ "48"
+ "181"
+ "Grayson"
+ "06"
+ "County"
+ 
+ 41
+ "48"
+ "097"
+ "Cooke"
+ "06"
+ "County"
+ 
+ 42
+ "48"
+ "277"
+ "Lamar"
+ "06"
+ "County"
+ 
+ 43
+ "48"
+ "147"
+ "Fannin"
+ "06"
+ "County"
+ 
+ 44
+ "48"
+ "009"
+ "Archer"
+ "06"
+ "County"
+ 
+ 45
+ "48"
+ "269"
+ "King"
+ "06"
+ "County"
+ 
+ 46
+ "48"
+ "275"
+ "Knox"
+ "06"
+ "County"
+ 
+ 47
+ "48"
+ "125"
+ "Dickens"
+ "06"
+ "County"
+ 
+ 48
+ "48"
+ "023"
+ "Baylor"
+ "06"
+ "County"
+ 
+ 49
+ "48"
+ "107"
+ "Crosby"
+ "06"
+ "County"
+ 
+ 50
+ "48"
+ "303"
+ "Lubbock"
+ "06"
+ "County"
+ 
+ 51
+ "48"
+ "079"
+ "Cochran"
+ "06"
+ "County"
+ 
+ 52
+ "48"
+ "219"
+ "Hockley"
+ "06"
+ "County"
+ 
+ 53
+ "48"
+ "037"
+ "Bowie"
+ "06"
+ "County"
+ 
+ 54
+ "48"
+ "119"
+ "Delta"
+ "06"
+ "County"
+ 
+ 55
+ "48"
+ "237"
+ "Jack"
+ "06"
+ "County"
+ 
+ 56
+ "48"
+ "497"
+ "Wise"
+ "06"
+ "County"
+ 
+ 57
+ "48"
+ "121"
+ "Denton"
+ "06"
+ "County"
+ 
+ 58
+ "48"
+ "231"
+ "Hunt"
+ "06"
+ "County"
+ 
+ 59
+ "48"
+ "085"
+ "Collin"
+ "06"
+ "County"
+ 
+ 60
+ "48"
+ "263"
+ "Kent"
+ "06"
+ "County"
+ 
+ 61
+ "48"
+ "207"
+ "Haskell"
+ "06"
+ "County"
+ 
+ 62
+ "48"
+ "447"
+ "Throckmorton"
+ "06"
+ "County"
+ 
+ 63
+ "48"
+ "433"
+ "Stonewall"
+ "06"
+ "County"
+ 
+ 64
+ "48"
+ "449"
+ "Titus"
+ "06"
+ "County"
+ 
+ 65
+ "48"
+ "503"
+ "Young"
+ "06"
+ "County"
+ 
+ 66
+ "48"
+ "169"
+ "Garza"
+ "06"
+ "County"
+ 
+ 67
+ "48"
+ "305"
+ "Lynn"
+ "06"
+ "County"
+ 
+ 68
+ "48"
+ "445"
+ "Terry"
+ "06"
+ "County"
+ 
+ 69
+ "48"
+ "159"
+ "Franklin"
+ "06"
+ "County"
+ 
+ 70
+ "48"
+ "501"
+ "Yoakum"
+ "06"
+ "County"
+ 
+ 71
+ "48"
+ "223"
+ "Hopkins"
+ "06"
+ "County"
+ 
+ 72
+ "48"
+ "343"
+ "Morris"
+ "06"
+ "County"
+ 
+ 73
+ "48"
+ "067"
+ "Cass"
+ "06"
+ "County"
+ 
+ 74
+ "48"
+ "063"
+ "Camp"
+ "06"
+ "County"
+ 
+ 75
+ "48"
+ "499"
+ "Wood"
+ "06"
+ "County"
+ 
+ 76
+ "48"
+ "363"
+ "Palo Pinto"
+ "06"
+ "County"
+ 
+ 77
+ "48"
+ "367"
+ "Parker"
+ "06"
+ "County"
+ 
+ 78
+ "48"
+ "439"
+ "Tarrant"
+ "06"
+ "County"
+ 
+ 79
+ "48"
+ "113"
+ "Dallas"
+ "06"
+ "County"
+ 
+ 80
+ "48"
+ "397"
+ "Rockwall"
+ "06"
+ "County"
+ 
+ 81
+ "48"
+ "379"
+ "Rains"
+ "06"
+ "County"
+ 
+ 82
+ "48"
+ "415"
+ "Scurry"
+ "06"
+ "County"
+ 
+ 83
+ "48"
+ "033"
+ "Borden"
+ "06"
+ "County"
+ 
+ 84
+ "48"
+ "151"
+ "Fisher"
+ "06"
+ "County"
+ 
+ 85
+ "48"
+ "115"
+ "Dawson"
+ "06"
+ "County"
+ 
+ 86
+ "48"
+ "253"
+ "Jones"
+ "06"
+ "County"
+ 
+ 87
+ "48"
+ "165"
+ "Gaines"
+ "06"
+ "County"
+ 
+ 88
+ "48"
+ "429"
+ "Stephens"
+ "06"
+ "County"
+ 
+ 89
+ "48"
+ "417"
+ "Shackelford"
+ "06"
+ "County"
+ 
+ 90
+ "48"
+ "459"
+ "Upshur"
+ "06"
+ "County"
+ 
+ 91
+ "48"
+ "315"
+ "Marion"
+ "06"
+ "County"
+ 
+ 92
+ "48"
+ "257"
+ "Kaufman"
+ "06"
+ "County"
+ 
+ 93
+ "48"
+ "467"
+ "Van Zandt"
+ "06"
+ "County"
+ 
+ 94
+ "48"
+ "203"
+ "Harrison"
+ "06"
+ "County"
+ 
+ 95
+ "48"
+ "423"
+ "Smith"
+ "06"
+ "County"
+ 
+ 96
+ "48"
+ "183"
+ "Gregg"
+ "06"
+ "County"
+ 
+ 97
+ "48"
+ "221"
+ "Hood"
+ "06"
+ "County"
+ 
+ 98
+ "48"
+ "251"
+ "Johnson"
+ "06"
+ "County"
+ 
+ 99
+ "48"
+ "139"
+ "Ellis"
+ "06"
+ "County"
+ 
+ 100
+ "48"
+ "335"
+ "Mitchell"
+ "06"
+ "County"
+ 
+ 101
+ "48"
+ "317"
+ "Martin"
+ "06"
+ "County"
+ 
+ 102
+ "48"
+ "353"
+ "Nolan"
+ "06"
+ "County"
+ 
+ 103
+ "48"
+ "227"
+ "Howard"
+ "06"
+ "County"
+ 
+ 104
+ "48"
+ "003"
+ "Andrews"
+ "06"
+ "County"
+ 
+ 105
+ "48"
+ "441"
+ "Taylor"
+ "06"
+ "County"
+ 
+ 106
+ "48"
+ "133"
+ "Eastland"
+ "06"
+ "County"
+ 
+ 107
+ "48"
+ "059"
+ "Callahan"
+ "06"
+ "County"
+ 
+ 108
+ "48"
+ "143"
+ "Erath"
+ "06"
+ "County"
+ 
+ 109
+ "48"
+ "401"
+ "Rusk"
+ "06"
+ "County"
+ 
+ 110
+ "48"
+ "365"
+ "Panola"
+ "06"
+ "County"
+ 
+ 111
+ "48"
+ "213"
+ "Henderson"
+ "06"
+ "County"
+ 
+ 112
+ "48"
+ "349"
+ "Navarro"
+ "06"
+ "County"
+ 
+ 113
+ "48"
+ "425"
+ "Somervell"
+ "06"
+ "County"
+ 
+ 114
+ "48"
+ "217"
+ "Hill"
+ "06"
+ "County"
+ 
+ 115
+ "48"
+ "093"
+ "Comanche"
+ "06"
+ "County"
+ 
+ 116
+ "48"
+ "035"
+ "Bosque"
+ "06"
+ "County"
+ 
+ 117
+ "48"
+ "073"
+ "Cherokee"
+ "06"
+ "County"
+ 
+ 118
+ "48"
+ "173"
+ "Glasscock"
+ "06"
+ "County"
+ 
+ 119
+ "48"
+ "431"
+ "Sterling"
+ "06"
+ "County"
+ 
+ 120
+ "48"
+ "495"
+ "Winkler"
+ "06"
+ "County"
+ 
+ 121
+ "48"
+ "329"
+ "Midland"
+ "06"
+ "County"
+ 
+ 122
+ "48"
+ "135"
+ "Ector"
+ "06"
+ "County"
+ 
+ 123
+ "48"
+ "081"
+ "Coke"
+ "06"
+ "County"
+ 
+ 124
+ "48"
+ "001"
+ "Anderson"
+ "06"
+ "County"
+ 
+ 125
+ "48"
+ "399"
+ "Runnels"
+ "06"
+ "County"
+ 
+ 126
+ "48"
+ "083"
+ "Coleman"
+ "06"
+ "County"
+ 
+ 127
+ "48"
+ "049"
+ "Brown"
+ "06"
+ "County"
+ 
+ 128
+ "48"
+ "193"
+ "Hamilton"
+ "06"
+ "County"
+ 
+ 129
+ "48"
+ "161"
+ "Freestone"
+ "06"
+ "County"
+ 
+ 130
+ "48"
+ "141"
+ "El Paso"
+ "06"
+ "County"
+ 
+ 131
+ "48"
+ "229"
+ "Hudspeth"
+ "06"
+ "County"
+ 
+ 132
+ "48"
+ "301"
+ "Loving"
+ "06"
+ "County"
+ 
+ 133
+ "48"
+ "109"
+ "Culberson"
+ "06"
+ "County"
+ 
+ 134
+ "48"
+ "389"
+ "Reeves"
+ "06"
+ "County"
+ 
+ 135
+ "48"
+ "419"
+ "Shelby"
+ "06"
+ "County"
+ 
+ 136
+ "48"
+ "309"
+ "McLennan"
+ "06"
+ "County"
+ 
+ 137
+ "48"
+ "347"
+ "Nacogdoches"
+ "06"
+ "County"
+ 
+ 138
+ "48"
+ "293"
+ "Limestone"
+ "06"
+ "County"
+ 
+ 139
+ "48"
+ "333"
+ "Mills"
+ "06"
+ "County"
+ 
+ 140
+ "48"
+ "099"
+ "Coryell"
+ "06"
+ "County"
+ 
+ 141
+ "48"
+ "451"
+ "Tom Green"
+ "06"
+ "County"
+ 
+ 142
+ "48"
+ "289"
+ "Leon"
+ "06"
+ "County"
+ 
+ 143
+ "48"
+ "405"
+ "San Augustine"
+ "06"
+ "County"
+ 
+ 144
+ "48"
+ "461"
+ "Upton"
+ "06"
+ "County"
+ 
+ 145
+ "48"
+ "475"
+ "Ward"
+ "06"
+ "County"
+ 
+ 146
+ "48"
+ "103"
+ "Crane"
+ "06"
+ "County"
+ 
+ 147
+ "48"
+ "383"
+ "Reagan"
+ "06"
+ "County"
+ 
+ 148
+ "48"
+ "403"
+ "Sabine"
+ "06"
+ "County"
+ 
+ 149
+ "48"
+ "225"
+ "Houston"
+ "06"
+ "County"
+ 
+ 150
+ "48"
+ "095"
+ "Concho"
+ "06"
+ "County"
+ 
+ 151
+ "48"
+ "235"
+ "Irion"
+ "06"
+ "County"
+ 
+ 152
+ "48"
+ "005"
+ "Angelina"
+ "06"
+ "County"
+ 
+ 153
+ "48"
+ "145"
+ "Falls"
+ "06"
+ "County"
+ 
+ 154
+ "48"
+ "307"
+ "McCulloch"
+ "06"
+ "County"
+ 
+ 155
+ "48"
+ "411"
+ "San Saba"
+ "06"
+ "County"
+ 
+ 156
+ "48"
+ "281"
+ "Lampasas"
+ "06"
+ "County"
+ 
+ 157
+ "48"
+ "455"
+ "Trinity"
+ "06"
+ "County"
+ 
+ 158
+ "48"
+ "371"
+ "Pecos"
+ "06"
+ "County"
+ 
+ 159
+ "48"
+ "395"
+ "Robertson"
+ "06"
+ "County"
+ 
+ 160
+ "48"
+ "027"
+ "Bell"
+ "06"
+ "County"
+ 
+ 161
+ "48"
+ "351"
+ "Newton"
+ "06"
+ "County"
+ 
+ 162
+ "48"
+ "241"
+ "Jasper"
+ "06"
+ "County"
+ 
+ 163
+ "48"
+ "373"
+ "Polk"
+ "06"
+ "County"
+ 
+ 164
+ "48"
+ "331"
+ "Milam"
+ "06"
+ "County"
+ 
+ 165
+ "48"
+ "243"
+ "Jeff Davis"
+ "06"
+ "County"
+ 
+ 166
+ "48"
+ "313"
+ "Madison"
+ "06"
+ "County"
+ 
+ 167
+ "48"
+ "413"
+ "Schleicher"
+ "06"
+ "County"
+ 
+ 168
+ "48"
+ "327"
+ "Menard"
+ "06"
+ "County"
+ 
+ 169
+ "48"
+ "105"
+ "Crockett"
+ "06"
+ "County"
+ 
+ 170
+ "48"
+ "457"
+ "Tyler"
+ "06"
+ "County"
+ 
+ 171
+ "48"
+ "471"
+ "Walker"
+ "06"
+ "County"
+ 
+ 172
+ "48"
+ "053"
+ "Burnet"
+ "06"
+ "County"
+ 
+ 173
+ "48"
+ "041"
+ "Brazos"
+ "06"
+ "County"
+ 
+ 174
+ "48"
+ "319"
+ "Mason"
+ "06"
+ "County"
+ 
+ 175
+ "48"
+ "299"
+ "Llano"
+ "06"
+ "County"
+ 
+ 176
+ "48"
+ "407"
+ "San Jacinto"
+ "06"
+ "County"
+ 
+ 177
+ "48"
+ "491"
+ "Williamson"
+ "06"
+ "County"
+ 
+ 178
+ "48"
+ "185"
+ "Grimes"
+ "06"
+ "County"
+ 
+ 179
+ "48"
+ "051"
+ "Burleson"
+ "06"
+ "County"
+ 
+ 180
+ "48"
+ "267"
+ "Kimble"
+ "06"
+ "County"
+ 
+ 181
+ "48"
+ "435"
+ "Sutton"
+ "06"
+ "County"
+ 
+ 182
+ "48"
+ "043"
+ "Brewster"
+ "06"
+ "County"
+ 
+ 183
+ "48"
+ "443"
+ "Terrell"
+ "06"
+ "County"
+ 
+ 184
+ "48"
+ "339"
+ "Montgomery"
+ "06"
+ "County"
+ 
+ 185
+ "48"
+ "377"
+ "Presidio"
+ "06"
+ "County"
+ 
+ 186
+ "48"
+ "453"
+ "Travis"
+ "06"
+ "County"
+ 
+ 187
+ "48"
+ "287"
+ "Lee"
+ "06"
+ "County"
+ 
+ 188
+ "48"
+ "199"
+ "Hardin"
+ "06"
+ "County"
+ 
+ 189
+ "48"
+ "031"
+ "Blanco"
+ "06"
+ "County"
+ 
+ 190
+ "48"
+ "171"
+ "Gillespie"
+ "06"
+ "County"
+ 
+ 191
+ "48"
+ "291"
+ "Liberty"
+ "06"
+ "County"
+ 
+ 192
+ "48"
+ "021"
+ "Bastrop"
+ "06"
+ "County"
+ 
+ 193
+ "48"
+ "477"
+ "Washington"
+ "06"
+ "County"
+ 
+ 194
+ "48"
+ "209"
+ "Hays"
+ "06"
+ "County"
+ 
+ 195
+ "48"
+ "265"
+ "Kerr"
+ "06"
+ "County"
+ 
+ 196
+ "48"
+ "137"
+ "Edwards"
+ "06"
+ "County"
+ 
+ 197
+ "48"
+ "465"
+ "Val Verde"
+ "06"
+ "County"
+ 
+ 198
+ "48"
+ "473"
+ "Waller"
+ "06"
+ "County"
+ 
+ 199
+ "48"
+ "361"
+ "Orange"
+ "06"
+ "County"
+ 
+ 200
+ "48"
+ "245"
+ "Jefferson"
+ "06"
+ "County"
+ 
+ 201
+ "48"
+ "201"
+ "Harris"
+ "06"
+ "County"
+ 
+ 202
+ "48"
+ "149"
+ "Fayette"
+ "06"
+ "County"
+ 
+ 203
+ "48"
+ "259"
+ "Kendall"
+ "06"
+ "County"
+ 
+ 204
+ "48"
+ "015"
+ "Austin"
+ "06"
+ "County"
+ 
+ 205
+ "48"
+ "385"
+ "Real"
+ "06"
+ "County"
+ 
+ 206
+ "48"
+ "055"
+ "Caldwell"
+ "06"
+ "County"
+ 
+ 207
+ "48"
+ "091"
+ "Comal"
+ "06"
+ "County"
+ 
+ 208
+ "48"
+ "089"
+ "Colorado"
+ "06"
+ "County"
+ 
+ 209
+ "48"
+ "019"
+ "Bandera"
+ "06"
+ "County"
+ 
+ 210
+ "48"
+ "071"
+ "Chambers"
+ "06"
+ "County"
+ 
+ 211
+ "48"
+ "187"
+ "Guadalupe"
+ "06"
+ "County"
+ 
+ 212
+ "48"
+ "157"
+ "Fort Bend"
+ "06"
+ "County"
+ 
+ 213
+ "48"
+ "177"
+ "Gonzales"
+ "06"
+ "County"
+ 
+ 214
+ "48"
+ "029"
+ "Bexar"
+ "06"
+ "County"
+ 
+ 215
+ "48"
+ "325"
+ "Medina"
+ "06"
+ "County"
+ 
+ 216
+ "48"
+ "481"
+ "Wharton"
+ "06"
+ "County"
+ 
+ 217
+ "48"
+ "285"
+ "Lavaca"
+ "06"
+ "County"
+ 
+ 218
+ "48"
+ "463"
+ "Uvalde"
+ "06"
+ "County"
+ 
+ 219
+ "48"
+ "271"
+ "Kinney"
+ "06"
+ "County"
+ 
+ 220
+ "48"
+ "039"
+ "Brazoria"
+ "06"
+ "County"
+ 
+ 221
+ "48"
+ "167"
+ "Galveston"
+ "06"
+ "County"
+ 
+ 222
+ "48"
+ "167"
+ "Galveston"
+ "06"
+ "County"
+ 
+ 223
+ "48"
+ "493"
+ "Wilson"
+ "06"
+ "County"
+ 
+ 224
+ "48"
+ "123"
+ "DeWitt"
+ "06"
+ "County"
+ 
+ 225
+ "48"
+ "239"
+ "Jackson"
+ "06"
+ "County"
+ 
+ 226
+ "48"
+ "013"
+ "Atascosa"
+ "06"
+ "County"
+ 
+ 227
+ "48"
+ "321"
+ "Matagorda"
+ "06"
+ "County"
+ 
+ 228
+ "48"
+ "255"
+ "Karnes"
+ "06"
+ "County"
+ 
+ 229
+ "48"
+ "469"
+ "Victoria"
+ "06"
+ "County"
+ 
+ 230
+ "48"
+ "163"
+ "Frio"
+ "06"
+ "County"
+ 
+ 231
+ "48"
+ "507"
+ "Zavala"
+ "06"
+ "County"
+ 
+ 232
+ "48"
+ "323"
+ "Maverick"
+ "06"
+ "County"
+ 
+ 233
+ "48"
+ "175"
+ "Goliad"
+ "06"
+ "County"
+ 
+ 234
+ "48"
+ "297"
+ "Live Oak"
+ "06"
+ "County"
+ 
+ 235
+ "48"
+ "057"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 236
+ "48"
+ "025"
+ "Bee"
+ "06"
+ "County"
+ 
+ 237
+ "48"
+ "057"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 238
+ "48"
+ "127"
+ "Dimmit"
+ "06"
+ "County"
+ 
+ 239
+ "48"
+ "283"
+ "La Salle"
+ "06"
+ "County"
+ 
+ 240
+ "48"
+ "311"
+ "McMullen"
+ "06"
+ "County"
+ 
+ 241
+ "48"
+ "391"
+ "Refugio"
+ "06"
+ "County"
+ 
+ 242
+ "48"
+ "057"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 243
+ "48"
+ "057"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 244
+ "48"
+ "007"
+ "Aransas"
+ "06"
+ "County"
+ 
+ 245
+ "48"
+ "057"
+ "Calhoun"
+ "06"
+ "County"
+ 
+ 246
+ "48"
+ "479"
+ "Webb"
+ "06"
+ "County"
+ 
+ 247
+ "48"
+ "409"
+ "San Patricio"
+ "06"
+ "County"
+ 
+ 248
+ "48"
+ "007"
+ "Aransas"
+ "06"
+ "County"
+ 
+ 249
+ "48"
+ "131"
+ "Duval"
+ "06"
+ "County"
+ 
+ 250
+ "48"
+ "249"
+ "Jim Wells"
+ "06"
+ "County"
+ 
+ 251
+ "48"
+ "355"
+ "Nueces"
+ "06"
+ "County"
+ 
+ 252
+ "48"
+ "355"
+ "Nueces"
+ "06"
+ "County"
+ 
+ 253
+ "48"
+ "273"
+ "Kleberg"
+ "06"
+ "County"
+ 
+ 254
+ "48"
+ "273"
+ "Kleberg"
+ "06"
+ "County"
+ 
+ 255
+ "48"
+ "247"
+ "Jim Hogg"
+ "06"
+ "County"
+ 
+ 256
+ "48"
+ "505"
+ "Zapata"
+ "06"
+ "County"
+ 
+ 257
+ "48"
+ "261"
+ "Kenedy"
+ "06"
+ "County"
+ 
+ 258
+ "48"
+ "261"
+ "Kenedy"
+ "06"
+ "County"
+ 
+ 259
+ "48"
+ "047"
+ "Brooks"
+ "06"
+ "County"
+ 
+ 260
+ "48"
+ "427"
+ "Starr"
+ "06"
+ "County"
+ 
+ 261
+ "48"
+ "215"
+ "Hidalgo"
+ "06"
+ "County"
+ 
+ 262
+ "48"
+ "489"
+ "Willacy"
+ "06"
+ "County"
+ 
+ 263
+ "48"
+ "489"
+ "Willacy"
+ "06"
+ "County"
+ 
+ 264
+ "48"
+ "061"
+ "Cameron"
+ "06"
+ "County"
+ 
+ 265
+ "48"
+ "061"
+ "Cameron"
+ "06"
+ "County"
+ 
