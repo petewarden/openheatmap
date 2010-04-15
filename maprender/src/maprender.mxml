@@ -287,7 +287,22 @@ private function makeEventArgument(event:MouseEvent): Object
 	var mouseX: Number = event.localX;
 	var mouseY: Number = event.localY;
 	
-	var mouseLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
+	var mouseLatLon: Object = null;
+	for each (var inlay: Object in _inlays)
+	{
+		if ((mouseX>=inlay.leftX)&&
+			(mouseX<inlay.rightX)&&
+			(mouseY>=inlay.topY)&&
+			(mouseY<inlay.bottomY))
+		{
+			var localX: Number = (mouseX-inlay.leftX);
+			var localY: Number = (mouseY-inlay.topY);
+			mouseLatLon = getLatLonFromXY(new Point(localX, localY), inlay.xYToLatLonMatrix);
+		}
+	}
+	
+	if (mouseLatLon === null)
+		mouseLatLon = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
 	
 	var mapPointData:Object = new Object();
 	mapPointData.lon = mouseLatLon.lon;
@@ -376,9 +391,7 @@ private function doEveryFrame(event: Event): void
 		for each (var inlay: Object in _inlays)
 		{
 			var drawingSurface: Shape = inlay.drawingSurface;
-
 			doRedraw(drawingSurface.graphics, inlay.width, inlay.height, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
-
 			inlay.bitmap.bitmapData.draw(drawingSurface, new Matrix());
 		}
 		
@@ -1167,7 +1180,11 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
 		latLonToXYMatrix: latLonToXYMatrix,
 		xYToLatLonMatrix: xYToLatLonMatrix,
 		width: width,
-		height: height
+		height: height,
+		leftX: leftX,
+		topY: topY,
+		rightX: rightX,
+		bottomY: bottomY
 	});
 }
 
