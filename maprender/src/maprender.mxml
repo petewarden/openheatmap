@@ -18,15 +18,6 @@ public var _dirty: Boolean = true;
 public var _redrawCountdown: int = 0;
 public var _oceanColor: Number = 0xd0e0ff;
 
-public var _lineDefaults: Object = {
-	color: 0x000000,
-	thickness: 1.0,
-	alpha: 0.5,
-	highlight: false,
-	highlightColor: 0xff0000,
-	highlightAlpha: 1.0
-};
-
 public var _wayDefaults: Object = {
 	color: 0x000000,
 	alpha: 1.0,
@@ -57,10 +48,6 @@ public var _onMouseOutFunction: String = null;
 public var _onMouseMoveFunction: String = null;
 public var _onEveryFrameFunction: String = null;
 
-public var _lines: Array = [];
-public var _caption: TextField = new TextField();
-public var _centerPoint: Point = new Point(0,0);
-public var _zoom: Number = 1.0;
 public var _width: Number = 800;
 public var _height: Number = 600;
 
@@ -99,6 +86,8 @@ public var _bucketGrid: Array = [];
 
 public var _timelineControls: TimelineControls = null;
 
+public var _inlays: Array = [];
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -113,7 +102,6 @@ public function startup():void
 	setLatLonViewingArea(90, -180, -90, 180);
 	
     viewer.addChild(_drawingSurface);
-    viewer.addChild(_caption);
 	    
     _drawingSurface.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
     _drawingSurface.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
@@ -132,41 +120,20 @@ public function startup():void
 	ExternalInterface.addCallback("setLatLonViewingArea", setLatLonViewingArea);      	
 	ExternalInterface.addCallback("setOceanColor", function(color: Number): void { _oceanColor = color; _dirty = true; });
 	ExternalInterface.addCallback("setBorderColor", setBorderColor);
-	ExternalInterface.addCallback("setLineDefault", setLineDefault);
-	ExternalInterface.addCallback("setWayDefault", setLineDefault);
+	ExternalInterface.addCallback("setWayDefault", setWayDefault);
 	ExternalInterface.addCallback('setMouseHandler', setMouseHandler);
 	ExternalInterface.addCallback("setEveryFrameHandler", function(functionName: String): void { _onEveryFrameFunction = functionName; });
-	ExternalInterface.addCallback('addLine', addLine);
-	ExternalInterface.addCallback('removeLines', removeLines);
-	ExternalInterface.addCallback('highlightLines', highlightLines);
-	ExternalInterface.addCallback('unHighlightLines', unHighlightLines);
-	ExternalInterface.addCallback('setCaption', setCaption);
 	ExternalInterface.addCallback("loadFromXMLFile", loadFromXMLFile);      	
 	ExternalInterface.addCallback("isLoadingXML", isLoadingXML);
 	ExternalInterface.addCallback("loadValuesFromFile", loadValuesFromFile);
 	ExternalInterface.addCallback("setColorGradient", setColorGradient);	
 	ExternalInterface.addCallback("getWaysContainingLatLon", getWaysContainingLatLon);
 	ExternalInterface.addCallback("getValueForWayId", getValueForWayId);
+	ExternalInterface.addCallback("addInlay", addInlay);
 
 	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
 	if (onLoadFunction !== null)
 		ExternalInterface.call(onLoadFunction, '');
-}
-
-private function setLineDefault(propertyName: String, propertyValue: Object): void
-{
-	_lineDefaults[propertyName] = propertyValue;
-	_dirty = true;
-}
-
-private function getLineProperty(propertyName: String, lineInfo: Object = null): Object
-{
-	if ((lineInfo !== null) && (lineInfo.hasOwnProperty(propertyName)))
-		return lineInfo[propertyName];
-	else if (_lineDefaults.hasOwnProperty(propertyName))
-		return _lineDefaults[propertyName];
-	else
-		return null;
 }
 
 private function setWayDefault(propertyName: String, propertyValue: Object): void
@@ -222,52 +189,6 @@ private function getTagsFromArgument(tagsArgument: Object): Array
 		return tagsArgument as Array;
 	else
 		return [ tagsArgument ];
-}
-
-private function addLine(lineInfo: Object): void
-{
-	_lines.push(lineInfo);
-	
-	_dirty = true;
-}
-
-private function removeLines(tagsArgument: Object = null): void
-{
-	var tags: Array = getTagsFromArgument(tagsArgument);
-	
-	for (var index: String in _lines)
-	{
-		if (doTagsMatch(tags, _lines[index]))
-			_lines.splice(index, 1);
-	}	
-		
-	_dirty = true;
-}
-
-private function highlightLines(tagsArgument: Object = null): void
-{
-	var tags: Array = getTagsFromArgument(tagsArgument);
-
-	for (var index: String in _lines)
-	{
-		if (doTagsMatch(tags, _lines[index]))
-			_lines[index].highlighted = true;
-	}
-	
-	_dirty = true;
-}
-
-private function unHighlightLines(tagsArgument: Object = null): void
-{
-	var tags: Array = getTagsFromArgument(tagsArgument);
-
-	for (var index: String in _lines)
-	{
-		if (doTagsMatch(tags, _lines[index]))
-			_lines[index].highlighted = false;
-	}
-	
-	_dirty = true;
 }
 
 private function setMouseHandler(eventName: String, functionName: String): void
@@ -331,12 +252,12 @@ private function setLatLonToXYMatrix(newMatrix: Matrix): void
 	_xYToLatLonMatrix.invert();
 }
 
-private function getXYFromLatLon(latLon: Object): Point
+private function getXYFromLatLon(latLon: Object, latLonToXYMatrix: Matrix): Point
 {
 //	trace('latLon input: '+latLon.lon+', '+latLon.lat);
 	var latLonPoint: Point = new Point(latLon.lon, latLon.lat);
 	
-	var result: Point = _latLonToXYMatrix.transformPoint(latLonPoint);
+	var result: Point = latLonToXYMatrix.transformPoint(latLonPoint);
 	
 //	trace('latLon transform: '+_latLonToXYMatrix);
 
@@ -345,9 +266,9 @@ private function getXYFromLatLon(latLon: Object): Point
 	return result;
 }
 
-private function getLatLonFromXY(xYPoint: Point): Object
+private function getLatLonFromXY(xYPoint: Point, xYToLatLonMatrix: Matrix): Object
 {
-	var latLonPoint: Point = _xYToLatLonMatrix.transformPoint(xYPoint);
+	var latLonPoint: Point = xYToLatLonMatrix.transformPoint(xYPoint);
 	
 	var result: Object = {
 			lat: latLonPoint.y,
@@ -361,27 +282,12 @@ private function getLatLonFromXY(xYPoint: Point): Object
 	return result;
 }
 
-private function setCaption(text: String, lat: Number, lon: Number, color:Number = 0x000000, size:Number=12): void
-{
-	_caption.htmlText = text;
-//	caption.styleName = "text";
-//	caption.setStyle("fontSize", size);
-//	caption.setStyle("color", color);
-
-trace(text);
-
-	var currentPos: Point = getXYFromLatLon({lat:lat, lon:lon});
-	
-	_caption.x = (currentPos.x-20);
-	_caption.y = (currentPos.y-(size*1.5));
-}
-
 private function makeEventArgument(event:MouseEvent): Object
 {
 	var mouseX: Number = event.localX;
 	var mouseY: Number = event.localY;
 	
-	var mouseLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY));
+	var mouseLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
 	
 	var mapPointData:Object = new Object();
 	mapPointData.lon = mouseLatLon.lon;
@@ -462,7 +368,20 @@ private function doEveryFrame(event: Event): void
 	
 	if (_dirty)
 	{
-		doRedraw();
+		setWaysFromValues();
+
+		_drawingSurface.setActualSize(_width, _height);
+		doRedraw(_drawingSurface.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
+		
+		for each (var inlay: Object in _inlays)
+		{
+			var drawingSurface: Shape = inlay.drawingSurface;
+
+			doRedraw(drawingSurface.graphics, inlay.width, inlay.height, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
+
+			inlay.bitmap.bitmapData.draw(drawingSurface, new Matrix());
+		}
+		
 		_dirty = false;
 		_redrawCountdown = 0;
 	}
@@ -475,7 +394,7 @@ private function doEveryFrame(event: Event): void
 			if (_frameIndex>=_frameTimes.length)
 				_frameIndex = 0;
 			
-			updateTimelineDisplay();	
+			updateTimelineDisplay();
 			
 			_dirty = true;
 		}
@@ -747,125 +666,29 @@ private function loadValuesFromFile(values_file_name: String): void
 	_values_loader.addEventListener("complete", onValuesLoad);
 }
 
-private function getXFromLon(lon:Number): Number
-{
-	return 0;	
-}
+private function doRedraw(graphics: Graphics, width: int, height: int, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
+{		
+	graphics.clear();
 
-private function getYFromLat(lat:Number): Number
-{
-	return 0;	
-}
-
-private function getLonFromX(x:Number): Number
-{
-	return 0;
-}
-
-private function getLatFromY(y:Number): Number
-{
-	return 0;
-}
-
-private function doRedraw(): void
-{
-	setWaysFromValues();
-	
-	_drawingSurface.setActualSize(_width, _height);
-	_drawingSurface.graphics.clear();
-
-	_drawingSurface.graphics.beginFill(_oceanColor, 1.0);
-    _drawingSurface.graphics.drawRect(0, 0, _width, _height);
-    _drawingSurface.graphics.endFill();
+	graphics.beginFill(_oceanColor, 1.0);
+   	graphics.drawRect(0, 0, width, height);
+    graphics.endFill();
 
 	var viewingArea: Rectangle = new Rectangle();
 	
 	var topLeftScreen: Point = new Point(0, 0);
-	var bottomRightScreen: Point = new Point(_width, _height);
+	var bottomRightScreen: Point = new Point(width, height);
 	
-	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen);
-	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen);
+	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
+	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
 	
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
 
-	drawWays(viewingArea);
-	drawLines();
+	drawWays(graphics, viewingArea, latLonToXYMatrix);
 }
 
-private function drawLines(): void
-{
-	for each (var line:Object in _lines)
-	{
-		var lineColor: Number;
-		var lineAlpha: Number;
-		if (getLineProperty('highlighted', line)==true)
-		{
-			lineColor = Number(getLineProperty('highlightColor', line));
-			lineAlpha = Number(getLineProperty('highlightAlpha', line));
-		}
-		else
-		{
-			lineColor = Number(getLineProperty('color', line));
-			lineAlpha = Number(getLineProperty('alpha', line));
-		}
-		
-		var lineThickness: Number = Number(getLineProperty('thickness', line));
-		
-		var lonDistance: Number = (line.toLon-line.fromLon);
-		if ((lonDistance>180) || (lonDistance<-180))
-		{
-			var fromLat: Number;
-			var fromLon: Number;
-			var toLat: Number;
-			var toLon: Number;
-			if (lonDistance<-180)
-			{
-				fromLat = line.fromLat;
-				fromLon = line.fromLon;
-				toLat = line.toLat;
-				toLon = line.toLon;
-			}
-			else
-			{
-				fromLat = line.toLat;
-				fromLon = line.toLon;
-				toLat = line.fromLat;
-				toLon = line.fromLon;
-			}
-			
-			var fromX: Number = getXFromLon(fromLon);
-			var fromY: Number = getYFromLat(fromLat);
-	
-			var toX: Number = getXFromLon(toLon);
-			var toY: Number = getYFromLat(toLat);
-	
-			_drawingSurface.graphics.lineStyle(lineThickness,lineColor,lineAlpha);
-			_drawingSurface.graphics.beginFill(0);
-			_drawingSurface.graphics.moveTo(fromX, fromY);
-			_drawingSurface.graphics.lineTo(toX+_width, toY);
-			_drawingSurface.graphics.moveTo(fromX-_width, fromY);
-			_drawingSurface.graphics.lineTo(toX, toY);
-			_drawingSurface.graphics.endFill();
-		}
-		else
-		{
-			fromX = getXFromLon(line.fromLon);
-			fromY = getYFromLat(line.fromLat);
-	
-			toX = getXFromLon(line.toLon);
-			toY = getYFromLat(line.toLat);
-	
-			_drawingSurface.graphics.lineStyle(lineThickness,lineColor,lineAlpha);
-			_drawingSurface.graphics.beginFill(0);
-			_drawingSurface.graphics.moveTo(fromX, fromY);
-			_drawingSurface.graphics.lineTo(toX, toY);
-			_drawingSurface.graphics.endFill();
-		}
-	}
-}
-
-private function drawWays(viewingArea: Rectangle): void
+private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix): void
 {		
 	for (var wayId:String in _ways)
 	{
@@ -879,8 +702,8 @@ private function drawWays(viewingArea: Rectangle): void
 		}
 		else
 		{
-			wayColor = Number(getLineProperty('color', way));
-			wayAlpha = Number(getLineProperty('alpha', way));
+			wayColor = Number(getWayProperty('color', way));
+			wayAlpha = Number(getWayProperty('alpha', way));
 		}
 
 		if (way.nds.length<1)
@@ -892,12 +715,12 @@ private function drawWays(viewingArea: Rectangle): void
 		var finalNd: String = way.nds[way.nds.length-1];
 		var finalNode: Object = _nodes[finalNd];
 		
-		var finalPos: Point = getXYFromLatLon(finalNode);
+		var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
 		
-		_drawingSurface.graphics.lineStyle();
-//		_drawingSurface.graphics.lineStyle(0, wayColor,wayAlpha);
-		_drawingSurface.graphics.beginFill(wayColor, wayAlpha);
-		_drawingSurface.graphics.moveTo(finalPos.x, finalPos.y);
+		graphics.lineStyle();
+//		graphics.lineStyle(0, wayColor,wayAlpha);
+		graphics.beginFill(wayColor, wayAlpha);
+		graphics.moveTo(finalPos.x, finalPos.y);
 
 //		trace("Starting at "+finalPos.x+", "+finalPos.y);
 //		trace("Drawing "+way.nds.length+" nodes");
@@ -905,12 +728,12 @@ private function drawWays(viewingArea: Rectangle): void
 		for each (var currentNd: String in way.nds)
 		{
 			var currentNode: Object = _nodes[currentNd];
-			var currentPos: Point = getXYFromLatLon(currentNode);
-			_drawingSurface.graphics.lineTo(currentPos.x, currentPos.y);
+			var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
+			graphics.lineTo(currentPos.x, currentPos.y);
 //			trace("Line to "+currentPos.x+", "+currentPos.y);
 		}
 
-		_drawingSurface.graphics.endFill();
+		graphics.endFill();
 	}
 }
 
@@ -1309,6 +1132,43 @@ private function getValueForWayId(wayId: String): String
 	}
 	
 	return null;
+}
+
+private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: Number, topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
+{
+	var width: Number = (rightX-leftX);
+	var height: Number = (bottomY-topY);
+	
+	var widthLon: Number = (rightLon-leftLon);
+	var heightLat: Number = (bottomLat-topLat);
+	
+	var scaleX: Number = (width/widthLon);
+	var scaleY: Number = (height/heightLat);
+
+	var latLonToXYMatrix: Matrix = new Matrix();
+	latLonToXYMatrix.translate(-leftLon, -topLat);
+	latLonToXYMatrix.scale(scaleX, scaleY);	
+
+	var xYToLatLonMatrix: Matrix = latLonToXYMatrix.clone();
+	xYToLatLonMatrix.invert();
+
+	var drawingSurface: Shape = new Shape();
+
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	var bitmap: Bitmap = new Bitmap(bitmapData);
+	bitmap.x = leftX;
+	bitmap.y = topY;
+	
+	viewer.addChild(bitmap);
+	
+	_inlays.push({
+		drawingSurface: drawingSurface,
+		bitmap: bitmap,
+		latLonToXYMatrix: latLonToXYMatrix,
+		xYToLatLonMatrix: xYToLatLonMatrix,
+		width: width,
+		height: height
+	});
 }
 
 ]]>

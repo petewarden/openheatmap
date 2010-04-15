@@ -132,6 +132,9 @@ function onFlashReady()
     flashobj.loadValuesFromFile('county_percentages.csv');
     flashobj.setLatLonViewingArea(50, -125, 15, -65);
     flashobj.setMouseHandler('mousemove', 'onMouseMove');
+    
+    flashobj.addInlay(50, 325, 250, 525, 72, -170, 52, -130);
+    flashobj.addInlay(300, 450, 500, 550, 25, -165, 15, -145);
 }
 
 function onXMLLoaded(filename)
