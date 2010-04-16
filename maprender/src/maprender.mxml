@@ -13,7 +13,8 @@ import flash.geom.Matrix;
 import flash.geom.Rectangle;
 import TimelineControls;
 
-public var _drawingSurface:UIComponent = new UIComponent();
+public var _mainShape:Shape = null;
+public var _mainBitmap: Bitmap = null;
 public var _dirty: Boolean = true;
 public var _redrawCountdown: int = 0;
 public var _oceanColor: Number = 0xd0e0ff;
@@ -100,17 +101,23 @@ public function startup():void
 {
 	setSize(800, 600);
 	setLatLonViewingArea(90, -180, -90, 180);
+
+	_mainShape = new Shape();
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	_mainBitmap = new Bitmap(bitmapData);
+	_mainBitmap.x = 0;
+	_mainBitmap.y = 0;
 	
-    viewer.addChild(_drawingSurface);
+//	viewer.addChild(_mainBitmap);
 	    
-    _drawingSurface.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
-    _drawingSurface.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
-    _drawingSurface.addEventListener( MouseEvent.MOUSE_DOWN, mapMouseDownHandler );
-    _drawingSurface.addEventListener( MouseEvent.MOUSE_MOVE, mapMouseMoveHandler );
-    _drawingSurface.addEventListener( MouseEvent.MOUSE_OUT, mapMouseOutHandler );
-    _drawingSurface.addEventListener( MouseEvent.MOUSE_OVER, mapMouseOverHandler );
-    _drawingSurface.addEventListener( MouseEvent.MOUSE_UP, mapMouseUpHandler );
-//    drawingSurface.addEventListener( MouseEvent.MOUSE_WHEEL, mapMouseWheelHandler );
+    viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
+    viewer.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
+    viewer.addEventListener( MouseEvent.MOUSE_DOWN, mapMouseDownHandler );
+    viewer.addEventListener( MouseEvent.MOUSE_MOVE, mapMouseMoveHandler );
+    viewer.addEventListener( MouseEvent.MOUSE_OUT, mapMouseOutHandler );
+    viewer.addEventListener( MouseEvent.MOUSE_OVER, mapMouseOverHandler );
+    viewer.addEventListener( MouseEvent.MOUSE_UP, mapMouseUpHandler );
+//    viewer.addEventListener( MouseEvent.MOUSE_WHEEL, mapMouseWheelHandler );
 
 	_dirty = true;
 
@@ -385,15 +392,29 @@ private function doEveryFrame(event: Event): void
 	{
 		setWaysFromValues();
 
-		_drawingSurface.setActualSize(_width, _height);
-		doRedraw(_drawingSurface.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
-		
+//		_mainShape.setActualSize(_width, _height);
+		doRedraw(_mainShape.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
+				
 		for each (var inlay: Object in _inlays)
 		{
 			var drawingSurface: Shape = inlay.drawingSurface;
 			doRedraw(drawingSurface.graphics, inlay.width, inlay.height, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
 			inlay.bitmap.bitmapData.draw(drawingSurface, new Matrix());
+
+			var inlayMatrix: Matrix = new Matrix();
+			inlayMatrix.translate(inlay.leftX, inlay.topY);
+
+			_mainShape.graphics.beginBitmapFill(inlay.bitmap.bitmapData, inlayMatrix, false);
+			_mainShape.graphics.drawRect(inlay.leftX, inlay.topY, inlay.width, inlay.height);
+			_mainShape.graphics.endFill();
 		}
+
+		_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
+		
+		viewer.graphics.clear();
+		viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, new Matrix(), false);
+		viewer.graphics.drawRect(0, 0, _width, _height);
+		viewer.graphics.endFill();
 		
 		_dirty = false;
 		_redrawCountdown = 0;
@@ -1180,7 +1201,7 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
 	bitmap.x = leftX;
 	bitmap.y = topY;
 	
-	viewer.addChild(bitmap);
+//	viewer.addChild(bitmap);
 	
 	_inlays.push({
 		drawingSurface: drawingSurface,
