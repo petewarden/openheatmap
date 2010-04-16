@@ -179,11 +179,6 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target)
             $total_area_error += $area;
                     
             $used_by = $node_data['used_by'];
-
-            if ($node_id==1768)
-            {
-                error_log(print_r($used_by, true));
-            }
             
             if ($vertex_target>0)
                 $nodes_per_pass = max(100, ceil(($vertex_count-$vertex_target)/10));
@@ -254,6 +249,29 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target)
     }
 }
 
+function reclose_ways(&$osm_ways, $force_closed)
+{
+    $ways = &$osm_ways->ways;
+
+    foreach ($ways as &$way)
+    {
+        if ($way['is_closed']||$force_closed)
+        {
+            $way['nds'] = array_values($way['nds']);
+            
+            $nds_count = count($way['nds']);
+            if ($nds_count===0)
+                continue;
+
+            if ($way['nds'][0]!==$way['nds'][$nds_count-1])
+                $way['nds'][] = $way['nds'][0];
+                
+            $way['original_nds_count'] = count($way['nds']);
+        }
+    }
+
+}
+
 $cliargs = array(
 	'vertextarget' => array(
 		'short' => 'v',
@@ -279,6 +297,11 @@ $cliargs = array(
 		'description' => 'The file to write the output OSM XML data to - if unset, will write to stdout',
         'default' => 'php://stdout',
 	),
+	'forceclosed' => array(
+		'short' => 'c',
+		'type' => 'switch',
+		'description' => 'If set, any open ways will be manually closed',
+	),
 );	
 
 $options = cliargs_get_options($cliargs);
@@ -287,6 +310,7 @@ $vertex_target = $options['vertextarget'];
 $area_target = $options['areatarget'];
 $input_file = $options['inputfile'];
 $output_file = $options['outputfile'];
+$force_closed = $options['forceclosed'];
 
 if (($vertex_target===0)&&($area_target===0))
 {
@@ -299,6 +323,7 @@ $input_contents = file_get_contents($input_file) or die("Couldn't read file '$in
 $osm_ways->deserialize_from_xml($input_contents);
 
 reduce_lod($osm_ways, $vertex_target, $area_target);
+reclose_ways($osm_ways, $force_closed);
 
 $output_contents = $osm_ways->serialize_to_xml();
 file_put_contents($output_file, $output_contents) or die("Couldn't write file '$output_file'");

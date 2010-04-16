@@ -729,10 +729,18 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 		var finalNode: Object = _nodes[finalNd];
 		
 		var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
+
+		if (way.isClosed)
+		{		
+			graphics.lineStyle();
+			graphics.beginFill(wayColor, wayAlpha);
+		}
+		else
+		{
+			graphics.lineStyle(0, wayColor,wayAlpha);
+			graphics.beginFill(0, 0.0);
+		}
 		
-		graphics.lineStyle();
-//		graphics.lineStyle(0, wayColor,wayAlpha);
-		graphics.beginFill(wayColor, wayAlpha);
 		graphics.moveTo(finalPos.x, finalPos.y);
 
 //		trace("Starting at "+finalPos.x+", "+finalPos.y);

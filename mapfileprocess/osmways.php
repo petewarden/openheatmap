@@ -67,6 +67,23 @@ class OSMWays
     
     public function end_way()
     {
+        $way = &$this->ways[$this->current_way];
+
+        $nds = $way['nds'];
+        $nds_count = count($nds);
+        if ($nds_count===0)
+        {
+            $is_closed = false;
+        }
+        else
+        {
+            $first_vertex_id = $nds[0];
+            $last_vertex_id = $nds[$nds_count-1];
+            $is_closed = ($first_vertex_id===$last_vertex_id);
+        }
+        
+        $way['is_closed'] = $is_closed;
+    
         $this->current_way = null;
     }
     
