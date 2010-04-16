@@ -397,15 +397,35 @@ private function doEveryFrame(event: Event): void
 				
 		for each (var inlay: Object in _inlays)
 		{
-			var drawingSurface: Shape = inlay.drawingSurface;
-			doRedraw(drawingSurface.graphics, inlay.width, inlay.height, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
-			inlay.bitmap.bitmapData.draw(drawingSurface, new Matrix());
+			var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
+			var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+			
+			var screenArea: Rectangle = new Rectangle(0, 0, _width, _height);
+			
+			screenTopLeft = cropPoint(screenTopLeft, screenArea);
+			screenBottomRight = cropPoint(screenBottomRight, screenArea);
+			
+			var inlayWidth: Number = (screenBottomRight.x-screenTopLeft.x);
+			var inlayHeight: Number = (screenBottomRight.y-screenTopLeft.y);
+			
+			if ((inlayWidth<1)||(inlayHeight<1))
+				continue;
+			
+			var inlayLeftX: Number = screenTopLeft.x;
+			var inlayTopY: Number = screenTopLeft.y;
+			
+			var drawingSurface: Shape = new Shape();
+
+			var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
+			
+			doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
+			bitmapData.draw(drawingSurface, new Matrix());
 
 			var inlayMatrix: Matrix = new Matrix();
-			inlayMatrix.translate(inlay.leftX, inlay.topY);
+			inlayMatrix.translate(inlayLeftX, inlayTopY);
 
-			_mainShape.graphics.beginBitmapFill(inlay.bitmap.bitmapData, inlayMatrix, false);
-			_mainShape.graphics.drawRect(inlay.leftX, inlay.topY, inlay.width, inlay.height);
+			_mainShape.graphics.beginBitmapFill(bitmapData, inlayMatrix, false);
+			_mainShape.graphics.drawRect(inlayLeftX, inlayTopY, inlayWidth, inlayHeight);
 			_mainShape.graphics.endFill();
 		}
 
@@ -1193,28 +1213,35 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
 
 	var xYToLatLonMatrix: Matrix = latLonToXYMatrix.clone();
 	xYToLatLonMatrix.invert();
-
-	var drawingSurface: Shape = new Shape();
-
-	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
-	var bitmap: Bitmap = new Bitmap(bitmapData);
-	bitmap.x = leftX;
-	bitmap.y = topY;
 	
-//	viewer.addChild(bitmap);
+	var worldTopLeftLatLon: Object = getLatLonFromXY(new Point(leftX, topY), _xYToLatLonMatrix);
+	var worldBottomRightLatLon: Object = getLatLonFromXY(new Point(rightX, bottomY), _xYToLatLonMatrix);
 	
 	_inlays.push({
-		drawingSurface: drawingSurface,
-		bitmap: bitmap,
 		latLonToXYMatrix: latLonToXYMatrix,
 		xYToLatLonMatrix: xYToLatLonMatrix,
-		width: width,
-		height: height,
-		leftX: leftX,
-		topY: topY,
-		rightX: rightX,
-		bottomY: bottomY
+		worldTopLeftLatLon: worldTopLeftLatLon,
+		worldBottomRightLatLon: worldBottomRightLatLon
 	});
+}
+
+private function cropPoint(input: Point, area: Rectangle): Point
+{
+	var result: Point = input.clone();
+	
+	if (result.x<area.left)
+		result.x = area.left;
+	
+	if (result.x>area.right)
+		result.x = area.right;	
+	
+	if (result.y<area.top)
+		result.y = area.top;
+	
+	if (result.y>area.bottom)
+		result.y = area.bottom;	
+
+	return result;	
 }
 
 ]]>
