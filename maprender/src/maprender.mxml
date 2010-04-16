@@ -285,23 +285,28 @@ private function makeEventArgument(event:MouseEvent): Object
 {
 	var mouseX: Number = event.localX;
 	var mouseY: Number = event.localY;
+
+	var mainLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
 	
 	var mouseLatLon: Object = null;
 	for each (var inlay: Object in _inlays)
 	{
-		if ((mouseX>=inlay.leftX)&&
-			(mouseX<inlay.rightX)&&
-			(mouseY>=inlay.topY)&&
-			(mouseY<inlay.bottomY))
+		var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
+		var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+
+		if ((mouseX>=screenTopLeft.x)&&
+			(mouseX<screenBottomRight.x)&&
+			(mouseY>=screenTopLeft.y)&&
+			(mouseY<screenBottomRight.y))
 		{
-			var localX: Number = (mouseX-inlay.leftX);
-			var localY: Number = (mouseY-inlay.topY);
+			var localX: Number = (mouseX-screenTopLeft.x);
+			var localY: Number = (mouseY-screenTopLeft.y);
 			mouseLatLon = getLatLonFromXY(new Point(localX, localY), inlay.xYToLatLonMatrix);
 		}
 	}
 	
 	if (mouseLatLon === null)
-		mouseLatLon = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
+		mouseLatLon = mainLatLon;
 	
 	var mapPointData:Object = new Object();
 	mapPointData.lon = mouseLatLon.lon;
