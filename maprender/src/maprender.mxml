@@ -89,6 +89,14 @@ public var _timelineControls: TimelineControls = null;
 
 public var _inlays: Array = [];
 
+public var _valuesDirty: Boolean = false;
+
+public var _mainBitmapTopLeftLatLon: Object = null;
+public var _mainBitmapBottomRightLatLon: Object = null;
+
+public var _isDragging: Boolean = false;
+public var _lastDragPosition: Point = null;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -107,9 +115,7 @@ public function startup():void
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
-	
-//	viewer.addChild(_mainBitmap);
-	    
+		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
     viewer.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
     viewer.addEventListener( MouseEvent.MOUSE_DOWN, mapMouseDownHandler );
@@ -126,7 +132,6 @@ public function startup():void
 	ExternalInterface.addCallback("setSize", setSize);      	
 	ExternalInterface.addCallback("setLatLonViewingArea", setLatLonViewingArea);      	
 	ExternalInterface.addCallback("setOceanColor", function(color: Number): void { _oceanColor = color; _dirty = true; });
-	ExternalInterface.addCallback("setBorderColor", setBorderColor);
 	ExternalInterface.addCallback("setWayDefault", setWayDefault);
 	ExternalInterface.addCallback('setMouseHandler', setMouseHandler);
 	ExternalInterface.addCallback("setEveryFrameHandler", function(functionName: String): void { _onEveryFrameFunction = functionName; });
@@ -137,6 +142,7 @@ public function startup():void
 	ExternalInterface.addCallback("getWaysContainingLatLon", getWaysContainingLatLon);
 	ExternalInterface.addCallback("getValueForWayId", getValueForWayId);
 	ExternalInterface.addCallback("addInlay", addInlay);
+	ExternalInterface.addCallback("translateMapByScreenPixels", translateMapByScreenPixels);
 
 	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
 	if (onLoadFunction !== null)
@@ -232,10 +238,6 @@ private function setSize(width: Number, height: Number): void
 	_dirty = true;	
 }
 
-private function setBorderColor(color: Number): void
-{
-}
-
 private function setLatLonViewingArea(topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
 {
 	var widthLon: Number = (rightLon-leftLon);
@@ -253,7 +255,6 @@ private function setLatLonViewingArea(topLat: Number, leftLon: Number, bottomLat
 
 private function setLatLonToXYMatrix(newMatrix: Matrix): void
 {
-//	trace('setLatLonToXYMatrix(): '+newMatrix);
 	_latLonToXYMatrix = newMatrix;
 	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
 	_xYToLatLonMatrix.invert();
@@ -261,15 +262,10 @@ private function setLatLonToXYMatrix(newMatrix: Matrix): void
 
 private function getXYFromLatLon(latLon: Object, latLonToXYMatrix: Matrix): Point
 {
-//	trace('latLon input: '+latLon.lon+', '+latLon.lat);
 	var latLonPoint: Point = new Point(latLon.lon, latLon.lat);
 	
 	var result: Point = latLonToXYMatrix.transformPoint(latLonPoint);
-	
-//	trace('latLon transform: '+_latLonToXYMatrix);
 
-//	trace('latLon output: '+result);
-	
 	return result;
 }
 
@@ -281,10 +277,6 @@ private function getLatLonFromXY(xYPoint: Point, xYToLatLonMatrix: Matrix): Obje
 			lat: latLonPoint.y,
 			lon: latLonPoint.x
 	}
-	
-//	trace('latLon transform: '+_latLonToXYMatrix);
-
-//	trace('latLon output: '+result);
 	
 	return result;
 }
@@ -322,58 +314,115 @@ private function makeEventArgument(event:MouseEvent): Object
 	
 private function mapMouseClickHandler( event:MouseEvent ): Boolean
 {
+	var continueHandling: Boolean;
 	if (_onClickFunction !== null)
-		return ExternalInterface.call(_onClickFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onClickFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+		
+	return true;
 }
 
 private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onDoubleClickFunction !== null)
-		return ExternalInterface.call(_onDoubleClickFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onDoubleClickFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+		
+	return true;
 }
 
 private function mapMouseDownHandler( event:MouseEvent ): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onMouseDownFunction !== null)
-		return ExternalInterface.call(_onMouseDownFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onMouseDownFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+	
+	if (continueHandling)
+	{
+		var mousePosition: Point = new Point(event.localX, event.localY);
+
+		_isDragging = true;
+		_lastDragPosition = mousePosition; 
+	}
+	
+	return true;
 }
 
 private function mapMouseUpHandler( event:MouseEvent ): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onMouseUpFunction !== null)
-		return ExternalInterface.call(_onMouseUpFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onMouseUpFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+	
+	if (continueHandling)
+	{
+		if (_isDragging)
+		{
+			var mousePosition: Point = new Point(event.localX, event.localY);
+	
+			var positionChange: Point = mousePosition.subtract(_lastDragPosition);
+	
+			translateMapByScreenPixels(positionChange.x, positionChange.y, false);
+	
+			_isDragging = false;
+		}
+	}
+	
+	return true;
 }
 
 private function mapMouseOverHandler( event:MouseEvent ): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onMouseOverFunction !== null)
-		return ExternalInterface.call(_onMouseOverFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onMouseOverFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+		
+	return true;
 }
 
 private function mapMouseOutHandler( event:MouseEvent ): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onMouseOutFunction !== null)
-		return ExternalInterface.call(_onMouseOutFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onMouseOutFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+		
+	return true;
 }
 
 private function mapMouseMoveHandler( event:MouseEvent): Boolean
 { 
+	var continueHandling: Boolean;
 	if (_onMouseMoveFunction !== null)
-		return ExternalInterface.call(_onMouseMoveFunction, makeEventArgument(event));
+		continueHandling = ExternalInterface.call(_onMouseMoveFunction, makeEventArgument(event));
 	else
-		return true;
+		continueHandling = true;
+
+	if (continueHandling)
+	{
+		if (_isDragging)
+		{
+			var mousePosition: Point = new Point(event.localX, event.localY);
+	
+			var positionChange: Point = mousePosition.subtract(_lastDragPosition);
+	
+			translateMapByScreenPixels(positionChange.x, positionChange.y, true);
+	
+			_lastDragPosition = mousePosition;
+		}
+	}
+			
+	return true;
 }
 
 private function doEveryFrame(event: Event): void
@@ -388,57 +437,21 @@ private function doEveryFrame(event: Event): void
 			_dirty = true;
 	}
 	
-	if (_dirty)
+	if (_valuesDirty&&(_redrawCountdown===0))
 	{
 		setWaysFromValues();
-
-//		_mainShape.setActualSize(_width, _height);
-		doRedraw(_mainShape.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
+		_valuesDirty = false;		
+	}
+	
+	if (_dirty)
+	{		
+		drawMapIntoMainBitmap();
 				
-		for each (var inlay: Object in _inlays)
-		{
-			var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
-			var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
-			
-			var screenArea: Rectangle = new Rectangle(0, 0, _width, _height);
-			
-			screenTopLeft = cropPoint(screenTopLeft, screenArea);
-			screenBottomRight = cropPoint(screenBottomRight, screenArea);
-			
-			var inlayWidth: Number = (screenBottomRight.x-screenTopLeft.x);
-			var inlayHeight: Number = (screenBottomRight.y-screenTopLeft.y);
-			
-			if ((inlayWidth<1)||(inlayHeight<1))
-				continue;
-			
-			var inlayLeftX: Number = screenTopLeft.x;
-			var inlayTopY: Number = screenTopLeft.y;
-			
-			var drawingSurface: Shape = new Shape();
-
-			var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
-			
-			doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
-			bitmapData.draw(drawingSurface, new Matrix());
-
-			var inlayMatrix: Matrix = new Matrix();
-			inlayMatrix.translate(inlayLeftX, inlayTopY);
-
-			_mainShape.graphics.beginBitmapFill(bitmapData, inlayMatrix, false);
-			_mainShape.graphics.drawRect(inlayLeftX, inlayTopY, inlayWidth, inlayHeight);
-			_mainShape.graphics.endFill();
-		}
-
-		_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
-		
-		viewer.graphics.clear();
-		viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, new Matrix(), false);
-		viewer.graphics.drawRect(0, 0, _width, _height);
-		viewer.graphics.endFill();
-		
 		_dirty = false;
 		_redrawCountdown = 0;
 	}
+	
+	drawMainBitmapIntoViewer();
 	
 	if (_hasTime)
 	{
@@ -451,6 +464,7 @@ private function doEveryFrame(event: Event): void
 			updateTimelineDisplay();
 			
 			_dirty = true;
+			_valuesDirty = true;
 		}
 	}
 	
@@ -707,6 +721,7 @@ private function onValuesLoad(success:Boolean): void
 		addTimelineControls();
 	}
 	
+	_valuesDirty = true;
 	_dirty = true;		
 }
 private function loadValuesFromFile(values_file_name: String): void
@@ -1129,6 +1144,8 @@ private function onTimelineUserInput(dragging: Boolean): void
 		_redrawCountdown = 5;
 	else
 		_dirty = true;
+		
+	_valuesDirty = true;
 }
 
 private function updateTimelineDisplay(): void
@@ -1242,6 +1259,88 @@ private function cropPoint(input: Point, area: Rectangle): Point
 		result.y = area.bottom;	
 
 	return result;	
+}
+
+private function drawMapIntoMainBitmap(): void
+{		
+	doRedraw(_mainShape.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
+			
+	for each (var inlay: Object in _inlays)
+	{
+		var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
+		var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+		
+		var screenArea: Rectangle = new Rectangle(0, 0, _width, _height);
+		
+		screenTopLeft = cropPoint(screenTopLeft, screenArea);
+		screenBottomRight = cropPoint(screenBottomRight, screenArea);
+		
+		var inlayWidth: Number = (screenBottomRight.x-screenTopLeft.x);
+		var inlayHeight: Number = (screenBottomRight.y-screenTopLeft.y);
+		
+		if ((inlayWidth<1)||(inlayHeight<1))
+			continue;
+		
+		var inlayLeftX: Number = screenTopLeft.x;
+		var inlayTopY: Number = screenTopLeft.y;
+		
+		var drawingSurface: Shape = new Shape();
+
+		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
+		
+		doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
+		bitmapData.draw(drawingSurface, new Matrix());
+
+		var inlayMatrix: Matrix = new Matrix();
+		inlayMatrix.translate(inlayLeftX, inlayTopY);
+
+		_mainShape.graphics.beginBitmapFill(bitmapData, inlayMatrix, false);
+		_mainShape.graphics.drawRect(inlayLeftX, inlayTopY, inlayWidth, inlayHeight);
+		_mainShape.graphics.endFill();
+	}
+
+	_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
+	
+	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
+	_mainBitmapBottomRightLatLon = getLatLonFromXY(new Point(_width, _height), _xYToLatLonMatrix);
+}
+
+private function drawMainBitmapIntoViewer(): void
+{
+	viewer.graphics.clear();
+	
+	if ((_mainBitmapTopLeftLatLon===null)||
+		(_mainBitmapBottomRightLatLon===null))
+		return;
+		
+	var screenBitmapTopLeft: Point = getXYFromLatLon(_mainBitmapTopLeftLatLon, _latLonToXYMatrix);
+	var screenBitmapBottomRight: Point = getXYFromLatLon(_mainBitmapBottomRightLatLon, _latLonToXYMatrix);	
+
+	var screenBitmapLeft: Number = screenBitmapTopLeft.x;
+	var screenBitmapTop: Number = screenBitmapTopLeft.y;
+	
+	var screenBitmapWidth: Number = (screenBitmapBottomRight.x-screenBitmapTopLeft.x);
+	var screenBitmapHeight: Number = (screenBitmapBottomRight.y-screenBitmapTopLeft.y);
+	
+	var bitmapTransform: Matrix = new Matrix();
+	bitmapTransform.scale((screenBitmapWidth/_width), (screenBitmapHeight/_height));
+	bitmapTransform.translate(screenBitmapLeft, screenBitmapTop);
+	
+	viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, bitmapTransform, false);
+	viewer.graphics.drawRect(screenBitmapLeft, screenBitmapTop, screenBitmapWidth, screenBitmapHeight);
+	viewer.graphics.endFill();	
+}
+
+private function translateMapByScreenPixels(x: Number, y: Number, dragging: Boolean = false): void
+{
+	_latLonToXYMatrix.translate(x, y);
+	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
+	_xYToLatLonMatrix.invert();
+	
+	if (dragging)
+		_redrawCountdown = 5;
+	else
+		_dirty = true;
 }
 
 ]]>
