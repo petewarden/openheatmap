@@ -118,14 +118,15 @@ public function startup():void
 	_mainBitmap.y = 0;
 		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
-    viewer.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
+	// Pete- I'm synthesizing double-click events, see the single click handler for details
+//    viewer.addEventListener( MouseEvent.DOUBLE_CLICK, mapMouseDoubleClickHandler );
     viewer.addEventListener( MouseEvent.MOUSE_DOWN, mapMouseDownHandler );
     viewer.addEventListener( MouseEvent.MOUSE_MOVE, mapMouseMoveHandler );
     viewer.addEventListener( MouseEvent.MOUSE_OUT, mapMouseOutHandler );
     viewer.addEventListener( MouseEvent.MOUSE_OVER, mapMouseOverHandler );
     viewer.addEventListener( MouseEvent.MOUSE_UP, mapMouseUpHandler );
 //    viewer.addEventListener( MouseEvent.MOUSE_WHEEL, mapMouseWheelHandler );
-	viewer.doubleClickEnabled = true;
+//	viewer.doubleClickEnabled = true;
 
 	_dirty = true;
 
@@ -328,19 +329,19 @@ private function mapMouseClickHandler( event:MouseEvent ): Boolean
 	else
 		continueHandling = true;
 
-	// Pete - I can't get double-click events to fire, so I've hard-coded an interval within which the
+	// Pete - I can't get double-click events to fire properly, so I've hard-coded an interval within which the
 	// second normal click event triggers the double-click handler. Ugh, I feel dirty...
-//	var currentTime: Number = new Date().getTime();
-//	var sinceLastClick: Number = (currentTime-_lastClickTime);
-//	if (sinceLastClick<500)
-//	{
-//		mapMouseDoubleClickHandler(event);
-//		_lastClickTime = 0;
-//	}
-//	else
-//	{
-//		_lastClickTime = currentTime;	
-//	}
+	var currentTime: Number = new Date().getTime();
+	var sinceLastClick: Number = (currentTime-_lastClickTime);
+	if (sinceLastClick<750)
+	{
+		mapMouseDoubleClickHandler(event);
+		_lastClickTime = 0;
+	}
+	else
+	{
+		_lastClickTime = currentTime;	
+	}
 		
 	return true;
 }
@@ -530,9 +531,7 @@ private function onXMLLoad(success:Boolean): void
   				'lat': (Number)(node.@lat)
   		};
   		
-  		_nodes[node.@id] = newNode;
-  		
-  		trace('Set node '+node.@id+' to '+newNode);
+  		_nodes[node.@id] = newNode;  		
   	}
 
   	for each (var way: * in xml_data..way)
@@ -577,8 +576,6 @@ private function onXMLLoad(success:Boolean): void
 	  			
 	  		_tagMap[key][value].push(newWay.id);
 	  	}
-
-//		trace('Set way to '+newWay.boundingBox);
   		
   		_ways[wayId] = newWay;
   		
@@ -690,7 +687,6 @@ private function onValuesLoad(success:Boolean): void
 	for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
 	{
 		var header: String = _valueHeaders[headerIndex].toLowerCase();
-		trace(header);
 		if (header==='time')
 			_timeColumnIndex = headerIndex;	
 		else if (header==='value')
@@ -829,15 +825,11 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 		
 		graphics.moveTo(finalPos.x, finalPos.y);
 
-//		trace("Starting at "+finalPos.x+", "+finalPos.y);
-//		trace("Drawing "+way.nds.length+" nodes");
-
 		for each (var currentNd: String in way.nds)
 		{
 			var currentNode: Object = _nodes[currentNd];
 			var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
 			graphics.lineTo(currentPos.x, currentPos.y);
-//			trace("Line to "+currentPos.x+", "+currentPos.y);
 		}
 
 		graphics.endFill();
@@ -965,7 +957,7 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 		foundCount += 1;		
 	}
 
-//	if ((foundCount===0)&&(matchKeys['state_code']=='12'))
+//	if (foundCount===0)
 //	{
 //		trace('No match found for');
 //		for (key in matchKeys)
