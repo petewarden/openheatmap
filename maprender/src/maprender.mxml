@@ -122,34 +122,7 @@ public function startup():void
 	setSize(800, 600);
 	setLatLonViewingArea(90, -180, -90, 180);
 
-	_mainShape = new Shape();
-	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
-	_mainBitmap = new Bitmap(bitmapData);
-	_mainBitmap.x = 0;
-	_mainBitmap.y = 0;
-	
-	_zoomSlider = new VSlider();
-	_zoomSlider.x = 15;
-	_zoomSlider.y = 50;
-	_zoomSlider.height = 150;
-	
-	viewer.addChild(_zoomSlider);
-
-	var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
-	var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
-
-	var blackTint:ColorTransform = new ColorTransform();
-	blackTint.color = 0x000000;
-	
-	plusImage.x = 6;
-	plusImage.y = 40;
-	plusImage.transform.colorTransform = blackTint;
-	viewer.addChild(plusImage);
-	
-	minusImage.x = 6;
-	minusImage.y = 195;
-	minusImage.transform.colorTransform = blackTint;
-	viewer.addChild(minusImage);
+	createViewerElements();
 		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
 	// Pete- I'm synthesizing double-click events, see the single click handler for details
@@ -1443,6 +1416,40 @@ private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, d
 		_redrawCountdown = 5;
 	else
 		_dirty = true;	
+}
+
+private function createViewerElements(): void
+{
+
+	_mainShape = new Shape();
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	_mainBitmap = new Bitmap(bitmapData);
+	_mainBitmap.x = 0;
+	_mainBitmap.y = 0;
+	
+	_zoomSlider = new VSlider();
+	_zoomSlider.x = 8;
+	_zoomSlider.y = 50;
+	_zoomSlider.height = 150;
+	_zoomSlider.showDataTip = false;
+	
+	addChild(_zoomSlider);
+
+	var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
+	var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
+
+	var blackTint:ColorTransform = new ColorTransform();
+	blackTint.color = 0x000000;
+	
+	plusImage.x = 6;
+	plusImage.y = 40;
+	plusImage.transform.colorTransform = blackTint;
+	viewer.addChild(plusImage);
+	
+	minusImage.x = 6;
+	minusImage.y = 195;
+	minusImage.transform.colorTransform = blackTint;
+	viewer.addChild(minusImage);	
 }
 
 ]]>
