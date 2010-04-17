@@ -96,6 +96,7 @@ public var _mainBitmapBottomRightLatLon: Object = null;
 
 public var _isDragging: Boolean = false;
 public var _lastDragPosition: Point = null;
+public var _lastClickTime: Number = 0;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -124,6 +125,7 @@ public function startup():void
     viewer.addEventListener( MouseEvent.MOUSE_OVER, mapMouseOverHandler );
     viewer.addEventListener( MouseEvent.MOUSE_UP, mapMouseUpHandler );
 //    viewer.addEventListener( MouseEvent.MOUSE_WHEEL, mapMouseWheelHandler );
+	viewer.doubleClickEnabled = true;
 
 	_dirty = true;
 
@@ -143,6 +145,7 @@ public function startup():void
 	ExternalInterface.addCallback("getValueForWayId", getValueForWayId);
 	ExternalInterface.addCallback("addInlay", addInlay);
 	ExternalInterface.addCallback("translateMapByScreenPixels", translateMapByScreenPixels);
+	ExternalInterface.addCallback("zoomMapByFactorAroundPoint", zoomMapByFactorAroundPoint);
 
 	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
 	if (onLoadFunction !== null)
@@ -324,6 +327,20 @@ private function mapMouseClickHandler( event:MouseEvent ): Boolean
 		continueHandling = ExternalInterface.call(_onClickFunction, makeEventArgument(event));
 	else
 		continueHandling = true;
+
+	// Pete - I can't get double-click events to fire, so I've hard-coded an interval within which the
+	// second normal click event triggers the double-click handler. Ugh, I feel dirty...
+//	var currentTime: Number = new Date().getTime();
+//	var sinceLastClick: Number = (currentTime-_lastClickTime);
+//	if (sinceLastClick<500)
+//	{
+//		mapMouseDoubleClickHandler(event);
+//		_lastClickTime = 0;
+//	}
+//	else
+//	{
+//		_lastClickTime = currentTime;	
+//	}
 		
 	return true;
 }
@@ -335,6 +352,14 @@ private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 		continueHandling = ExternalInterface.call(_onDoubleClickFunction, makeEventArgument(event));
 	else
 		continueHandling = true;
+		
+	if (continueHandling)
+	{
+		var center: Point = new Point(event.localX, event.localY);
+		var zoomFactor: Number = 2.0;
+		
+		zoomMapByFactorAroundPoint(zoomFactor, center);
+	}
 		
 	return true;
 }
@@ -1346,6 +1371,32 @@ private function translateMapByScreenPixels(x: Number, y: Number, dragging: Bool
 		_redrawCountdown = 5;
 	else
 		_dirty = true;
+}
+
+private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, dragging: Boolean = false): void
+{
+	var translateToOrigin: Matrix = new Matrix();
+	translateToOrigin.translate(-center.x, -center.y);
+	
+	var scale: Matrix = new Matrix();
+	scale.scale(zoomFactor, zoomFactor);
+	
+	var translateFromOrigin: Matrix = new Matrix();
+	translateFromOrigin.translate(center.x, center.y);
+
+	var zoom: Matrix = new Matrix();
+	zoom.concat(translateToOrigin);
+	zoom.concat(scale);
+	zoom.concat(translateFromOrigin);
+	
+	_latLonToXYMatrix.concat(zoom);
+	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
+	_xYToLatLonMatrix.invert();
+	
+	if (dragging)
+		_redrawCountdown = 5;
+	else
+		_dirty = true;	
 }
 
 ]]>
