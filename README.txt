@@ -6,3 +6,8 @@ OpenGraphMap is a system for creating, displaying and interacting with data visu
 It's not part of the OpenStreetMap project, but it does use the OSM XML format for storing geographic data.
 
 For detailed help and information, go to http://opengraphmap.org/
+
+Area map
+Density map
+Interpolation map
+Distance map

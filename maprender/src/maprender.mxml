@@ -131,6 +131,10 @@ public var _isGradientValueRangeSet: Boolean = false;
 public var _gradientValueMin: Number;
 public var _gradientValueMax: Number;
 
+public var _foundTimes: Object = {};
+public var _timeRangeStart: String = null;
+public var _timeRangeEnd: String = null;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -180,6 +184,7 @@ public function startup():void
 	ExternalInterface.addCallback("getPixelsPerDegreeLatitude", getPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setPixelsPerDegreeLatitude", setPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
+	ExternalInterface.addCallback("setTimeRange", setTimeRange);
 
 	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
 	if (onLoadFunction !== null)
@@ -738,8 +743,7 @@ private function onValuesLoad(success:Boolean): void
 	}
 	
 	_hasTime = (_timeColumnIndex!==-1);
-	_frameTimes = [];
-	var foundTimes: Object = {};
+	_foundTimes = {};
 	
 	_valueData = [];
 	
@@ -761,10 +765,9 @@ private function onValuesLoad(success:Boolean): void
 			var thisTime: String = lineValues[_timeColumnIndex];
 			if (thisTime !== null)
 			{
-				if (typeof foundTimes[thisTime] === 'undefined')
+				if (typeof _foundTimes[thisTime] === 'undefined')
 				{
-					foundTimes[thisTime] = true;
-					_frameTimes.push(thisTime);
+					_foundTimes[thisTime] = true;
 					_valueData[thisTime] = [];
 				}
 				
@@ -780,7 +783,7 @@ private function onValuesLoad(success:Boolean): void
 	
 	if (_hasTime)
 	{
-		_frameTimes.sort();
+		calculateFrameTimes();
 		_frameIndex = 0;
 		addTimelineControls();
 	}
@@ -1582,6 +1585,31 @@ private function setGradientValueRange(min: Number, max: Number): void
 	_isGradientValueRangeSet = true;
 	_gradientValueMin = min;
 	_gradientValueMax = max;
+}
+
+private function calculateFrameTimes(): void
+{
+	_frameTimes = [];
+	
+	for (var thisTime: String in _foundTimes)
+	{
+		if ((_timeRangeStart!==null)&&(thisTime<_timeRangeStart))
+			continue;
+
+		if ((_timeRangeEnd!==null)&&(thisTime>_timeRangeEnd))
+			continue;
+		
+		_frameTimes.push(thisTime);
+	}
+	_frameTimes.sort();
+}
+
+private function setTimeRange(timeStart: String, timeEnd: String): void
+{
+	_timeRangeStart = timeStart
+	_timeRangeEnd = timeEnd;
+	
+	calculateFrameTimes();
 }
 
 ]]>
