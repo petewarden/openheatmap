@@ -14,6 +14,8 @@ import flash.geom.Rectangle;
 import mx.controls.sliderClasses.Slider;
 import mx.controls.VSlider;
 import mx.core.BitmapAsset;
+import mx.events.SliderEvent;
+
 import TimelineControls;
 
 public var _mainShape:Shape = null;
@@ -102,12 +104,13 @@ public var _lastDragPosition: Point = null;
 public var _lastClickTime: Number = 0;
 
 public var _zoomSlider: Slider = null;
-
 [Embed(source="images/plus.gif")]
 public var PlusImage:Class;
-
 [Embed(source="images/minus.gif")]
 public var MinusImage:Class;
+public var _zoomSliderPower: Number = 5.0;
+public var _zoomedOutDegreesPerPixel: Number = -180;
+public var _zoomedInDegreesPerPixel: Number = -0.01;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -120,9 +123,10 @@ private function getURLInput(name: String, defaultValue: String = null): String
 public function startup():void
 {
 	setSize(800, 600);
-	setLatLonViewingArea(90, -180, -90, 180);
 
 	createViewerElements();
+
+	setLatLonViewingArea(90, -180, -90, 180);
 		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
 	// Pete- I'm synthesizing double-click events, see the single click handler for details
@@ -269,6 +273,8 @@ private function setLatLonToXYMatrix(newMatrix: Matrix): void
 	_latLonToXYMatrix = newMatrix;
 	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
 	_xYToLatLonMatrix.invert();
+	
+	updateZoomSliderDisplay();
 }
 
 private function getXYFromLatLon(latLon: Object, latLonToXYMatrix: Matrix): Point
@@ -1415,12 +1421,13 @@ private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, d
 	if (dragging)
 		_redrawCountdown = 5;
 	else
-		_dirty = true;	
+		_dirty = true;
+		
+	updateZoomSliderDisplay();
 }
 
 private function createViewerElements(): void
 {
-
 	_mainShape = new Shape();
 	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
 	_mainBitmap = new Bitmap(bitmapData);
@@ -1428,10 +1435,18 @@ private function createViewerElements(): void
 	_mainBitmap.y = 0;
 	
 	_zoomSlider = new VSlider();
-	_zoomSlider.x = 8;
+	_zoomSlider.x = 4;
 	_zoomSlider.y = 50;
 	_zoomSlider.height = 150;
 	_zoomSlider.showDataTip = false;
+	_zoomSlider.minimum = 0;
+	_zoomSlider.maximum = 1;
+	_zoomSlider.liveDragging = true;
+
+	_zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
 	
 	addChild(_zoomSlider);
 
@@ -1450,6 +1465,70 @@ private function createViewerElements(): void
 	minusImage.y = 195;
 	minusImage.transform.colorTransform = blackTint;
 	viewer.addChild(minusImage);	
+}
+
+private function onZoomThumbDrag( event: SliderEvent ): void
+{
+	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
+	
+	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, true);
+}
+
+private function onZoomThumbRelease( event: SliderEvent ): void
+{
+	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
+	
+	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, false);	
+}
+
+private function getPixelsPerDegreeLatitude(): Number
+{
+	var pixelsPerDegreeLatitude: Number = _latLonToXYMatrix.d;
+	
+	return pixelsPerDegreeLatitude;
+}
+
+private function setPixelsPerDegreeLatitude(newPixelsPerDegreeLatitude: Number, dragging: Boolean = false): void
+{
+	var oldPixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+	
+	var zoomFactor: Number = (newPixelsPerDegreeLatitude/oldPixelsPerDegreeLatitude);
+	
+	var center: Point = new Point((_width/2), (_height/2));
+	
+	zoomMapByFactorAroundPoint(zoomFactor, center, dragging);
+}
+
+private function calculatePixelsPerDegreeLatitudeFromZoomSlider(): Number
+{
+	var sliderValue: Number = _zoomSlider.value;
+	
+	var lerpValue: Number = Math.pow(sliderValue, _zoomSliderPower);
+
+	var minPixelsPerDegreeLatitude: Number = (_height/_zoomedOutDegreesPerPixel);
+	var maxPixelsPerDegreeLatitude: Number = (_height/_zoomedInDegreesPerPixel);
+
+	var oneMinusLerp: Number = (1-lerpValue);
+	
+	var result: Number = (minPixelsPerDegreeLatitude*oneMinusLerp)+
+		(maxPixelsPerDegreeLatitude*lerpValue);
+	
+	return result;
+}
+
+private function updateZoomSliderDisplay(): void
+{
+	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+
+	var minPixelsPerDegreeLatitude: Number = (_height/_zoomedOutDegreesPerPixel);
+	var maxPixelsPerDegreeLatitude: Number = (_height/_zoomedInDegreesPerPixel);
+
+	var lerpValue: Number = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
+		(maxPixelsPerDegreeLatitude-minPixelsPerDegreeLatitude));
+	
+	var sliderValue: Number = Math.pow(lerpValue, (1/_zoomSliderPower));
+
+	_zoomSlider.value = sliderValue;
 }
 
 ]]>
