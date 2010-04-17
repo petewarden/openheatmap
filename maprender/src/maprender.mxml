@@ -11,6 +11,9 @@ import flash.external.ExternalInterface;
 import mx.controls.Text;
 import flash.geom.Matrix;
 import flash.geom.Rectangle;
+import mx.controls.sliderClasses.Slider;
+import mx.controls.VSlider;
+import mx.core.BitmapAsset;
 import TimelineControls;
 
 public var _mainShape:Shape = null;
@@ -98,6 +101,14 @@ public var _isDragging: Boolean = false;
 public var _lastDragPosition: Point = null;
 public var _lastClickTime: Number = 0;
 
+public var _zoomSlider: Slider = null;
+
+[Embed(source="images/plus.gif")]
+public var PlusImage:Class;
+
+[Embed(source="images/minus.gif")]
+public var MinusImage:Class;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -116,6 +127,29 @@ public function startup():void
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
+	
+	_zoomSlider = new VSlider();
+	_zoomSlider.x = 15;
+	_zoomSlider.y = 50;
+	_zoomSlider.height = 150;
+	
+	viewer.addChild(_zoomSlider);
+
+	var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
+	var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
+
+	var blackTint:ColorTransform = new ColorTransform();
+	blackTint.color = 0x000000;
+	
+	plusImage.x = 6;
+	plusImage.y = 40;
+	plusImage.transform.colorTransform = blackTint;
+	viewer.addChild(plusImage);
+	
+	minusImage.x = 6;
+	minusImage.y = 195;
+	minusImage.transform.colorTransform = blackTint;
+	viewer.addChild(minusImage);
 		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
 	// Pete- I'm synthesizing double-click events, see the single click handler for details
