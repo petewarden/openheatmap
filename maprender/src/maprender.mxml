@@ -870,7 +870,7 @@ private function setWaysFromValues(): void
 		minValue = _smallestValue;
 		maxValue = _largestValue;
 	}
-	var valueScale = (1/(maxValue-minValue));
+	var valueScale: Number = (1/(maxValue-minValue));
 
 	var currentValues: Array;
 	
@@ -1234,6 +1234,8 @@ private function getValueForWayId(wayId: String): String
 		currentValues = _valueData;
 	}
 	
+	var resultFound: Boolean = false;
+	var result: String;
 	for each (var values: Array in currentValues)
 	{
 		var matchKeys: Object = {};
@@ -1261,11 +1263,16 @@ private function getValueForWayId(wayId: String): String
 		}
 		
 		if (allMatch)
-			return thisValue;
-		
+		{
+			resultFound = true;
+			result = thisValue;
+		}
 	}
-	
-	return null;
+
+	if (resultFound)
+		return result;
+	else
+		return null;
 }
 
 private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: Number, topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
