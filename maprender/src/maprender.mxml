@@ -34,13 +34,9 @@ public var _wayDefaults: Object = {
 };
 
 public var _colorGradient: Array = [
-	{red: 0x00, green: 0x00, blue: 0xff},
-	{red: 0xff, green: 0xff, blue: 0x00},
-	{red: 0x80, green: 0x00, blue: 0x00},
-	{red: 0xa0, green: 0x00, blue: 0x00},
-	{red: 0xc0, green: 0x00, blue: 0x00},
-	{red: 0xd0, green: 0x00, blue: 0x00},
-	{red: 0xff, green: 0x00, blue: 0x00}
+	{red: 0x00, green: 0xb0, blue: 0x00},
+	{red: 0xe0, green: 0xe0, blue: 0x00},
+	{red: 0xff, green: 0x00, blue: 0x00},
 ];
 
 public var _highlightColor: Number = 0xff0000;
@@ -112,6 +108,10 @@ public var _zoomSliderPower: Number = 5.0;
 public var _zoomedOutDegreesPerPixel: Number = -180;
 public var _zoomedInDegreesPerPixel: Number = -0.01;
 
+public var _isGradientValueRangeSet: Boolean = false;
+public var _gradientValueMin: Number;
+public var _gradientValueMax: Number;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -158,6 +158,9 @@ public function startup():void
 	ExternalInterface.addCallback("addInlay", addInlay);
 	ExternalInterface.addCallback("translateMapByScreenPixels", translateMapByScreenPixels);
 	ExternalInterface.addCallback("zoomMapByFactorAroundPoint", zoomMapByFactorAroundPoint);
+	ExternalInterface.addCallback("getPixelsPerDegreeLatitude", getPixelsPerDegreeLatitude);
+	ExternalInterface.addCallback("setPixelsPerDegreeLatitude", setPixelsPerDegreeLatitude);
+	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
 
 	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
 	if (onLoadFunction !== null)
@@ -503,7 +506,10 @@ private function doEveryFrame(event: Event): void
 		{
 			_frameIndex += 1;
 			if (_frameIndex>=_frameTimes.length)
-				_frameIndex = 0;
+			{
+				_frameIndex = (_frameTimes.length-1);
+				_timelineControls.isPlaying = false;
+			}
 			
 			updateTimelineDisplay();
 			
@@ -854,6 +860,18 @@ private function setWaysFromValues(): void
 	if (_valueData === null)
 		return;
 
+	if (_isGradientValueRangeSet)
+	{
+		var minValue: Number = _gradientValueMin;
+		var maxValue: Number = _gradientValueMax;	
+	}
+	else
+	{
+		minValue = _smallestValue;
+		maxValue = _largestValue;
+	}
+	var valueScale = (1/(maxValue-minValue));
+
 	var currentValues: Array;
 	
 	if (_hasTime)
@@ -890,7 +908,9 @@ private function setWaysFromValues(): void
 			}
 		}
 		
-		var normalizedValue: Number = ((thisValue-_smallestValue)/(_largestValue-_smallestValue));
+		var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
+		normalizedValue = Math.min(normalizedValue, 1.0);
+		normalizedValue = Math.max(normalizedValue, 0.0);
 		
 		var fractionalIndex: Number = (normalizedValue*(_colorGradient.length-1));
 		
@@ -1529,6 +1549,13 @@ private function updateZoomSliderDisplay(): void
 	var sliderValue: Number = Math.pow(lerpValue, (1/_zoomSliderPower));
 
 	_zoomSlider.value = sliderValue;
+}
+
+private function setGradientValueRange(min: Number, max: Number): void
+{
+	_isGradientValueRangeSet = true;
+	_gradientValueMin = min;
+	_gradientValueMax = max;
 }
 
 ]]>
