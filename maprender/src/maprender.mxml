@@ -765,7 +765,7 @@ private function loadValuesFromFile(values_file_name: String): void
 	_values_loader.addEventListener("complete", onValuesLoad);
 }
 
-private function doRedraw(graphics: Graphics, width: int, height: int, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
+private function doRedraw(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
 {		
 	graphics.clear();
 
@@ -777,7 +777,7 @@ private function doRedraw(graphics: Graphics, width: int, height: int, latLonToX
 	
 	var topLeftScreen: Point = new Point(0, 0);
 	var bottomRightScreen: Point = new Point(width, height);
-	
+		
 	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
 	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
 	
@@ -1302,30 +1302,38 @@ private function drawMapIntoMainBitmap(): void
 		
 		var screenArea: Rectangle = new Rectangle(0, 0, _width, _height);
 		
-		screenTopLeft = cropPoint(screenTopLeft, screenArea);
-		screenBottomRight = cropPoint(screenBottomRight, screenArea);
+		var croppedScreenTopLeft: Point = cropPoint(screenTopLeft, screenArea);
+		var croppedScreenBottomRight: Point = cropPoint(screenBottomRight, screenArea);
 		
-		var inlayWidth: Number = (screenBottomRight.x-screenTopLeft.x);
-		var inlayHeight: Number = (screenBottomRight.y-screenTopLeft.y);
+		var inlayWidth: Number = (croppedScreenBottomRight.x-croppedScreenTopLeft.x);
+		var inlayHeight: Number = (croppedScreenBottomRight.y-croppedScreenTopLeft.y);
 		
 		if ((inlayWidth<1)||(inlayHeight<1))
 			continue;
 		
-		var inlayLeftX: Number = screenTopLeft.x;
-		var inlayTopY: Number = screenTopLeft.y;
+		var inlayScreenLeftX: Number = croppedScreenTopLeft.x;
+		var inlayScreenTopY: Number = croppedScreenTopLeft.y;
+		
+		var localTopLeft: Point = croppedScreenTopLeft.subtract(screenTopLeft);
+
+		var croppedLatLonToXYMatrix: Matrix = inlay.latLonToXYMatrix.clone();
+		croppedLatLonToXYMatrix.translate(-localTopLeft.x, -localTopLeft.y);
+		
+		var croppedXYToLatLonMatrix: Matrix = croppedLatLonToXYMatrix.clone();
+		croppedXYToLatLonMatrix.invert();
 		
 		var drawingSurface: Shape = new Shape();
 
 		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
 		
-		doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, inlay.latLonToXYMatrix, inlay.xYToLatLonMatrix);
+		doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 		bitmapData.draw(drawingSurface, new Matrix());
 
 		var inlayMatrix: Matrix = new Matrix();
-		inlayMatrix.translate(inlayLeftX, inlayTopY);
+		inlayMatrix.translate(inlayScreenLeftX, inlayScreenTopY);
 
 		_mainShape.graphics.beginBitmapFill(bitmapData, inlayMatrix, false);
-		_mainShape.graphics.drawRect(inlayLeftX, inlayTopY, inlayWidth, inlayHeight);
+		_mainShape.graphics.drawRect(inlayScreenLeftX, inlayScreenTopY, inlayWidth, inlayHeight);
 		_mainShape.graphics.endFill();
 	}
 
@@ -1392,6 +1400,18 @@ private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, d
 	_latLonToXYMatrix.concat(zoom);
 	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
 	_xYToLatLonMatrix.invert();
+
+	for each (var inlay: Object in _inlays)
+	{
+		var newLatLonToXYMatrix: Matrix = inlay.latLonToXYMatrix.clone();
+		newLatLonToXYMatrix.concat(scale);
+		
+		var newXYToLatLonMatrix: Matrix = newLatLonToXYMatrix.clone();
+		newXYToLatLonMatrix.invert();
+		
+		inlay.latLonToXYMatrix = newLatLonToXYMatrix;
+		inlay.xYToLatLonMatrix = newXYToLatLonMatrix;
+	}
 	
 	if (dragging)
 		_redrawCountdown = 5;
