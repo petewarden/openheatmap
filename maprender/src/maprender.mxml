@@ -67,7 +67,8 @@ public var _onMouseUpFunction: String = null;
 public var _onMouseOverFunction: String = null;
 public var _onMouseOutFunction: String = null;
 public var _onMouseMoveFunction: String = null;
-public var _onEveryFrameFunction: String = null;
+public var _onFrameRenderFunction: String = null;
+public var _onDataChangeFunction: String = null;
 
 public var _width: Number = 800;
 public var _height: Number = 600;
@@ -170,8 +171,7 @@ public function startup():void
 	ExternalInterface.addCallback("setLatLonViewingArea", setLatLonViewingArea);      	
 	ExternalInterface.addCallback("setOceanColor", function(color: Number): void { _oceanColor = color; _dirty = true; });
 	ExternalInterface.addCallback("setWayDefault", setWayDefault);
-	ExternalInterface.addCallback('setMouseHandler', setMouseHandler);
-	ExternalInterface.addCallback("setEveryFrameHandler", function(functionName: String): void { _onEveryFrameFunction = functionName; });
+	ExternalInterface.addCallback('setEventHandler', setEventHandler);
 	ExternalInterface.addCallback("loadFromXMLFile", loadFromXMLFile);      	
 	ExternalInterface.addCallback("isLoadingXML", isLoadingXML);
 	ExternalInterface.addCallback("loadValuesFromFile", loadValuesFromFile);
@@ -246,7 +246,7 @@ private function getTagsFromArgument(tagsArgument: Object): Array
 		return [ tagsArgument ];
 }
 
-private function setMouseHandler(eventName: String, functionName: String): void
+private function setEventHandler(eventName: String, functionName: String): void
 {
 	eventName = eventName.toLowerCase();
 	
@@ -264,9 +264,13 @@ private function setMouseHandler(eventName: String, functionName: String): void
 		_onMouseOutFunction = functionName;
 	else if (eventName == 'mousemove')
 		_onMouseMoveFunction = functionName;
+	else if (eventName == 'framerender')
+		_onFrameRenderFunction = functionName;
+	else if (eventName == 'datachange')
+		_onDataChangeFunction = functionName;
 	else
-		ExternalInterface.call('alert', 'Unknown event name passed to MapView::setMouseHandler - "'+
-			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover or mouseout)');
+		ExternalInterface.call('alert', 'Unknown event name passed to MapRender::setEventHandler - "'+
+			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender or datachange)');
 }
 
 private function setSize(width: Number, height: Number): void
@@ -497,10 +501,7 @@ private function mapMouseMoveHandler( event:MouseEvent): Boolean
 }
 
 private function doEveryFrame(event: Event): void
-{
-	if (_onEveryFrameFunction !== null)
-		ExternalInterface.call(_onEveryFrameFunction, null);
-		
+{		
 	if (_redrawCountdown>0)
 	{
 		_redrawCountdown -= 1;
@@ -539,9 +540,12 @@ private function doEveryFrame(event: Event): void
 			
 			_dirty = true;
 			_valuesDirty = true;
+			onDataChange();
 		}
 	}
-	
+
+	if (_onFrameRenderFunction !== null)
+		ExternalInterface.call(_onFrameRenderFunction, null);	
 }
 
 private function blankWay(): Object
@@ -1223,6 +1227,7 @@ private function onTimelineUserInput(dragging: Boolean): void
 		_dirty = true;
 		
 	_valuesDirty = true;
+	onDataChange();
 }
 
 private function updateTimelineDisplay(): void
@@ -1610,6 +1615,12 @@ private function setTimeRange(timeStart: String, timeEnd: String): void
 	_timeRangeEnd = timeEnd;
 	
 	calculateFrameTimes();
+}
+
+private function onDataChange(): void
+{
+	if (_onDataChangeFunction!==null)
+		ExternalInterface.call(_onDataChangeFunction, null);	
 }
 
 ]]>

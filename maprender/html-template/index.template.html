@@ -131,7 +131,8 @@ function onFlashReady()
     flashobj.loadFromXMLFile('full_output_reduced.osm');
     flashobj.loadValuesFromFile('county_percentages.csv');
     flashobj.setLatLonViewingArea(50, -126.58, 15, -66.73);
-    flashobj.setMouseHandler('mousemove', 'onMouseMove');
+    flashobj.setEventHandler('mousemove', 'onMouseMove');
+    flashobj.setEventHandler('datachange', 'onDataChange');
     flashobj.setGradientValueRange(0, 20);
     flashobj.setTimeRange('1990-01', '2010-02');
     
@@ -143,7 +144,21 @@ function onXMLLoaded(filename)
 {
 }
 
+var g_lastEvent = null;
+
 function onMouseMove(event)
+{
+    g_lastEvent = event;
+
+    updateInfoDisplay(event);
+}
+
+function onDataChange()
+{
+    updateInfoDisplay(g_lastEvent);
+}
+
+function updateInfoDisplay(event)
 {
     var flashobj = getFlashMovie("${application}");
 
