@@ -69,6 +69,9 @@ public var _onMouseOutFunction: String = null;
 public var _onMouseMoveFunction: String = null;
 public var _onFrameRenderFunction: String = null;
 public var _onDataChangeFunction: String = null;
+public var _onWaysLoadFunction: String = null;
+public var _onValuesLoadFunction: String = null;
+public var _onErrorFunction: String = null;
 
 public var _width: Number = 800;
 public var _height: Number = 600;
@@ -76,13 +79,11 @@ public var _height: Number = 600;
 public var _nodes: Object = {};
 public var _ways: Object = {};
 
-public var _xml_loader: URLLoader;
-public var _isLoadingXML: Boolean = false;
-public var _xml_file_name: String = "";
+public var _waysLoader: URLLoader;
+public var _waysFileName: String = "";
 
-public var _values_loader: URLLoader;
-public var _isLoadingValues: Boolean = false;
-public var _values_file_name: String = "";
+public var _valuesLoader: URLLoader;
+public var _valuesFileName: String = "";
 
 public var _valueHeaders: Array = null;
 public var _valueData: Array = null;
@@ -172,8 +173,7 @@ public function startup():void
 	ExternalInterface.addCallback("setOceanColor", function(color: Number): void { _oceanColor = color; _dirty = true; });
 	ExternalInterface.addCallback("setWayDefault", setWayDefault);
 	ExternalInterface.addCallback('setEventHandler', setEventHandler);
-	ExternalInterface.addCallback("loadFromXMLFile", loadFromXMLFile);      	
-	ExternalInterface.addCallback("isLoadingXML", isLoadingXML);
+	ExternalInterface.addCallback("loadWaysFromFile", loadWaysFromFile);      	
 	ExternalInterface.addCallback("loadValuesFromFile", loadValuesFromFile);
 	ExternalInterface.addCallback("setColorGradient", setColorGradient);	
 	ExternalInterface.addCallback("getWaysContainingLatLon", getWaysContainingLatLon);
@@ -185,8 +185,9 @@ public function startup():void
 	ExternalInterface.addCallback("setPixelsPerDegreeLatitude", setPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
 	ExternalInterface.addCallback("setTimeRange", setTimeRange);
+	ExternalInterface.addCallback("getWayForWayId", getWayForWayId);
 
-	var onLoadFunction: String = getURLInput('onload', 'onFlashReady');
+	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
 		ExternalInterface.call(onLoadFunction, '');
 }
@@ -268,9 +269,15 @@ private function setEventHandler(eventName: String, functionName: String): void
 		_onFrameRenderFunction = functionName;
 	else if (eventName == 'datachange')
 		_onDataChangeFunction = functionName;
+	else if (eventName == 'waysload')
+		_onWaysLoadFunction = functionName;
+	else if (eventName == 'valuesload')
+		_onValuesLoadFunction = functionName;
+	else if (eventName == 'error')
+		_onErrorFunction = functionName;
 	else
-		ExternalInterface.call('alert', 'Unknown event name passed to MapRender::setEventHandler - "'+
-			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender or datachange)');
+		logError( 'Unknown event name passed to MapRender::setEventHandler - "'+
+			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender, datachange, waysload, valuesload or error)');
 }
 
 private function setSize(width: Number, height: Number): void
@@ -331,8 +338,8 @@ private function getLatLonFromXY(xYPoint: Point, xYToLatLonMatrix: Matrix): Obje
 
 private function makeEventArgument(event:MouseEvent): Object
 {
-	var mouseX: Number = event.localX;
-	var mouseY: Number = event.localY;
+	var mouseX: Number = event.stageX;
+	var mouseY: Number = event.stageY;
 
 	var mainLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
 	
@@ -373,7 +380,7 @@ private function mapMouseClickHandler( event:MouseEvent ): Boolean
 	else
 		continueHandling = true;
 
-	// Pete - I can't get double-click events to fire properly, so I've hard-coded an interval within which the
+	// Pete - I can't get double-click events to fire reliably, so I've hard-coded an interval within which the
 	// second normal click event triggers the double-click handler. Ugh, I feel dirty...
 	var currentTime: Number = new Date().getTime();
 	var sinceLastClick: Number = (currentTime-_lastClickTime);
@@ -565,13 +572,13 @@ private function blankWay(): Object
 	return result;	
 }
 
-private function onXMLLoad(success:Boolean): void
+private function onWaysLoad(success:Boolean): void
 { 	  		  	
-	var xml_data:XML = XML(_xml_loader.data);
+	var waysData:XML = XML(_waysLoader.data);
   	
   	_tagMap = {};
   	
-  	for each (var node: * in xml_data..node)
+  	for each (var node: * in waysData..node)
   	{
   		var newNode: Object = {
   				'lon': (Number)(node.@lon),
@@ -581,7 +588,7 @@ private function onXMLLoad(success:Boolean): void
   		_nodes[node.@id] = newNode;  		
   	}
 
-  	for each (var way: * in xml_data..way)
+  	for each (var way: * in waysData..way)
   	{
 		var wayId: String = (String)(way.@id);
 
@@ -634,26 +641,16 @@ private function onXMLLoad(success:Boolean): void
   	}
 
 	buildBucketGrid();
-
-	_isLoadingXML = false;
 	_dirty = true;
-	ExternalInterface.call("onXMLLoaded",_xml_file_name);
+	if (_onWaysLoadFunction!==null)
+		ExternalInterface.call(_onWaysLoadFunction, _waysFileName);
 }
  	  
-private function loadFromXMLFile(xml_file_name: String): void
+private function loadWaysFromFile(waysFileName: String): void
 {
-	if (_isLoadingXML)
-		return;
- 	  		      	
-	_isLoadingXML = true;
- 	_xml_file_name = xml_file_name;
-    _xml_loader = new URLLoader(new URLRequest(xml_file_name));
-    _xml_loader.addEventListener("complete", onXMLLoad);
-}
- 	  
-private function isLoadingXML(): Boolean
-{
-	return _isLoadingXML;
+ 	_waysFileName = waysFileName;
+    _waysLoader = new URLLoader(new URLRequest(waysFileName));
+    _waysLoader.addEventListener("complete", onWaysLoad);
 }
 
 private function decodeCSVRow(line: String, columnSeperator: String = ',') : Array
@@ -723,7 +720,7 @@ private function onValuesLoad(success:Boolean): void
 	var lineSeperator: String = '\n';
 	var columnSeperator: String = ',';		  	
 
-	var linesArray: Array = _values_loader.data.toString().split(lineSeperator);
+	var linesArray: Array = _valuesLoader.data.toString().split(lineSeperator);
 	
 	var headerLine: String = linesArray[0];
 
@@ -742,7 +739,7 @@ private function onValuesLoad(success:Boolean): void
 	
 	if (_valueColumnIndex===-1)
 	{
-		ExternalInterface.call('alert', 'Error loading CSV file "'+_values_file_name+'" - missing value column from header "'+headerLine+'"');
+		logError( 'Error loading CSV file "'+_valuesFileName+'" - missing value column from header "'+headerLine+'"');
 		return;
 	}
 	
@@ -793,17 +790,17 @@ private function onValuesLoad(success:Boolean): void
 	}
 	
 	_valuesDirty = true;
-	_dirty = true;		
+	_dirty = true;
+	
+	if (_onValuesLoadFunction!==null)
+		ExternalInterface.call(_onValuesLoadFunction, _valuesFileName);
+			
 }
-private function loadValuesFromFile(values_file_name: String): void
+private function loadValuesFromFile(valuesFileName: String): void
 {
-	if (_isLoadingValues)
-		return;
-		
-	_isLoadingValues = true;
-	_values_file_name = values_file_name;
-	_values_loader = new URLLoader(new URLRequest(values_file_name));
-	_values_loader.addEventListener("complete", onValuesLoad);
+	_valuesFileName = valuesFileName;
+	_valuesLoader = new URLLoader(new URLRequest(valuesFileName));
+	_valuesLoader.addEventListener("complete", onValuesLoad);
 }
 
 private function doRedraw(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
@@ -1109,7 +1106,7 @@ private function buildBucketGrid(): void
 
 private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 {
-	var result: Array = [];
+	var result: Array = new Array();
 
 	var pos: Point = new Point(lon, lat);
 
@@ -1177,14 +1174,19 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 				{
 					var leftX: Number = xIntersections[index];
 					var rightX: Number = xIntersections[(index+1)];
-					
+
 					if ((leftX<=pos.x)&&(rightX>pos.x))
 						isInside = true;
 					
 				}
 				
 				if (isInside)
-					result.push(way);
+				{
+					result.push({
+						id: way.id,
+						tags: way.tags
+					});
+				}
 			}
 		}
 	}
@@ -1621,6 +1623,22 @@ private function onDataChange(): void
 {
 	if (_onDataChangeFunction!==null)
 		ExternalInterface.call(_onDataChangeFunction, null);	
+}
+
+private function logError(message: String): void
+{
+	trace('Error: '+message);
+	if (_onErrorFunction!==null)
+		ExternalInterface.call(_onErrorFunction, message);	
+}
+
+private function getWayForWayId(wayId: String): Object
+{
+	var result: Object = _ways[wayId];
+	
+	trace('Found '+result);
+	
+	return result;	
 }
 
 ]]>
