@@ -72,6 +72,7 @@ class OSMWays
         }
         
         $this->ways[$way_id] = array(
+            'id' => $way_id,
             'bounding_box' => array(),
             'tags' => array(),
             'nds' => array(),
@@ -225,7 +226,7 @@ class OSMWays
                 $result .= '<tag k="';
                 $result .= $key;
                 $result .= '" v="';
-                $result .= $value;
+                $result .= str_replace('"', '&quot;', $value);
                 $result .= '"/>';
                 $result .= "\n";
             }
@@ -275,6 +276,7 @@ class OSMWays
                     {
                         $key = (string)($way_child['k']);
                         $value = (string)($way_child['v']);
+                        $value = str_replace('&quot;', '"', $value);
                         $this->add_tag($key, $value);
                     }
                     else
@@ -290,6 +292,10 @@ class OSMWays
                 $box_string = (string)($top_child['box']);
                 $box_list = explode(',', $box_string);
                 $this->set_bounding_box($box_list[0], $box_list[1], $box_list[2], $box_list[3]);
+            }
+            else if ($name=='relation')
+            {
+                // Not yet implemented
             }
             else
             {

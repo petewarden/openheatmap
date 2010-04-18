@@ -1093,6 +1093,11 @@ private function buildBucketGrid(): void
 		var topIndex: int = Math.floor((boundingBox.top-originTop)/rowHeight);
 		var bottomIndex: int = Math.floor((boundingBox.bottom-originTop)/rowHeight);
 
+		leftIndex = Math.max(leftIndex, 0);
+		rightIndex = Math.min(rightIndex, (_bucketGridColumns-1));
+		topIndex = Math.max(topIndex, 0);
+		bottomIndex = Math.min(bottomIndex, (_bucketGridRows-1));
+
 		for (rowIndex=topIndex; rowIndex<=bottomIndex; rowIndex+=1)
 		{
 			for (columnIndex=leftIndex; columnIndex<=rightIndex; columnIndex+=1)
