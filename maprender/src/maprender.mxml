@@ -46,10 +46,7 @@ public var _oceanColor: Number = 0xd0e0ff;
 public var _wayDefaults: Object = {
 	color: 0x000000,
 	alpha: 1.0,
-	highlight: false,
-	highlightColor: 0xff0000,
-	highlightAlpha: 1.0,
-	scale: 1.0
+	line_thickness: 0
 };
 
 public var _colorGradient: Array = [
@@ -601,13 +598,16 @@ private function onWaysLoad(success:Boolean): void
 		var lastNd: String = null;
 	  	for each (var nd: * in way..nd)
 	  	{
+	  		if (typeof _nodes[nd.@ref] === 'undefined')
+	  			continue;
+
 	  		ndCount += 1;
 	  		newWay.nds.push(nd.@ref);
 	  		
 	  		if (firstNd===null)
 	  			firstNd = nd.@ref;
 	  		lastNd = nd.@ref;
-	  		
+	  			  			
 	  		var thisNode: Object = _nodes[nd.@ref];
 	  		var nodePos: Point = new Point(thisNode.lon, thisNode.lat);
 	  		newWay.boundingBox = enlargeBoxToContain(newWay.boundingBox, nodePos);
@@ -848,33 +848,45 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 		
 		if (!viewingArea.intersects(way.boundingBox))
 			continue;
-			
-		var finalNd: String = way.nds[way.nds.length-1];
-		var finalNode: Object = _nodes[finalNd];
-		
-		var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
 
-		if (way.isClosed)
+		var isClosed: Boolean = way.isClosed;			
+
+		if (isClosed)
 		{		
+			var finalNd: String = way.nds[way.nds.length-1];
+			var finalNode: Object = _nodes[finalNd];
+			
+			var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
+
 			graphics.lineStyle();
 			graphics.beginFill(wayColor, wayAlpha);
+			
+			graphics.moveTo(finalPos.x, finalPos.y);
 		}
 		else
 		{
+			var firstNd: String = way.nds[0];
+			var firstNode: Object = _nodes[firstNd];
+			
+			var firstPos: Point = getXYFromLatLon(firstNode, latLonToXYMatrix);
+
 			graphics.lineStyle(0, wayColor,wayAlpha);
-			graphics.beginFill(0, 0.0);
+
+			graphics.moveTo(firstPos.x, firstPos.y);
 		}
-		
-		graphics.moveTo(finalPos.x, finalPos.y);
 
 		for each (var currentNd: String in way.nds)
 		{
 			var currentNode: Object = _nodes[currentNd];
 			var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
+			
 			graphics.lineTo(currentPos.x, currentPos.y);
 		}
 
-		graphics.endFill();
+		if (isClosed)
+		{
+			graphics.endFill();
+		}
 	}
 }
 
@@ -1128,71 +1140,51 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 	var rowIndex: int = Math.floor((pos.y-originTop)/rowHeight);
 	
 	var ways: Array = _bucketGrid[rowIndex][columnIndex].ways;
+
+	var pixelsPerDegree: Number = getPixelsPerDegreeLatitude();
+	var pixelsToDegreeScale: Number = (1.0/pixelsPerDegree);
 	
 	for each (var wayId: String in ways)
 	{
 		var way: Object = _ways[wayId];
-		if (way.boundingBox.containsPoint(pos))
+		var isInside: Boolean = false;
+		if (way.isClosed)
 		{
-			if (way.isClosed)
+			if (way.boundingBox.containsPoint(pos))
 			{
-				var xIntersections: Array = [];
-	
-				var lineStart: Point = null;
-				var isFirst: Boolean = true;
-				
-				for each (var currentNd: String in way.nds)
-				{
-					var currentNode: Object = _nodes[currentNd];
-					var lineEnd: Point = new Point(currentNode.lon, currentNode.lat);
-					
-					if (isFirst)
-					{
-						isFirst = false;
-					}
-					else
-					{
-						if (((lineStart.y>pos.y)&&(lineEnd.y<pos.y))||
-							((lineStart.y<pos.y)&&(lineEnd.y>pos.y)))
-						{
-							var lineDirection: Point = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
-							var yDelta: Number = (pos.y-lineStart.y);
-							var yProportion: Number = (yDelta/lineDirection.y);
-							
-							var xIntersect: Number = (lineStart.x+(lineDirection.x*yProportion));
-							xIntersections.push(xIntersect);
-						}
-						
-					}
-					
-					lineStart = lineEnd;
-				}
-				
-				xIntersections.sort(function(a:Number, b:Number): int {
-					if (a<b) return -1;
-					else if (a>b) return 1;
-					else return 0; 
-				});
-				
-				var isInside: Boolean = false;
-				for (var index: int = 0; index<(xIntersections.length-1); index += 2)
-				{
-					var leftX: Number = xIntersections[index];
-					var rightX: Number = xIntersections[(index+1)];
-
-					if ((leftX<=pos.x)&&(rightX>pos.x))
-						isInside = true;
-					
-				}
-				
-				if (isInside)
-				{
-					result.push({
-						id: way.id,
-						tags: way.tags
-					});
-				}
+				isInside = isPointInsideClosedWay(pos, way);
 			}
+		}
+		else
+		{
+			var lineThickness: Number = (Number)(getWayProperty('line_thickness', way));
+			
+			var thicknessInDegrees: Number = Math.abs((lineThickness+1)*pixelsToDegreeScale);
+			
+			var boundingBox: Rectangle = way.boundingBox.clone();
+//			boundingBox.inflate(thicknessInDegrees/2, thicknessInDegrees/2);
+			
+			if (boundingBox.containsPoint(pos))
+			{
+				isInside = isPointOnWayLine(pos, way, thicknessInDegrees);	
+			}			
+		}
+		
+		if (isInside)
+		{
+			var wayResult: Object = {};
+			wayResult.id = wayId;
+			wayResult.tags = {};
+			
+			for (var key: String in way.tags)
+			{
+				// Pete - Safari really doesn't like colons in member names! 
+				key = key.replace(':', '_colon_');
+				var value: String = way.tags[key];
+				wayResult.tags[key] = value;
+			}
+			
+			result.push(wayResult);
 		}
 	}
 	
@@ -1644,6 +1636,109 @@ private function getWayForWayId(wayId: String): Object
 	trace('Found '+result);
 	
 	return result;	
+}
+
+private function isPointInsideClosedWay(pos: Point, way: Object): Boolean
+{
+	var xIntersections: Array = [];
+
+	var lineStart: Point = null;
+	var isFirst: Boolean = true;
+	
+	for each (var currentNd: String in way.nds)
+	{
+		var currentNode: Object = _nodes[currentNd];
+		var lineEnd: Point = new Point(currentNode.lon, currentNode.lat);
+		
+		if (isFirst)
+		{
+			isFirst = false;
+		}
+		else
+		{
+			if (((lineStart.y>pos.y)&&(lineEnd.y<pos.y))||
+				((lineStart.y<pos.y)&&(lineEnd.y>pos.y)))
+			{
+				var lineDirection: Point = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
+				var yDelta: Number = (pos.y-lineStart.y);
+				var yProportion: Number = (yDelta/lineDirection.y);
+				
+				var xIntersect: Number = (lineStart.x+(lineDirection.x*yProportion));
+				xIntersections.push(xIntersect);
+			}
+			
+		}
+		
+		lineStart = lineEnd;
+	}
+	
+	xIntersections.sort(function(a:Number, b:Number): int {
+		if (a<b) return -1;
+		else if (a>b) return 1;
+		else return 0; 
+	});
+	
+	var isInside: Boolean = false;
+	for (var index: int = 0; index<(xIntersections.length-1); index += 2)
+	{
+		var leftX: Number = xIntersections[index];
+		var rightX: Number = xIntersections[(index+1)];
+
+		if ((leftX<=pos.x)&&(rightX>pos.x))
+			isInside = true;
+		
+	}
+				
+	return isInside;
+}
+
+private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): Boolean
+{
+	var lineStart: Point = null;
+	var isFirst: Boolean = true;
+	
+	var thicknessSquared: Number = (thickness*thickness);
+	
+	var isInside: Boolean = false;
+	for each (var currentNd: String in way.nds)
+	{
+		var currentNode: Object = _nodes[currentNd];
+		var lineEnd: Point = new Point(currentNode.lon, currentNode.lat);
+		
+		if (isFirst)
+		{
+			isFirst = false;
+		}
+		else
+		{
+			var lineDirection: Point = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
+			
+			var lineDirectionSquared: Number = ((lineDirection.x*lineDirection.x)+(lineDirection.y*lineDirection.y));
+			
+			var s: Number = ((pos.x-lineStart.x)*lineDirection.x)+((pos.y-lineStart.y)*lineDirection.y);
+			s /= lineDirectionSquared;
+			
+			s = Math.max(s, 0);
+			s = Math.min(s, 1);
+			
+			var closestPoint: Point = new Point((lineStart.x+s*lineDirection.x), (lineStart.y+s*lineDirection.y));
+			
+			var delta: Point = pos.subtract(closestPoint);
+			
+			var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
+			
+			if (distanceSquared<thicknessSquared)
+			{
+				isInside = true;
+				break;
+			}
+		}
+		
+		lineStart = lineEnd;
+	}
+	
+				
+	return isInside;
 }
 
 ]]>
