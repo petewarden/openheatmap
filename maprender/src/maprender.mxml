@@ -134,6 +134,13 @@ public var _foundTimes: Object = {};
 public var _timeRangeStart: String = null;
 public var _timeRangeEnd: String = null;
 
+public var _hasBitmapBackground: Boolean = true;//false;
+public var _bitmapBackgroundResolution: int = 4;
+
+public var _hasPointValues: Boolean = false;
+public var _latitudeColumnIndex: int = -1;
+public var _longitudeColumnIndex: int = -1;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -515,7 +522,8 @@ private function doEveryFrame(event: Event): void
 	
 	if (_valuesDirty&&(_redrawCountdown===0))
 	{
-		setWaysFromValues();
+		if (!_hasPointValues)
+			setWaysFromValues();
 		_valuesDirty = false;		
 	}
 	
@@ -728,6 +736,8 @@ private function onValuesLoad(success:Boolean): void
 
 	_timeColumnIndex = -1;
 	_valueColumnIndex = -1;
+	_latitudeColumnIndex = -1;
+	_longitudeColumnIndex = -1;
 	for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
 	{
 		var header: String = _valueHeaders[headerIndex].toLowerCase();
@@ -735,53 +745,29 @@ private function onValuesLoad(success:Boolean): void
 			_timeColumnIndex = headerIndex;	
 		else if (header==='value')
 			_valueColumnIndex = headerIndex;
+		else if ((header==='latitude')||(header==='lat'))
+			_latitudeColumnIndex = headerIndex;
+		else if ((header==='longitude')||(header==='lon'))
+			_longitudeColumnIndex = headerIndex;
 	}
 	
-	if (_valueColumnIndex===-1)
+	var hasLatitude: Boolean = (_latitudeColumnIndex!==-1);
+	var hasLongitude: Boolean = (_longitudeColumnIndex!==-1);
+	
+	if ((hasLatitude||hasLongitude)&&(hasLatitude!=hasLongitude))
 	{
-		logError( 'Error loading CSV file "'+_valuesFileName+'" - missing value column from header "'+headerLine+'"');
-		return;
+		logError( 'Error loading CSV file "'+_valuesFileName+'" - only found one of longitude or latitude in "'+headerLine+'"');
+		return;		
 	}
 	
+	_hasPointValues = hasLatitude;
 	_hasTime = (_timeColumnIndex!==-1);
-	_foundTimes = {};
 	
-	_valueData = [];
-	
-	for(var i : int = 1; i < linesArray.length; i++ )
-	{
-		var lineString: String = linesArray[i];
-		var lineValues: Array = decodeCSVRow(lineString, columnSeperator);
+	if (!_hasPointValues)
+		loadAreaValues(linesArray, headerLine, columnSeperator);
+	else
+		loadPointValues(linesArray, headerLine, columnSeperator);
 		
-		var thisValue: Number = (Number)(lineValues[_valueColumnIndex]);
-		
-		if ((i===1)||(thisValue<_smallestValue))
-			_smallestValue = thisValue;
-			
-		if ((i===1)||(thisValue>_largestValue))
-			_largestValue = thisValue;
-		
-		if (_hasTime)
-		{
-			var thisTime: String = lineValues[_timeColumnIndex];
-			if (thisTime !== null)
-			{
-				if (typeof _foundTimes[thisTime] === 'undefined')
-				{
-					_foundTimes[thisTime] = true;
-					_valueData[thisTime] = [];
-				}
-				
-				_valueData[thisTime].push(lineValues);
-			}
-		}
-		else
-		{
-			_valueData.push(lineValues);		
-		}
-		
-	}
-	
 	if (_hasTime)
 	{
 		calculateFrameTimes();
@@ -810,7 +796,7 @@ private function doRedraw(graphics: Graphics, width: Number, height: Number, lat
 	graphics.beginFill(_oceanColor, 1.0);
    	graphics.drawRect(0, 0, width, height);
     graphics.endFill();
-
+    
 	var viewingArea: Rectangle = new Rectangle();
 	
 	var topLeftScreen: Point = new Point(0, 0);
@@ -822,11 +808,19 @@ private function doRedraw(graphics: Graphics, width: Number, height: Number, lat
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
 
-	drawWays(graphics, viewingArea, latLonToXYMatrix);
+    var bitmapBackground: BitmapData = null;
+    if (_hasBitmapBackground)
+    	bitmapBackground = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+
+	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
 
-private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix): void
-{		
+private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
+{
+	var hasBitmap: Boolean = (bitmapBackground!==null);
+	var bitmapMatrix: Matrix = new Matrix();
+	bitmapMatrix.scale(_bitmapBackgroundResolution, _bitmapBackgroundResolution);
+	
 	for (var wayId:String in _ways)
 	{
 		var way: Object = _ways[wayId];
@@ -859,7 +853,10 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 			var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
 
 			graphics.lineStyle();
-			graphics.beginFill(wayColor, wayAlpha);
+			if (hasBitmap)
+				graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
+			else
+				graphics.beginFill(wayColor, wayAlpha);
 			
 			graphics.moveTo(finalPos.x, finalPos.y);
 		}
@@ -887,6 +884,23 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 		{
 			graphics.endFill();
 		}
+	}
+	
+	if (_hasPointValues)
+	{
+		graphics.lineStyle(0, 0x000000, 1.0);
+
+		for each (var values: Array in _valueData)
+		{
+			var latLon: Object = { 
+				lat: values[_latitudeColumnIndex],
+				lon: values[_longitudeColumnIndex]
+			};
+
+			currentPos = getXYFromLatLon(latLon, latLonToXYMatrix);
+	
+			graphics.drawCircle(currentPos.x, currentPos.y, 1);
+		}	
 	}
 }
 
@@ -1739,6 +1753,105 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
 	
 				
 	return isInside;
+}
+
+private function createBitmapBackground(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+{
+	var bitmapWidth: Number = (width/_bitmapBackgroundResolution);
+	var bitmapHeight: Number = (height/_bitmapBackgroundResolution);
+	
+	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
+	
+	var pixelData: ByteArray = new ByteArray();
+	
+	for (var y: int = 0; y<bitmapHeight; y+=1)
+	{
+		for (var x: int = 0; x<bitmapWidth; x+=1)
+		{
+			var color: uint;
+			if ((x&1)^(y&1))
+				color = 0xff000000;
+			else
+				color = 0xffffffff;
+			
+			pixelData.writeUnsignedInt(color);
+		}	
+	}
+	
+	pixelData.position = 0;
+	
+	result.setPixels(new Rectangle(0, 0, bitmapWidth, bitmapHeight), pixelData);
+	
+	return result;
+}
+
+private function loadAreaValues(linesArray: Array, headerLine: String, columnSeperator: String): void
+{
+	if (_valueColumnIndex===-1)
+	{
+		logError( 'Error loading CSV file "'+_valuesFileName+'" - missing value column from header "'+headerLine+'"');
+		return;
+	}
+	
+	_foundTimes = {};
+	
+	_valueData = [];
+	
+	for(var i : int = 1; i < linesArray.length; i++ )
+	{
+		var lineString: String = linesArray[i];
+		var lineValues: Array = decodeCSVRow(lineString, columnSeperator);
+		
+		var thisValue: Number = (Number)(lineValues[_valueColumnIndex]);
+		
+		if ((i===1)||(thisValue<_smallestValue))
+			_smallestValue = thisValue;
+			
+		if ((i===1)||(thisValue>_largestValue))
+			_largestValue = thisValue;
+		
+		if (_hasTime)
+		{
+			var thisTime: String = lineValues[_timeColumnIndex];
+			if (thisTime !== null)
+			{
+				if (typeof _foundTimes[thisTime] === 'undefined')
+				{
+					_foundTimes[thisTime] = true;
+					_valueData[thisTime] = [];
+				}
+				
+				_valueData[thisTime].push(lineValues);
+			}
+		}
+		else
+		{
+			_valueData.push(lineValues);		
+		}
+		
+	}
+	
+}
+
+private function loadPointValues(linesArray: Array, headerLine: String, columnSeperator: String): void
+{	
+	_foundTimes = {};
+	
+	_valueData = [];
+	
+	for(var i : int = 1; i < linesArray.length; i++ )
+	{
+		var lineString: String = linesArray[i];
+		var lineValues: Array = decodeCSVRow(lineString, columnSeperator);
+		
+		var thisLatitude: Number = (Number)(lineValues[_latitudeColumnIndex]);
+		var thisLongitude: Number = (Number)(lineValues[_longitudeColumnIndex]);
+		
+		lineValues[_latitudeColumnIndex] = thisLatitude;
+		lineValues[_longitudeColumnIndex] = thisLongitude;
+
+		_valueData.push(lineValues);		
+	}	
 }
 
 ]]>

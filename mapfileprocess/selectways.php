@@ -351,29 +351,6 @@ function evaluate_match_expression($tags, $match_expression)
     return $result;
 }
 
-function copy_way_into_osm_ways($way, $input_osm_ways, &$output_osm_ways)
-{
-    $input_nodes = $input_osm_ways->nodes;
-    
-    $output_osm_ways->begin_way($way['id']);
- 
-    foreach ($way['tags'] as $key => $value)
-    {
-        $output_osm_ways->add_tag($key, $value);
-    }
-
-    foreach ($way['nds'] as $nd_ref)
-    {
-        if (!isset($input_nodes[$nd_ref]))
-            continue;
-            
-        $node = $input_nodes[$nd_ref];
-        $output_osm_ways->add_vertex($node['lat'], $node['lon']);
-    }
-    
-    $output_osm_ways->end_way();
-}
-
 function extract_ways_matching_keys(&$input_osm_ways, $match_expression, $verbose)
 {
     if ($verbose)
@@ -391,7 +368,7 @@ function extract_ways_matching_keys(&$input_osm_ways, $match_expression, $verbos
         
         if (evaluate_match_expression($tags, $match_expression))
         {
-            copy_way_into_osm_ways($input_way, $input_osm_ways, $result);
+            $result->copy_way($input_way, $input_osm_ways);
         }
         
         $count +=1;

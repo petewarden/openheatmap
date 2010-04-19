@@ -276,7 +276,7 @@ class OSMWays
                     {
                         $key = (string)($way_child['k']);
                         $value = (string)($way_child['v']);
-                        $value = str_replace('&quot;', '"', $value);
+                        $value = htmlspecialchars($value);
                         $this->add_tag($key, $value);
                     }
                     else
@@ -349,6 +349,39 @@ class OSMWays
         }
         
         return $result;
+    }
+    
+    public function copy_way($way, $input_osm_ways)
+    {
+        $input_nodes = $input_osm_ways->nodes;
+        
+        $this->begin_way();
+     
+        foreach ($way['tags'] as $key => $value)
+        {
+            $this->add_tag($key, $value);
+        }
+
+        foreach ($way['nds'] as $nd_ref)
+        {
+            if (!isset($input_nodes[$nd_ref]))
+                continue;
+                
+            $node = $input_nodes[$nd_ref];
+            $this->add_vertex($node['lat'], $node['lon']);
+        }
+        
+        $this->end_way();    
+    }
+    
+    public function copy_all_ways($input_osm_ways)
+    {
+        $input_ways = $input_osm_ways->ways;
+        
+        foreach ($input_ways as $way)
+        {
+            $this->copy_way($way, $input_osm_ways);
+        }
     }
     
 }
