@@ -36,6 +36,7 @@ import mx.core.BitmapAsset;
 import mx.events.SliderEvent;
 
 import TimelineControls;
+import BucketGrid;
 
 public var _mainShape:Shape = null;
 public var _mainBitmap: Bitmap = null;
@@ -100,9 +101,7 @@ public var _latLonToXYMatrix: Matrix = new Matrix();
 public var _xYToLatLonMatrix: Matrix = new Matrix();
 
 public var _worldBoundingBox: Rectangle = new Rectangle();
-public var _bucketGridRows: int = 16;
-public var _bucketGridColumns: int = 16;
-public var _bucketGrid: Array = [];
+public var _waysGrid: BucketGrid = null;
 
 public var _timelineControls: TimelineControls = null;
 
@@ -135,11 +134,13 @@ public var _timeRangeStart: String = null;
 public var _timeRangeEnd: String = null;
 
 public var _hasBitmapBackground: Boolean = true;//false;
-public var _bitmapBackgroundResolution: int = 4;
+public var _bitmapBackgroundResolution: int = 2;
 
 public var _hasPointValues: Boolean = false;
 public var _latitudeColumnIndex: int = -1;
 public var _longitudeColumnIndex: int = -1;
+public var _pointBlobRadius: Number = 0.001;
+public var _pointBlobValue: Number = 1.0;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -648,7 +649,7 @@ private function onWaysLoad(success:Boolean): void
   		}
   	}
 
-	buildBucketGrid();
+	buildWaysGrid();
 	_dirty = true;
 	if (_onWaysLoadFunction!==null)
 		ExternalInterface.call(_onWaysLoadFunction, _waysFileName);
@@ -808,9 +809,7 @@ private function doRedraw(graphics: Graphics, width: Number, height: Number, lat
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
 
-    var bitmapBackground: BitmapData = null;
-    if (_hasBitmapBackground)
-    	bitmapBackground = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+    var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 
 	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
@@ -885,23 +884,7 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 			graphics.endFill();
 		}
 	}
-	
-	if (_hasPointValues)
-	{
-		graphics.lineStyle(0, 0x000000, 1.0);
 
-		for each (var values: Array in _valueData)
-		{
-			var latLon: Object = { 
-				lat: values[_latitudeColumnIndex],
-				lon: values[_longitudeColumnIndex]
-			};
-
-			currentPos = getXYFromLatLon(latLon, latLonToXYMatrix);
-	
-			graphics.drawCircle(currentPos.x, currentPos.y, 1);
-		}	
-	}
 }
 
 private function setWaysFromValues(): void
@@ -957,25 +940,7 @@ private function setWaysFromValues(): void
 			}
 		}
 		
-		var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
-		normalizedValue = Math.min(normalizedValue, 1.0);
-		normalizedValue = Math.max(normalizedValue, 0.0);
-		
-		var fractionalIndex: Number = (normalizedValue*(_colorGradient.length-1));
-		
-		var lowerIndex: int = Math.floor(fractionalIndex);
-		var higherIndex: int = Math.ceil(fractionalIndex);
-		var lerpValue: Number = (fractionalIndex-lowerIndex);
-		var oneMinusLerp: Number = (1.0-lerpValue);
-		
-		var lowerValue: Object = _colorGradient[lowerIndex];
-		var higherValue: Object = _colorGradient[higherIndex];
-		
-		var red: int = (int)((lowerValue.red*oneMinusLerp)+(higherValue.red*lerpValue));
-		var green: int = (int)((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
-		var blue: int = (int)((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
-		
-		var setColor: int = ((red<<16)|(green<<8)|(blue<<0));
+		var setColor: Number = getColorForValue(thisValue, minValue, valueScale);
 		
 		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor));
 	}
@@ -1077,61 +1042,19 @@ private function enlargeBoxToContain(box: Rectangle, pos: Point): Rectangle
 	return box;
 }
 
-private function buildBucketGrid(): void
+private function buildWaysGrid(): void
 {
-	_bucketGrid = [];
-	
-	var originLeft: Number = _worldBoundingBox.left;
-	var originTop: Number = _worldBoundingBox.top;
-	
-	var columnWidth: Number = _worldBoundingBox.width/_bucketGridColumns;
-	var rowHeight: Number = _worldBoundingBox.height/_bucketGridRows;
-	
-	for (var rowIndex: int = 0; rowIndex<_bucketGridRows; rowIndex+=1)
-	{
-		_bucketGrid[rowIndex] = [];
-		
-		var rowTop: Number = (originTop+(rowHeight*rowIndex));
-		
-		for (var columnIndex: int = 0; columnIndex<_bucketGridColumns; columnIndex+=1)
-		{
-			var columnLeft: Number = (originLeft+(columnWidth*columnIndex));
-	
-			var boundingBox: Rectangle = new Rectangle(columnLeft, rowTop, columnWidth, rowHeight);
-
-			_bucketGrid[rowIndex][columnIndex] = {
-				boundingBox: boundingBox,
-				ways: []
-			};
-		}
-	}
+	_waysGrid = new BucketGrid(_worldBoundingBox, 16, 16);
 	
 	for (var wayId:String in _ways)
 	{
 		var way: Object = _ways[wayId];
 
-		boundingBox = way.boundingBox;
+		var boundingBox: Rectangle = way.boundingBox;
 		if (boundingBox.isEmpty())
 			continue;
 		
-		var leftIndex: int = Math.floor((boundingBox.left-originLeft)/columnWidth);
-		var rightIndex: int = Math.floor((boundingBox.right-originLeft)/columnWidth);
-		var topIndex: int = Math.floor((boundingBox.top-originTop)/rowHeight);
-		var bottomIndex: int = Math.floor((boundingBox.bottom-originTop)/rowHeight);
-
-		leftIndex = Math.max(leftIndex, 0);
-		rightIndex = Math.min(rightIndex, (_bucketGridColumns-1));
-		topIndex = Math.max(topIndex, 0);
-		bottomIndex = Math.min(bottomIndex, (_bucketGridRows-1));
-
-		for (rowIndex=topIndex; rowIndex<=bottomIndex; rowIndex+=1)
-		{
-			for (columnIndex=leftIndex; columnIndex<=rightIndex; columnIndex+=1)
-			{
-				_bucketGrid[rowIndex][columnIndex].ways.push(wayId);
-			}
-		}
-
+		_waysGrid.insertObjectAt(boundingBox, wayId);
 	}
 }
 
@@ -1144,19 +1067,12 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 	if (!_worldBoundingBox.containsPoint(pos))
 		return result;
 	
-	var originLeft: Number = _worldBoundingBox.left;
-	var originTop: Number = _worldBoundingBox.top;
+	if (_waysGrid===null)
+		return result;
 	
-	var columnWidth: Number = _worldBoundingBox.width/_bucketGridColumns;
-	var rowHeight: Number = _worldBoundingBox.height/_bucketGridRows;
-
-	var columnIndex: int = Math.floor((pos.x-originLeft)/columnWidth);
-	var rowIndex: int = Math.floor((pos.y-originTop)/rowHeight);
-	
-	var ways: Array = _bucketGrid[rowIndex][columnIndex].ways;
-
 	var pixelsPerDegree: Number = getPixelsPerDegreeLatitude();
 	var pixelsToDegreeScale: Number = (1.0/pixelsPerDegree);
+	var ways: Array = _waysGrid.getContentsAtPoint(pos);
 	
 	for each (var wayId: String in ways)
 	{
@@ -1757,6 +1673,48 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
 
 private function createBitmapBackground(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
 {
+	if (!_hasPointValues)
+		return null;
+
+	var blobRadius: Number = _pointBlobRadius;
+	var twoBlobRadius: Number = (2*blobRadius);
+	var blobRadiusSquared: Number = (blobRadius*blobRadius);
+
+	if (_isGradientValueRangeSet)
+	{
+		var minValue: Number = _gradientValueMin;
+		var maxValue: Number = _gradientValueMax;	
+	}
+	else
+	{
+		minValue = _smallestValue;
+		maxValue = _largestValue;
+	}
+	var valueScale: Number = (1/(maxValue-minValue));
+
+	var pointsGrid: BucketGrid = new BucketGrid(viewingArea, 64, 64);
+
+	var index: int = 0;
+	for each (var values: Array in _valueData)
+	{
+		var lat: Number = values[_latitudeColumnIndex];
+		var lon: Number = values[_longitudeColumnIndex];
+		
+		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+
+		if (!viewingArea.intersects(boundingBox))
+			continue;
+
+		var latLon: Object = { 
+			pos: new Point(lon, lat),
+			index: index
+		};
+
+		pointsGrid.insertObjectAt(boundingBox, latLon);
+
+		index += 1;
+	}	
+	
 	var bitmapWidth: Number = (width/_bitmapBackgroundResolution);
 	var bitmapHeight: Number = (height/_bitmapBackgroundResolution);
 	
@@ -1764,15 +1722,37 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	
 	var pixelData: ByteArray = new ByteArray();
 	
-	for (var y: int = 0; y<bitmapHeight; y+=1)
+	for (var bitmapY: int = 0; bitmapY<bitmapHeight; bitmapY+=1)
 	{
-		for (var x: int = 0; x<bitmapWidth; x+=1)
+		var screenY: Number = (bitmapY*_bitmapBackgroundResolution);
+		for (var bitmapX: int = 0; bitmapX<bitmapWidth; bitmapX+=1)
 		{
-			var color: uint;
-			if ((x&1)^(y&1))
-				color = 0xff000000;
-			else
-				color = 0xffffffff;
+			var screenX: Number = (bitmapX*_bitmapBackgroundResolution);
+			
+			var screenPos: Point = new Point(screenX, screenY);
+			var worldLatLon: Object = getLatLonFromXY(screenPos, xYToLatLonMatrix);
+			var worldPoint: Point = new Point(worldLatLon.lon, worldLatLon.lat);
+			
+			var candidatePoints: Array = pointsGrid.getContentsAtPoint(worldPoint);
+			
+			var value: Number = 0;
+			
+			for each (var point: Object in candidatePoints)
+			{
+				var pos: Point = point.pos;
+				var delta: Point = worldPoint.subtract(pos);
+				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
+				if (distanceSquared>blobRadiusSquared)
+					continue;
+				
+				var distance: Number = Math.sqrt(distanceSquared);
+				var lerp: Number = (1-(distance/blobRadius));
+				
+				value += (_pointBlobValue*lerp);
+			}
+			
+			var color: uint = getColorForValue(value, minValue, valueScale);
+			color |= 0xff000000;
 			
 			pixelData.writeUnsignedInt(color);
 		}	
@@ -1852,6 +1832,31 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 
 		_valueData.push(lineValues);		
 	}	
+}
+
+private function getColorForValue(thisValue: Number, minValue: Number, valueScale: Number): int
+{
+	var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
+	normalizedValue = Math.min(normalizedValue, 1.0);
+	normalizedValue = Math.max(normalizedValue, 0.0);
+	
+	var fractionalIndex: Number = (normalizedValue*(_colorGradient.length-1));
+	
+	var lowerIndex: int = Math.floor(fractionalIndex);
+	var higherIndex: int = Math.ceil(fractionalIndex);
+	var lerpValue: Number = (fractionalIndex-lowerIndex);
+	var oneMinusLerp: Number = (1.0-lerpValue);
+	
+	var lowerValue: Object = _colorGradient[lowerIndex];
+	var higherValue: Object = _colorGradient[higherIndex];
+	
+	var red: int = (int)((lowerValue.red*oneMinusLerp)+(higherValue.red*lerpValue));
+	var green: int = (int)((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
+	var blue: int = (int)((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
+	
+	var setColor: int = ((red<<16)|(green<<8)|(blue<<0));
+	
+	return setColor;
 }
 
 ]]>
