@@ -133,7 +133,7 @@ public var _foundTimes: Object = {};
 public var _timeRangeStart: String = null;
 public var _timeRangeEnd: String = null;
 
-public var _hasBitmapBackground: Boolean = true;//false;
+public var _hasBitmapBackground: Boolean = false;
 public var _bitmapBackgroundResolution: int = 2;
 
 public var _hasPointValues: Boolean = false;
@@ -141,6 +141,7 @@ public var _latitudeColumnIndex: int = -1;
 public var _longitudeColumnIndex: int = -1;
 public var _pointBlobRadius: Number = 0.001;
 public var _pointBlobValue: Number = 1.0;
+public var _pointsGrid: BucketGrid = null;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -191,6 +192,7 @@ public function startup():void
 	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
 	ExternalInterface.addCallback("setTimeRange", setTimeRange);
 	ExternalInterface.addCallback("getWayForWayId", getWayForWayId);
+	ExternalInterface.addCallback("getValuePointsNearLatLon", getValuePointsNearLatLon);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -763,6 +765,8 @@ private function onValuesLoad(success:Boolean): void
 	
 	_hasPointValues = hasLatitude;
 	_hasTime = (_timeColumnIndex!==-1);
+	
+	_hasBitmapBackground = _hasPointValues;
 	
 	if (!_hasPointValues)
 		loadAreaValues(linesArray, headerLine, columnSeperator);
@@ -1692,7 +1696,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	}
 	var valueScale: Number = (1/(maxValue-minValue));
 
-	var pointsGrid: BucketGrid = new BucketGrid(viewingArea, 64, 64);
+	_pointsGrid = new BucketGrid(viewingArea, 64, 64);
 
 	var index: int = 0;
 	for each (var values: Array in _valueData)
@@ -1710,7 +1714,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 			index: index
 		};
 
-		pointsGrid.insertObjectAt(boundingBox, latLon);
+		_pointsGrid.insertObjectAt(boundingBox, latLon);
 
 		index += 1;
 	}	
@@ -1733,7 +1737,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 			var worldLatLon: Object = getLatLonFromXY(screenPos, xYToLatLonMatrix);
 			var worldPoint: Point = new Point(worldLatLon.lon, worldLatLon.lat);
 			
-			var candidatePoints: Array = pointsGrid.getContentsAtPoint(worldPoint);
+			var candidatePoints: Array = _pointsGrid.getContentsAtPoint(worldPoint);
 			
 			var value: Number = 0;
 			
@@ -1816,7 +1820,7 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 private function loadPointValues(linesArray: Array, headerLine: String, columnSeperator: String): void
 {	
 	_foundTimes = {};
-	
+		
 	_valueData = [];
 	
 	for(var i : int = 1; i < linesArray.length; i++ )
@@ -1857,6 +1861,39 @@ private function getColorForValue(thisValue: Number, minValue: Number, valueScal
 	var setColor: int = ((red<<16)|(green<<8)|(blue<<0));
 	
 	return setColor;
+}
+
+private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number): Object
+{
+	var radiusSquared: Number = (radius*radius);
+	
+	var result: Array = [];
+	for each (var values: Array in _valueData)
+	{
+		var valueLat: Number = values[_latitudeColumnIndex];
+		var valueLon: Number = values[_longitudeColumnIndex];
+		
+		var deltaLat: Number = (valueLat-lat);
+		var deltaLon: Number = (valueLon-lon);
+		
+		var distanceSquared: Number = ((deltaLat*deltaLat)+(deltaLon*deltaLon));
+		
+		if (distanceSquared<radiusSquared)
+		{
+			var output: Object = {};
+			for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
+			{
+				var header: String = _valueHeaders[headerIndex].toLowerCase();
+
+				output[header] = values[headerIndex];
+			}
+			
+			result.push(output);
+		}
+	
+	}
+	
+	return result;
 }
 
 ]]>
