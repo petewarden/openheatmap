@@ -1873,8 +1873,11 @@ private function getColorForValue(thisValue: Number, minValue: Number, valueScal
 	return setColor;
 }
 
-private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number): Object
+private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number = 0): Object
 {
+	if (radius===0)
+		radius = _settings.point_blob_radius;
+	
 	var radiusSquared: Number = (radius*radius);
 	
 	var result: Array = [];
