@@ -112,7 +112,7 @@ function convert_unemployment_file($input_file_name, $output_file_name, $bla_to_
             
         $year = (int)($input_parts[1]);
         
-        if ($year<1990)
+        if ($year<2005)
             continue;
         
         $month_string = $input_parts[2];
