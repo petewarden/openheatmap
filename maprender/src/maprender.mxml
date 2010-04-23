@@ -1138,7 +1138,7 @@ private function addTimelineControls(): void
 {
 	_timelineControls = new TimelineControls();
 	_timelineControls.percentWidth = 100;
-	_timelineControls.setWidth(_settings.width-200);
+	_timelineControls.setWidth(_settings.width-250);
 	
 	var verticalCenter: Number = ((_settings.height/2)-40);
 	_timelineControls.setStyle("verticalCenter", verticalCenter);
@@ -1708,12 +1708,29 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 
 	_pointsGrid = new BucketGrid(viewingArea, 64, 64);
 
+	var currentValues: Array;
+	
+	if (_hasTime)
+	{
+		var currentTime: String = _frameTimes[_frameIndex];
+		currentValues = _valueData[currentTime];
+	}
+	else
+	{
+		currentValues = _valueData;
+	}
+	
 	var index: int = 0;
-	for each (var values: Array in _valueData)
+	for each (var values: Array in currentValues)
 	{
 		var lat: Number = values[_latitudeColumnIndex];
 		var lon: Number = values[_longitudeColumnIndex];
-		
+		var pointValue: Number;
+		if (_valueColumnIndex!==-1)
+			pointValue = values[_valueColumnIndex];
+		else
+			pointValue = pointBlobValue;
+			
 		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
 
 		if (!viewingArea.intersects(boundingBox))
@@ -1721,7 +1738,8 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 
 		var latLon: Object = { 
 			pos: new Point(lon, lat),
-			index: index
+			index: index,
+			value: pointValue
 		};
 
 		_pointsGrid.insertObjectAt(boundingBox, latLon);
@@ -1762,7 +1780,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 				var distance: Number = Math.sqrt(distanceSquared);
 				var lerp: Number = (1-(distance/blobRadius));
 				
-				value += (pointBlobValue*lerp);
+				value += (point.value*lerp);
 			}
 			
 			var color: uint = getColorForValue(value, minValue, valueScale);
@@ -1840,10 +1858,41 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		
 		var thisLatitude: Number = (Number)(lineValues[_latitudeColumnIndex]);
 		var thisLongitude: Number = (Number)(lineValues[_longitudeColumnIndex]);
-		
+
 		lineValues[_latitudeColumnIndex] = thisLatitude;
 		lineValues[_longitudeColumnIndex] = thisLongitude;
 
+		if (_valueColumnIndex!==-1)
+		{
+			var thisValue: Number = (Number)(lineValues[_valueColumnIndex]);
+			lineValues[_valueColumnIndex] = thisValue;
+			
+			if ((i===1)||(thisValue<_smallestValue))
+				_smallestValue = thisValue;
+			
+			if ((i===1)||(thisValue>_largestValue))
+				_largestValue = thisValue;
+		}
+		
+		if (_hasTime)
+		{
+			var thisTime: String = lineValues[_timeColumnIndex];
+			if ((thisTime !== null)&&(thisTime!==''))
+			{
+				if (typeof _foundTimes[thisTime] === 'undefined')
+				{
+					_foundTimes[thisTime] = true;
+					_valueData[thisTime] = [];
+				}
+				
+				_valueData[thisTime].push(lineValues);
+			}
+		}
+		else
+		{
+			_valueData.push(lineValues);		
+		}
+		
 		_valueData.push(lineValues);		
 	}	
 }
