@@ -71,9 +71,6 @@ public var _onWaysLoadFunction: String = null;
 public var _onValuesLoadFunction: String = null;
 public var _onErrorFunction: String = null;
 
-public var _width: Number = 800;
-public var _height: Number = 600;
-
 public var _nodes: Object = {};
 public var _ways: Object = {};
 
@@ -121,13 +118,6 @@ public var _zoomSlider: Slider = null;
 public var PlusImage:Class;
 [Embed(source="images/minus.gif")]
 public var MinusImage:Class;
-public var _zoomSliderPower: Number = 5.0;
-public var _zoomedOutDegreesPerPixel: Number = -180;
-public var _zoomedInDegreesPerPixel: Number = -0.01;
-
-public var _isGradientValueRangeSet: Boolean = false;
-public var _gradientValueMin: Number;
-public var _gradientValueMax: Number;
 
 public var _foundTimes: Object = {};
 public var _timeRangeStart: String = null;
@@ -139,9 +129,22 @@ public var _bitmapBackgroundResolution: int = 2;
 public var _hasPointValues: Boolean = false;
 public var _latitudeColumnIndex: int = -1;
 public var _longitudeColumnIndex: int = -1;
-public var _pointBlobRadius: Number = 0.001;
-public var _pointBlobValue: Number = 1.0;
+
 public var _pointsGrid: BucketGrid = null;
+
+public var _settings: Object =
+{
+	width: 800,
+	height: 600,
+	zoom_slider_power: 5.0,
+	zoomed_out_degrees_per_pixel: -180,
+	zoomed_in_degrees_per_pixel: -0.01,
+	is_gradient_value_range_set: false,
+	gradient_value_min: 0,
+	gradient_value_max: 0,
+	point_blob_radius: 0.001,
+	point_blob_value: 1.0
+};
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -193,6 +196,8 @@ public function startup():void
 	ExternalInterface.addCallback("setTimeRange", setTimeRange);
 	ExternalInterface.addCallback("getWayForWayId", getWayForWayId);
 	ExternalInterface.addCallback("getValuePointsNearLatLon", getValuePointsNearLatLon);
+	ExternalInterface.addCallback("loadValuesFromCSVString", loadValuesFromCSVString);
+	ExternalInterface.addCallback("setSetting", setSetting);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -289,8 +294,8 @@ private function setEventHandler(eventName: String, functionName: String): void
 
 private function setSize(width: Number, height: Number): void
 {
-	_width = width;
-	_height = height;
+	_settings.width = width;
+	_settings.height = height;
 	
 	if (_timelineControls !== null)
 		_timelineControls.setWidth(width);
@@ -303,8 +308,8 @@ private function setLatLonViewingArea(topLat: Number, leftLon: Number, bottomLat
 	var widthLon: Number = (rightLon-leftLon);
 	var heightLat: Number = (bottomLat-topLat);
 	
-	var scaleX: Number = (_width/widthLon);
-	var scaleY: Number = (_height/heightLat);
+	var scaleX: Number = (_settings.width/widthLon);
+	var scaleY: Number = (_settings.height/heightLat);
 
 	var newMatrix: Matrix = new Matrix();
 	newMatrix.translate(-leftLon, -topLat);
@@ -728,10 +733,18 @@ private function decodeCSVRow(line: String, columnSeperator: String = ',') : Arr
 
 private function onValuesLoad(success:Boolean): void
 {
+	loadValuesFromCSVString(_valuesLoader.data.toString());
+
+	if (_onValuesLoadFunction!==null)
+		ExternalInterface.call(_onValuesLoadFunction, _valuesFileName);
+}
+
+private function loadValuesFromCSVString(valuesString: String): void
+{
 	var lineSeperator: String = '\n';
 	var columnSeperator: String = ',';		  	
 
-	var linesArray: Array = _valuesLoader.data.toString().split(lineSeperator);
+	var linesArray: Array = valuesString.split(lineSeperator);
 	
 	var headerLine: String = linesArray[0];
 
@@ -781,11 +794,7 @@ private function onValuesLoad(success:Boolean): void
 	}
 	
 	_valuesDirty = true;
-	_dirty = true;
-	
-	if (_onValuesLoadFunction!==null)
-		ExternalInterface.call(_onValuesLoadFunction, _valuesFileName);
-			
+	_dirty = true;			
 }
 private function loadValuesFromFile(valuesFileName: String): void
 {
@@ -896,10 +905,10 @@ private function setWaysFromValues(): void
 	if (_valueData === null)
 		return;
 
-	if (_isGradientValueRangeSet)
+	if (_settings.is_gradient_value_range_set)
 	{
-		var minValue: Number = _gradientValueMin;
-		var maxValue: Number = _gradientValueMax;	
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
 	}
 	else
 	{
@@ -1129,9 +1138,9 @@ private function addTimelineControls(): void
 {
 	_timelineControls = new TimelineControls();
 	_timelineControls.percentWidth = 100;
-	_timelineControls.setWidth(_width-200);
+	_timelineControls.setWidth(_settings.width-200);
 	
-	var verticalCenter: Number = ((_height/2)-40);
+	var verticalCenter: Number = ((_settings.height/2)-40);
 	_timelineControls.setStyle("verticalCenter", verticalCenter);
 	_timelineControls.setTimeTextStyle(12, 0x000000);
 	
@@ -1285,14 +1294,14 @@ private function cropPoint(input: Point, area: Rectangle): Point
 
 private function drawMapIntoMainBitmap(): void
 {		
-	doRedraw(_mainShape.graphics, _width, _height, _latLonToXYMatrix, _xYToLatLonMatrix);
+	doRedraw(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
 			
 	for each (var inlay: Object in _inlays)
 	{
 		var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
 		var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
 		
-		var screenArea: Rectangle = new Rectangle(0, 0, _width, _height);
+		var screenArea: Rectangle = new Rectangle(0, 0, _settings.width, _settings.height);
 		
 		var croppedScreenTopLeft: Point = cropPoint(screenTopLeft, screenArea);
 		var croppedScreenBottomRight: Point = cropPoint(screenBottomRight, screenArea);
@@ -1332,7 +1341,7 @@ private function drawMapIntoMainBitmap(): void
 	_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
 	
 	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
-	_mainBitmapBottomRightLatLon = getLatLonFromXY(new Point(_width, _height), _xYToLatLonMatrix);
+	_mainBitmapBottomRightLatLon = getLatLonFromXY(new Point(_settings.width, _settings.height), _xYToLatLonMatrix);
 }
 
 private function drawMainBitmapIntoViewer(): void
@@ -1353,7 +1362,7 @@ private function drawMainBitmapIntoViewer(): void
 	var screenBitmapHeight: Number = (screenBitmapBottomRight.y-screenBitmapTopLeft.y);
 	
 	var bitmapTransform: Matrix = new Matrix();
-	bitmapTransform.scale((screenBitmapWidth/_width), (screenBitmapHeight/_height));
+	bitmapTransform.scale((screenBitmapWidth/_settings.width), (screenBitmapHeight/_settings.height));
 	bitmapTransform.translate(screenBitmapLeft, screenBitmapTop);
 	
 	viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, bitmapTransform, false);
@@ -1481,7 +1490,7 @@ private function setPixelsPerDegreeLatitude(newPixelsPerDegreeLatitude: Number, 
 	
 	var zoomFactor: Number = (newPixelsPerDegreeLatitude/oldPixelsPerDegreeLatitude);
 	
-	var center: Point = new Point((_width/2), (_height/2));
+	var center: Point = new Point((_settings.width/2), (_settings.height/2));
 	
 	zoomMapByFactorAroundPoint(zoomFactor, center, dragging);
 }
@@ -1490,10 +1499,10 @@ private function calculatePixelsPerDegreeLatitudeFromZoomSlider(): Number
 {
 	var sliderValue: Number = _zoomSlider.value;
 	
-	var lerpValue: Number = Math.pow(sliderValue, _zoomSliderPower);
+	var lerpValue: Number = Math.pow(sliderValue, _settings.zoom_slider_power);
 
-	var minPixelsPerDegreeLatitude: Number = (_height/_zoomedOutDegreesPerPixel);
-	var maxPixelsPerDegreeLatitude: Number = (_height/_zoomedInDegreesPerPixel);
+	var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
+	var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
 
 	var oneMinusLerp: Number = (1-lerpValue);
 	
@@ -1507,22 +1516,22 @@ private function updateZoomSliderDisplay(): void
 {
 	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
 
-	var minPixelsPerDegreeLatitude: Number = (_height/_zoomedOutDegreesPerPixel);
-	var maxPixelsPerDegreeLatitude: Number = (_height/_zoomedInDegreesPerPixel);
+	var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
+	var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
 
 	var lerpValue: Number = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
 		(maxPixelsPerDegreeLatitude-minPixelsPerDegreeLatitude));
 	
-	var sliderValue: Number = Math.pow(lerpValue, (1/_zoomSliderPower));
+	var sliderValue: Number = Math.pow(lerpValue, (1/_settings.zoom_slider_power));
 
 	_zoomSlider.value = sliderValue;
 }
 
 private function setGradientValueRange(min: Number, max: Number): void
 {
-	_isGradientValueRangeSet = true;
-	_gradientValueMin = min;
-	_gradientValueMax = max;
+	_settings.is_gradient_value_range_set = true;
+	_settings.gradient_value_min = min;
+	_settings.gradient_value_max = max;
 }
 
 private function calculateFrameTimes(): void
@@ -1680,14 +1689,15 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	if (!_hasPointValues)
 		return null;
 
-	var blobRadius: Number = _pointBlobRadius;
+	var blobRadius: Number = _settings.point_blob_radius;
 	var twoBlobRadius: Number = (2*blobRadius);
 	var blobRadiusSquared: Number = (blobRadius*blobRadius);
+	var pointBlobValue: Number = _settings.point_blob_value;
 
-	if (_isGradientValueRangeSet)
+	if (_settings.is_gradient_value_range_set)
 	{
-		var minValue: Number = _gradientValueMin;
-		var maxValue: Number = _gradientValueMax;	
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
 	}
 	else
 	{
@@ -1752,7 +1762,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 				var distance: Number = Math.sqrt(distanceSquared);
 				var lerp: Number = (1-(distance/blobRadius));
 				
-				value += (_pointBlobValue*lerp);
+				value += (pointBlobValue*lerp);
 			}
 			
 			var color: uint = getColorForValue(value, minValue, valueScale);
@@ -1894,6 +1904,20 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
 	}
 	
 	return result;
+}
+
+private function setSetting(key: String, value: String): void
+{
+	if (!_settings.hasOwnProperty(key))
+	{
+		logError('Unknown key in setSetting('+key+')');
+		return;
+	}
+	
+	if (typeof _settings[key] === "Number")
+		_settings[key] = value as Number;
+	else
+		_settings[key] = value;
 }
 
 ]]>
