@@ -953,7 +953,7 @@ private function setWaysFromValues(): void
 			}
 		}
 		
-		var setColor: Number = getColorForValue(thisValue, minValue, valueScale);
+		var setColor: Number = getColorForValue(thisValue, minValue, maxValue, valueScale);
 		
 		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor));
 	}
@@ -1750,22 +1750,38 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	var bitmapWidth: Number = (width/_bitmapBackgroundResolution);
 	var bitmapHeight: Number = (height/_bitmapBackgroundResolution);
 	
-	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
+	var leftLon: Number = viewingArea.left;
+	var rightLon: Number = viewingArea.right;
+	var widthLon: Number = (rightLon-leftLon);
+	var stepLon: Number = (widthLon/bitmapWidth);
+	
+	var topLat: Number = viewingArea.bottom;
+	var bottomLat: Number = viewingArea.top;
+	var heightLat: Number = (bottomLat-topLat);
+	var stepLat: Number = (heightLat/bitmapHeight);
+	
+	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, false, 0xffff00);
 	
 	var pixelData: ByteArray = new ByteArray();
 	
+	var zeroColor: uint = getColorForValue(0, minValue, maxValue, valueScale);
+	var fullColor: uint = getColorForValue(maxValue, minValue, maxValue, valueScale);
+	
+	var worldPoint: Point = new Point();
 	for (var bitmapY: int = 0; bitmapY<bitmapHeight; bitmapY+=1)
 	{
-		var screenY: Number = (bitmapY*_bitmapBackgroundResolution);
+		worldPoint.y = (topLat+(stepLat*bitmapY));
 		for (var bitmapX: int = 0; bitmapX<bitmapWidth; bitmapX+=1)
-		{
-			var screenX: Number = (bitmapX*_bitmapBackgroundResolution);
-			
-			var screenPos: Point = new Point(screenX, screenY);
-			var worldLatLon: Object = getLatLonFromXY(screenPos, xYToLatLonMatrix);
-			var worldPoint: Point = new Point(worldLatLon.lon, worldLatLon.lat);
+		{			
+			worldPoint.x = (leftLon+(stepLon*bitmapX));
 			
 			var candidatePoints: Array = _pointsGrid.getContentsAtPoint(worldPoint);
+			
+			if (candidatePoints.length<1)
+			{
+				pixelData.writeUnsignedInt(zeroColor);
+				continue;
+			}
 			
 			var value: Number = 0;
 			
@@ -1782,10 +1798,15 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 				
 				value += (point.value*lerp);
 			}
+
+			if (value>=maxValue)
+			{
+				pixelData.writeUnsignedInt(fullColor);
+				continue;
+			}
 			
-			var color: uint = getColorForValue(value, minValue, valueScale);
-			color |= 0xff000000;
-			
+			var color: uint = getColorForValue(value, minValue, maxValue, valueScale);
+		
 			pixelData.writeUnsignedInt(color);
 		}	
 	}
@@ -1897,8 +1918,8 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 	}	
 }
 
-private function getColorForValue(thisValue: Number, minValue: Number, valueScale: Number): int
-{
+private function getColorForValue(thisValue: Number, minValue: Number, maxValue: Number, valueScale: Number): int
+{	
 	var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
 	normalizedValue = Math.min(normalizedValue, 1.0);
 	normalizedValue = Math.max(normalizedValue, 0.0);
@@ -1928,9 +1949,21 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
 		radius = _settings.point_blob_radius;
 	
 	var radiusSquared: Number = (radius*radius);
+
+	var currentValues: Array;
 	
+	if (_hasTime)
+	{
+		var currentTime: String = _frameTimes[_frameIndex];
+		currentValues = _valueData[currentTime];
+	}
+	else
+	{
+		currentValues = _valueData;
+	}
+		
 	var result: Array = [];
-	for each (var values: Array in _valueData)
+	for each (var values: Array in currentValues)
 	{
 		var valueLat: Number = values[_latitudeColumnIndex];
 		var valueLon: Number = values[_longitudeColumnIndex];
