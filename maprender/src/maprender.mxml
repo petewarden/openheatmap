@@ -146,6 +146,8 @@ public var _settings: Object =
 	point_blob_value: 1.0
 };
 
+public var _lastSetWayIds: Object = {};
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -938,6 +940,8 @@ private function setWaysFromValues(): void
 		currentValues = _valueData;
 	}
 	
+	var thisSetWayIds: Object = {};
+	
 	for each (var values: Array in currentValues)
 	{
 		if (_hasTime)
@@ -964,9 +968,20 @@ private function setWaysFromValues(): void
 		
 		var setColor: Number = getColorForValue(thisValue, minValue, maxValue, valueScale);
 		
-		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor));
+		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds);
 	}
 	
+	var defaultColor: String = (String)(getWayProperty('color'));
+	
+	for (var lastWayId: String in _lastSetWayIds)
+	{
+		if (thisSetWayIds.hasOwnProperty(lastWayId))
+			continue;
+			
+		_ways[lastWayId]['color'] = defaultColor;
+	}
+	
+	_lastSetWayIds = thisSetWayIds;
 }
 
 private function setColorGradient(colorList: Array) : void
@@ -988,7 +1003,7 @@ private function setColorGradient(colorList: Array) : void
 	}	
 }
 
-private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String) : void
+private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String, setWays: Object) : void
 {
 	var matchingWayIds: Object = null;
 	for (var key:String in matchKeys)
@@ -996,7 +1011,7 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 		var value: String = matchKeys[key];
 		
 		var currentMatches: Array;
-		if (typeof _tagMap[key][value] === 'undefined')
+		if (!_tagMap.hasOwnProperty(key)||!_tagMap[key].hasOwnProperty(value))
 			currentMatches = [];
 		else
 		 	currentMatches = _tagMap[key][value];
@@ -1023,7 +1038,8 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 	for (wayId in matchingWayIds)
 	{
 		_ways[wayId][attributeName] = attributeValue;
-		foundCount += 1;		
+		foundCount += 1;
+		setWays[wayId] = true;
 	}
 
 //	if (foundCount===0)
@@ -1145,19 +1161,21 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 
 private function addTimelineControls(): void
 {
-	_timelineControls = new TimelineControls();
-	_timelineControls.percentWidth = 100;
-	_timelineControls.setWidth(_settings.width-250);
+	if (_timelineControls === null)
+	{
+		_timelineControls = new TimelineControls();
+		_timelineControls.percentWidth = 100;
+		_timelineControls.setWidth(_settings.width-250);
+		
+		var verticalCenter: Number = ((_settings.height/2)-40);
+		_timelineControls.y = (_settings.height-50);
 	
-	var verticalCenter: Number = ((_settings.height/2)-40);
-//	_timelineControls.setStyle("verticalCenter", verticalCenter);
-	_timelineControls.y = (_settings.height-50);
-
-	_timelineControls.setTimeTextStyle(12, 0x000000);
+		_timelineControls.setTimeTextStyle(12, 0x000000);
+		
+		_timelineControls.setOnUserInputCallback(onTimelineUserInput);
 	
-	_timelineControls.setOnUserInputCallback(onTimelineUserInput);
-
-	addChild(this._timelineControls);
+		addChild(this._timelineControls);
+	}
 	
 	updateTimelineDisplay();
 }

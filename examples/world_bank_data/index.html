@@ -1,10 +1,12 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>World Bank Data</title>
+<title>World Bank Data Explorer</title>
 <link rel="stylesheet" type="text/css" href="history/history.css" />
 <script src="AC_OETags.js" language="javascript"></script>
 <script src="history/history.js" language="javascript"></script>
+<script src="series_index.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 <style>
 body {
 	font-family:"lucida grande", "verdana";
@@ -14,7 +16,7 @@ body {
 	text-align:left;
 }
 
-div {
+.maindiv {
     background-color: #fff;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -111,8 +113,7 @@ function onMapCreated()
 //    map.setTimeRange('1990-01', '2010-02');
     
     map.loadWaysFromFile('test_data/world_countries.osm');
-    map.loadValuesFromFile('test_data/world_bank_data/'+encodeURIComponent('Mortality rate, under-5 (per 1,000)'));
-    
+        
     setInfoDisplayHTML('Loading map<br/><img src="loading.gif"/>');    
 }
 
@@ -129,7 +130,7 @@ function onWaysLoad(filename)
     }
     else
     {
-        setInfoDisplayHTML('Loading 1.2 million values - this may take a minute!<br/><img src="loading.gif"/>');    
+        selectSeries('Mortality rate, under-5 (per 1,000)');
     }
     
     return true;
@@ -241,17 +242,247 @@ function setInfoDisplayHTML(infoHTML)
     infoElement.innerHTML = infoHTML;
 }
 
+var g_topics = {};
+
+$(document).ready(function(){
+
+    var foundTopics = {};
+    var topicList = [];
+
+    for (var index in g_seriesIndex)
+    {
+        var currentRow = g_seriesIndex[index];
+        
+        var seriesName = currentRow['Series Name'];
+        var topic = currentRow['Topic'];
+        var subTopic = currentRow['SubTopic1'];
+        
+        if (topic === null)
+            continue;
+
+        if (subTopic === null)
+            continue;
+    
+        if (!foundTopics.hasOwnProperty(topic))
+        {
+            foundTopics[topic] = {subTopicList:[], subTopicMap:{}};
+            topicList.push(topic);
+        }
+               
+        if (!foundTopics[topic].subTopicMap.hasOwnProperty(subTopic))
+        {
+            foundTopics[topic].subTopicMap[subTopic] = [];
+            foundTopics[topic].subTopicList.push(subTopic);
+        }
+        
+        foundTopics[topic].subTopicMap[subTopic].push(seriesName);
+    }
+    
+    topicList.sort();
+    for (var index in topicList)
+    {
+        var topic = topicList[index];
+        
+        g_topics[topic] = {};
+        
+        var subTopicList = foundTopics[topic].subTopicList;
+        subTopicList.sort();
+        
+        for (var subTopicIndex in subTopicList)
+        {
+            var subTopic = subTopicList[subTopicIndex];
+            
+            var seriesList = foundTopics[topic].subTopicMap[subTopic];
+            seriesList.sort();
+            
+            g_topics[topic][subTopic] = seriesList;
+        }
+    }
+
+});
+
+var g_selectedTopic = '';
+var g_selectedSubTopic = '';
+var g_selectedSeriesName = '';
+
+function selectSeries(selectedSeriesName)
+{
+    for (var topic in g_topics)
+    {
+        for (var subTopic in g_topics[topic])
+        {
+            var seriesList = g_topics[topic][subTopic];
+            for (var seriesNameIndex in seriesList)
+            {
+                var seriesName = seriesList[seriesNameIndex];
+                
+                if (seriesName===selectedSeriesName)
+                {
+                    g_selectedTopic = topic;
+                    g_selectedSubTopic = subTopic;
+                    g_selectedSeriesName = selectedSeriesName;
+
+                    g_areValuesLoaded = false;
+                    setInfoDisplayHTML('Loading data<br/><img src="loading.gif"/>');    
+
+                    var map = getOpenGraphMap("maprender");
+                    map.loadValuesFromFile('test_data/world_bank_data/'+
+                        encodeURIComponent(g_selectedSeriesName));
+                        
+                }
+            }
+        }
+    }
+    
+    populatePickers();
+}
+
+function populatePickers()
+{
+    var topicPicker = $('#topicpicker');
+    topicPicker.empty();
+    
+    for (var topic in g_topics)
+    {
+        var originalColor;
+        if (topic===g_selectedTopic)
+            originalColor = '#0000ff';
+        else
+            originalColor = '#000000';
+    
+        var topicSpan = $('<span></span>')
+        .text(topic)
+        .css({cursor: "pointer", color: originalColor})
+        .click(function() {
+            g_selectedTopic = $(this).text();
+            g_selectedSubTopic = '';
+            g_selectedSeriesName = '';
+            populatePickers();
+        })
+        .append($('<br>'));
+
+        if (topic===g_selectedTopic)
+        {
+            topicSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#0000ff'});
+            });
+        }
+        else
+        {
+            topicSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#000000'});
+            });        
+        }
+        
+        topicPicker.append(topicSpan);
+    }
+
+    var subTopicPicker = $('#subtopicpicker');
+    subTopicPicker.empty();
+    
+    for (var subTopic in g_topics[g_selectedTopic])
+    {
+        var originalColor;
+        if (subTopic===g_selectedSubTopic)
+            originalColor = '#0000ff';
+        else
+            originalColor = '#000000';
+    
+        var subTopicSpan = $('<span></span>')
+        .text(subTopic)
+        .css({cursor: "pointer", color: originalColor})
+        .click(function() {
+            g_selectedSubTopic = $(this).text();
+            g_selectedSeriesName = '';
+            populatePickers();
+        })
+        .append($('<br>'));
+        
+        if (subTopic===g_selectedSubTopic)
+        {
+            subTopicSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#0000ff'});
+            });
+        }
+        else
+        {
+            subTopicSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#000000'});
+            });        
+        }
+
+        
+        subTopicPicker.append(subTopicSpan);
+    }
+
+    var seriesNamePicker = $('#seriesnamepicker');
+    seriesNamePicker.empty();
+    
+    for (var seriesNameIndex in g_topics[g_selectedTopic][g_selectedSubTopic])
+    {
+        var seriesName = g_topics[g_selectedTopic][g_selectedSubTopic][seriesNameIndex];
+
+        var originalColor;
+        if (seriesName===g_selectedSeriesName)
+            originalColor = '#0000ff';
+        else
+            originalColor = '#000000';
+    
+        var seriesNameSpan = $('<span></span>')
+        .text(seriesName)
+        .css({cursor: "pointer", color: originalColor, fontSize:'100%'})
+        .click(function() {
+            selectSeries($(this).text());
+        })
+        .append($('<br>'));
+        
+        if (seriesName===g_selectedSeriesName)
+        {
+            seriesNameSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#0000ff'});
+            });
+        }
+        else
+        {
+            seriesNameSpan.hover(
+                function () {
+                    $(this).css({color:'#ff0000'});
+                }, function () {
+                    $(this).css({color:'#000000'});
+            });        
+        }
+
+        seriesNamePicker.append(seriesNameSpan);
+    }
+
+}
+
 </script>
 </head>
 
 <body style="background-color: #eee;">
 <center>
 
-<div style="font-size:200%">
-World Bank Data
+<div class="maindiv" style="font-size:200%">
+World Bank Data Explorer
 </div>
 
-<div>
+<div class="maindiv">
 
 <script type="text/javascript">
 insertOpenGraphMap("maprender", "maprender");
@@ -259,13 +490,23 @@ insertOpenGraphMap("maprender", "maprender");
 
 </div>
 
-<div id="infodisplay" style="font-size:150%; height;120px;">
+<div class="maindiv" id="infodisplay" style="font-size:150%; height;120px;">
 Loading OpenGraphMap
 <br/>
 <img src="loading.gif"/>
 </div>
 
-<div>
+<div class="maindiv" id="datasetchooser" style="font-size:125%">
+<div id="topicpicker" style="float: left; width: 20%; border-right: 1px solid #000; text-align: right; padding-right: 3px;">
+</div>
+<div id="subtopicpicker" style="float: left; width: 15%; border-right: 1px solid #000; text-align: right; padding-right: 3px;">
+</div>
+<div id="seriesnamepicker" style="float: left; width: 60%; text-align: right; padding-right: 3px; font-size:90%;">
+</div>
+<br clear="all" />
+</div>
+
+<div class="maindiv">
 <a href="http://petewarden.typepad.com/">By Pete Warden</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://openheatmap.com/">OpenHeatMap</a>
 </div>
