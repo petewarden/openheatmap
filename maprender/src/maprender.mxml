@@ -294,11 +294,20 @@ private function setEventHandler(eventName: String, functionName: String): void
 
 private function setSize(width: Number, height: Number): void
 {
+	this.width = width;
+	this.height = height;
+	
 	_settings.width = width;
 	_settings.height = height;
 	
 	if (_timelineControls !== null)
 		_timelineControls.setWidth(width);
+
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	_mainBitmap = new Bitmap(bitmapData);
+	_mainBitmap.x = 0;
+	_mainBitmap.y = 0;
+
 	
 	_dirty = true;	
 }
@@ -1141,7 +1150,9 @@ private function addTimelineControls(): void
 	_timelineControls.setWidth(_settings.width-250);
 	
 	var verticalCenter: Number = ((_settings.height/2)-40);
-	_timelineControls.setStyle("verticalCenter", verticalCenter);
+//	_timelineControls.setStyle("verticalCenter", verticalCenter);
+	_timelineControls.y = (_settings.height-50);
+
 	_timelineControls.setTimeTextStyle(12, 0x000000);
 	
 	_timelineControls.setOnUserInputCallback(onTimelineUserInput);
