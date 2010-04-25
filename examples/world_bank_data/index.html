@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>OpenGraphMap example - US unemployment by county</title>
+<title>World Bank Data</title>
 <link rel="stylesheet" type="text/css" href="history/history.css" />
 <script src="AC_OETags.js" language="javascript"></script>
 <script src="history/history.js" language="javascript"></script>
@@ -101,14 +101,14 @@ function onMapCreated()
     var map = getOpenGraphMap("maprender");
 
     map.setSize(1000, 500);
-    map.setLatLonViewingArea(80, -180, -80, 180);
+    map.setLatLonViewingArea(90, -180, -70, 180);
     map.setEventHandler('mousemove', 'onMouseMove');
     map.setEventHandler('datachange', 'onDataChange');
     map.setEventHandler('waysload', 'onWaysLoad');
     map.setEventHandler('valuesload', 'onValuesLoad');
     map.setEventHandler('error', 'onError');
-    map.setGradientValueRange(0, 20);
-    map.setTimeRange('1990-01', '2010-02');
+//    map.setGradientValueRange(0, 100);
+//    map.setTimeRange('1990-01', '2010-02');
     
     map.loadWaysFromFile('test_data/world_countries.osm');
     map.loadValuesFromFile('test_data/world_bank_data/'+encodeURIComponent('Mortality rate, under-5 (per 1,000)'));
@@ -199,28 +199,21 @@ function updateInfoDisplay(event)
             var wayTags = way.tags;
             
             var areaName = wayTags.name;
-            var areaType = wayTags.admin_level_name;
-            var stateCode = wayTags.state_code;
-            var stateName = g_fipsToPostal[stateCode];
             
             var description = areaName;
-            description += ' ';
-            description += areaType;
-            description += ', ';
-            description += stateName;
-            
+
             var wayId = way.id;
             var value = map.getValueForWayId(wayId);
             
             if (value!==null)
             {
                 description += ' - ';
-                description += value;
-                description += '%';
+                var valueAsNumber = Number(value);
+                description += valueAsNumber.toFixed(1);
             }
             else
             {
-                description += ' - NA';            
+                description += ' - NA';
             }
             
             wayNames.push(description);
