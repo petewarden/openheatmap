@@ -132,6 +132,8 @@ public var _longitudeColumnIndex: int = -1;
 
 public var _pointsGrid: BucketGrid = null;
 
+public var _credit: Label = null;
+
 public var _settings: Object =
 {
 	width: 800,
@@ -143,7 +145,9 @@ public var _settings: Object =
 	gradient_value_min: 0,
 	gradient_value_max: 0,
 	point_blob_radius: 0.001,
-	point_blob_value: 1.0
+	point_blob_value: 1.0,
+	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap.com</u></a>',
+	credit_color: '0x303030'
 };
 
 public var _lastSetWayIds: Object = {};
@@ -310,6 +314,7 @@ private function setSize(width: Number, height: Number): void
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
 
+	repositionMoveableElements();
 	
 	_dirty = true;	
 }
@@ -1489,7 +1494,24 @@ private function createViewerElements(): void
 	minusImage.x = 6;
 	minusImage.y = 195;
 	minusImage.transform.colorTransform = blackTint;
-	viewer.addChild(minusImage);	
+	viewer.addChild(minusImage);
+	
+	_credit = new Label();
+	_credit.htmlText = _settings.credit_text;
+	_credit.width = 150;
+	_credit.height = 15;
+	_credit.setStyle('text-align', 'right');
+	_credit.setStyle('color', _settings.credit_color);
+	
+    _credit.addEventListener( MouseEvent.CLICK, function(): void {
+    	var url:String = "http://"+_credit.text;
+        var request:URLRequest = new URLRequest(url);
+		navigateToURL(request); 	  	
+ 	});
+	
+	viewer.addChild(_credit);
+	
+	repositionMoveableElements();
 }
 
 private function onZoomThumbDrag( event: SliderEvent ): void
@@ -2032,6 +2054,15 @@ private function setSetting(key: String, value: String): void
 		_settings[key] = value as Number;
 	else
 		_settings[key] = value;
+}
+
+private function repositionMoveableElements(): void
+{
+	if (_credit !== null)
+	{
+		_credit.x = (_settings.width-120);
+		_credit.y = (_settings.height-17);
+	}
 }
 
 ]]>
