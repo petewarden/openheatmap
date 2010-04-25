@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="handrolled">
+  <node id="1" lat="0" lon="0"/>
+  <node id="2" lat="0" lon="10"/>
+  <node id="3" lat="10" lon="10"/>
+  <node id="4" lat="10" lon="0"/>
+  <node id="5" lat="15" lon="15"/>
+  <node id="6" lat="15" lon="25"/>
+  <node id="7" lat="25" lon="25"/>
+  <node id="8" lat="-10" lon="10"/>
+  <node id="9" lat="-10" lon="0"/>
+  <way id="100">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+  </way>
+  <way id="101">
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="1"/>
+  </way>
+  <way id="102">
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+  </way>
+  <way id="103">
+    <nd ref="8"/>
+    <nd ref="2"/>
+  </way>
+  <way id="104">
+    <nd ref="1"/>
+    <nd ref="9"/>
+    <nd ref="8"/>
+  </way>
+</osm>

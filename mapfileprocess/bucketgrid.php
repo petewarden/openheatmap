@@ -30,17 +30,18 @@ class BucketGrid
     
     public function round_coordinate($coordinate)
     {
-        $coordinate_delta = fmod(($coordinate+($this->bucket_size/2)), $this->bucket_size);
-        $rounded_coordinate = $coordinate - $coordinate_delta;
+        $rounded_coordinate = (int)(floor($coordinate/$this->bucket_size));
         
         return $rounded_coordinate;
     }
     
-    public function insert_point($x, $y, $data)
+    public function insert_point($x, $y, $data, $debug=false)
     {
         $x_index = $this->round_coordinate($x);
         $y_index = $this->round_coordinate($y);
         $full_index = $x_index.','.$y_index;
+        
+        if ($debug) error_log("From $x, $y, at index $full_index inserting: ".print_r($data, true));
         
         if (!isset($this->buckets[$full_index]))
             $this->buckets[$full_index] = array();
@@ -52,30 +53,36 @@ class BucketGrid
         );
     }
 
-    public function find_points_near($x, $y, $radius)
+    public function find_points_near($x_pos, $y_pos, $radius, $debug=false)
     {
-        $x_left = ($x-$radius);
-        $x_right = ($x+$radius);
-        $y_top = ($y-$radius);
-        $y_bottom = ($y+$radius);
+        $x_left = ($x_pos-$radius)-$this->bucket_size;
+        $x_right = ($x_pos+$radius)+$this->bucket_size;
+        $y_top = ($y_pos-$radius)-$this->bucket_size;
+        $y_bottom = ($y_pos+$radius)+$this->bucket_size;
+
+        if ($debug) error_log("bounding box: ($x_left, $y_top) - ($x_right, $y_bottom)");
         
         $radius_squared = ($radius*$radius);
-        
-        $x_index_left = $this->round_coordinate($x_left);
-        $x_index_right = $this->round_coordinate($x_right);
-        $y_index_top = $this->round_coordinate($y_top);
-        $y_index_bottom = $this->round_coordinate($y_bottom);
 
         $result = array();
 
-        for ($y_index = $y_index_top; $y_index<=$y_index_bottom; $y_index+=1)
+        for ($y = $y_top; $y<=$y_bottom; $y+=$this->bucket_size)
         {        
-            for ($x_index = $x_index_left; $x_index<=$x_index_right; $x_index+=1)
+            $y_index = $this->round_coordinate($y);
+            
+            for ($x = $x_left; $x<=$x_right; $x+=$this->bucket_size)
             {
+                $x_index = $this->round_coordinate($x);
+                
                 $full_index = $x_index.','.$y_index;
         
+                if ($debug) error_log("Looking in $full_index");
+        
                 if (!isset($this->buckets[$full_index]))
+                {
+                    if ($debug) error_log("No bucket found for $full_index");
                     continue;
+                }
                     
                 $bucket = $this->buckets[$full_index];
                 
@@ -84,16 +91,25 @@ class BucketGrid
                     $x_entry = $bucket_entry['x'];
                     $y_entry = $bucket_entry['y'];
                     
-                    $x_delta = ($x-$x_entry);
-                    $y_delta = ($y-$y_entry);
+                    $x_delta = ($x_pos-$x_entry);
+                    $y_delta = ($y_pos-$y_entry);
                     
                     $x_delta_squared = ($x_delta*$x_delta);
                     $y_delta_squared = ($y_delta*$y_delta);
                     
+                    if ($debug) error_log("entry: $x_entry, $y_entry - delta: $x_delta, $y_delta - delta squared: $x_delta_squared, $y_delta_squared");
+                    
                     $distance_squared = ($x_delta_squared+$y_delta_squared);
                 
                     if ($distance_squared<=$radius_squared)
+                    {
+                        if ($debug) error_log("At $distance_squared found entry: ".print_r($bucket_entry, true));
                         $result[] = $bucket_entry;
+                    }
+                    else
+                    {
+                        if ($debug) error_log("At $distance_squared entry was too far: ".print_r($bucket_entry, true));                    
+                    }
                 }
                 
             }

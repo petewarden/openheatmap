@@ -1,0 +1,26 @@
+# This is a comma-delimited format.
+#
+# Field:  Description:
+#      1  The shapefile type to match (outer, inner, line, point) (see below)
+#      2  The source attribute name to match
+#      3  The source attribute value to match. Can be empty to match all values.
+#      4  The name of the tag to apply when the source key/value pair match.
+#      5  The value of the tag to apply. Use a sinlgle dash ("-") to use the original value.
+#
+# The shape file types are:
+#  outer  = The outer polygon of a MultiPolygon
+#  inner  = The inner polygon of a MultiPolygon
+#  line   = A line string of a MultiLineString
+#  point  = A point of a PointString
+#
+#outer,FTYPE,StreamRiver,natural,river
+#outer,GNIS_Name,,name,-
+#line,GNIS_Name,,name,-
+#line,FTYPE,CanalDitch,waterway,ditch
+#line,FTYPE,StreamRiver,waterway,stream
+outer,CEM_NAME,,name,-
+outer,Location,,location,-
+outer,,,landuse,cemetery
+outer,NAME,,name,-
+outer,GMI_CNTRY,,gmi_country,-
+outer,REGION,,region,-

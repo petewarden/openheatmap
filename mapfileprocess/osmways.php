@@ -129,14 +129,15 @@ class OSMWays
         $this->tag_map[$key][$value][] = $this->current_way;
     }
     
-    public function add_vertex($lat, $lon)
+    public function add_vertex($lat, $lon, $debug=false)
     {
         $this->check_is_inside_way();
 
         $duplicate_list = $this->bucket_grid->find_points_near(
             $lat, 
             $lon, 
-            $this->duplicate_epsilon
+            $this->duplicate_epsilon,
+            $debug
         );
         
         $node_id = null;
@@ -144,6 +145,11 @@ class OSMWays
         {
             $duplicate_entry = $duplicate_list[0];
             $node_id = $duplicate_entry['data']['id'];
+            if ($debug) error_log("Found duplicate with id $node_id");
+        }
+        else
+        {
+            if ($debug) error_log("No duplicate found");        
         }
         
         if (!isset($node_id))
