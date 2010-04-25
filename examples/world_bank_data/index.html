@@ -329,6 +329,7 @@ function selectSeries(selectedSeriesName)
                     map.loadValuesFromFile('test_data/world_bank_data/'+
                         encodeURIComponent(g_selectedSeriesName));
                         
+                    map.setSetting('title_text', g_selectedSeriesName);
                 }
             }
         }

@@ -34,6 +34,7 @@ import mx.controls.sliderClasses.Slider;
 import mx.controls.VSlider;
 import mx.core.BitmapAsset;
 import mx.events.SliderEvent;
+import flash.text.TextField;
 
 import TimelineControls;
 import BucketGrid;
@@ -132,8 +133,6 @@ public var _longitudeColumnIndex: int = -1;
 
 public var _pointsGrid: BucketGrid = null;
 
-public var _credit: Label = null;
-
 public var _settings: Object =
 {
 	width: 800,
@@ -147,10 +146,18 @@ public var _settings: Object =
 	point_blob_radius: 0.001,
 	point_blob_value: 1.0,
 	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap.com</u></a>',
-	credit_color: '0x303030'
+	credit_color: '0x303030',
+	title_text: '',
+	title_size: 15,
+	title_color: '0x000000',
+	title_background_color: '0xd0e0ff',
+	title_background_alpha: 1.0
 };
 
 public var _lastSetWayIds: Object = {};
+
+public var _credit: Label = null;
+public var _title: TextField = null;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -1510,7 +1517,24 @@ private function createViewerElements(): void
  	});
 	
 	viewer.addChild(_credit);
+
+	_title = new TextField();
+	_title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
+	_title.width = _settings.width;
+	_title.height = (_settings.title_size*1.5);
+	_title.textColor = _settings.title_color;
+	_title.background = true;
+	_title.backgroundColor = _settings.title_background_color;
+//	_title.fontSize = _settings.title_size;
+	_title.y = -1000;
+
+	var titleFormat: TextFormat = _title.defaultTextFormat;
+	titleFormat.size = _settings.title_size;
+	titleFormat.font = 'Verdana';
+	_title.defaultTextFormat = titleFormat;
 	
+	viewer.addChild(_title);
+
 	repositionMoveableElements();
 }
 
@@ -2054,6 +2078,20 @@ private function setSetting(key: String, value: String): void
 		_settings[key] = value as Number;
 	else
 		_settings[key] = value;
+		
+	var changeHandlers: Object =
+	{
+		'title_text': function(): void {
+			_title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
+			if (_settings.title_text!=='')
+				_title.y = 0;
+			else
+				_title.y = -1000;
+		}
+	}
+	
+	if (changeHandlers.hasOwnProperty(key))
+		changeHandlers[key]();
 }
 
 private function repositionMoveableElements(): void
@@ -2062,6 +2100,12 @@ private function repositionMoveableElements(): void
 	{
 		_credit.x = (_settings.width-120);
 		_credit.y = (_settings.height-17);
+	}
+		
+	if (_title !== null)
+	{
+		_title.width = _settings.width;
+		_title.x = 0;
 	}
 }
 
