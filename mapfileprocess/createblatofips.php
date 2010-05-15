@@ -56,7 +56,7 @@ function load_fips_definitions($file_name)
     return $result;
 }
 
-function load_90s_fips_definitions($file_name)
+function load_90s_fips_definitions($file_name, $do_normalize=false)
 {
     $state_postal_codes = array(
         '01' => 'AL',
@@ -153,10 +153,13 @@ function load_90s_fips_definitions($file_name)
         $postal_code = $state_postal_codes[$state_code];
         $description .= ', '.$postal_code;
 
-        $description = strtolower($description);
-        
-        $description = str_replace(' county,', ',', $description);
-        $description = str_replace(' city,', ',', $description);
+        if ($do_normalize)
+        {
+            $description = strtolower($description);
+            
+            $description = str_replace(' county,', ',', $description);
+            $description = str_replace(' city,', ',', $description);
+        }
         
         if (!isset($result[$description]) ||
             ($result[$description]['fips_code']>$fips_code))
@@ -254,6 +257,38 @@ function match_bla_to_fips($input_file_name, $output_file_name, $fips_definition
     fclose($output_file_handle);
 }
 
+function output_fips_translation_table($output_file_name, $fips_definitions)
+{
+    $output_file_handle = fopen($output_file_name, "w") or die("Couldn't open $output_file_name\n");
+
+    foreach ($fips_definitions as $description => $info)
+    {
+        $fips_code = $info['fips_code'];
+        $state_code = substr($fips_code, 0, 2);
+        $county_code = substr($fips_code, 2, 3);
+        
+        fwrite($output_file_handle, "'$description' => array('$state_code', '$county_code'),\n");
+    }
+
+    fclose($output_file_handle);
+}
+
+function output_fips_accepted_values($output_file_name, $fips_definitions)
+{
+    $output_file_handle = fopen($output_file_name, "w") or die("Couldn't open $output_file_name\n");
+
+    foreach ($fips_definitions as $description => $info)
+    {
+        $fips_code = $info['fips_code'];
+
+        $county_code = substr($fips_code, 2, 3);
+        
+        fwrite($output_file_handle, "'$county_code',\n");
+    }
+
+    fclose($output_file_handle);
+}
+
 $cliargs = array(
 	'fipsfile' => array(
 		'short' => 'f',
@@ -262,8 +297,9 @@ $cliargs = array(
 	),
 	'blafile' => array(
 		'short' => 'b',
-		'type' => 'required',
+		'type' => 'optional',
 		'description' => 'The location of the BLA area definitions file',
+        'default' => '',
 	),
 	'outputfile' => array(
 		'short' => 'o',
@@ -271,6 +307,12 @@ $cliargs = array(
 		'description' => 'The file to write the output csv data to - if unset, will write to stdout',
         'default' => 'php://stdout',
 	),
+    'action' => array(
+        'short' => 'a',
+        'type' => 'optional',
+        'description' => 'What operation to perform on the FIPS data, eg match, translate, accept',
+        'default' => 'match',
+    ),
 );	
 
 $options = cliargs_get_options($cliargs);
@@ -278,9 +320,35 @@ $options = cliargs_get_options($cliargs);
 $fips_file = $options['fipsfile'];
 $bla_file = $options['blafile'];
 $output_file = $options['outputfile'];
+$action = $options['action'];
 
-$fips_definitions = load_90s_fips_definitions($fips_file);
+$do_normalize = ($action==='match');
 
-match_bla_to_fips($bla_file, $output_file, $fips_definitions);
+$fips_definitions = load_90s_fips_definitions($fips_file, $do_normalize);
+
+switch ($action)
+{
+    case 'match':
+        if (empty($bla_file))
+        {
+            print "You must specify a BLA file for the match action\n";
+            cliargs_print_help_and_exit($cliargs);        
+        }
+        match_bla_to_fips($bla_file, $output_file, $fips_definitions);
+    break;
+    
+    case 'translate':
+        output_fips_translation_table($output_file, $fips_definitions);
+    break;
+    
+    case 'accept':
+        output_fips_accepted_values($output_file, $fips_definitions);
+    break;
+
+    default:
+        print "Unknown action '$action'\n";
+        cliargs_print_help_and_exit($cliargs);
+    break;
+}
     
 ?>
