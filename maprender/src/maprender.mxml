@@ -169,6 +169,8 @@ private function getURLInput(name: String, defaultValue: String = null): String
 	
 public function startup():void
 {
+	flash.system.Security.allowDomain("*");
+
 	setSize(800, 600);
 
 	createViewerElements();
@@ -681,6 +683,7 @@ private function onWaysLoad(success:Boolean): void
 
 	buildWaysGrid();
 	_dirty = true;
+	_valuesDirty = true;
 	if (_onWaysLoadFunction!==null)
 		ExternalInterface.call(_onWaysLoadFunction, _waysFileName);
 }
