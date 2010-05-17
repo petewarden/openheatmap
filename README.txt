@@ -1,4 +1,4 @@
-OpenGraphMap
+OpenHeatMap
 ~~~~~~~~~~~~
 
 For detailed help and information, go to http://wiki.github.com/petewarden/openheatmap/
