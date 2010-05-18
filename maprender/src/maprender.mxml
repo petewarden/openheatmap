@@ -143,7 +143,7 @@ public var _settings: Object =
 	gradient_value_max: 0,
 	point_blob_radius: 0.001,
 	point_blob_value: 1.0,
-	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap.com</u></a>',
+	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap</u></a>',
 	credit_color: '0x303030',
 	title_text: '',
 	title_size: 15,
@@ -212,6 +212,9 @@ public function startup():void
 	ExternalInterface.addCallback("getValuePointsNearLatLon", getValuePointsNearLatLon);
 	ExternalInterface.addCallback("loadValuesFromCSVString", loadValuesFromCSVString);
 	ExternalInterface.addCallback("setSetting", setSetting);
+	ExternalInterface.addCallback("getLatLonViewingArea", getLatLonViewingArea);
+	ExternalInterface.addCallback("removeAllInlays", removeAllInlays);
+	ExternalInterface.addCallback("removeAllWays", removeAllWays);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -314,8 +317,8 @@ private function setSize(width: Number, height: Number): void
 	_settings.width = width;
 	_settings.height = height;
 	
-	if (_timelineControls !== null)
-		_timelineControls.setWidth(width);
+//	if (_timelineControls !== null)
+//		_timelineControls.setWidth(width);
 
 	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
 	_mainBitmap = new Bitmap(bitmapData);
@@ -2112,6 +2115,49 @@ private function repositionMoveableElements(): void
 		_title.width = _settings.width;
 		_title.x = 0;
 	}
+
+	if (_timelineControls !== null)
+	{
+		var verticalCenter: Number = ((_settings.height/2)-40);
+		_timelineControls.y = (_settings.height-50);
+	}
+
+}
+
+private function getLatLonViewingArea(): Object
+{
+	var topLeftScreen: Point = new Point(0, 0);
+	var bottomRightScreen: Point = new Point(_settings.width, _settings.height);
+		
+	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, _xYToLatLonMatrix);
+	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, _xYToLatLonMatrix);
+
+	var result: Object = {
+		topLat: topLeftLatLon.lat,
+		leftLon: topLeftLatLon.lon,
+		bottomLat: bottomRightLatLon.lat,
+		rightLon: bottomRightLatLon.lon
+	};
+	
+	return result;
+}
+
+private function removeAllInlays(): void
+{
+	_inlays	= [];
+	
+	_dirty = true;
+}
+
+private function removeAllWays(): void
+{
+	_ways = {};
+	_nodes = {};
+
+  	_tagMap = {};
+	_lastSetWayIds = {};
+	
+	_dirty = true;
 }
 
 ]]>
