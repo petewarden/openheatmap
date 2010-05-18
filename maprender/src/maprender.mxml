@@ -121,8 +121,6 @@ public var PlusImage:Class;
 public var MinusImage:Class;
 
 public var _foundTimes: Object = {};
-public var _timeRangeStart: String = null;
-public var _timeRangeEnd: String = null;
 
 public var _hasBitmapBackground: Boolean = false;
 public var _bitmapBackgroundResolution: int = 2;
@@ -151,7 +149,9 @@ public var _settings: Object =
 	title_size: 15,
 	title_color: '0x000000',
 	title_background_color: '0xd0e0ff',
-	title_background_alpha: 1.0
+	title_background_alpha: 1.0,
+	time_range_start: null,
+	time_range_end: null
 };
 
 public var _lastSetWayIds: Object = {};
@@ -208,7 +208,6 @@ public function startup():void
 	ExternalInterface.addCallback("getPixelsPerDegreeLatitude", getPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setPixelsPerDegreeLatitude", setPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
-	ExternalInterface.addCallback("setTimeRange", setTimeRange);
 	ExternalInterface.addCallback("getWayForWayId", getWayForWayId);
 	ExternalInterface.addCallback("getValuePointsNearLatLon", getValuePointsNearLatLon);
 	ExternalInterface.addCallback("loadValuesFromCSVString", loadValuesFromCSVString);
@@ -1618,23 +1617,15 @@ private function calculateFrameTimes(): void
 	
 	for (var thisTime: String in _foundTimes)
 	{
-		if ((_timeRangeStart!==null)&&(thisTime<_timeRangeStart))
+		if ((_settings.time_range_start!==null)&&(thisTime<_settings.time_range_start))
 			continue;
 
-		if ((_timeRangeEnd!==null)&&(thisTime>_timeRangeEnd))
+		if ((_settings.time_range_end!==null)&&(thisTime>_settings.time_range_end))
 			continue;
 		
 		_frameTimes.push(thisTime);
 	}
 	_frameTimes.sort();
-}
-
-private function setTimeRange(timeStart: String, timeEnd: String): void
-{
-	_timeRangeStart = timeStart
-	_timeRangeEnd = timeEnd;
-	
-	calculateFrameTimes();
 }
 
 private function onDataChange(): void
@@ -2090,6 +2081,12 @@ private function setSetting(key: String, value: String): void
 				_title.y = 0;
 			else
 				_title.y = -1000;
+		},
+		'time_range_start': function(): void {
+			calculateFrameTimes();
+		},
+		'time_range_end': function(): void {
+			calculateFrameTimes();
 		}
 	}
 	
