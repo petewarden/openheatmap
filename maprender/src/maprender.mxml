@@ -1004,6 +1004,8 @@ private function setColorGradient(colorList: Array) : void
 	
 	for each (var colorString: String in colorList)
 	{
+		colorString = colorString.replace('#', '0x');
+		
 		var colorNumber: Number = (Number)(colorString);
 		var red: Number = (colorNumber&0xff0000)>>16;
 		var green: Number = (colorNumber&0x00ff00)>>8;
@@ -1014,7 +1016,10 @@ private function setColorGradient(colorList: Array) : void
 			green: green,
 			blue: blue
 		});
-	}	
+	}
+
+	_valuesDirty = true;
+	_redrawCountdown = 5;
 }
 
 private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String, setWays: Object) : void
