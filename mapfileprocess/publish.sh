@@ -14,7 +14,7 @@ echo "**Uploading files**"
 rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.php ${SERVER_FULL}
 rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.html ${SERVER_FULL}
 
-s3cmd -P -f put maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf
+s3cmd -P -f put ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf
 s3cmd -P -f -r put ${STATIC_PATH}scripts ${S3_BUCKET}
 s3cmd -P -f -r put ${STATIC_PATH}css ${S3_BUCKET}
 s3cmd -P -f -r put ${STATIC_PATH}images ${S3_BUCKET}

@@ -1225,11 +1225,14 @@ private function onTimelineUserInput(dragging: Boolean): void
 
 private function updateTimelineDisplay(): void
 {
-	var currentTime: String = _frameTimes[_frameIndex];
-	_timelineControls.timeText = currentTime;
-	
-	var totalFrames: int = _frameTimes.length;
-	_timelineControls.sliderValue = (_frameIndex/totalFrames);
+	if (_frameTimes.length>0)
+	{
+		var currentTime: String = _frameTimes[_frameIndex];
+		_timelineControls.timeText = currentTime;
+		
+		var totalFrames: int = _frameTimes.length;
+		_timelineControls.sliderValue = (_frameIndex/totalFrames);
+	}
 }
 
 private function getValueForWayId(wayId: String): String
@@ -1634,6 +1637,9 @@ private function calculateFrameTimes(): void
 		_frameTimes.push(thisTime);
 	}
 	_frameTimes.sort();
+	
+	if (_frameIndex>(_frameTimes.length-1))
+		_frameIndex = (_frameTimes.length-1);
 }
 
 private function onDataChange(): void
@@ -2092,9 +2098,11 @@ private function setSetting(key: String, value: String): void
 		},
 		'time_range_start': function(): void {
 			calculateFrameTimes();
+			updateTimelineDisplay();
 		},
 		'time_range_end': function(): void {
 			calculateFrameTimes();
+			updateTimelineDisplay();
 		}
 	}
 	
