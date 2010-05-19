@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
+		59820B7811A44A9F0047D5FC /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = mapfileprocess/cliargs.php; sourceTree = "<group>"; };
+		59820B7911A44A9F0047D5FC /* convertasciitoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertasciitoosm.php; path = mapfileprocess/convertasciitoosm.php; sourceTree = "<group>"; };
+		59820B7A11A44A9F0047D5FC /* createblatofips.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createblatofips.php; path = mapfileprocess/createblatofips.php; sourceTree = "<group>"; };
+		59820B7B11A44A9F0047D5FC /* csvtojson.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = csvtojson.php; path = mapfileprocess/csvtojson.php; sourceTree = "<group>"; };
+		59820B7C11A44A9F0047D5FC /* forceclosedways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = forceclosedways.php; path = mapfileprocess/forceclosedways.php; sourceTree = "<group>"; };
+		59820B7D11A44A9F0047D5FC /* mergeosmfiles.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = mergeosmfiles.php; path = mapfileprocess/mergeosmfiles.php; sourceTree = "<group>"; };
+		59820B7E11A44A9F0047D5FC /* osmways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = osmways.php; path = mapfileprocess/osmways.php; sourceTree = "<group>"; };
+		59820B7F11A44A9F0047D5FC /* placeiqtocsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = placeiqtocsv.php; path = mapfileprocess/placeiqtocsv.php; sourceTree = "<group>"; };
+		59820B8011A44A9F0047D5FC /* polyshp2osm.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = polyshp2osm.py; path = mapfileprocess/polyshp2osm.py; sourceTree = "<group>"; };
+		59820B8111A44A9F0047D5FC /* publish.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = publish.sh; path = mapfileprocess/publish.sh; sourceTree = "<group>"; };
+		59820B8211A44A9F0047D5FC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = mapfileprocess/README; sourceTree = "<group>"; };
+		59820B8311A44A9F0047D5FC /* reducelod.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = reducelod.php; path = mapfileprocess/reducelod.php; sourceTree = "<group>"; };
+		59820B8411A44A9F0047D5FC /* rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rules.txt; path = mapfileprocess/rules.txt; sourceTree = "<group>"; };
+		59820B8511A44A9F0047D5FC /* selectways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = selectways.php; path = mapfileprocess/selectways.php; sourceTree = "<group>"; };
+		59820B8611A44A9F0047D5FC /* unemploymenttocsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = unemploymenttocsv.php; path = mapfileprocess/unemploymenttocsv.php; sourceTree = "<group>"; };
+		59820B8711A44A9F0047D5FC /* worldbanksplitter.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = worldbanksplitter.php; path = mapfileprocess/worldbanksplitter.php; sourceTree = "<group>"; };
+		59820B8911A44AC60047D5FC /* BucketGrid.as */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BucketGrid.as; path = maprender/src/BucketGrid.as; sourceTree = "<group>"; };
+		59820B8A11A44AC60047D5FC /* maprender.mxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = maprender.mxml; path = maprender/src/maprender.mxml; sourceTree = "<group>"; };
+		59820B8B11A44AC60047D5FC /* TimelineControls.as */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TimelineControls.as; path = maprender/src/TimelineControls.as; sourceTree = "<group>"; };
+		59820B9311A44B890047D5FC /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = config.php; path = website/config.php; sourceTree = "<group>"; };
+		59820B9411A44B890047D5FC /* geometryindex.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geometryindex.php; path = website/geometryindex.php; sourceTree = "<group>"; };
+		59820B9511A44B890047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/index.html; sourceTree = "<group>"; };
+		59820B9611A44B890047D5FC /* locationheaders.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationheaders.php; path = website/locationheaders.php; sourceTree = "<group>"; };
+		59820B9711A44B890047D5FC /* locationhelp.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationhelp.php; path = website/locationhelp.php; sourceTree = "<group>"; };
+		59820B9811A44B890047D5FC /* locationtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationtables.php; path = website/locationtables.php; sourceTree = "<group>"; };
+		59820B9911A44B890047D5FC /* locationvalueshelp.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationvalueshelp.php; path = website/locationvalueshelp.php; sourceTree = "<group>"; };
+		59820B9A11A44B890047D5FC /* mapsettings.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = mapsettings.php; path = website/mapsettings.php; sourceTree = "<group>"; };
+		59820B9B11A44B890047D5FC /* S3.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = S3.php; path = website/S3.php; sourceTree = "<group>"; };
+		59820B9C11A44B890047D5FC /* savesettings.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = savesettings.php; path = website/savesettings.php; sourceTree = "<group>"; };
+		59820B9D11A44B890047D5FC /* settingshelp.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = settingshelp.php; path = website/settingshelp.php; sourceTree = "<group>"; };
+		59820B9E11A44B890047D5FC /* step1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step1.html; path = website/step1.html; sourceTree = "<group>"; };
+		59820B9F11A44B890047D5FC /* step2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step2.html; path = website/step2.html; sourceTree = "<group>"; };
+		59820BA111A44B890047D5FC /* uploadcsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = uploadcsv.php; path = website/uploadcsv.php; sourceTree = "<group>"; };
+		59820BA211A44B890047D5FC /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = utils.php; path = website/utils.php; sourceTree = "<group>"; };
+		59820BA311A44B890047D5FC /* view.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = view.html; path = website/view.html; sourceTree = "<group>"; };
+		59820BA411A44BB90047D5FC /* colorpicker.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = colorpicker.css; path = website/css/colorpicker.css; sourceTree = "<group>"; };
+		59820BA511A44BB90047D5FC /* mainstyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mainstyle.css; path = website/css/mainstyle.css; sourceTree = "<group>"; };
+		59820BA611A44BD20047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
+		59820BA711A44BDC0047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/us_unemployment_county/index.html; sourceTree = "<group>"; };
+		59820BA811A44BF30047D5FC /* accesslogtocsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = accesslogtocsv.php; path = website/examples/visitor_log_heatmap/accesslogtocsv.php; sourceTree = "<group>"; };
+		59820BA911A44BF30047D5FC /* ajaxupload.3.6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ajaxupload.3.6.js; path = website/examples/visitor_log_heatmap/ajaxupload.3.6.js; sourceTree = "<group>"; };
+		59820BAA11A44BF30047D5FC /* GeoIP.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = GeoIP.php; path = website/examples/visitor_log_heatmap/GeoIP.php; sourceTree = "<group>"; };
+		59820BAB11A44BF30047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/visitor_log_heatmap/index.html; sourceTree = "<group>"; };
+		59820BAC11A44BF30047D5FC /* Location.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = Location.php; path = website/examples/visitor_log_heatmap/Location.php; sourceTree = "<group>"; };
+		59820BAD11A44C050047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/world_bank_data/index.html; sourceTree = "<group>"; };
+		59820BAE11A44C050047D5FC /* series_index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = series_index.js; path = website/examples/world_bank_data/series_index.js; sourceTree = "<group>"; };
+		59820BAF11A44E5C0047D5FC /* edit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = edit.html; path = website/edit.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		594A3A8811A41DCB00E2F4CE = {
+			isa = PBXGroup;
+			children = (
+				59820B7311A44A450047D5FC /* mapfileprocess */,
+				59820B7411A44A510047D5FC /* maprender */,
+				59820B7611A44A6B0047D5FC /* website */,
+			);
+			sourceTree = "<group>";
+		};
+		59820B7311A44A450047D5FC /* mapfileprocess */ = {
+			isa = PBXGroup;
+			children = (
+				59820B7711A44A9F0047D5FC /* bucketgrid.php */,
+				59820B7811A44A9F0047D5FC /* cliargs.php */,
+				59820B7911A44A9F0047D5FC /* convertasciitoosm.php */,
+				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
+				59820B7B11A44A9F0047D5FC /* csvtojson.php */,
+				59820B7C11A44A9F0047D5FC /* forceclosedways.php */,
+				59820B7D11A44A9F0047D5FC /* mergeosmfiles.php */,
+				59820B7E11A44A9F0047D5FC /* osmways.php */,
+				59820B7F11A44A9F0047D5FC /* placeiqtocsv.php */,
+				59820B8011A44A9F0047D5FC /* polyshp2osm.py */,
+				59820B8111A44A9F0047D5FC /* publish.sh */,
+				59820B8211A44A9F0047D5FC /* README */,
+				59820B8311A44A9F0047D5FC /* reducelod.php */,
+				59820B8411A44A9F0047D5FC /* rules.txt */,
+				59820B8511A44A9F0047D5FC /* selectways.php */,
+				59820B8611A44A9F0047D5FC /* unemploymenttocsv.php */,
+				59820B8711A44A9F0047D5FC /* worldbanksplitter.php */,
+			);
+			name = mapfileprocess;
+			sourceTree = "<group>";
+		};
+		59820B7411A44A510047D5FC /* maprender */ = {
+			isa = PBXGroup;
+			children = (
+				59820B8811A44AB80047D5FC /* src */,
+			);
+			name = maprender;
+			sourceTree = "<group>";
+		};
+		59820B7611A44A6B0047D5FC /* website */ = {
+			isa = PBXGroup;
+			children = (
+				59820B9311A44B890047D5FC /* config.php */,
+				59820B8E11A44B150047D5FC /* css */,
+				59820BAF11A44E5C0047D5FC /* edit.html */,
+				59820B8D11A44B0C0047D5FC /* examples */,
+				59820B9411A44B890047D5FC /* geometryindex.php */,
+				59820B9511A44B890047D5FC /* index.html */,
+				59820B9611A44B890047D5FC /* locationheaders.php */,
+				59820B9711A44B890047D5FC /* locationhelp.php */,
+				59820B9811A44B890047D5FC /* locationtables.php */,
+				59820B9911A44B890047D5FC /* locationvalueshelp.php */,
+				59820B9A11A44B890047D5FC /* mapsettings.php */,
+				59820B9B11A44B890047D5FC /* S3.php */,
+				59820B9C11A44B890047D5FC /* savesettings.php */,
+				59820B8C11A44B040047D5FC /* scripts */,
+				59820B9D11A44B890047D5FC /* settingshelp.php */,
+				59820B9E11A44B890047D5FC /* step1.html */,
+				59820B9F11A44B890047D5FC /* step2.html */,
+				59820BA111A44B890047D5FC /* uploadcsv.php */,
+				59820BA211A44B890047D5FC /* utils.php */,
+				59820BA311A44B890047D5FC /* view.html */,
+			);
+			name = website;
+			sourceTree = "<group>";
+		};
+		59820B8811A44AB80047D5FC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				59820B8911A44AC60047D5FC /* BucketGrid.as */,
+				59820B8A11A44AC60047D5FC /* maprender.mxml */,
+				59820B8B11A44AC60047D5FC /* TimelineControls.as */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		59820B8C11A44B040047D5FC /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		59820B8D11A44B0C0047D5FC /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				59820B9211A44B540047D5FC /* map_data_viewer */,
+				59820B9111A44B450047D5FC /* us_unemployment_county */,
+				59820B9011A44B360047D5FC /* visitor_log_heatmap */,
+				59820B8F11A44B290047D5FC /* world_bank_data */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		59820B8E11A44B150047D5FC /* css */ = {
+			isa = PBXGroup;
+			children = (
+				59820BA411A44BB90047D5FC /* colorpicker.css */,
+				59820BA511A44BB90047D5FC /* mainstyle.css */,
+			);
+			name = css;
+			sourceTree = "<group>";
+		};
+		59820B8F11A44B290047D5FC /* world_bank_data */ = {
+			isa = PBXGroup;
+			children = (
+				59820BAD11A44C050047D5FC /* index.html */,
+				59820BAE11A44C050047D5FC /* series_index.js */,
+			);
+			name = world_bank_data;
+			sourceTree = "<group>";
+		};
+		59820B9011A44B360047D5FC /* visitor_log_heatmap */ = {
+			isa = PBXGroup;
+			children = (
+				59820BA811A44BF30047D5FC /* accesslogtocsv.php */,
+				59820BA911A44BF30047D5FC /* ajaxupload.3.6.js */,
+				59820BAA11A44BF30047D5FC /* GeoIP.php */,
+				59820BAB11A44BF30047D5FC /* index.html */,
+				59820BAC11A44BF30047D5FC /* Location.php */,
+			);
+			name = visitor_log_heatmap;
+			sourceTree = "<group>";
+		};
+		59820B9111A44B450047D5FC /* us_unemployment_county */ = {
+			isa = PBXGroup;
+			children = (
+				59820BA711A44BDC0047D5FC /* index.html */,
+			);
+			name = us_unemployment_county;
+			sourceTree = "<group>";
+		};
+		59820B9211A44B540047D5FC /* map_data_viewer */ = {
+			isa = PBXGroup;
+			children = (
+				59820BA611A44BD20047D5FC /* index.html */,
+			);
+			name = map_data_viewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		594A3A8A11A41DCB00E2F4CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 594A3A8D11A41DCB00E2F4CE /* Build configuration list for PBXProject "openheatmap" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 594A3A8811A41DCB00E2F4CE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		594A3A8B11A41DCB00E2F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		594A3A8C11A41DCB00E2F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594A3A8D11A41DCB00E2F4CE /* Build configuration list for PBXProject "openheatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594A3A8B11A41DCB00E2F4CE /* Debug */,
+				594A3A8C11A41DCB00E2F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594A3A8A11A41DCB00E2F4CE /* Project object */;
+}
