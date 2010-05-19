@@ -4,16 +4,18 @@ SSH_KEY=/Users/petewarden/.ec2/id_rsa-pstam-keypair
 SERVER_HOST=root@openheatmap.com
 
 LOCAL_PATH=/Users/petewarden/Projects/openheatmap/website/
+STATIC_PATH=${LOCAL_PATH}../static/
 SERVER_PATH=/vol/www/openheatmap/
 SERVER_FULL=${SERVER_HOST}:${SERVER_PATH}
+S3_BUCKET=s3://static.openheatmap.com/
 
 echo "**Uploading files**"
 
 rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.php ${SERVER_FULL}
 rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.html ${SERVER_FULL}
-rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}scripts/*.js ${SERVER_FULL}scripts/
-rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}css/*.css ${SERVER_FULL}css/
-rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}images/* ${SERVER_FULL}images/
-rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}images/colorpicker/* ${SERVER_FULL}images/colorpicker/
 
-s3cmd -P -f put maprender/bin-debug/maprender.swf s3://static.openheatmap.com/openheatmap.swf
+s3cmd -P -f put maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf
+s3cmd -P -f -r put ${STATIC_PATH}scripts ${S3_BUCKET}
+s3cmd -P -f -r put ${STATIC_PATH}css ${S3_BUCKET}
+s3cmd -P -f -r put ${STATIC_PATH}images ${S3_BUCKET}
+

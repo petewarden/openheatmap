@@ -2,3 +2,5 @@ maprender/bin-debug
 mapfileprocess/test_data/placeiq
 website/examples/placeiq_demo
 website/config.php
+*.mode1v3
+*.pbxuser

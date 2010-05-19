@@ -38,13 +38,9 @@
 		59820B9B11A44B890047D5FC /* S3.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = S3.php; path = website/S3.php; sourceTree = "<group>"; };
 		59820B9C11A44B890047D5FC /* savesettings.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = savesettings.php; path = website/savesettings.php; sourceTree = "<group>"; };
 		59820B9D11A44B890047D5FC /* settingshelp.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = settingshelp.php; path = website/settingshelp.php; sourceTree = "<group>"; };
-		59820B9E11A44B890047D5FC /* step1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step1.html; path = website/step1.html; sourceTree = "<group>"; };
-		59820B9F11A44B890047D5FC /* step2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = step2.html; path = website/step2.html; sourceTree = "<group>"; };
 		59820BA111A44B890047D5FC /* uploadcsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = uploadcsv.php; path = website/uploadcsv.php; sourceTree = "<group>"; };
 		59820BA211A44B890047D5FC /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = utils.php; path = website/utils.php; sourceTree = "<group>"; };
 		59820BA311A44B890047D5FC /* view.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = view.html; path = website/view.html; sourceTree = "<group>"; };
-		59820BA411A44BB90047D5FC /* colorpicker.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = colorpicker.css; path = website/css/colorpicker.css; sourceTree = "<group>"; };
-		59820BA511A44BB90047D5FC /* mainstyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mainstyle.css; path = website/css/mainstyle.css; sourceTree = "<group>"; };
 		59820BA611A44BD20047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
 		59820BA711A44BDC0047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/us_unemployment_county/index.html; sourceTree = "<group>"; };
 		59820BA811A44BF30047D5FC /* accesslogtocsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = accesslogtocsv.php; path = website/examples/visitor_log_heatmap/accesslogtocsv.php; sourceTree = "<group>"; };
@@ -55,6 +51,19 @@
 		59820BAD11A44C050047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/world_bank_data/index.html; sourceTree = "<group>"; };
 		59820BAE11A44C050047D5FC /* series_index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = series_index.js; path = website/examples/world_bank_data/series_index.js; sourceTree = "<group>"; };
 		59820BAF11A44E5C0047D5FC /* edit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = edit.html; path = website/edit.html; sourceTree = "<group>"; };
+		59820BB111A458D40047D5FC /* colorpicker.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = colorpicker.css; path = static/css/colorpicker.css; sourceTree = "<group>"; };
+		59820BB211A458D40047D5FC /* mainstyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mainstyle.css; path = static/css/mainstyle.css; sourceTree = "<group>"; };
+		59820BB311A458E10047D5FC /* ajaxupload.3.6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ajaxupload.3.6.js; path = static/scripts/ajaxupload.3.6.js; sourceTree = "<group>"; };
+		59820BB411A458E10047D5FC /* base64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = base64.js; path = static/scripts/base64.js; sourceTree = "<group>"; };
+		59820BB511A458E10047D5FC /* colorpicker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = colorpicker.js; path = static/scripts/colorpicker.js; sourceTree = "<group>"; };
+		59820BB611A458E10047D5FC /* cookie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = cookie.js; path = static/scripts/cookie.js; sourceTree = "<group>"; };
+		59820BB711A458E10047D5FC /* flash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = flash.js; path = static/scripts/flash.js; sourceTree = "<group>"; };
+		59820BB811A458E10047D5FC /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = json.js; path = static/scripts/json.js; sourceTree = "<group>"; };
+		59820BB911A458E10047D5FC /* openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = openheatmap.js; path = static/scripts/openheatmap.js; sourceTree = "<group>"; };
+		59820BBA11A458E10047D5FC /* urlparam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = urlparam.js; path = static/scripts/urlparam.js; sourceTree = "<group>"; };
+		59820BBB11A458E10047D5FC /* watermarkinput.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = watermarkinput.js; path = static/scripts/watermarkinput.js; sourceTree = "<group>"; };
+		59820BBC11A45C020047D5FC /* create.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = create.html; path = website/create.html; sourceTree = "<group>"; };
+		59820BBD11A45C100047D5FC /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = upload.html; path = website/upload.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -63,6 +72,7 @@
 			children = (
 				59820B7311A44A450047D5FC /* mapfileprocess */,
 				59820B7411A44A510047D5FC /* maprender */,
+				59820BB011A458A20047D5FC /* static */,
 				59820B7611A44A6B0047D5FC /* website */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				59820B9311A44B890047D5FC /* config.php */,
-				59820B8E11A44B150047D5FC /* css */,
+				59820BBC11A45C020047D5FC /* create.html */,
 				59820BAF11A44E5C0047D5FC /* edit.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
 				59820B9411A44B890047D5FC /* geometryindex.php */,
@@ -115,10 +125,8 @@
 				59820B9A11A44B890047D5FC /* mapsettings.php */,
 				59820B9B11A44B890047D5FC /* S3.php */,
 				59820B9C11A44B890047D5FC /* savesettings.php */,
-				59820B8C11A44B040047D5FC /* scripts */,
 				59820B9D11A44B890047D5FC /* settingshelp.php */,
-				59820B9E11A44B890047D5FC /* step1.html */,
-				59820B9F11A44B890047D5FC /* step2.html */,
+				59820BBD11A45C100047D5FC /* upload.html */,
 				59820BA111A44B890047D5FC /* uploadcsv.php */,
 				59820BA211A44B890047D5FC /* utils.php */,
 				59820BA311A44B890047D5FC /* view.html */,
@@ -139,6 +147,15 @@
 		59820B8C11A44B040047D5FC /* scripts */ = {
 			isa = PBXGroup;
 			children = (
+				59820BB311A458E10047D5FC /* ajaxupload.3.6.js */,
+				59820BB411A458E10047D5FC /* base64.js */,
+				59820BB511A458E10047D5FC /* colorpicker.js */,
+				59820BB611A458E10047D5FC /* cookie.js */,
+				59820BB711A458E10047D5FC /* flash.js */,
+				59820BB811A458E10047D5FC /* json.js */,
+				59820BB911A458E10047D5FC /* openheatmap.js */,
+				59820BBA11A458E10047D5FC /* urlparam.js */,
+				59820BBB11A458E10047D5FC /* watermarkinput.js */,
 			);
 			name = scripts;
 			sourceTree = "<group>";
@@ -157,8 +174,8 @@
 		59820B8E11A44B150047D5FC /* css */ = {
 			isa = PBXGroup;
 			children = (
-				59820BA411A44BB90047D5FC /* colorpicker.css */,
-				59820BA511A44BB90047D5FC /* mainstyle.css */,
+				59820BB111A458D40047D5FC /* colorpicker.css */,
+				59820BB211A458D40047D5FC /* mainstyle.css */,
 			);
 			name = css;
 			sourceTree = "<group>";
@@ -198,6 +215,15 @@
 				59820BA611A44BD20047D5FC /* index.html */,
 			);
 			name = map_data_viewer;
+			sourceTree = "<group>";
+		};
+		59820BB011A458A20047D5FC /* static */ = {
+			isa = PBXGroup;
+			children = (
+				59820B8E11A44B150047D5FC /* css */,
+				59820B8C11A44B040047D5FC /* scripts */,
+			);
+			name = static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

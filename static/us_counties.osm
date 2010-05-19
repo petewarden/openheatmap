@@ -1,4 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!-- Created from the TIGER data released by the US Census Bureau,
+     this derivative work is licensed under the GPL -->
 <osm version="0.6" generator="mapfileprocess">
   <node id="36259" lat="35.275834" lon="-93.244222"/>
   <node id="264609" lat="43.375628" lon="-78.104509"/>
