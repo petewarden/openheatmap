@@ -28,7 +28,7 @@ class OSMWays
     public $current_id = 1;
     public $current_way = null;
     public $previous_vertex_id = null;
-    public $duplicate_epsilon = 0.000001;
+    public $duplicate_epsilon = 0.0001;
     public $bucket_grid = null;
     public $tag_map = null;
     

@@ -41,7 +41,6 @@
 		59820BA111A44B890047D5FC /* uploadcsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = uploadcsv.php; path = website/uploadcsv.php; sourceTree = "<group>"; };
 		59820BA211A44B890047D5FC /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = utils.php; path = website/utils.php; sourceTree = "<group>"; };
 		59820BA311A44B890047D5FC /* view.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = view.html; path = website/view.html; sourceTree = "<group>"; };
-		59820BA611A44BD20047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
 		59820BA711A44BDC0047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/us_unemployment_county/index.html; sourceTree = "<group>"; };
 		59820BA811A44BF30047D5FC /* accesslogtocsv.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = accesslogtocsv.php; path = website/examples/visitor_log_heatmap/accesslogtocsv.php; sourceTree = "<group>"; };
 		59820BA911A44BF30047D5FC /* ajaxupload.3.6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ajaxupload.3.6.js; path = website/examples/visitor_log_heatmap/ajaxupload.3.6.js; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		59820BBB11A458E10047D5FC /* watermarkinput.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = watermarkinput.js; path = static/scripts/watermarkinput.js; sourceTree = "<group>"; };
 		59820BBC11A45C020047D5FC /* create.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = create.html; path = website/create.html; sourceTree = "<group>"; };
 		59820BBD11A45C100047D5FC /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = upload.html; path = website/upload.html; sourceTree = "<group>"; };
+		59820C5311A5C8D80047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -212,7 +212,7 @@
 		59820B9211A44B540047D5FC /* map_data_viewer */ = {
 			isa = PBXGroup;
 			children = (
-				59820BA611A44BD20047D5FC /* index.html */,
+				59820C5311A5C8D80047D5FC /* index.html */,
 			);
 			name = map_data_viewer;
 			sourceTree = "<group>";

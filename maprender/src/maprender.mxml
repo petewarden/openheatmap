@@ -151,7 +151,8 @@ public var _settings: Object =
 	title_background_color: '0xd0e0ff',
 	title_background_alpha: 1.0,
 	time_range_start: null,
-	time_range_end: null
+	time_range_end: null,
+    force_outlines: false
 };
 
 public var _lastSetWayIds: Object = {};
@@ -656,7 +657,7 @@ private function onWaysLoad(success:Boolean): void
 	  		newWay.boundingBox = enlargeBoxToContain(newWay.boundingBox, nodePos);
 	  	}
 	  	
-	  	newWay.isClosed = (firstNd===lastNd);
+	  	newWay.isClosed = ((firstNd===lastNd)&&(!_settings.force_outlines));
 	  	
 	  	for each (var tag: * in way..tag)
 	  	{
@@ -883,7 +884,7 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 		if (!viewingArea.intersects(way.boundingBox))
 			continue;
 
-		var isClosed: Boolean = way.isClosed;			
+		var isClosed: Boolean = way.isClosed;
 
 		if (isClosed)
 		{		

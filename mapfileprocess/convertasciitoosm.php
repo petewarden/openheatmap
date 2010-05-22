@@ -22,8 +22,32 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 require_once('cliargs.php');
 require_once('osmways.php');
 
-function parse_ascii_description_file($file_name)
+function parse_ascii_description_file($file_name, $is_zip='false')
 {
+    if (!$is_zip)
+    {
+        $field_names = array(
+            'state_code',
+            'county_code',
+            'name',
+            'admin_level',
+            'admin_level_name',
+            '',
+        );
+    }
+    else
+    {
+        $field_names = array(
+            'zip_code',
+            'other_code',
+            'tla',
+            'desc',
+            '',
+        );            
+    }
+
+    $field_length = count($field_names);
+
     $result = array();
 
     $file_handle = fopen($file_name, "r") or die("Couldn't open $file_name\n");
@@ -40,23 +64,14 @@ function parse_ascii_description_file($file_name)
             $result[$current_id] = array();
         }
         else
-        {
-            $field_names = array(
-                'state_code',
-                'county_code',
-                'name',
-                'admin_level',
-                'admin_level_name',
-                '',
-            );
-            
+        {            
             $key = $field_names[$line_index-1];
             if (!empty($key))
                 $result[$current_id][$key] = $current_line;
         }
         
         $line_index += 1;
-        if ($line_index>6)
+        if ($line_index>$field_length)
             $line_index = 0;
     }
     
@@ -93,6 +108,12 @@ function parse_ascii_vertex_file($file_name, $description_data, &$result)
             
             $output_id = $result->begin_way();
         
+            if (!isset($description_data[$source_id]))
+            {  
+                error_log("'$source_id' was not found in $file_name");
+                error_log("Description data: ".print_r($description_data, true));
+                die();
+            }
             $current_description = $description_data[$source_id];
             foreach ($current_description as $key => $value)
             {
@@ -132,7 +153,14 @@ $cliargs = array(
 		'description' => 'The file to write the output OSM XML data to - if unset, will write to stdout',
         'default' => 'php://stdout',
 	),
+    'iszip' => array(
+        'short' => 'z',
+        'type' => 'switch',
+        'description' => 'Whether the input file contains ZIP code data or the usual county information',
+    ),
 );	
+
+ini_set('memory_limit', '-1');
 
 $options = cliargs_get_options($cliargs);
 
