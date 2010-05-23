@@ -34,7 +34,7 @@ class OSMWays
     
     public function __construct($id_start=null)
     {
-        $this->bucket_grid = new BucketGrid(0.0001);
+        $this->bucket_grid = new BucketGrid(0.005);
         $this->tag_map = array();
             
         if (isset($id_start))

@@ -64,6 +64,8 @@
 		59820BBC11A45C020047D5FC /* create.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = create.html; path = website/create.html; sourceTree = "<group>"; };
 		59820BBD11A45C100047D5FC /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = upload.html; path = website/upload.html; sourceTree = "<group>"; };
 		59820C5311A5C8D80047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
+		59820CE511A8789A0047D5FC /* cleanmesh.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cleanmesh.php; path = mapfileprocess/cleanmesh.php; sourceTree = "<group>"; };
+		59820CE611A87B390047D5FC /* geomutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geomutils.php; path = mapfileprocess/geomutils.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -81,11 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				59820B7711A44A9F0047D5FC /* bucketgrid.php */,
+				59820CE511A8789A0047D5FC /* cleanmesh.php */,
 				59820B7811A44A9F0047D5FC /* cliargs.php */,
 				59820B7911A44A9F0047D5FC /* convertasciitoosm.php */,
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				59820B7B11A44A9F0047D5FC /* csvtojson.php */,
 				59820B7C11A44A9F0047D5FC /* forceclosedways.php */,
+				59820CE611A87B390047D5FC /* geomutils.php */,
 				59820B7D11A44A9F0047D5FC /* mergeosmfiles.php */,
 				59820B7E11A44A9F0047D5FC /* osmways.php */,
 				59820B7F11A44A9F0047D5FC /* placeiqtocsv.php */,
