@@ -56,7 +56,6 @@
 		59820BB411A458E10047D5FC /* base64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = base64.js; path = static/scripts/base64.js; sourceTree = "<group>"; };
 		59820BB511A458E10047D5FC /* colorpicker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = colorpicker.js; path = static/scripts/colorpicker.js; sourceTree = "<group>"; };
 		59820BB611A458E10047D5FC /* cookie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = cookie.js; path = static/scripts/cookie.js; sourceTree = "<group>"; };
-		59820BB711A458E10047D5FC /* flash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = flash.js; path = static/scripts/flash.js; sourceTree = "<group>"; };
 		59820BB811A458E10047D5FC /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = json.js; path = static/scripts/json.js; sourceTree = "<group>"; };
 		59820BB911A458E10047D5FC /* openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = openheatmap.js; path = static/scripts/openheatmap.js; sourceTree = "<group>"; };
 		59820BBA11A458E10047D5FC /* urlparam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = urlparam.js; path = static/scripts/urlparam.js; sourceTree = "<group>"; };
@@ -155,7 +154,6 @@
 				59820BB411A458E10047D5FC /* base64.js */,
 				59820BB511A458E10047D5FC /* colorpicker.js */,
 				59820BB611A458E10047D5FC /* cookie.js */,
-				59820BB711A458E10047D5FC /* flash.js */,
 				59820BB811A458E10047D5FC /* json.js */,
 				59820BB911A458E10047D5FC /* openheatmap.js */,
 				59820BBA11A458E10047D5FC /* urlparam.js */,

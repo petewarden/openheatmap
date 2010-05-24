@@ -205,7 +205,6 @@ public function startup():void
 	ExternalInterface.addCallback("getValueForWayId", getValueForWayId);
 	ExternalInterface.addCallback("addInlay", addInlay);
 	ExternalInterface.addCallback("translateMapByScreenPixels", translateMapByScreenPixels);
-	ExternalInterface.addCallback("zoomMapByFactorAroundPoint", zoomMapByFactorAroundPoint);
 	ExternalInterface.addCallback("getPixelsPerDegreeLatitude", getPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setPixelsPerDegreeLatitude", setPixelsPerDegreeLatitude);
 	ExternalInterface.addCallback("setGradientValueRange", setGradientValueRange);
