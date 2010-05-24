@@ -4,3 +4,4 @@ website/examples/placeiq_demo
 website/config.php
 *.mode1v3
 *.pbxuser
+mapfileprocess/test_data/zipcode_clean.osm

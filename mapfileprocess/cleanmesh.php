@@ -61,6 +61,8 @@ function merge_nodes_on_edges($input_osm_ways, $verbose, $tolerance, $debug)
             $result->add_tag($key, $value);
         }
 
+        $nds_map = array_count_values($nds);
+
         $node_index = 0;
         foreach ($nds as $nd_ref)
         {
@@ -109,8 +111,7 @@ function merge_nodes_on_edges($input_osm_ways, $verbose, $tolerance, $debug)
                     continue;
                     
                 $point_nd_ref = $point['data']['id'];
-                if (($point_nd_ref===$nd_ref)||
-                    ($point_nd_ref===$end_nd_ref))
+                if (isset($nds_map[$point_nd_ref]))
                     continue;
                 
                 if ($debug)
@@ -162,7 +163,7 @@ $cliargs = array(
         'short' => 't',
         'type' => 'optional',
         'description' => 'How much of a gap to allow between two nodes before they\'re considered to be separate',
-        'default' => 0.001,
+        'default' => 0.00001,
     ),
 );	
 

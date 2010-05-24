@@ -162,7 +162,7 @@ function sort_nodes_by_area(&$nodes, &$ways)
     uasort($nodes, $sortfunction);
 }
 
-function reduce_lod(&$osm_ways, $vertex_target, $area_target)
+function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
 {
     $nodes = &$osm_ways->nodes;
     $ways = &$osm_ways->ways;
@@ -248,8 +248,8 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target)
                         $previous_ref = $nds[$previous_index];
                         $next_ref = $nds[$next_index];
                     
-                        $nodes[$previous_ref]['area_error'] += ($area/4);
-                        $nodes[$next_ref]['area_error'] += ($area/4);
+                        $nodes[$previous_ref]['area_error'] += ($area*$area_transfer);
+                        $nodes[$next_ref]['area_error'] += ($area*$area_transfer);
                     }
                 }
 
@@ -320,6 +320,12 @@ $cliargs = array(
 		'type' => 'switch',
 		'description' => 'If set, any open ways will be manually closed',
 	),
+	'areatransfer' => array(
+		'short' => 't',
+		'type' => 'optional',
+		'description' => 'How much of a bias to use towards detailed areas',
+        'default' => '0.25',
+	),
 );	
 
 $options = cliargs_get_options($cliargs);
@@ -329,6 +335,7 @@ $area_target = $options['areatarget'];
 $input_file = $options['inputfile'];
 $output_file = $options['outputfile'];
 $force_closed = $options['forceclosed'];
+$area_transfer = $options['areatransfer'];
 
 if (($vertex_target===0)&&($area_target===0))
 {
@@ -340,7 +347,7 @@ $osm_ways = new OSMWays();
 $input_contents = file_get_contents($input_file) or die("Couldn't read file '$input_file'");
 $osm_ways->deserialize_from_xml($input_contents);
 
-reduce_lod($osm_ways, $vertex_target, $area_target);
+reduce_lod($osm_ways, $vertex_target, $area_target, $area_transfer);
 reclose_ways($osm_ways, $force_closed);
 
 $output_contents = $osm_ways->serialize_to_xml();
