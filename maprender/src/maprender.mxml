@@ -1784,8 +1784,8 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	}
 	else
 	{
-		minValue = _smallestValue;
-		maxValue = _largestValue;
+		minValue = 0;
+		maxValue = 1.0;
 	}
 	var valueScale: Number = (1/(maxValue-minValue));
 
@@ -2103,7 +2103,25 @@ private function setSetting(key: String, value: String): void
 		'time_range_end': function(): void {
 			calculateFrameTimes();
 			updateTimelineDisplay();
-		}
+		},
+        'point_blob_radius': function(): void {
+            _valuesDirty = true;
+            _dirty = true;
+        },
+        'point_blob_value': function(): void {
+            _valuesDirty = true;
+            _dirty = true;
+        },
+        'gradient_value_min': function(): void {
+        	_settings.is_gradient_value_range_set =
+        		((_settings.gradient_value_min!=0)&&
+        		(_settings.gradient_value_max!=0));
+        },
+        'gradient_value_max': function(): void {
+        	_settings.is_gradient_value_range_set =
+        		((_settings.gradient_value_min!=0)&&
+        		(_settings.gradient_value_max!=0));
+        }
 	}
 	
 	if (changeHandlers.hasOwnProperty(key))

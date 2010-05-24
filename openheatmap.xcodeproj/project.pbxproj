@@ -62,6 +62,8 @@
 		59820CE611A87B390047D5FC /* geomutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geomutils.php; path = mapfileprocess/geomutils.php; sourceTree = "<group>"; };
 		59820D4811AB15060047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		59820D4911AB289F0047D5FC /* gallery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gallery.html; path = website/gallery.html; sourceTree = "<group>"; };
+		59820D4A11AB32880047D5FC /* location.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = location.php; path = website/location.php; sourceTree = "<group>"; };
+		59820D4B11AB32AA0047D5FC /* geoip.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geoip.php; path = website/geoip.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -117,8 +119,10 @@
 				59820BAF11A44E5C0047D5FC /* edit.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
 				59820D4911AB289F0047D5FC /* gallery.html */,
+				59820D4B11AB32AA0047D5FC /* geoip.php */,
 				59820B9411A44B890047D5FC /* geometryindex.php */,
 				59820B9511A44B890047D5FC /* index.html */,
+				59820D4A11AB32880047D5FC /* location.php */,
 				59820B9611A44B890047D5FC /* locationheaders.php */,
 				59820B9711A44B890047D5FC /* locationhelp.php */,
 				59820B9811A44B890047D5FC /* locationtables.php */,
