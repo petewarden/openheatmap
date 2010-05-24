@@ -1,7 +1,7 @@
 <?php
 
 /*
-OpenGraphMap processing
+OpenHeatMap processing
 Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 
     This program is free software: you can redistribute it and/or modify

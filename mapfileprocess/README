@@ -1,4 +1,4 @@
-OpenGraphMap
+OpenHeatMap
 ~~~~~~~~~~~
 
 ./convertasciitoosm.php -i test_data/us_county_data -o test_data/full_output.osm

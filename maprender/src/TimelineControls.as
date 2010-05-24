@@ -1,5 +1,5 @@
 /* 
-OpenGraphMap renderer - a flash component to display and explore map visualizations
+OpenHeatMap renderer - a flash component to display and explore map visualizations
 Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 
     This program is free software: you can redistribute it and/or modify
