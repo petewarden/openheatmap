@@ -61,6 +61,7 @@
 		59820CE511A8789A0047D5FC /* cleanmesh.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cleanmesh.php; path = mapfileprocess/cleanmesh.php; sourceTree = "<group>"; };
 		59820CE611A87B390047D5FC /* geomutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geomutils.php; path = mapfileprocess/geomutils.php; sourceTree = "<group>"; };
 		59820D4811AB15060047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		59820D4911AB289F0047D5FC /* gallery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gallery.html; path = website/gallery.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -115,6 +116,7 @@
 				59820BBC11A45C020047D5FC /* create.html */,
 				59820BAF11A44E5C0047D5FC /* edit.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
+				59820D4911AB289F0047D5FC /* gallery.html */,
 				59820B9411A44B890047D5FC /* geometryindex.php */,
 				59820B9511A44B890047D5FC /* index.html */,
 				59820B9611A44B890047D5FC /* locationheaders.php */,
