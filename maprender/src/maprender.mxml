@@ -1659,8 +1659,6 @@ private function getWayForWayId(wayId: String): Object
 {
 	var result: Object = _ways[wayId];
 	
-	trace('Found '+result);
-	
 	return result;	
 }
 
@@ -2114,13 +2112,17 @@ private function setSetting(key: String, value: String): void
         },
         'gradient_value_min': function(): void {
         	_settings.is_gradient_value_range_set =
-        		((_settings.gradient_value_min!=0)&&
+        		((_settings.gradient_value_min!=0)||
         		(_settings.gradient_value_max!=0));
+            _valuesDirty = true;
+            _dirty = true;
         },
         'gradient_value_max': function(): void {
         	_settings.is_gradient_value_range_set =
-        		((_settings.gradient_value_min!=0)&&
+        		((_settings.gradient_value_min!=0)||
         		(_settings.gradient_value_max!=0));
+            _valuesDirty = true;
+            _dirty = true;
         }
 	}
 	
