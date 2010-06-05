@@ -171,6 +171,7 @@ private function getURLInput(name: String, defaultValue: String = null): String
 public function startup():void
 {
 	flash.system.Security.allowDomain("*");
+	flash.system.Security.allowInsecureDomain("*");
 
 	setSize(800, 600);
 

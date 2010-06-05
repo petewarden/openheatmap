@@ -20,7 +20,7 @@ function insertOpenHeatMapInto(selector, width, height, source, id)
     params.src = source;
     params.id = id;
     params.name = id;
-    params.allowscriptaccess = "always";
+    params.allowScriptAccess = "always";
     params.menu = false;
 
     $(selector).empty();
@@ -37,6 +37,9 @@ function insertOpenHeatMapInto(selector, width, height, source, id)
     }
 
     $(selector).flash(params);
+    
+    window[id] = document.getElementById(id);
+    document.getElementById(id).setAttribute('classid','clsid:d27cdb6e-ae6d-11cf-96b8-444553540000');
 }
 
 function getOpenHeatMap(mapName) 
@@ -45,7 +48,7 @@ function getOpenHeatMap(mapName)
         mapName='openheatmap';
         
     var isIE = navigator.appName.indexOf("Microsoft") != -1;
-    return (isIE) ? window[mapName] : document.getElementById(mapName);
+    return (isIE) ? document.getElementsByName(mapName)[0] : document.getElementById(mapName);
 }
 
 //-----------------------------------------------------------------------
@@ -255,10 +258,16 @@ $$.pluginOptions = {
  *
 **/
 $$.replace = function(htmlOptions) {
-	this.innerHTML = '<div class="alt">'+this.innerHTML+'</div>';
-	jQuery(this)
-		.addClass('flash-replaced')
-		.prepend($$.transform(htmlOptions));
+// There's a bug with IE where if you add the flash object using the standard
+// jQuery prepend/append method it appears but you can't call methods on it.
+// To work around that problem I'm setting innerHTML in all cases, which
+// seems to work across all my tested browsers.
+
+//	this.innerHTML = '<div class="alt">'+this.innerHTML+'</div>';
+//	jQuery(this)
+//		.addClass('flash-replaced')
+//		.prepend($$.transform(htmlOptions));
+    this.innerHTML = $$.transform(htmlOptions);
 };
 /**
  *
@@ -320,10 +329,150 @@ function toFlashvarsString() {
  *
 **/
 $$.transform = function(htmlOptions) {
-	htmlOptions.toString = toAttributeString;
-	if(htmlOptions.flashvars) htmlOptions.flashvars.toString = toFlashvarsString;
-	return '<embed ' + String(htmlOptions) + '/>';		
+    argumentList = [];
+    for (var key in htmlOptions)
+    {
+        var value = htmlOptions[key];
+        argumentList.push(key);
+        argumentList.push(value);
+    }
+
+    var attributes = getAttributesFromArguments(
+        argumentList, 
+        ".swf", 
+        "movie", 
+        "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000", 
+        "application/x-shockwave-flash"
+    );
+
+    var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+    var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+    var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+
+    var result = '';
+    if (isIE && isWin && !isOpera)
+    {
+  		result += '<object ';
+  		for (var i in attributes.objAttrs)
+  			result += i + '="' + attributes.objAttrs[i] + '" ';
+  		result += '>';
+  		for (var i in attributes.params)
+  			result += '<param name="' + i + '" value="' + attributes.params[i] + '" /> ';
+  		result += '</object>';
+    } else {
+  		result += '<embed ';
+  		for (var i in attributes.embedAttrs)
+  			result += i + '="' + attributes.embedAttrs[i] + '" ';
+  		result += '> </embed>';
+    }
+    
+    return result;
 };
+
+function getAttributesFromArguments(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblClick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "id":
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+
+function AC_AddExtension(src, ext)
+{
+  var qIndex = src.indexOf('?');
+  if ( qIndex != -1)
+  {
+    // Add the extention (if needed) before the query params
+    var path = src.substring(0, qIndex);
+    if (path.length >= ext.length && path.lastIndexOf(ext) == (path.length - ext.length))
+      return src;
+    else
+      return src.replace(/\?/, ext+'?'); 
+  }
+  else
+  {
+    // Add the extension (if needed) to the end of the URL
+    if (src.length >= ext.length && src.lastIndexOf(ext) == (src.length - ext.length))
+      return src;  // Already have extension
+    else
+      return src + ext;
+  }
+}
 
 /**
  *
