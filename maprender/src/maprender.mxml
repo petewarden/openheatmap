@@ -559,7 +559,10 @@ private function doEveryFrame(event: Event): void
 	if (_valuesDirty&&(_redrawCountdown===0))
 	{
 		if (!_hasPointValues)
+		{
 			setWaysFromValues();
+			_dirty = true;
+		}
 		_valuesDirty = false;		
 	}
 	
@@ -930,7 +933,7 @@ private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXY
 }
 
 private function setWaysFromValues(): void
-{
+{	
 	if (_valueData === null)
 		return;
 
