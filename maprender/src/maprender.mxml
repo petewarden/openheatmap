@@ -216,6 +216,7 @@ public function startup():void
 	ExternalInterface.addCallback("getLatLonViewingArea", getLatLonViewingArea);
 	ExternalInterface.addCallback("removeAllInlays", removeAllInlays);
 	ExternalInterface.addCallback("removeAllWays", removeAllWays);
+	ExternalInterface.addCallback("getAllInlays", getAllInlays);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -1327,7 +1328,11 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
 		latLonToXYMatrix: latLonToXYMatrix,
 		xYToLatLonMatrix: xYToLatLonMatrix,
 		worldTopLeftLatLon: worldTopLeftLatLon,
-		worldBottomRightLatLon: worldBottomRightLatLon
+		worldBottomRightLatLon: worldBottomRightLatLon,
+		topLat: topLat,
+		leftLon: leftLon,
+		bottomLat: bottomLat,
+		rightLon: rightLon
 	});
 }
 
@@ -2190,6 +2195,33 @@ private function removeAllWays(): void
 	_lastSetWayIds = {};
 	
 	_dirty = true;
+}
+
+private function getAllInlays(): Array
+{
+	var result: Array = [];
+	
+	for each(var inlay: Object in _inlays)
+	{
+		var topLeftScreen: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
+		var bottomRightScreen: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+		
+		var outputInlay: Object =
+		{
+			left_x: topLeftScreen.x,
+			top_y: topLeftScreen.y,
+			right_x: bottomRightScreen.x,
+			bottom_y: bottomRightScreen.y,
+			top_lat: inlay.topLat,
+			left_lon: inlay.leftLon,
+			bottom_lat: inlay.bottomLat,
+			right_lon: inlay.rightLon
+		};
+
+		result.push(outputInlay);
+	}
+	
+	return result;
 }
 
 ]]>
