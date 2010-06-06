@@ -2227,7 +2227,7 @@ private function getAllInlays(): Array
 	return result;
 }
 
-private function addPopup(lat: Number, lon: Number, text: String, lifetime: Number=0): void
+private function addPopup(lat: Number, lon: Number, text: String): void
 {
 	var popup: Object =
 	{

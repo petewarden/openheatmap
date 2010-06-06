@@ -27,7 +27,7 @@ ini_set('memory_limit', '-1');
 define('START_PARENS_RE', '/\(/');
 define('END_PARENS_RE', '/\)/');
 define('KEY_CHAR_RE', '/[a-zA-Z0-9_\- \':]/');
-define('VALUE_CHAR_RE', '/[a-zA-Z0-9_\- \':]/');
+define('VALUE_CHAR_RE', '/[^\(\)&|=!<>]/');
 define('COMPARE_RE', '/[=!<>]/');
 define('OPERATOR_RE', '/[&|]/');
 
@@ -267,7 +267,10 @@ function evaluate_token_value($tags, $token)
             
             if (!isset($tags[$key]))
             {
-                $result = false;
+                if ($comparison==='!')
+                    $result = true;
+                else
+                    $result = false;
             }
             else
             {
@@ -275,11 +278,29 @@ function evaluate_token_value($tags, $token)
                 switch ($comparison)
                 {
                     case '=':
-                        $result = ($tag_value==$value);
+                        if ($value{0}!=='/')
+                        {
+                            $result = ($tag_value==$value);
+                        }
+                        else
+                        {
+                            if ($value{strlen($value)-1}!=='/')
+                                die("Bad regular expression '$value' found");
+                            $result = preg_match($value, $tag_value);
+                        }
                     break;
 
                     case '!':
-                        $result = ($tag_value!=$value);
+                        if ($value{0}!=='/')
+                        {
+                            $result = ($tag_value!=$value);
+                        }
+                        else
+                        {
+                            if ($value{strlen($value)-1}!=='/')
+                                die("Bad regular expression '$value' found");
+                            $result = !preg_match($value, $tag_value);
+                        }
                     break;
                     
                     case '<':
