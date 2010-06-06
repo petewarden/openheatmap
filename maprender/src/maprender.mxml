@@ -2003,8 +2003,6 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		{
 			_valueData.push(lineValues);		
 		}
-		
-		_valueData.push(lineValues);		
 	}	
 }
 
@@ -2068,7 +2066,7 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
 			var output: Object = {};
 			for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
 			{
-				var header: String = _valueHeaders[headerIndex].toLowerCase();
+				var header: String = '"'+_valueHeaders[headerIndex].toLowerCase()+'"';
 
 				output[header] = values[headerIndex];
 			}
