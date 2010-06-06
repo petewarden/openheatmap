@@ -35,6 +35,7 @@ import mx.controls.VSlider;
 import mx.core.BitmapAsset;
 import mx.events.SliderEvent;
 import flash.text.TextField;
+import mx.controls.TextArea;
 
 import TimelineControls;
 import BucketGrid;
@@ -160,6 +161,8 @@ public var _lastSetWayIds: Object = {};
 public var _credit: Label = null;
 public var _title: TextField = null;
 
+public var _popups: Array = [];
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -217,6 +220,8 @@ public function startup():void
 	ExternalInterface.addCallback("removeAllInlays", removeAllInlays);
 	ExternalInterface.addCallback("removeAllWays", removeAllWays);
 	ExternalInterface.addCallback("getAllInlays", getAllInlays);
+	ExternalInterface.addCallback("addPopup", addPopup);
+	ExternalInterface.addCallback("removeAllPopups", removeAllPopups);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -2220,6 +2225,68 @@ private function getAllInlays(): Array
 	}
 	
 	return result;
+}
+
+private function addPopup(lat: Number, lon: Number, text: String, lifetime: Number=0): void
+{
+	var popup: Object =
+	{
+		originLatLon: { lat: lat, lon: lon },
+		text: text,
+		lifetime: lifetime
+	};
+
+	popup.uiComponent = new TextArea();
+	popup.uiComponent.htmlText = text;
+
+	popup.uiComponent.wordWrap = false;
+	popup.uiComponent.horizontalScrollPolicy = "ScrollPolicy.OFF";
+	popup.uiComponent.verticalScrollPolicy = "ScrollPolicy.OFF";
+	
+	var dropShadowFilter: DropShadowFilter = new DropShadowFilter (5,65,0x000000,0.3,5,10,2,3,false,false,false);
+	popup.uiComponent.filters = [dropShadowFilter];
+
+	viewer.addChild(popup.uiComponent);
+	
+	var screenPos: Point = getXYFromLatLon(popup.originLatLon, _latLonToXYMatrix);
+	
+	popup.uiComponent.validateNow();
+	
+	popup.uiComponent.width = (popup.uiComponent.textWidth+10);
+	popup.uiComponent.height = (popup.uiComponent.textHeight+5);
+	popup.uiComponent.x = (screenPos.x-popup.uiComponent.width);
+	popup.uiComponent.y = (screenPos.y-popup.uiComponent.height);
+
+	if (popup.uiComponent.x<0)
+	{
+		popup.uiComponent.x = 0;
+		popup.uiComponent.wordWrap = true;
+		popup.uiComponent.width = screenPos.x;
+		popup.uiComponent.validateNow();
+		popup.uiComponent.height = (popup.uiComponent.textHeight+5);
+	}
+	
+	if (popup.uiComponent.y<0)
+	{
+		popup.uiComponent.y = 0;
+	}
+
+	if ((popup.uiComponent.y+popup.uiComponent.height)>_settings.height)
+	{
+		popup.uiComponent.y = (_settings.height-popup.uiComponent.height);		
+	}
+
+	_popups.push(popup);
+}
+
+private function removeAllPopups(): void
+{
+	for each (var popup: Object in _popups)
+	{
+		viewer.removeChild(popup.uiComponent);	
+	}
+	
+	_popups = [];
 }
 
 ]]>
