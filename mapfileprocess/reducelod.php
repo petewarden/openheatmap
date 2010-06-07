@@ -24,6 +24,8 @@ require_once('osmways.php');
 
 ini_set('memory_limit', '-1');
 
+define('BIGGEST_AREA', 999999999);
+
 function has_hit_target($vertex_count, $vertex_target, $total_area_error, $area_target)
 {
     if ($vertex_count>0)
@@ -76,7 +78,7 @@ function sort_nodes_by_area(&$nodes, &$ways)
         $used_by = $node_data['used_by'];
         if (count($used_by)>2)
         {
-            $area = 999999999;
+            $area = BIGGEST_AREA;
         }
         else
         {
@@ -172,13 +174,15 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
     $vertex_count = count($nodes);
     $total_area_error = 0;
     
+    $hit_essential_nodes = false;
+    
     while (true)
     {
         $hit_target = has_hit_target($vertex_count, $vertex_target, $total_area_error, $area_target);
         
         error_log('vertex_count: '.$vertex_count);
                     
-        if ($hit_target)
+        if ($hit_target||$hit_essential_nodes)
             break;
 
         sort_nodes_by_area($nodes, $ways);
@@ -191,7 +195,13 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
 
             $area = $node_data['area'];
             
-//            error_log('Removing '.$node_id);
+            if ($area>=BIGGEST_AREA)
+            {
+                $hit_essential_nodes = true;
+                break;
+            }
+            
+//            error_log('Removing '.$node_id.' with area '.$area);
             
             $vertex_count -= 1;
             $total_area_error += $area;
