@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="handrolled">
+  <bound box="18.5,-80.18,32.20,-64.45"/>
+  <node id="1" lat="0" lon="0"/>
+  <node id="2" lat="0" lon="10"/>
+  <node id="3" lat="10" lon="10"/>
+  <node id="4" lat="20" lon="20"/>
+  <node id="5" lat="20" lon="30"/>
+  <node id="6" lat="30" lon="30"/>
+  <way id="100">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="name" v="Bermuda Triangle"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="state"/>
+    <tag k="boundary" v="administrative"/>
+  </way>
+  <way id="200">
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <tag k="name" v="Not the Bermuda Triangle"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="county"/>
+    <tag k="boundary" v="administrative"/>
+  </way>
+</osm>

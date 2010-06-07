@@ -217,6 +217,9 @@ function crop_ways_to_box(&$input_osm_ways, $min_lat, $min_lon, $max_lat, $max_l
         foreach ($output_vertices as $vertex)
             $result->add_vertex($vertex['lat'], $vertex['lon']);
         
+        if ($input_way['is_closed'])
+            $result->force_closed();
+        
         $result->end_way();
     }
 

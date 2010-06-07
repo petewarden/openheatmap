@@ -106,6 +106,24 @@ class OSMWays
         $this->current_way = null;
     }
     
+    public function force_closed()
+    {
+        $way = &$this->ways[$this->current_way];
+
+        $nds = $way['nds'];
+        $nds_count = count($nds);
+        if ($nds_count===0)
+            return;
+        
+        $first_vertex_id = $nds[0];
+        $last_vertex_id = $nds[$nds_count-1];
+        
+        $is_closed = ($first_vertex_id===$last_vertex_id);
+
+        if (!$is_closed)
+            $this->add_vertex_index($first_vertex_id);
+    }
+
     private function check_is_inside_way()
     {
         if (!isset($this->current_way))
