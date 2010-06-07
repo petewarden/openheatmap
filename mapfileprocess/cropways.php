@@ -55,10 +55,28 @@ function get_clipping_planes_for_box($min_lat, $min_lon, $max_lat, $max_lon)
     return $result;
 }
 
-function clip_vertices_against_plane($vertices, $plane)
+function distance_from_plane($vertex, $plane)
 {
+    $dot_product = 
+        ($vertex['lat']*$plane['v_lat'])+
+        ($vertex['lon']*$plane['v_lon']);
+    
+    $distance = ($dot_product-$plane['c']);
+    
+    return $distance;
+}
+
+function clip_vertices_against_plane($vertices, $plane, $verbose = false)
+{
+    if ($verbose)
+        error_log("Testing plane ".print_r($plane, true));
+
     if (empty($vertices))
+    {
+        if ($verbose)
+            error_log("Empty vertex list, returning early");
         return array();
+    }
         
     $v_lat = $plane['v_lat'];
     $v_lon = $plane['v_lon'];
@@ -70,7 +88,7 @@ function clip_vertices_against_plane($vertices, $plane)
     
     for ($vertex_index=0; $vertex_index<$vertex_count; $vertex_index+=1)
     {
-        $next_index = (($vertex_index+1)%vertex_count);
+        $next_index = (($vertex_index+1)%$vertex_count);
         
         $current_vertex = $vertices[$vertex_index];
         $next_vertex = $vertices[$next_index];
@@ -84,16 +102,23 @@ function clip_vertices_against_plane($vertices, $plane)
         if ($is_current_above&&$is_next_above)
         {
             // All outside of the clipping plane, so just add the vertex
-            $result[] = $current_vertex;
+            if ($verbose)
+                error_log("${current_vertex['lat']},${current_vertex['lon']} to ${next_vertex['lat']},${next_vertex['lon']}: both inside");
+
+            $result[] = $current_vertex;            
         }
         else if ((!$is_current_above) && (!$is_next_above))
         {
             // Both inside the clipping plane, so throw the vertex away
+            if ($verbose)
+                error_log("${current_vertex['lat']},${current_vertex['lon']} to ${next_vertex['lat']},${next_vertex['lon']}: both outside");
         }
         else if (($is_current_above) && (!$is_next_above))
         {
             // The line is leaving the allowed area, so add the original
             // vertex and an extra one where it intersects
+            if ($verbose)
+                error_log("${current_vertex['lat']},${current_vertex['lon']} to ${next_vertex['lat']},${next_vertex['lon']}: starts inside, goes outside");
             
             $result[] = $current_vertex;
 
@@ -118,7 +143,9 @@ function clip_vertices_against_plane($vertices, $plane)
         else if ((!$is_current_above) && ($is_next_above))
         {
             // The line is entering the allowed area, so add an extra vertex
-            // where it enters, and the original one afterwards
+            // where it enters
+            if ($verbose)
+                error_log("${current_vertex['lat']},${current_vertex['lon']} to ${next_vertex['lat']},${next_vertex['lon']}: starts outside, goes inside");
 
             $total_distance = ((-$current_distance)+$next_distance);
             $similar_ratio = ((-$current_distance)/$total_distance);
@@ -137,8 +164,6 @@ function clip_vertices_against_plane($vertices, $plane)
                 'lon' => ($current_lon+($similar_ratio*$lon_delta)),
             );
             $result[] = $new_vertex;
-
-            $result[] = $current_vertex;
         }
     }
     
@@ -169,7 +194,7 @@ function crop_ways_to_box(&$input_osm_ways, $min_lat, $min_lon, $max_lat, $max_l
         if (empty($nds))
             continue;
 
-        $input_vertices = array();
+        $output_vertices = array();
         foreach ($nds as $nd_ref)
         {
             $current_vertex = $input_nodes[$nd_ref];
@@ -178,7 +203,7 @@ function crop_ways_to_box(&$input_osm_ways, $min_lat, $min_lon, $max_lat, $max_l
         
         foreach ($clipping_planes as $plane)
         {
-            $output_vertices = clip_vertices_against_plane($output_vertices, $plane);
+            $output_vertices = clip_vertices_against_plane($output_vertices, $plane, $verbose);
         }
         
         if (empty($output_vertices))
@@ -186,7 +211,7 @@ function crop_ways_to_box(&$input_osm_ways, $min_lat, $min_lon, $max_lat, $max_l
 
         $result->begin_way();
      
-        foreach ($way['tags'] as $key => $value)
+        foreach ($input_way['tags'] as $key => $value)
             $result->add_tag($key, $value);
 
         foreach ($output_vertices as $vertex)
