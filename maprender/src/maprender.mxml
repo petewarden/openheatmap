@@ -41,6 +41,7 @@ import mx.events.FlexEvent;
 
 import TimelineControls;
 import BucketGrid;
+import ExternalImageView;
 
 public var _mainShape:Shape = null;
 public var _mainBitmap: Bitmap = null;
@@ -158,7 +159,9 @@ public var _settings: Object =
 	time_range_start: null,
 	time_range_end: null,
     force_outlines: false,
-    map_server_root: 'http://a.tile.openstreetmap.org/'
+    map_server_root: 'http://a.tile.openstreetmap.org/',
+    map_tile_width: 256,
+    map_tile_height: 256
 };
 
 public var _lastSetWayIds: Object = {};
@@ -2304,39 +2307,71 @@ private function createURLForTile(latIndex: Number, lonIndex: Number, zoomIndex:
 	result += '/';
 	result += latIndex;
 	result += '.png';
-	
+
 	return result;	
 }
 
 private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
 {
 	prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+
+	for (var currentURL: String in _mapTiles)
+	{
+		var tile: Object = _mapTiles[currentURL];
+		if (!tile.imageLoader._isLoaded)
+			continue;
+		
+		var screenTopLeft: Point = getXYFromLatLon(tile.topLeftLatLon, latLonToXYMatrix);
+		var screenBottomRight: Point = getXYFromLatLon(tile.bottomRightLatLon, latLonToXYMatrix);
+		
+		var screenLeft: Number = screenTopLeft.x;
+		var screenTop: Number = screenTopLeft.y;
+	
+		var screenWidth: Number = (screenBottomRight.x-screenTopLeft.x);
+		var screenHeight: Number = (screenBottomRight.y-screenTopLeft.y);
+	
+		var bitmapTransform: Matrix = new Matrix();
+		bitmapTransform.scale((screenWidth/_settings.map_tile_width), (screenHeight/_settings.map_tile_height));
+		bitmapTransform.translate(screenLeft, screenTop);
+	
+		graphics.beginBitmapFill(tile.imageLoader._bitmapData, bitmapTransform, false);
+		graphics.drawRect(screenLeft, screenTop, screenWidth, screenHeight);
+		graphics.endFill();
+	}
 }
 
 private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
-{
-	var wantedURLs: Array = [
-		createURLForTile(0,0,2)
-	];
-
+{	
 	for (var currentURL: String in _mapTiles)
 	{
 		_mapTiles[currentURL].isUsedThisFrame = false;	
 	}
+
+	var wantedTiles: Array = [];
 	
-	for each (var wantedURL: String in wantedURLs)
+	var wantedTile: Object = {};
+	
+	wantedTile.latIndex = 0;
+	wantedTile.lonIndex = 0;
+	wantedTile.zoomIndex = 2;
+	
+	wantedTile.topLeftLatLon = { lat: viewingArea.bottom, lon: viewingArea.left};
+	wantedTile.bottomRightLatLon = { lat: viewingArea.top, lon: viewingArea.right};
+
+	wantedTiles.push(wantedTile);
+	
+	for each (wantedTile in wantedTiles)
 	{
+		var wantedURL: String = createURLForTile(wantedTile.latIndex, wantedTile.lonIndex, wantedTile.zoomIndex);
+		
 		if (!_mapTiles.hasOwnProperty(wantedURL))
 		{
 			_mapTiles[wantedURL] = {};
 			
-			_mapTiles[wantedURL].isLoaded = false;
-			_mapTiles[wantedURL].image = new Image();
-			_mapTiles[wantedURL].image.x = -1000;
-			_mapTiles[wantedURL].image.y = -1000;
-			viewer.addChild(_mapTiles[wantedURL].image);
-		    _mapTiles[wantedURL].image.addEventListener(FlexEvent.UPDATE_COMPLETE, onMapTileLoaded);
-			_mapTiles[wantedURL].image.source = wantedURL;
+			_mapTiles[wantedURL].imageLoader = new ExternalImageView(wantedURL, _settings.map_tile_width, _settings.map_tile_height, this);
+			
+			_mapTiles[wantedURL].topLeftLatLon = wantedTile.topLeftLatLon;
+			_mapTiles[wantedURL].bottomRightLatLon = wantedTile.bottomRightLatLon;
 		}
 		
 		_mapTiles[wantedURL].isUsedThisFrame = true;
@@ -2346,23 +2381,34 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 	{
 		if (!_mapTiles[currentURL].isUsedThisFrame)
 		{
-			_mapTiles[wantedURL].image.source = null;
-			_mapTiles[wantedURL].image = null;
-			_mapTiles[wantedURL].bitmapData = null;
-			delete _mapTiles[wantedURL];
+			_mapTiles[currentURL].imageLoader = null;
+//			viewer.removeChild(_mapTiles[currentURL].image);
+//			_mapTiles[currentURL].image.source = null;
+//			_mapTiles[currentURL].image = null;
+//			_mapTiles[currentURL].bitmapData = null;
+			delete _mapTiles[currentURL];
 		}	
 	}
 		
 }
 
+private function onMapTileComplete(event:Event):void
+{
+	var image:Image = Image(event.target);
+	var sourceURL: String = image.source as String;
+
+	_mapTiles[sourceURL].image.addEventListener(FlexEvent.UPDATE_COMPLETE, onMapTileLoaded);
+}
+
 private function onMapTileLoaded(event:Event):void
 {
 	var image:Image = Image(event.target);
+
+	var sourceURL: String = image.source as String;
  
 	if(image.width<=0)
 		return;
 
-	var sourceURL: String = image.source as String;
 	if (!_mapTiles.hasOwnProperty(sourceURL))
 		return;
 
@@ -2372,6 +2418,8 @@ private function onMapTileLoaded(event:Event):void
     
     _mapTiles[sourceURL].bitmapData = bitmapData;
     _mapTiles[sourceURL].isLoaded = true;
+    
+    _dirty = true;
 }
 
 ]]>
