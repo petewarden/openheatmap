@@ -5,3 +5,4 @@ website/config.php
 *.mode1v3
 *.pbxuser
 mapfileprocess/test_data/zipcode_clean.osm
+static/openheatmap.swf

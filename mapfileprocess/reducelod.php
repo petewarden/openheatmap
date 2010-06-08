@@ -76,18 +76,19 @@ function sort_nodes_by_area(&$nodes, &$ways)
     foreach ($nodes as $node_id => &$node_data)
     {
         $used_by = $node_data['used_by'];
-        if (count($used_by)>2)
+        
+        $way_id = $used_by[0]['way_id'];
+        $way = $ways[$way_id];
+        $nds = $way['nds'];
+        
+        if ((count($used_by)>2)||(count($nds)<=3))
         {
             $area = BIGGEST_AREA;
         }
         else
         {
-            $way_id = $used_by[0]['way_id'];
             $nd_index = $used_by[0]['nd_index'];
-            
-            $way = $ways[$way_id];
-            $nds = $way['nds'];
-            
+                        
             $nds_count = $way['original_nds_count'];
             
             $previous_index = ($nd_index-1);
@@ -213,6 +214,24 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
             else
                 $nodes_per_pass = 100;
 
+            $is_essential = false;
+            foreach ($used_by as $used_by_index => $used_by_entry)
+            {
+                $way_id = $used_by_entry['way_id'];
+                $way = &$ways[$way_id];
+                $nds = &$way['nds'];
+                
+                // Don't remove more points from a way that's down to just 3
+                if (count($nds)<=3)
+                {
+                   $is_essential = true;
+                    break;
+                }
+            }
+
+            if ($is_essential)
+                continue;
+
             foreach ($used_by as $used_by_index => $used_by_entry)
             {
                 $way_id = $used_by_entry['way_id'];
@@ -220,7 +239,11 @@ function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
                 
                 $way = &$ways[$way_id];
                 $nds = &$way['nds'];
-                                                                        
+                
+                // Don't remove more points from a way that's down to just 3
+                if (count($nds)<=3)
+                   continue;
+                                                                                                                             
                 if ($used_by_index===0)
                 {                                
 //                    $way_string = '';

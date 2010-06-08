@@ -36,6 +36,8 @@ import mx.core.BitmapAsset;
 import mx.events.SliderEvent;
 import flash.text.TextField;
 import mx.controls.TextArea;
+import mx.controls.Image;
+import mx.events.FlexEvent;
 
 import TimelineControls;
 import BucketGrid;
@@ -132,6 +134,8 @@ public var _longitudeColumnIndex: int = -1;
 
 public var _pointsGrid: BucketGrid = null;
 
+public var _mapTiles: Object = {};
+
 public var _settings: Object =
 {
 	width: 800,
@@ -153,7 +157,8 @@ public var _settings: Object =
 	title_background_alpha: 1.0,
 	time_range_start: null,
 	time_range_end: null,
-    force_outlines: false
+    force_outlines: false,
+    map_server_root: 'http://a.tile.openstreetmap.org/'
 };
 
 public var _lastSetWayIds: Object = {};
@@ -863,6 +868,8 @@ private function doRedraw(graphics: Graphics, width: Number, height: Number, lat
     var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 
 	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
+	
+	drawMapTiles(graphics, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 }
 
 private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
@@ -2232,8 +2239,7 @@ private function addPopup(lat: Number, lon: Number, text: String): void
 	var popup: Object =
 	{
 		originLatLon: { lat: lat, lon: lon },
-		text: text,
-		lifetime: lifetime
+		text: text
 	};
 
 	popup.uiComponent = new TextArea();
@@ -2287,6 +2293,85 @@ private function removeAllPopups(): void
 	}
 	
 	_popups = [];
+}
+
+private function createURLForTile(latIndex: Number, lonIndex: Number, zoomIndex: Number): String
+{
+	var result: String = _settings.map_server_root;
+	result += zoomIndex;
+	result += '/';
+	result += lonIndex;
+	result += '/';
+	result += latIndex;
+	result += '.png';
+	
+	return result;	
+}
+
+private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
+{
+	prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+}
+
+private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
+{
+	var wantedURLs: Array = [
+		createURLForTile(0,0,2)
+	];
+
+	for (var currentURL: String in _mapTiles)
+	{
+		_mapTiles[currentURL].isUsedThisFrame = false;	
+	}
+	
+	for each (var wantedURL: String in wantedURLs)
+	{
+		if (!_mapTiles.hasOwnProperty(wantedURL))
+		{
+			_mapTiles[wantedURL] = {};
+			
+			_mapTiles[wantedURL].isLoaded = false;
+			_mapTiles[wantedURL].image = new Image();
+			_mapTiles[wantedURL].image.x = -1000;
+			_mapTiles[wantedURL].image.y = -1000;
+			viewer.addChild(_mapTiles[wantedURL].image);
+		    _mapTiles[wantedURL].image.addEventListener(FlexEvent.UPDATE_COMPLETE, onMapTileLoaded);
+			_mapTiles[wantedURL].image.source = wantedURL;
+		}
+		
+		_mapTiles[wantedURL].isUsedThisFrame = true;
+	}
+
+	for (currentURL in _mapTiles)
+	{
+		if (!_mapTiles[currentURL].isUsedThisFrame)
+		{
+			_mapTiles[wantedURL].image.source = null;
+			_mapTiles[wantedURL].image = null;
+			_mapTiles[wantedURL].bitmapData = null;
+			delete _mapTiles[wantedURL];
+		}	
+	}
+		
+}
+
+private function onMapTileLoaded(event:Event):void
+{
+	var image:Image = Image(event.target);
+ 
+	if(image.width<=0)
+		return;
+
+	var sourceURL: String = image.source as String;
+	if (!_mapTiles.hasOwnProperty(sourceURL))
+		return;
+
+	var bitmapData:BitmapData = new BitmapData(image.width,image.height);
+    var matrix:Matrix = new Matrix();
+    bitmapData.draw(image,matrix);
+    
+    _mapTiles[sourceURL].bitmapData = bitmapData;
+    _mapTiles[sourceURL].isLoaded = true;
 }
 
 ]]>
