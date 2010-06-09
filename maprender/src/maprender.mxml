@@ -161,7 +161,12 @@ public var _settings: Object =
     force_outlines: false,
     map_server_root: 'http://a.tile.openstreetmap.org/',
     map_tile_width: 256,
-    map_tile_height: 256
+    map_tile_height: 256,
+	map_tile_origin_lat: 90,
+	map_tile_origin_lon: -180,
+	map_tile_match_factor: 1.2,
+	world_lat_height: -180,
+	world_lon_width: 360
 };
 
 public var _lastSetWayIds: Object = {};
@@ -2340,6 +2345,51 @@ private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLon
 	}
 }
 
+private function getTileIndicesFromLatLon(lat: Number, lon: Number, zoomLevel: int): Object
+{
+	var zoomTileCount: Number = (1<<zoomLevel);
+	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/_settings.world_lat_height)*zoomTileCount);
+	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
+
+	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+	var latIndex: Number = ((lat-_settings.map_tile_origin_lat)/tileHeightInDegrees);
+	latIndex = Math.max(latIndex, 0);
+	latIndex = Math.min(latIndex, (zoomTileCount-1));
+	
+	var lonIndex: Number = ((lon-_settings.map_tile_origin_lon)/tileWidthInDegrees);
+	lonIndex = Math.max(lonIndex, 0);
+	lonIndex = Math.min(lonIndex, (zoomTileCount-1));
+	
+	var result: Object = {
+		latIndex: latIndex,
+		lonIndex: lonIndex
+	};
+	
+	return result;
+}
+
+private function getLatLonFromTileIndices(latIndex: Number, lonIndex: Number, zoomLevel: int): Object
+{
+	var zoomTileCount: Number = (1<<zoomLevel);
+	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/_settings.world_lat_height)*zoomTileCount);
+	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
+
+	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+	var lat: Number = ((latIndex*tileHeightInDegrees)+_settings.map_tile_origin_lat);
+	var lon: Number = ((lonIndex*tileWidthInDegrees)+_settings.map_tile_origin_lon);
+	
+	var result: Object = {
+		lat: lat,
+		lon: lon
+	};
+	
+	return result;
+}
+
 private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
 {	
 	for (var currentURL: String in _mapTiles)
@@ -2347,18 +2397,48 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 		_mapTiles[currentURL].isUsedThisFrame = false;	
 	}
 
-	var wantedTiles: Array = [];
+	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
 	
-	var wantedTile: Object = {};
-	
-	wantedTile.latIndex = 0;
-	wantedTile.lonIndex = 0;
-	wantedTile.zoomIndex = 2;
-	
-	wantedTile.topLeftLatLon = { lat: viewingArea.bottom, lon: viewingArea.left};
-	wantedTile.bottomRightLatLon = { lat: viewingArea.top, lon: viewingArea.right};
+	var zoomPixelsPerDegreeLatitude: Number = (_settings.map_tile_height/_settings.world_lat_height);
+	var zoomLevel: int = 0;
+	while (Math.abs(zoomPixelsPerDegreeLatitude*_settings.map_tile_match_factor)<Math.abs(pixelsPerDegreeLatitude))
+	{
+		zoomLevel += 1;
+		zoomPixelsPerDegreeLatitude *= 2;	
+	}
 
-	wantedTiles.push(wantedTile);
+	var zoomTileCount: Number = (1<<zoomLevel);
+	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
+	
+	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+	var start: Object = getTileIndicesFromLatLon(viewingArea.bottom, viewingArea.left, zoomLevel);
+	start.latIndex = Math.floor(start.latIndex);
+	start.lonIndex = Math.floor(start.lonIndex);
+
+	var end: Object = getTileIndicesFromLatLon(viewingArea.top, viewingArea.right, zoomLevel);
+	end.latIndex = Math.ceil(end.latIndex);
+	end.lonIndex = Math.ceil(end.lonIndex);
+
+	var wantedTiles: Array = [];
+
+	for (var latIndex: int = start.latIndex; latIndex<=end.latIndex; latIndex+=1)
+	{
+		for (var lonIndex: int = start.lonIndex; lonIndex<=end.lonIndex; lonIndex+=1)
+		{
+			var wantedTile: Object = {};
+		
+			wantedTile.latIndex = latIndex;
+			wantedTile.lonIndex = lonIndex;
+			wantedTile.zoomIndex = zoomLevel;
+			
+			wantedTile.topLeftLatLon = getLatLonFromTileIndices(latIndex, lonIndex, zoomLevel);
+			wantedTile.bottomRightLatLon = getLatLonFromTileIndices((latIndex+1), (lonIndex+1), zoomLevel);
+		
+			wantedTiles.push(wantedTile);
+		}
+	}
 	
 	for each (wantedTile in wantedTiles)
 	{
@@ -2376,20 +2456,27 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 		
 		_mapTiles[wantedURL].isUsedThisFrame = true;
 	}
+	
+	var areAllLoaded: Boolean = true;
 
 	for (currentURL in _mapTiles)
 	{
-		if (!_mapTiles[currentURL].isUsedThisFrame)
-		{
-			_mapTiles[currentURL].imageLoader = null;
-//			viewer.removeChild(_mapTiles[currentURL].image);
-//			_mapTiles[currentURL].image.source = null;
-//			_mapTiles[currentURL].image = null;
-//			_mapTiles[currentURL].bitmapData = null;
-			delete _mapTiles[currentURL];
-		}	
+		if (_mapTiles[currentURL].isUsedThisFrame&&
+			!_mapTiles[currentURL].imageLoader._isLoaded)
+			areAllLoaded = false;
 	}
-		
+
+	if (areAllLoaded)
+	{
+		for (currentURL in _mapTiles)
+		{
+			if (!_mapTiles[currentURL].isUsedThisFrame)
+			{
+				_mapTiles[currentURL].imageLoader = null;
+				delete _mapTiles[currentURL];
+			}	
+		}
+	}		
 }
 
 private function onMapTileComplete(event:Event):void
