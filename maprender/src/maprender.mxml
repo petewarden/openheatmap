@@ -177,6 +177,11 @@ public var _title: TextField = null;
 
 public var _popups: Array = [];
 
+public var _informationLayerShape:Shape = null;
+public var _informationLayerBitmap: Bitmap = null;
+
+public var _mapTilesDirty: Boolean = true;
+
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -345,6 +350,11 @@ private function setSize(width: Number, height: Number): void
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
+
+	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _oceanColor);
+	_informationLayerBitmap = new Bitmap(bitmapData);
+	_informationLayerBitmap.x = 0;
+	_informationLayerBitmap.y = 0;
 
 	repositionMoveableElements();
 	
@@ -586,11 +596,12 @@ private function doEveryFrame(event: Event): void
 		_valuesDirty = false;		
 	}
 	
-	if (_dirty)
+	if (_dirty||_mapTilesDirty)
 	{		
 		drawMapIntoMainBitmap();
 				
 		_dirty = false;
+		_mapTilesDirty = false;
 		_redrawCountdown = 0;
 	}
 	
@@ -848,6 +859,7 @@ private function loadValuesFromCSVString(valuesString: String): void
 	_valuesDirty = true;
 	_dirty = true;			
 }
+
 private function loadValuesFromFile(valuesFileName: String): void
 {
 	_valuesFileName = valuesFileName;
@@ -855,30 +867,14 @@ private function loadValuesFromFile(valuesFileName: String): void
 	_valuesLoader.addEventListener("complete", onValuesLoad);
 }
 
-private function doRedraw(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
-{		
-	graphics.clear();
-
-	graphics.beginFill(_oceanColor, 1.0);
-   	graphics.drawRect(0, 0, width, height);
-    graphics.endFill();
-    
-	var viewingArea: Rectangle = new Rectangle();
-	
-	var topLeftScreen: Point = new Point(0, 0);
-	var bottomRightScreen: Point = new Point(width, height);
-		
-	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
-	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
-	
-	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
-	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
+private function drawInformationLayer(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
+{    
+    var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
 
     var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 
-	if (_settings.show_map_tiles)	
-		drawMapTiles(graphics, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
-
+	graphics.clear();
+	
 	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
 
@@ -1386,8 +1382,22 @@ private function cropPoint(input: Point, area: Rectangle): Point
 }
 
 private function drawMapIntoMainBitmap(): void
-{		
-	doRedraw(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
+{
+	_mainShape.graphics.clear();
+
+	if (_settings.show_map_tiles)	
+		drawMapTiles(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
+
+	if (_dirty)
+	{			
+		drawInformationLayer(_informationLayerShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
+		_informationLayerBitmap.bitmapData.fillRect(new Rectangle(0, 0, width, height), 0x00000000);
+		_informationLayerBitmap.bitmapData.draw(_informationLayerShape, new Matrix());
+	}
+	
+	_mainShape.graphics.beginBitmapFill(_informationLayerBitmap.bitmapData, new Matrix(), false);
+	_mainShape.graphics.drawRect(0, 0, _settings.width, _settings.height);
+	_mainShape.graphics.endFill();	
 			
 	for each (var inlay: Object in _inlays)
 	{
@@ -1420,7 +1430,7 @@ private function drawMapIntoMainBitmap(): void
 
 		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
 		
-		doRedraw(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+		drawInformationLayer(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 		bitmapData.draw(drawingSurface, new Matrix());
 
 		var inlayMatrix: Matrix = new Matrix();
@@ -1431,6 +1441,7 @@ private function drawMapIntoMainBitmap(): void
 		_mainShape.graphics.endFill();
 	}
 
+	_mainBitmap.bitmapData.fillRect(new Rectangle(0, 0, _settings.width, _settings.height), _oceanColor);
 	_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
 	
 	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
@@ -1522,6 +1533,12 @@ private function createViewerElements(): void
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
+
+	_informationLayerShape = new Shape();
+	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _oceanColor);
+	_informationLayerBitmap = new Bitmap(informationBitmapData);
+	_informationLayerBitmap.x = 0;
+	_informationLayerBitmap.y = 0;
 	
 	_zoomSlider = new VSlider();
 	_zoomSlider.x = 4;
@@ -2327,8 +2344,10 @@ private function createURLForTile(latIndex: Number, lonIndex: Number, zoomIndex:
 	return result;	
 }
 
-private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
+private function drawMapTiles(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
 {
+	var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
+	
 	prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 
 	for (var currentURL: String in _mapTiles)
@@ -2538,6 +2557,22 @@ private function latitudeToMercatorLatitude(latitude: Number): Number
 	var result: Number = (180/Math.PI) * Math.log(Math.tan(Math.PI/4+latitude*(Math.PI/180)/2));
 	
 	return (result/2);
+}
+
+private function calculateViewingArea(width: Number, height: Number, xYToLatLonMatrix: Matrix): Rectangle
+{
+	var viewingArea: Rectangle = new Rectangle();
+	
+	var topLeftScreen: Point = new Point(0, 0);
+	var bottomRightScreen: Point = new Point(width, height);
+		
+	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
+	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
+	
+	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
+	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
+
+	return viewingArea;	
 }
 
 ]]>

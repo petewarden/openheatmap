@@ -57,7 +57,7 @@ package
     		_isLoaded = true;
     		
     		// I know, I know, I should really be sending up an event or something less hacky
-    		_myParent._dirty = true;
+    		_myParent._mapTilesDirty = true;
 		}
 	}
 }
