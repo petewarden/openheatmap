@@ -199,7 +199,7 @@ public function startup():void
 
 	createViewerElements();
 
-	setLatLonViewingArea(90, -180, -90, 180);
+	setLatLonViewingArea(80, -180, -75, 180);
 		    
     viewer.addEventListener( MouseEvent.CLICK, mapMouseClickHandler );
 	// Pete- I'm synthesizing double-click events, see the single click handler for details
@@ -363,6 +363,9 @@ private function setSize(width: Number, height: Number): void
 
 private function setLatLonViewingArea(topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
 {
+	topLat = latitudeToMercatorLatitude(topLat);
+	bottomLat = latitudeToMercatorLatitude(bottomLat);
+	
 	var widthLon: Number = (rightLon-leftLon);
 	var heightLat: Number = (bottomLat-topLat);
 	
@@ -872,8 +875,6 @@ private function drawInformationLayer(graphics: Graphics, width: Number, height:
     var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
 
     var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
-
-	graphics.clear();
 	
 	drawWays(graphics, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
@@ -1354,17 +1355,20 @@ private function getValueForWayId(wayId: String): String
 
 private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: Number, topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
 {
+	var mercatorTopLat: Number = latitudeToMercatorLatitude(topLat);
+	var mercatorBottomLat: Number = latitudeToMercatorLatitude(bottomLat);
+	
 	var width: Number = (rightX-leftX);
 	var height: Number = (bottomY-topY);
 	
 	var widthLon: Number = (rightLon-leftLon);
-	var heightLat: Number = (bottomLat-topLat);
+	var heightLat: Number = (mercatorBottomLat-mercatorTopLat);
 	
 	var scaleX: Number = (width/widthLon);
 	var scaleY: Number = (height/heightLat);
 
 	var latLonToXYMatrix: Matrix = new Matrix();
-	latLonToXYMatrix.translate(-leftLon, -topLat);
+	latLonToXYMatrix.translate(-leftLon, -mercatorTopLat);
 	latLonToXYMatrix.scale(scaleX, scaleY);	
 
 	var xYToLatLonMatrix: Matrix = latLonToXYMatrix.clone();
@@ -1408,11 +1412,15 @@ private function drawMapIntoMainBitmap(): void
 {
 	_mainShape.graphics.clear();
 
-	if (_settings.show_map_tiles)	
+	if (_settings.show_map_tiles)
+	{
+		trackMapTilesUsage();
 		drawMapTiles(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
+	}
 
 	if (_dirty)
 	{			
+		_informationLayerShape.graphics.clear();
 		drawInformationLayer(_informationLayerShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
 		_informationLayerBitmap.bitmapData.fillRect(new Rectangle(0, 0, width, height), 0x00000000);
 		_informationLayerBitmap.bitmapData.draw(_informationLayerShape, new Matrix());
@@ -1450,8 +1458,10 @@ private function drawMapIntoMainBitmap(): void
 		croppedXYToLatLonMatrix.invert();
 		
 		var drawingSurface: Shape = new Shape();
-
-		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, false, _oceanColor);
+		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, true, (_oceanColor|0xff000000));
+		
+		if (_settings.show_map_tiles)	
+			drawMapTiles(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 		
 		drawInformationLayer(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 		bitmapData.draw(drawingSurface, new Matrix());
@@ -1469,6 +1479,11 @@ private function drawMapIntoMainBitmap(): void
 	
 	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
 	_mainBitmapBottomRightLatLon = getLatLonFromXY(new Point(_settings.width, _settings.height), _xYToLatLonMatrix);
+
+	if (_settings.show_map_tiles)
+	{
+		deleteUnusedMapTiles();
+	}
 }
 
 private function drawMainBitmapIntoViewer(): void
@@ -2371,9 +2386,9 @@ private function drawMapTiles(graphics: Graphics, width: Number, height: Number,
 {
 	var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
 	
-	prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+	var wantedTiles: Array = prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 
-	for (var currentURL: String in _mapTiles)
+	for each (var currentURL: String in wantedTiles)
 	{
 		var tile: Object = _mapTiles[currentURL];
 		if (!tile.imageLoader._isLoaded)
@@ -2449,14 +2464,9 @@ private function getLatLonFromTileIndices(latIndex: Number, lonIndex: Number, zo
 	return result;
 }
 
-private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): void
+private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): Array
 {	
-	for (var currentURL: String in _mapTiles)
-	{
-		_mapTiles[currentURL].isUsedThisFrame = false;	
-	}
-
-	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+	var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
 	
 	var zoomPixelsPerDegreeLatitude: Number = (_settings.map_tile_height/_settings.world_lat_height);
 	var zoomLevel: int = 0;
@@ -2499,6 +2509,8 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 		}
 	}
 	
+	var result: Array = [];
+	
 	for each (wantedTile in wantedTiles)
 	{
 		var wantedURL: String = createURLForTile(wantedTile.latIndex, wantedTile.lonIndex, wantedTile.zoomIndex);
@@ -2514,28 +2526,11 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 		}
 		
 		_mapTiles[wantedURL].isUsedThisFrame = true;
+		
+		result.push(wantedURL);
 	}
 	
-	var areAllLoaded: Boolean = true;
-
-	for (currentURL in _mapTiles)
-	{
-		if (_mapTiles[currentURL].isUsedThisFrame&&
-			!_mapTiles[currentURL].imageLoader._isLoaded)
-			areAllLoaded = false;
-	}
-
-	if (areAllLoaded)
-	{
-		for (currentURL in _mapTiles)
-		{
-			if (!_mapTiles[currentURL].isUsedThisFrame)
-			{
-				_mapTiles[currentURL].imageLoader = null;
-				delete _mapTiles[currentURL];
-			}	
-		}
-	}		
+	return result;
 }
 
 private function onMapTileComplete(event:Event):void
@@ -2596,6 +2591,38 @@ private function calculateViewingArea(width: Number, height: Number, xYToLatLonM
 	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
 
 	return viewingArea;	
+}
+
+private function trackMapTilesUsage(): void
+{
+	for (var currentURL: String in _mapTiles)
+	{
+		_mapTiles[currentURL].isUsedThisFrame = false;	
+	}	
+}
+
+private function deleteUnusedMapTiles(): void
+{
+	var areAllLoaded: Boolean = true;
+
+	for (var currentURL: String in _mapTiles)
+	{
+		if (_mapTiles[currentURL].isUsedThisFrame&&
+			!_mapTiles[currentURL].imageLoader._isLoaded)
+			areAllLoaded = false;
+	}
+
+	if (areAllLoaded)
+	{
+		for (currentURL in _mapTiles)
+		{
+			if (!_mapTiles[currentURL].isUsedThisFrame)
+			{
+				_mapTiles[currentURL].imageLoader = null;
+				delete _mapTiles[currentURL];
+			}	
+		}
+	}			
 }
 
 ]]>
