@@ -167,7 +167,8 @@ public var _settings: Object =
 	map_tile_origin_lon: -180,
 	map_tile_match_factor: 1.2,
 	world_lat_height: -170.102258,
-	world_lon_width: 360
+	world_lon_width: 360,
+	inlay_border_color: '0x000000'
 };
 
 public var _lastSetWayIds: Object = {};
@@ -352,7 +353,7 @@ private function setSize(width: Number, height: Number): void
 	_mainBitmap.y = 0;
 
 	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _oceanColor);
-	_informationLayerBitmap = new Bitmap(bitmapData);
+	_informationLayerBitmap = new Bitmap(informationBitmapData);
 	_informationLayerBitmap.x = 0;
 	_informationLayerBitmap.y = 0;
 
@@ -1464,6 +1465,26 @@ private function drawMapIntoMainBitmap(): void
 			drawMapTiles(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 		
 		drawInformationLayer(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+		
+		var borderTopLeft: Point = screenTopLeft.subtract(croppedScreenTopLeft);
+		var borderBottomRight: Point = screenBottomRight.subtract(croppedScreenTopLeft).subtract(new Point(1, 1));
+		
+		borderTopLeft.x = Math.floor(borderTopLeft.x);
+		borderTopLeft.y = Math.floor(borderTopLeft.y);
+		
+		borderBottomRight.x = Math.floor(borderBottomRight.x);
+		borderBottomRight.y = Math.floor(borderBottomRight.y);
+		
+		if (_settings.show_map_tiles)
+		{
+			drawingSurface.graphics.lineStyle(1, _settings.inlay_border_color, 1.0);
+			drawingSurface.graphics.moveTo(borderTopLeft.x, borderTopLeft.y);
+			drawingSurface.graphics.lineTo(borderBottomRight.x, borderTopLeft.y);
+			drawingSurface.graphics.lineTo(borderBottomRight.x, borderBottomRight.y);
+			drawingSurface.graphics.lineTo(borderTopLeft.x, borderBottomRight.y);
+			drawingSurface.graphics.lineTo(borderTopLeft.x, borderTopLeft.y);
+		}
+		
 		bitmapData.draw(drawingSurface, new Matrix());
 
 		var inlayMatrix: Matrix = new Matrix();
