@@ -47,7 +47,6 @@ public var _mainShape:Shape = null;
 public var _mainBitmap: Bitmap = null;
 public var _dirty: Boolean = true;
 public var _redrawCountdown: int = 0;
-public var _oceanColor: Number = 0xd0e0ff;
 
 public var _wayDefaults: Object = {
 	color: 0x000000,
@@ -60,8 +59,6 @@ public var _colorGradient: Array = [
 	{alpha: 0x7f, red: 0xe0, green: 0xe0, blue: 0x00},
 	{alpha: 0xff, red: 0xff, green: 0x00, blue: 0x00},
 ];
-
-public var _highlightColor: Number = 0xff0000;
 
 public var _onClickFunction: String = null;
 public var _onDoubleClickFunction: String = null;
@@ -168,7 +165,8 @@ public var _settings: Object =
 	map_tile_match_factor: 1.2,
 	world_lat_height: -170.102258,
 	world_lon_width: 360,
-	inlay_border_color: '0x000000'
+	inlay_border_color: 0x000000,
+	ocean_color: 0xd0e0ff
 };
 
 public var _lastSetWayIds: Object = {};
@@ -219,7 +217,6 @@ public function startup():void
 	
 	ExternalInterface.addCallback("setSize", setSize);      	
 	ExternalInterface.addCallback("setLatLonViewingArea", setLatLonViewingArea);      	
-	ExternalInterface.addCallback("setOceanColor", function(color: Number): void { _oceanColor = color; _dirty = true; });
 	ExternalInterface.addCallback("setWayDefault", setWayDefault);
 	ExternalInterface.addCallback('setEventHandler', setEventHandler);
 	ExternalInterface.addCallback("loadWaysFromFile", loadWaysFromFile);      	
@@ -347,12 +344,12 @@ private function setSize(width: Number, height: Number): void
 //	if (_timelineControls !== null)
 //		_timelineControls.setWidth(width);
 
-	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _settings.ocean_color);
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
 
-	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _oceanColor);
+	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _settings.ocean_color);
 	_informationLayerBitmap = new Bitmap(informationBitmapData);
 	_informationLayerBitmap.x = 0;
 	_informationLayerBitmap.y = 0;
@@ -1459,7 +1456,7 @@ private function drawMapIntoMainBitmap(): void
 		croppedXYToLatLonMatrix.invert();
 		
 		var drawingSurface: Shape = new Shape();
-		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, true, (_oceanColor|0xff000000));
+		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, true, (_settings.ocean_color|0xff000000));
 		
 		if (_settings.show_map_tiles)	
 			drawMapTiles(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
@@ -1495,7 +1492,7 @@ private function drawMapIntoMainBitmap(): void
 		_mainShape.graphics.endFill();
 	}
 
-	_mainBitmap.bitmapData.fillRect(new Rectangle(0, 0, _settings.width, _settings.height), _oceanColor);
+	_mainBitmap.bitmapData.fillRect(new Rectangle(0, 0, _settings.width, _settings.height), _settings.ocean_color);
 	_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
 	
 	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
@@ -1588,13 +1585,13 @@ private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, d
 private function createViewerElements(): void
 {
 	_mainShape = new Shape();
-	var bitmapData:BitmapData = new BitmapData(width, height, false, _oceanColor);
+	var bitmapData:BitmapData = new BitmapData(width, height, false, _settings.ocean_color);
 	_mainBitmap = new Bitmap(bitmapData);
 	_mainBitmap.x = 0;
 	_mainBitmap.y = 0;
 
 	_informationLayerShape = new Shape();
-	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _oceanColor);
+	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _settings.ocean_color);
 	_informationLayerBitmap = new Bitmap(informationBitmapData);
 	_informationLayerBitmap.x = 0;
 	_informationLayerBitmap.y = 0;
@@ -2194,10 +2191,14 @@ private function setSetting(key: String, value: String): void
 		return;
 	}
 	
-	if (typeof _settings[key] === "Number")
-		_settings[key] = value as Number;
+	if (typeof _settings[key] === "boolean")
+	{
+		_settings[key] = (value==true);
+	}
 	else
+	{
 		_settings[key] = value;
+	}
 		
 	var changeHandlers: Object =
 	{
@@ -2237,8 +2238,23 @@ private function setSetting(key: String, value: String): void
         		(_settings.gradient_value_max!=0));
             _valuesDirty = true;
             _dirty = true;
+        },
+        'ocean_color': function(): void {
+        	if (typeof _settings.ocean_color === 'string')
+        	{
+        		_settings.ocean_color = _settings.ocean_color.replace('#', '0x');
+        		_settings.ocean_color = (Number)(_settings.ocean_color);
+        	}
+        },
+        'title_background_color': function(): void {
+        	if (typeof _settings.title_background_color === 'string')
+        	{
+        		_settings.title_background_color = _settings.title_background_color.replace('#', '0x');
+        		_settings.title_background_color = (Number)(_settings.title_background_color);
+        	}
+			_title.backgroundColor = _settings.title_background_color;
         }
-	}
+   	}
 	
 	if (changeHandlers.hasOwnProperty(key))
 		changeHandlers[key]();
