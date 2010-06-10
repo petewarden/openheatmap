@@ -2341,7 +2341,7 @@ private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLon
 		bitmapTransform.scale((screenWidth/_settings.map_tile_width), (screenHeight/_settings.map_tile_height));
 		bitmapTransform.translate(screenLeft, screenTop);
 	
-		graphics.beginBitmapFill(tile.imageLoader._bitmapData, bitmapTransform, false);
+		graphics.beginBitmapFill(tile.imageLoader._bitmapData, bitmapTransform, false, true);
 		graphics.drawRect(screenLeft, screenTop, screenWidth, screenHeight);
 		graphics.endFill();
 	}
