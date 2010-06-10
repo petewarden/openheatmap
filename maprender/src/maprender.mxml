@@ -875,16 +875,39 @@ private function drawInformationLayer(graphics: Graphics, width: Number, height:
 
 	graphics.clear();
 	
-	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
+	drawWays(graphics, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
 
-private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
+private function drawWays(graphics: Graphics, width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
 {
 	var hasBitmap: Boolean = (bitmapBackground!==null);
 	var bitmapMatrix: Matrix = new Matrix();
 	bitmapMatrix.scale(_bitmapBackgroundResolution, _bitmapBackgroundResolution);
 	
+	var waysEmpty: Boolean = true;
 	for (var wayId:String in _ways)
+	{
+		waysEmpty = false;
+		break;
+	}
+	
+	if (hasBitmap&&waysEmpty)
+	{
+		graphics.lineStyle();
+		graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
+
+		graphics.moveTo(0, 0);
+		graphics.lineTo(width, 0);
+		graphics.lineTo(width, height);
+		graphics.lineTo(0, height);
+		graphics.lineTo(0, 0);
+		
+		graphics.endFill();
+				
+		return;
+	}
+	
+	for (wayId in _ways)
 	{
 		var way: Object = _ways[wayId];
 		var wayColor: Number;
