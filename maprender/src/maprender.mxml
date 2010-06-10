@@ -159,13 +159,14 @@ public var _settings: Object =
 	time_range_start: null,
 	time_range_end: null,
     force_outlines: false,
+    show_map_tiles: false,
     map_server_root: 'http://a.tile.openstreetmap.org/',
     map_tile_width: 256,
     map_tile_height: 256,
-	map_tile_origin_lat: 90,
+	map_tile_origin_lat: 85.05112877980659,
 	map_tile_origin_lon: -180,
 	map_tile_match_factor: 1.2,
-	world_lat_height: -180,
+	world_lat_height: -170.102258,
 	world_lon_width: 360
 };
 
@@ -376,7 +377,7 @@ private function setLatLonToXYMatrix(newMatrix: Matrix): void
 
 private function getXYFromLatLon(latLon: Object, latLonToXYMatrix: Matrix): Point
 {
-	var latLonPoint: Point = new Point(latLon.lon, latLon.lat);
+	var latLonPoint: Point = new Point(latLon.lon, latitudeToMercatorLatitude(latLon.lat));
 	
 	var result: Point = latLonToXYMatrix.transformPoint(latLonPoint);
 
@@ -388,7 +389,7 @@ private function getLatLonFromXY(xYPoint: Point, xYToLatLonMatrix: Matrix): Obje
 	var latLonPoint: Point = xYToLatLonMatrix.transformPoint(xYPoint);
 	
 	var result: Object = {
-			lat: latLonPoint.y,
+			lat: mercatorLatitudeToLatitude(latLonPoint.y),
 			lon: latLonPoint.x
 	}
 	
@@ -875,9 +876,10 @@ private function doRedraw(graphics: Graphics, width: Number, height: Number, lat
 
     var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 
+	if (_settings.show_map_tiles)	
+		drawMapTiles(graphics, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+
 	drawWays(graphics, viewingArea, latLonToXYMatrix, bitmapBackground);
-	
-	drawMapTiles(graphics, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 }
 
 private function drawWays(graphics: Graphics, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
@@ -2347,14 +2349,17 @@ private function drawMapTiles(graphics: Graphics, viewingArea: Rectangle, latLon
 
 private function getTileIndicesFromLatLon(lat: Number, lon: Number, zoomLevel: int): Object
 {
+	var mercatorLatitudeOrigin: Number = latitudeToMercatorLatitude(_settings.map_tile_origin_lat);
+	var mercatorLatitudeHeight: Number = latitudeToMercatorLatitude(_settings.world_lat_height+_settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
+	
 	var zoomTileCount: Number = (1<<zoomLevel);
-	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/_settings.world_lat_height)*zoomTileCount);
+	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
 	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
 
 	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
 	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
 
-	var latIndex: Number = ((lat-_settings.map_tile_origin_lat)/tileHeightInDegrees);
+	var latIndex: Number = ((latitudeToMercatorLatitude(lat)-mercatorLatitudeOrigin)/tileHeightInDegrees);
 	latIndex = Math.max(latIndex, 0);
 	latIndex = Math.min(latIndex, (zoomTileCount-1));
 	
@@ -2372,18 +2377,21 @@ private function getTileIndicesFromLatLon(lat: Number, lon: Number, zoomLevel: i
 
 private function getLatLonFromTileIndices(latIndex: Number, lonIndex: Number, zoomLevel: int): Object
 {
+	var mercatorLatitudeOrigin: Number = latitudeToMercatorLatitude(_settings.map_tile_origin_lat);
+	var mercatorLatitudeHeight: Number = latitudeToMercatorLatitude(_settings.world_lat_height+_settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
+ 	
 	var zoomTileCount: Number = (1<<zoomLevel);
-	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/_settings.world_lat_height)*zoomTileCount);
+	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
 	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
 
 	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
 	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
 
-	var lat: Number = ((latIndex*tileHeightInDegrees)+_settings.map_tile_origin_lat);
+	var lat: Number = ((latIndex*tileHeightInDegrees)+mercatorLatitudeOrigin);
 	var lon: Number = ((lonIndex*tileWidthInDegrees)+_settings.map_tile_origin_lon);
 	
 	var result: Object = {
-		lat: lat,
+		lat: mercatorLatitudeToLatitude(lat),
 		lon: lon
 	};
 	
@@ -2507,6 +2515,20 @@ private function onMapTileLoaded(event:Event):void
     _mapTiles[sourceURL].isLoaded = true;
     
     _dirty = true;
+}
+
+private function mercatorLatitudeToLatitude(mercatorLatitude: Number): Number
+{
+	var result: Number = (180/Math.PI) * (2 * Math.atan(Math.exp((mercatorLatitude*2)*Math.PI/180)) - Math.PI/2);
+	
+	return result;
+}
+
+private function latitudeToMercatorLatitude(latitude: Number): Number
+{ 
+	var result: Number = (180/Math.PI) * Math.log(Math.tan(Math.PI/4+latitude*(Math.PI/180)/2));
+	
+	return (result/2);
 }
 
 ]]>
