@@ -56,9 +56,9 @@ public var _wayDefaults: Object = {
 };
 
 public var _colorGradient: Array = [
-	{red: 0x00, green: 0xb0, blue: 0x00},
-	{red: 0xe0, green: 0xe0, blue: 0x00},
-	{red: 0xff, green: 0x00, blue: 0x00},
+	{alpha: 0x00, red: 0x00, green: 0xb0, blue: 0x00},
+	{alpha: 0x7f, red: 0xe0, green: 0xe0, blue: 0x00},
+	{alpha: 0xff, red: 0xff, green: 0x00, blue: 0x00},
 ];
 
 public var _highlightColor: Number = 0xff0000;
@@ -1037,11 +1037,19 @@ private function setColorGradient(colorList: Array) : void
 		colorString = colorString.replace('#', '0x');
 		
 		var colorNumber: Number = (Number)(colorString);
+		
+		var alpha: Number;
+		if (colorString.length>8)
+			alpha = (colorNumber&0xff000000)>>24;
+		else
+			alpha = 0x7f;		
+		
 		var red: Number = (colorNumber&0xff0000)>>16;
 		var green: Number = (colorNumber&0x00ff00)>>8;
 		var blue: Number = (colorNumber&0x0000ff)>>0;
 		
 		_colorGradient.push({
+			alpha: alpha,
 			red: red,
 			green: green,
 			blue: blue
@@ -1872,7 +1880,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	var heightLat: Number = (bottomLat-topLat);
 	var stepLat: Number = (heightLat/bitmapHeight);
 	
-	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, false, 0xffff00);
+	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
 	
 	var pixelData: ByteArray = new ByteArray();
 	
@@ -2044,11 +2052,12 @@ private function getColorForValue(thisValue: Number, minValue: Number, maxValue:
 	var lowerValue: Object = _colorGradient[lowerIndex];
 	var higherValue: Object = _colorGradient[higherIndex];
 	
+	var alpha: int = (int)((lowerValue.alpha*oneMinusLerp)+(higherValue.alpha*lerpValue));
 	var red: int = (int)((lowerValue.red*oneMinusLerp)+(higherValue.red*lerpValue));
 	var green: int = (int)((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
 	var blue: int = (int)((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
 	
-	var setColor: int = ((red<<16)|(green<<8)|(blue<<0));
+	var setColor: int = ((alpha<<24)|(red<<16)|(green<<8)|(blue<<0));
 	
 	return setColor;
 }
