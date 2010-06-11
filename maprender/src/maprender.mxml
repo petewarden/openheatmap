@@ -166,7 +166,8 @@ public var _settings: Object =
 	world_lat_height: -170.102258,
 	world_lon_width: 360,
 	inlay_border_color: 0x000000,
-	ocean_color: 0xd0e0ff
+	ocean_color: 0xd0e0ff,
+	information_alpha: 1.0
 };
 
 public var _lastSetWayIds: Object = {};
@@ -1054,23 +1055,27 @@ private function setColorGradient(colorList: Array) : void
 	{
 		colorString = colorString.replace('#', '0x');
 		
-		var colorNumber: Number = (Number)(colorString);
+		var colorNumber: uint = (uint)(colorString);
 		
-		var alpha: Number;
+		var alpha: uint;
 		if (colorString.length>8)
-			alpha = (colorNumber&0xff000000)>>24;
+			alpha = (colorNumber>>24)&0xff;
 		else
 			alpha = 0x7f;		
 		
-		var red: Number = (colorNumber&0xff0000)>>16;
-		var green: Number = (colorNumber&0x00ff00)>>8;
-		var blue: Number = (colorNumber&0x0000ff)>>0;
+		var red: uint = (colorNumber>>16)&0xff;
+		var green: uint = (colorNumber>>8)&0xff;
+		var blue: uint = (colorNumber>>0)&0xff;
+		
+		var premultRed: uint = Math.floor((red*alpha)/255.0);
+		var premultGreen: uint = Math.floor((green*alpha)/255.0);
+		var premultBlue: uint = Math.floor((blue*alpha)/255.0);
 		
 		_colorGradient.push({
 			alpha: alpha,
-			red: red,
-			green: green,
-			blue: blue
+			red: premultRed,
+			green: premultGreen,
+			blue: premultBlue
 		});
 	}
 
@@ -2183,17 +2188,22 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
 	return result;
 }
 
-private function setSetting(key: String, value: String): void
+private function setSetting(key: String, value: *): void
 {
 	if (!_settings.hasOwnProperty(key))
 	{
 		logError('Unknown key in setSetting('+key+')');
 		return;
 	}
-	
+
 	if (typeof _settings[key] === "boolean")
-	{
-		_settings[key] = (value==true);
+	{	
+		if (typeof value === 'string')
+		{
+			value = (value==='true');
+		}
+			
+		_settings[key] = (Boolean)(value);
 	}
 	else
 	{
@@ -2253,6 +2263,14 @@ private function setSetting(key: String, value: String): void
         		_settings.title_background_color = (Number)(_settings.title_background_color);
         	}
 			_title.backgroundColor = _settings.title_background_color;
+        },
+        'show_map_tiles': function(): void {
+        	if (typeof _settings.show_map_tiles==='string')
+        		_settings.show_map_tiles = (Boolean)(_settings.show_map_tiles);
+            _mapTilesDirty = true;
+        },
+        'information_alpha': function(): void {
+        	setWayDefault('alpha', _settings.information_alpha);
         }
    	}
 	
