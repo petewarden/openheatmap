@@ -1955,7 +1955,10 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	
 	var topLat: Number = viewingArea.bottom;
 	var bottomLat: Number = viewingArea.top;
-	var heightLat: Number = (bottomLat-topLat);
+
+	var topLatMercator: Number = latitudeToMercatorLatitude(topLat);
+	var bottomLatMercator: Number = latitudeToMercatorLatitude(bottomLat);
+	var heightLat: Number = (bottomLatMercator-topLatMercator);
 	var stepLat: Number = (heightLat/bitmapHeight);
 	
 	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
@@ -1968,7 +1971,7 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	var worldPoint: Point = new Point();
 	for (var bitmapY: int = 0; bitmapY<bitmapHeight; bitmapY+=1)
 	{
-		worldPoint.y = (topLat+(stepLat*bitmapY));
+		worldPoint.y = mercatorLatitudeToLatitude(topLatMercator+(stepLat*bitmapY));
 		for (var bitmapX: int = 0; bitmapX<bitmapWidth; bitmapX+=1)
 		{			
 			worldPoint.x = (leftLon+(stepLon*bitmapX));
