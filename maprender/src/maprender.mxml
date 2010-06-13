@@ -2445,7 +2445,26 @@ private function drawMapTiles(graphics: Graphics, width: Number, height: Number,
 	
 	var wantedTiles: Array = prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 
-	for (var currentURL: String in _mapTiles)
+	var areAllLoaded: Boolean = true;
+
+	for each (var currentURL: String in wantedTiles)
+	{
+		if (!_mapTiles[currentURL].imageLoader._isLoaded)
+			areAllLoaded = false;
+	}
+
+	var mapTilesURLs: Array = [];
+	if (areAllLoaded)
+	{
+		mapTilesURLs = wantedTiles;
+	}
+	else
+	{
+		for (currentURL in _mapTiles)
+			mapTilesURLs.push(currentURL);
+	}
+
+	for each (currentURL in mapTilesURLs)
 	{
 		var tile: Object = _mapTiles[currentURL];
 
