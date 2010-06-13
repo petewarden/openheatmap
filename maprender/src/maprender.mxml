@@ -600,10 +600,9 @@ private function doEveryFrame(event: Event): void
 	
 	if (_dirty||_mapTilesDirty)
 	{		
-		drawMapIntoMainBitmap();
-				
+		drawMapIntoMainBitmap();				
+
 		_dirty = false;
-		_mapTilesDirty = false;
 		_redrawCountdown = 0;
 	}
 	
@@ -2446,9 +2445,13 @@ private function drawMapTiles(graphics: Graphics, width: Number, height: Number,
 	
 	var wantedTiles: Array = prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
 
-	for each (var currentURL: String in wantedTiles)
+	for (var currentURL: String in _mapTiles)
 	{
 		var tile: Object = _mapTiles[currentURL];
+
+		if (!viewingArea.intersects(tile.boundingBox))
+			continue;
+
 		if (!tile.imageLoader._isLoaded)
 			continue;
 		
@@ -2562,6 +2565,10 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 			
 			wantedTile.topLeftLatLon = getLatLonFromTileIndices(latIndex, lonIndex, zoomLevel);
 			wantedTile.bottomRightLatLon = getLatLonFromTileIndices((latIndex+1), (lonIndex+1), zoomLevel);
+
+			wantedTile.boundingBox = new Rectangle();			
+			wantedTile.boundingBox = enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.topLeftLatLon.lon, wantedTile.topLeftLatLon.lat));
+			wantedTile.boundingBox = enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.bottomRightLatLon.lon, wantedTile.bottomRightLatLon.lat));	
 		
 			wantedTiles.push(wantedTile);
 		}
@@ -2581,6 +2588,7 @@ private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matri
 			
 			_mapTiles[wantedURL].topLeftLatLon = wantedTile.topLeftLatLon;
 			_mapTiles[wantedURL].bottomRightLatLon = wantedTile.bottomRightLatLon;
+			_mapTiles[wantedURL].boundingBox = wantedTile.boundingBox;
 		}
 		
 		_mapTiles[wantedURL].isUsedThisFrame = true;
@@ -2670,6 +2678,8 @@ private function deleteUnusedMapTiles(): void
 			areAllLoaded = false;
 	}
 
+	_mapTilesDirty = false;
+	
 	if (areAllLoaded)
 	{
 		for (currentURL in _mapTiles)
@@ -2678,6 +2688,7 @@ private function deleteUnusedMapTiles(): void
 			{
 				_mapTiles[currentURL].imageLoader = null;
 				delete _mapTiles[currentURL];
+				_mapTilesDirty = true;
 			}	
 		}
 	}			
