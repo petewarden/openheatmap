@@ -598,7 +598,7 @@ private function doEveryFrame(event: Event): void
 		_valuesDirty = false;		
 	}
 	
-	if (_dirty||_mapTilesDirty)
+	if (_dirty||(_mapTilesDirty&&(_redrawCountdown===0)))
 	{		
 		drawMapIntoMainBitmap();				
 
