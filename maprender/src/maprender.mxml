@@ -241,6 +241,7 @@ public function startup():void
 	ExternalInterface.addCallback("addPopup", addPopup);
 	ExternalInterface.addCallback("removeAllPopups", removeAllPopups);
 	ExternalInterface.addCallback("getValueHeaders", getValueHeaders);
+	ExternalInterface.addCallback("addPopupAtScreenPosition", addPopupAtScreenPosition);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -2717,6 +2718,13 @@ private function deleteUnusedMapTiles(): void
 private function getValueHeaders(): Array
 {
 	return _valueHeaders;	
+}
+
+private function addPopupAtScreenPosition(x: Number, y: Number, text: String): void
+{
+	var latLon: Object = getLatLonFromXY(new Point(x, y), _xYToLatLonMatrix);
+	
+	addPopup(latLon.lat, latLon.lon, text);	
 }
 
 ]]>
