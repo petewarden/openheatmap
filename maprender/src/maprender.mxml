@@ -72,6 +72,7 @@ public var _onDataChangeFunction: String = null;
 public var _onWaysLoadFunction: String = null;
 public var _onValuesLoadFunction: String = null;
 public var _onErrorFunction: String = null;
+public var _onViewChangeFunction: String = null;
 
 public var _nodes: Object = {};
 public var _ways: Object = {};
@@ -332,9 +333,11 @@ private function setEventHandler(eventName: String, functionName: String): void
 		_onValuesLoadFunction = functionName;
 	else if (eventName == 'error')
 		_onErrorFunction = functionName;
+	else if (eventName == 'viewchange')
+		_onViewChangeFunction = functionName;
 	else
 		logError( 'Unknown event name passed to MapRender::setEventHandler - "'+
-			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender, datachange, waysload, valuesload or error)');
+			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender, datachange, waysload, valuesload, error or viewchange)');
 }
 
 private function setSize(width: Number, height: Number): void
@@ -486,6 +489,8 @@ private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 		var zoomFactor: Number = 2.0;
 		
 		zoomMapByFactorAroundPoint(zoomFactor, center);
+		
+		onViewChange();	
 	}
 		
 	return true;
@@ -529,6 +534,8 @@ private function mapMouseUpHandler( event:MouseEvent ): Boolean
 			translateMapByScreenPixels(positionChange.x, positionChange.y, false);
 	
 			_isDragging = false;
+			
+			onViewChange();
 		}
 	}
 	
@@ -1675,6 +1682,8 @@ private function onZoomThumbDrag( event: SliderEvent ): void
 	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
 	
 	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, true);
+
+	onViewChange();
 }
 
 private function onZoomThumbRelease( event: SliderEvent ): void
@@ -1682,6 +1691,8 @@ private function onZoomThumbRelease( event: SliderEvent ): void
 	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
 	
 	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, false);	
+
+	onViewChange();
 }
 
 private function getPixelsPerDegreeLatitude(): Number
@@ -1772,6 +1783,12 @@ private function logError(message: String): void
 	trace('Error: '+message);
 	if (_onErrorFunction!==null)
 		ExternalInterface.call(_onErrorFunction, message);	
+}
+
+private function onViewChange(): void
+{
+	if (_onViewChangeFunction!==null)
+		ExternalInterface.call(_onViewChangeFunction, null);	
 }
 
 private function getWayForWayId(wayId: String): Object
