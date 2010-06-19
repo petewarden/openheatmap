@@ -124,7 +124,6 @@ public var MinusImage:Class;
 public var _foundTimes: Object = {};
 
 public var _hasBitmapBackground: Boolean = false;
-public var _bitmapBackgroundResolution: int = 2;
 
 public var _hasPointValues: Boolean = false;
 public var _latitudeColumnIndex: int = -1;
@@ -167,7 +166,9 @@ public var _settings: Object =
 	world_lon_width: 360,
 	inlay_border_color: 0x000000,
 	ocean_color: 0xd0e0ff,
-	information_alpha: 1.0
+	information_alpha: 1.0,
+	is_point_blob_radius_in_pixels: false,
+	point_bitmap_scale: 2
 };
 
 public var _lastSetWayIds: Object = {};
@@ -883,7 +884,7 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 {
 	var hasBitmap: Boolean = (bitmapBackground!==null);
 	var bitmapMatrix: Matrix = new Matrix();
-	bitmapMatrix.scale(_bitmapBackgroundResolution, _bitmapBackgroundResolution);
+	bitmapMatrix.scale(_settings.point_bitmap_scale, _settings.point_bitmap_scale);
 	
 	var waysEmpty: Boolean = true;
 	for (var wayId:String in _ways)
@@ -1888,7 +1889,16 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 	if (!_hasPointValues)
 		return null;
 
-	var blobRadius: Number = _settings.point_blob_radius;
+	var blobRadius: Number;
+	if (_settings.is_point_blob_radius_in_pixels)
+	{	
+		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
+		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
+	}
+	else
+	{
+		blobRadius = _settings.point_blob_radius;	
+	}
 	var twoBlobRadius: Number = (2*blobRadius);
 	var blobRadiusSquared: Number = (blobRadius*blobRadius);
 	var pointBlobValue: Number = _settings.point_blob_value;
@@ -1946,8 +1956,8 @@ private function createBitmapBackground(width: Number, height: Number, viewingAr
 		index += 1;
 	}	
 	
-	var bitmapWidth: Number = (width/_bitmapBackgroundResolution);
-	var bitmapHeight: Number = (height/_bitmapBackgroundResolution);
+	var bitmapWidth: Number = (width/_settings.point_bitmap_scale);
+	var bitmapHeight: Number = (height/_settings.point_bitmap_scale);
 	
 	var leftLon: Number = viewingArea.left;
 	var rightLon: Number = viewingArea.right;
@@ -2392,7 +2402,7 @@ private function addPopup(lat: Number, lon: Number, text: String): void
 	popup.uiComponent.validateNow();
 	
 	popup.uiComponent.width = (popup.uiComponent.textWidth+10);
-	popup.uiComponent.height = (popup.uiComponent.textHeight+5);
+	popup.uiComponent.height = (popup.uiComponent.textHeight+20);
 	popup.uiComponent.x = (screenPos.x-popup.uiComponent.width);
 	popup.uiComponent.y = (screenPos.y-popup.uiComponent.height);
 

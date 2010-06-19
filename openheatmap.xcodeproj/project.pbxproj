@@ -9,6 +9,14 @@
 /* Begin PBXFileReference section */
 		590D2C2911CAB31100954586 /* crawlelectiondata.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = crawlelectiondata.php; path = mapfileprocess/crawlelectiondata.php; sourceTree = "<group>"; };
 		590D2C3011CACE8B00954586 /* crawlallelectiondata.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = crawlallelectiondata.sh; path = mapfileprocess/crawlallelectiondata.sh; sourceTree = "<group>"; };
+		590D2C3211CAF3CF00954586 /* flickrfetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flickrfetch.php; path = mapfileprocess/flickrfetch.php; sourceTree = "<group>"; };
+		590D2C3611CBC34700954586 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		590D2C3711CBC62600954586 /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = config.php; sourceTree = "<group>"; };
+		590D2C3911CBC86100954586 /* oauth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = oauth.php; sourceTree = "<group>"; };
+		590D2C3A11CBC86100954586 /* twitteroauth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = twitteroauth.php; sourceTree = "<group>"; };
+		590D2C3B11CBC86100954586 /* oauthutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = oauthutils.php; sourceTree = "<group>"; };
+		590D2C3C11CBC86100954586 /* peteutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = peteutils.php; sourceTree = "<group>"; };
+		590D2C3D11CC128F00954586 /* updates.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = updates.php; sourceTree = "<group>"; };
 		590D907E11BB047B00D4F8C1 /* thanks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = thanks.html; path = website/thanks.html; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
@@ -72,6 +80,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		590D2C3511CBC34700954586 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				590D2C3711CBC62600954586 /* config.php */,
+				590D2C3611CBC34700954586 /* index.php */,
+				590D2C3811CBC86100954586 /* oauth */,
+				590D2C3B11CBC86100954586 /* oauthutils.php */,
+				590D2C3C11CBC86100954586 /* peteutils.php */,
+				590D2C3D11CC128F00954586 /* updates.php */,
+			);
+			name = twitter;
+			path = website/examples/twitter;
+			sourceTree = "<group>";
+		};
+		590D2C3811CBC86100954586 /* oauth */ = {
+			isa = PBXGroup;
+			children = (
+				590D2C3911CBC86100954586 /* oauth.php */,
+				590D2C3A11CBC86100954586 /* twitteroauth.php */,
+			);
+			path = oauth;
+			sourceTree = "<group>";
+		};
 		594A3A8811A41DCB00E2F4CE = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +125,7 @@
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				590D907F11BC2B5E00D4F8C1 /* cropways.php */,
 				59820B7B11A44A9F0047D5FC /* csvtojson.php */,
+				590D2C3211CAF3CF00954586 /* flickrfetch.php */,
 				59820B7C11A44A9F0047D5FC /* forceclosedways.php */,
 				59820CE611A87B390047D5FC /* geomutils.php */,
 				59820B7D11A44A9F0047D5FC /* mergeosmfiles.php */,
@@ -179,6 +211,7 @@
 			children = (
 				59820D4711AB15060047D5FC /* hello_world */,
 				59820B9211A44B540047D5FC /* map_data_viewer */,
+				590D2C3511CBC34700954586 /* twitter */,
 				59820B9111A44B450047D5FC /* us_unemployment_county */,
 				59820B8F11A44B290047D5FC /* world_bank_data */,
 			);
