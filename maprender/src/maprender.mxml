@@ -42,6 +42,7 @@ import mx.events.FlexEvent;
 import TimelineControls;
 import BucketGrid;
 import ExternalImageView;
+import Delaunay;
 
 public var _mainShape:Shape = null;
 public var _mainBitmap: Bitmap = null;
@@ -169,7 +170,8 @@ public var _settings: Object =
 	ocean_color: 0xd0e0ff,
 	information_alpha: 1.0,
 	is_point_blob_radius_in_pixels: false,
-	point_bitmap_scale: 2
+	point_bitmap_scale: 2,
+	interpolate_point_values: false
 };
 
 public var _lastSetWayIds: Object = {};
@@ -183,6 +185,8 @@ public var _informationLayerShape:Shape = null;
 public var _informationLayerBitmap: Bitmap = null;
 
 public var _mapTilesDirty: Boolean = true;
+
+public var _triangulation: Object = null;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -882,7 +886,11 @@ private function drawInformationLayer(graphics: Graphics, width: Number, height:
 {    
     var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
 
-    var bitmapBackground: BitmapData = createBitmapBackground(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+    var bitmapBackground: BitmapData;
+    if (_settings.interpolate_point_values)
+    	bitmapBackground = drawInterpolatedValueBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+    else
+    	bitmapBackground = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 	
 	drawWays(graphics, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
@@ -1901,7 +1909,7 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
 	return isInside;
 }
 
-private function createBitmapBackground(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+private function drawPointBlobBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
 {
 	if (!_hasPointValues)
 		return null;
@@ -2142,7 +2150,19 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		{
 			_valueData.push(lineValues);		
 		}
-	}	
+	}
+	
+	if (_hasTime)
+	{
+		_triangulation = {};
+		for (thisTime in _valueData)
+			_triangulation[thisTime] = triangulateValueData(_valueData[thisTime]);
+	}
+	else
+	{
+		_triangulation = triangulateValueData(_valueData);		
+	}
+		
 }
 
 private function getColorForValue(thisValue: Number, minValue: Number, maxValue: Number, valueScale: Number): int
@@ -2752,6 +2772,106 @@ private function addPopupAtScreenPosition(x: Number, y: Number, text: String): v
 	var latLon: Object = getLatLonFromXY(new Point(x, y), _xYToLatLonMatrix);
 	
 	addPopup(latLon.lat, latLon.lon, text);	
+}
+
+private function triangulateValueData(currentValues: Array): Delaunay
+{
+	var vertices: Array = [];
+	
+	var index: int = 0;
+	for each (var values: Array in currentValues)
+	{
+		var lat: Number = values[_latitudeColumnIndex];
+		var lon: Number = values[_longitudeColumnIndex];
+
+		vertices.push({x: lon, y: lat});
+
+		index += 1;
+	}
+
+	var result: Delaunay = new Delaunay(vertices);
+	
+	return result;
+}
+
+private function drawInterpolatedValueBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+{
+	if (!_hasPointValues)
+		return null;
+
+	if (_settings.is_gradient_value_range_set)
+	{
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
+	}
+	else
+	{
+		minValue = 0;
+		maxValue = 1.0;
+	}
+	var valueScale: Number = (1/(maxValue-minValue));
+
+	var currentValues: Array;
+	var currentTriangles: Delaunay;
+	
+	if (_hasTime)
+	{
+		var currentTime: String = _frameTimes[_frameIndex];
+		currentValues = _valueData[currentTime];
+		currentTriangles = _triangulation[currentTime];
+	}
+	else
+	{
+		currentValues = _valueData;
+		currentTriangles = _triangulation as Delaunay;
+	}
+		
+	var bitmapWidth: Number = (width/_settings.point_bitmap_scale);
+	var bitmapHeight: Number = (height/_settings.point_bitmap_scale);
+	
+	var leftLon: Number = viewingArea.left;
+	var rightLon: Number = viewingArea.right;
+	var widthLon: Number = (rightLon-leftLon);
+	var stepLon: Number = (widthLon/bitmapWidth);
+	
+	var topLat: Number = viewingArea.bottom;
+	var bottomLat: Number = viewingArea.top;
+
+	var topLatMercator: Number = latitudeToMercatorLatitude(topLat);
+	var bottomLatMercator: Number = latitudeToMercatorLatitude(bottomLat);
+	var heightLat: Number = (bottomLatMercator-topLatMercator);
+	var stepLat: Number = (heightLat/bitmapHeight);
+	
+	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
+	
+	var drawingSurface: Shape = new Shape();
+
+	drawingSurface.graphics.lineStyle(0, 0, 1.0);
+
+	for each (var triangle: Object in currentTriangles._triangles )
+	{
+		var lat0: Number = triangle.v0.y;
+		var lon0: Number = triangle.v0.x;
+
+		var lat1: Number = triangle.v1.y;
+		var lon1: Number = triangle.v1.x;
+
+		var lat2: Number = triangle.v2.y;
+		var lon2: Number = triangle.v2.x;
+
+		var pos0: Point = getXYFromLatLon({lat: lat0, lon: lon0}, latLonToXYMatrix);
+		var pos1: Point = getXYFromLatLon({lat: lat1, lon: lon1}, latLonToXYMatrix);
+		var pos2: Point = getXYFromLatLon({lat: lat2, lon: lon2}, latLonToXYMatrix);
+			
+		drawingSurface.graphics.moveTo(pos0.x, pos0.y);
+		drawingSurface.graphics.lineTo(pos1.x, pos1.y);
+		drawingSurface.graphics.lineTo(pos2.x, pos2.y);
+		drawingSurface.graphics.lineTo(pos0.x, pos0.y);
+	}
+
+	result.draw(drawingSurface, new Matrix());
+
+	return result;
 }
 
 ]]>
