@@ -24,6 +24,7 @@
 		590D2C4911CD65D400954586 /* updates.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = updates.php; sourceTree = "<group>"; };
 		590D907E11BB047B00D4F8C1 /* thanks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = thanks.html; path = website/thanks.html; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
+		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
 		59820B7811A44A9F0047D5FC /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = mapfileprocess/cliargs.php; sourceTree = "<group>"; };
 		59820B7911A44A9F0047D5FC /* convertasciitoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertasciitoosm.php; path = mapfileprocess/convertasciitoosm.php; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 				59820B8511A44A9F0047D5FC /* selectways.php */,
 				59820B8611A44A9F0047D5FC /* unemploymenttocsv.php */,
 				59820B8711A44A9F0047D5FC /* worldbanksplitter.php */,
+				5959068F11D7F0EA000715A7 /* ecoprocess.py */,
 			);
 			name = mapfileprocess;
 			sourceTree = "<group>";

@@ -1,0 +1,127 @@
+country,time,value
+Algeria,Special drawing rights,50
+Algeria,Euro,50
+Aruba,Remninbi,50
+Aruba,Dollar,50
+Australia,Remninbi,6
+Australia,Special drawing rights,6
+Australia,Dollar,75
+Australia,Euro,12
+Austria,Dollar,66
+Austria,Euro,33
+Bahrain,Dollar,100
+Barbados,Dollar,50
+Barbados,Don't know,50
+Belgium,Dollar,100
+Bermuda,Dollar,50
+Bermuda,Euro,50
+Brazil,Dollar,75
+Brazil,Euro,25
+Canada,Special drawing rights,8
+Canada,Dollar,75
+Canada,Don't know,16
+Chile,Remninbi,25
+Chile,Dollar,75
+China,Remninbi,14
+China,"Other, please specify",4
+China,Dollar,71
+China,Euro,9
+Croatia,Dollar,100
+Czech Republic,Dollar,100
+Denmark,Dollar,100
+France,Remninbi,12
+France,Dollar,50
+France,Don't know,25
+France,Euro,12
+Germany,Remninbi,12
+Germany,Dollar,75
+Germany,Euro,12
+Ghana,Dollar,100
+Greece,Dollar,100
+Hong Kong,Remninbi,23
+Hong Kong,Special drawing rights,15
+Hong Kong,Dollar,61
+India,Remninbi,15
+India,Special drawing rights,8
+India,Dollar,55
+India,Don't know,15
+India,Euro,5
+Indonesia,Dollar,100
+Ireland,Remninbi,33
+Ireland,Dollar,33
+Ireland,Euro,33
+Italy,Remninbi,12
+Italy,Special drawing rights,6
+Italy,Dollar,62
+Italy,Don't know,12
+Italy,Euro,6
+Jamaica,Dollar,100
+Jersey,Dollar,75
+Jersey,Don't know,25
+Kenya,Dollar,100
+Malaysia,Remninbi,50
+Malaysia,Special drawing rights,50
+Mexico,Remninbi,9
+Mexico,Dollar,90
+Netherlands,Remninbi,33
+Netherlands,Special drawing rights,16
+Netherlands,Dollar,33
+Netherlands,Euro,16
+Nigeria,Remninbi,10
+Nigeria,Special drawing rights,10
+Nigeria,Dollar,60
+Nigeria,Euro,20
+Norway,Dollar,75
+Norway,Don't know,25
+Pakistan,Remninbi,50
+Pakistan,Special drawing rights,50
+Philippines,Remninbi,50
+Philippines,Dollar,50
+Poland,Dollar,100
+Portugal,Special drawing rights,14
+Portugal,Dollar,85
+Romania,Dollar,100
+Russia,Remninbi,10
+Russia,"Other, please specify",10
+Russia,Dollar,70
+Russia,Euro,10
+Saudi Arabia,Dollar,75
+Saudi Arabia,Don't know,25
+Singapore,Remninbi,12
+Singapore,Dollar,68
+Singapore,Don't know,12
+Singapore,Euro,6
+South Africa,"Other, please specify",12
+South Africa,Dollar,62
+South Africa,Don't know,12
+South Africa,Euro,12
+Spain,Dollar,75
+Spain,Euro,25
+Sweden,"Other, please specify",9
+Sweden,Dollar,90
+Switzerland,Special drawing rights,5
+Switzerland,Dollar,66
+Switzerland,Don't know,11
+Switzerland,Euro,16
+Tanzania,Remninbi,50
+Tanzania,Dollar,50
+Trinidad and Tobago,Dollar,100
+Turkey,Dollar,100
+Ukraine,Dollar,50
+Ukraine,Don't know,50
+United Arab Emirates,Remninbi,16
+United Arab Emirates,Dollar,50
+United Arab Emirates,Don't know,16
+United Arab Emirates,Euro,16
+United Kingdom,Remninbi,9
+United Kingdom,Special drawing rights,4
+United Kingdom,Dollar,67
+United Kingdom,Don't know,9
+United Kingdom,Euro,9
+United States,"Other, please specify",0
+United States,Special drawing rights,3
+United States,Dollar,70
+United States,Remninbi,7
+United States,Don't know,7
+United States,Euro,10
+"Virgin Islands, U.S.",Dollar,100
