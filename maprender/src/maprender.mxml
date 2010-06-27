@@ -25,24 +25,25 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 <mx:Script>
 <![CDATA[
 
-import mx.controls.Label;
-import flash.external.ExternalInterface; 
-import mx.controls.Text;
+import BucketGrid;
+import Delaunay;
+import ExternalImageView;
+import TimelineControls;
+
+import flash.external.ExternalInterface;
 import flash.geom.Matrix;
 import flash.geom.Rectangle;
-import mx.controls.sliderClasses.Slider;
-import mx.controls.VSlider;
-import mx.core.BitmapAsset;
-import mx.events.SliderEvent;
 import flash.text.TextField;
-import mx.controls.TextArea;
-import mx.controls.Image;
-import mx.events.FlexEvent;
 
-import TimelineControls;
-import BucketGrid;
-import ExternalImageView;
-import Delaunay;
+import mx.controls.Image;
+import mx.controls.Label;
+import mx.controls.Text;
+import mx.controls.TextArea;
+import mx.controls.VSlider;
+import mx.controls.sliderClasses.Slider;
+import mx.core.BitmapAsset;
+import mx.events.FlexEvent;
+import mx.events.SliderEvent;
 
 public var _mainShape:Shape = null;
 public var _mainBitmap: Bitmap = null;
@@ -1953,6 +1954,8 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 	{
 		currentValues = _valueData;
 	}
+
+	var hasValues: Boolean = (_valueColumnIndex!==-1);
 	
 	var index: int = 0;
 	for each (var values: Array in currentValues)
@@ -1960,7 +1963,7 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 		var lat: Number = values[_latitudeColumnIndex];
 		var lon: Number = values[_longitudeColumnIndex];
 		var pointValue: Number;
-		if (_valueColumnIndex!==-1)
+		if (hasValues)
 			pointValue = values[_valueColumnIndex];
 		else
 			pointValue = pointBlobValue;
@@ -2021,6 +2024,7 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 			}
 			
 			var value: Number = 0;
+			var lerpTotal: Number = 0;
 			
 			for each (var point: Object in candidatePoints)
 			{
@@ -2034,15 +2038,41 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 				var lerp: Number = (1-(distance/blobRadius));
 				
 				value += (point.value*lerp);
+				lerpTotal += lerp;
 			}
 
-			if (value>=maxValue)
+			var color: uint;
+			if (hasValues)
 			{
-				pixelData.writeUnsignedInt(fullColor);
-				continue;
+				if (lerpTotal>0)
+				{
+					value = (value/lerpTotal);	
+				}
+				else
+				{
+					value = 0;
+				}
+				
+				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+
+				color = getColorForValue(value, minValue, maxValue, valueScale);
+
+				var colorAlpha: uint = (color>>24)&0xff;
+				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
+				
+				color = (color&0x00ffffff)|(outputAlpha<<24);
 			}
+			else
+			{
 			
-			var color: uint = getColorForValue(value, minValue, maxValue, valueScale);
+				if (value>=maxValue)
+				{
+					pixelData.writeUnsignedInt(fullColor);
+					continue;
+				}
+
+				color = getColorForValue(value, minValue, maxValue, valueScale);
+			}
 		
 			pixelData.writeUnsignedInt(color);
 		}	
@@ -2807,8 +2837,6 @@ private function triangulateValueData(currentValues: Array): Delaunay
 
 private function drawInterpolatedValueBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
 {
-	return null;
-	
 	if (!_hasPointValues)
 		return null;
 
