@@ -1654,7 +1654,7 @@ private function createViewerElements(): void
 	_credit = new Label();
 	_credit.htmlText = _settings.credit_text;
 	_credit.width = 150;
-	_credit.height = 15;
+	_credit.height = 20;
 	_credit.setStyle('text-align', 'right');
 	_credit.setStyle('color', _settings.credit_color);
 	
@@ -2364,7 +2364,7 @@ private function repositionMoveableElements(): void
 	if (_credit !== null)
 	{
 		_credit.x = (_settings.width-120);
-		_credit.y = (_settings.height-17);
+		_credit.y = (_settings.height-20);
 	}
 		
 	if (_title !== null)
