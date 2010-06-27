@@ -2152,16 +2152,16 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		}
 	}
 	
-	if (_hasTime)
-	{
-		_triangulation = {};
-		for (thisTime in _valueData)
-			_triangulation[thisTime] = triangulateValueData(_valueData[thisTime]);
-	}
-	else
-	{
-		_triangulation = triangulateValueData(_valueData);		
-	}
+//	if (_hasTime)
+//	{
+//		_triangulation = {};
+//		for (thisTime in _valueData)
+//			_triangulation[thisTime] = triangulateValueData(_valueData[thisTime]);
+//	}
+//	else
+//	{
+//		_triangulation = triangulateValueData(_valueData);		
+//	}
 		
 }
 
@@ -2778,11 +2778,22 @@ private function triangulateValueData(currentValues: Array): Delaunay
 {
 	var vertices: Array = [];
 	
+	var verticesMap: Object = {};
+	
 	var index: int = 0;
 	for each (var values: Array in currentValues)
 	{
 		var lat: Number = values[_latitudeColumnIndex];
 		var lon: Number = values[_longitudeColumnIndex];
+
+		var latLonId: String = lat+','+lon;
+		if (verticesMap.hasOwnProperty(latLonId))
+			continue;
+		
+		verticesMap[latLonId] = true;
+		
+		if (lat==0)
+			continue;
 
 		vertices.push({x: lon, y: lat});
 
@@ -2796,6 +2807,8 @@ private function triangulateValueData(currentValues: Array): Delaunay
 
 private function drawInterpolatedValueBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
 {
+	return null;
+	
 	if (!_hasPointValues)
 		return null;
 
@@ -2850,14 +2863,14 @@ private function drawInterpolatedValueBitmap(width: Number, height: Number, view
 
 	for each (var triangle: Object in currentTriangles._triangles )
 	{
-		var lat0: Number = triangle.v0.y;
-		var lon0: Number = triangle.v0.x;
+		var lat0: Number = triangle.v[0].y;
+		var lon0: Number = triangle.v[0].x;
 
-		var lat1: Number = triangle.v1.y;
-		var lon1: Number = triangle.v1.x;
+		var lat1: Number = triangle.v[1].y;
+		var lon1: Number = triangle.v[1].x;
 
-		var lat2: Number = triangle.v2.y;
-		var lon2: Number = triangle.v2.x;
+		var lat2: Number = triangle.v[2].y;
+		var lon2: Number = triangle.v[2].x;
 
 		var pos0: Point = getXYFromLatLon({lat: lat0, lon: lon0}, latLonToXYMatrix);
 		var pos1: Point = getXYFromLatLon({lat: lat1, lon: lon1}, latLonToXYMatrix);
@@ -2869,6 +2882,18 @@ private function drawInterpolatedValueBitmap(width: Number, height: Number, view
 		drawingSurface.graphics.lineTo(pos0.x, pos0.y);
 	}
 
+	var lastHullPoint: Object = currentTriangles._convexHull[currentTriangles._convexHull.length-1];
+	var lastPos: Point = getXYFromLatLon({lat: lastHullPoint.y, lon: lastHullPoint.x}, latLonToXYMatrix);
+
+	drawingSurface.graphics.lineStyle(4, 0xff7f00, 1.0);
+	
+	drawingSurface.graphics.moveTo(lastPos.x, lastPos.y);
+	for each (var hullPoint: Object in currentTriangles._convexHull)
+	{
+		var pos: Point = getXYFromLatLon({lat: hullPoint.y, lon: hullPoint.x}, latLonToXYMatrix);
+		drawingSurface.graphics.lineTo(pos.x, pos.y);
+	}
+	
 	result.draw(drawingSurface, new Matrix());
 
 	return result;

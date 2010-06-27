@@ -42,7 +42,8 @@ package
 				{
 					var columnLeft: Number = (_originLeft+(_columnWidth*columnIndex));
 					_grid[rowIndex][columnIndex] = {
-						contents: []
+						head_index: 0,
+						contents: { }
 					};
 				}
 			}			
@@ -70,7 +71,39 @@ package
 			{
 				for (var columnIndex: int = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
 				{
-					_grid[rowIndex][columnIndex].contents.push(object);
+					var bucket: Object = _grid[rowIndex][columnIndex];
+					bucket.contents[bucket.head_index] = object;
+					bucket.head_index += 1;
+				}
+			}
+			
+		}
+
+		public function removeObjectAt(boundingBox: Rectangle, object: *): void
+		{
+			var leftIndex: int = Math.floor((boundingBox.left-_originLeft)/_columnWidth);
+			var rightIndex: int = Math.floor((boundingBox.right-_originLeft)/_columnWidth);
+			var topIndex: int = Math.floor((boundingBox.top-_originTop)/_rowHeight);
+			var bottomIndex: int = Math.floor((boundingBox.bottom-_originTop)/_rowHeight);
+	
+			leftIndex = Math.max(leftIndex, 0);
+			rightIndex = Math.min(rightIndex, (_columns-1));
+			topIndex = Math.max(topIndex, 0);
+			bottomIndex = Math.min(bottomIndex, (_rows-1));
+	
+			for (var rowIndex: int = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+			{
+				for (var columnIndex: int = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
+				{
+					var bucket: Object = _grid[rowIndex][columnIndex];
+					for (var index: String in bucket.contents)
+					{
+						if (bucket.contents[index]==object)
+						{
+							delete bucket.contents[index];
+							break;
+						}
+					}
 				}
 			}
 			
@@ -99,7 +132,8 @@ package
 			{
 				for (var columnIndex: int = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
 				{
-					result = result.concat(_grid[rowIndex][columnIndex].contents);
+					for each (var object: Object in _grid[rowIndex][columnIndex].contents)
+						result.push(object);
 				}
 			}
 			
