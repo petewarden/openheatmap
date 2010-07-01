@@ -625,20 +625,20 @@ private function doEveryFrame(event: Event): void
 	
 	drawMainBitmapIntoViewer();
 
-_hasTabs = true;
-_tabNames = [
-	'Overall Evaluation',
-	'Security',
-	'Political stability',
-	'Government effectiveness',
-	'Legal & regulatory',
-	'Macroeconomic',
-	'Foreign trade & payments',
-	'Financial',
-	'Tax policy',
-	'Labour market',
-	'Infrastructure'
-];
+//_hasTabs = true;
+//_tabNames = [
+//	'Overall Evaluation',
+//	'Security',
+//	'Political stability',
+//	'Government effectiveness',
+//	'Legal & regulatory',
+//	'Macroeconomic',
+//	'Foreign trade & payments',
+//	'Financial',
+//	'Tax policy',
+//	'Labour market',
+//	'Infrastructure'
+//];
 	if (_hasTabs)
 	{
 		drawTabsIntoViewer();
