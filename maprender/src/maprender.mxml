@@ -191,6 +191,7 @@ public var _hasTabs: Boolean = false;
 public var _tabNames: Array = [];
 public var _tabInfo: Object = {};
 public var _selectedTabIndex: int = 0;
+public var _hoveredTabIndex: int = -1;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -460,6 +461,9 @@ private function makeEventArgument(event:MouseEvent): Object
 	
 private function mapMouseClickHandler( event:MouseEvent ): Boolean
 {
+	if (isEventInTopBar(event))
+		return onTopBarClick(event);
+	
 	var continueHandling: Boolean;
 	if (_onClickFunction !== null)
 		continueHandling = ExternalInterface.call(_onClickFunction, makeEventArgument(event));
@@ -485,6 +489,9 @@ private function mapMouseClickHandler( event:MouseEvent ): Boolean
 
 private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarDoubleClick(event);
+
 	var continueHandling: Boolean;
 	if (_onDoubleClickFunction !== null)
 		continueHandling = ExternalInterface.call(_onDoubleClickFunction, makeEventArgument(event));
@@ -506,6 +513,9 @@ private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 
 private function mapMouseDownHandler( event:MouseEvent ): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarMouseDown(event);
+
 	var continueHandling: Boolean;
 	if (_onMouseDownFunction !== null)
 		continueHandling = ExternalInterface.call(_onMouseDownFunction, makeEventArgument(event));
@@ -525,6 +535,9 @@ private function mapMouseDownHandler( event:MouseEvent ): Boolean
 
 private function mapMouseUpHandler( event:MouseEvent ): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarMouseUp(event);
+
 	var continueHandling: Boolean;
 	if (_onMouseUpFunction !== null)
 		continueHandling = ExternalInterface.call(_onMouseUpFunction, makeEventArgument(event));
@@ -552,6 +565,9 @@ private function mapMouseUpHandler( event:MouseEvent ): Boolean
 
 private function mapMouseOverHandler( event:MouseEvent ): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarMouseOver(event);
+
 	var continueHandling: Boolean;
 	if (_onMouseOverFunction !== null)
 		continueHandling = ExternalInterface.call(_onMouseOverFunction, makeEventArgument(event));
@@ -563,6 +579,9 @@ private function mapMouseOverHandler( event:MouseEvent ): Boolean
 
 private function mapMouseOutHandler( event:MouseEvent ): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarMouseOut(event);
+
 	var continueHandling: Boolean;
 	if (_onMouseOutFunction !== null)
 		continueHandling = ExternalInterface.call(_onMouseOutFunction, makeEventArgument(event));
@@ -574,6 +593,9 @@ private function mapMouseOutHandler( event:MouseEvent ): Boolean
 
 private function mapMouseMoveHandler( event:MouseEvent): Boolean
 { 
+	if (isEventInTopBar(event))
+		return onTopBarMouseMove(event);
+
 	var continueHandling: Boolean;
 	if (_onMouseMoveFunction !== null)
 		continueHandling = ExternalInterface.call(_onMouseMoveFunction, makeEventArgument(event));
@@ -2104,6 +2126,10 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 				{
 					_tabInfo[thisTab] = {};
 					_tabNames.push(thisTab);
+				}
+				
+				if (typeof dataDestination[thisTab]==='undefined')
+				{
 					dataDestination[thisTab] = [];
 				}
 				
@@ -2119,6 +2145,10 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 				if (typeof _foundTimes[thisTime] === 'undefined')
 				{
 					_foundTimes[thisTime] = true;
+				}
+				
+				if (typeof dataDestination[thisTime] === 'undefined')
+				{				
 					dataDestination[thisTime] = [];
 				}
 
@@ -2839,6 +2869,7 @@ private function drawTabsIntoViewer(): void
 	{
 		var isLast: Boolean = (tabIndex==(tabCount-1));
 		var isSelected: Boolean = (tabIndex===_selectedTabIndex);
+		var isHovered: Boolean = (tabIndex===_hoveredTabIndex);
 
 		var tabName: String = _tabNames[tabIndex];
 		var tabInfo: Object = _tabInfo[tabName];
@@ -2858,12 +2889,19 @@ private function drawTabsIntoViewer(): void
 			tabWidth = (tabRightX-tabLeftX);
 		}
 
+		tabInfo.leftX = tabLeftX;
+		tabInfo.rightX = tabRightX;
+		tabInfo.topY = tabTopY;
+		tabInfo.bottomY = tabBottomY;
+		
 		if (tabWidth<1)
 			continue;
 		
 		var fillColor: uint;
 		if (isSelected)
 			fillColor = _settings.title_background_color;
+		else if (isHovered)
+			fillColor = scaleColorBrightness(_settings.title_background_color, 0.95);
 		else
 			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
 		
@@ -2954,6 +2992,101 @@ private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
 		(resultBlue<<0);
 	
 	return result;
+}
+
+private function isEventInTopBar(event: MouseEvent): Boolean
+{
+	var hasTitle: Boolean = (_settings.title_text!=='');
+	
+	if ((!hasTitle)&&(!_hasTabs))
+		return false;
+	
+	var tabHeight: Number = _settings.tab_height;
+	
+	var tabTopY: Number;
+	if (hasTitle)
+		tabTopY = (_settings.title_size*1.5);
+	else
+		tabTopY = 0;
+	
+	var tabBottomY: Number = (tabTopY+tabHeight);
+	
+	return (event.localY<tabBottomY);
+}
+
+private function onTopBarClick(event: MouseEvent): Boolean
+{
+	var tabIndex: int = getTabIndexFromEvent(event);
+	
+	if (tabIndex!==-1)
+	{
+		_selectedTabIndex = tabIndex;
+		_valuesDirty = true;
+	}
+	
+	return true;
+}
+	
+private function onTopBarDoubleClick(event: MouseEvent): Boolean
+{
+	var tabIndex: int = getTabIndexFromEvent(event);
+	
+	if (tabIndex!==-1)
+	{
+		_selectedTabIndex = tabIndex;
+		_valuesDirty = true;
+	}
+	
+	return true;
+}
+	
+private function onTopBarMouseDown(event: MouseEvent): Boolean
+{	
+	return true;	
+}
+
+private function onTopBarMouseUp(event: MouseEvent): Boolean
+{	
+	return true;		
+}
+
+private function onTopBarMouseOver(event: MouseEvent): Boolean
+{
+	return true;	
+}
+
+private function onTopBarMouseOut(event: MouseEvent): Boolean
+{
+	return true;	
+}
+	
+private function onTopBarMouseMove(event: MouseEvent): Boolean
+{
+	var tabIndex: int = getTabIndexFromEvent(event);
+	
+	_hoveredTabIndex = tabIndex;
+	
+	return true;	
+}
+	
+private function getTabIndexFromEvent(event: MouseEvent): int
+{
+	var x: Number = event.localX;
+	var y: Number = event.localY;
+	
+	for (var tabIndex:int = 0; tabIndex<_tabNames.length; tabIndex+=1)
+	{
+		var tabName: String = _tabNames[tabIndex];
+		var tabInfo: Object = _tabInfo[tabName];
+		
+		if ((x>=tabInfo.leftX)&&
+			(x<tabInfo.rightX)&&
+			(y>=tabInfo.topY)&&
+			(y<tabInfo.bottomY))
+			return tabIndex;
+	}
+	
+	return -1;
 }
 	
 ]]>
