@@ -1041,7 +1041,7 @@ private function setWaysFromValues(): void
 			{
 				thisValue = (Number)(values[i]);
 			}
-			else if (i!==_timeColumnIndex)
+			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
 			{
 				var headerName: String = _valueHeaders[i];
 				matchKeys[headerName] = values[i];	
@@ -1336,7 +1336,7 @@ private function getValueForWayId(wayId: String): String
 			{
 				thisValue = values[i];
 			}
-			else if (i!==_timeColumnIndex)
+			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
 			{
 				var headerName: String = _valueHeaders[i];
 				matchKeys[headerName] = values[i];	
@@ -2800,35 +2800,21 @@ private function addPopupAtScreenPosition(x: Number, y: Number, text: String): v
 
 private function getCurrentValues(): Array
 {
-	var currentValues: Array;	
+	var currentValues: Array = _valueData;	
+
+	if (_hasTabs)
+	{
+		var currentTab: String = _tabNames[_selectedTabIndex];
+		currentValues = currentValues[currentTab];
+	}
+	
 	if (_hasTime)
 	{
 		var currentTime: String = _frameTimes[_frameIndex];
-		currentValues = _valueData[currentTime];
-	}
-	else
-	{
-		currentValues = _valueData;
+		currentValues = currentValues[currentTime];
 	}
 
 	return currentValues;
-}
-
-private function drawTextIntoBitmapData(text: String, x: Number, y: Number, width: Number, height: Number, textSize: Number, bitmapData: BitmapData): void
-{
-	var tx:TextField = new TextField();
-	var tf:TextFormat = new TextFormat();
-	
-	tf.size = textSize;
-	tf.align = TextFormatAlign.CENTER;
-	tx.defaultTextFormat = tf;
-	tx.width = width;
-	tx.selectable = false;
-	tx.height = height;
-	
-	tx.text = text;
-	
-	bitmapData.draw(tx);
 }
 
 private function drawTabsIntoViewer(): void
@@ -2852,7 +2838,7 @@ private function drawTabsIntoViewer(): void
 	for (var tabIndex:int = 0; tabIndex<tabCount; tabIndex+=1)
 	{
 		var isLast: Boolean = (tabIndex==(tabCount-1));
-		var isSelected: Boolean = (tabIndex==_selectedTabIndex);
+		var isSelected: Boolean = (tabIndex===_selectedTabIndex);
 
 		var tabName: String = _tabNames[tabIndex];
 		var tabInfo: Object = _tabInfo[tabName];
@@ -2881,6 +2867,8 @@ private function drawTabsIntoViewer(): void
 		else
 			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
 		
+		graphics.lineStyle();
+
 		graphics.beginFill(fillColor, 1.0);	
 		graphics.moveTo(tabLeftX, tabTopY);
 		graphics.lineTo(tabRightX, tabTopY);
@@ -2898,7 +2886,7 @@ private function drawTabsIntoViewer(): void
 		graphics.beginBitmapFill(bitmapdata, textMatrix);
 		graphics.drawRect(tabLeftX, tabTopY, tabWidth, tabHeight);
 		graphics.endFill();
-		
+
 		graphics.lineStyle(0, 0x000000, 1.0);
 		graphics.moveTo(tabLeftX, tabBottomY);
 		graphics.lineTo(tabLeftX, tabTopY);
