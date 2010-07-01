@@ -189,6 +189,7 @@ public var _mapTilesDirty: Boolean = true;
 public var _tabColumnIndex: int = -1;
 public var _hasTabs: Boolean = false;
 public var _tabNames: Array = [];
+public var _tabInfo: Object = {};
 public var _selectedTabIndex: int = 0;
 
 private function getURLInput(name: String, defaultValue: String = null): String
@@ -625,20 +626,6 @@ private function doEveryFrame(event: Event): void
 	
 	drawMainBitmapIntoViewer();
 
-//_hasTabs = true;
-//_tabNames = [
-//	'Overall Evaluation',
-//	'Security',
-//	'Political stability',
-//	'Government effectiveness',
-//	'Legal & regulatory',
-//	'Macroeconomic',
-//	'Foreign trade & payments',
-//	'Financial',
-//	'Tax policy',
-//	'Labour market',
-//	'Infrastructure'
-//];
 	if (_hasTabs)
 	{
 		drawTabsIntoViewer();
@@ -2088,6 +2075,8 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 	}
 	
 	_foundTimes = {};
+	_tabNames = [];
+	_tabInfo = {};
 	
 	_valueData = [];
 	
@@ -2104,25 +2093,40 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 		if ((i===1)||(thisValue>_largestValue))
 			_largestValue = thisValue;
 		
+		var dataDestination: Array = _valueData;
+
+		if (_hasTabs)
+		{
+			var thisTab: String = lineValues[_tabColumnIndex];
+			if (thisTab !== null)
+			{
+				if (typeof _tabInfo[thisTab] === 'undefined')
+				{
+					_tabInfo[thisTab] = {};
+					_tabNames.push(thisTab);
+					dataDestination[thisTab] = [];
+				}
+				
+				dataDestination = dataDestination[thisTab];
+			}			
+		}		
+		
 		if (_hasTime)
 		{
 			var thisTime: String = lineValues[_timeColumnIndex];
-			if (thisTime !== null)
+			if ((thisTime !== null)&&(thisTime!=''))
 			{
 				if (typeof _foundTimes[thisTime] === 'undefined')
 				{
 					_foundTimes[thisTime] = true;
-					_valueData[thisTime] = [];
+					dataDestination[thisTime] = [];
 				}
-				
-				_valueData[thisTime].push(lineValues);
+
+				dataDestination = dataDestination[thisTime];
 			}
 		}
-		else
-		{
-			_valueData.push(lineValues);		
-		}
-		
+
+		dataDestination.push(lineValues);	
 	}
 	
 }
@@ -2130,6 +2134,8 @@ private function loadAreaValues(linesArray: Array, headerLine: String, columnSep
 private function loadPointValues(linesArray: Array, headerLine: String, columnSeperator: String): void
 {	
 	_foundTimes = {};
+	_tabInfo = {};
+	_tabNames = [];
 		
 	_valueData = [];
 	
@@ -2156,24 +2162,40 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 				_largestValue = thisValue;
 		}
 		
+		var dataDestination: Array = _valueData;
+		
+		if (_hasTabs)
+		{
+			var thisTab: String = lineValues[_tabColumnIndex];
+			if (thisTab !== null)
+			{
+				if (typeof _tabInfo[thisTab] === 'undefined')
+				{
+					_tabInfo[thisTab] = {};
+					_tabNames.push(thisTab);					
+					dataDestination[thisTab] = [];
+				}
+				
+				dataDestination = dataDestination[thisTab];
+			}			
+		}		
+		
 		if (_hasTime)
 		{
 			var thisTime: String = lineValues[_timeColumnIndex];
-			if ((thisTime !== null)&&(thisTime!==''))
+			if ((thisTime !== null)&&(thisTime!=''))
 			{
 				if (typeof _foundTimes[thisTime] === 'undefined')
 				{
 					_foundTimes[thisTime] = true;
-					_valueData[thisTime] = [];
+					dataDestination[thisTime] = [];
 				}
 				
-				_valueData[thisTime].push(lineValues);
+				dataDestination = dataDestination[thisTime];
 			}
 		}
-		else
-		{
-			_valueData.push(lineValues);		
-		}
+		
+		dataDestination.push(lineValues);	
 	}		
 }
 
@@ -2812,9 +2834,7 @@ private function drawTextIntoBitmapData(text: String, x: Number, y: Number, widt
 private function drawTabsIntoViewer(): void
 {
 	var tabCount: int = _tabNames.length;
-	if (tabCount<1)
-		return;
-	
+		
 	var tabHeight: Number = _settings.tab_height;
 	
 	var tabTopY: Number;
@@ -2829,13 +2849,14 @@ private function drawTabsIntoViewer(): void
 	
 	var tabLeftX: Number = 0;
 	
-	for (var tabIndex: * in _tabNames)
+	for (var tabIndex:int = 0; tabIndex<tabCount; tabIndex+=1)
 	{
 		var isLast: Boolean = (tabIndex==(tabCount-1));
 		var isSelected: Boolean = (tabIndex==_selectedTabIndex);
-		
-		var tabName: String = _tabNames[tabIndex];
 
+		var tabName: String = _tabNames[tabIndex];
+		var tabInfo: Object = _tabInfo[tabName];
+		
 		var textfield:TextField = new TextField;
 		textfield.text = tabName;
 		var tabWidth: int = (textfield.textWidth+5);		
@@ -2851,6 +2872,9 @@ private function drawTabsIntoViewer(): void
 			tabWidth = (tabRightX-tabLeftX);
 		}
 
+		if (tabWidth<1)
+			continue;
+		
 		var fillColor: uint;
 		if (isSelected)
 			fillColor = _settings.title_background_color;
