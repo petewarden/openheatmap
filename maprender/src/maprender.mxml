@@ -3022,6 +3022,7 @@ private function onTopBarClick(event: MouseEvent): Boolean
 	{
 		_selectedTabIndex = tabIndex;
 		_valuesDirty = true;
+		_dirty = true;
 	}
 	
 	return true;
@@ -3035,6 +3036,7 @@ private function onTopBarDoubleClick(event: MouseEvent): Boolean
 	{
 		_selectedTabIndex = tabIndex;
 		_valuesDirty = true;
+		_dirty = true;
 	}
 	
 	return true;
