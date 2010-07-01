@@ -2841,15 +2841,14 @@ private function drawTabsIntoViewer(): void
 		var tabWidth: int = (textfield.textWidth+5);		
 		textfield.width = tabWidth;
 		
-		var tabRightX: Number;
-		if (isLast)
+		var tabRightX: Number = (tabLeftX+tabWidth);
+		var distanceFromEdge: Number = (_settings.width-tabRightX);
+		var addExtraTab: Boolean = (isLast&&(distanceFromEdge>50));
+		
+		if (isLast&&!addExtraTab)
 		{
 			tabRightX = (_settings.width-1);
 			tabWidth = (tabRightX-tabLeftX);
-		}
-		else
-		{
-			tabRightX = (tabLeftX+tabWidth);
 		}
 
 		var fillColor: uint;
@@ -2882,9 +2881,31 @@ private function drawTabsIntoViewer(): void
 		graphics.lineTo(tabRightX, tabTopY);
 		graphics.lineTo(tabRightX, tabBottomY);
 		if (!isSelected)
-			graphics.lineTo(tabLeftX, tabBottomY);		
-		
+			graphics.lineTo(tabLeftX, tabBottomY);
+
 		tabLeftX = tabRightX;
+
+		if (addExtraTab)
+		{
+			tabRightX = (_settings.width-1);
+			
+			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
+			
+			graphics.beginFill(fillColor, 1.0);	
+			graphics.moveTo(tabLeftX, tabTopY);
+			graphics.lineTo(tabRightX, tabTopY);
+			graphics.lineTo(tabRightX, tabBottomY);
+			graphics.lineTo(tabLeftX, tabBottomY);
+			graphics.lineTo(tabLeftX, tabTopY);
+			graphics.endFill();
+
+			graphics.lineStyle(0, 0x000000, 1.0);
+			graphics.moveTo(tabLeftX, tabBottomY);
+			graphics.lineTo(tabLeftX, tabTopY);
+			graphics.lineTo(tabRightX, tabTopY);
+			graphics.lineTo(tabRightX, tabBottomY);
+		}
+		
 	}
 	
 	graphics.lineStyle(0, 0x000000, 1.0);
