@@ -26,7 +26,6 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 <![CDATA[
 
 import BucketGrid;
-import Delaunay;
 import ExternalImageView;
 import TimelineControls;
 
@@ -171,7 +170,8 @@ public var _settings: Object =
 	ocean_color: 0xd0e0ff,
 	information_alpha: 1.0,
 	is_point_blob_radius_in_pixels: false,
-	point_bitmap_scale: 2
+	point_bitmap_scale: 2,
+	tab_height: 15
 };
 
 public var _lastSetWayIds: Object = {};
@@ -185,8 +185,11 @@ public var _informationLayerShape:Shape = null;
 public var _informationLayerBitmap: Bitmap = null;
 
 public var _mapTilesDirty: Boolean = true;
-
-public var _triangulation: Object = null;
+	
+public var _tabColumnIndex: int = -1;
+public var _hasTabs: Boolean = false;
+public var _tabNames: Array = [];
+public var _selectedTabIndex: int = 0;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -621,6 +624,25 @@ private function doEveryFrame(event: Event): void
 	}
 	
 	drawMainBitmapIntoViewer();
+
+_hasTabs = true;
+_tabNames = [
+	'Overall Evaluation',
+	'Security',
+	'Political stability',
+	'Government effectiveness',
+	'Legal & regulatory',
+	'Macroeconomic',
+	'Foreign trade & payments',
+	'Financial',
+	'Tax policy',
+	'Labour market',
+	'Infrastructure'
+];
+	if (_hasTabs)
+	{
+		drawTabsIntoViewer();
+	}	
 	
 	if (_hasTime)
 	{
@@ -832,6 +854,7 @@ private function loadValuesFromCSVString(valuesString: String): void
 	_valueColumnIndex = -1;
 	_latitudeColumnIndex = -1;
 	_longitudeColumnIndex = -1;
+	_tabColumnIndex = -1;
 	for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
 	{
 		var header: String = _valueHeaders[headerIndex].toLowerCase();
@@ -843,6 +866,8 @@ private function loadValuesFromCSVString(valuesString: String): void
 			_latitudeColumnIndex = headerIndex;
 		else if ((header==='longitude')||(header==='lon'))
 			_longitudeColumnIndex = headerIndex;
+		else if ((header==='tab')||(header==='category'))
+			_tabColumnIndex = headerIndex;
 	}
 	
 	var hasLatitude: Boolean = (_latitudeColumnIndex!==-1);
@@ -856,6 +881,7 @@ private function loadValuesFromCSVString(valuesString: String): void
 	
 	_hasPointValues = hasLatitude;
 	_hasTime = (_timeColumnIndex!==-1);
+	_hasTabs = (_tabColumnIndex!==-1);
 	
 	_hasBitmapBackground = _hasPointValues;
 	
@@ -2750,38 +2776,7 @@ private function addPopupAtScreenPosition(x: Number, y: Number, text: String): v
 	addPopup(latLon.lat, latLon.lon, text);	
 }
 
-private function triangulateValueData(currentValues: Array): Delaunay
-{
-	var vertices: Array = [];
-	
-	var verticesMap: Object = {};
-	
-	var index: int = 0;
-	for each (var values: Array in currentValues)
-	{
-		var lat: Number = values[_latitudeColumnIndex];
-		var lon: Number = values[_longitudeColumnIndex];
-
-		var latLonId: String = lat+','+lon;
-		if (verticesMap.hasOwnProperty(latLonId))
-			continue;
-		
-		verticesMap[latLonId] = true;
-		
-		if (lat==0)
-			continue;
-
-		vertices.push({x: lon, y: lat});
-
-		index += 1;
-	}
-
-	var result: Delaunay = new Delaunay(vertices);
-	
-	return result;
-}
-
-public function getCurrentValues(): Array
+private function getCurrentValues(): Array
 {
 	var currentValues: Array;	
 	if (_hasTime)
@@ -2797,6 +2792,137 @@ public function getCurrentValues(): Array
 	return currentValues;
 }
 
+private function drawTextIntoBitmapData(text: String, x: Number, y: Number, width: Number, height: Number, textSize: Number, bitmapData: BitmapData): void
+{
+	var tx:TextField = new TextField();
+	var tf:TextFormat = new TextFormat();
+	
+	tf.size = textSize;
+	tf.align = TextFormatAlign.CENTER;
+	tx.defaultTextFormat = tf;
+	tx.width = width;
+	tx.selectable = false;
+	tx.height = height;
+	
+	tx.text = text;
+	
+	bitmapData.draw(tx);
+}
+
+private function drawTabsIntoViewer(): void
+{
+	var tabCount: int = _tabNames.length;
+	if (tabCount<1)
+		return;
+	
+	var tabHeight: Number = _settings.tab_height;
+	
+	var tabTopY: Number;
+	if (_settings.title_text!=='')
+		tabTopY = (_settings.title_size*1.5);
+	else
+		tabTopY = 0;
+	
+	var tabBottomY: Number = (tabTopY+tabHeight);
+	
+	var graphics: Graphics = viewer.graphics;
+	
+	var tabLeftX: Number = 0;
+	
+	for (var tabIndex: * in _tabNames)
+	{
+		var isLast: Boolean = (tabIndex==(tabCount-1));
+		var isSelected: Boolean = (tabIndex==_selectedTabIndex);
+		
+		var tabName: String = _tabNames[tabIndex];
+
+		var textfield:TextField = new TextField;
+		textfield.text = tabName;
+		var tabWidth: int = (textfield.textWidth+5);		
+		textfield.width = tabWidth;
+		
+		var tabRightX: Number;
+		if (isLast)
+		{
+			tabRightX = (_settings.width-1);
+			tabWidth = (tabRightX-tabLeftX);
+		}
+		else
+		{
+			tabRightX = (tabLeftX+tabWidth);
+		}
+
+		var fillColor: uint;
+		if (isSelected)
+			fillColor = _settings.title_background_color;
+		else
+			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
+		
+		graphics.beginFill(fillColor, 1.0);	
+		graphics.moveTo(tabLeftX, tabTopY);
+		graphics.lineTo(tabRightX, tabTopY);
+		graphics.lineTo(tabRightX, tabBottomY);
+		graphics.lineTo(tabLeftX, tabBottomY);
+		graphics.lineTo(tabLeftX, tabTopY);
+		graphics.endFill();
+
+		var bitmapdata:BitmapData = new BitmapData(tabWidth, tabHeight, true, 0x00000000);
+		bitmapdata.draw(textfield);
+		
+		var textMatrix: Matrix = new Matrix();
+		textMatrix.translate(tabLeftX, tabTopY);
+		
+		graphics.beginBitmapFill(bitmapdata, textMatrix);
+		graphics.drawRect(tabLeftX, tabTopY, tabWidth, tabHeight);
+		graphics.endFill();
+		
+		graphics.lineStyle(0, 0x000000, 1.0);
+		graphics.moveTo(tabLeftX, tabBottomY);
+		graphics.lineTo(tabLeftX, tabTopY);
+		graphics.lineTo(tabRightX, tabTopY);
+		graphics.lineTo(tabRightX, tabBottomY);
+		if (!isSelected)
+			graphics.lineTo(tabLeftX, tabBottomY);		
+		
+		tabLeftX = tabRightX;
+	}
+	
+	graphics.lineStyle(0, 0x000000, 1.0);
+	graphics.moveTo(0, tabBottomY);
+	graphics.lineTo(0, (_settings.height-1));
+	graphics.lineTo((_settings.width-1), (_settings.height-1));
+	graphics.lineTo((_settings.width-1), tabBottomY);
+}
+
+private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
+{
+	var alpha: uint = (colorNumber>>24)&0xff;
+	var red: uint = (colorNumber>>16)&0xff;
+	var green: uint = (colorNumber>>8)&0xff;
+	var blue: uint = (colorNumber>>0)&0xff;
+	
+	var resultAlpha: uint = alpha; // We'll end up with 'illegal' premult color values, but this shouldn't be a proble for our uses
+	var resultRed: uint = Math.floor(red*scale);
+	var resultGreen: uint = Math.floor(green*scale);
+	var resultBlue: uint = Math.floor(blue*scale);
+	
+	resultRed = Math.max(0, resultRed);
+	resultGreen = Math.max(0, resultGreen);
+	resultBlue = Math.max(0, resultBlue);
+		
+	resultRed = Math.min(255, resultRed);
+	resultGreen = Math.min(255, resultGreen);
+	resultBlue = Math.min(255, resultBlue);
+	
+	var result: uint =
+		(resultAlpha<<24)|
+		(resultRed<<16)|
+		(resultGreen<<8)|
+		(resultBlue<<0);
+	
+	return result;
+}
+	
 ]]>
 </mx:Script>
 <mx:UIComponent id="viewer"></mx:UIComponent>
