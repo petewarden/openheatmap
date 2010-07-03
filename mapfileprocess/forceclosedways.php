@@ -140,6 +140,8 @@ function close_ways($input_osm_ways, $verbose, $tolerance, $debug)
             continue;
         }
 
+        $input_tags = $way['tags'];
+
         if (count($way['nds'])<2)
         {
             if ($debug)
@@ -192,6 +194,10 @@ function close_ways($input_osm_ways, $verbose, $tolerance, $debug)
                     $node = $input_nodes[$nd_ref];
                     $result->add_vertex($node['lat'], $node['lon'], $bucket_debug);
                 }
+                
+                foreach ($input_tags as $key => $value)
+                    $result->add_tag($key, $value);
+                
                 $result->end_way();
 
                 break;

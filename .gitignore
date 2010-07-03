@@ -6,5 +6,4 @@ website/config.php
 *.pbxuser
 mapfileprocess/test_data/zipcode_clean.osm
 static/openheatmap.swf
-website/examples/twitter/config.php
-website/examples/twitter_search/config.php
+website

@@ -754,7 +754,7 @@ private function onWaysLoad(success:Boolean): void
 	  			
 	  		_tagMap[key][value].push(newWay.id);
 	  	}
-  		
+ 		
   		_ways[wayId] = newWay;
   		
   		if (!newWay.boundingBox.isEmpty())
@@ -967,8 +967,8 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 		}
 		else
 		{
-			wayColor = Number(getWayProperty('color', way));
-			wayAlpha = Number(getWayProperty('alpha', way));
+			wayColor = Number(getWayProperty('color', way.tags));
+			wayAlpha = Number(getWayProperty('alpha', way.tags));
 		}
 
 		if (way.nds.length<1)
@@ -1158,7 +1158,7 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 	var foundCount: Number = 0;
 	for (wayId in matchingWayIds)
 	{
-		_ways[wayId][attributeName] = attributeValue;
+		_ways[wayId]['tags'][attributeName] = attributeValue;
 		foundCount += 1;
 		setWays[wayId] = true;
 	}

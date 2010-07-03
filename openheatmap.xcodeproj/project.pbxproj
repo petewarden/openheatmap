@@ -83,6 +83,7 @@
 		59820D4A11AB32880047D5FC /* location.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = location.php; path = website/location.php; sourceTree = "<group>"; };
 		59820D4B11AB32AA0047D5FC /* geoip.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geoip.php; path = website/geoip.php; sourceTree = "<group>"; };
 		59820D9E11AC68570047D5FC /* placemaker.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = placemaker.php; path = website/placemaker.php; sourceTree = "<group>"; };
+		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -144,6 +145,7 @@
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				590D907F11BC2B5E00D4F8C1 /* cropways.php */,
 				59820B7B11A44A9F0047D5FC /* csvtojson.php */,
+				59F11C8C11DEA61F00DF3832 /* flattenrelations.php */,
 				590D2C3211CAF3CF00954586 /* flickrfetch.php */,
 				59820B7C11A44A9F0047D5FC /* forceclosedways.php */,
 				59820CE611A87B390047D5FC /* geomutils.php */,

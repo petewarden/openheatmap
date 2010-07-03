@@ -31,6 +31,7 @@ class OSMWays
     public $duplicate_epsilon = 0.0001;
     public $bucket_grid = null;
     public $tag_map = null;
+    public $relations = array();
     
     public function __construct($id_start=null)
     {
@@ -319,7 +320,33 @@ class OSMWays
             }
             else if ($name=='relation')
             {
-                // Not yet implemented
+                $relation_id = (string)($top_child['id']);
+                
+                $this->begin_relation($relation_id);
+                foreach ($top_child->children() as $way_child)
+                {
+                    $child_name = strtolower($way_child->getName());
+                    if ($child_name=='member')
+                    {
+                        $type = (string)($way_child['type']);
+                        $ref = (string)($way_child['ref']);
+                        $role = (string)($way_child['role']);
+                        $this->add_relation_member($type, $ref, $role);
+                    }
+                    else if ($child_name=='tag')
+                    {
+                        $key = (string)($way_child['k']);
+                        $value = (string)($way_child['v']);
+                        $value = htmlspecialchars($value);
+                        $this->add_relation_tag($key, $value);
+                    }
+                    else
+                    {
+                        error_log('Unknown way tag '.$child_name.' encountered, skipping');
+                    }
+                }
+                
+                $this->end_relation($way_id);
             }
             else
             {
@@ -406,6 +433,45 @@ class OSMWays
         {
             $this->copy_way($way, $input_osm_ways);
         }
+    }
+
+    public function begin_relation($relation_id=null)
+    {
+        if (!isset($relation_id))
+        {
+            $relation_id = $this->current_id;
+            $this->current_id += 1;
+        }
+        
+        $this->relations[$relation_id] = array(
+            'id' => $relation_id,
+            'members' => array(),
+            'tags' => array(),
+        );
+        
+        $this->current_relation = $relation_id;
+        
+        return $relation_id;
+    }
+    
+    public function end_relation()
+    {
+
+        $this->current_relation = null;
+    }
+
+    public function add_relation_member($type, $ref, $role)
+    {
+        $relation = &$this->relations[$this->current_relation];
+
+        $relation['members'][] = array('type'=>$type, 'ref'=>$ref, 'role'=>$role);
+    }
+
+    public function add_relation_tag($key, $value)
+    {
+        $relation = &$this->relations[$this->current_relation];
+
+        $relation['tags'][$key] = $value;
     }
     
 }
