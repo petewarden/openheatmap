@@ -192,6 +192,13 @@ public var _tabNames: Array = [];
 public var _tabInfo: Object = {};
 public var _selectedTabIndex: int = 0;
 public var _hoveredTabIndex: int = -1;
+	
+public var _pointBlobBitmap: BitmapData = null;
+public var _pointBlobBitmapWidth: int = 0;
+public var _pointBlobBitmapHeight: int = 0;
+public var _pointBlobTileX: int = 0;
+public var _pointBlobTileY: int = 0;
+public var _pointBlobStillRendering: Boolean = false;
 
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -638,7 +645,7 @@ private function doEveryFrame(event: Event): void
 		_valuesDirty = false;		
 	}
 	
-	if (_dirty||(_mapTilesDirty&&(_redrawCountdown===0)))
+	if (_dirty||_pointBlobStillRendering||(_mapTilesDirty&&(_redrawCountdown===0)))
 	{		
 		drawMapIntoMainBitmap();				
 
@@ -1452,7 +1459,7 @@ private function drawMapIntoMainBitmap(): void
 		drawMapTiles(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
 	}
 
-	if (_dirty)
+	if (_dirty||_pointBlobStillRendering)
 	{			
 		_informationLayerShape.graphics.clear();
 		drawInformationLayer(_informationLayerShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
@@ -1927,165 +1934,48 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 {
 	if (!_hasPointValues)
 		return null;
-
-	var blobRadius: Number;
-	if (_settings.is_point_blob_radius_in_pixels)
-	{	
-		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
-		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
-	}
-	else
+	
+	if (_dirty)
 	{
-		blobRadius = _settings.point_blob_radius;	
-	}
-	var twoBlobRadius: Number = (2*blobRadius);
-	var blobRadiusSquared: Number = (blobRadius*blobRadius);
-	var pointBlobValue: Number = _settings.point_blob_value;
-
-	if (_settings.is_gradient_value_range_set)
-	{
-		var minValue: Number = _settings.gradient_value_min;
-		var maxValue: Number = _settings.gradient_value_max;	
-	}
-	else
-	{
-		minValue = 0;
-		maxValue = 1.0;
-	}
-	var valueScale: Number = (1/(maxValue-minValue));
-
-	_pointsGrid = new BucketGrid(viewingArea, 64, 64);
-
-	var currentValues: Array = getCurrentValues();
-
-	var hasValues: Boolean = (_valueColumnIndex!==-1);
+		createPointsGrid(viewingArea, latLonToXYMatrix);
 	
-	var index: int = 0;
-	for each (var values: Array in currentValues)
-	{
-		var lat: Number = values[_latitudeColumnIndex];
-		var lon: Number = values[_longitudeColumnIndex];
-		var pointValue: Number;
-		if (hasValues)
-			pointValue = values[_valueColumnIndex];
-		else
-			pointValue = pointBlobValue;
-			
-		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
-
-		if (!viewingArea.intersects(boundingBox))
-			continue;
-
-		var latLon: Object = { 
-			pos: new Point(lon, lat),
-			index: index,
-			value: pointValue
-		};
-
-		_pointsGrid.insertObjectAt(boundingBox, latLon);
-
-		index += 1;
-	}	
+		_pointBlobBitmapWidth = (width/_settings.point_bitmap_scale);
+		_pointBlobBitmapHeight = (height/_settings.point_bitmap_scale);
 	
-	var bitmapWidth: Number = (width/_settings.point_bitmap_scale);
-	var bitmapHeight: Number = (height/_settings.point_bitmap_scale);
-	
-	var leftLon: Number = viewingArea.left;
-	var rightLon: Number = viewingArea.right;
-	var widthLon: Number = (rightLon-leftLon);
-	var stepLon: Number = (widthLon/bitmapWidth);
-	
-	var topLat: Number = viewingArea.bottom;
-	var bottomLat: Number = viewingArea.top;
-
-	var topLatMercator: Number = latitudeToMercatorLatitude(topLat);
-	var bottomLatMercator: Number = latitudeToMercatorLatitude(bottomLat);
-	var heightLat: Number = (bottomLatMercator-topLatMercator);
-	var stepLat: Number = (heightLat/bitmapHeight);
-	
-	var result: BitmapData = new BitmapData(bitmapWidth, bitmapHeight, true, 0xffff00);
-	
-	var pixelData: ByteArray = new ByteArray();
-	
-	var zeroColor: uint = getColorForValue(0, minValue, maxValue, valueScale);
-	var fullColor: uint = getColorForValue(maxValue, minValue, maxValue, valueScale);
-	
-	var worldPoint: Point = new Point();
-	for (var bitmapY: int = 0; bitmapY<bitmapHeight; bitmapY+=1)
-	{
-		worldPoint.y = mercatorLatitudeToLatitude(topLatMercator+(stepLat*bitmapY));
-		for (var bitmapX: int = 0; bitmapX<bitmapWidth; bitmapX+=1)
-		{			
-			worldPoint.x = (leftLon+(stepLon*bitmapX));
-			
-			var candidatePoints: Array = _pointsGrid.getContentsAtPoint(worldPoint);
-			
-			if (candidatePoints.length<1)
-			{
-				pixelData.writeUnsignedInt(zeroColor);
-				continue;
-			}
-			
-			var value: Number = 0;
-			var lerpTotal: Number = 0;
-			
-			for each (var point: Object in candidatePoints)
-			{
-				var pos: Point = point.pos;
-				var delta: Point = worldPoint.subtract(pos);
-				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
-				if (distanceSquared>blobRadiusSquared)
-					continue;
-				
-				var distance: Number = Math.sqrt(distanceSquared);
-				var lerp: Number = (1-(distance/blobRadius));
-				
-				value += (point.value*lerp);
-				lerpTotal += lerp;
-			}
-
-			var color: uint;
-			if (hasValues)
-			{
-				if (lerpTotal>0)
-				{
-					value = (value/lerpTotal);	
-				}
-				else
-				{
-					value = 0;
-				}
-				
-				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-
-				var colorAlpha: uint = (color>>24)&0xff;
-				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
-				
-				color = (color&0x00ffffff)|(outputAlpha<<24);
-			}
-			else
-			{
-			
-				if (value>=maxValue)
-				{
-					pixelData.writeUnsignedInt(fullColor);
-					continue;
-				}
-
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-			}
+		_pointBlobBitmap = new BitmapData(_pointBlobBitmapWidth, _pointBlobBitmapHeight, true, 0x000000);
 		
-			pixelData.writeUnsignedInt(color);
-		}	
+		_pointBlobTileX = 0;
+		_pointBlobTileY = 0;
+		
+		_pointBlobStillRendering = true;
+	}
+
+	var tileSize: int = 128;	
+	
+	while (_pointBlobTileY<_pointBlobBitmapHeight)
+	{
+		var distanceFromBottom: int = (_pointBlobBitmapHeight-_pointBlobTileY);
+		var tileHeight: int = Math.min(tileSize, distanceFromBottom);
+		
+		while (_pointBlobTileX<_pointBlobBitmapWidth)
+		{	
+			var distanceFromRight: int = (_pointBlobBitmapWidth-_pointBlobTileX);
+			var tileWidth: int = Math.min(tileSize, distanceFromRight);
+			
+			drawPointBlobTile(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, _pointBlobTileX, _pointBlobTileY, tileWidth, tileHeight);
+			
+			_pointBlobTileX+=tileSize;
+
+			return _pointBlobBitmap;
+		}
+		
+		_pointBlobTileX = 0;
+		_pointBlobTileY+=tileSize
 	}
 	
-	pixelData.position = 0;
+	_pointBlobStillRendering = false;
 	
-	result.setPixels(new Rectangle(0, 0, bitmapWidth, bitmapHeight), pixelData);
-	
-	return result;
+	return _pointBlobBitmap;
 }
 
 private function loadAreaValues(linesArray: Array, headerLine: String, columnSeperator: String): void
@@ -3089,6 +2979,194 @@ private function getTabIndexFromEvent(event: MouseEvent): int
 	}
 	
 	return -1;
+}
+	
+private function createPointsGrid(viewingArea: Rectangle, latLonToXYMatrix: Matrix): void
+{
+	if (!_hasPointValues)
+		return;
+
+	var blobRadius: Number;
+	if (_settings.is_point_blob_radius_in_pixels)
+	{	
+		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
+		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
+	}
+	else
+	{
+		blobRadius = _settings.point_blob_radius;	
+	}
+	var twoBlobRadius: Number = (2*blobRadius);
+	var pointBlobValue: Number = _settings.point_blob_value;
+
+	_pointsGrid = new BucketGrid(viewingArea, 64, 64);
+	
+	var currentValues: Array = getCurrentValues();
+	
+	var hasValues: Boolean = (_valueColumnIndex!==-1);
+	
+	var index: int = 0;
+	for each (var values: Array in currentValues)
+	{
+		var lat: Number = values[_latitudeColumnIndex];
+		var lon: Number = values[_longitudeColumnIndex];
+		var pointValue: Number;
+		if (hasValues)
+			pointValue = values[_valueColumnIndex];
+		else
+			pointValue = pointBlobValue;
+		
+		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+		
+		if (!viewingArea.intersects(boundingBox))
+			continue;
+		
+		var latLon: Object = { 
+			pos: new Point(lon, lat),
+			index: index,
+			value: pointValue
+		};
+		
+		_pointsGrid.insertObjectAt(boundingBox, latLon);
+		
+		index += 1;
+	}		
+}
+
+public function drawPointBlobTile(width: Number, 
+	height: Number, 
+	viewingArea: Rectangle, 
+	latLonToXYMatrix: Matrix, 
+	xYToLatLonMatrix: Matrix, 
+	leftX: int,
+	topY: int,
+	tileWidth: int, 
+	tileHeight: int): void
+{
+	var bitmapWidth: int = _pointBlobBitmapWidth;
+	var bitmapHeight: int = _pointBlobBitmapHeight;
+	
+	var rightX: int = (leftX+tileWidth);
+	var bottomY: int = (topY+tileHeight);
+	
+	var blobRadius: Number;
+	if (_settings.is_point_blob_radius_in_pixels)
+	{	
+		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
+		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
+	}
+	else
+	{
+		blobRadius = _settings.point_blob_radius;	
+	}
+	var twoBlobRadius: Number = (2*blobRadius);
+	var blobRadiusSquared: Number = (blobRadius*blobRadius);
+	
+	if (_settings.is_gradient_value_range_set)
+	{
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
+	}
+	else
+	{
+		minValue = 0;
+		maxValue = 1.0;
+	}
+	var valueScale: Number = (1/(maxValue-minValue));
+	
+	var hasValues: Boolean = (_valueColumnIndex!==-1);
+	
+	var leftLon: Number = viewingArea.left;
+	var rightLon: Number = viewingArea.right;
+	var widthLon: Number = (rightLon-leftLon);
+	var stepLon: Number = (widthLon/bitmapWidth);
+	
+	var topLat: Number = viewingArea.bottom;
+	var bottomLat: Number = viewingArea.top;
+	
+	var topLatMercator: Number = latitudeToMercatorLatitude(topLat);
+	var bottomLatMercator: Number = latitudeToMercatorLatitude(bottomLat);
+	var heightLat: Number = (bottomLatMercator-topLatMercator);
+	var stepLat: Number = (heightLat/bitmapHeight);
+	
+	var pixelData: ByteArray = new ByteArray();
+	
+	var zeroColor: uint = getColorForValue(0, minValue, maxValue, valueScale);
+	var fullColor: uint = getColorForValue(maxValue, minValue, maxValue, valueScale);
+	
+	var worldPoint: Point = new Point();
+	for (var bitmapY: int = topY; bitmapY<bottomY; bitmapY+=1)
+	{
+		worldPoint.y = mercatorLatitudeToLatitude(topLatMercator+(stepLat*bitmapY));
+		for (var bitmapX: int = leftX; bitmapX<rightX; bitmapX+=1)
+		{			
+			worldPoint.x = (leftLon+(stepLon*bitmapX));
+			
+			var candidatePoints: Array = _pointsGrid.getContentsAtPoint(worldPoint);
+			
+			if (candidatePoints.length<1)
+			{
+				pixelData.writeUnsignedInt(zeroColor);
+				continue;
+			}
+			
+			var value: Number = 0;
+			var lerpTotal: Number = 0;
+			
+			for each (var point: Object in candidatePoints)
+			{
+				var pos: Point = point.pos;
+				var delta: Point = worldPoint.subtract(pos);
+				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
+				if (distanceSquared>blobRadiusSquared)
+					continue;
+				
+				var distance: Number = Math.sqrt(distanceSquared);
+				var lerp: Number = (1-(distance/blobRadius));
+				
+				value += (point.value*lerp);
+				lerpTotal += lerp;
+			}
+			
+			var color: uint;
+			if (hasValues)
+			{
+				if (lerpTotal>0)
+				{
+					value = (value/lerpTotal);	
+				}
+				else
+				{
+					value = 0;
+				}
+				
+				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+				
+				color = getColorForValue(value, minValue, maxValue, valueScale);
+				
+				var colorAlpha: uint = (color>>24)&0xff;
+				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
+				
+				color = (color&0x00ffffff)|(outputAlpha<<24);
+			}
+			else
+			{
+				if (value>=maxValue)
+				{
+					pixelData.writeUnsignedInt(fullColor);
+					continue;
+				}
+				
+				color = getColorForValue(value, minValue, maxValue, valueScale);
+			}
+			
+			pixelData.writeUnsignedInt(color);
+		}	
+	}
+	
+	pixelData.position = 0;
+	
+	_pointBlobBitmap.setPixels(new Rectangle(leftX, topY, tileWidth, tileHeight), pixelData);
 }
 	
 ]]>
