@@ -1,7 +1,7 @@
 /**
  * This script provides the interface to the OpenHeatMap rendering component
  *
- * To use it, call insertOpenHeatMap('#yourelement', 800, 400) to add the
+ * To use it, call $('#yourelement').insertOpenHeatMap({ width: 800, height:400}) to add the
  * component to your page, and then call getOpenHeatMap() to grab the API
  * object to continue construction
  *
@@ -9,47 +9,60 @@
  *
  **/
 
-function insertOpenHeatMapInto(selector, width, height, source, id)
-{
-    if (typeof source === 'undefined')
-        source = 'http://static.openheatmap.com.s3.amazonaws.com/openheatmap.swf';
-    if (typeof id === 'undefined')
-        id = 'openheatmap';
+(function($) {
+ 
+    $.fn.insertOpenHeatMap = function(settings) {
+        var defaults = {
+            source: 'http://static.openheatmap.com.s3.amazonaws.com/openheatmap.swf',
+            mapName: 'openheatmap',
+            width: 800,
+            height: 600
+        };
+ 
+        if (settings) 
+            settings = $.extend(defaults, settings);
+        else
+            settings = defaults;
+ 
+        this.each(function() {
+            var params = {};
+            params.src = settings.source;
+            params.id = settings.mapName;
+            params.name = settings.mapName;
+            params.allowScriptAccess = "always";
+            params.menu = false;
 
-    var params = {};
-    params.src = source;
-    params.id = id;
-    params.name = id;
-    params.allowScriptAccess = "always";
-    params.menu = false;
+            $(this).empty();
+            var widthString = settings.width+'px';
+            var heightString = settings.height+'px';
+            
+            $(this).width(widthString);
+            $(this).height(heightString);
+            
+            params.width = widthString;
+            params.height = heightString;
 
-    $(selector).empty();
-    if (typeof width !== 'undefined')
-    {
-        var widthString = width+'px';
-        var heightString = height+'px';
-        
-        $(selector).width(widthString);
-        $(selector).height(heightString);
-        
-        params.width = widthString;
-        params.height = heightString;
-    }
+            $(this).flash(params);
 
-    $(selector).flash(params);
+            // Dead-chicken-waving voodoo that I inserted whilst trying to get IE let
+            // me call Flash from Javascript. It's probably no longer needed, but the
+            // testing process to confirm that is too painful to contemplate right now
+            window[settings.mapName] = document.getElementById(settings.mapName);
+            document.getElementById(settings.mapName).setAttribute('classid','clsid:d27cdb6e-ae6d-11cf-96b8-444553540000');
+        });
+ 
+        return this;
+    };
     
-    window[id] = document.getElementById(id);
-    document.getElementById(id).setAttribute('classid','clsid:d27cdb6e-ae6d-11cf-96b8-444553540000');
-}
-
-function getOpenHeatMap(mapName) 
-{
-    if (typeof mapName === 'undefined')
-        mapName='openheatmap';
-        
-    var isIE = navigator.appName.indexOf("Microsoft") != -1;
-    return (isIE) ? document.getElementsByName(mapName)[0] : document.getElementById(mapName);
-}
+    $.getOpenHeatMap = function(mapName) {
+        if (typeof mapName === 'undefined')
+            mapName='openheatmap';
+            
+        var isIE = navigator.appName.indexOf("Microsoft") != -1;
+        return (isIE) ? document.getElementsByName(mapName)[0] : document.getElementById(mapName);
+    }
+ 
+})(jQuery);
 
 //-----------------------------------------------------------------------
 
