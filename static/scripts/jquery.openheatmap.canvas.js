@@ -82,12 +82,19 @@ function OpenHeatMap(canvas)
         };
         
         this._canvas
-        .mousedown(this.onMouseDown)
-        .mousemove(this.onMouseMove)
-        .mouseup(this.onMouseUp)
-        .dblclick(this.onDoubleClick);
+        .bind('click', this, this.mapMouseClickHandler)
+        .bind('dblclick', this, this.mapMouseDoubleClickHandler)
+        .bind('mousedown', this, this.mapMouseDownHandler)
+        .bind('mousemove', this, this.mapMouseMoveHandler)
+        .bind('mouseout', this, this.mapMouseOutHandler)
+        .bind('mouseover', this, this.mapMouseOverHandler)
+        .bind('mouseup', this, this.mapMouseUpHandler);
 
-        this.redraw();    
+        _dirty = true;
+
+        var instance = this;
+
+        window.setInterval(function() { instance.doEveryFrame(); }, 30);
     };
     
     this.initializeMembers = function() {
@@ -258,7 +265,7 @@ function OpenHeatMap(canvas)
     };
 
     this.redraw = function() {
-        this.clearCanvas();
+        this.clearCanvas(this._canvas);
         
         this.drawWays(this._canvas, this._latLonToXYMatrix); 
     };
@@ -273,55 +280,11 @@ function OpenHeatMap(canvas)
 
         return result;
     };
-    
-    this.onMouseDown = function(e) {
-        alert("onMouseDown()");
-
-        this._isDragging = true;
-        var currentPosition = this.getLocalPosition($(e.target), e.pageX, e.pageY);
-        this._lastPosition = currentPosition;
-    };
-
-    this.onMouseMove = function(e) {
-        if (this._isDragging) {
-            var currentPosition = this.getLocalPosition($(e.target), e.pageX, e.pageY);
-
-            var delta = currentPosition.subtract(_lastPosition);
-            this._lastPosition = currentPosition;
-            
-            this._viewTransform.translate(delta.x, delta.y);
-            
-            this.redraw();
-        }
-    };
-
-    this.onMouseUp = function(e) {
-        if (_isDragging) {
-            var currentPosition = this.getLocalPosition($(e.target), e.pageX, e.pageY);
-
-            var delta = currentPosition.subtract(_lastPosition);
-            this._lastPosition = currentPosition;
-            
-            this._viewTransform.translate(delta.x, delta.y);
-            
-            this.redraw();
-            
-            this._isDragging = false;
-        }
-    };
-
-    this.onDoubleClick = function(e) {
-        var currentPosition = this.getLocalPosition($(e.target), e.pageX, e.pageY);
-
-        this._viewTransform.zoomAroundPoint(currentPosition, 2);
-    
-        this.redraw();
-    };
 
     this.clearCanvas = function(canvas) {
         var context = this.beginDrawing(canvas);
         
-        context.clearRect(0, 0, canvasWidth, canvasHeight);
+        context.clearRect(0, 0, this._settings.width, this._settings.height);
         
         this.endDrawing(context);
     };
@@ -346,6 +309,8 @@ function OpenHeatMap(canvas)
             var firstNode = this._nodes[firstNd];
                 
             var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
+
+            context.beginPath();
 
             context.moveTo(firstPos.x, firstPos.y);
 
@@ -481,260 +446,265 @@ function OpenHeatMap(canvas)
 /*        updateZoomSliderDisplay(); */
     };
     
+
+    this.makeEventArgument = function(event)
+    {
+        var currentPosition = this.getLocalPosition($(event.target), event.pageX, event.pageY);
+        var mouseX = currentPosition.x;
+        var mouseY = currentPosition.y;
+
+        var mainLatLon = this.getLatLonFromXY(new Point(mouseX, mouseY), this._xYToLatLonMatrix);
+        
+        var mouseLatLon = null;
+        for (var inlayIndex in this._inlays)
+        {
+            var inlay = this._inlays[inlayIndex];
+            
+            var screenTopLeft = this.getXYFromLatLon(inlay.worldTopLeftLatLon, this._latLonToXYMatrix);
+            var screenBottomRight = this.getXYFromLatLon(inlay.worldBottomRightLatLon, this._latLonToXYMatrix);
+
+            if ((mouseX>=screenTopLeft.x)&&
+                (mouseX<screenBottomRight.x)&&
+                (mouseY>=screenTopLeft.y)&&
+                (mouseY<screenBottomRight.y))
+            {
+                var localX = (mouseX-screenTopLeft.x);
+                var localY = (mouseY-screenTopLeft.y);
+                mouseLatLon = this.getLatLonFromXY(new Point(localX, localY), inlay.xYToLatLonMatrix);
+            }
+        }
+        
+        if (mouseLatLon === null)
+            mouseLatLon = mainLatLon;
+        
+        var mapPointData = {};
+        mapPointData.lon = mouseLatLon.lon;
+        mapPointData.lat = mouseLatLon.lat;
+        mapPointData.x = mouseX;
+        mapPointData.y = mouseY;
+
+        return mapPointData;
+    };
+	
+    this.mapMouseClickHandler = function(event)
+    {
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarClick(event);
+        
+        var continueHandling;
+        if (ohmThis._onClickFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onClickFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+            
+        return true;
+    };
+
+    this.mapMouseDoubleClickHandler = function(event)
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarDoubleClick(event);
+
+        var continueHandling;
+        if (ohmThis._onDoubleClickFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onDoubleClickFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+            
+        if (continueHandling)
+        {
+            var center = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
+            var zoomFactor = 2.0;
+            
+            ohmThis.zoomMapByFactorAroundPoint(zoomFactor, center, false);
+            
+            ohmThis.onViewChange();	
+        }
+            
+        return true;
+    };
+
+    this.mapMouseDownHandler = function(event) 
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarMouseDown(event);
+
+        var continueHandling;
+        if (ohmThis._onMouseDownFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseDownFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+        
+        if (continueHandling)
+        {
+            var mousePosition = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
+
+            ohmThis._isDragging = true;
+            ohmThis._lastDragPosition = mousePosition; 
+        }
+        
+        return true;
+    };
+
+    this.mapMouseUpHandler = function(event) 
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarMouseUp(event);
+
+        var continueHandling;
+        if (ohmThis._onMouseUpFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseUpFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+        
+        if (continueHandling)
+        {
+            if (ohmThis._isDragging)
+            {
+                var mousePosition = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
+        
+                var positionChange = mousePosition.subtract(ohmThis._lastDragPosition);
+        
+                ohmThis.translateMapByScreenPixels(positionChange.x, positionChange.y, false);
+        
+                ohmThis._isDragging = false;
+                
+                ohmThis.onViewChange();
+            }
+        }
+        
+        return true;
+    };
+
+    this.mapMouseOverHandler = function(event)
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarMouseOver(event);
+
+        var continueHandling;
+        if (ohmThis._onMouseOverFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseOverFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+            
+        return true;
+    };
+
+    this.mapMouseOutHandler = function(event)
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarMouseOut(event);
+
+        var continueHandling;
+        if (ohmThis._onMouseOutFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseOutFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+            
+        return true;
+    };
+
+    this.mapMouseMoveHandler = function(event)
+    { 
+        var ohmThis = event.data;
+    
+        if (ohmThis.isEventInTopBar(event))
+            return ohmThis.onTopBarMouseMove(event);
+
+        var continueHandling;
+        if (ohmThis._onMouseMoveFunction !== null)
+            continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseMoveFunction, ohmThis.makeEventArgument(event));
+        else
+            continueHandling = true;
+
+        if (continueHandling)
+        {
+            if (ohmThis._isDragging)
+            {
+                var mousePosition = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
+        
+                var positionChange = mousePosition.subtract(ohmThis._lastDragPosition);
+        
+                ohmThis.translateMapByScreenPixels(positionChange.x, positionChange.y, true);
+        
+                ohmThis._lastDragPosition = mousePosition;
+            }
+        }
+                
+        return true;
+    }
+
+    this.doEveryFrame = function()
+    {		
+        if (this._redrawCountdown>0)
+        {
+            this._redrawCountdown -= 1;
+            if (this._redrawCountdown===0)
+                this._dirty = true;
+        }
+        
+        if (this._valuesDirty&&(this._redrawCountdown===0))
+        {
+            if (!this._hasPointValues)
+            {
+                /*this.setWaysFromValues();*/
+                this._dirty = true;
+            }
+            this._valuesDirty = false;		
+        }
+        
+        if (this._dirty||this._pointBlobStillRendering||(this._mapTilesDirty&&(this._redrawCountdown===0)))
+        {		
+            /*this.drawMapIntoMainBitmap();*/				
+
+            this._dirty = false;
+            this._redrawCountdown = 0;
+        }
+        
+this.redraw();
+        
+        /*this.drawMainBitmapIntoViewer();*/
+
+        if (this._hasTabs)
+        {
+            /*this.drawTabsIntoViewer();*/
+        }	
+        
+        if (this._hasTime)
+        {
+            if (this._timelineControls.isPlaying)
+            {
+                this._frameIndex += 1;
+                if (this._frameIndex>=this._frameTimes.length)
+                {
+                    this._frameIndex = (this._frameTimes.length-1);
+                    this._timelineControls.isPlaying = false;
+                }
+                
+                /*this.updateTimelineDisplay();*/
+                
+                this._dirty = true;
+                this._valuesDirty = true;
+                this.onDataChange();
+            }
+        }
+
+        if (this._onFrameRenderFunction !== null)
+            this.externalInterfaceCall(this._onFrameRenderFunction, null);	
+    };
 /*
-private function makeEventArgument(event:MouseEvent): Object
-{
-	var mouseX: Number = event.stageX;
-	var mouseY: Number = event.stageY;
-
-	var mainLatLon: Object = getLatLonFromXY(new Point(mouseX, mouseY), _xYToLatLonMatrix);
-	
-	var mouseLatLon: Object = null;
-	for each (var inlay: Object in _inlays)
-	{
-		var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
-		var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
-
-		if ((mouseX>=screenTopLeft.x)&&
-			(mouseX<screenBottomRight.x)&&
-			(mouseY>=screenTopLeft.y)&&
-			(mouseY<screenBottomRight.y))
-		{
-			var localX: Number = (mouseX-screenTopLeft.x);
-			var localY: Number = (mouseY-screenTopLeft.y);
-			mouseLatLon = getLatLonFromXY(new Point(localX, localY), inlay.xYToLatLonMatrix);
-		}
-	}
-	
-	if (mouseLatLon === null)
-		mouseLatLon = mainLatLon;
-	
-	var mapPointData:Object = new Object();
-	mapPointData.lon = mouseLatLon.lon;
-	mapPointData.lat = mouseLatLon.lat;
-	mapPointData.x = mouseX;
-	mapPointData.y = mouseY;
-
-	return mapPointData;
-}
-	
-private function mapMouseClickHandler( event:MouseEvent ): Boolean
-{
-	if (isEventInTopBar(event))
-		return onTopBarClick(event);
-	
-	var continueHandling: Boolean;
-	if (_onClickFunction !== null)
-		continueHandling = ExternalInterface.call(_onClickFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-
-	// Pete - I can't get double-click events to fire reliably, so I've hard-coded an interval within which the
-	// second normal click event triggers the double-click handler. Ugh, I feel dirty...
-	var currentTime: Number = new Date().getTime();
-	var sinceLastClick: Number = (currentTime-_lastClickTime);
-	if (sinceLastClick<750)
-	{
-		mapMouseDoubleClickHandler(event);
-		_lastClickTime = 0;
-	}
-	else
-	{
-		_lastClickTime = currentTime;	
-	}
-		
-	return true;
-}
-
-private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarDoubleClick(event);
-
-	var continueHandling: Boolean;
-	if (_onDoubleClickFunction !== null)
-		continueHandling = ExternalInterface.call(_onDoubleClickFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-		
-	if (continueHandling)
-	{
-		var center: Point = new Point(event.localX, event.localY);
-		var zoomFactor: Number = 2.0;
-		
-		zoomMapByFactorAroundPoint(zoomFactor, center);
-		
-		onViewChange();	
-	}
-		
-	return true;
-}
-
-private function mapMouseDownHandler( event:MouseEvent ): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarMouseDown(event);
-
-	var continueHandling: Boolean;
-	if (_onMouseDownFunction !== null)
-		continueHandling = ExternalInterface.call(_onMouseDownFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-	
-	if (continueHandling)
-	{
-		var mousePosition: Point = new Point(event.localX, event.localY);
-
-		_isDragging = true;
-		_lastDragPosition = mousePosition; 
-	}
-	
-	return true;
-}
-
-private function mapMouseUpHandler( event:MouseEvent ): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarMouseUp(event);
-
-	var continueHandling: Boolean;
-	if (_onMouseUpFunction !== null)
-		continueHandling = ExternalInterface.call(_onMouseUpFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-	
-	if (continueHandling)
-	{
-		if (_isDragging)
-		{
-			var mousePosition: Point = new Point(event.localX, event.localY);
-	
-			var positionChange: Point = mousePosition.subtract(_lastDragPosition);
-	
-			translateMapByScreenPixels(positionChange.x, positionChange.y, false);
-	
-			_isDragging = false;
-			
-			onViewChange();
-		}
-	}
-	
-	return true;
-}
-
-private function mapMouseOverHandler( event:MouseEvent ): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarMouseOver(event);
-
-	var continueHandling: Boolean;
-	if (_onMouseOverFunction !== null)
-		continueHandling = ExternalInterface.call(_onMouseOverFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-		
-	return true;
-}
-
-private function mapMouseOutHandler( event:MouseEvent ): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarMouseOut(event);
-
-	var continueHandling: Boolean;
-	if (_onMouseOutFunction !== null)
-		continueHandling = ExternalInterface.call(_onMouseOutFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-		
-	return true;
-}
-
-private function mapMouseMoveHandler( event:MouseEvent): Boolean
-{ 
-	if (isEventInTopBar(event))
-		return onTopBarMouseMove(event);
-
-	var continueHandling: Boolean;
-	if (_onMouseMoveFunction !== null)
-		continueHandling = ExternalInterface.call(_onMouseMoveFunction, makeEventArgument(event));
-	else
-		continueHandling = true;
-
-	if (continueHandling)
-	{
-		if (_isDragging)
-		{
-			var mousePosition: Point = new Point(event.localX, event.localY);
-	
-			var positionChange: Point = mousePosition.subtract(_lastDragPosition);
-	
-			translateMapByScreenPixels(positionChange.x, positionChange.y, true);
-	
-			_lastDragPosition = mousePosition;
-		}
-	}
-			
-	return true;
-}
-
-private function doEveryFrame(event: Event): void
-{		
-	if (_redrawCountdown>0)
-	{
-		_redrawCountdown -= 1;
-		if (_redrawCountdown===0)
-			_dirty = true;
-	}
-	
-	if (_valuesDirty&&(_redrawCountdown===0))
-	{
-		if (!_hasPointValues)
-		{
-			setWaysFromValues();
-			_dirty = true;
-		}
-		_valuesDirty = false;		
-	}
-	
-	if (_dirty||_pointBlobStillRendering||(_mapTilesDirty&&(_redrawCountdown===0)))
-	{		
-		drawMapIntoMainBitmap();				
-
-		_dirty = false;
-		_redrawCountdown = 0;
-	}
-	
-	drawMainBitmapIntoViewer();
-
-	if (_hasTabs)
-	{
-		drawTabsIntoViewer();
-	}	
-	
-	if (_hasTime)
-	{
-		if (_timelineControls.isPlaying)
-		{
-			_frameIndex += 1;
-			if (_frameIndex>=_frameTimes.length)
-			{
-				_frameIndex = (_frameTimes.length-1);
-				_timelineControls.isPlaying = false;
-			}
-			
-			updateTimelineDisplay();
-			
-			_dirty = true;
-			_valuesDirty = true;
-			onDataChange();
-		}
-	}
-
-	if (_onFrameRenderFunction !== null)
-		ExternalInterface.call(_onFrameRenderFunction, null);	
-}
-
 private function blankWay(): Object
 {
 	var result: Object = {};
@@ -1623,60 +1593,61 @@ private function drawMainBitmapIntoViewer(): void
 	viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, bitmapTransform, false);
 	viewer.graphics.drawRect(screenBitmapLeft, screenBitmapTop, screenBitmapWidth, screenBitmapHeight);
 	viewer.graphics.endFill();	
-}
+}*/
 
-private function translateMapByScreenPixels(x: Number, y: Number, dragging: Boolean = false): void
-{
-	_latLonToXYMatrix.translate(x, y);
-	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
-	_xYToLatLonMatrix.invert();
-	
-	if (dragging)
-		_redrawCountdown = 5;
-	else
-		_dirty = true;
-}
+    this.translateMapByScreenPixels = function(x, y, dragging)
+    {
+        this._latLonToXYMatrix.translate(x, y);
+        this._xYToLatLonMatrix = this._latLonToXYMatrix.clone();
+        this._xYToLatLonMatrix.invert();
+        
+        if (dragging)
+            this._redrawCountdown = 5;
+        else
+            this._dirty = true;
+    };
 
-private function zoomMapByFactorAroundPoint(zoomFactor: Number, center: Point, dragging: Boolean = false): void
-{
-	var translateToOrigin: Matrix = new Matrix();
-	translateToOrigin.translate(-center.x, -center.y);
-	
-	var scale: Matrix = new Matrix();
-	scale.scale(zoomFactor, zoomFactor);
-	
-	var translateFromOrigin: Matrix = new Matrix();
-	translateFromOrigin.translate(center.x, center.y);
+    this.zoomMapByFactorAroundPoint = function(zoomFactor, center, dragging)
+    {
+        var translateToOrigin = new Matrix();
+        translateToOrigin.translate(-center.x, -center.y);
+        
+        var scale = new Matrix();
+        scale.scale(zoomFactor, zoomFactor);
+        
+        var translateFromOrigin = new Matrix();
+        translateFromOrigin.translate(center.x, center.y);
 
-	var zoom: Matrix = new Matrix();
-	zoom.concat(translateToOrigin);
-	zoom.concat(scale);
-	zoom.concat(translateFromOrigin);
-	
-	_latLonToXYMatrix.concat(zoom);
-	_xYToLatLonMatrix = _latLonToXYMatrix.clone();
-	_xYToLatLonMatrix.invert();
+        var zoom = new Matrix();
+        zoom.concat(translateToOrigin);
+        zoom.concat(scale);
+        zoom.concat(translateFromOrigin);
+        
+        this._latLonToXYMatrix.concat(zoom);
+        this._xYToLatLonMatrix = this._latLonToXYMatrix.clone();
+        this._xYToLatLonMatrix.invert();
 
-	for each (var inlay: Object in _inlays)
-	{
-		var newLatLonToXYMatrix: Matrix = inlay.latLonToXYMatrix.clone();
-		newLatLonToXYMatrix.concat(scale);
-		
-		var newXYToLatLonMatrix: Matrix = newLatLonToXYMatrix.clone();
-		newXYToLatLonMatrix.invert();
-		
-		inlay.latLonToXYMatrix = newLatLonToXYMatrix;
-		inlay.xYToLatLonMatrix = newXYToLatLonMatrix;
-	}
-	
-	if (dragging)
-		_redrawCountdown = 5;
-	else
-		_dirty = true;
-		
-	updateZoomSliderDisplay();
-}
-
+        for (var inlayIndex in this._inlays)
+        {
+            var inlay = this._inlays[inlayIndex];
+            var newLatLonToXYMatrix = inlay.latLonToXYMatrix.clone();
+            newLatLonToXYMatrix.concat(scale);
+            
+            var newXYToLatLonMatrix = newLatLonToXYMatrix.clone();
+            newXYToLatLonMatrix.invert();
+            
+            inlay.latLonToXYMatrix = newLatLonToXYMatrix;
+            inlay.xYToLatLonMatrix = newXYToLatLonMatrix;
+        }
+        
+        if (dragging)
+            this._redrawCountdown = 5;
+        else
+            this._dirty = true;
+            
+/*        this.updateZoomSliderDisplay();*/
+    };
+/*
 private function createViewerElements(): void
 {
 	_mainShape = new Shape();
@@ -1852,25 +1823,25 @@ private function calculateFrameTimes(): void
 	if (_frameIndex>(_frameTimes.length-1))
 		_frameIndex = (_frameTimes.length-1);
 }
-
-private function onDataChange(): void
-{
-	if (_onDataChangeFunction!==null)
-		ExternalInterface.call(_onDataChangeFunction, null);	
-}
 */
+    this.onDataChange = function()
+    {
+        if (this._onDataChangeFunction!==null)
+            this.externalInterfaceCall(this._onDataChangeFunction, null);	
+    };
+
     this.logError = function(message) {
         alert('Error: '+message);
         if (_onErrorFunction!==null)
             this.externalInterfaceCall(_onErrorFunction, message);	
     };
-/*
-private function onViewChange(): void
-{
-	if (_onViewChangeFunction!==null)
-		ExternalInterface.call(_onViewChangeFunction, null);	
-}
 
+    this.onViewChange = function()
+    {
+        if (this._onViewChangeFunction!==null)
+            this.externalInterfaceCall(this._onViewChangeFunction, null);	
+    };
+/*
 private function getWayForWayId(wayId: String): Object
 {
 	var result: Object = _ways[wayId];
@@ -2934,104 +2905,108 @@ private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
 	
 	return result;
 }
+*/
+    this.isEventInTopBar = function(event)
+    {
+        var hasTitle = (this._settings.title_text!=='');
+        
+        if ((!hasTitle)&&(!this._hasTabs))
+            return false;
+        
+        var tabHeight = this._settings.tab_height;
+        
+        var tabTopY;
+        if (hasTitle)
+            tabTopY = (this._settings.title_size*1.5);
+        else
+            tabTopY = 0;
+        
+        var tabBottomY = (tabTopY+tabHeight);
+        
+        var localPosition = this.getLocalPosition($(event.target), event.pageX, event.pageY);
+        
+        return (localPosition.y<tabBottomY);
+    };
 
-private function isEventInTopBar(event: MouseEvent): Boolean
-{
-	var hasTitle: Boolean = (_settings.title_text!=='');
+    this.onTopBarClick = function(event)
+    {
+        var tabIndex = this.getTabIndexFromEvent(event);
+        
+        if (tabIndex!==-1)
+        {
+            this._selectedTabIndex = tabIndex;
+            this._valuesDirty = true;
+            this._dirty = true;
+        }
+        
+        return true;
+    };
 	
-	if ((!hasTitle)&&(!_hasTabs))
-		return false;
+    this.onTopBarDoubleClick = function(event)
+    {
+        var tabIndex = this.getTabIndexFromEvent(event);
+        
+        if (tabIndex!==-1)
+        {
+            this._selectedTabIndex = tabIndex;
+            this._valuesDirty = true;
+            this._dirty = true;
+        }
+        
+        return true;
+    };
 	
-	var tabHeight: Number = _settings.tab_height;
-	
-	var tabTopY: Number;
-	if (hasTitle)
-		tabTopY = (_settings.title_size*1.5);
-	else
-		tabTopY = 0;
-	
-	var tabBottomY: Number = (tabTopY+tabHeight);
-	
-	return (event.localY<tabBottomY);
-}
+    this.onTopBarMouseDown = function(event)
+    {	
+        return true;	
+    };
 
-private function onTopBarClick(event: MouseEvent): Boolean
-{
-	var tabIndex: int = getTabIndexFromEvent(event);
-	
-	if (tabIndex!==-1)
-	{
-		_selectedTabIndex = tabIndex;
-		_valuesDirty = true;
-		_dirty = true;
-	}
-	
-	return true;
-}
-	
-private function onTopBarDoubleClick(event: MouseEvent): Boolean
-{
-	var tabIndex: int = getTabIndexFromEvent(event);
-	
-	if (tabIndex!==-1)
-	{
-		_selectedTabIndex = tabIndex;
-		_valuesDirty = true;
-		_dirty = true;
-	}
-	
-	return true;
-}
-	
-private function onTopBarMouseDown(event: MouseEvent): Boolean
-{	
-	return true;	
-}
+    this.onTopBarMouseUp = function(event)
+    {	
+        return true;		
+    };
 
-private function onTopBarMouseUp(event: MouseEvent): Boolean
-{	
-	return true;		
-}
+    this.onTopBarMouseOver = function(event)
+    {
+        return true;	
+    };
 
-private function onTopBarMouseOver(event: MouseEvent): Boolean
-{
-	return true;	
-}
+    this.onTopBarMouseOut = function(event)
+    {
+        return true;	
+    };
+	
+    this.onTopBarMouseMove = function(event)
+    {
+        var tabIndex = this.getTabIndexFromEvent(event);
+        
+        this._hoveredTabIndex = tabIndex;
+        
+        return true;	
+    };
+	
+    this.getTabIndexFromEvent = function(event)
+    {
+        var localPosition = this.getLocalPosition($(event.target), event.pageX, event.pageY);
 
-private function onTopBarMouseOut(event: MouseEvent): Boolean
-{
-	return true;	
-}
-	
-private function onTopBarMouseMove(event: MouseEvent): Boolean
-{
-	var tabIndex: int = getTabIndexFromEvent(event);
-	
-	_hoveredTabIndex = tabIndex;
-	
-	return true;	
-}
-	
-private function getTabIndexFromEvent(event: MouseEvent): int
-{
-	var x: Number = event.localX;
-	var y: Number = event.localY;
-	
-	for (var tabIndex:int = 0; tabIndex<_tabNames.length; tabIndex+=1)
-	{
-		var tabName: String = _tabNames[tabIndex];
-		var tabInfo: Object = _tabInfo[tabName];
-		
-		if ((x>=tabInfo.leftX)&&
-			(x<tabInfo.rightX)&&
-			(y>=tabInfo.topY)&&
-			(y<tabInfo.bottomY))
-			return tabIndex;
-	}
-	
-	return -1;
-}
-	
+        var x = localPosition.x;
+        var y = localPosition.y;
+        
+        for (var tabIndex = 0; tabIndex<this._tabNames.length; tabIndex+=1)
+        {
+            var tabName = this._tabNames[tabIndex];
+            var tabInfo = this._tabInfo[tabName];
+            
+            if ((x>=tabInfo.leftX)&&
+                (x<tabInfo.rightX)&&
+                (y>=tabInfo.topY)&&
+                (y<tabInfo.bottomY))
+                return tabIndex;
+        }
+        
+        return -1;
+    };
+/*
 private function createPointsGrid(viewingArea: Rectangle, latLonToXYMatrix: Matrix): void
 {
 	if (!_hasPointValues)
@@ -3220,10 +3195,17 @@ public function drawPointBlobTile(width: Number,
 	_pointBlobBitmap.setPixels(new Rectangle(leftX, topY, tileWidth, tileHeight), pixelData);
 }
 */
-    this.externalInterfaceCall = function (functionString, value)
-    {
-        
-        return true;
+
+    // From http://stackoverflow.com/questions/359788/javascript-function-name-as-a-string   
+    this.externalInterfaceCall = function(functionName) {
+        var args = Array.prototype.slice.call(arguments).splice(2);
+        var namespaces = functionName.split(".");
+        var func = namespaces.pop();
+        var context = window;
+        for(var i = 0; i < namespaces.length; i++) {
+            context = context[namespaces[i]];
+        }
+        return context[func].apply(this, args);
     }
 
     this.__constructor(canvas);
