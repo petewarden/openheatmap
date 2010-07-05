@@ -842,145 +842,146 @@ function OpenHeatMap(canvas)
         });
     }
 
-/*
-private function decodeCSVRow(line: String, columnSeperator: String = ',') : Array
-{
-	var inQuotes: Boolean = false;
-	var inEscape: Boolean = false;
-	
-	var result: Array = [];
+    this.decodeCSVRow = function(line, columnSeperator)
+    {
+        var inQuotes = false;
+        var inEscape = false;
+        
+        var result = [];
 
-	var currentValue: String = '';
+        var currentValue = '';
 
-	for( var i: int = 0; i < line.length; i+=1)
-	{
-		var currentChar: String = line.charAt(i);
-	
-		if (!inQuotes)
-		{
-			if (currentChar==='"')
-			{
-				inQuotes = true;
-			}
-			else if (currentChar===columnSeperator)
-			{
-				result.push(currentValue);
-				currentValue = '';
-			}
-			else
-			{
-				currentValue += currentChar;
-			}
-		}
-		else
-		{
-			if (!inEscape)
-			{
-				if (currentChar==='\\')
-				{
-					inEscape = true;
-				}
-				else if (currentChar==='"')
-				{
-					inQuotes = false;
-				}
-				else
-				{
-					currentValue += currentChar;
-				}
-				
-			}
-			else
-			{
-				currentValue += currentChar;
-				inEscape = false;
-			}
-			
-		}
-		
-	}
-	
-	result.push(currentValue);
-	
-	return result;
-}
+        for( var i = 0; i < line.length; i+=1)
+        {
+            var currentChar = line.charAt(i);
+        
+            if (!inQuotes)
+            {
+                if (currentChar==='"')
+                {
+                    inQuotes = true;
+                }
+                else if (currentChar===columnSeperator)
+                {
+                    result.push(currentValue);
+                    currentValue = '';
+                }
+                else
+                {
+                    currentValue += currentChar;
+                }
+            }
+            else
+            {
+                if (!inEscape)
+                {
+                    if (currentChar==='\\')
+                    {
+                        inEscape = true;
+                    }
+                    else if (currentChar==='"')
+                    {
+                        inQuotes = false;
+                    }
+                    else
+                    {
+                        currentValue += currentChar;
+                    }
+                    
+                }
+                else
+                {
+                    currentValue += currentChar;
+                    inEscape = false;
+                }
+                
+            }
+            
+        }
+        
+        result.push(currentValue);
+        
+        return result;
+    }
 
-private function onValuesLoad(success:Boolean): void
-{
-	loadValuesFromCSVString(_valuesLoader.data.toString());
+    this.onValuesLoad = function(data)
+    {
+        this.loadValuesFromCSVString(data);
 
-	if (_onValuesLoadFunction!==null)
-		ExternalInterface.call(_onValuesLoadFunction, _valuesFileName);
-}
+        if (this._onValuesLoadFunction!==null)
+            this.externalInterfaceCall(this._onValuesLoadFunction, this._valuesFileName);
+    };
 
-private function loadValuesFromCSVString(valuesString: String): void
-{
-	var lineSeperator: String = '\n';
-	var columnSeperator: String = ',';		  	
+    this.loadValuesFromCSVString = function(valuesString)
+    {
+        var lineSeperator = '\n';
+        var columnSeperator = ',';		  	
 
-	var linesArray: Array = valuesString.split(lineSeperator);
-	
-	var headerLine: String = linesArray[0];
+        var linesArray = valuesString.split(lineSeperator);
+        
+        var headerLine = linesArray[0];
 
-	_valueHeaders = decodeCSVRow(headerLine, columnSeperator);
+        this._valueHeaders = this.decodeCSVRow(headerLine, columnSeperator);
 
-	_timeColumnIndex = -1;
-	_valueColumnIndex = -1;
-	_latitudeColumnIndex = -1;
-	_longitudeColumnIndex = -1;
-	_tabColumnIndex = -1;
-	for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
-	{
-		var header: String = _valueHeaders[headerIndex].toLowerCase();
-		if (header==='time')
-			_timeColumnIndex = headerIndex;	
-		else if (header==='value')
-			_valueColumnIndex = headerIndex;
-		else if ((header==='latitude')||(header==='lat'))
-			_latitudeColumnIndex = headerIndex;
-		else if ((header==='longitude')||(header==='lon'))
-			_longitudeColumnIndex = headerIndex;
-		else if ((header==='tab')||(header==='category'))
-			_tabColumnIndex = headerIndex;
-	}
-	
-	var hasLatitude: Boolean = (_latitudeColumnIndex!==-1);
-	var hasLongitude: Boolean = (_longitudeColumnIndex!==-1);
-	
-	if ((hasLatitude||hasLongitude)&&(hasLatitude!=hasLongitude))
-	{
-		logError( 'Error loading CSV file "'+_valuesFileName+'" - only found one of longitude or latitude in "'+headerLine+'"');
-		return;		
-	}
-	
-	_hasPointValues = hasLatitude;
-	_hasTime = (_timeColumnIndex!==-1);
-	_hasTabs = (_tabColumnIndex!==-1);
-	
-	_hasBitmapBackground = _hasPointValues;
-	
-	if (!_hasPointValues)
-		loadAreaValues(linesArray, headerLine, columnSeperator);
-	else
-		loadPointValues(linesArray, headerLine, columnSeperator);
-		
-	if (_hasTime)
-	{
-		calculateFrameTimes();
-		_frameIndex = 0;
-		addTimelineControls();
-	}
-	
-	_valuesDirty = true;
-	_dirty = true;			
-}
+        this._timeColumnIndex = -1;
+        this._valueColumnIndex = -1;
+        this._latitudeColumnIndex = -1;
+        this._longitudeColumnIndex = -1;
+        this._tabColumnIndex = -1;
+        for(var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++ )
+        {
+            var header = this._valueHeaders[headerIndex].toLowerCase();
+            if (header==='time')
+                this._timeColumnIndex = headerIndex;	
+            else if (header==='value')
+                this._valueColumnIndex = headerIndex;
+            else if ((header==='latitude')||(header==='lat'))
+                this._latitudeColumnIndex = headerIndex;
+            else if ((header==='longitude')||(header==='lon'))
+                this._longitudeColumnIndex = headerIndex;
+            else if ((header==='tab')||(header==='category'))
+                this._tabColumnIndex = headerIndex;
+        }
+        
+        var hasLatitude = (this._latitudeColumnIndex!==-1);
+        var hasLongitude = (this._longitudeColumnIndex!==-1);
+        
+        if ((hasLatitude||hasLongitude)&&(hasLatitude!=hasLongitude))
+        {
+            this.logError( 'Error loading CSV file "'+this._valuesFileName+'" - only found one of longitude or latitude in "'+headerLine+'"');
+            return;		
+        }
+        
+        this._hasPointValues = hasLatitude;
+        this._hasTime = (this._timeColumnIndex!==-1);
+        this._hasTabs = (this._tabColumnIndex!==-1);
+        
+        this._hasBitmapBackground = this._hasPointValues;
+        
+        if (!this._hasPointValues)
+            this.loadAreaValues(linesArray, headerLine, columnSeperator);
+        else
+            this.loadPointValues(linesArray, headerLine, columnSeperator);
+            
+        if (this._hasTime)
+        {
+            this.calculateFrameTimes();
+            this._frameIndex = 0;
+            this.addTimelineControls();
+        }
+        
+        this._valuesDirty = true;
+        this._dirty = true;			
+    };
 
-private function loadValuesFromFile(valuesFileName: String): void
-{
-	_valuesFileName = valuesFileName;
-	_valuesLoader = new URLLoader(new URLRequest(valuesFileName));
-	_valuesLoader.addEventListener("complete", onValuesLoad);
-}*/
+    this.loadValuesFromFile = function(valuesFileName)
+    {
+        this._valuesFileName = valuesFileName;
+        var instance = this;
+        $.get(valuesFileName, function(data) {
+            instance.onValuesLoad(data);
+        });
+    };
 
     this.drawInformationLayer = function(canvas, width, height, latLonToXYMatrix, xYToLatLonMatrix)
     {    
@@ -1150,42 +1151,43 @@ private function loadValuesFromFile(valuesFileName: String): void
         
         this._lastSetWayIds = thisSetWayIds;
     };
-/*
-private function setColorGradient(colorList: Array) : void
-{
-	_colorGradient = [];
-	
-	for each (var colorString: String in colorList)
-	{
-		colorString = colorString.replace('#', '0x');
-		
-		var colorNumber: uint = (uint)(colorString);
-		
-		var alpha: uint;
-		if (colorString.length>8)
-			alpha = (colorNumber>>24)&0xff;
-		else
-			alpha = 0x7f;		
-		
-		var red: uint = (colorNumber>>16)&0xff;
-		var green: uint = (colorNumber>>8)&0xff;
-		var blue: uint = (colorNumber>>0)&0xff;
-		
-		var premultRed: uint = Math.floor((red*alpha)/255.0);
-		var premultGreen: uint = Math.floor((green*alpha)/255.0);
-		var premultBlue: uint = Math.floor((blue*alpha)/255.0);
-		
-		_colorGradient.push({
-			alpha: alpha,
-			red: premultRed,
-			green: premultGreen,
-			blue: premultBlue
-		});
-	}
 
-	_valuesDirty = true;
-	_redrawCountdown = 5;
-}*/
+    this.setColorGradient = function(colorList)
+    {
+        this._colorGradient = [];
+        
+        for (var colorStringIndex in colorList)
+        {
+            var colorString = colorList[colorStringIndex];
+            colorString = colorString.replace('#', '0x');
+            
+            var colorNumber = Math.floor(colorString);
+            
+            var alpha;
+            if (colorString.length>8)
+                alpha = (colorNumber>>24)&0xff;
+            else
+                alpha = 0x7f;		
+            
+            var red = (colorNumber>>16)&0xff;
+            var green = (colorNumber>>8)&0xff;
+            var blue = (colorNumber>>0)&0xff;
+            
+            var premultRed = Math.floor((red*alpha)/255.0);
+            var premultGreen = Math.floor((green*alpha)/255.0);
+            var premultBlue = Math.floor((blue*alpha)/255.0);
+            
+            this._colorGradient.push({
+                alpha: alpha,
+                red: premultRed,
+                green: premultGreen,
+                blue: premultBlue
+            });
+        }
+
+        this._valuesDirty = true;
+        this._redrawCountdown = 5;
+    }
 
     this.setAttributeForMatchingWays = function(matchKeys, attributeName, attributeValue, setWays)
     {
@@ -1223,9 +1225,8 @@ private function setColorGradient(colorList: Array) : void
         }
             
         var foundCount = 0;
-        for (wayIdIndex in matchingWayIds)
+        for (wayId in matchingWayIds)
         {
-            var wayId = matchingWayIds[wayIdIndex];
             this._ways[wayId]['tags'][attributeName] = attributeValue;
             foundCount += 1;
             setWays[wayId] = true;
@@ -1818,35 +1819,35 @@ private function updateZoomSliderDisplay(): void
 	var sliderValue: Number = Math.pow(lerpValue, (1/_settings.zoom_slider_power));
 
 	_zoomSlider.value = sliderValue;
-}
+}*/
 
-private function setGradientValueRange(min: Number, max: Number): void
-{
-	_settings.is_gradient_value_range_set = true;
-	_settings.gradient_value_min = min;
-	_settings.gradient_value_max = max;
-}
+    this.setGradientValueRange = function(min, max)
+    {
+        this._settings.is_gradient_value_range_set = true;
+        this._settings.gradient_value_min = min;
+        this._settings.gradient_value_max = max;
+    };
 
-private function calculateFrameTimes(): void
-{
-	_frameTimes = [];
-	
-	for (var thisTime: String in _foundTimes)
-	{
-		if ((_settings.time_range_start!==null)&&(thisTime<_settings.time_range_start))
-			continue;
+    this.calculateFrameTimes = function()
+    {
+        this._frameTimes = [];
+        
+        for (var thisTime in this._foundTimes)
+        {
+            if ((this._settings.time_range_start!==null)&&(thisTime<this._settings.time_range_start))
+                continue;
 
-		if ((_settings.time_range_end!==null)&&(thisTime>_settings.time_range_end))
-			continue;
-		
-		_frameTimes.push(thisTime);
-	}
-	_frameTimes.sort();
-	
-	if (_frameIndex>(_frameTimes.length-1))
-		_frameIndex = (_frameTimes.length-1);
-}
-*/
+            if ((this._settings.time_range_end!==null)&&(thisTime>this._settings.time_range_end))
+                continue;
+            
+            this._frameTimes.push(thisTime);
+        }
+        this._frameTimes.sort();
+        
+        if (this._frameIndex>(this._frameTimes.length-1))
+            this._frameIndex = (this._frameTimes.length-1);
+    };
+
     this.onDataChange = function()
     {
         if (this._onDataChangeFunction!==null)
@@ -2021,148 +2022,148 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 	_pointBlobStillRendering = false;
 	
 	return _pointBlobBitmap;
-}
-
-private function loadAreaValues(linesArray: Array, headerLine: String, columnSeperator: String): void
-{
-	if (_valueColumnIndex===-1)
-	{
-		logError( 'Error loading CSV file "'+_valuesFileName+'" - missing value column from header "'+headerLine+'"');
-		return;
-	}
-	
-	_foundTimes = {};
-	_tabNames = [];
-	_tabInfo = {};
-	
-	_valueData = [];
-	
-	for(var i : int = 1; i < linesArray.length; i++ )
-	{
-		var lineString: String = linesArray[i];
-		var lineValues: Array = decodeCSVRow(lineString, columnSeperator);
-		
-		var thisValue: Number = (Number)(lineValues[_valueColumnIndex]);
-		
-		if ((i===1)||(thisValue<_smallestValue))
-			_smallestValue = thisValue;
-			
-		if ((i===1)||(thisValue>_largestValue))
-			_largestValue = thisValue;
-		
-		var dataDestination: Array = _valueData;
-
-		if (_hasTabs)
-		{
-			var thisTab: String = lineValues[_tabColumnIndex];
-			if (thisTab !== null)
-			{
-				if (typeof _tabInfo[thisTab] === 'undefined')
-				{
-					_tabInfo[thisTab] = {};
-					_tabNames.push(thisTab);
-				}
-				
-				if (typeof dataDestination[thisTab]==='undefined')
-				{
-					dataDestination[thisTab] = [];
-				}
-				
-				dataDestination = dataDestination[thisTab];
-			}			
-		}		
-		
-		if (_hasTime)
-		{
-			var thisTime: String = lineValues[_timeColumnIndex];
-			if ((thisTime !== null)&&(thisTime!=''))
-			{
-				if (typeof _foundTimes[thisTime] === 'undefined')
-				{
-					_foundTimes[thisTime] = true;
-				}
-				
-				if (typeof dataDestination[thisTime] === 'undefined')
-				{				
-					dataDestination[thisTime] = [];
-				}
-
-				dataDestination = dataDestination[thisTime];
-			}
-		}
-
-		dataDestination.push(lineValues);	
-	}
-	
-}
-
-private function loadPointValues(linesArray: Array, headerLine: String, columnSeperator: String): void
-{	
-	_foundTimes = {};
-	_tabInfo = {};
-	_tabNames = [];
-		
-	_valueData = [];
-	
-	for(var i : int = 1; i < linesArray.length; i++ )
-	{
-		var lineString: String = linesArray[i];
-		var lineValues: Array = decodeCSVRow(lineString, columnSeperator);
-		
-		var thisLatitude: Number = (Number)(lineValues[_latitudeColumnIndex]);
-		var thisLongitude: Number = (Number)(lineValues[_longitudeColumnIndex]);
-
-		lineValues[_latitudeColumnIndex] = thisLatitude;
-		lineValues[_longitudeColumnIndex] = thisLongitude;
-
-		if (_valueColumnIndex!==-1)
-		{
-			var thisValue: Number = (Number)(lineValues[_valueColumnIndex]);
-			lineValues[_valueColumnIndex] = thisValue;
-			
-			if ((i===1)||(thisValue<_smallestValue))
-				_smallestValue = thisValue;
-			
-			if ((i===1)||(thisValue>_largestValue))
-				_largestValue = thisValue;
-		}
-		
-		var dataDestination: Array = _valueData;
-		
-		if (_hasTabs)
-		{
-			var thisTab: String = lineValues[_tabColumnIndex];
-			if (thisTab !== null)
-			{
-				if (typeof _tabInfo[thisTab] === 'undefined')
-				{
-					_tabInfo[thisTab] = {};
-					_tabNames.push(thisTab);					
-					dataDestination[thisTab] = [];
-				}
-				
-				dataDestination = dataDestination[thisTab];
-			}			
-		}		
-		
-		if (_hasTime)
-		{
-			var thisTime: String = lineValues[_timeColumnIndex];
-			if ((thisTime !== null)&&(thisTime!=''))
-			{
-				if (typeof _foundTimes[thisTime] === 'undefined')
-				{
-					_foundTimes[thisTime] = true;
-					dataDestination[thisTime] = [];
-				}
-				
-				dataDestination = dataDestination[thisTime];
-			}
-		}
-		
-		dataDestination.push(lineValues);	
-	}		
 }*/
+
+    this.loadAreaValues = function(linesArray, headerLine, columnSeperator)
+    {
+        if (this._valueColumnIndex===-1)
+        {
+            logError( 'Error loading CSV file "'+this._valuesFileName+'" - missing value column from header "'+headerLine+'"');
+            return;
+        }
+        
+        this._foundTimes = {};
+        this._tabNames = [];
+        this._tabInfo = {};
+        
+        this._valueData = [];
+        
+        for(var i = 1; i < linesArray.length; i++ )
+        {
+            var lineString = linesArray[i];
+            var lineValues = this.decodeCSVRow(lineString, columnSeperator);
+            
+            var thisValue = (Number)(lineValues[this._valueColumnIndex]);
+            
+            if ((i===1)||(thisValue<this._smallestValue))
+                this._smallestValue = thisValue;
+                
+            if ((i===1)||(thisValue>this._largestValue))
+                this._largestValue = thisValue;
+            
+            var dataDestination = this._valueData;
+
+            if (this._hasTabs)
+            {
+                var thisTab = lineValues[this._tabColumnIndex];
+                if (thisTab !== null)
+                {
+                    if (typeof this._tabInfo[thisTab] === 'undefined')
+                    {
+                        this._tabInfo[thisTab] = {};
+                        this._tabNames.push(thisTab);
+                    }
+                    
+                    if (typeof dataDestination[thisTab]==='undefined')
+                    {
+                        dataDestination[thisTab] = [];
+                    }
+                    
+                    dataDestination = dataDestination[thisTab];
+                }			
+            }		
+            
+            if (this._hasTime)
+            {
+                var thisTime = lineValues[this._timeColumnIndex];
+                if ((thisTime !== null)&&(thisTime!=''))
+                {
+                    if (typeof this._foundTimes[thisTime] === 'undefined')
+                    {
+                        this._foundTimes[thisTime] = true;
+                    }
+                    
+                    if (typeof dataDestination[thisTime] === 'undefined')
+                    {				
+                        dataDestination[thisTime] = [];
+                    }
+
+                    dataDestination = dataDestination[thisTime];
+                }
+            }
+
+            dataDestination.push(lineValues);	
+        }
+        
+    };
+
+    this.loadPointValues = function(linesArray, headerLine, columnSeperator)
+    {	
+        this._foundTimes = {};
+        this._tabInfo = {};
+        this._tabNames = [];
+            
+        this._valueData = [];
+        
+        for(var i = 1; i < linesArray.length; i++ )
+        {
+            var lineString = linesArray[i];
+            var lineValues = this.decodeCSVRow(lineString, columnSeperator);
+            
+            var thisLatitude = (Number)(lineValues[this._latitudeColumnIndex]);
+            var thisLongitude = (Number)(lineValues[this._longitudeColumnIndex]);
+
+            lineValues[this._latitudeColumnIndex] = thisLatitude;
+            lineValues[this._longitudeColumnIndex] = thisLongitude;
+
+            if (this._valueColumnIndex!==-1)
+            {
+                var thisValue = (Number)(lineValues[this._valueColumnIndex]);
+                lineValues[this._valueColumnIndex] = thisValue;
+                
+                if ((i===1)||(thisValue<this._smallestValue))
+                    this._smallestValue = thisValue;
+                
+                if ((i===1)||(thisValue>this._largestValue))
+                    this._largestValue = thisValue;
+            }
+            
+            var dataDestination = this._valueData;
+            
+            if (this._hasTabs)
+            {
+                var thisTab = lineValues[this._tabColumnIndex];
+                if (thisTab !== null)
+                {
+                    if (typeof this._tabInfo[thisTab] === 'undefined')
+                    {
+                        this._tabInfo[thisTab] = {};
+                        this._tabNames.push(thisTab);					
+                        dataDestination[thisTab] = [];
+                    }
+                    
+                    dataDestination = dataDestination[thisTab];
+                }			
+            }		
+            
+            if (this._hasTime)
+            {
+                var thisTime = lineValues[this._timeColumnIndex];
+                if ((thisTime !== null)&&(thisTime!=''))
+                {
+                    if (typeof this._foundTimes[thisTime] === 'undefined')
+                    {
+                        this._foundTimes[thisTime] = true;
+                        dataDestination[thisTime] = [];
+                    }
+                    
+                    dataDestination = dataDestination[thisTime];
+                }
+            }
+            
+            dataDestination.push(lineValues);	
+        }		
+    };
 
     this.getColorForValue = function(thisValue, minValue, maxValue, valueScale)
     {	
@@ -2730,27 +2731,27 @@ private function addPopupAtScreenPosition(x: Number, y: Number, text: String): v
 	var latLon: Object = getLatLonFromXY(new Point(x, y), _xYToLatLonMatrix);
 	
 	addPopup(latLon.lat, latLon.lon, text);	
-}
+}*/
 
-private function getCurrentValues(): Array
-{
-	var currentValues: Array = _valueData;	
+    this.getCurrentValues = function()
+    {
+        var currentValues = this._valueData;	
 
-	if (_hasTabs)
-	{
-		var currentTab: String = _tabNames[_selectedTabIndex];
-		currentValues = currentValues[currentTab];
-	}
-	
-	if (_hasTime)
-	{
-		var currentTime: String = _frameTimes[_frameIndex];
-		currentValues = currentValues[currentTime];
-	}
+        if (this._hasTabs)
+        {
+            var currentTab = this._tabNames[_selectedTabIndex];
+            currentValues = currentValues[currentTab];
+        }
+        
+        if (this._hasTime)
+        {
+            var currentTime = this._frameTimes[_frameIndex];
+            currentValues = currentValues[currentTime];
+        }
 
-	return currentValues;
-}
-
+        return currentValues;
+    };
+/*
 private function drawTabsIntoViewer(): void
 {
 	var tabCount: int = _tabNames.length;
