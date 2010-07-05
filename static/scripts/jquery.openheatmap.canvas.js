@@ -68,24 +68,12 @@ function OpenHeatMap(canvas)
 
         this.setSize(800, 600);
 
-/*        createViewerElements(); */
+        this.createViewerElements();
 
         this.setLatLonViewingArea(80, -180, -75, 180);
 
         this._canvas = canvas;
-        
-        this._ways = {
-            "1": {
-                "nds": [2, 3, 4]
-            }
-        };
-        
-        this._nodes = {
-            "2": {"lat":0, "lon":0},
-            "3": {"lat":45, "lon":45},
-            "4": {"lat":0, "lon":45}
-        };
-        
+
         this._canvas
         .bind('click', this, this.mapMouseClickHandler)
         .bind('dblclick', this, this.mapMouseDoubleClickHandler)
@@ -104,8 +92,7 @@ function OpenHeatMap(canvas)
     
     this.initializeMembers = function() {
     
-        this._mainShape = null;
-        this._mainBitmap = null;
+        this._mainCanvas = null;
         this._dirty = true;
         this._redrawCountdown = 0;
 
@@ -236,8 +223,7 @@ function OpenHeatMap(canvas)
 
         this._popups = [];
 
-        this._informationLayerShape = null;
-        this._informationLayerBitmap = null;
+        this._informationLayerCanvas = null;
 
         this._mapTilesDirty = true;
 	
@@ -294,7 +280,7 @@ function OpenHeatMap(canvas)
         this.endDrawing(context);
     };
     
-    this.drawWays = function(canvas, latLonToXYMatrix) {
+    this.testDrawWays = function(canvas, latLonToXYMatrix) {
     
         var context = this.beginDrawing(canvas);
         
@@ -355,16 +341,61 @@ function OpenHeatMap(canvas)
         return result;
     };
     
-    this.mercatorLatitudeToLatitude = function(mercatorLatitude) {
-        var result = (180/Math.PI) * (2 * Math.atan(Math.exp((mercatorLatitude*2)*Math.PI/180)) - Math.PI/2);
-	
+    this.setWayDefault = function(propertyName, propertyValue)
+    {
+        this._wayDefaults[propertyName] = propertyValue;
+        this._dirty = true;
+    };
+
+    this.getWayProperty = function(propertyName, wayInfo)
+    {
+        if ((typeof wayInfo !== 'undefined') && (wayInfo.hasOwnProperty(propertyName)))
+            return wayInfo[propertyName];
+        else if (this._wayDefaults.hasOwnProperty(propertyName))
+            return this._wayDefaults[propertyName];
+        else
+            return null;
+    };
+
+    this.doTagsMatch = function(tags, lineInfo)
+    {
+        var result = false;
+        if (tags === null)
+        {
+            result = true;
+        }
+        else
+        {
+            if (lineInfo.hasOwnProperty('tags'))
+            {
+                var myTags = lineInfo.tags;
+                
+                for (var myTagIndex in myTags)
+                {
+                    var myTag = myTags[myTagIndex];
+                    for (var tagIndex in tags)
+                    {
+                        var tag = tags[tagIndex];
+                        if (myTag === tag)
+                            result = true;
+                    }
+                }
+                
+            }
+        }
+            
         return result;
     };
 
-    this.latitudeToMercatorLatitude = function(latitude) { 
-        var result = (180/Math.PI) * Math.log(Math.tan(Math.PI/4+latitude*(Math.PI/180)/2));
-	
-        return (result/2);
+    this.getTagsFromArgument = function(tagsArgument)
+    {
+        if (tagsArgument === null)
+            return null;
+		
+        if (tagsArgument instanceof Array)
+            return tagsArgument;
+        else
+            return [ tagsArgument ];
     };
 
     this.setEventHandler = function(eventName, functionName) {
@@ -407,20 +438,14 @@ function OpenHeatMap(canvas)
         
         this._settings.width = width;
         this._settings.height = height;
-/*        
+        
     //	if (_timelineControls !== null)
     //		_timelineControls.setWidth(width);
 
-        var bitmapData:BitmapData = new BitmapData(width, height, false, _settings.ocean_color);
-        _mainBitmap = new Bitmap(bitmapData);
-        _mainBitmap.x = 0;
-        _mainBitmap.y = 0;
+        this._mainCanvas = this.createCanvas(width, height);
 
-        var informationBitmapData:BitmapData = new BitmapData(width, height, true, _settings.ocean_color);
-        _informationLayerBitmap = new Bitmap(informationBitmapData);
-        _informationLayerBitmap.x = 0;
-        _informationLayerBitmap.y = 0;
-
+        this._informationLayerCanvas = this.createCanvas(width, height);
+/*
         repositionMoveableElements();
 */        
         _dirty = true;	
@@ -665,7 +690,7 @@ function OpenHeatMap(canvas)
         {
             if (!this._hasPointValues)
             {
-                /*this.setWaysFromValues();*/
+                this.setWaysFromValues();
                 this._dirty = true;
             }
             this._valuesDirty = false;		
@@ -673,15 +698,13 @@ function OpenHeatMap(canvas)
         
         if (this._dirty||this._pointBlobStillRendering||(this._mapTilesDirty&&(this._redrawCountdown===0)))
         {		
-            /*this.drawMapIntoMainBitmap();*/				
+            this.drawMapIntoMainBitmap();
 
             this._dirty = false;
             this._redrawCountdown = 0;
         }
         
-this.redraw();
-        
-        /*this.drawMainBitmapIntoViewer();*/
+        this.drawMainBitmapIntoViewer();
 
         if (this._hasTabs)
         {
@@ -957,179 +980,177 @@ private function loadValuesFromFile(valuesFileName: String): void
 	_valuesFileName = valuesFileName;
 	_valuesLoader = new URLLoader(new URLRequest(valuesFileName));
 	_valuesLoader.addEventListener("complete", onValuesLoad);
-}
+}*/
 
-private function drawInformationLayer(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
-{    
-    var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
+    this.drawInformationLayer = function(canvas, width, height, latLonToXYMatrix, xYToLatLonMatrix)
+    {    
+        var viewingArea = this.calculateViewingArea(width, height, xYToLatLonMatrix);
 
-    var bitmapBackground: BitmapData = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
-	
-	drawWays(graphics, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
-}
+        var bitmapBackground = null;/*this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);*/
+        
+        this.drawWays(canvas, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
+    };
 
-private function drawWays(graphics: Graphics, width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, bitmapBackground: BitmapData): void
-{
-	var hasBitmap: Boolean = (bitmapBackground!==null);
-	var bitmapMatrix: Matrix = new Matrix();
-	bitmapMatrix.scale(_settings.point_bitmap_scale, _settings.point_bitmap_scale);
-	
-	var waysEmpty: Boolean = true;
-	for (var wayId:String in _ways)
-	{
-		waysEmpty = false;
-		break;
-	}
-	
-	if (hasBitmap&&waysEmpty)
-	{
-		graphics.lineStyle();
-		graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
+    this.drawWays = function(canvas, width, height, viewingArea, latLonToXYMatrix, bitmapBackground)
+    {
+        var hasBitmap = (bitmapBackground!==null);
+        var bitmapMatrix = new Matrix();
+        bitmapMatrix.scale(this._settings.point_bitmap_scale, this._settings.point_bitmap_scale);
+        
+        var waysEmpty = true;
+        for (var wayId in this._ways)
+        {
+            waysEmpty = false;
+            break;
+        }
+        
+        if (hasBitmap&&waysEmpty)
+        {
+            this.drawImage(canvas, bitmapBackground.get(0), 0, 0, (width*_settings.point_bitmap_scale), (height*_settings.point_bitmap_scale));
+            return;
+        }
+        
+        var context = this.beginDrawing(canvas);
+        
+        for (wayId in this._ways)
+        {
+            var way = this._ways[wayId];
+            var wayColor;
+            var wayAlpha;
+            if (this.getWayProperty('highlighted', way)==true)
+            {
+                wayColor = Number(this.getWayProperty('highlightColor', way));
+                wayAlpha = Number(this.getWayProperty('highlightAlpha', way));
+            }
+            else
+            {
+                wayColor = Number(this.getWayProperty('color', way.tags));
+                wayAlpha = Number(this.getWayProperty('alpha', way.tags));
+            }
 
-		graphics.moveTo(0, 0);
-		graphics.lineTo(width, 0);
-		graphics.lineTo(width, height);
-		graphics.lineTo(0, height);
-		graphics.lineTo(0, 0);
-		
-		graphics.endFill();
-				
-		return;
-	}
-	
-	for (wayId in _ways)
-	{
-		var way: Object = _ways[wayId];
-		var wayColor: Number;
-		var wayAlpha: Number;
-		if (getWayProperty('highlighted', way)==true)
-		{
-			wayColor = Number(getWayProperty('highlightColor', way));
-			wayAlpha = Number(getWayProperty('highlightAlpha', way));
-		}
-		else
-		{
-			wayColor = Number(getWayProperty('color', way.tags));
-			wayAlpha = Number(getWayProperty('alpha', way.tags));
-		}
+            if (way.nds.length<1)
+                continue;
+            
+            if (!viewingArea.intersects(way.boundingBox))
+                continue;
 
-		if (way.nds.length<1)
-			continue;
-		
-		if (!viewingArea.intersects(way.boundingBox))
-			continue;
+            var isClosed = way.isClosed;
 
-		var isClosed: Boolean = way.isClosed;
+            context.beginPath();
 
-		if (isClosed)
-		{		
-			var finalNd: String = way.nds[way.nds.length-1];
-			var finalNode: Object = _nodes[finalNd];
-			
-			var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
+            if (isClosed)
+            {		
+                var finalNd = way.nds[way.nds.length-1];
+                var finalNode = this._nodes[finalNd];
+                
+                var finalPos = this.getXYFromLatLon(finalNode, latLonToXYMatrix);
 
-			graphics.lineStyle();
-			if (hasBitmap)
-				graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
-			else
-				graphics.beginFill(wayColor, wayAlpha);
-			
-			graphics.moveTo(finalPos.x, finalPos.y);
-		}
-		else
-		{
-			var firstNd: String = way.nds[0];
-			var firstNode: Object = _nodes[firstNd];
-			
-			var firstPos: Point = getXYFromLatLon(firstNode, latLonToXYMatrix);
+                if (hasBitmap)
+                    context.fillStyle = context.createPattern(bitmapBackground, 'no-repeat');
+                else
+                    context.fillStyle = this.colorStringFromNumber(wayColor, wayAlpha);
+                
+                context.moveTo(finalPos.x, finalPos.y);
+            }
+            else
+            {
+                var firstNd = way.nds[0];
+                var firstNode = this._nodes[firstNd];
+                
+                var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
 
-			graphics.lineStyle(0, wayColor,wayAlpha);
+                context.lineStyle = this.colorStringFromNumber(wayColor,wayAlpha);
 
-			graphics.moveTo(firstPos.x, firstPos.y);
-		}
+                context.moveTo(firstPos.x, firstPos.y);
+            }
 
-		for each (var currentNd: String in way.nds)
-		{
-			var currentNode: Object = _nodes[currentNd];
-			var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
-			
-			graphics.lineTo(currentPos.x, currentPos.y);
-		}
+            for (var currentNdIndex in way.nds)
+            {
+                var currentNd = way.nds[currentNdIndex];
+                var currentNode = this._nodes[currentNd];
+                var currentPos = this.getXYFromLatLon(currentNode, latLonToXYMatrix);
+                
+                context.lineTo(currentPos.x, currentPos.y);
+            }
 
-		if (isClosed)
-		{
-			graphics.endFill();
-		}
-	}
+            context.closePath();
 
-}
+            if (isClosed)
+                context.fill();
+            else
+                context.stroke();
+        }
+        
+        this.endDrawing(context);
+    };
 
-private function setWaysFromValues(): void
-{	
-	if (_valueData === null)
-		return;
+    this.setWaysFromValues = function()
+    {	
+        if (this._valueData === null)
+            return;
 
-	if (_settings.is_gradient_value_range_set)
-	{
-		var minValue: Number = _settings.gradient_value_min;
-		var maxValue: Number = _settings.gradient_value_max;	
-	}
-	else
-	{
-		minValue = _smallestValue;
-		maxValue = _largestValue;
-	}
-	var valueScale: Number = (1/(maxValue-minValue));
+        if (this._settings.is_gradient_value_range_set)
+        {
+            var minValue = this._settings.gradient_value_min;
+            var maxValue = this._settings.gradient_value_max;	
+        }
+        else
+        {
+            minValue = this._smallestValue;
+            maxValue = this._largestValue;
+        }
+        var valueScale = (1.0/(maxValue-minValue));
 
-	var currentValues: Array = getCurrentValues();
-	
-	var thisSetWayIds: Object = {};
-	
-	if (_hasTime)
-		var currentTime: String = _frameTimes[_frameIndex];
-	
-	for each (var values: Array in currentValues)
-	{
-		if (_hasTime)
-		{
-			var thisTime: String = values[_timeColumnIndex];
-			if (thisTime !== currentTime)
-				continue;
-		}
+        var currentValues = this.getCurrentValues();
+        
+        var thisSetWayIds = {};
+        
+        if (this._hasTime)
+            var currentTime = this._frameTimes[this._frameIndex];
+        
+        for (var valuesIndex in currentValues)
+        {
+            var values = currentValues[valuesIndex];
+            if (this._hasTime)
+            {
+                var thisTime = values[this._timeColumnIndex];
+                if (thisTime !== currentTime)
+                    continue;
+            }
 
-		var matchKeys: Object = {};
-		var thisValue: Number = 0;		
-		for (var i:int = 0; i<values.length; i+=1)
-		{
-			if (i===_valueColumnIndex)
-			{
-				thisValue = (Number)(values[i]);
-			}
-			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
-			{
-				var headerName: String = _valueHeaders[i];
-				matchKeys[headerName] = values[i];	
-			}
-		}
-		
-		var setColor: Number = getColorForValue(thisValue, minValue, maxValue, valueScale);
-		
-		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds);
-	}
-	
-	var defaultColor: String = (String)(getWayProperty('color'));
-	
-	for (var lastWayId: String in _lastSetWayIds)
-	{
-		if (thisSetWayIds.hasOwnProperty(lastWayId))
-			continue;
-			
-		_ways[lastWayId]['color'] = defaultColor;
-	}
-	
-	_lastSetWayIds = thisSetWayIds;
-}
-
+            var matchKeys = {};
+            var thisValue = 0;		
+            for (var i = 0; i<values.length; i+=1)
+            {
+                if (i===this._valueColumnIndex)
+                {
+                    thisValue = values[i];
+                }
+                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex))
+                {
+                    var headerName = this._valueHeaders[i];
+                    matchKeys[headerName] = values[i];	
+                }
+            }
+            
+            var setColor = this.getColorForValue(thisValue, minValue, maxValue, valueScale);
+            
+            this.setAttributeForMatchingWays(matchKeys, 'color', setColor, thisSetWayIds);
+        }
+        
+        var defaultColor = this.getWayProperty('color');
+        
+        for (var lastWayId in this._lastSetWayIds)
+        {
+            if (thisSetWayIds.hasOwnProperty(lastWayId))
+                continue;
+                
+            this._ways[lastWayId]['color'] = defaultColor;
+        }
+        
+        this._lastSetWayIds = thisSetWayIds;
+    };
+/*
 private function setColorGradient(colorList: Array) : void
 {
 	_colorGradient = [];
@@ -1164,58 +1185,63 @@ private function setColorGradient(colorList: Array) : void
 
 	_valuesDirty = true;
 	_redrawCountdown = 5;
-}
-
-private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String, setWays: Object) : void
-{
-	var matchingWayIds: Object = null;
-	for (var key:String in matchKeys)
-	{
-		var value: String = matchKeys[key];
-		
-		var currentMatches: Array;
-		if (!_tagMap.hasOwnProperty(key)||!_tagMap[key].hasOwnProperty(value))
-			currentMatches = [];
-		else
-		 	currentMatches = _tagMap[key][value];
-		 
-		if (matchingWayIds === null)
-		{
-			matchingWayIds = {};
-			for each (var wayId: String in currentMatches)
-				matchingWayIds[wayId] = true;
-		}
-		else
-		{
-			var previousMatchingWayIds: Object = matchingWayIds;
-			matchingWayIds = {};
-			for each (wayId in currentMatches)
-			{
-				if (typeof previousMatchingWayIds[wayId] !== 'undefined')
-					matchingWayIds[wayId] = true;
-			}
-		}
-	}
-		
-	var foundCount: Number = 0;
-	for (wayId in matchingWayIds)
-	{
-		_ways[wayId]['tags'][attributeName] = attributeValue;
-		foundCount += 1;
-		setWays[wayId] = true;
-	}
-
-//	if (foundCount===0)
-//	{
-//		trace('No match found for');
-//		for (key in matchKeys)
-//		{
-//			value = matchKeys[key];	
-//			trace(key+':'+value);
-//		}
-//	}
-
 }*/
+
+    this.setAttributeForMatchingWays = function(matchKeys, attributeName, attributeValue, setWays)
+    {
+        var matchingWayIds = null;
+        for (var key in matchKeys)
+        {
+            var value = matchKeys[key];
+            
+            var currentMatches;
+            if (!this._tagMap.hasOwnProperty(key)||!this._tagMap[key].hasOwnProperty(value))
+                currentMatches = [];
+            else
+                currentMatches = this._tagMap[key][value];
+             
+            if (matchingWayIds === null)
+            {
+                matchingWayIds = {};
+                for (var wayIdIndex in currentMatches)
+                {
+                    var wayId = currentMatches[wayIdIndex];
+                    matchingWayIds[wayId] = true;
+                }
+            }
+            else
+            {
+                var previousMatchingWayIds = matchingWayIds;
+                matchingWayIds = {};
+                for (var wayIdIndex in currentMatches)
+                {
+                    var wayId = currentMatches[wayIdIndex];
+                    if (typeof previousMatchingWayIds[wayId] !== 'undefined')
+                        matchingWayIds[wayId] = true;
+                }
+            }
+        }
+            
+        var foundCount = 0;
+        for (wayIdIndex in matchingWayIds)
+        {
+            var wayId = matchingWayIds[wayIdIndex];
+            this._ways[wayId]['tags'][attributeName] = attributeValue;
+            foundCount += 1;
+            setWays[wayId] = true;
+        }
+
+    //	if (foundCount===0)
+    //	{
+    //		trace('No match found for');
+    //		for (key in matchKeys)
+    //		{
+    //			value = matchKeys[key];	
+    //			trace(key+':'+value);
+    //		}
+    //	}
+
+    };
 
     this.enlargeBoxToContain = function(box, pos)
     {
@@ -1228,14 +1254,14 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
             (box.height==0))
             return new Rectangle(pos.x, pos.y, 0, 0);
 		
-        if (box.left>pos.x)
-            box.left = pos.x;
+        if (box.left()>pos.x)
+            box.left(pos.x);
 
         if (box.right()<pos.x)
             box.right(pos.x);
 
-        if (box.top>pos.y)
-            box.top = pos.y;
+        if (box.top()>pos.y)
+            box.top(pos.y);
             
         if (box.bottom()<pos.y)
             box.bottom(pos.y);
@@ -1463,150 +1489,140 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
 		bottomLat: bottomLat,
 		rightLon: rightLon
 	});
-}
-
-private function cropPoint(input: Point, area: Rectangle): Point
-{
-	var result: Point = input.clone();
-	
-	if (result.x<area.left)
-		result.x = area.left;
-	
-	if (result.x>area.right)
-		result.x = area.right;	
-	
-	if (result.y<area.top)
-		result.y = area.top;
-	
-	if (result.y>area.bottom)
-		result.y = area.bottom;	
-
-	return result;	
-}
-
-private function drawMapIntoMainBitmap(): void
-{
-	_mainShape.graphics.clear();
-
-	if (_settings.show_map_tiles)
-	{
-		trackMapTilesUsage();
-		drawMapTiles(_mainShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
-	}
-
-	if (_dirty||_pointBlobStillRendering)
-	{			
-		_informationLayerShape.graphics.clear();
-		drawInformationLayer(_informationLayerShape.graphics, _settings.width, _settings.height, _latLonToXYMatrix, _xYToLatLonMatrix);
-		_informationLayerBitmap.bitmapData.fillRect(new Rectangle(0, 0, width, height), 0x00000000);
-		_informationLayerBitmap.bitmapData.draw(_informationLayerShape, new Matrix());
-	}
-	
-	_mainShape.graphics.beginBitmapFill(_informationLayerBitmap.bitmapData, new Matrix(), false);
-	_mainShape.graphics.drawRect(0, 0, _settings.width, _settings.height);
-	_mainShape.graphics.endFill();	
-			
-	for each (var inlay: Object in _inlays)
-	{
-		var screenTopLeft: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
-		var screenBottomRight: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
-		
-		var screenArea: Rectangle = new Rectangle(0, 0, _settings.width, _settings.height);
-		
-		var croppedScreenTopLeft: Point = cropPoint(screenTopLeft, screenArea);
-		var croppedScreenBottomRight: Point = cropPoint(screenBottomRight, screenArea);
-		
-		var inlayWidth: Number = (croppedScreenBottomRight.x-croppedScreenTopLeft.x);
-		var inlayHeight: Number = (croppedScreenBottomRight.y-croppedScreenTopLeft.y);
-		
-		if ((inlayWidth<1)||(inlayHeight<1))
-			continue;
-		
-		var inlayScreenLeftX: Number = croppedScreenTopLeft.x;
-		var inlayScreenTopY: Number = croppedScreenTopLeft.y;
-		
-		var localTopLeft: Point = croppedScreenTopLeft.subtract(screenTopLeft);
-
-		var croppedLatLonToXYMatrix: Matrix = inlay.latLonToXYMatrix.clone();
-		croppedLatLonToXYMatrix.translate(-localTopLeft.x, -localTopLeft.y);
-		
-		var croppedXYToLatLonMatrix: Matrix = croppedLatLonToXYMatrix.clone();
-		croppedXYToLatLonMatrix.invert();
-		
-		var drawingSurface: Shape = new Shape();
-		var bitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, true, (_settings.ocean_color|0xff000000));
-		
-		if (_settings.show_map_tiles)	
-			drawMapTiles(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
-		
-		drawInformationLayer(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
-		
-		var borderTopLeft: Point = screenTopLeft.subtract(croppedScreenTopLeft);
-		var borderBottomRight: Point = screenBottomRight.subtract(croppedScreenTopLeft).subtract(new Point(1, 1));
-		
-		borderTopLeft.x = Math.floor(borderTopLeft.x);
-		borderTopLeft.y = Math.floor(borderTopLeft.y);
-		
-		borderBottomRight.x = Math.floor(borderBottomRight.x);
-		borderBottomRight.y = Math.floor(borderBottomRight.y);
-		
-		if (_settings.show_map_tiles)
-		{
-			drawingSurface.graphics.lineStyle(1, _settings.inlay_border_color, 1.0);
-			drawingSurface.graphics.moveTo(borderTopLeft.x, borderTopLeft.y);
-			drawingSurface.graphics.lineTo(borderBottomRight.x, borderTopLeft.y);
-			drawingSurface.graphics.lineTo(borderBottomRight.x, borderBottomRight.y);
-			drawingSurface.graphics.lineTo(borderTopLeft.x, borderBottomRight.y);
-			drawingSurface.graphics.lineTo(borderTopLeft.x, borderTopLeft.y);
-		}
-		
-		bitmapData.draw(drawingSurface, new Matrix());
-
-		var inlayMatrix: Matrix = new Matrix();
-		inlayMatrix.translate(inlayScreenLeftX, inlayScreenTopY);
-
-		_mainShape.graphics.beginBitmapFill(bitmapData, inlayMatrix, false);
-		_mainShape.graphics.drawRect(inlayScreenLeftX, inlayScreenTopY, inlayWidth, inlayHeight);
-		_mainShape.graphics.endFill();
-	}
-
-	_mainBitmap.bitmapData.fillRect(new Rectangle(0, 0, _settings.width, _settings.height), _settings.ocean_color);
-	_mainBitmap.bitmapData.draw(_mainShape, new Matrix());
-	
-	_mainBitmapTopLeftLatLon = getLatLonFromXY(new Point(0, 0), _xYToLatLonMatrix);
-	_mainBitmapBottomRightLatLon = getLatLonFromXY(new Point(_settings.width, _settings.height), _xYToLatLonMatrix);
-
-	if (_settings.show_map_tiles)
-	{
-		deleteUnusedMapTiles();
-	}
-}
-
-private function drawMainBitmapIntoViewer(): void
-{
-	viewer.graphics.clear();
-	
-	if ((_mainBitmapTopLeftLatLon===null)||
-		(_mainBitmapBottomRightLatLon===null))
-		return;
-		
-	var screenBitmapTopLeft: Point = getXYFromLatLon(_mainBitmapTopLeftLatLon, _latLonToXYMatrix);
-	var screenBitmapBottomRight: Point = getXYFromLatLon(_mainBitmapBottomRightLatLon, _latLonToXYMatrix);	
-
-	var screenBitmapLeft: Number = screenBitmapTopLeft.x;
-	var screenBitmapTop: Number = screenBitmapTopLeft.y;
-	
-	var screenBitmapWidth: Number = (screenBitmapBottomRight.x-screenBitmapTopLeft.x);
-	var screenBitmapHeight: Number = (screenBitmapBottomRight.y-screenBitmapTopLeft.y);
-	
-	var bitmapTransform: Matrix = new Matrix();
-	bitmapTransform.scale((screenBitmapWidth/_settings.width), (screenBitmapHeight/_settings.height));
-	bitmapTransform.translate(screenBitmapLeft, screenBitmapTop);
-	
-	viewer.graphics.beginBitmapFill(_mainBitmap.bitmapData, bitmapTransform, false);
-	viewer.graphics.drawRect(screenBitmapLeft, screenBitmapTop, screenBitmapWidth, screenBitmapHeight);
-	viewer.graphics.endFill();	
 }*/
+
+    this.cropPoint = function(input, area)
+    {
+        var result = input.clone();
+        
+        if (result.x<area.left)
+            result.x = area.left;
+        
+        if (result.x>area.right)
+            result.x = area.right;	
+        
+        if (result.y<area.top)
+            result.y = area.top;
+        
+        if (result.y>area.bottom)
+            result.y = area.bottom;	
+
+        return result;	
+    };
+
+    this.drawMapIntoMainBitmap = function()
+    {
+        this.clearCanvas(this._mainCanvas);
+        this.fillRect(this._mainCanvas, 0, 0, this._settings.width, this._settings.height, this._settings.ocean_color);
+
+        if (this._settings.show_map_tiles)
+        {
+    		this.trackMapTilesUsage();
+            this.drawMapTiles(this._mainCanvas, this._settings.width, this._settings.height, this._latLonToXYMatrix, this._xYToLatLonMatrix);
+        }
+
+        if (this._dirty||this._pointBlobStillRendering)
+        {			
+            this.clearCanvas(this._informationLayerCanvas);
+            this.drawInformationLayer(this._informationLayerCanvas, this._settings.width, this._settings.height, this._latLonToXYMatrix, this._xYToLatLonMatrix);
+        }
+
+        this.drawImage(this._mainCanvas, this._informationLayerCanvas.get(0), 0, 0, this._settings.width, this._settings.height);
+                
+        for (var inlayIndex in this._inlays)
+        {
+            var inlay = this._inlays[inlayIndex];
+            
+            var screenTopLeft = this.getXYFromLatLon(inlay.worldTopLeftLatLon, this._latLonToXYMatrix);
+            var screenBottomRight = this.getXYFromLatLon(inlay.worldBottomRightLatLon, this._latLonToXYMatrix);
+            
+            var screenArea = new Rectangle(0, 0, this._settings.width, this._settings.height);
+            
+            var croppedScreenTopLeft = this.cropPoint(screenTopLeft, screenArea);
+            var croppedScreenBottomRight = this.cropPoint(screenBottomRight, screenArea);
+            
+            var inlayWidth = (croppedScreenBottomRight.x-croppedScreenTopLeft.x);
+            var inlayHeight = (croppedScreenBottomRight.y-croppedScreenTopLeft.y);
+            
+            if ((inlayWidth<1)||(inlayHeight<1))
+                continue;
+            
+            var inlayScreenLeftX = croppedScreenTopLeft.x;
+            var inlayScreenTopY = croppedScreenTopLeft.y;
+            
+            var localTopLeft = croppedScreenTopLeft.subtract(screenTopLeft);
+
+            var croppedLatLonToXYMatrix = inlay.latLonToXYMatrix.clone();
+            croppedLatLonToXYMatrix.translate(-localTopLeft.x, -localTopLeft.y);
+            
+            var croppedXYToLatLonMatrix = croppedLatLonToXYMatrix.clone();
+            croppedXYToLatLonMatrix.invert();
+            
+            drawingSurface = this.createCanvas(inlayWidth, inlayHeight);
+            
+            if (this._settings.show_map_tiles)	
+                this.drawMapTiles(drawingSurface, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+
+            this.drawInformationLayer(drawingSurface, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+            
+            var borderTopLeft = screenTopLeft.subtract(croppedScreenTopLeft);
+            var borderBottomRight = screenBottomRight.subtract(croppedScreenTopLeft).subtract(new Point(1, 1));
+            
+            borderTopLeft.x = Math.floor(borderTopLeft.x);
+            borderTopLeft.y = Math.floor(borderTopLeft.y);
+            
+            borderBottomRight.x = Math.floor(borderBottomRight.x);
+            borderBottomRight.y = Math.floor(borderBottomRight.y);
+            
+            if (this._settings.show_map_tiles)
+            {
+                var context = this.beginDrawing(drawingSurface);
+                context.lineWidth = 1.0;
+                context.strokeStyle = this.colorStringFromNumber(this._settings.inlay_border_color, 1.0);
+
+                context.beginPath();
+                context.moveTo(borderTopLeft.x, borderTopLeft.y);
+                context.lineTo(borderBottomRight.x, borderTopLeft.y);
+                context.lineTo(borderBottomRight.x, borderBottomRight.y);
+                context.lineTo(borderTopLeft.x, borderBottomRight.y);
+                context.lineTo(borderTopLeft.x, borderTopLeft.y);
+                context.closePath();
+                context.stroke();
+                
+                this.endDrawing(context);
+            }
+        
+            this.drawImage(this._mainCanvas, drawingSurface.get(0), inlayScreenLeftX, inlayScreenTopY);
+        }
+
+        this._mainBitmapTopLeftLatLon = this.getLatLonFromXY(new Point(0, 0), this._xYToLatLonMatrix);
+        this._mainBitmapBottomRightLatLon = this.getLatLonFromXY(new Point(this._settings.width, this._settings.height), this._xYToLatLonMatrix);
+
+        if (this._settings.show_map_tiles)
+        {
+            this.deleteUnusedMapTiles();
+        }
+    };
+
+    this.drawMainBitmapIntoViewer = function()
+    {
+        this.clearCanvas(this._canvas);
+        
+        if ((this._mainBitmapTopLeftLatLon===null)||
+            (this._mainBitmapBottomRightLatLon===null))
+            return;
+            
+        var screenBitmapTopLeft = this.getXYFromLatLon(this._mainBitmapTopLeftLatLon, this._latLonToXYMatrix);
+        var screenBitmapBottomRight = this.getXYFromLatLon(this._mainBitmapBottomRightLatLon, this._latLonToXYMatrix);	
+
+        var screenBitmapLeft = screenBitmapTopLeft.x;
+        var screenBitmapTop = screenBitmapTopLeft.y;
+        
+        var screenBitmapWidth = (screenBitmapBottomRight.x-screenBitmapTopLeft.x);
+        var screenBitmapHeight = (screenBitmapBottomRight.y-screenBitmapTopLeft.y);
+        
+        this.drawImage(this._canvas, this._mainCanvas.get(0), screenBitmapLeft, screenBitmapTop, screenBitmapWidth, screenBitmapHeight);
+    };
 
     this.translateMapByScreenPixels = function(x, y, dragging)
     {
@@ -1660,88 +1676,82 @@ private function drawMainBitmapIntoViewer(): void
             
 /*        this.updateZoomSliderDisplay();*/
     };
+
+    this.createViewerElements = function()
+    {
+        this._mainCanvas = this.createCanvas(this._settings.width, this._settings.height);
+
+        this._informationLayerCanvas = this.createCanvas(this._settings.width, this._settings.height);
+
+        /*
+        _zoomSlider = new VSlider();
+        _zoomSlider.x = 4;
+        _zoomSlider.y = 50;
+        _zoomSlider.height = 150;
+        _zoomSlider.showDataTip = false;
+        _zoomSlider.minimum = 0;
+        _zoomSlider.maximum = 1;
+        _zoomSlider.liveDragging = true;
+
+        _zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
+        _zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
+        _zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
+        _zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
+        
+        addChild(_zoomSlider);
+
+        var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
+        var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
+
+        var blackTint:ColorTransform = new ColorTransform();
+        blackTint.color = 0x000000;
+        
+        plusImage.x = 6;
+        plusImage.y = 40;
+        plusImage.transform.colorTransform = blackTint;
+        viewer.addChild(plusImage);
+        
+        minusImage.x = 6;
+        minusImage.y = 195;
+        minusImage.transform.colorTransform = blackTint;
+        viewer.addChild(minusImage);
+        
+        _credit = new Label();
+        _credit.htmlText = _settings.credit_text;
+        _credit.width = 150;
+        _credit.height = 20;
+        _credit.setStyle('text-align', 'right');
+        _credit.setStyle('color', _settings.credit_color);
+        
+        _credit.addEventListener( MouseEvent.CLICK, function(): void {
+            var url:String = "http://"+_credit.text;
+            var request:URLRequest = new URLRequest(url);
+            navigateToURL(request); 	  	
+        });
+        
+        viewer.addChild(_credit);
+
+        _title = new TextField();
+        _title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
+        _title.width = _settings.width;
+        _title.height = (_settings.title_size*1.5);
+        _title.textColor = _settings.title_color;
+        _title.background = true;
+        _title.backgroundColor = _settings.title_background_color;
+    //	_title.fontSize = _settings.title_size;
+        _title.y = -1000;
+
+        var titleFormat: TextFormat = _title.defaultTextFormat;
+        titleFormat.size = _settings.title_size;
+        titleFormat.font = 'Verdana';
+        _title.defaultTextFormat = titleFormat;
+        
+        viewer.addChild(_title);
+
+        repositionMoveableElements();
+        */
+    };
 /*
-private function createViewerElements(): void
-{
-	_mainShape = new Shape();
-	var bitmapData:BitmapData = new BitmapData(width, height, false, _settings.ocean_color);
-	_mainBitmap = new Bitmap(bitmapData);
-	_mainBitmap.x = 0;
-	_mainBitmap.y = 0;
-
-	_informationLayerShape = new Shape();
-	var informationBitmapData:BitmapData = new BitmapData(width, height, true, _settings.ocean_color);
-	_informationLayerBitmap = new Bitmap(informationBitmapData);
-	_informationLayerBitmap.x = 0;
-	_informationLayerBitmap.y = 0;
-	
-	_zoomSlider = new VSlider();
-	_zoomSlider.x = 4;
-	_zoomSlider.y = 50;
-	_zoomSlider.height = 150;
-	_zoomSlider.showDataTip = false;
-	_zoomSlider.minimum = 0;
-	_zoomSlider.maximum = 1;
-	_zoomSlider.liveDragging = true;
-
-	_zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
-	
-	addChild(_zoomSlider);
-
-	var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
-	var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
-
-	var blackTint:ColorTransform = new ColorTransform();
-	blackTint.color = 0x000000;
-	
-	plusImage.x = 6;
-	plusImage.y = 40;
-	plusImage.transform.colorTransform = blackTint;
-	viewer.addChild(plusImage);
-	
-	minusImage.x = 6;
-	minusImage.y = 195;
-	minusImage.transform.colorTransform = blackTint;
-	viewer.addChild(minusImage);
-	
-	_credit = new Label();
-	_credit.htmlText = _settings.credit_text;
-	_credit.width = 150;
-	_credit.height = 20;
-	_credit.setStyle('text-align', 'right');
-	_credit.setStyle('color', _settings.credit_color);
-	
-    _credit.addEventListener( MouseEvent.CLICK, function(): void {
-    	var url:String = "http://"+_credit.text;
-        var request:URLRequest = new URLRequest(url);
-		navigateToURL(request); 	  	
- 	});
-	
-	viewer.addChild(_credit);
-
-	_title = new TextField();
-	_title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
-	_title.width = _settings.width;
-	_title.height = (_settings.title_size*1.5);
-	_title.textColor = _settings.title_color;
-	_title.background = true;
-	_title.backgroundColor = _settings.title_background_color;
-//	_title.fontSize = _settings.title_size;
-	_title.y = -1000;
-
-	var titleFormat: TextFormat = _title.defaultTextFormat;
-	titleFormat.size = _settings.title_size;
-	titleFormat.font = 'Verdana';
-	_title.defaultTextFormat = titleFormat;
-	
-	viewer.addChild(_title);
-
-	repositionMoveableElements();
-}
-
 private function onZoomThumbDrag( event: SliderEvent ): void
 {
 	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
@@ -2152,34 +2162,34 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		
 		dataDestination.push(lineValues);	
 	}		
-}
+}*/
 
-private function getColorForValue(thisValue: Number, minValue: Number, maxValue: Number, valueScale: Number): int
-{	
-	var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
-	normalizedValue = Math.min(normalizedValue, 1.0);
-	normalizedValue = Math.max(normalizedValue, 0.0);
-	
-	var fractionalIndex: Number = (normalizedValue*(_colorGradient.length-1));
-	
-	var lowerIndex: int = Math.floor(fractionalIndex);
-	var higherIndex: int = Math.ceil(fractionalIndex);
-	var lerpValue: Number = (fractionalIndex-lowerIndex);
-	var oneMinusLerp: Number = (1.0-lerpValue);
-	
-	var lowerValue: Object = _colorGradient[lowerIndex];
-	var higherValue: Object = _colorGradient[higherIndex];
-	
-	var alpha: int = (int)((lowerValue.alpha*oneMinusLerp)+(higherValue.alpha*lerpValue));
-	var red: int = (int)((lowerValue.red*oneMinusLerp)+(higherValue.red*lerpValue));
-	var green: int = (int)((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
-	var blue: int = (int)((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
-	
-	var setColor: int = ((alpha<<24)|(red<<16)|(green<<8)|(blue<<0));
-	
-	return setColor;
-}
-
+    this.getColorForValue = function(thisValue, minValue, maxValue, valueScale)
+    {	
+        var normalizedValue = ((thisValue-minValue)*valueScale); 
+        normalizedValue = Math.min(normalizedValue, 1.0);
+        normalizedValue = Math.max(normalizedValue, 0.0);
+        
+        var fractionalIndex = (normalizedValue*(this._colorGradient.length-1));
+        
+        var lowerIndex = Math.floor(fractionalIndex);
+        var higherIndex = Math.ceil(fractionalIndex);
+        var lerpValue = (fractionalIndex-lowerIndex);
+        var oneMinusLerp = (1.0-lerpValue);
+        
+        var lowerValue = this._colorGradient[lowerIndex];
+        var higherValue = this._colorGradient[higherIndex];
+        
+        var alpha = ((lowerValue.alpha*oneMinusLerp)+(higherValue.alpha*lerpValue));
+        var red = ((lowerValue.red*oneMinusLerp)+(higherValue.red*lerpValue));
+        var green = ((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
+        var blue = ((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
+        
+        var setColor = ((alpha<<24)|(red<<16)|(green<<8)|(blue<<0));
+        
+        return setColor;
+    };
+/*
 private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number = 0): Object
 {
 	if (radius===0)
@@ -2216,98 +2226,98 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
 	}
 	
 	return result;
-}
+}*/
 
-private function setSetting(key: String, value: *): void
-{
-	if (!_settings.hasOwnProperty(key))
-	{
-		logError('Unknown key in setSetting('+key+')');
-		return;
-	}
-
-	if (typeof _settings[key] === "boolean")
-	{	
-		if (typeof value === 'string')
-		{
-			value = (value==='true');
-		}
-			
-		_settings[key] = (Boolean)(value);
-	}
-	else
-	{
-		_settings[key] = value;
-	}
-		
-	var changeHandlers: Object =
-	{
-		'title_text': function(): void {
-			_title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
-			if (_settings.title_text!=='')
-				_title.y = 0;
-			else
-				_title.y = -1000;
-		},
-		'time_range_start': function(): void {
-			calculateFrameTimes();
-			updateTimelineDisplay();
-		},
-		'time_range_end': function(): void {
-			calculateFrameTimes();
-			updateTimelineDisplay();
-		},
-        'point_blob_radius': function(): void {
-            _valuesDirty = true;
-            _dirty = true;
-        },
-        'point_blob_value': function(): void {
-            _valuesDirty = true;
-            _dirty = true;
-        },
-        'gradient_value_min': function(): void {
-        	_settings.is_gradient_value_range_set =
-        		((_settings.gradient_value_min!=0)||
-        		(_settings.gradient_value_max!=0));
-            _valuesDirty = true;
-            _dirty = true;
-        },
-        'gradient_value_max': function(): void {
-        	_settings.is_gradient_value_range_set =
-        		((_settings.gradient_value_min!=0)||
-        		(_settings.gradient_value_max!=0));
-            _valuesDirty = true;
-            _dirty = true;
-        },
-        'ocean_color': function(): void {
-        	if (typeof _settings.ocean_color === 'string')
-        	{
-        		_settings.ocean_color = _settings.ocean_color.replace('#', '0x');
-        		_settings.ocean_color = (Number)(_settings.ocean_color);
-        	}
-        },
-        'title_background_color': function(): void {
-        	if (typeof _settings.title_background_color === 'string')
-        	{
-        		_settings.title_background_color = _settings.title_background_color.replace('#', '0x');
-        		_settings.title_background_color = (Number)(_settings.title_background_color);
-        	}
-			_title.backgroundColor = _settings.title_background_color;
-        },
-        'show_map_tiles': function(): void {
-        	if (typeof _settings.show_map_tiles==='string')
-        		_settings.show_map_tiles = (Boolean)(_settings.show_map_tiles);
-            _mapTilesDirty = true;
-        },
-        'information_alpha': function(): void {
-        	setWayDefault('alpha', _settings.information_alpha);
+    this.setSetting = function(key, value)
+    {
+        if (!this._settings.hasOwnProperty(key))
+        {
+            this.logError('Unknown key in setSetting('+key+')');
+            return;
         }
-   	}
-	
-	if (changeHandlers.hasOwnProperty(key))
-		changeHandlers[key]();
-}
 
+        if (typeof this._settings[key] === "boolean")
+        {	
+            if (typeof value === 'string')
+            {
+                value = (value==='true');
+            }
+                
+            this._settings[key] = (Boolean)(value);
+        }
+        else
+        {
+            this._settings[key] = value;
+        }
+            
+        var changeHandlers =
+        {
+            'title_text': function(instance) {
+                instance._title.htmlText = '<p align="center"><u>'+instance._settings.title_text+'</u></p>';
+                if (instance._settings.title_text!=='')
+                    instance._title.y = 0;
+                else
+                    instance._title.y = -1000;
+            },
+            'time_range_start': function(instance) {
+                instance.calculateFrameTimes();
+                instance.updateTimelineDisplay();
+            },
+            'time_range_end': function(instance) {
+                instance.calculateFrameTimes();
+                instance.updateTimelineDisplay();
+            },
+            'point_blob_radius': function(instance) {
+                instance._valuesDirty = true;
+                instance._dirty = true;
+            },
+            'point_blob_value': function(instance) {
+                instance._valuesDirty = true;
+                instance._dirty = true;
+            },
+            'gradient_value_min': function(instance) {
+                instance._settings.is_gradient_value_range_set =
+                    ((instance._settings.gradient_value_min!=0)||
+                    (instance._settings.gradient_value_max!=0));
+                instance._valuesDirty = true;
+                instance._dirty = true;
+            },
+            'gradient_value_max': function(instance) {
+                instance._settings.is_gradient_value_range_set =
+                    ((instance._settings.gradient_value_min!=0)||
+                    (instance._settings.gradient_value_max!=0));
+                instance._valuesDirty = true;
+                instance._dirty = true;
+            },
+            'ocean_color': function(instance) {
+                if (typeof instance._settings.ocean_color === 'string')
+                {
+                    instance._settings.ocean_color = instance._settings.ocean_color.replace('#', '0x');
+                    instance._settings.ocean_color = (Number)(instance._settings.ocean_color);
+                }
+            },
+            'title_background_color': function(instance) {
+                if (typeof instance._settings.title_background_color === 'string')
+                {
+                    instance._settings.title_background_color = instance._settings.title_background_color.replace('#', '0x');
+                    instance._settings.title_background_color = (Number)(instance._settings.title_background_color);
+                }
+                instance._title.backgroundColor = instance._settings.title_background_color;
+            },
+            'show_map_tiles': function(instance) {
+                if (typeof instance._settings.show_map_tiles==='string')
+                    instance._settings.show_map_tiles = (Boolean)(instance._settings.show_map_tiles);
+                instance._mapTilesDirty = true;
+            },
+            'information_alpha': function(instance) {
+                instance.setWayDefault('alpha', instance._settings.information_alpha);
+            }
+        }
+        
+        if (changeHandlers.hasOwnProperty(key))
+            changeHandlers[key](this);
+    };
+/*
 private function repositionMoveableElements(): void
 {
 	if (_credit !== null)
@@ -2452,295 +2462,264 @@ private function removeAllPopups(): void
 	}
 	
 	_popups = [];
-}
+}*/
 
-private function createURLForTile(latIndex: Number, lonIndex: Number, zoomIndex: Number): String
-{
-	var result: String = _settings.map_server_root;
-	result += zoomIndex;
-	result += '/';
-	result += lonIndex;
-	result += '/';
-	result += latIndex;
-	result += '.png';
+    this.createURLForTile = function(latIndex, lonIndex, zoomIndex)
+    {
+        var result = this._settings.map_server_root;
+        result += zoomIndex;
+        result += '/';
+        result += lonIndex;
+        result += '/';
+        result += latIndex;
+        result += '.png';
 
-	return result;	
-}
+        return result;	
+    };
 
-private function drawMapTiles(graphics: Graphics, width: Number, height: Number, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): void
-{
-	var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
+    this.drawMapTiles = function(canvas, width, height, latLonToXYMatrix, xYToLatLonMatrix)
+    {
+        var viewingArea = this.calculateViewingArea(width, height, xYToLatLonMatrix);
+        
+        var wantedTiles = this.prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+
+        var areAllLoaded = true;
+
+        for (var currentURLIndex in wantedTiles)
+        {
+            var currentURL = wantedTiles[currentURLIndex];
+            if (!this._mapTiles[currentURL].imageLoader._isLoaded)
+                areAllLoaded = false;
+        }
+
+        var mapTilesURLs = [];
+        if (areAllLoaded)
+        {
+            mapTilesURLs = wantedTiles;
+        }
+        else
+        {
+            for (currentURL in this._mapTiles)
+            {
+                mapTilesURLs.push(currentURL);
+            }
+        }
+
+        for (currentURLIndex in mapTilesURLs)
+        {
+            var currentURL = mapTilesURLs[currentURLIndex];
+            
+            var tile = this._mapTiles[currentURL];
+
+            if (!viewingArea.intersects(tile.boundingBox))
+                continue;
+
+            if (!tile.imageLoader._isLoaded)
+                continue;
+            
+            var screenTopLeft = this.getXYFromLatLon(tile.topLeftLatLon, latLonToXYMatrix);
+            var screenBottomRight = this.getXYFromLatLon(tile.bottomRightLatLon, latLonToXYMatrix);
+            
+            var screenLeft = screenTopLeft.x;
+            var screenTop = screenTopLeft.y;
+        
+            var screenWidth = (screenBottomRight.x-screenTopLeft.x);
+            var screenHeight = (screenBottomRight.y-screenTopLeft.y);
+
+            this.drawImage(canvas, tile.imageLoader._image, screenLeft, screenTop, screenWidth, screenHeight);
+        }
+    };
+
+    this.getTileIndicesFromLatLon = function(lat, lon, zoomLevel)
+    {
+        var mercatorLatitudeOrigin = this.latitudeToMercatorLatitude(this._settings.map_tile_origin_lat);
+        var mercatorLatitudeHeight = this.latitudeToMercatorLatitude(this._settings.world_lat_height+this._settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
+        
+        var zoomTileCount = (1<<zoomLevel);
+        var zoomPixelsPerDegreeLatitude = ((this._settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
+        var zoomPixelsPerDegreeLongitude = ((this._settings.map_tile_width/this._settings.world_lon_width)*zoomTileCount);
+
+        var tileWidthInDegrees = (this._settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+        var tileHeightInDegrees = (this._settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+        var latIndex = ((this.latitudeToMercatorLatitude(lat)-mercatorLatitudeOrigin)/tileHeightInDegrees);
+        latIndex = Math.max(latIndex, 0);
+        latIndex = Math.min(latIndex, (zoomTileCount-1));
+        
+        var lonIndex = ((lon-this._settings.map_tile_origin_lon)/tileWidthInDegrees);
+        lonIndex = Math.max(lonIndex, 0);
+        lonIndex = Math.min(lonIndex, (zoomTileCount-1));
+        
+        var result = {
+            latIndex: latIndex,
+            lonIndex: lonIndex
+        };
+        
+        return result;
+    };
+
+    this.getLatLonFromTileIndices = function(latIndex, lonIndex, zoomLevel)
+    {
+        var mercatorLatitudeOrigin = this.latitudeToMercatorLatitude(this._settings.map_tile_origin_lat);
+        var mercatorLatitudeHeight = this.latitudeToMercatorLatitude(this._settings.world_lat_height+this._settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
+        
+        var zoomTileCount = (1<<zoomLevel);
+        var zoomPixelsPerDegreeLatitude = ((this._settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
+        var zoomPixelsPerDegreeLongitude = ((this._settings.map_tile_width/this._settings.world_lon_width)*zoomTileCount);
+
+        var tileWidthInDegrees = (this._settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+        var tileHeightInDegrees = (this._settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+        var lat = ((latIndex*tileHeightInDegrees)+mercatorLatitudeOrigin);
+        var lon = ((lonIndex*tileWidthInDegrees)+this._settings.map_tile_origin_lon);
+        
+        var result = {
+            lat: this.mercatorLatitudeToLatitude(lat),
+            lon: lon
+        };
+        
+        return result;
+    };
+
+    this.prepareMapTiles = function(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height)
+    {	
+        var pixelsPerDegreeLatitude = latLonToXYMatrix.d;
+        
+        var zoomPixelsPerDegreeLatitude = (this._settings.map_tile_height/this._settings.world_lat_height);
+        var zoomLevel = 0;
+        while (Math.abs(zoomPixelsPerDegreeLatitude*this._settings.map_tile_match_factor)<Math.abs(pixelsPerDegreeLatitude))
+        {
+            zoomLevel += 1;
+            zoomPixelsPerDegreeLatitude *= 2;	
+        }
+
+        var zoomTileCount = (1<<zoomLevel);
+        var zoomPixelsPerDegreeLongitude = ((this._settings.map_tile_width/this._settings.world_lon_width)*zoomTileCount);
+        
+        var tileWidthInDegrees = (this._settings.map_tile_width/zoomPixelsPerDegreeLongitude);
+        var tileHeightInDegrees = (this._settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+
+        var start = this.getTileIndicesFromLatLon(viewingArea.bottom(), viewingArea.left(), zoomLevel);
+        start.latIndex = Math.floor(start.latIndex);
+        start.lonIndex = Math.floor(start.lonIndex);
+
+        var end = this.getTileIndicesFromLatLon(viewingArea.top(), viewingArea.right(), zoomLevel);
+        end.latIndex = Math.ceil(end.latIndex);
+        end.lonIndex = Math.ceil(end.lonIndex);
+
+        var wantedTiles = [];
+
+        for (var latIndex = start.latIndex; latIndex<=end.latIndex; latIndex+=1)
+        {
+            for (var lonIndex = start.lonIndex; lonIndex<=end.lonIndex; lonIndex+=1)
+            {
+                var wantedTile = {};
+            
+                wantedTile.latIndex = latIndex;
+                wantedTile.lonIndex = lonIndex;
+                wantedTile.zoomIndex = zoomLevel;
+                
+                wantedTile.topLeftLatLon = this.getLatLonFromTileIndices(latIndex, lonIndex, zoomLevel);
+                wantedTile.bottomRightLatLon = this.getLatLonFromTileIndices((latIndex+1), (lonIndex+1), zoomLevel);
+
+                wantedTile.boundingBox = new Rectangle();			
+                wantedTile.boundingBox = this.enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.topLeftLatLon.lon, wantedTile.topLeftLatLon.lat));
+                wantedTile.boundingBox = this.enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.bottomRightLatLon.lon, wantedTile.bottomRightLatLon.lat));	
+            
+                wantedTiles.push(wantedTile);
+            }
+        }
+        
+        var result = [];
+        
+        for (var wantedTileIndex in wantedTiles)
+        {
+            var wantedTile = wantedTiles[wantedTileIndex];
+            
+            var wantedURL = this.createURLForTile(wantedTile.latIndex, wantedTile.lonIndex, wantedTile.zoomIndex);
+            
+            if (!this._mapTiles.hasOwnProperty(wantedURL))
+            {
+                this._mapTiles[wantedURL] = {};
+                
+                this._mapTiles[wantedURL].imageLoader = new ExternalImageView(wantedURL, this._settings.map_tile_width, this._settings.map_tile_height, this);
+                
+                this._mapTiles[wantedURL].topLeftLatLon = wantedTile.topLeftLatLon;
+                this._mapTiles[wantedURL].bottomRightLatLon = wantedTile.bottomRightLatLon;
+                this._mapTiles[wantedURL].boundingBox = wantedTile.boundingBox;
+            }
+            
+            this._mapTiles[wantedURL].isUsedThisFrame = true;
+            
+            result.push(wantedURL);
+        }
+        
+        return result;
+    }
+
+    this.mercatorLatitudeToLatitude = function(mercatorLatitude) {
+        var result = (180/Math.PI) * (2 * Math.atan(Math.exp((mercatorLatitude*2)*Math.PI/180)) - Math.PI/2);
 	
-	var wantedTiles: Array = prepareMapTiles(viewingArea, latLonToXYMatrix, xYToLatLonMatrix, width, height);
+        return result;
+    };
 
-	var areAllLoaded: Boolean = true;
-
-	for each (var currentURL: String in wantedTiles)
-	{
-		if (!_mapTiles[currentURL].imageLoader._isLoaded)
-			areAllLoaded = false;
-	}
-
-	var mapTilesURLs: Array = [];
-	if (areAllLoaded)
-	{
-		mapTilesURLs = wantedTiles;
-	}
-	else
-	{
-		for (currentURL in _mapTiles)
-			mapTilesURLs.push(currentURL);
-	}
-
-	for each (currentURL in mapTilesURLs)
-	{
-		var tile: Object = _mapTiles[currentURL];
-
-		if (!viewingArea.intersects(tile.boundingBox))
-			continue;
-
-		if (!tile.imageLoader._isLoaded)
-			continue;
-		
-		var screenTopLeft: Point = getXYFromLatLon(tile.topLeftLatLon, latLonToXYMatrix);
-		var screenBottomRight: Point = getXYFromLatLon(tile.bottomRightLatLon, latLonToXYMatrix);
-		
-		var screenLeft: Number = screenTopLeft.x;
-		var screenTop: Number = screenTopLeft.y;
+    this.latitudeToMercatorLatitude = function(latitude) { 
+        var result = (180/Math.PI) * Math.log(Math.tan(Math.PI/4+latitude*(Math.PI/180)/2));
 	
-		var screenWidth: Number = (screenBottomRight.x-screenTopLeft.x);
-		var screenHeight: Number = (screenBottomRight.y-screenTopLeft.y);
-	
-		var bitmapTransform: Matrix = new Matrix();
-		bitmapTransform.scale((screenWidth/_settings.map_tile_width), (screenHeight/_settings.map_tile_height));
-		bitmapTransform.translate(screenLeft, screenTop);
-	
-		graphics.beginBitmapFill(tile.imageLoader._bitmapData, bitmapTransform, false, true);
-		graphics.drawRect(screenLeft, screenTop, screenWidth, screenHeight);
-		graphics.endFill();
-	}
-}
+        return (result/2);
+    };
 
-private function getTileIndicesFromLatLon(lat: Number, lon: Number, zoomLevel: int): Object
-{
-	var mercatorLatitudeOrigin: Number = latitudeToMercatorLatitude(_settings.map_tile_origin_lat);
-	var mercatorLatitudeHeight: Number = latitudeToMercatorLatitude(_settings.world_lat_height+_settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
-	
-	var zoomTileCount: Number = (1<<zoomLevel);
-	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
-	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
+    this.calculateViewingArea = function(width, height, xYToLatLonMatrix)
+    {
+        var viewingArea = new Rectangle();
+        
+        var topLeftScreen = new Point(0, 0);
+        var bottomRightScreen = new Point(width, height);
+            
+        var topLeftLatLon = this.getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
+        var bottomRightLatLon = this.getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
+        
+        viewingArea = this.enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
+        viewingArea = this.enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
 
-	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
-	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+        return viewingArea;	
+    };
 
-	var latIndex: Number = ((latitudeToMercatorLatitude(lat)-mercatorLatitudeOrigin)/tileHeightInDegrees);
-	latIndex = Math.max(latIndex, 0);
-	latIndex = Math.min(latIndex, (zoomTileCount-1));
-	
-	var lonIndex: Number = ((lon-_settings.map_tile_origin_lon)/tileWidthInDegrees);
-	lonIndex = Math.max(lonIndex, 0);
-	lonIndex = Math.min(lonIndex, (zoomTileCount-1));
-	
-	var result: Object = {
-		latIndex: latIndex,
-		lonIndex: lonIndex
-	};
-	
-	return result;
-}
+    this.trackMapTilesUsage = function()
+    {
+        for (var currentURL in this._mapTiles)
+        {
+            this._mapTiles[currentURL].isUsedThisFrame = false;	
+        }	
+    };
 
-private function getLatLonFromTileIndices(latIndex: Number, lonIndex: Number, zoomLevel: int): Object
-{
-	var mercatorLatitudeOrigin: Number = latitudeToMercatorLatitude(_settings.map_tile_origin_lat);
-	var mercatorLatitudeHeight: Number = latitudeToMercatorLatitude(_settings.world_lat_height+_settings.map_tile_origin_lat)-mercatorLatitudeOrigin;
- 	
-	var zoomTileCount: Number = (1<<zoomLevel);
-	var zoomPixelsPerDegreeLatitude: Number = ((_settings.map_tile_height/mercatorLatitudeHeight)*zoomTileCount);
-	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
+    this.deleteUnusedMapTiles = function()
+    {
+        var areAllLoaded = true;
 
-	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
-	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
+        for (var currentURL in this._mapTiles)
+        {
+            if (this._mapTiles[currentURL].isUsedThisFrame&&
+                !this._mapTiles[currentURL].imageLoader._isLoaded)
+                areAllLoaded = false;
+        }
 
-	var lat: Number = ((latIndex*tileHeightInDegrees)+mercatorLatitudeOrigin);
-	var lon: Number = ((lonIndex*tileWidthInDegrees)+_settings.map_tile_origin_lon);
-	
-	var result: Object = {
-		lat: mercatorLatitudeToLatitude(lat),
-		lon: lon
-	};
-	
-	return result;
-}
-
-private function prepareMapTiles(viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix, width: Number, height: Number): Array
-{	
-	var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
-	
-	var zoomPixelsPerDegreeLatitude: Number = (_settings.map_tile_height/_settings.world_lat_height);
-	var zoomLevel: int = 0;
-	while (Math.abs(zoomPixelsPerDegreeLatitude*_settings.map_tile_match_factor)<Math.abs(pixelsPerDegreeLatitude))
-	{
-		zoomLevel += 1;
-		zoomPixelsPerDegreeLatitude *= 2;	
-	}
-
-	var zoomTileCount: Number = (1<<zoomLevel);
-	var zoomPixelsPerDegreeLongitude: Number = ((_settings.map_tile_width/_settings.world_lon_width)*zoomTileCount);
-	
-	var tileWidthInDegrees: Number = (_settings.map_tile_width/zoomPixelsPerDegreeLongitude);
-	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
-
-	var start: Object = getTileIndicesFromLatLon(viewingArea.bottom, viewingArea.left, zoomLevel);
-	start.latIndex = Math.floor(start.latIndex);
-	start.lonIndex = Math.floor(start.lonIndex);
-
-	var end: Object = getTileIndicesFromLatLon(viewingArea.top, viewingArea.right, zoomLevel);
-	end.latIndex = Math.ceil(end.latIndex);
-	end.lonIndex = Math.ceil(end.lonIndex);
-
-	var wantedTiles: Array = [];
-
-	for (var latIndex: int = start.latIndex; latIndex<=end.latIndex; latIndex+=1)
-	{
-		for (var lonIndex: int = start.lonIndex; lonIndex<=end.lonIndex; lonIndex+=1)
-		{
-			var wantedTile: Object = {};
-		
-			wantedTile.latIndex = latIndex;
-			wantedTile.lonIndex = lonIndex;
-			wantedTile.zoomIndex = zoomLevel;
-			
-			wantedTile.topLeftLatLon = getLatLonFromTileIndices(latIndex, lonIndex, zoomLevel);
-			wantedTile.bottomRightLatLon = getLatLonFromTileIndices((latIndex+1), (lonIndex+1), zoomLevel);
-
-			wantedTile.boundingBox = new Rectangle();			
-			wantedTile.boundingBox = enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.topLeftLatLon.lon, wantedTile.topLeftLatLon.lat));
-			wantedTile.boundingBox = enlargeBoxToContain(wantedTile.boundingBox, new Point(wantedTile.bottomRightLatLon.lon, wantedTile.bottomRightLatLon.lat));	
-		
-			wantedTiles.push(wantedTile);
-		}
-	}
-	
-	var result: Array = [];
-	
-	for each (wantedTile in wantedTiles)
-	{
-		var wantedURL: String = createURLForTile(wantedTile.latIndex, wantedTile.lonIndex, wantedTile.zoomIndex);
-		
-		if (!_mapTiles.hasOwnProperty(wantedURL))
-		{
-			_mapTiles[wantedURL] = {};
-			
-			_mapTiles[wantedURL].imageLoader = new ExternalImageView(wantedURL, _settings.map_tile_width, _settings.map_tile_height, this);
-			
-			_mapTiles[wantedURL].topLeftLatLon = wantedTile.topLeftLatLon;
-			_mapTiles[wantedURL].bottomRightLatLon = wantedTile.bottomRightLatLon;
-			_mapTiles[wantedURL].boundingBox = wantedTile.boundingBox;
-		}
-		
-		_mapTiles[wantedURL].isUsedThisFrame = true;
-		
-		result.push(wantedURL);
-	}
-	
-	return result;
-}
-
-private function onMapTileComplete(event:Event):void
-{
-	var image:Image = Image(event.target);
-	var sourceURL: String = image.source as String;
-
-	_mapTiles[sourceURL].image.addEventListener(FlexEvent.UPDATE_COMPLETE, onMapTileLoaded);
-}
-
-private function onMapTileLoaded(event:Event):void
-{
-	var image:Image = Image(event.target);
-
-	var sourceURL: String = image.source as String;
- 
-	if(image.width<=0)
-		return;
-
-	if (!_mapTiles.hasOwnProperty(sourceURL))
-		return;
-
-	var bitmapData:BitmapData = new BitmapData(image.width,image.height);
-    var matrix:Matrix = new Matrix();
-    bitmapData.draw(image,matrix);
-    
-    _mapTiles[sourceURL].bitmapData = bitmapData;
-    _mapTiles[sourceURL].isLoaded = true;
-    
-    _dirty = true;
-}
-
-private function mercatorLatitudeToLatitude(mercatorLatitude: Number): Number
-{
-	var result: Number = (180/Math.PI) * (2 * Math.atan(Math.exp((mercatorLatitude*2)*Math.PI/180)) - Math.PI/2);
-	
-	return result;
-}
-
-private function latitudeToMercatorLatitude(latitude: Number): Number
-{ 
-	var result: Number = (180/Math.PI) * Math.log(Math.tan(Math.PI/4+latitude*(Math.PI/180)/2));
-	
-	return (result/2);
-}
-
-private function calculateViewingArea(width: Number, height: Number, xYToLatLonMatrix: Matrix): Rectangle
-{
-	var viewingArea: Rectangle = new Rectangle();
-	
-	var topLeftScreen: Point = new Point(0, 0);
-	var bottomRightScreen: Point = new Point(width, height);
-		
-	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, xYToLatLonMatrix);
-	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, xYToLatLonMatrix);
-	
-	viewingArea = enlargeBoxToContain(viewingArea, new Point(topLeftLatLon.lon, topLeftLatLon.lat));
-	viewingArea = enlargeBoxToContain(viewingArea, new Point(bottomRightLatLon.lon, bottomRightLatLon.lat));	
-
-	return viewingArea;	
-}
-
-private function trackMapTilesUsage(): void
-{
-	for (var currentURL: String in _mapTiles)
-	{
-		_mapTiles[currentURL].isUsedThisFrame = false;	
-	}	
-}
-
-private function deleteUnusedMapTiles(): void
-{
-	var areAllLoaded: Boolean = true;
-
-	for (var currentURL: String in _mapTiles)
-	{
-		if (_mapTiles[currentURL].isUsedThisFrame&&
-			!_mapTiles[currentURL].imageLoader._isLoaded)
-			areAllLoaded = false;
-	}
-
-	_mapTilesDirty = false;
-	
-	if (areAllLoaded)
-	{
-		for (currentURL in _mapTiles)
-		{
-			if (!_mapTiles[currentURL].isUsedThisFrame)
-			{
-				_mapTiles[currentURL].imageLoader = null;
-				delete _mapTiles[currentURL];
-				_mapTilesDirty = true;
-			}	
-		}
-	}			
-}
-
+        this._mapTilesDirty = false;
+        
+        if (areAllLoaded)
+        {
+            for (var currentURL in this._mapTiles)
+            {
+                if (!this._mapTiles[currentURL].isUsedThisFrame)
+                {
+                    this._mapTiles[currentURL].imageLoader = null;
+                    delete this._mapTiles[currentURL];
+                    this._mapTilesDirty = true;
+                }	
+            }
+        }			
+    };
+/*
 private function getValueHeaders(): Array
 {
 	return _valueHeaders;	
@@ -3219,7 +3198,53 @@ public function drawPointBlobTile(width: Number,
             context = context[namespaces[i]];
         }
         return context[func].apply(this, args);
-    }
+    };
+    
+    this.createCanvas = function(width, height) {
+        return $(
+            '<canvas '
+            +'width="'+width+'" '
+            +'height="'+height+'"'
+            +'"></canvas>'
+        );
+    };
+    
+    this.colorStringFromNumber = function(colorNumber, alpha)
+    {
+        var red = (colorNumber>>16)&0xff;
+        var green = (colorNumber>>8)&0xff;
+        var blue = (colorNumber>>0)&0xff;
+
+        if (typeof alpha === 'undefined')
+            alpha = 1.0;
+            
+        var result = 'rgba(';
+        result += red;
+        result += ',';
+        result += green;
+        result += ',';
+        result += blue;
+        result += ',';
+        result += alpha;
+        result += ')';
+        
+        return result;
+    };
+    
+    this.drawImage = function(destination, source, x, y, w, h)
+    {
+        var context = this.beginDrawing(destination);
+        context.drawImage(source, x, y, w, h);
+        this.endDrawing(context);
+    };
+
+    this.fillRect = function(destination, x, y, width, height, color)
+    {
+        var context = this.beginDrawing(destination);
+        context.fillStyle = this.colorStringFromNumber(color);
+        context.fillRect(x, y, width, height);
+        this.endDrawing(context);
+    };
 
     this.__constructor(canvas);
 

@@ -183,6 +183,15 @@ function Rectangle(x, y, width, height)
     this.bottomRight = function() {
         return new Point(this.right(), this.bottom());
     };
+
+    this.left = function(newX) {
+        if (typeof newX !== 'undefined')
+        {
+            this.width += (this.x-newX);
+            this.x = newX;
+        }
+        return this.x;
+    };
     
     this.right = function(newX) {
         if (typeof newX !== 'undefined')
@@ -194,6 +203,15 @@ function Rectangle(x, y, width, height)
         return new Point(this.width, this.height);
     };
     
+    this.top = function(newY) {
+        if (typeof newY !== 'undefined')
+        {
+            this.height += (this.y-newY);
+            this.y = newY;
+        }
+        return this.y;
+    };
+
     this.topLeft = function() {
         return new Point(this.x, this.y);
     };
@@ -475,4 +493,27 @@ function BucketGrid(boundingBox, rows, columns)
     
     return this;
 }
+
+function ExternalImageView(imagePath, width, height, myParent)
+{
+    this.__constructor = function(imagePath, width, height, myParent)
+    {
+        this._myParent = myParent;
+		this._isLoaded = false;
+        this._image = new Image();
         
+        var instance = this;
+        this._image.onload = function() { instance.onComplete(); };
+        this._image.src = imagePath;
+    };
+
+    this.onComplete = function() 
+    {
+        this._isLoaded = true;
+        
+        // I know, I know, I should really be sending up an event or something less hacky
+        this._myParent._mapTilesDirty = true;
+    };
+    
+    this.__constructor(imagePath, width, height, myParent);
+}
