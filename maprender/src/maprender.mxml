@@ -694,7 +694,7 @@ private function blankWay(): Object
 	
 	for each (var key:String in _wayDefaults)
 	{
-		result[key] = _wayDefaults[key];
+		result.tags[key] = _wayDefaults[key];
 	}
 
 	return result;	

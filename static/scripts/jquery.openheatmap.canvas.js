@@ -44,13 +44,18 @@ g_openHeatMapObjects = {};
             g_openHeatMapObjects[settings.mapName] = openHeatMap;
 
             $(this).append(canvas);
+            
+            onMapCreated();
         });
  
         return this;
     };
     
     $.getOpenHeatMap = function(mapName) {
-        return g_openHeatMapObjects[settings.mapName];
+        if (!mapName)
+            mapName = 'openheatmap';
+            
+        return g_openHeatMapObjects[mapName];
     };
  
 })(jQuery);
@@ -156,7 +161,7 @@ function OpenHeatMap(canvas)
         this._latLonToXYMatrix = new Matrix();
         this._xYToLatLonMatrix = new Matrix();
 
-/*        this._worldBoundingBox = new Rectangle();*/
+        this._worldBoundingBox = new Rectangle();
         this._waysGrid = null;
 
         this._timelineControls = null;
@@ -297,6 +302,8 @@ function OpenHeatMap(canvas)
         
         context.fillStyle = style;
         context.strokeStyle = style;
+
+        context.beginPath();
         
         for (wayId in this._ways)
         {
@@ -310,8 +317,6 @@ function OpenHeatMap(canvas)
                 
             var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
 
-            context.beginPath();
-
             context.moveTo(firstPos.x, firstPos.y);
 
             for (var currentNdIndex in way.nds)
@@ -323,9 +328,10 @@ function OpenHeatMap(canvas)
                 context.lineTo(currentPos.x, currentPos.y);
             }
 
-            context.closePath();
-            context.stroke();
         }
+
+        context.closePath();
+        context.stroke();
 
         this.endDrawing(context);
     };
@@ -704,109 +710,116 @@ this.redraw();
         if (this._onFrameRenderFunction !== null)
             this.externalInterfaceCall(this._onFrameRenderFunction, null);	
     };
-/*
-private function blankWay(): Object
-{
-	var result: Object = {};
-	
-	result.boundingBox = new Rectangle();
-	result.nds = [];
-	result.tags = {};
-	result.isClosed = false;
-	
-	for each (var key:String in _wayDefaults)
-	{
-		result[key] = _wayDefaults[key];
-	}
 
-	return result;	
-}
+    this.blankWay = function()
+    {
+        var result = {};
+        
+        result.boundingBox = new Rectangle();
+        result.nds = [];
+        result.tags = {};
+        result.isClosed = false;
+        
+        for (var keyIndex in this._wayDefaults)
+        {
+            var key = this._wayDefaults[keyIndex];
+            result.tags[key] = this._wayDefaults[key];
+        }
 
-private function onWaysLoad(success:Boolean): void
-{ 	  		  	
-	var waysData:XML = XML(_waysLoader.data);
+        return result;	
+    };
+
+    this.onWaysLoad = function(data)
+    { 	  		  	
+        var waysData = $(data);
   	
-  	_tagMap = {};
-  	
-  	for each (var node: * in waysData..node)
-  	{
-  		var newNode: Object = {
-  				'lon': (Number)(node.@lon),
-  				'lat': (Number)(node.@lat)
-  		};
-  		
-  		_nodes[node.@id] = newNode;  		
-  	}
+        this._tagMap = {};
 
-  	for each (var way: * in waysData..way)
-  	{
-		var wayId: String = (String)(way.@id);
+        var instance = this;
 
-  		var newWay: Object = blankWay();
-		newWay.id = wayId;
-//		newWay.boundingBox = way.bound.@box.explode(',');
+        waysData.find('node').each(function() {
+            var newNode = {
+                'lon': $(this).attr('lon'),
+                'lat': $(this).attr('lat')
+            };
+            
+            instance._nodes[$(this).attr('id')] = newNode;
+        });
 
-		var ndCount: Number = 0;
-		var firstNd: String = null;
-		var lastNd: String = null;
-	  	for each (var nd: * in way..nd)
-	  	{
-	  		if (typeof _nodes[nd.@ref] === 'undefined')
-	  			continue;
+        waysData.find('way').each(function() {
+            
+            var wayId = $(this).attr('id');
 
-	  		ndCount += 1;
-	  		newWay.nds.push(nd.@ref);
+            var newWay = instance.blankWay();
+            newWay.id = wayId;
+
+            var ndCount = 0;
+            var firstNd = null;
+            var lastNd = null;
+
+            $(this).find('nd').each(function() {
+
+                var ref = $(this).attr('ref');
+
+                if (typeof instance._nodes[ref] === 'undefined')
+                    return;
+
+                ndCount += 1;
+                newWay.nds.push(ref);
 	  		
-	  		if (firstNd===null)
-	  			firstNd = nd.@ref;
-	  		lastNd = nd.@ref;
+                if (firstNd===null)
+                    firstNd = ref;
+                lastNd = ref;
 	  			  			
-	  		var thisNode: Object = _nodes[nd.@ref];
-	  		var nodePos: Point = new Point(thisNode.lon, thisNode.lat);
-	  		newWay.boundingBox = enlargeBoxToContain(newWay.boundingBox, nodePos);
-	  	}
+                var thisNode = instance._nodes[ref];
+                var nodePos = new Point(thisNode.lon, thisNode.lat);
+                newWay.boundingBox = instance.enlargeBoxToContain(newWay.boundingBox, nodePos);
+            });
 	  	
-	  	newWay.isClosed = ((firstNd===lastNd)&&(!_settings.force_outlines));
-	  	
-	  	for each (var tag: * in way..tag)
-	  	{
-	  		var key: String = tag.@k;
-	  		var value: String = tag.@v;
+            newWay.isClosed = ((firstNd===lastNd)&&(!instance._settings.force_outlines));
+
+            $(this).find('tag').each(function() {
+                
+                var key = $(this).attr('k');
+                var value = $(this).attr('v');
 	  		
-	  		newWay.tags[key] = value;
+                newWay.tags[key] = value;
 	  		
-	  		if (typeof _tagMap[key] === 'undefined')
-	  			_tagMap[key] = {};
+                if (typeof instance._tagMap[key] === 'undefined')
+                    instance._tagMap[key] = {};
 	  			
-	  		if (typeof _tagMap[key][value] === 'undefined')
-	  			_tagMap[key][value] = [];
+                if (typeof instance._tagMap[key][value] === 'undefined')
+                    instance._tagMap[key][value] = [];
 	  			
-	  		_tagMap[key][value].push(newWay.id);
-	  	}
+                instance._tagMap[key][value].push(newWay.id);
+            });
  		
-  		_ways[wayId] = newWay;
+            instance._ways[wayId] = newWay;
   		
-  		if (!newWay.boundingBox.isEmpty())
-  		{
-  			_worldBoundingBox = enlargeBoxToContain(_worldBoundingBox, newWay.boundingBox.topLeft);
-  			_worldBoundingBox = enlargeBoxToContain(_worldBoundingBox, newWay.boundingBox.bottomRight);
-  		}
-  	}
+            if (!newWay.boundingBox.isEmpty())
+            {
+                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.topLeft);
+                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.bottomRight);
+            }
+        });
 
-	buildWaysGrid();
-	_dirty = true;
-	_valuesDirty = true;
-	if (_onWaysLoadFunction!==null)
-		ExternalInterface.call(_onWaysLoadFunction, _waysFileName);
-}
+        this.buildWaysGrid();
+        this._dirty = true;
+        this._valuesDirty = true;
+        if (this._onWaysLoadFunction!==null)
+            this.externalInterfaceCall(this._onWaysLoadFunction, this._waysFileName);
+    };
  	  
-private function loadWaysFromFile(waysFileName: String): void
-{
- 	_waysFileName = waysFileName;
-    _waysLoader = new URLLoader(new URLRequest(waysFileName));
-    _waysLoader.addEventListener("complete", onWaysLoad);
-}
+    this.loadWaysFromFile = function(waysFileName) 
+    {
+        var instance = this;
+        this._waysFileName = waysFileName;
+        $.get(waysFileName, function(data) {
+            instance.onWaysLoad(data);
+        });
+    }
 
+/*
 private function decodeCSVRow(line: String, columnSeperator: String = ',') : Array
 {
 	var inQuotes: Boolean = false;
@@ -1202,50 +1215,50 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 //		}
 //	}
 
-}
+}*/
 
-private function enlargeBoxToContain(box: Rectangle, pos: Point): Rectangle
-{
-	if (box.containsPoint(pos))
-		return box;
+    this.enlargeBoxToContain = function(box, pos)
+    {
+        if (box.containsPoint(pos))
+            return box;
 	
-	if ((box.x==0)&&
-		(box.y==0)&&
-		(box.width==0)&&
-		(box.height==0))
-		return new Rectangle(pos.x, pos.y, 0, 0);
+        if ((box.x==0)&&
+            (box.y==0)&&
+            (box.width==0)&&
+            (box.height==0))
+            return new Rectangle(pos.x, pos.y, 0, 0);
 		
-	if (box.left>pos.x)
-		box.left = pos.x;
+        if (box.left>pos.x)
+            box.left = pos.x;
 
-	if (box.right<pos.x)
-		box.right = pos.x;
+        if (box.right()<pos.x)
+            box.right(pos.x);
 
-	if (box.top>pos.y)
-		box.top = pos.y;
-		
-	if (box.bottom<pos.y)
-		box.bottom = pos.y;
-		
-	return box;
-}
+        if (box.top>pos.y)
+            box.top = pos.y;
+            
+        if (box.bottom()<pos.y)
+            box.bottom(pos.y);
+            
+        return box;
+    };
 
-private function buildWaysGrid(): void
-{
-	_waysGrid = new BucketGrid(_worldBoundingBox, 16, 16);
-	
-	for (var wayId:String in _ways)
-	{
-		var way: Object = _ways[wayId];
+    this.buildWaysGrid = function()
+    {
+        this._waysGrid = new BucketGrid(this._worldBoundingBox, 16, 16);
+        
+        for (var wayId in this._ways)
+        {
+            var way = this._ways[wayId];
 
-		var boundingBox: Rectangle = way.boundingBox;
-		if (boundingBox.isEmpty())
-			continue;
-		
-		_waysGrid.insertObjectAt(boundingBox, wayId);
-	}
-}
-
+            var boundingBox = way.boundingBox;
+            if (boundingBox.isEmpty())
+                continue;
+            
+            this._waysGrid.insertObjectAt(boundingBox, wayId);
+        }
+    };
+/*
 private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 {
 	var result: Array = new Array();
