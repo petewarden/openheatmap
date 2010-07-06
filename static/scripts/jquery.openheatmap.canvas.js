@@ -394,7 +394,7 @@ function OpenHeatMap(canvas)
         this._xYToLatLonMatrix = this._latLonToXYMatrix.clone();
         this._xYToLatLonMatrix.invert();
         
-/*        updateZoomSliderDisplay(); */
+        this.updateZoomSliderDisplay();
     };
     
 
@@ -642,7 +642,7 @@ function OpenHeatMap(canvas)
                     this._timelineControls.isPlaying = false;
                 }
                 
-                /*this.updateTimelineDisplay();*/
+                this.updateTimelineDisplay();
                 
                 this._dirty = true;
                 this._valuesDirty = true;
@@ -1205,212 +1205,216 @@ function OpenHeatMap(canvas)
             this._waysGrid.insertObjectAt(boundingBox, wayId);
         }
     };
-/*
-private function getWaysContainingLatLon(lat: Number, lon: Number): Array
-{
-	var result: Array = new Array();
 
-	var pos: Point = new Point(lon, lat);
+    this.getWaysContainingLatLon = function(lat, lon)
+    {
+        var result = [];
 
-	if (!_worldBoundingBox.containsPoint(pos))
-		return result;
-	
-	if (_waysGrid===null)
-		return result;
-	
-	var pixelsPerDegree: Number = getPixelsPerDegreeLatitude();
-	var pixelsToDegreeScale: Number = (1.0/pixelsPerDegree);
-	var ways: Array = _waysGrid.getContentsAtPoint(pos);
-	
-	for each (var wayId: String in ways)
-	{
-		var way: Object = _ways[wayId];
-		var isInside: Boolean = false;
-		if (way.isClosed)
-		{
-			if (way.boundingBox.containsPoint(pos))
-			{
-				isInside = isPointInsideClosedWay(pos, way);
-			}
-		}
-		else
-		{
-			var lineThickness: Number = (Number)(getWayProperty('line_thickness', way));
-			
-			var thicknessInDegrees: Number = Math.abs((lineThickness+1)*pixelsToDegreeScale);
-			
-			var boundingBox: Rectangle = way.boundingBox.clone();
-//			boundingBox.inflate(thicknessInDegrees/2, thicknessInDegrees/2);
-			
-			if (boundingBox.containsPoint(pos))
-			{
-				isInside = isPointOnWayLine(pos, way, thicknessInDegrees);	
-			}			
-		}
-		
-		if (isInside)
-		{
-			var wayResult: Object = {};
-			wayResult.id = wayId;
-			wayResult.tags = {};
-			
-			for (var key: String in way.tags)
-			{
-				// Pete - Safari really doesn't like colons in member names! 
-				key = key.replace(':', '_colon_');
-				var value: String = way.tags[key];
-				wayResult.tags[key] = value;
-			}
-			
-			result.push(wayResult);
-		}
-	}
-	
-	return result;
-}
+        var pos = new Point(lon, lat);
 
-private function addTimelineControls(): void
-{
-	if (_timelineControls === null)
-	{
-		_timelineControls = new TimelineControls();
-		_timelineControls.percentWidth = 100;
-		_timelineControls.setWidth(_settings.width-250);
-		
-		var verticalCenter: Number = ((_settings.height/2)-40);
-		_timelineControls.y = (_settings.height-50);
-	
-		_timelineControls.setTimeTextStyle(12, 0x000000);
-		
-		_timelineControls.setOnUserInputCallback(onTimelineUserInput);
-	
-		addChild(this._timelineControls);
-	}
-	
-	updateTimelineDisplay();
-}
+        if (!this._worldBoundingBox.containsPoint(pos))
+            return result;
+        
+        if (this._waysGrid===null)
+            return result;
+        
+        var pixelsPerDegree = this.getPixelsPerDegreeLatitude();
+        var pixelsToDegreeScale = (1.0/pixelsPerDegree);
+        var ways = this._waysGrid.getContentsAtPoint(pos);
+        
+        for (var wayIdIndex in ways)
+        {
+            var wayId = ways[wayIdIndex];
+            
+            var way = this._ways[wayId];
+            var isInside = false;
+            if (way.isClosed)
+            {
+                if (way.boundingBox.containsPoint(pos))
+                {
+                    isInside = this.isPointInsideClosedWay(pos, way);
+                }
+            }
+            else
+            {
+                var lineThickness = (Number)(this.getWayProperty('line_thickness', way));
+                
+                var thicknessInDegrees = Math.abs((lineThickness+1)*pixelsToDegreeScale);
+                
+                var boundingBox = way.boundingBox.clone();
+    //			boundingBox.inflate(thicknessInDegrees/2, thicknessInDegrees/2);
+                
+                if (boundingBox.containsPoint(pos))
+                {
+                    isInside = this.isPointOnWayLine(pos, way, thicknessInDegrees);	
+                }			
+            }
+            
+            if (isInside)
+            {
+                var wayResult = {};
+                wayResult.id = wayId;
+                wayResult.tags = {};
+                
+                for (var key in way.tags)
+                {
+                    // Pete - Safari really doesn't like colons in member names! 
+                    key = key.replace(':', '_colon_');
+                    var value = way.tags[key];
+                    wayResult.tags[key] = value;
+                }
+                
+                result.push(wayResult);
+            }
+        }
+        
+        return result;
+    };
 
-private function onTimelineUserInput(dragging: Boolean): void
-{
-	var sliderValue: Number = _timelineControls.sliderValue;
+    this.addTimelineControls = function()
+    {
+/*        if (_timelineControls === null)
+        {
+            _timelineControls = new TimelineControls();
+            _timelineControls.percentWidth = 100;
+            _timelineControls.setWidth(_settings.width-250);
+            
+            var verticalCenter: Number = ((_settings.height/2)-40);
+            _timelineControls.y = (_settings.height-50);
+        
+            _timelineControls.setTimeTextStyle(12, 0x000000);
+            
+            _timelineControls.setOnUserInputCallback(onTimelineUserInput);
+        
+            addChild(this._timelineControls);
+        }
+        
+        updateTimelineDisplay();*/
+    };
 
-	var totalFrames: int = _frameTimes.length;
+    this.onTimelineUserInput = function(dragging)
+    {
+        var sliderValue = this._timelineControls.sliderValue;
 
-	_frameIndex = Math.round(sliderValue*totalFrames);
-	_frameIndex = Math.min(_frameIndex, (totalFrames-1));
-	_frameIndex = Math.max(_frameIndex, 0);
-	
-	updateTimelineDisplay();
-	
-	if (dragging)
-		_redrawCountdown = 5;
-	else
-		_dirty = true;
-		
-	_valuesDirty = true;
-	onDataChange();
-}
+        var totalFrames = this._frameTimes.length;
 
-private function updateTimelineDisplay(): void
-{
-	if (_frameTimes.length>0)
-	{
-		var currentTime: String = _frameTimes[_frameIndex];
-		_timelineControls.timeText = currentTime;
-		
-		var totalFrames: int = _frameTimes.length;
-		_timelineControls.sliderValue = (_frameIndex/totalFrames);
-	}
-}
+        this._frameIndex = Math.round(sliderValue*totalFrames);
+        this._frameIndex = Math.min(this._frameIndex, (totalFrames-1));
+        this._frameIndex = Math.max(this._frameIndex, 0);
+        
+        updateTimelineDisplay();
+        
+        if (dragging)
+            this._redrawCountdown = 5;
+        else
+            this._dirty = true;
+            
+        this._valuesDirty = true;
+        this.onDataChange();
+    };
 
-private function getValueForWayId(wayId: String): String
-{
-	if (typeof _ways[wayId] === 'undefined')
-		return null;
-		
-	var way: Object = _ways[wayId];
+    this.updateTimelineDisplay = function()
+    {
+        if (this._frameTimes.length>0)
+        {
+            var currentTime = this._frameTimes[this._frameIndex];
+            this._timelineControls.timeText = currentTime;
+            
+            var totalFrames = this._frameTimes.length;
+            this._timelineControls.sliderValue = (this._frameIndex/totalFrames);
+        }
+    }
 
-	if (_valueData === null)
-		return null;
+    this.getValueForWayId = function(wayId)
+    {
+        if (typeof this._ways[wayId] === 'undefined')
+            return null;
+            
+        var way = this._ways[wayId];
 
-	var currentValues: Array = getCurrentValues();
-	
-	var resultFound: Boolean = false;
-	var result: String;
-	for each (var values: Array in currentValues)
-	{
-		var matchKeys: Object = {};
-		var thisValue: String = null;		
-		for (var i:int = 0; i<values.length; i+=1)
-		{
-			if (i===_valueColumnIndex)
-			{
-				thisValue = values[i];
-			}
-			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
-			{
-				var headerName: String = _valueHeaders[i];
-				matchKeys[headerName] = values[i];	
-			}
-		}
-		
-		var allMatch: Boolean = true;
-		for (var key: String in matchKeys)
-		{
-			var value:String = matchKeys[key];
-			
-			if (way.tags[key]!==value)
-				allMatch = false;	
-		}
-		
-		if (allMatch)
-		{
-			resultFound = true;
-			result = thisValue;
-		}
-	}
+        if (this._valueData === null)
+            return null;
 
-	if (resultFound)
-		return result;
-	else
-		return null;
-}
+        var currentValues = this.getCurrentValues();
+        
+        var resultFound = false;
+        var result;
+        for (var valuesIndex in currentValues)
+        {
+            var values = currentValues[valuesIndex];
+            
+            var matchKeys = {};
+            var thisValue = null;		
+            for (var i = 0; i<values.length; i+=1)
+            {
+                if (i===this._valueColumnIndex)
+                {
+                    thisValue = values[i];
+                }
+                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex))
+                {
+                    var headerName = this._valueHeaders[i];
+                    matchKeys[headerName] = values[i];	
+                }
+            }
+            
+            var allMatch = true;
+            for (var key in matchKeys)
+            {
+                var value = matchKeys[key];
+                
+                if (way.tags[key]!==value)
+                    allMatch = false;	
+            }
+            
+            if (allMatch)
+            {
+                resultFound = true;
+                result = thisValue;
+            }
+        }
 
-private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: Number, topLat: Number, leftLon: Number, bottomLat: Number, rightLon: Number): void
-{
-	var mercatorTopLat: Number = latitudeToMercatorLatitude(topLat);
-	var mercatorBottomLat: Number = latitudeToMercatorLatitude(bottomLat);
-	
-	var width: Number = (rightX-leftX);
-	var height: Number = (bottomY-topY);
-	
-	var widthLon: Number = (rightLon-leftLon);
-	var heightLat: Number = (mercatorBottomLat-mercatorTopLat);
-	
-	var scaleX: Number = (width/widthLon);
-	var scaleY: Number = (height/heightLat);
+        if (resultFound)
+            return result;
+        else
+            return null;
+    };
 
-	var latLonToXYMatrix: Matrix = new Matrix();
-	latLonToXYMatrix.translate(-leftLon, -mercatorTopLat);
-	latLonToXYMatrix.scale(scaleX, scaleY);	
+    this.addInlay = function(leftX, topY, rightX, bottomY, topLat, leftLon, bottomLat, rightLon)
+    {
+        var mercatorTopLat = this.latitudeToMercatorLatitude(topLat);
+        var mercatorBottomLat = this.latitudeToMercatorLatitude(bottomLat);
+        
+        var width = (rightX-leftX);
+        var height = (bottomY-topY);
+        
+        var widthLon = (rightLon-leftLon);
+        var heightLat = (mercatorBottomLat-mercatorTopLat);
+        
+        var scaleX = (width/widthLon);
+        var scaleY = (height/heightLat);
 
-	var xYToLatLonMatrix: Matrix = latLonToXYMatrix.clone();
-	xYToLatLonMatrix.invert();
-	
-	var worldTopLeftLatLon: Object = getLatLonFromXY(new Point(leftX, topY), _xYToLatLonMatrix);
-	var worldBottomRightLatLon: Object = getLatLonFromXY(new Point(rightX, bottomY), _xYToLatLonMatrix);
-	
-	_inlays.push({
-		latLonToXYMatrix: latLonToXYMatrix,
-		xYToLatLonMatrix: xYToLatLonMatrix,
-		worldTopLeftLatLon: worldTopLeftLatLon,
-		worldBottomRightLatLon: worldBottomRightLatLon,
-		topLat: topLat,
-		leftLon: leftLon,
-		bottomLat: bottomLat,
-		rightLon: rightLon
-	});
-}*/
+        var latLonToXYMatrix = new Matrix();
+        latLonToXYMatrix.translate(-leftLon, -mercatorTopLat);
+        latLonToXYMatrix.scale(scaleX, scaleY);	
+
+        var xYToLatLonMatrix = latLonToXYMatrix.clone();
+        xYToLatLonMatrix.invert();
+        
+        var worldTopLeftLatLon = this.getLatLonFromXY(new Point(leftX, topY), this._xYToLatLonMatrix);
+        var worldBottomRightLatLon = this.getLatLonFromXY(new Point(rightX, bottomY), this._xYToLatLonMatrix);
+        
+        this._inlays.push({
+            latLonToXYMatrix: latLonToXYMatrix,
+            xYToLatLonMatrix: xYToLatLonMatrix,
+            worldTopLeftLatLon: worldTopLeftLatLon,
+            worldBottomRightLatLon: worldBottomRightLatLon,
+            topLat: topLat,
+            leftLon: leftLon,
+            bottomLat: bottomLat,
+            rightLon: rightLon
+        });
+    };
 
     this.cropPoint = function(input, area)
     {
@@ -1595,7 +1599,7 @@ private function addInlay(leftX: Number, topY: Number, rightX: Number, bottomY: 
         else
             this._dirty = true;
             
-/*        this.updateZoomSliderDisplay();*/
+        this.updateZoomSliderDisplay();
     };
 
     this.createViewerElements = function()
@@ -1724,22 +1728,22 @@ private function calculatePixelsPerDegreeLatitudeFromZoomSlider(): Number
 		(maxPixelsPerDegreeLatitude*lerpValue);
 	
 	return result;
-}
-
-private function updateZoomSliderDisplay(): void
-{
-	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
-
-	var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
-	var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
-
-	var lerpValue: Number = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
-		(maxPixelsPerDegreeLatitude-minPixelsPerDegreeLatitude));
-	
-	var sliderValue: Number = Math.pow(lerpValue, (1/_settings.zoom_slider_power));
-
-	_zoomSlider.value = sliderValue;
 }*/
+
+    this.updateZoomSliderDisplay = function()
+    {/*
+        var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+
+        var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
+        var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
+
+        var lerpValue: Number = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
+            (maxPixelsPerDegreeLatitude-minPixelsPerDegreeLatitude));
+        
+        var sliderValue: Number = Math.pow(lerpValue, (1/_settings.zoom_slider_power));
+
+        _zoomSlider.value = sliderValue;*/
+    };
 
     this.setGradientValueRange = function(min, max)
     {
@@ -1785,116 +1789,119 @@ private function updateZoomSliderDisplay(): void
         if (this._onViewChangeFunction!==null)
             this.externalInterfaceCall(this._onViewChangeFunction, null);	
     };
-/*
-private function getWayForWayId(wayId: String): Object
-{
-	var result: Object = _ways[wayId];
-	
-	return result;	
-}
 
-private function isPointInsideClosedWay(pos: Point, way: Object): Boolean
-{
-	var xIntersections: Array = [];
+    this.getWayForWayId = function(wayId)
+    {
+        var result = this._ways[wayId];
+        
+        return result;	
+    };
 
-	var lineStart: Point = null;
-	var isFirst: Boolean = true;
-	
-	for each (var currentNd: String in way.nds)
-	{
-		var currentNode: Object = _nodes[currentNd];
-		var lineEnd: Point = new Point(currentNode.lon, currentNode.lat);
-		
-		if (isFirst)
-		{
-			isFirst = false;
-		}
-		else
-		{
-			if (((lineStart.y>pos.y)&&(lineEnd.y<pos.y))||
-				((lineStart.y<pos.y)&&(lineEnd.y>pos.y)))
-			{
-				var lineDirection: Point = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
-				var yDelta: Number = (pos.y-lineStart.y);
-				var yProportion: Number = (yDelta/lineDirection.y);
-				
-				var xIntersect: Number = (lineStart.x+(lineDirection.x*yProportion));
-				xIntersections.push(xIntersect);
-			}
-			
-		}
-		
-		lineStart = lineEnd;
-	}
-	
-	xIntersections.sort(function(a:Number, b:Number): int {
-		if (a<b) return -1;
-		else if (a>b) return 1;
-		else return 0; 
-	});
-	
-	var isInside: Boolean = false;
-	for (var index: int = 0; index<(xIntersections.length-1); index += 2)
-	{
-		var leftX: Number = xIntersections[index];
-		var rightX: Number = xIntersections[(index+1)];
+    this.isPointInsideClosedWay = function(pos, way)
+    {
+        var xIntersections = [];
 
-		if ((leftX<=pos.x)&&(rightX>pos.x))
-			isInside = true;
-		
-	}
-				
-	return isInside;
-}
+        var lineStart = null;
+        var isFirst = true;
+        
+        for (var currentNdIndex in way.nds)
+        {
+            var currentNd = way.nds[currentNdIndex];
+            
+            var currentNode = this._nodes[currentNd];
+            var lineEnd = new Point(currentNode.lon, currentNode.lat);
+            
+            if (isFirst)
+            {
+                isFirst = false;
+            }
+            else
+            {
+                if (((lineStart.y>pos.y)&&(lineEnd.y<pos.y))||
+                    ((lineStart.y<pos.y)&&(lineEnd.y>pos.y)))
+                {
+                    var lineDirection = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
+                    var yDelta = (pos.y-lineStart.y);
+                    var yProportion = (yDelta/lineDirection.y);
+                    
+                    var xIntersect = (lineStart.x+(lineDirection.x*yProportion));
+                    xIntersections.push(xIntersect);
+                }
+                
+            }
+            
+            lineStart = lineEnd;
+        }
+        
+        xIntersections.sort(function(a, b) {
+            if (a<b) return -1;
+            else if (a>b) return 1;
+            else return 0; 
+        });
+        
+        var isInside = false;
+        for (var index = 0; index<(xIntersections.length-1); index += 2)
+        {
+            var leftX = xIntersections[index];
+            var rightX = xIntersections[(index+1)];
 
-private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): Boolean
-{
-	var lineStart: Point = null;
-	var isFirst: Boolean = true;
-	
-	var thicknessSquared: Number = (thickness*thickness);
-	
-	var isInside: Boolean = false;
-	for each (var currentNd: String in way.nds)
-	{
-		var currentNode: Object = _nodes[currentNd];
-		var lineEnd: Point = new Point(currentNode.lon, currentNode.lat);
-		
-		if (isFirst)
-		{
-			isFirst = false;
-		}
-		else
-		{
-			var lineDirection: Point = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
-			
-			var lineDirectionSquared: Number = ((lineDirection.x*lineDirection.x)+(lineDirection.y*lineDirection.y));
-			
-			var s: Number = ((pos.x-lineStart.x)*lineDirection.x)+((pos.y-lineStart.y)*lineDirection.y);
-			s /= lineDirectionSquared;
-			
-			s = Math.max(s, 0);
-			s = Math.min(s, 1);
-			
-			var closestPoint: Point = new Point((lineStart.x+s*lineDirection.x), (lineStart.y+s*lineDirection.y));
-			
-			var delta: Point = pos.subtract(closestPoint);
-			
-			var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
-			
-			if (distanceSquared<thicknessSquared)
-			{
-				isInside = true;
-				break;
-			}
-		}
-		
-		lineStart = lineEnd;
-	}
-	
-				
-	return isInside;
-}*/
+            if ((leftX<=pos.x)&&(rightX>pos.x))
+                isInside = true;
+            
+        }
+                    
+        return isInside;
+    }
+
+    this.isPointOnWayLine = function(pos, way, thickness)
+    {
+        var lineStart = null;
+        var isFirst = true;
+        
+        var thicknessSquared = (thickness*thickness);
+        
+        var isInside = false;
+        for (var currentNdIndex in way.nds)
+        {
+            var currentNd = way.nds[currentNdIndex];
+            
+            var currentNode = this._nodes[currentNd];
+            var lineEnd = new Point(currentNode.lon, currentNode.lat);
+            
+            if (isFirst)
+            {
+                isFirst = false;
+            }
+            else
+            {
+                var lineDirection = new Point(lineEnd.x-lineStart.x, lineEnd.y-lineStart.y);
+                
+                var lineDirectionSquared = ((lineDirection.x*lineDirection.x)+(lineDirection.y*lineDirection.y));
+                
+                var s = ((pos.x-lineStart.x)*lineDirection.x)+((pos.y-lineStart.y)*lineDirection.y);
+                s /= lineDirectionSquared;
+                
+                s = Math.max(s, 0);
+                s = Math.min(s, 1);
+                
+                var closestPoint = new Point((lineStart.x+s*lineDirection.x), (lineStart.y+s*lineDirection.y));
+                
+                var delta = pos.subtract(closestPoint);
+                
+                var distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
+                
+                if (distanceSquared<thicknessSquared)
+                {
+                    isInside = true;
+                    break;
+                }
+            }
+            
+            lineStart = lineEnd;
+        }
+        
+        return isInside;
+    };
 
     this.drawPointBlobBitmap = function(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix)
     {
@@ -2110,44 +2117,46 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
         
         return setColor;
     };
-/*
-private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number = 0): Object
-{
-	if (radius===0)
-		radius = _settings.point_blob_radius;
-	
-	var radiusSquared: Number = (radius*radius);
 
-	var currentValues: Array = getCurrentValues();
-		
-	var result: Array = [];
-	for each (var values: Array in currentValues)
-	{
-		var valueLat: Number = values[_latitudeColumnIndex];
-		var valueLon: Number = values[_longitudeColumnIndex];
-		
-		var deltaLat: Number = (valueLat-lat);
-		var deltaLon: Number = (valueLon-lon);
-		
-		var distanceSquared: Number = ((deltaLat*deltaLat)+(deltaLon*deltaLon));
-		
-		if (distanceSquared<radiusSquared)
-		{
-			var output: Object = {};
-			for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
-			{
-				var header: String = '"'+_valueHeaders[headerIndex].toLowerCase()+'"';
+    this.getValuePointsNearLatLon = function(lat, lon, radius)
+    {
+        if (radius===0)
+            radius = this._settings.point_blob_radius;
+        
+        var radiusSquared = (radius*radius);
 
-				output[header] = values[headerIndex];
-			}
-			
-			result.push(output);
-		}
-	
-	}
-	
-	return result;
-}*/
+        var currentValues = this.getCurrentValues();
+            
+        var result = [];
+        for (var valuesIndex in currentValues)
+        {
+            var values = currentValues[valuesIndex];
+            
+            var valueLat = this.values[_latitudeColumnIndex];
+            var valueLon = this.values[_longitudeColumnIndex];
+            
+            var deltaLat = (valueLat-lat);
+            var deltaLon = (valueLon-lon);
+            
+            var distanceSquared = ((deltaLat*deltaLat)+(deltaLon*deltaLon));
+            
+            if (distanceSquared<radiusSquared)
+            {
+                var output = {};
+                for(var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++ )
+                {
+                    var header = '"'+this._valueHeaders[headerIndex].toLowerCase()+'"';
+
+                    output[header] = values[headerIndex];
+                }
+                
+                result.push(output);
+            }
+        
+        }
+        
+        return result;
+    };
 
     this.setSetting = function(key, value)
     {
@@ -2238,92 +2247,94 @@ private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Numb
         if (changeHandlers.hasOwnProperty(key))
             changeHandlers[key](this);
     };
+
+    this.repositionMoveableElements = function()
+    {/*
+        if (_credit !== null)
+        {
+            _credit.x = (_settings.width-120);
+            _credit.y = (_settings.height-20);
+        }
+            
+        if (_title !== null)
+        {
+            _title.width = _settings.width;
+            _title.x = 0;
+        }
+
+        if (_timelineControls !== null)
+        {
+            var verticalCenter: Number = ((_settings.height/2)-40);
+            _timelineControls.y = (_settings.height-50);
+        }
+    */
+    };
+
+    this.getLatLonViewingArea = function()
+    {
+        var topLeftScreen = new Point(0, 0);
+        var bottomRightScreen = new Point(this._settings.width, this._settings.height);
+            
+        var topLeftLatLon = this.getLatLonFromXY(topLeftScreen, _xYToLatLonMatrix);
+        var bottomRightLatLon = this.getLatLonFromXY(bottomRightScreen, _xYToLatLonMatrix);
+
+        var result = {
+            topLat: topLeftLatLon.lat,
+            leftLon: topLeftLatLon.lon,
+            bottomLat: bottomRightLatLon.lat,
+            rightLon: bottomRightLatLon.lon
+        };
+        
+        return result;
+    };
+
+    this.removeAllInlays = function()
+    {
+        this._inlays	= [];
+        
+        this._dirty = true;
+    };
+
+    this.removeAllWays = function()
+    {
+        this._ways = {};
+        this._nodes = {};
+
+        this._tagMap = {};
+        this._lastSetWayIds = {};
+        
+        this._dirty = true;
+    };
+
+    this.getAllInlays = function()
+    {
+        var result = [];
+        
+        for (var inlayIndex in this._inlays)
+        {
+            var inlay = this._inlays[inlayIndex];
+        
+            var topLeftScreen = this.getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
+            var bottomRightScreen = this.getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+            
+            var outputInlay =
+            {
+                left_x: topLeftScreen.x,
+                top_y: topLeftScreen.y,
+                right_x: bottomRightScreen.x,
+                bottom_y: bottomRightScreen.y,
+                top_lat: inlay.topLat,
+                left_lon: inlay.leftLon,
+                bottom_lat: inlay.bottomLat,
+                right_lon: inlay.rightLon
+            };
+
+            result.push(outputInlay);
+        }
+        
+        return result;
+    };
 /*
-private function repositionMoveableElements(): void
-{
-	if (_credit !== null)
-	{
-		_credit.x = (_settings.width-120);
-		_credit.y = (_settings.height-20);
-	}
-		
-	if (_title !== null)
-	{
-		_title.width = _settings.width;
-		_title.x = 0;
-	}
-
-	if (_timelineControls !== null)
-	{
-		var verticalCenter: Number = ((_settings.height/2)-40);
-		_timelineControls.y = (_settings.height-50);
-	}
-
-}
-
-private function getLatLonViewingArea(): Object
-{
-	var topLeftScreen: Point = new Point(0, 0);
-	var bottomRightScreen: Point = new Point(_settings.width, _settings.height);
-		
-	var topLeftLatLon: Object = getLatLonFromXY(topLeftScreen, _xYToLatLonMatrix);
-	var bottomRightLatLon: Object = getLatLonFromXY(bottomRightScreen, _xYToLatLonMatrix);
-
-	var result: Object = {
-		topLat: topLeftLatLon.lat,
-		leftLon: topLeftLatLon.lon,
-		bottomLat: bottomRightLatLon.lat,
-		rightLon: bottomRightLatLon.lon
-	};
-	
-	return result;
-}
-
-private function removeAllInlays(): void
-{
-	_inlays	= [];
-	
-	_dirty = true;
-}
-
-private function removeAllWays(): void
-{
-	_ways = {};
-	_nodes = {};
-
-  	_tagMap = {};
-	_lastSetWayIds = {};
-	
-	_dirty = true;
-}
-
-private function getAllInlays(): Array
-{
-	var result: Array = [];
-	
-	for each(var inlay: Object in _inlays)
-	{
-		var topLeftScreen: Point = getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
-		var bottomRightScreen: Point = getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
-		
-		var outputInlay: Object =
-		{
-			left_x: topLeftScreen.x,
-			top_y: topLeftScreen.y,
-			right_x: bottomRightScreen.x,
-			bottom_y: bottomRightScreen.y,
-			top_lat: inlay.topLat,
-			left_lon: inlay.leftLon,
-			bottom_lat: inlay.bottomLat,
-			right_lon: inlay.rightLon
-		};
-
-		result.push(outputInlay);
-	}
-	
-	return result;
-}
-
 private function addPopup(lat: Number, lon: Number, text: String): void
 {
 	var popup: Object =
@@ -2640,18 +2651,18 @@ private function removeAllPopups(): void
             }
         }			
     };
-/*
-private function getValueHeaders(): Array
-{
-	return _valueHeaders;	
-}
 
-private function addPopupAtScreenPosition(x: Number, y: Number, text: String): void
-{
-	var latLon: Object = getLatLonFromXY(new Point(x, y), _xYToLatLonMatrix);
-	
-	addPopup(latLon.lat, latLon.lon, text);	
-}*/
+    this.getValueHeaders = function()
+    {
+        return this._valueHeaders;	
+    };
+
+    this.addPopupAtScreenPosition = function(x, y, text)
+    {
+        var latLon = this.getLatLonFromXY(new Point(x, y), this._xYToLatLonMatrix);
+        
+        this.addPopup(latLon.lat, latLon.lon, text);	
+    };
 
     this.getCurrentValues = function()
     {
