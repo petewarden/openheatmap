@@ -242,10 +242,12 @@ function OpenHeatMap(canvas)
         this._pointBlobStillRendering = false;    
         
         this._viewerElements = [];
-        this._zoomTrack = null;
-        this._zoomThumb = null;
         this._plusImage = null;
         this._minusImage = null;
+        
+        this._timelineSlider = null;
+        this._timelineText = null;
+        this._timelineButton = null;
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -661,13 +663,13 @@ function OpenHeatMap(canvas)
         
         if (this._hasTime)
         {
-/*            if (this._timelineControls.isPlaying)
+            if (this._timelineButton.getIsOn())
             {
                 this._frameIndex += 1;
                 if (this._frameIndex>=this._frameTimes.length)
                 {
                     this._frameIndex = (this._frameTimes.length-1);
-                    this._timelineControls.isPlaying = false;
+                    this._timelineButton.setIsOn(false);
                 }
                 
                 this.updateTimelineDisplay();
@@ -675,7 +677,7 @@ function OpenHeatMap(canvas)
                 this._dirty = true;
                 this._valuesDirty = true;
                 this.onDataChange();
-            }*/
+            }
         }
 
         if (this._onFrameRenderFunction !== null)
@@ -1301,28 +1303,34 @@ function OpenHeatMap(canvas)
 
     this.addTimelineControls = function()
     {
-/*        if (_timelineControls === null)
+        if (this._timelineSlider === null)
         {
-            _timelineControls = new TimelineControls();
-            _timelineControls.percentWidth = 100;
-            _timelineControls.setWidth(_settings.width-250);
-            
-            var verticalCenter: Number = ((_settings.height/2)-40);
-            _timelineControls.y = (_settings.height-50);
+            var instance = this;
+            this._timelineSlider = new Slider(
+                80, (this._settings.height-30),
+                (this._settings.width-250), 10,
+                function(isDragging) { instance.onTimelineSliderChange(isDragging) });
         
-            _timelineControls.setTimeTextStyle(12, 0x000000);
+            this.addChild(this._timelineSlider);
             
-            _timelineControls.setOnUserInputCallback(onTimelineUserInput);
-        
-            addChild(this._timelineControls);
+            this._timelineText = new UIText('', '16px lucida grande, verdana', 
+                (this._settings.width-160), (this._settings.height-25));
+            this.addChild(this._timelineText);
+            
+            this._timelineButton = new UIButton(
+                42, (this._settings.height-45),
+                32, 32,
+                'http://localhost/static.openheatmap.com/images/pause.png',
+                'http://localhost/static.openheatmap.com/images/play.png');
+            this.addChild(this._timelineButton);
         }
         
-        updateTimelineDisplay();*/
+        this.updateTimelineDisplay();
     };
 
-    this.onTimelineUserInput = function(dragging)
+    this.onTimelineSliderChange = function(dragging)
     {
-        var sliderValue = this._timelineControls.sliderValue;
+        var sliderValue = this._timelineSlider.getSliderValue();
 
         var totalFrames = this._frameTimes.length;
 
@@ -1330,7 +1338,7 @@ function OpenHeatMap(canvas)
         this._frameIndex = Math.min(this._frameIndex, (totalFrames-1));
         this._frameIndex = Math.max(this._frameIndex, 0);
         
-        updateTimelineDisplay();
+        this.updateTimelineDisplay();
         
         if (dragging)
             this._redrawCountdown = 5;
@@ -1346,10 +1354,10 @@ function OpenHeatMap(canvas)
         if (this._frameTimes.length>0)
         {
             var currentTime = this._frameTimes[this._frameIndex];
-            this._timelineControls.timeText = currentTime;
+            this._timelineText.setText(currentTime);
             
             var totalFrames = this._frameTimes.length;
-            this._timelineControls.sliderValue = (this._frameIndex/totalFrames);
+            this._timelineSlider.setSliderValue(this._frameIndex/totalFrames);
         }
     }
 

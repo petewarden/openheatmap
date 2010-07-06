@@ -773,4 +773,97 @@ function Slider(x, y, width, height, changeCallback)
     };
     
     this.__constructor(x, y, width, height, changeCallback);
+    
+    return this;
 }
+
+function UIText(text, font, x, y)
+{
+    this.__constructor = function(text, font, x, y)
+    {
+        this._text = text;
+        this._font = font;
+        this._x = x;
+        this._y = y;
+    };
+    
+    this.draw = function(context)
+    {
+        context.font = this._font;
+        context.fillText(this._text, this._x, this._y);    
+    };
+    
+    this.setText = function(text)
+    {
+        this._text = text;
+    };
+    
+    this.__constructor(text, font, x, y);
+    
+    return this;
+}
+
+function UIButton(x, y, width, height, onImage, offImage, changeCallback)
+{
+    this.__constructor = function(x, y, width, height, onImage, offImage, changeCallback)
+    {
+        this._x = x;
+        this._y = y;
+        this._width = width;
+        this._height = height;
+        this._onImage = new UIImage(onImage, 0, 0);
+        this._offImage = new UIImage(offImage, 0, 0);        
+        this._changeCallback = changeCallback;
+
+        this._isOn = false;
+    };
+    
+    this.getIsOn = function()
+    {
+        return this._isOn;
+    };
+    
+    this.setIsOn = function(isOn)
+    {
+        this._isOn = isOn;
+    };
+    
+    this.draw = function(context)
+    {
+        if (!this._onImage._isLoaded ||
+            !this._offImage._isLoaded)
+            return;
+
+        if (this._isOn)
+            context.drawImage(this._onImage._image, this._x, this._y);
+        else
+            context.drawImage(this._offImage._image, this._x, this._y);
+    }
+
+    this.click = function(event)
+    {
+        if (!this._onImage._isLoaded ||
+            !this._offImage._isLoaded)
+            return true;
+
+        var mouseX = event.localX;
+        var mouseY = event.localY;
+            
+        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
+                
+        if (!trackBox.contains(mouseX, mouseY))
+            return true;
+
+        this._isOn = !this._isOn;
+
+        if (typeof this._changeCallback !== 'undefined')
+            this._changeCallback();
+
+        return false;
+    };
+
+    this.__constructor(x, y, width, height, onImage, offImage, changeCallback);
+    
+    return this;
+}
+
