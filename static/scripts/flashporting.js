@@ -517,3 +517,196 @@ function ExternalImageView(imagePath, width, height, myParent)
     
     this.__constructor(imagePath, width, height, myParent);
 }
+
+function UIImage(imagePath, x, y)
+{
+    this.__constructor = function(imagePath, x, y)
+    {
+        this._x = x;
+        this._y = y;
+    
+		this._isLoaded = false;
+        this._image = new Image();
+        
+        var instance = this;
+        this._image.onload = function() { instance.onComplete(); };
+        this._image.src = imagePath;
+    };
+
+    this.onComplete = function() 
+    {
+        this._isLoaded = true;
+        this._width = this._image.width;
+        this._height = this._image.height;
+    };
+    
+    this.draw = function(context)
+    {
+        if (!this._isLoaded)
+            return;
+            
+        context.drawImage(this._image, this._x, this._y);    
+    };
+    
+    this.__constructor(imagePath, x, y);
+}
+
+function Slider(track, thumb, isVertical, changeCallback, width, height)
+{
+    this.__constructor = function(track, thumb, isVertical, changeCallback, width, height)
+    {
+        this._track = track;
+        this._thumb = thumb;
+        this._isVertical = isVertical;
+        this._isDragging = false;
+        this._changeCallback = changeCallback;
+        this._width = width;
+        this._height = height;
+    };
+    
+    this.click = function(event)
+    {
+        var result = this.handleMouseEvent(event);
+
+        return result;
+    };
+
+    this.mousedown = function(event)
+    {
+        var result = this.handleMouseEvent(event);
+        
+        if (!result)
+            this._isDragging = true;
+        
+        return result;
+    };
+
+    this.mousemove = function(event)
+    {
+        if (!this._isDragging)
+            return true;
+
+        var mouseX = event.localX;
+        var mouseY = event.localY;
+            
+        this.setSliderFromMousePosition(mouseX, mouseY);
+    
+        return false;
+    };
+    
+    this.mouseup = function(event)
+    {
+        if (!this._isDragging)
+            return true;
+
+        this._isDragging = false;
+
+        var mouseX = event.localX;
+        var mouseY = event.localY;
+            
+        this.setSliderFromMousePosition(mouseX, mouseY);
+    
+        return false;
+    };
+    
+    this.handleMouseEvent = function(event)
+    {
+        if (!this._track._isLoaded)
+            return true;
+
+        var mouseX = event.localX;
+        var mouseY = event.localY;
+            
+        var trackBox = new Rectangle(this._track._x, this._track._y, this._track._width, this._track._height);
+                
+        if (!trackBox.contains(mouseX, mouseY))
+            return true;
+            
+        this.setSliderFromMousePosition(mouseX, mouseY);
+        
+        return false;    
+    };
+
+    this.setSliderFromMousePosition = function(mouseX, mouseY)
+    {
+        if (this._isVertical)
+        {
+            var minValue = (this._track._y+this._height);
+            var maxValue = this._track._y;
+            var currentValue = mouseY;
+        }
+        else
+        {
+            var minValue = this._track._x;
+            var maxValue = (this._track._x+this._width);
+            var currentValue = mouseX;        
+        }
+        var normalizedValue = ((currentValue-minValue)/(maxValue-minValue));
+        normalizedValue = Math.max(0, normalizedValue);
+        normalizedValue = Math.min(1, normalizedValue);        
+    
+        this.setSliderValue(normalizedValue);
+        
+        if (typeof this._changeCallback !== 'undefined')
+            this._changeCallback(this._isDragging);
+    };
+    
+    this.setSliderValue = function(value)
+    {
+        var normalizedValue = Math.max(0, value);
+        normalizedValue = Math.min(1, normalizedValue);        
+
+        if (this._isVertical)
+        {
+            var minValue = (this._track._y+this._height);
+            var maxValue = this._track._y;
+        }
+        else
+        {
+            var minValue = this._track._x;
+            var maxValue = (this._track._x+this._width);
+        }
+    
+        var pixelValue = (minValue+(normalizedValue*(maxValue-minValue)));
+        
+        if (this._isVertical)
+        {
+            this._thumb._y = pixelValue;
+        }
+        else
+        {
+            this._thumb._x = pixelValue;        
+        }
+                
+    };
+    
+    this.getSliderValue = function()
+    {
+        if (this._isVertical)
+        {
+            var minValue = (this._track._y+this._height);
+            var maxValue = this._track._y;
+            var pixelValue = this._thumb._y;
+        }
+        else
+        {
+            var minValue = this._track._x;
+            var maxValue = (this._track._x+this._width);
+            var pixelValue = this._thumb._x;
+        }
+        
+        var normalizedValue = ((pixelValue-minValue)/(maxValue-minValue));
+        normalizedValue = Math.max(0, normalizedValue);
+        normalizedValue = Math.min(1, normalizedValue);
+        
+        return normalizedValue;
+    };
+    
+    
+    this.draw = function(context)
+    {
+        // Do nothing
+    };
+    
+    this.__constructor(track, thumb, isVertical, changeCallback, width, height);
+}

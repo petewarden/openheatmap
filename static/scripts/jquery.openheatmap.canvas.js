@@ -240,6 +240,12 @@ function OpenHeatMap(canvas)
         this._pointBlobTileX = 0;
         this._pointBlobTileY = 0;
         this._pointBlobStillRendering = false;    
+        
+        this._viewerElements = [];
+        this._zoomTrack = null;
+        this._zoomThumb = null;
+        this._plusImage = null;
+        this._minusImage = null;
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -396,7 +402,6 @@ function OpenHeatMap(canvas)
         
         this.updateZoomSliderDisplay();
     };
-    
 
     this.makeEventArgument = function(event)
     {
@@ -444,6 +449,9 @@ function OpenHeatMap(canvas)
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarClick(event);
         
+        if (!ohmThis.handleViewerElementEvent(event, 'click'))
+            return false;
+        
         var continueHandling;
         if (ohmThis._onClickFunction !== null)
             continueHandling = ohmThis.externalInterfaceCall(ohmThis._onClickFunction, ohmThis.makeEventArgument(event));
@@ -459,6 +467,9 @@ function OpenHeatMap(canvas)
     
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarDoubleClick(event);
+
+        if (!ohmThis.handleViewerElementEvent(event, 'doubleclick'))
+            return false;
 
         var continueHandling;
         if (ohmThis._onDoubleClickFunction !== null)
@@ -486,6 +497,9 @@ function OpenHeatMap(canvas)
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarMouseDown(event);
 
+        if (!ohmThis.handleViewerElementEvent(event, 'mousedown'))
+            return false;
+
         var continueHandling;
         if (ohmThis._onMouseDownFunction !== null)
             continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseDownFunction, ohmThis.makeEventArgument(event));
@@ -509,6 +523,9 @@ function OpenHeatMap(canvas)
     
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarMouseUp(event);
+
+        if (!ohmThis.handleViewerElementEvent(event, 'mouseup'))
+            return false;
 
         var continueHandling;
         if (ohmThis._onMouseUpFunction !== null)
@@ -542,6 +559,9 @@ function OpenHeatMap(canvas)
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarMouseOver(event);
 
+        if (!ohmThis.handleViewerElementEvent(event, 'mouseover'))
+            return false;
+
         var continueHandling;
         if (ohmThis._onMouseOverFunction !== null)
             continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseOverFunction, ohmThis.makeEventArgument(event));
@@ -558,6 +578,9 @@ function OpenHeatMap(canvas)
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarMouseOut(event);
 
+        if (!ohmThis.handleViewerElementEvent(event, 'mouseout'))
+            return false;
+
         var continueHandling;
         if (ohmThis._onMouseOutFunction !== null)
             continueHandling = ohmThis.externalInterfaceCall(ohmThis._onMouseOutFunction, ohmThis.makeEventArgument(event));
@@ -573,6 +596,9 @@ function OpenHeatMap(canvas)
     
         if (ohmThis.isEventInTopBar(event))
             return ohmThis.onTopBarMouseMove(event);
+
+        if (!ohmThis.handleViewerElementEvent(event, 'mousemove'))
+            return false;
 
         var continueHandling;
         if (ohmThis._onMouseMoveFunction !== null)
@@ -625,6 +651,8 @@ function OpenHeatMap(canvas)
         }
         
         this.drawMainBitmapIntoViewer();
+        
+        this.drawViewerElements(this._canvas);
 
         if (this._hasTabs)
         {
@@ -1604,9 +1632,30 @@ function OpenHeatMap(canvas)
 
     this.createViewerElements = function()
     {
+        this._viewerElements = [];
+
         this._mainCanvas = this.createCanvas(this._settings.width, this._settings.height);
 
         this._informationLayerCanvas = this.createCanvas(this._settings.width, this._settings.height);
+
+        this._zoomTrack = new UIImage('http://localhost/static.openheatmap.com/images/zoomtrack.png', 15, 50);
+        this.addChild(this._zoomTrack);
+
+        this._zoomThumb = new UIImage('http://localhost/static.openheatmap.com/images/zoomthumb.png', 12, 90);
+        this.addChild(this._zoomThumb);
+
+        this._plusImage = new UIImage('http://localhost/static.openheatmap.com/images/plus.gif', 9, 35);
+        this.addChild(this._plusImage);
+
+        this._minusImage = new UIImage('http://localhost/static.openheatmap.com/images/minus.gif', 9, 197);
+        this.addChild(this._minusImage);
+        
+        var instance = this;
+        
+        this._zoomSlider = new Slider(this._zoomTrack, this._zoomThumb, true, 
+            function(isDragging) { instance.onZoomSliderChange(isDragging); },
+            10, 150);
+        this.addChild(this._zoomSlider);
 
         /*
         _zoomSlider = new VSlider();
@@ -1676,73 +1725,64 @@ function OpenHeatMap(canvas)
         repositionMoveableElements();
         */
     };
-/*
-private function onZoomThumbDrag( event: SliderEvent ): void
-{
-	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
-	
-	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, true);
 
-	onViewChange();
-}
+    this.onZoomSliderChange = function(isDragging)
+    {
+        var pixelsPerDegreeLatitude = this.calculatePixelsPerDegreeLatitudeFromZoomSlider();
+	
+        this.setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, isDragging);
 
-private function onZoomThumbRelease( event: SliderEvent ): void
-{
-	var pixelsPerDegreeLatitude: Number = calculatePixelsPerDegreeLatitudeFromZoomSlider();
-	
-	setPixelsPerDegreeLatitude(pixelsPerDegreeLatitude, false);	
+        this.onViewChange();
+    };
 
-	onViewChange();
-}
+    this.getPixelsPerDegreeLatitude = function()
+    {
+        var pixelsPerDegreeLatitude = this._latLonToXYMatrix.d;
+	
+        return pixelsPerDegreeLatitude;
+    };
 
-private function getPixelsPerDegreeLatitude(): Number
-{
-	var pixelsPerDegreeLatitude: Number = _latLonToXYMatrix.d;
-	
-	return pixelsPerDegreeLatitude;
-}
+    this.setPixelsPerDegreeLatitude = function(newPixelsPerDegreeLatitude, dragging)
+    {
+        var oldPixelsPerDegreeLatitude = this.getPixelsPerDegreeLatitude();
+        
+        var zoomFactor = (newPixelsPerDegreeLatitude/oldPixelsPerDegreeLatitude);
+        
+        var center = new Point((this._settings.width/2), (this._settings.height/2));
+        
+        this.zoomMapByFactorAroundPoint(zoomFactor, center, dragging);
+    }
 
-private function setPixelsPerDegreeLatitude(newPixelsPerDegreeLatitude: Number, dragging: Boolean = false): void
-{
-	var oldPixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
-	
-	var zoomFactor: Number = (newPixelsPerDegreeLatitude/oldPixelsPerDegreeLatitude);
-	
-	var center: Point = new Point((_settings.width/2), (_settings.height/2));
-	
-	zoomMapByFactorAroundPoint(zoomFactor, center, dragging);
-}
+    this.calculatePixelsPerDegreeLatitudeFromZoomSlider = function()
+    {
+        var sliderValue = this._zoomSlider.getSliderValue();
+        
+        var lerpValue = Math.pow(sliderValue, this._settings.zoom_slider_power);
 
-private function calculatePixelsPerDegreeLatitudeFromZoomSlider(): Number
-{
-	var sliderValue: Number = _zoomSlider.value;
-	
-	var lerpValue: Number = Math.pow(sliderValue, _settings.zoom_slider_power);
+        var minPixelsPerDegreeLatitude = (this._settings.height/this._settings.zoomed_out_degrees_per_pixel);
+        var maxPixelsPerDegreeLatitude = (this._settings.height/this._settings.zoomed_in_degrees_per_pixel);
 
-	var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
-	var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
-
-	var oneMinusLerp: Number = (1-lerpValue);
-	
-	var result: Number = (minPixelsPerDegreeLatitude*oneMinusLerp)+
-		(maxPixelsPerDegreeLatitude*lerpValue);
-	
-	return result;
-}*/
+        var oneMinusLerp = (1-lerpValue);
+        
+        var result = (minPixelsPerDegreeLatitude*oneMinusLerp)+
+            (maxPixelsPerDegreeLatitude*lerpValue);
+        
+        return result;
+    };
 
     this.updateZoomSliderDisplay = function()
-    {/*
-        var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+    {
+        var pixelsPerDegreeLatitude = this.getPixelsPerDegreeLatitude();
 
-        var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
-        var maxPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_in_degrees_per_pixel);
+        var minPixelsPerDegreeLatitude = (this._settings.height/this._settings.zoomed_out_degrees_per_pixel);
+        var maxPixelsPerDegreeLatitude = (this._settings.height/this._settings.zoomed_in_degrees_per_pixel);
 
-        var lerpValue: Number = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
+        var lerpValue = ((pixelsPerDegreeLatitude-minPixelsPerDegreeLatitude)/
             (maxPixelsPerDegreeLatitude-minPixelsPerDegreeLatitude));
         
-        var sliderValue: Number = Math.pow(lerpValue, (1/_settings.zoom_slider_power));
+        var sliderValue = Math.pow(lerpValue, (1/this._settings.zoom_slider_power));
 
-        _zoomSlider.value = sliderValue;*/
+        this._zoomSlider.setSliderValue(sliderValue);
     };
 
     this.setGradientValueRange = function(min, max)
@@ -3231,7 +3271,46 @@ private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
         pixelData[index+1] = green;
         pixelData[index+2] = blue;
         pixelData[index+3] = alpha;
-    }
+    };
+    
+    this.addChild = function(element)
+    {
+        this._viewerElements.push(element);
+    };
+
+    this.drawViewerElements = function(canvas)
+    {
+        var context = this.beginDrawing(canvas);
+        
+        for (var elementIndex in this._viewerElements)
+        {
+            var element = this._viewerElements[elementIndex];
+            
+            element.draw(context);
+        }
+        
+        this.endDrawing(context);    
+    };
+    
+    this.handleViewerElementEvent = function(event, callback)
+    {
+        var currentPosition = this.getLocalPosition($(event.target), event.pageX, event.pageY);
+        event.localX = currentPosition.x;
+        event.localY = currentPosition.y;
+
+        for (var elementIndex in this._viewerElements)
+        {
+            var element = this._viewerElements[elementIndex];
+            if (typeof element[callback] === 'undefined')
+                continue;
+                
+            var result = element[callback](event);
+            if (!result)
+                return false;
+        }
+    
+        return true;
+    };
 
     this.__constructor(canvas);
 
