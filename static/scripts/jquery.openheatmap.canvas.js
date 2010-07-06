@@ -151,8 +151,6 @@ function OpenHeatMap(canvas)
         this._worldBoundingBox = new Rectangle();
         this._waysGrid = null;
 
-        this._timelineControls = null;
-
         this._inlays = [];
 
         this._valuesDirty = false;
@@ -189,7 +187,7 @@ function OpenHeatMap(canvas)
             gradient_value_max: 0,
             point_blob_radius: 0.001,
             point_blob_value: 1.0,
-            credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap</u></a>',
+            credit_text: 'OpenHeatMap',
             credit_color: '0x303030',
             title_text: '',
             title_size: 15,
@@ -373,10 +371,10 @@ function OpenHeatMap(canvas)
         this._mainCanvas = this.createCanvas(width, height);
 
         this._informationLayerCanvas = this.createCanvas(width, height);
-/*
-        repositionMoveableElements();
-*/        
-        _dirty = true;	
+
+        this.repositionMoveableElements();
+        
+        this._dirty = true;	
     };
     
     this.setLatLonViewingArea = function(topLat, leftLon, bottomLat, rightLon) {
@@ -1359,7 +1357,7 @@ function OpenHeatMap(canvas)
             var totalFrames = this._frameTimes.length;
             this._timelineSlider.setSliderValue(this._frameIndex/totalFrames);
         }
-    }
+    };
 
     this.getValueForWayId = function(wayId)
     {
@@ -1658,41 +1656,25 @@ function OpenHeatMap(canvas)
             function(isDragging) { instance.onZoomSliderChange(isDragging); });
         this.addChild(this._zoomSlider);
 
-        /*        
-        _credit = new Label();
-        _credit.htmlText = _settings.credit_text;
-        _credit.width = 150;
-        _credit.height = 20;
-        _credit.setStyle('text-align', 'right');
-        _credit.setStyle('color', _settings.credit_color);
-        
-        _credit.addEventListener( MouseEvent.CLICK, function(): void {
-            var url:String = "http://"+_credit.text;
-            var request:URLRequest = new URLRequest(url);
-            navigateToURL(request); 	  	
-        });
-        
-        viewer.addChild(_credit);
+        this._credit = new UIText(
+            this._settings.credit_text,
+            'underline 11px lucida grande, verdana',
+            0, 0,
+            function() { window.open('http://openheatmap.com', '_blank'); }
+        );
+        this.addChild(this._credit);
 
-        _title = new TextField();
-        _title.htmlText = '<p align="center"><u>'+_settings.title_text+'</u></p>';
-        _title.width = _settings.width;
-        _title.height = (_settings.title_size*1.5);
-        _title.textColor = _settings.title_color;
-        _title.background = true;
-        _title.backgroundColor = _settings.title_background_color;
-    //	_title.fontSize = _settings.title_size;
-        _title.y = -1000;
+        this._title = new UIText(
+            this._settings.title_text,
+            '16px lucida grande, verdana',
+            0, -1000);
+        this._title.setBackground(
+            this._settings._width, (this._settings.title_size*1.5),
+            this.colorStringFromNumber(this._settings.title_background_color));
+                    
+        this.addChild(this._title);
 
-        var titleFormat: TextFormat = _title.defaultTextFormat;
-        titleFormat.size = _settings.title_size;
-        titleFormat.font = 'Verdana';
-        _title.defaultTextFormat = titleFormat;
-        
-        viewer.addChild(_title);
-
-        repositionMoveableElements();
-        */
+        this.repositionMoveableElements();
     };
 
     this.onZoomSliderChange = function(isDragging)
@@ -2258,25 +2240,25 @@ function OpenHeatMap(canvas)
     };
 
     this.repositionMoveableElements = function()
-    {/*
-        if (_credit !== null)
+    {
+        if (this._credit !== null)
         {
-            _credit.x = (_settings.width-120);
-            _credit.y = (_settings.height-20);
+            this._credit._x = (this._settings.width-80);
+            this._credit._y = (this._settings.height-13);
         }
             
-        if (_title !== null)
+        if (this._title !== null)
         {
-            _title.width = _settings.width;
-            _title.x = 0;
+            this._title._backgroundWidth = this._settings.width;
+            this._title._x = 0;
         }
 
-        if (_timelineControls !== null)
+        if (this._timelineSlider !== null)
         {
-            var verticalCenter: Number = ((_settings.height/2)-40);
-            _timelineControls.y = (_settings.height-50);
+            this._timelineSlider._y = (this._settings.height-30);
+            this._timelineText._y = (this._settings.height-25);
+            this._timelineButton._y = (this._settings.height-45);
         }
-    */
     };
 
     this.getLatLonViewingArea = function()

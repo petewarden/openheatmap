@@ -777,19 +777,36 @@ function Slider(x, y, width, height, changeCallback)
     return this;
 }
 
-function UIText(text, font, x, y)
+function UIText(text, font, x, y, clickCallback)
 {
-    this.__constructor = function(text, font, x, y)
+    this.__constructor = function(text, font, x, y, clickCallback)
     {
         this._text = text;
         this._font = font;
         this._x = x;
         this._y = y;
+        this._clickCallback = clickCallback;
+        
+        this._backgroundWidth = 0;
+        this._backgroundHeight = 0;
+        this._backgroundColor = '';        
     };
     
     this.draw = function(context)
     {
+        if (this._backgroundWidth>0)
+        {
+            context.fillStyle = this._backgroundColor;
+            context.fillRect(this._x, this._y, this._backgroundWidth, this._backgroundHeight);
+            context.fillStyle = '#000000';
+        }
+            
         context.font = this._font;
+        
+        var metrics = context.measureText(this._text);
+        this._width = metrics.width;
+        this._height = 12;
+        
         context.fillText(this._text, this._x, this._y);    
     };
     
@@ -798,7 +815,31 @@ function UIText(text, font, x, y)
         this._text = text;
     };
     
-    this.__constructor(text, font, x, y);
+    this.setBackground = function(w, h, color)
+    {
+        this._backgroundWidth = w;
+        this._backgroundHeight = h;
+        this._backgroundColor = color;
+    };
+    
+    this.click = function(event)
+    {
+        var mouseX = event.localX;
+        var mouseY = event.localY;
+            
+        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
+                
+        if (!trackBox.contains(mouseX, mouseY))
+            return true;
+
+        if (typeof this._clickCallback !== 'undefined')
+            this._clickCallback();
+
+        return false;
+    
+    };
+    
+    this.__constructor(text, font, x, y, clickCallback);
     
     return this;
 }
