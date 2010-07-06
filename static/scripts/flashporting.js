@@ -15,10 +15,10 @@ function Matrix(a, b, c, d, tx, ty)
     this.ty = ty;
     
     this.transformPoint = function (p) {
-        var result = {
-            x: (p.x*this.a)+(p.y*this.c)+this.tx,
-            y: (p.x*this.b)+(p.y*this.d)+this.ty
-        };
+        var result = new Point(
+            (p.x*this.a)+(p.y*this.c)+this.tx,
+            (p.x*this.b)+(p.y*this.d)+this.ty
+        );
     
         return result;
     };
@@ -113,8 +113,8 @@ function Point(x, y)
         y = 0;
     }
     
-    this.x = x;
-    this.y = y;
+    this.x = (Number)(x);
+    this.y = (Number)(y);
     
     this.add = function (p) {
         var result = new Point((this.x+p.x), (this.y+p.y));
@@ -134,6 +134,10 @@ function Point(x, y)
     this.cross = function (p) {
         var result = ((this.x*p.y)-(this.y*p.x));
         return result;
+    };
+    
+    this.clone = function () {
+        return new Point(this.x, this.y);
     };
 
 }
@@ -551,17 +555,38 @@ function UIImage(imagePath, x, y)
     this.__constructor(imagePath, x, y);
 }
 
-function Slider(track, thumb, isVertical, changeCallback, width, height)
+function Slider(x, y, width, height, changeCallback)
 {
-    this.__constructor = function(track, thumb, isVertical, changeCallback, width, height)
+    this.__constructor = function(x, y, width, height, changeCallback)
     {
-        this._track = track;
-        this._thumb = thumb;
-        this._isVertical = isVertical;
-        this._isDragging = false;
-        this._changeCallback = changeCallback;
+        this._isVertical = (width<height);
+
+        this._x = x;
+        this._y = y;
         this._width = width;
         this._height = height;
+        
+        this._value = 0;
+
+        this._trackBreadth = 6;
+        this._capLength = 3;
+
+        if (this._isVertical)
+        {
+            this._trackStart = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_top.png', 0, 0);
+            this._trackMid = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_mid.png', 0, 0);
+            this._trackEnd = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_bottom.png', 0, 0);
+        }
+        else
+        {
+            this._trackStart = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_left.png', 0, 0);
+            this._trackMid = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_mid.png', 0, 0);
+            this._trackEnd = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_right.png', 0, 0);        
+        }
+        this._thumb = new UIImage('http://localhost/static.openheatmap.com/images/slider_thumb.png', 0, 0);        
+
+        this._isDragging = false;
+        this._changeCallback = changeCallback;
     };
     
     this.click = function(event)
@@ -611,13 +636,16 @@ function Slider(track, thumb, isVertical, changeCallback, width, height)
     
     this.handleMouseEvent = function(event)
     {
-        if (!this._track._isLoaded)
+        if (!this._trackStart._isLoaded ||
+            !this._trackMid._isLoaded ||
+            !this._trackEnd._isLoaded ||
+            !this._thumb._isLoaded)
             return true;
 
         var mouseX = event.localX;
         var mouseY = event.localY;
             
-        var trackBox = new Rectangle(this._track._x, this._track._y, this._track._width, this._track._height);
+        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
                 
         if (!trackBox.contains(mouseX, mouseY))
             return true;
@@ -631,14 +659,14 @@ function Slider(track, thumb, isVertical, changeCallback, width, height)
     {
         if (this._isVertical)
         {
-            var minValue = (this._track._y+this._height);
-            var maxValue = this._track._y;
+            var minValue = (this._y+this._height);
+            var maxValue = this._y;
             var currentValue = mouseY;
         }
         else
         {
-            var minValue = this._track._x;
-            var maxValue = (this._track._x+this._width);
+            var minValue = this._x;
+            var maxValue = (this._x+this._width);
             var currentValue = mouseX;        
         }
         var normalizedValue = ((currentValue-minValue)/(maxValue-minValue));
@@ -656,57 +684,93 @@ function Slider(track, thumb, isVertical, changeCallback, width, height)
         var normalizedValue = Math.max(0, value);
         normalizedValue = Math.min(1, normalizedValue);        
 
-        if (this._isVertical)
-        {
-            var minValue = (this._track._y+this._height);
-            var maxValue = this._track._y;
-        }
-        else
-        {
-            var minValue = this._track._x;
-            var maxValue = (this._track._x+this._width);
-        }
-    
-        var pixelValue = (minValue+(normalizedValue*(maxValue-minValue)));
-        
-        if (this._isVertical)
-        {
-            this._thumb._y = pixelValue;
-        }
-        else
-        {
-            this._thumb._x = pixelValue;        
-        }
+        this._value = normalizedValue;
                 
     };
     
     this.getSliderValue = function()
     {
-        if (this._isVertical)
-        {
-            var minValue = (this._track._y+this._height);
-            var maxValue = this._track._y;
-            var pixelValue = this._thumb._y;
-        }
-        else
-        {
-            var minValue = this._track._x;
-            var maxValue = (this._track._x+this._width);
-            var pixelValue = this._thumb._x;
-        }
-        
-        var normalizedValue = ((pixelValue-minValue)/(maxValue-minValue));
-        normalizedValue = Math.max(0, normalizedValue);
-        normalizedValue = Math.min(1, normalizedValue);
-        
-        return normalizedValue;
+        return this._value;
     };
-    
     
     this.draw = function(context)
     {
-        // Do nothing
+        if (!this._trackStart._isLoaded ||
+            !this._trackMid._isLoaded ||
+            !this._trackEnd._isLoaded ||
+            !this._thumb._isLoaded)
+            return;
+            
+        var x = this._x;
+        var y = this._y;
+
+        var width;
+        var height;
+        if (this._isVertical)
+        {
+            width = this._trackBreadth;
+            height = this._capLength;
+        }
+        else
+        {
+            width = this._capLength;        
+            height = this._trackBreadth;
+        }
+    
+        context.drawImage(this._trackStart._image, x, y, width, height);    
+
+        if (this._isVertical)
+        {
+            y += height;
+            height = (this._height-(this._capLength*2));
+        }
+        else
+        {
+            x += width;
+            width = (this._width-(this._capLength*2));
+        }
+
+        context.drawImage(this._trackMid._image, x, y, width, height);    
+
+        if (this._isVertical)
+        {
+            y += height;
+            height = this._capLength;
+        }
+        else
+        {
+            x += width;
+            width = this._capLength;
+        }
+
+        context.drawImage(this._trackEnd._image, x, y, width, height);    
+
+        if (this._isVertical)
+        {
+            var minValue = (this._y+this._height);
+            var maxValue = this._y;
+        }
+        else
+        {
+            var minValue = this._x;
+            var maxValue = (this._x+this._width);
+        }
+    
+        var pixelValue = (minValue+(this._value*(maxValue-minValue)));
+        
+        if (this._isVertical)
+        {
+            x = (this._x-3);
+            y = (pixelValue-3);
+        }
+        else
+        {
+            x = (pixelValue-3);
+            y = (this._y-3);
+        }
+
+        context.drawImage(this._thumb._image, x, y);    
     };
     
-    this.__constructor(track, thumb, isVertical, changeCallback, width, height);
+    this.__constructor(x, y, width, height, changeCallback);
 }

@@ -661,7 +661,7 @@ function OpenHeatMap(canvas)
         
         if (this._hasTime)
         {
-            if (this._timelineControls.isPlaying)
+/*            if (this._timelineControls.isPlaying)
             {
                 this._frameIndex += 1;
                 if (this._frameIndex>=this._frameTimes.length)
@@ -675,7 +675,7 @@ function OpenHeatMap(canvas)
                 this._dirty = true;
                 this._valuesDirty = true;
                 this.onDataChange();
-            }
+            }*/
         }
 
         if (this._onFrameRenderFunction !== null)
@@ -769,8 +769,8 @@ function OpenHeatMap(canvas)
   		
             if (!newWay.boundingBox.isEmpty())
             {
-                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.topLeft);
-                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.bottomRight);
+                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.topLeft());
+                instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.bottomRight());
             }
         });
 
@@ -1545,7 +1545,7 @@ function OpenHeatMap(canvas)
                 this.endDrawing(context);
             }
         
-            this.drawImage(this._mainCanvas, drawingSurface.get(0), inlayScreenLeftX, inlayScreenTopY);
+            this.drawImage(this._mainCanvas, drawingSurface.get(0), inlayScreenLeftX, inlayScreenTopY, inlayWidth, inlayHeight);
         }
 
         this._mainBitmapTopLeftLatLon = this.getLatLonFromXY(new Point(0, 0), this._xYToLatLonMatrix);
@@ -1638,12 +1638,6 @@ function OpenHeatMap(canvas)
 
         this._informationLayerCanvas = this.createCanvas(this._settings.width, this._settings.height);
 
-        this._zoomTrack = new UIImage('http://localhost/static.openheatmap.com/images/zoomtrack.png', 15, 50);
-        this.addChild(this._zoomTrack);
-
-        this._zoomThumb = new UIImage('http://localhost/static.openheatmap.com/images/zoomthumb.png', 12, 90);
-        this.addChild(this._zoomThumb);
-
         this._plusImage = new UIImage('http://localhost/static.openheatmap.com/images/plus.gif', 9, 35);
         this.addChild(this._plusImage);
 
@@ -1652,44 +1646,11 @@ function OpenHeatMap(canvas)
         
         var instance = this;
         
-        this._zoomSlider = new Slider(this._zoomTrack, this._zoomThumb, true, 
-            function(isDragging) { instance.onZoomSliderChange(isDragging); },
-            10, 150);
+        this._zoomSlider = new Slider(15, 50, 10, 150, 
+            function(isDragging) { instance.onZoomSliderChange(isDragging); });
         this.addChild(this._zoomSlider);
 
-        /*
-        _zoomSlider = new VSlider();
-        _zoomSlider.x = 4;
-        _zoomSlider.y = 50;
-        _zoomSlider.height = 150;
-        _zoomSlider.showDataTip = false;
-        _zoomSlider.minimum = 0;
-        _zoomSlider.maximum = 1;
-        _zoomSlider.liveDragging = true;
-
-        _zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
-        _zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
-        _zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
-        _zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
-        
-        addChild(_zoomSlider);
-
-        var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
-        var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
-
-        var blackTint:ColorTransform = new ColorTransform();
-        blackTint.color = 0x000000;
-        
-        plusImage.x = 6;
-        plusImage.y = 40;
-        plusImage.transform.colorTransform = blackTint;
-        viewer.addChild(plusImage);
-        
-        minusImage.x = 6;
-        minusImage.y = 195;
-        minusImage.transform.colorTransform = blackTint;
-        viewer.addChild(minusImage);
-        
+        /*        
         _credit = new Label();
         _credit.htmlText = _settings.credit_text;
         _credit.width = 150;
@@ -2716,7 +2677,7 @@ private function removeAllPopups(): void
         
         if (this._hasTime)
         {
-            var currentTime = this._frameTimes[_frameIndex];
+            var currentTime = this._frameTimes[this._frameIndex];
             currentValues = currentValues[currentTime];
         }
 
@@ -3204,7 +3165,7 @@ private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
 
     // From http://stackoverflow.com/questions/359788/javascript-function-name-as-a-string   
     this.externalInterfaceCall = function(functionName) {
-        var args = Array.prototype.slice.call(arguments).splice(2);
+        var args = Array.prototype.slice.call(arguments).splice(1);
         var namespaces = functionName.split(".");
         var func = namespaces.pop();
         var context = window;
