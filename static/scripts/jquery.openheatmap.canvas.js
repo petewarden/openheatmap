@@ -234,92 +234,12 @@ function OpenHeatMap(canvas)
         this._selectedTabIndex = 0;
         this._hoveredTabIndex = -1;
 	
-        this._pointBlobBitmap = null;
+        this._pointBlobCanvas = null;
         this._pointBlobBitmapWidth = 0;
         this._pointBlobBitmapHeight = 0;
         this._pointBlobTileX = 0;
         this._pointBlobTileY = 0;
         this._pointBlobStillRendering = false;    
-    };
-
-    this.beginDrawing = function(canvas) {
-        if (!canvas)
-            canvas = this._canvas;
-            
-        var context = canvas.get(0).getContext('2d');
-        context.save();
-        return context;
-    };
-
-    this.endDrawing = function(context) {
-        context.restore();
-    };
-
-    this.redraw = function() {
-        this.clearCanvas(this._canvas);
-        
-        this.drawWays(this._canvas, this._latLonToXYMatrix); 
-    };
-    
-    this.getLocalPosition = function(element, pageX, pageY) {
-        var elementPosition = element.elementLocation();
-
-        var result = new Point(
-            (pageX-elementPosition.x),
-            (pageY-elementPosition.y)
-        );
-
-        return result;
-    };
-
-    this.clearCanvas = function(canvas) {
-        var context = this.beginDrawing(canvas);
-        
-        context.clearRect(0, 0, this._settings.width, this._settings.height);
-        
-        this.endDrawing(context);
-    };
-    
-    this.testDrawWays = function(canvas, latLonToXYMatrix) {
-    
-        var context = this.beginDrawing(canvas);
-        
-        var style = '#000000';
-        
-        context.fillStyle = style;
-        context.strokeStyle = style;
-
-        context.beginPath();
-        
-        for (wayId in this._ways)
-        {
-            var way = this._ways[wayId];
-
-            if (way.nds.length<1)
-                continue;
-            
-            var firstNd = way.nds[0];
-            var firstNode = this._nodes[firstNd];
-                
-            var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
-
-            context.moveTo(firstPos.x, firstPos.y);
-
-            for (var currentNdIndex in way.nds)
-            {
-                var currentNd = way.nds[currentNdIndex];
-                var currentNode = this._nodes[currentNd];
-                var currentPos = this.getXYFromLatLon(currentNode, latLonToXYMatrix);
-                
-                context.lineTo(currentPos.x, currentPos.y);
-            }
-
-        }
-
-        context.closePath();
-        context.stroke();
-
-        this.endDrawing(context);
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -987,7 +907,7 @@ function OpenHeatMap(canvas)
     {    
         var viewingArea = this.calculateViewingArea(width, height, xYToLatLonMatrix);
 
-        var bitmapBackground = null;/*this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);*/
+        var bitmapBackground = this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
         
         this.drawWays(canvas, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
     };
@@ -1007,7 +927,7 @@ function OpenHeatMap(canvas)
         
         if (hasBitmap&&waysEmpty)
         {
-            this.drawImage(canvas, bitmapBackground.get(0), 0, 0, (width*_settings.point_bitmap_scale), (height*_settings.point_bitmap_scale));
+            this.drawImage(canvas, bitmapBackground.get(0), 0, 0, width, height);
             return;
         }
         
@@ -1974,55 +1894,55 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
 	
 				
 	return isInside;
-}
-
-private function drawPointBlobBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
-{
-	if (!_hasPointValues)
-		return null;
-	
-	if (_dirty)
-	{
-		createPointsGrid(viewingArea, latLonToXYMatrix);
-	
-		_pointBlobBitmapWidth = (width/_settings.point_bitmap_scale);
-		_pointBlobBitmapHeight = (height/_settings.point_bitmap_scale);
-	
-		_pointBlobBitmap = new BitmapData(_pointBlobBitmapWidth, _pointBlobBitmapHeight, true, 0x000000);
-		
-		_pointBlobTileX = 0;
-		_pointBlobTileY = 0;
-		
-		_pointBlobStillRendering = true;
-	}
-
-	var tileSize: int = 128;	
-	
-	while (_pointBlobTileY<_pointBlobBitmapHeight)
-	{
-		var distanceFromBottom: int = (_pointBlobBitmapHeight-_pointBlobTileY);
-		var tileHeight: int = Math.min(tileSize, distanceFromBottom);
-		
-		while (_pointBlobTileX<_pointBlobBitmapWidth)
-		{	
-			var distanceFromRight: int = (_pointBlobBitmapWidth-_pointBlobTileX);
-			var tileWidth: int = Math.min(tileSize, distanceFromRight);
-			
-			drawPointBlobTile(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, _pointBlobTileX, _pointBlobTileY, tileWidth, tileHeight);
-			
-			_pointBlobTileX+=tileSize;
-
-			return _pointBlobBitmap;
-		}
-		
-		_pointBlobTileX = 0;
-		_pointBlobTileY+=tileSize
-	}
-	
-	_pointBlobStillRendering = false;
-	
-	return _pointBlobBitmap;
 }*/
+
+    this.drawPointBlobBitmap = function(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix)
+    {
+        if (!this._hasPointValues)
+            return null;
+        
+        if (this._dirty)
+        {
+            this.createPointsGrid(viewingArea, latLonToXYMatrix);
+        
+            this._pointBlobBitmapWidth = (width/this._settings.point_bitmap_scale);
+            this._pointBlobBitmapHeight = (height/this._settings.point_bitmap_scale);
+        
+            this._pointBlobCanvas = this.createCanvas(this._pointBlobBitmapWidth, this._pointBlobBitmapHeight);
+            
+            this._pointBlobTileX = 0;
+            this._pointBlobTileY = 0;
+            
+            this._pointBlobStillRendering = true;
+        }
+
+        var tileSize = 128;	
+        
+        while (this._pointBlobTileY<this._pointBlobBitmapHeight)
+        {
+            var distanceFromBottom = (this._pointBlobBitmapHeight-this._pointBlobTileY);
+            var tileHeight = Math.min(tileSize, distanceFromBottom);
+            
+            while (this._pointBlobTileX<this._pointBlobBitmapWidth)
+            {	
+                var distanceFromRight = (this._pointBlobBitmapWidth-this._pointBlobTileX);
+                var tileWidth = Math.min(tileSize, distanceFromRight);
+                
+                this.drawPointBlobTile(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix, this._pointBlobTileX, this._pointBlobTileY, tileWidth, tileHeight);
+                
+                this._pointBlobTileX+=tileSize;
+
+                return this._pointBlobCanvas;
+            }
+            
+            this._pointBlobTileX = 0;
+            this._pointBlobTileY+=tileSize
+        }
+        
+        this._pointBlobStillRendering = false;
+        
+        return this._pointBlobCanvas;
+    };
 
     this.loadAreaValues = function(linesArray, headerLine, columnSeperator)
     {
@@ -2999,195 +2919,237 @@ private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
         
         return -1;
     };
-/*
-private function createPointsGrid(viewingArea: Rectangle, latLonToXYMatrix: Matrix): void
-{
-	if (!_hasPointValues)
-		return;
 
-	var blobRadius: Number;
-	if (_settings.is_point_blob_radius_in_pixels)
-	{	
-		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
-		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
-	}
-	else
-	{
-		blobRadius = _settings.point_blob_radius;	
-	}
-	var twoBlobRadius: Number = (2*blobRadius);
-	var pointBlobValue: Number = _settings.point_blob_value;
+    this.createPointsGrid = function(viewingArea, latLonToXYMatrix)
+    {
+        if (!this._hasPointValues)
+            return;
 
-	_pointsGrid = new BucketGrid(viewingArea, 64, 64);
-	
-	var currentValues: Array = getCurrentValues();
-	
-	var hasValues: Boolean = (_valueColumnIndex!==-1);
-	
-	var index: int = 0;
-	for each (var values: Array in currentValues)
-	{
-		var lat: Number = values[_latitudeColumnIndex];
-		var lon: Number = values[_longitudeColumnIndex];
-		var pointValue: Number;
-		if (hasValues)
-			pointValue = values[_valueColumnIndex];
-		else
-			pointValue = pointBlobValue;
-		
-		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
-		
-		if (!viewingArea.intersects(boundingBox))
-			continue;
-		
-		var latLon: Object = { 
-			pos: new Point(lon, lat),
-			index: index,
-			value: pointValue
-		};
-		
-		_pointsGrid.insertObjectAt(boundingBox, latLon);
-		
-		index += 1;
-	}		
-}
+        var blobRadius;
+        if (this._settings.is_point_blob_radius_in_pixels)
+        {	
+            var pixelsPerDegreeLatitude = latLonToXYMatrix.d;
+            blobRadius = Math.abs(this._settings.point_blob_radius/pixelsPerDegreeLatitude);
+        }
+        else
+        {
+            blobRadius = this._settings.point_blob_radius;	
+        }
+        var twoBlobRadius = (2*blobRadius);
+        var pointBlobValue = this._settings.point_blob_value;
 
-public function drawPointBlobTile(width: Number, 
-	height: Number, 
-	viewingArea: Rectangle, 
-	latLonToXYMatrix: Matrix, 
-	xYToLatLonMatrix: Matrix, 
-	leftX: int,
-	topY: int,
-	tileWidth: int, 
-	tileHeight: int): void
-{
-	var bitmapWidth: int = _pointBlobBitmapWidth;
-	var bitmapHeight: int = _pointBlobBitmapHeight;
-	
-	var rightX: int = (leftX+tileWidth);
-	var bottomY: int = (topY+tileHeight);
-	
-	var blobRadius: Number;
-	if (_settings.is_point_blob_radius_in_pixels)
-	{	
-		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
-		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
-	}
-	else
-	{
-		blobRadius = _settings.point_blob_radius;	
-	}
-	var twoBlobRadius: Number = (2*blobRadius);
-	var blobRadiusSquared: Number = (blobRadius*blobRadius);
-	
-	if (_settings.is_gradient_value_range_set)
-	{
-		var minValue: Number = _settings.gradient_value_min;
-		var maxValue: Number = _settings.gradient_value_max;	
-	}
-	else
-	{
-		minValue = 0;
-		maxValue = 1.0;
-	}
-	var valueScale: Number = (1/(maxValue-minValue));
-	
-	var hasValues: Boolean = (_valueColumnIndex!==-1);
-	
-	var leftLon: Number = viewingArea.left;
-	var rightLon: Number = viewingArea.right;
-	var widthLon: Number = (rightLon-leftLon);
-	var stepLon: Number = (widthLon/bitmapWidth);
-	
-	var topLat: Number = viewingArea.bottom;
-	var bottomLat: Number = viewingArea.top;
-	
-	var topLatMercator: Number = latitudeToMercatorLatitude(topLat);
-	var bottomLatMercator: Number = latitudeToMercatorLatitude(bottomLat);
-	var heightLat: Number = (bottomLatMercator-topLatMercator);
-	var stepLat: Number = (heightLat/bitmapHeight);
-	
-	var pixelData: ByteArray = new ByteArray();
-	
-	var zeroColor: uint = getColorForValue(0, minValue, maxValue, valueScale);
-	var fullColor: uint = getColorForValue(maxValue, minValue, maxValue, valueScale);
-	
-	var worldPoint: Point = new Point();
-	for (var bitmapY: int = topY; bitmapY<bottomY; bitmapY+=1)
-	{
-		worldPoint.y = mercatorLatitudeToLatitude(topLatMercator+(stepLat*bitmapY));
-		for (var bitmapX: int = leftX; bitmapX<rightX; bitmapX+=1)
-		{			
-			worldPoint.x = (leftLon+(stepLon*bitmapX));
-			
-			var candidatePoints: Array = _pointsGrid.getContentsAtPoint(worldPoint);
-			
-			if (candidatePoints.length<1)
-			{
-				pixelData.writeUnsignedInt(zeroColor);
-				continue;
-			}
-			
-			var value: Number = 0;
-			var lerpTotal: Number = 0;
-			
-			for each (var point: Object in candidatePoints)
-			{
-				var pos: Point = point.pos;
-				var delta: Point = worldPoint.subtract(pos);
-				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
-				if (distanceSquared>blobRadiusSquared)
-					continue;
-				
-				var distance: Number = Math.sqrt(distanceSquared);
-				var lerp: Number = (1-(distance/blobRadius));
-				
-				value += (point.value*lerp);
-				lerpTotal += lerp;
-			}
-			
-			var color: uint;
-			if (hasValues)
-			{
-				if (lerpTotal>0)
-				{
-					value = (value/lerpTotal);	
-				}
-				else
-				{
-					value = 0;
-				}
-				
-				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-				
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-				
-				var colorAlpha: uint = (color>>24)&0xff;
-				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
-				
-				color = (color&0x00ffffff)|(outputAlpha<<24);
-			}
-			else
-			{
-				if (value>=maxValue)
-				{
-					pixelData.writeUnsignedInt(fullColor);
-					continue;
-				}
-				
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-			}
-			
-			pixelData.writeUnsignedInt(color);
-		}	
-	}
-	
-	pixelData.position = 0;
-	
-	_pointBlobBitmap.setPixels(new Rectangle(leftX, topY, tileWidth, tileHeight), pixelData);
-}
-*/
+        this._pointsGrid = new BucketGrid(viewingArea, 64, 64);
+        
+        var currentValues = this.getCurrentValues();
+        
+        var hasValues = (this._valueColumnIndex!==-1);
+        
+        var index = 0;
+        for (var valuesIndex in currentValues)
+        {
+            var values = currentValues[valuesIndex];
+            
+            var lat = values[this._latitudeColumnIndex];
+            var lon = values[this._longitudeColumnIndex];
+            var pointValue;
+            if (hasValues)
+                pointValue = values[this._valueColumnIndex];
+            else
+                pointValue = pointBlobValue;
+            
+            var boundingBox = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+            
+            if (!viewingArea.intersects(boundingBox))
+                continue;
+            
+            var latLon = { 
+                pos: new Point(lon, lat),
+                index: index,
+                value: pointValue
+            };
+            
+            this._pointsGrid.insertObjectAt(boundingBox, latLon);
+            
+            index += 1;
+        }		
+    };
+
+    this.drawPointBlobTile = function(width, 
+        height, 
+        viewingArea, 
+        latLonToXYMatrix, 
+        xYToLatLonMatrix, 
+        leftX,
+        topY,
+        tileWidth, 
+        tileHeight)
+    {
+        var bitmapWidth = this._pointBlobBitmapWidth;
+        var bitmapHeight = this._pointBlobBitmapHeight;
+        
+        var rightX = (leftX+tileWidth);
+        var bottomY = (topY+tileHeight);
+        
+        var blobRadius;
+        if (this._settings.is_point_blob_radius_in_pixels)
+        {	
+            var pixelsPerDegreeLatitude = latLonToXYMatrix.d;
+            blobRadius = Math.abs(this._settings.point_blob_radius/pixelsPerDegreeLatitude);
+        }
+        else
+        {
+            blobRadius = this._settings.point_blob_radius;	
+        }
+        var twoBlobRadius = (2*blobRadius);
+        var blobRadiusSquared = (blobRadius*blobRadius);
+        
+        if (this._settings.is_gradient_value_range_set)
+        {
+            var minValue = this._settings.gradient_value_min;
+            var maxValue = this._settings.gradient_value_max;	
+        }
+        else
+        {
+            minValue = 0;
+            maxValue = 1.0;
+        }
+        var valueScale = (1/(maxValue-minValue));
+        
+        var hasValues = (this._valueColumnIndex!==-1);
+        
+        var leftLon = viewingArea.left();
+        var rightLon = viewingArea.right();
+        var widthLon = (rightLon-leftLon);
+        var stepLon = (widthLon/bitmapWidth);
+        
+        var topLat = viewingArea.bottom();
+        var bottomLat = viewingArea.top();
+        
+        var topLatMercator = this.latitudeToMercatorLatitude(topLat);
+        var bottomLatMercator = this.latitudeToMercatorLatitude(bottomLat);
+        var heightLat = (bottomLatMercator-topLatMercator);
+        var stepLat = (heightLat/bitmapHeight);
+        
+        var context = this.beginDrawing(this._pointBlobCanvas);
+        var imageData = context.createImageData(tileWidth, tileHeight);
+        
+        var pixelData = imageData.data;
+        var pixelDataIndex = 0;
+        
+        var zeroColor = this.getColorForValue(0, minValue, maxValue, valueScale);
+        var fullColor = this.getColorForValue(maxValue, minValue, maxValue, valueScale);
+        
+        var worldPoint = new Point();
+        for (var bitmapY = topY; bitmapY<bottomY; bitmapY+=1)
+        {
+            worldPoint.y = this.mercatorLatitudeToLatitude(topLatMercator+(stepLat*bitmapY));
+            for (var bitmapX = leftX; bitmapX<rightX; bitmapX+=1)
+            {			
+                worldPoint.x = (leftLon+(stepLon*bitmapX));
+                
+                var candidatePoints = this._pointsGrid.getContentsAtPoint(worldPoint);
+                
+                if (candidatePoints.length<1)
+                {
+                    this.writePixel(pixelData, pixelDataIndex, zeroColor);
+                    pixelDataIndex += 4;
+                    continue;
+                }
+                
+                var value = 0;
+                var lerpTotal = 0;
+                
+                for (var pointIndex in candidatePoints)
+                {
+                    var point = candidatePoints[pointIndex];
+                    
+                    var pos = point.pos;
+                    var delta = worldPoint.subtract(pos);
+                    var distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
+                    if (distanceSquared>blobRadiusSquared)
+                        continue;
+                    
+                    var distance = Math.sqrt(distanceSquared);
+                    var lerp = (1-(distance/blobRadius));
+                    
+                    value += (point.value*lerp);
+                    lerpTotal += lerp;
+                }
+                
+                var color;
+                if (hasValues)
+                {
+                    if (lerpTotal>0)
+                    {
+                        value = (value/lerpTotal);	
+                    }
+                    else
+                    {
+                        value = 0;
+                    }
+                    
+                    var alpha = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+                    
+                    color = this.getColorForValue(value, minValue, maxValue, valueScale);
+                    
+                    var colorAlpha = (color>>24)&0xff;
+                    var outputAlpha = ((colorAlpha*alpha)>>8)&0xff;
+                    
+                    color = (color&0x00ffffff)|(outputAlpha<<24);
+                }
+                else
+                {
+                    if (value>=maxValue)
+                    {
+                        this.writePixel(pixelData, pixelDataIndex, fullColor);
+                        pixelDataIndex += 4;
+                        continue;
+                    }
+                    
+                    color = getColorForValue(value, minValue, maxValue, valueScale);
+                }
+
+                this.writePixel(pixelData, pixelDataIndex, color);
+                pixelDataIndex += 4;
+            }	
+        }
+
+        context.putImageData(imageData, leftX, topY);
+        
+        this.endDrawing(context);
+    };
+
+    this.beginDrawing = function(canvas) {
+        if (!canvas)
+            canvas = this._canvas;
+            
+        var context = canvas.get(0).getContext('2d');
+        context.save();
+        return context;
+    };
+
+    this.endDrawing = function(context) {
+        context.restore();
+    };
+    
+    this.getLocalPosition = function(element, pageX, pageY) {
+        var elementPosition = element.elementLocation();
+
+        var result = new Point(
+            (pageX-elementPosition.x),
+            (pageY-elementPosition.y)
+        );
+
+        return result;
+    };
+
+    this.clearCanvas = function(canvas) {
+        var context = this.beginDrawing(canvas);
+        
+        context.clearRect(0, 0, this._settings.width, this._settings.height);
+        
+        this.endDrawing(context);
+    };
 
     // From http://stackoverflow.com/questions/359788/javascript-function-name-as-a-string   
     this.externalInterfaceCall = function(functionName) {
@@ -3246,6 +3208,19 @@ public function drawPointBlobTile(width: Number,
         context.fillRect(x, y, width, height);
         this.endDrawing(context);
     };
+    
+    this.writePixel = function(pixelData, index, color)
+    {
+        var alpha = ((color>>24)&0xff);
+        var red = ((color>>16)&0xff);
+        var green = ((color>>8)&0xff);
+        var blue = ((color>>0)&0xff);
+        
+        pixelData[index+0] = red;
+        pixelData[index+1] = green;
+        pixelData[index+2] = blue;
+        pixelData[index+3] = alpha;
+    }
 
     this.__constructor(canvas);
 

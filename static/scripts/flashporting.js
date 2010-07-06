@@ -374,8 +374,8 @@ function BucketGrid(boundingBox, rows, columns)
         
         this._grid = [];
         
-        this._originLeft = boundingBox.left;
-        this._originTop = boundingBox.top;
+        this._originLeft = boundingBox.left();
+        this._originTop = boundingBox.top();
         
         this._columnWidth = this._boundingBox.width/this._columns;
         this._rowHeight = this._boundingBox.height/this._rows;
@@ -405,10 +405,10 @@ function BucketGrid(boundingBox, rows, columns)
     
     this.insertObjectAt = function(boundingBox, object)
     {
-        var leftIndex = Math.floor((boundingBox.left-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom-this._originTop)/this._rowHeight);
+        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
 
         leftIndex = Math.max(leftIndex, 0);
         rightIndex = Math.min(rightIndex, (this._columns-1));
@@ -429,10 +429,10 @@ function BucketGrid(boundingBox, rows, columns)
 
     this.removeObjectAt = function(boundingBox, object)
     {
-        var leftIndex = Math.floor((boundingBox.left-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom-this._originTop)/this._rowHeight);
+        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
 
         leftIndex = Math.max(leftIndex, 0);
         rightIndex = Math.min(rightIndex, (this._columns-1));
@@ -466,10 +466,10 @@ function BucketGrid(boundingBox, rows, columns)
     {
         var result = [];
 
-        var leftIndex = Math.floor((boundingBox.left-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom-this._originTop)/this._rowHeight);
+        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
 
         leftIndex = Math.max(leftIndex, 0);
         rightIndex = Math.min(rightIndex, (this._columns-1));
