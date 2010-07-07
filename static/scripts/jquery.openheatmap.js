@@ -2712,7 +2712,7 @@ function OpenHeatMap(canvas)
                     instance._settings.title_background_color = instance._settings.title_background_color.replace('#', '0x');
                     instance._settings.title_background_color = (Number)(instance._settings.title_background_color);
                 }
-                instance._title.backgroundColor = instance._settings.title_background_color;
+                instance._title._backgroundColor = instance.colorStringFromNumber(instance._settings.title_background_color);
             },
             'show_map_tiles': function(instance) {
                 if (typeof instance._settings.show_map_tiles==='string')
