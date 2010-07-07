@@ -1089,7 +1089,7 @@ private function setWaysFromValues(): void
 		if (thisSetWayIds.hasOwnProperty(lastWayId))
 			continue;
 			
-		_ways[lastWayId]['color'] = defaultColor;
+		_ways[lastWayId]['tags']['color'] = defaultColor;
 	}
 	
 	_lastSetWayIds = thisSetWayIds;

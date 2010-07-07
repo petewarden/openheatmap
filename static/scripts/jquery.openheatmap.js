@@ -1137,7 +1137,7 @@ function OpenHeatMap(canvas)
 
         if (this._hasTabs)
         {
-            /*this.drawTabsIntoViewer();*/
+            this.drawTabsIntoViewer();
         }	
         
         if (this._hasTime)
@@ -1338,6 +1338,12 @@ function OpenHeatMap(canvas)
 
     this.onValuesLoad = function(data)
     {
+        if (data==='')
+        {
+            this.logError( 'Error loading CSV file "'+this._valuesFileName+'" - empty data returned');
+            return;
+        }
+    
         this.loadValuesFromCSVString(data);
 
         if (this._onValuesLoadFunction!==null)
@@ -1581,7 +1587,7 @@ function OpenHeatMap(canvas)
             if (thisSetWayIds.hasOwnProperty(lastWayId))
                 continue;
                 
-            this._ways[lastWayId]['color'] = defaultColor;
+            this._ways[lastWayId]['tags']['color'] = defaultColor;
         }
         
         this._lastSetWayIds = thisSetWayIds;
@@ -2145,7 +2151,7 @@ function OpenHeatMap(canvas)
 
         this._credit = new UIText(
             this._settings.credit_text,
-            'underline 11px lucida grande, verdana',
+            '11px lucida grande, verdana',
             0, 0,
             function() { window.open('http://openheatmap.com', '_blank'); }
         );
@@ -2260,8 +2266,8 @@ function OpenHeatMap(canvas)
 
     this.logError = function(message) {
         alert('Error: '+message);
-        if (_onErrorFunction!==null)
-            this.externalInterfaceCall(_onErrorFunction, message);	
+        if (this._onErrorFunction!==null)
+            this.externalInterfaceCall(this._onErrorFunction, message);	
     };
 
     this.onViewChange = function()
@@ -2435,7 +2441,7 @@ function OpenHeatMap(canvas)
     {
         if (this._valueColumnIndex===-1)
         {
-            logError( 'Error loading CSV file "'+this._valuesFileName+'" - missing value column from header "'+headerLine+'"');
+            this.logError( 'Error loading CSV file "'+this._valuesFileName+'" - missing value column from header "'+headerLine+'"');
             return;
         }
         
@@ -2463,7 +2469,7 @@ function OpenHeatMap(canvas)
             if (this._hasTabs)
             {
                 var thisTab = lineValues[this._tabColumnIndex];
-                if (thisTab !== null)
+                if ((thisTab !== null)&&(thisTab !== ''))
                 {
                     if (typeof this._tabInfo[thisTab] === 'undefined')
                     {
@@ -2540,7 +2546,7 @@ function OpenHeatMap(canvas)
             if (this._hasTabs)
             {
                 var thisTab = lineValues[this._tabColumnIndex];
-                if (thisTab !== null)
+                if ((thisTab !== null)&&(thisTab !== ''))
                 {
                     if (typeof this._tabInfo[thisTab] === 'undefined')
                     {
@@ -2755,8 +2761,8 @@ function OpenHeatMap(canvas)
         var topLeftScreen = new Point(0, 0);
         var bottomRightScreen = new Point(this._settings.width, this._settings.height);
             
-        var topLeftLatLon = this.getLatLonFromXY(topLeftScreen, _xYToLatLonMatrix);
-        var bottomRightLatLon = this.getLatLonFromXY(bottomRightScreen, _xYToLatLonMatrix);
+        var topLeftLatLon = this.getLatLonFromXY(topLeftScreen, this._xYToLatLonMatrix);
+        var bottomRightLatLon = this.getLatLonFromXY(bottomRightScreen, this._xYToLatLonMatrix);
 
         var result = {
             topLat: topLeftLatLon.lat,
@@ -3127,7 +3133,7 @@ function OpenHeatMap(canvas)
 
         if (this._hasTabs)
         {
-            var currentTab = this._tabNames[_selectedTabIndex];
+            var currentTab = this._tabNames[this._selectedTabIndex];
             currentValues = currentValues[currentTab];
         }
         
@@ -3139,154 +3145,162 @@ function OpenHeatMap(canvas)
 
         return currentValues;
     };
-/*
-private function drawTabsIntoViewer(): void
-{
-	var tabCount: int = _tabNames.length;
-		
-	var tabHeight: Number = _settings.tab_height;
-	
-	var tabTopY: Number;
-	if (_settings.title_text!=='')
-		tabTopY = (_settings.title_size*1.5);
-	else
-		tabTopY = 0;
-	
-	var tabBottomY: Number = (tabTopY+tabHeight);
-	
-	var graphics: Graphics = viewer.graphics;
-	
-	var tabLeftX: Number = 0;
-	
-	for (var tabIndex:int = 0; tabIndex<tabCount; tabIndex+=1)
-	{
-		var isLast: Boolean = (tabIndex==(tabCount-1));
-		var isSelected: Boolean = (tabIndex===_selectedTabIndex);
-		var isHovered: Boolean = (tabIndex===_hoveredTabIndex);
 
-		var tabName: String = _tabNames[tabIndex];
-		var tabInfo: Object = _tabInfo[tabName];
-		
-		var textfield:TextField = new TextField;
-		textfield.text = tabName;
-		var tabWidth: int = (textfield.textWidth+5);		
-		textfield.width = tabWidth;
-		
-		var tabRightX: Number = (tabLeftX+tabWidth);
-		var distanceFromEdge: Number = (_settings.width-tabRightX);
-		var addExtraTab: Boolean = (isLast&&(distanceFromEdge>50));
-		
-		if (isLast&&!addExtraTab)
-		{
-			tabRightX = (_settings.width-1);
-			tabWidth = (tabRightX-tabLeftX);
-		}
+    this.drawTabsIntoViewer = function()
+    {
+        var tabCount = this._tabNames.length;
+            
+        var tabHeight = this._settings.tab_height;
+        
+        var tabTopY;
+        if (this._settings.title_text!=='')
+            tabTopY = (this._settings.title_size*1.5);
+        else
+            tabTopY = 0;
+        
+        var tabBottomY = (tabTopY+tabHeight);
+        
+        var context = this.beginDrawing(this._canvas);
 
-		tabInfo.leftX = tabLeftX;
-		tabInfo.rightX = tabRightX;
-		tabInfo.topY = tabTopY;
-		tabInfo.bottomY = tabBottomY;
-		
-		if (tabWidth<1)
-			continue;
-		
-		var fillColor: uint;
-		if (isSelected)
-			fillColor = _settings.title_background_color;
-		else if (isHovered)
-			fillColor = scaleColorBrightness(_settings.title_background_color, 0.95);
-		else
-			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
-		
-		graphics.lineStyle();
+        context.font = '9px lucida grande, verdana';
+        context.textBaseline = 'top';
+        
+        var tabLeftX = 0;
+        
+        for (var tabIndex = 0; tabIndex<tabCount; tabIndex+=1)
+        {
+            var isLast = (tabIndex==(tabCount-1));
+            var isSelected = (tabIndex===this._selectedTabIndex);
+            var isHovered = (tabIndex===this._hoveredTabIndex);
 
-		graphics.beginFill(fillColor, 1.0);	
-		graphics.moveTo(tabLeftX, tabTopY);
-		graphics.lineTo(tabRightX, tabTopY);
-		graphics.lineTo(tabRightX, tabBottomY);
-		graphics.lineTo(tabLeftX, tabBottomY);
-		graphics.lineTo(tabLeftX, tabTopY);
-		graphics.endFill();
+            var tabName = this._tabNames[tabIndex];
+            var tabInfo = this._tabInfo[tabName];
+            
+            var metrics = context.measureText(tabName);
+            var tabWidth = (metrics.width+5);
+            
+            var tabRightX = (tabLeftX+tabWidth);
+            var distanceFromEdge = (this._settings.width-tabRightX);
+            var addExtraTab = (isLast&&(distanceFromEdge>50));
+            
+            if (isLast&&!addExtraTab)
+            {
+                tabRightX = (this._settings.width-1);
+                tabWidth = (tabRightX-tabLeftX);
+            }
 
-		var bitmapdata:BitmapData = new BitmapData(tabWidth, tabHeight, true, 0x00000000);
-		bitmapdata.draw(textfield);
-		
-		var textMatrix: Matrix = new Matrix();
-		textMatrix.translate(tabLeftX, tabTopY);
-		
-		graphics.beginBitmapFill(bitmapdata, textMatrix);
-		graphics.drawRect(tabLeftX, tabTopY, tabWidth, tabHeight);
-		graphics.endFill();
+            tabInfo.leftX = tabLeftX;
+            tabInfo.rightX = tabRightX;
+            tabInfo.topY = tabTopY;
+            tabInfo.bottomY = tabBottomY;
+            
+            if (tabWidth<1)
+                continue;
+            
+            var fillColor;
+            if (isSelected)
+                fillColor = this._settings.title_background_color;
+            else if (isHovered)
+                fillColor = this.scaleColorBrightness(this._settings.title_background_color, 0.95);
+            else
+                fillColor = this.scaleColorBrightness(this._settings.title_background_color, 0.9);
 
-		graphics.lineStyle(0, 0x000000, 1.0);
-		graphics.moveTo(tabLeftX, tabBottomY);
-		graphics.lineTo(tabLeftX, tabTopY);
-		graphics.lineTo(tabRightX, tabTopY);
-		graphics.lineTo(tabRightX, tabBottomY);
-		if (!isSelected)
-			graphics.lineTo(tabLeftX, tabBottomY);
+            context.fillStyle = this.colorStringFromNumber(fillColor);
+            context.beginPath()
+            context.moveTo(tabLeftX, tabTopY);
+            context.lineTo(tabRightX, tabTopY);
+            context.lineTo(tabRightX, tabBottomY);
+            context.lineTo(tabLeftX, tabBottomY);
+            context.lineTo(tabLeftX, tabTopY);            
+            context.closePath();
+            context.fill();
 
-		tabLeftX = tabRightX;
+            context.fillStyle = '#000000';
+            context.fillText(tabName, tabLeftX+2, tabTopY);
 
-		if (addExtraTab)
-		{
-			tabRightX = (_settings.width-1);
-			
-			fillColor = scaleColorBrightness(_settings.title_background_color, 0.9);
-			
-			graphics.beginFill(fillColor, 1.0);	
-			graphics.moveTo(tabLeftX, tabTopY);
-			graphics.lineTo(tabRightX, tabTopY);
-			graphics.lineTo(tabRightX, tabBottomY);
-			graphics.lineTo(tabLeftX, tabBottomY);
-			graphics.lineTo(tabLeftX, tabTopY);
-			graphics.endFill();
+            context.lineStyle = '#000000';
 
-			graphics.lineStyle(0, 0x000000, 1.0);
-			graphics.moveTo(tabLeftX, tabBottomY);
-			graphics.lineTo(tabLeftX, tabTopY);
-			graphics.lineTo(tabRightX, tabTopY);
-			graphics.lineTo(tabRightX, tabBottomY);
-		}
-		
-	}
-	
-	graphics.lineStyle(0, 0x000000, 1.0);
-	graphics.moveTo(0, tabBottomY);
-	graphics.lineTo(0, (_settings.height-1));
-	graphics.lineTo((_settings.width-1), (_settings.height-1));
-	graphics.lineTo((_settings.width-1), tabBottomY);
-}
+            context.beginPath();
+            context.moveTo(tabLeftX, tabBottomY);
+            context.lineTo(tabLeftX, tabTopY);
+            context.lineTo(tabRightX, tabTopY);
+            context.lineTo(tabRightX, tabBottomY);
+            if (!isSelected)
+                context.closePath();
+            context.stroke();
 
-private function scaleColorBrightness(colorNumber: uint, scale: Number): uint
-{
-	var alpha: uint = (colorNumber>>24)&0xff;
-	var red: uint = (colorNumber>>16)&0xff;
-	var green: uint = (colorNumber>>8)&0xff;
-	var blue: uint = (colorNumber>>0)&0xff;
-	
-	var resultAlpha: uint = alpha; // We'll end up with 'illegal' premult color values, but this shouldn't be a proble for our uses
-	var resultRed: uint = Math.floor(red*scale);
-	var resultGreen: uint = Math.floor(green*scale);
-	var resultBlue: uint = Math.floor(blue*scale);
-	
-	resultRed = Math.max(0, resultRed);
-	resultGreen = Math.max(0, resultGreen);
-	resultBlue = Math.max(0, resultBlue);
-		
-	resultRed = Math.min(255, resultRed);
-	resultGreen = Math.min(255, resultGreen);
-	resultBlue = Math.min(255, resultBlue);
-	
-	var result: uint =
-		(resultAlpha<<24)|
-		(resultRed<<16)|
-		(resultGreen<<8)|
-		(resultBlue<<0);
-	
-	return result;
-}
-*/
+            tabLeftX = tabRightX;
+
+            if (addExtraTab)
+            {
+                tabRightX = (this._settings.width-1);
+                
+                fillColor = this.scaleColorBrightness(this._settings.title_background_color, 0.9);
+                
+                context.fillStyle = this.colorStringFromNumber(fillColor);
+                context.beginPath()
+                context.moveTo(tabLeftX, tabTopY);
+                context.lineTo(tabRightX, tabTopY);
+                context.lineTo(tabRightX, tabBottomY);
+                context.lineTo(tabLeftX, tabBottomY);
+                context.lineTo(tabLeftX, tabTopY);            
+                context.closePath();
+                context.fill();
+
+                context.lineStyle = '#000000';
+
+                context.beginPath();
+                context.moveTo(tabLeftX, tabBottomY);
+                context.lineTo(tabLeftX, tabTopY);
+                context.lineTo(tabRightX, tabTopY);
+                context.lineTo(tabRightX, tabBottomY);
+                context.closePath();
+                context.stroke();
+            }
+            
+        }
+        
+        context.lineStyle = '#000000';
+        
+        context.beginPath();
+        context.moveTo(0, tabBottomY);
+        context.lineTo(0, (this._settings.height-1));
+        context.lineTo((this._settings.width-1), (this._settings.height-1));
+        context.lineTo((this._settings.width-1), tabBottomY);
+        context.stroke();
+        
+        this.endDrawing(context);
+    };
+
+    this.scaleColorBrightness = function(colorNumber, scale)
+    {
+        var alpha = (colorNumber>>24)&0xff;
+        var red = (colorNumber>>16)&0xff;
+        var green = (colorNumber>>8)&0xff;
+        var blue = (colorNumber>>0)&0xff;
+        
+        var resultAlpha = alpha; // We'll end up with 'illegal' premult color values, but this shouldn't be a proble for our uses
+        var resultRed = Math.floor(red*scale);
+        var resultGreen = Math.floor(green*scale);
+        var resultBlue = Math.floor(blue*scale);
+        
+        resultRed = Math.max(0, resultRed);
+        resultGreen = Math.max(0, resultGreen);
+        resultBlue = Math.max(0, resultBlue);
+            
+        resultRed = Math.min(255, resultRed);
+        resultGreen = Math.min(255, resultGreen);
+        resultBlue = Math.min(255, resultBlue);
+        
+        var result =
+            (resultAlpha<<24)|
+            (resultRed<<16)|
+            (resultGreen<<8)|
+            (resultBlue<<0);
+        
+        return result;
+    }
+
     this.isEventInTopBar = function(event)
     {
         var hasTitle = (this._settings.title_text!=='');
