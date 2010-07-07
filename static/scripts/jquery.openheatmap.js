@@ -18,7 +18,7 @@ g_openHeatMapObjects = {};
             mapName: 'openheatmap',
             width: 800,
             height: 600,
-            prefer: 'canvas'
+            prefer: 'flash'
         };
  
         if (settings) 
@@ -1811,8 +1811,8 @@ function OpenHeatMap(canvas)
             this._timelineButton = new UIButton(
                 42, (this._settings.height-45),
                 32, 32,
-                'http://localhost/static.openheatmap.com/images/pause.png',
-                'http://localhost/static.openheatmap.com/images/play.png');
+                'http://static.openheatmap.com/images/pause.png',
+                'http://static.openheatmap.com/images/play.png');
             this.addChild(this._timelineButton);
         }
         
@@ -2137,10 +2137,10 @@ function OpenHeatMap(canvas)
 
         this._informationLayerCanvas = this.createCanvas(this._settings.width, this._settings.height);
 
-        this._plusImage = new UIImage('http://localhost/static.openheatmap.com/images/plus.gif', 9, 35);
+        this._plusImage = new UIImage('http://static.openheatmap.com/images/plus.gif', 9, 35);
         this.addChild(this._plusImage);
 
-        this._minusImage = new UIImage('http://localhost/static.openheatmap.com/images/minus.gif', 9, 197);
+        this._minusImage = new UIImage('http://static.openheatmap.com/images/minus.gif', 9, 197);
         this.addChild(this._minusImage);
         
         var instance = this;
@@ -4336,17 +4336,17 @@ function Slider(x, y, width, height, changeCallback)
 
         if (this._isVertical)
         {
-            this._trackStart = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_top.png', 0, 0);
-            this._trackMid = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_mid.png', 0, 0);
-            this._trackEnd = new UIImage('http://localhost/static.openheatmap.com/images/slider_vertical_bottom.png', 0, 0);
+            this._trackStart = new UIImage('http://static.openheatmap.com/images/slider_vertical_top.png', 0, 0);
+            this._trackMid = new UIImage('http://static.openheatmap.com/images/slider_vertical_mid.png', 0, 0);
+            this._trackEnd = new UIImage('http://static.openheatmap.com/images/slider_vertical_bottom.png', 0, 0);
         }
         else
         {
-            this._trackStart = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_left.png', 0, 0);
-            this._trackMid = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_mid.png', 0, 0);
-            this._trackEnd = new UIImage('http://localhost/static.openheatmap.com/images/slider_horizontal_right.png', 0, 0);        
+            this._trackStart = new UIImage('http://static.openheatmap.com/images/slider_horizontal_left.png', 0, 0);
+            this._trackMid = new UIImage('http://static.openheatmap.com/images/slider_horizontal_mid.png', 0, 0);
+            this._trackEnd = new UIImage('http://static.openheatmap.com/images/slider_horizontal_right.png', 0, 0);        
         }
-        this._thumb = new UIImage('http://localhost/static.openheatmap.com/images/slider_thumb.png', 0, 0);        
+        this._thumb = new UIImage('http://static.openheatmap.com/images/slider_thumb.png', 0, 0);        
 
         this._isDragging = false;
         this._changeCallback = changeCallback;

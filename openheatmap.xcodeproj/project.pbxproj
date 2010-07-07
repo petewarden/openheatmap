@@ -85,7 +85,6 @@
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		59F11CE611DFFFBD00DF3832 /* flashporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = flashporting.js; path = static/scripts/flashporting.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -222,7 +221,6 @@
 				59820BB411A458E10047D5FC /* base64.js */,
 				59820BB511A458E10047D5FC /* colorpicker.js */,
 				59820BB611A458E10047D5FC /* cookie.js */,
-				59F11CE611DFFFBD00DF3832 /* flashporting.js */,
 				59820BB811A458E10047D5FC /* json.js */,
 				59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */,
 				59820BBA11A458E10047D5FC /* urlparam.js */,
