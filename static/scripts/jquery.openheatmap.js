@@ -28,8 +28,10 @@ g_openHeatMapObjects = {};
  
         // See http://diveintohtml5.org/detect.html#canvas
         var hasCanvas = !!document.createElement('canvas').getContext;
+
+        var hasFlash = jQuery.fn.flash.hasFlash(9,0,0);
  
-        if (hasCanvas&&(settings.prefer==='canvas'))
+        if (hasCanvas&&((settings.prefer==='canvas')||(!hasFlash)))
         {     
             this.each(function() {
 

@@ -85,6 +85,8 @@
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		59F11F9911E556A900DF3832 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embed.html; path = website/embed.html; sourceTree = "<group>"; };
+		59F11FA911E5588A00DF3832 /* embedtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embedtest.html; path = website/embedtest.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -180,6 +182,8 @@
 				59820B9311A44B890047D5FC /* config.php */,
 				59820BBC11A45C020047D5FC /* create.html */,
 				59820BAF11A44E5C0047D5FC /* edit.html */,
+				59F11F9911E556A900DF3832 /* embed.html */,
+				59F11FA911E5588A00DF3832 /* embedtest.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
 				59820D4911AB289F0047D5FC /* gallery.html */,
 				59820D4B11AB32AA0047D5FC /* geoip.php */,
