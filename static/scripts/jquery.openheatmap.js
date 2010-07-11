@@ -3561,37 +3561,24 @@ function OpenHeatMap(canvas)
                 }
                 
                 var color;
-                if (hasValues)
+                if (lerpTotal>0)
                 {
-                    if (lerpTotal>0)
-                    {
+                    if (hasValues)
                         value = (value/lerpTotal);	
-                    }
-                    else
-                    {
-                        value = 0;
-                    }
-                    
-                    var alpha = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-                    
-                    color = this.getColorForValue(value, minValue, maxValue, valueScale);
-                    
-                    var colorAlpha = (color>>24)&0xff;
-                    var outputAlpha = ((colorAlpha*alpha)>>8)&0xff;
-                    
-                    color = (color&0x00ffffff)|(outputAlpha<<24);
                 }
                 else
                 {
-                    if (value>=maxValue)
-                    {
-                        this.writePixel(pixelData, pixelDataIndex, fullColor);
-                        pixelDataIndex += 4;
-                        continue;
-                    }
-                    
-                    color = getColorForValue(value, minValue, maxValue, valueScale);
+                    value = 0;
                 }
+                
+                var alpha = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+                
+                color = this.getColorForValue(value, minValue, maxValue, valueScale);
+                
+                var colorAlpha = (color>>24)&0xff;
+                var outputAlpha = ((colorAlpha*alpha)>>8)&0xff;
+                
+                color = (color&0x00ffffff)|(outputAlpha<<24);
 
                 this.writePixel(pixelData, pixelDataIndex, color);
                 pixelDataIndex += 4;

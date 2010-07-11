@@ -3129,36 +3129,24 @@ public function drawPointBlobTile(width: Number,
 			}
 			
 			var color: uint;
-			if (hasValues)
+			if (lerpTotal>0)
 			{
-				if (lerpTotal>0)
-				{
+				if (hasValues)
 					value = (value/lerpTotal);	
-				}
-				else
-				{
-					value = 0;
-				}
-				
-				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-				
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-				
-				var colorAlpha: uint = (color>>24)&0xff;
-				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
-				
-				color = (color&0x00ffffff)|(outputAlpha<<24);
 			}
 			else
 			{
-				if (value>=maxValue)
-				{
-					pixelData.writeUnsignedInt(fullColor);
-					continue;
-				}
-				
-				color = getColorForValue(value, minValue, maxValue, valueScale);
+				value = 0;
 			}
+			
+			var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+			
+			color = getColorForValue(value, minValue, maxValue, valueScale);
+			
+			var colorAlpha: uint = (color>>24)&0xff;
+			var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
+			
+			color = (color&0x00ffffff)|(outputAlpha<<24);
 			
 			pixelData.writeUnsignedInt(color);
 		}	
