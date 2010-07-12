@@ -807,7 +807,7 @@ function OpenHeatMap(canvas)
             return [ tagsArgument ];
     };
 
-    this.setEventHandler = function(eventName, functionName) {
+    this.bind = function(eventName, functionName) {
         eventName = eventName.toLowerCase();
 	
         if (eventName == 'click')
@@ -837,7 +837,7 @@ function OpenHeatMap(canvas)
         else if (eventName == 'viewchange')
             this._onViewChangeFunction = functionName;
         else
-            this.logError( 'Unknown event name passed to MapRender::setEventHandler - "'+
+            this.logError( 'Unknown event name passed to OpenHeatMap::bind - "'+
                 eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender, datachange, waysload, valuesload, error or viewchange)');
     };
 

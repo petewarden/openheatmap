@@ -237,7 +237,7 @@ public function startup():void
 	ExternalInterface.addCallback("setSize", setSize);      	
 	ExternalInterface.addCallback("setLatLonViewingArea", setLatLonViewingArea);      	
 	ExternalInterface.addCallback("setWayDefault", setWayDefault);
-	ExternalInterface.addCallback('setEventHandler', setEventHandler);
+	ExternalInterface.addCallback('bind', bind);
 	ExternalInterface.addCallback("loadWaysFromFile", loadWaysFromFile);      	
 	ExternalInterface.addCallback("loadValuesFromFile", loadValuesFromFile);
 	ExternalInterface.addCallback("setColorGradient", setColorGradient);	
@@ -321,7 +321,7 @@ private function getTagsFromArgument(tagsArgument: Object): Array
 		return [ tagsArgument ];
 }
 
-private function setEventHandler(eventName: String, functionName: String): void
+private function bind(eventName: String, functionName: String): void
 {
 	eventName = eventName.toLowerCase();
 	
@@ -352,7 +352,7 @@ private function setEventHandler(eventName: String, functionName: String): void
 	else if (eventName == 'viewchange')
 		_onViewChangeFunction = functionName;
 	else
-		logError( 'Unknown event name passed to MapRender::setEventHandler - "'+
+		logError( 'Unknown event name passed to OpenHeatMap::bind - "'+
 			eventName+'" (expected click, doubleclick, mousedown, mouseup, mouseover, mouseout, framerender, datachange, waysload, valuesload, error or viewchange)');
 }
 
