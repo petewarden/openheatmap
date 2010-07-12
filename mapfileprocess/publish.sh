@@ -21,6 +21,8 @@ do
     rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.html ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
     rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.php ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
     rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/oauth/*.php ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/oauth/
+    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.json ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
+    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.csv ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
 done
 
 s3cmd -P -f put ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf
