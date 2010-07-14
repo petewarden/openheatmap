@@ -2433,6 +2433,9 @@ function OpenHeatMap(canvas)
     {
         if (!this._hasPointValues)
             return null;
+
+        if ((this._redrawCountdown>0)&&(!this._dirty))
+            return null;
         
         if (this._dirty)
         {
