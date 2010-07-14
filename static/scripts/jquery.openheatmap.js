@@ -1503,7 +1503,7 @@ function OpenHeatMap(canvas)
                 
                 var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
 
-                context.lineStyle = this.colorStringFromNumber(wayColor,wayAlpha);
+                context.strokeStyle = this.colorStringFromNumber(wayColor,wayAlpha);
 
                 context.moveTo(firstPos.x, firstPos.y);
             }
@@ -3220,7 +3220,7 @@ function OpenHeatMap(canvas)
             context.fillStyle = '#000000';
             context.fillText(tabName, tabLeftX+2, tabTopY);
 
-            context.lineStyle = '#000000';
+            context.strokeStyle = '#000000';
 
             context.beginPath();
             context.moveTo(tabLeftX, tabBottomY);
@@ -3249,7 +3249,7 @@ function OpenHeatMap(canvas)
                 context.closePath();
                 context.fill();
 
-                context.lineStyle = '#000000';
+                context.strokeStyle = '#000000';
 
                 context.beginPath();
                 context.moveTo(tabLeftX, tabBottomY);
@@ -3262,7 +3262,7 @@ function OpenHeatMap(canvas)
             
         }
         
-        context.lineStyle = '#000000';
+        context.strokeStyle = '#000000';
         
         context.beginPath();
         context.moveTo(0, tabBottomY);

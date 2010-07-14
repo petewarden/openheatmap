@@ -22,9 +22,9 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 require_once('cliargs.php');
 require_once('osmways.php');
 
-function parse_ascii_description_file($file_name, $is_zip='false')
+function parse_ascii_description_file($file_name, $type)
 {
-    if (!$is_zip)
+    if ($type=='zip')
     {
         $field_names = array(
             'state_code',
@@ -35,7 +35,7 @@ function parse_ascii_description_file($file_name, $is_zip='false')
             '',
         );
     }
-    else
+    else if ($type=='county')
     {
         $field_names = array(
             'zip_code',
@@ -44,6 +44,21 @@ function parse_ascii_description_file($file_name, $is_zip='false')
             'desc',
             '',
         );            
+    }
+    else if ($type=='congress')
+    {
+        $field_names = array(
+            'state_code',
+            'district_code',
+            'district_code_no_padding',
+            '_unknown_',
+            'desc',
+            '',
+        );
+    }
+    else
+    {
+        die("Unknown boundary type '$type'\n");
     }
 
     $field_length = count($field_names);
@@ -153,10 +168,11 @@ $cliargs = array(
 		'description' => 'The file to write the output OSM XML data to - if unset, will write to stdout',
         'default' => 'php://stdout',
 	),
-    'iszip' => array(
-        'short' => 'z',
-        'type' => 'switch',
-        'description' => 'Whether the input file contains ZIP code data or the usual county information',
+    'type' => array(
+        'short' => 't',
+        'type' => 'optional',
+        'description' => 'Whether the input file contains ZIP code (zip), county (county) or congressional district (congress) boundaries',
+        'default' => 'county',
     ),
 );	
 
@@ -166,8 +182,11 @@ $options = cliargs_get_options($cliargs);
 
 $input_directory = $options['inputdirectory'];
 $output_file = $options['outputfile'];
+$type = $options['type'];
 
 $input_path = $input_directory.'/*a.dat';
+
+error_log("Looking for '$input_path'");
 
 $osm_ways = new OSMWays();
 
@@ -175,7 +194,7 @@ foreach (glob($input_path) as $description_file)
 {
     $vertex_file = str_replace('a.dat', '.dat', $description_file);
 
-    $description_data = parse_ascii_description_file($description_file);
+    $description_data = parse_ascii_description_file($description_file, $type);
 
     parse_ascii_vertex_file($vertex_file, $description_data, $osm_ways);
 }
