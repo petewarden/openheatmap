@@ -18,11 +18,7 @@ rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.html ${SERVER_FULL}
 for EXAMPLE_PATH in ${LOCAL_PATH}examples/*
 do
     EXAMPLE_FOLDER=`basename "${EXAMPLE_PATH}"`
-    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.html ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
-    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.php ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
-    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/oauth/*.php ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/oauth/
-    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.json ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
-    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/*.csv ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
+    rsync -e "ssh -i $SSH_KEY" -avz ${EXAMPLE_PATH}/* ${SERVER_FULL}/examples/${EXAMPLE_FOLDER}/
 done
 
 s3cmd -P -f put ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf

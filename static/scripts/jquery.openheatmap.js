@@ -694,7 +694,8 @@ function OpenHeatMap(canvas)
             information_alpha: 1.0,
             is_point_blob_radius_in_pixels: false,
             point_bitmap_scale: 2,
-            tab_height: 15
+            tab_height: 15,
+            clear_ways: true
         };
 
         this._lastSetWayIds = {};
@@ -729,6 +730,8 @@ function OpenHeatMap(canvas)
         this._timelineSlider = null;
         this._timelineText = null;
         this._timelineButton = null;
+        
+        this._wayLayers = [];
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -1247,9 +1250,20 @@ function OpenHeatMap(canvas)
 	  			
                 instance._tagMap[key][value].push(newWay.id);
             });
+
+            var layerIndex;
+            if (typeof newWay.tags['layer_index'] !== 'undefined')
+                layerIndex = Math.min(16,Math.max(0,(Number)(newWay.tags['layer_index'])));
+            else
+                layerIndex = 0;
+
+            while (instance._wayLayers.length<=layerIndex)
+                instance._wayLayers.push([]);               
  		
             instance._ways[wayId] = newWay;
-  		
+
+            instance._wayLayers[layerIndex].push(newWay);
+
             if (!newWay.boundingBox.isEmpty())
             {
                 instance._worldBoundingBox = instance.enlargeBoxToContain(instance._worldBoundingBox, newWay.boundingBox.topLeft());
@@ -1455,74 +1469,77 @@ function OpenHeatMap(canvas)
         }
         
         var context = this.beginDrawing(canvas);
-        
-        for (wayId in this._ways)
+
+        for (var layerIndex in this._wayLayers)
         {
-            var way = this._ways[wayId];
-            var wayColor;
-            var wayAlpha;
-            if (this.getWayProperty('highlighted', way)==true)
+            for (var wayIndex in this._wayLayers[layerIndex])
             {
-                wayColor = Number(this.getWayProperty('highlightColor', way));
-                wayAlpha = Number(this.getWayProperty('highlightAlpha', way));
-            }
-            else
-            {
-                wayColor = Number(this.getWayProperty('color', way.tags));
-                wayAlpha = Number(this.getWayProperty('alpha', way.tags));
-            }
-
-            if (way.nds.length<1)
-                continue;
-            
-            if (!viewingArea.intersects(way.boundingBox))
-                continue;
-
-            var isClosed = way.isClosed;
-
-            context.beginPath();
-
-            if (isClosed)
-            {		
-                var finalNd = way.nds[way.nds.length-1];
-                var finalNode = this._nodes[finalNd];
-                
-                var finalPos = this.getXYFromLatLon(finalNode, latLonToXYMatrix);
-
-                if (hasBitmap)
-                    context.fillStyle = context.createPattern(bitmapBackground, 'no-repeat');
+                var way = this._wayLayers[layerIndex][wayIndex];
+                var wayColor;
+                var wayAlpha;
+                if (this.getWayProperty('highlighted', way)==true)
+                {
+                    wayColor = Number(this.getWayProperty('highlightColor', way));
+                    wayAlpha = Number(this.getWayProperty('highlightAlpha', way));
+                }
                 else
-                    context.fillStyle = this.colorStringFromNumber(wayColor, wayAlpha);
+                {
+                    wayColor = Number(this.getWayProperty('color', way.tags));
+                    wayAlpha = Number(this.getWayProperty('alpha', way.tags));
+                }
+
+                if (way.nds.length<1)
+                    continue;
                 
-                context.moveTo(finalPos.x, finalPos.y);
+                if (!viewingArea.intersects(way.boundingBox))
+                    continue;
+
+                var isClosed = way.isClosed;
+
+                context.beginPath();
+
+                if (isClosed)
+                {		
+                    var finalNd = way.nds[way.nds.length-1];
+                    var finalNode = this._nodes[finalNd];
+                    
+                    var finalPos = this.getXYFromLatLon(finalNode, latLonToXYMatrix);
+
+                    if (hasBitmap)
+                        context.fillStyle = context.createPattern(bitmapBackground, 'no-repeat');
+                    else
+                        context.fillStyle = this.colorStringFromNumber(wayColor, wayAlpha);
+                    
+                    context.moveTo(finalPos.x, finalPos.y);
+                }
+                else
+                {
+                    var firstNd = way.nds[0];
+                    var firstNode = this._nodes[firstNd];
+                    
+                    var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
+
+                    context.strokeStyle = this.colorStringFromNumber(wayColor,wayAlpha);
+
+                    context.moveTo(firstPos.x, firstPos.y);
+                }
+
+                for (var currentNdIndex in way.nds)
+                {
+                    var currentNd = way.nds[currentNdIndex];
+                    var currentNode = this._nodes[currentNd];
+                    var currentPos = this.getXYFromLatLon(currentNode, latLonToXYMatrix);
+                    
+                    context.lineTo(currentPos.x, currentPos.y);
+                }
+
+                context.closePath();
+
+                if (isClosed)
+                    context.fill();
+                else
+                    context.stroke();
             }
-            else
-            {
-                var firstNd = way.nds[0];
-                var firstNode = this._nodes[firstNd];
-                
-                var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
-
-                context.strokeStyle = this.colorStringFromNumber(wayColor,wayAlpha);
-
-                context.moveTo(firstPos.x, firstPos.y);
-            }
-
-            for (var currentNdIndex in way.nds)
-            {
-                var currentNd = way.nds[currentNdIndex];
-                var currentNode = this._nodes[currentNd];
-                var currentPos = this.getXYFromLatLon(currentNode, latLonToXYMatrix);
-                
-                context.lineTo(currentPos.x, currentPos.y);
-            }
-
-            context.closePath();
-
-            if (isClosed)
-                context.fill();
-            else
-                context.stroke();
         }
         
         this.endDrawing(context);
@@ -1582,14 +1599,17 @@ function OpenHeatMap(canvas)
             this.setAttributeForMatchingWays(matchKeys, 'color', setColor, thisSetWayIds);
         }
         
-        var defaultColor = this.getWayProperty('color');
-        
-        for (var lastWayId in this._lastSetWayIds)
+        if (this._settings.clear_ways)
         {
-            if (thisSetWayIds.hasOwnProperty(lastWayId))
-                continue;
-                
-            this._ways[lastWayId]['tags']['color'] = defaultColor;
+            var defaultColor = this.getWayProperty('color');
+            
+            for (var lastWayId in this._lastSetWayIds)
+            {
+                if (thisSetWayIds.hasOwnProperty(lastWayId))
+                    continue;
+                    
+                this._ways[lastWayId]['tags']['color'] = defaultColor;
+            }
         }
         
         this._lastSetWayIds = thisSetWayIds;
@@ -2791,6 +2811,8 @@ function OpenHeatMap(canvas)
         this._tagMap = {};
         this._lastSetWayIds = {};
         
+        this._wayLayers = [];
+        
         this._dirty = true;
     };
 
@@ -3588,6 +3610,19 @@ function OpenHeatMap(canvas)
         context.putImageData(imageData, leftX, topY);
         
         this.endDrawing(context);
+    };
+
+    this.setAnimationTime = function(time) {
+        for (var index in this._frameTimes)
+        {
+            if (this._frameTimes[index] === time)
+            {
+                this._frameIndex = (Number)(index);
+                this.updateTimelineDisplay();
+                break;
+            }
+
+        }       
     };
 
     this.beginDrawing = function(canvas) {

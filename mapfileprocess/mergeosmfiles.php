@@ -52,9 +52,9 @@ foreach ($input_files as $input_file)
     $input_osm_ways->deserialize_from_xml($input_contents);
 
     if (!isset($output_osm_ways))
-        $output_osm_ways = $input_osm_ways;
-    else
-        $output_osm_ways->copy_all_ways($input_osm_ways);
+        $output_osm_ways = new OSMWays();
+    
+    $output_osm_ways->copy_all_ways($input_osm_ways);
 }
     
 $output_contents = $output_osm_ways->serialize_to_xml();

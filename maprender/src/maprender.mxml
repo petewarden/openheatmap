@@ -171,7 +171,8 @@ public var _settings: Object =
 	information_alpha: 1.0,
 	is_point_blob_radius_in_pixels: false,
 	point_bitmap_scale: 2,
-	tab_height: 15
+	tab_height: 15,
+	clear_ways: true
 };
 
 public var _lastSetWayIds: Object = {};
@@ -200,6 +201,8 @@ public var _pointBlobTileX: int = 0;
 public var _pointBlobTileY: int = 0;
 public var _pointBlobStillRendering: Boolean = false;
 
+public var _wayLayers: Array = [];
+	
 private function getURLInput(name: String, defaultValue: String = null): String
 {
 	if (mx.core.Application.application.parameters.hasOwnProperty(name))
@@ -260,6 +263,8 @@ public function startup():void
 	ExternalInterface.addCallback("removeAllPopups", removeAllPopups);
 	ExternalInterface.addCallback("getValueHeaders", getValueHeaders);
 	ExternalInterface.addCallback("addPopupAtScreenPosition", addPopupAtScreenPosition);
+	ExternalInterface.addCallback("setAttributeForMatchingWays", setAttributeForMatchingWays);
+	ExternalInterface.addCallback("setAnimationTime", setAnimationTime);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -761,9 +766,19 @@ private function onWaysLoad(success:Boolean): void
 	  			
 	  		_tagMap[key][value].push(newWay.id);
 	  	}
- 		
+ 
+		var layerIndex: Number;
+		if (newWay.tags.hasOwnProperty('layer_index'))
+			layerIndex = Math.min(16,Math.max(0,(Number)(newWay.tags['layer_index'])));
+		else
+			layerIndex = 0;
+		
+		while (_wayLayers.length<=layerIndex)
+			_wayLayers.push([]);
+		
   		_ways[wayId] = newWay;
-  		
+  		_wayLayers[layerIndex].push(newWay);
+		
   		if (!newWay.boundingBox.isEmpty())
   		{
   			_worldBoundingBox = enlargeBoxToContain(_worldBoundingBox, newWay.boundingBox.topLeft);
@@ -961,69 +976,71 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 				
 		return;
 	}
-	
-	for (wayId in _ways)
+
+	for (var layerIndex: * in _wayLayers)
 	{
-		var way: Object = _ways[wayId];
-		var wayColor: Number;
-		var wayAlpha: Number;
-		if (getWayProperty('highlighted', way)==true)
+		for each (var way: Object in _wayLayers[layerIndex])
 		{
-			wayColor = Number(getWayProperty('highlightColor', way));
-			wayAlpha = Number(getWayProperty('highlightAlpha', way));
-		}
-		else
-		{
-			wayColor = Number(getWayProperty('color', way.tags));
-			wayAlpha = Number(getWayProperty('alpha', way.tags));
-		}
-
-		if (way.nds.length<1)
-			continue;
-		
-		if (!viewingArea.intersects(way.boundingBox))
-			continue;
-
-		var isClosed: Boolean = way.isClosed;
-
-		if (isClosed)
-		{		
-			var finalNd: String = way.nds[way.nds.length-1];
-			var finalNode: Object = _nodes[finalNd];
-			
-			var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
-
-			graphics.lineStyle();
-			if (hasBitmap)
-				graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
+			var wayColor: Number;
+			var wayAlpha: Number;
+			if (getWayProperty('highlighted', way)==true)
+			{
+				wayColor = Number(getWayProperty('highlightColor', way));
+				wayAlpha = Number(getWayProperty('highlightAlpha', way));
+			}
 			else
-				graphics.beginFill(wayColor, wayAlpha);
+			{
+				wayColor = Number(getWayProperty('color', way.tags));
+				wayAlpha = Number(getWayProperty('alpha', way.tags));
+			}
 			
-			graphics.moveTo(finalPos.x, finalPos.y);
-		}
-		else
-		{
-			var firstNd: String = way.nds[0];
-			var firstNode: Object = _nodes[firstNd];
+			if (way.nds.length<1)
+				continue;
 			
-			var firstPos: Point = getXYFromLatLon(firstNode, latLonToXYMatrix);
-
-			graphics.lineStyle(0, wayColor,wayAlpha);
-
-			graphics.moveTo(firstPos.x, firstPos.y);
-		}
-
-		for each (var currentNd: String in way.nds)
-		{
-			var currentNode: Object = _nodes[currentNd];
-			var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
-			
-			graphics.lineTo(currentPos.x, currentPos.y);
-		}
-
-		if (isClosed)
-		{
-			graphics.endFill();
+			if (!viewingArea.intersects(way.boundingBox))
+				continue;
+	
+			var isClosed: Boolean = way.isClosed;
+	
+			if (isClosed)
+			{		
+				var finalNd: String = way.nds[way.nds.length-1];
+				var finalNode: Object = _nodes[finalNd];
+				
+				var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
+	
+				graphics.lineStyle();
+				if (hasBitmap)
+					graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
+				else
+					graphics.beginFill(wayColor, wayAlpha);
+				
+				graphics.moveTo(finalPos.x, finalPos.y);
+			}
+			else
+			{
+				var firstNd: String = way.nds[0];
+				var firstNode: Object = _nodes[firstNd];
+				
+				var firstPos: Point = getXYFromLatLon(firstNode, latLonToXYMatrix);
+	
+				graphics.lineStyle(0, wayColor,wayAlpha);
+	
+				graphics.moveTo(firstPos.x, firstPos.y);
+			}
+	
+			for each (var currentNd: String in way.nds)
+			{
+				var currentNode: Object = _nodes[currentNd];
+				var currentPos: Point = getXYFromLatLon(currentNode, latLonToXYMatrix);
+				
+				graphics.lineTo(currentPos.x, currentPos.y);
+			}
+	
+			if (isClosed)
+			{
+				graphics.endFill();
+			}
 		}
 	}
 
@@ -1081,15 +1098,18 @@ private function setWaysFromValues(): void
 		
 		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds);
 	}
-	
-	var defaultColor: String = (String)(getWayProperty('color'));
-	
-	for (var lastWayId: String in _lastSetWayIds)
-	{
-		if (thisSetWayIds.hasOwnProperty(lastWayId))
-			continue;
-			
-		_ways[lastWayId]['tags']['color'] = defaultColor;
+
+	if (_settings.clear_ways)
+	{		
+		var defaultColor: String = (String)(getWayProperty('color'));
+		
+		for (var lastWayId: String in _lastSetWayIds)
+		{
+			if (thisSetWayIds.hasOwnProperty(lastWayId))
+				continue;
+				
+			_ways[lastWayId]['tags']['color'] = defaultColor;
+		}
 	}
 	
 	_lastSetWayIds = thisSetWayIds;
@@ -2328,6 +2348,8 @@ private function removeAllWays(): void
   	_tagMap = {};
 	_lastSetWayIds = {};
 	
+	_wayLayers = [];
+	
 	_dirty = true;
 }
 
@@ -3155,6 +3177,20 @@ public function drawPointBlobTile(width: Number,
 	pixelData.position = 0;
 	
 	_pointBlobBitmap.setPixels(new Rectangle(leftX, topY, tileWidth, tileHeight), pixelData);
+}
+	
+private function setAnimationTime(time: String): void
+{
+	for (var index: String in _frameTimes)
+	{
+		if (_frameTimes[index] === time)
+		{
+			_frameIndex = (Number)(index);
+			updateTimelineDisplay();
+			break;
+		}
+		
+	}	
 }
 	
 ]]>

@@ -68,7 +68,7 @@ class OSMWays
     {
         if (!isset($way_id))
         {
-            $way_id = $this->current_id;
+            $way_id = str_pad($this->current_id, 9, '0', STR_PAD_LEFT);
             $this->current_id += 1;
         }
         
