@@ -52,7 +52,9 @@ public var _redrawCountdown: int = 0;
 public var _wayDefaults: Object = {
 	color: 0x000000,
 	alpha: 1.0,
-	line_thickness: 0
+	line_thickness: 0,
+	line_color: 0x000000,
+	line_alpha: 0.0
 };
 
 public var _colorGradient: Array = [
@@ -983,10 +985,10 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 		{
 			var wayColor: Number;
 			var wayAlpha: Number;
-			if (getWayProperty('highlighted', way)==true)
+			if (getWayProperty('highlighted', way.tags)==true)
 			{
-				wayColor = Number(getWayProperty('highlightColor', way));
-				wayAlpha = Number(getWayProperty('highlightAlpha', way));
+				wayColor = Number(getWayProperty('highlightColor', way.tags));
+				wayAlpha = Number(getWayProperty('highlightAlpha', way.tags));
 			}
 			else
 			{
@@ -1003,13 +1005,21 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 			var isClosed: Boolean = way.isClosed;
 	
 			if (isClosed)
-			{		
+			{
 				var finalNd: String = way.nds[way.nds.length-1];
 				var finalNode: Object = _nodes[finalNd];
 				
 				var finalPos: Point = getXYFromLatLon(finalNode, latLonToXYMatrix);
-	
-				graphics.lineStyle();
+
+				var lineColor: Number = Number(getWayProperty('line_color', way.tags))
+				var lineAlpha: Number = Number(getWayProperty('line_alpha', way.tags))
+				var lineThickness: Number = Number(getWayProperty('line_thickness', way.tags))
+				
+				if (lineAlpha<0.01)
+					graphics.lineStyle();
+				else
+					graphics.lineStyle(lineThickness, lineColor, lineAlpha);
+					
 				if (hasBitmap)
 					graphics.beginBitmapFill(bitmapBackground, bitmapMatrix, false, true);
 				else
@@ -1273,7 +1283,7 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 		}
 		else
 		{
-			var lineThickness: Number = (Number)(getWayProperty('line_thickness', way));
+			var lineThickness: Number = (Number)(getWayProperty('line_thickness', way.tags));
 			
 			var thicknessInDegrees: Number = Math.abs((lineThickness+1)*pixelsToDegreeScale);
 			
@@ -1955,6 +1965,9 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 	if (!_hasPointValues)
 		return null;
 	
+	if ((_redrawCountdown>0)&&(!_dirty))
+		return null;
+		
 	if (_dirty)
 	{
 		createPointsGrid(viewingArea, latLonToXYMatrix);

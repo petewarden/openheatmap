@@ -17,7 +17,6 @@
 		590D2C3B11CBC86100954586 /* oauthutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = oauthutils.php; sourceTree = "<group>"; };
 		590D2C3C11CBC86100954586 /* peteutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = peteutils.php; sourceTree = "<group>"; };
 		590D2C3D11CC128F00954586 /* updates.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = updates.php; sourceTree = "<group>"; };
-		590D2C4511CD65D400954586 /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = config.php; sourceTree = "<group>"; };
 		590D2C4611CD65D400954586 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
 		590D2C4711CD65D400954586 /* peteutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = peteutils.php; sourceTree = "<group>"; };
 		590D2C4811CD65D400954586 /* placecache.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placecache.json; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 		590D2C4411CD65D400954586 /* twitter_search */ = {
 			isa = PBXGroup;
 			children = (
-				590D2C4511CD65D400954586 /* config.php */,
 				590D2C4611CD65D400954586 /* index.php */,
 				590D2C4711CD65D400954586 /* peteutils.php */,
 				590D2C4811CD65D400954586 /* placecache.json */,

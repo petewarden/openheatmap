@@ -582,7 +582,9 @@ function OpenHeatMap(canvas)
         this._wayDefaults = {
             color: 0x000000,
             alpha: 1.0,
-            line_thickness: 0
+            line_thickness: 0,
+            line_color: 0x000000,
+            line_alpha: 0.0
         };
 
         this._colorGradient = [
@@ -1477,10 +1479,10 @@ function OpenHeatMap(canvas)
                 var way = this._wayLayers[layerIndex][wayIndex];
                 var wayColor;
                 var wayAlpha;
-                if (this.getWayProperty('highlighted', way)==true)
+                if (this.getWayProperty('highlighted', way.tags)==true)
                 {
-                    wayColor = Number(this.getWayProperty('highlightColor', way));
-                    wayAlpha = Number(this.getWayProperty('highlightAlpha', way));
+                    wayColor = Number(this.getWayProperty('highlightColor', way.tags));
+                    wayAlpha = Number(this.getWayProperty('highlightAlpha', way.tags));
                 }
                 else
                 {
@@ -1509,6 +1511,16 @@ function OpenHeatMap(canvas)
                         context.fillStyle = context.createPattern(bitmapBackground, 'no-repeat');
                     else
                         context.fillStyle = this.colorStringFromNumber(wayColor, wayAlpha);
+
+                    var lineColor = Number(this.getWayProperty('line_color', way.tags))
+                    var lineAlpha = Number(this.getWayProperty('line_alpha', way.tags))
+                    var lineThickness = Number(this.getWayProperty('line_thickness', way.tags))
+
+                    if (lineAlpha>=0.01)
+                    {
+                        context.strokeStyle = this.colorStringFromNumber(lineColor,lineAlpha);
+                        context.lineWidth = lineThickness;
+                    }
                     
                     context.moveTo(finalPos.x, finalPos.y);
                 }
@@ -1536,9 +1548,15 @@ function OpenHeatMap(canvas)
                 context.closePath();
 
                 if (isClosed)
+                {
                     context.fill();
+                    if (lineAlpha>=0.01)
+                        context.stroke();
+                }
                 else
+                {
                     context.stroke();
+                }
             }
         }
         
