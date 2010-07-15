@@ -667,7 +667,7 @@ private function doEveryFrame(event: Event): void
 	{
 		drawTabsIntoViewer();
 	}	
-	
+
 	if (_hasTime)
 	{
 		if (_timelineControls.isPlaying)
@@ -686,6 +686,8 @@ private function doEveryFrame(event: Event): void
 			onDataChange();
 		}
 	}
+
+	drawPopupsIntoViewer();
 
 	if (_onFrameRenderFunction !== null)
 		ExternalInterface.call(_onFrameRenderFunction, null);	
@@ -2412,35 +2414,35 @@ private function addPopup(lat: Number, lon: Number, text: String): void
 	var dropShadowFilter: DropShadowFilter = new DropShadowFilter (5,65,0x000000,0.3,5,10,2,3,false,false,false);
 	popup.uiComponent.filters = [dropShadowFilter];
 
-	viewer.addChild(popup.uiComponent);
+//	viewer.addChild(popup.uiComponent);
 	
 	var screenPos: Point = getXYFromLatLon(popup.originLatLon, _latLonToXYMatrix);
 	
-	popup.uiComponent.validateNow();
-	
-	popup.uiComponent.width = (popup.uiComponent.textWidth+10);
-	popup.uiComponent.height = (popup.uiComponent.textHeight+20);
-	popup.uiComponent.x = (screenPos.x-popup.uiComponent.width);
-	popup.uiComponent.y = (screenPos.y-popup.uiComponent.height);
-
-	if (popup.uiComponent.x<0)
-	{
-		popup.uiComponent.x = 0;
-		popup.uiComponent.wordWrap = true;
-		popup.uiComponent.width = screenPos.x;
-		popup.uiComponent.validateNow();
-		popup.uiComponent.height = (popup.uiComponent.textHeight+5);
-	}
-	
-	if (popup.uiComponent.y<0)
-	{
-		popup.uiComponent.y = 0;
-	}
-
-	if ((popup.uiComponent.y+popup.uiComponent.height)>_settings.height)
-	{
-		popup.uiComponent.y = (_settings.height-popup.uiComponent.height);		
-	}
+//	popup.uiComponent.validateNow();
+//	
+//	popup.uiComponent.width = (popup.uiComponent.textWidth+10);
+//	popup.uiComponent.height = (popup.uiComponent.textHeight+20);
+//	popup.uiComponent.x = (screenPos.x-popup.uiComponent.width);
+//	popup.uiComponent.y = (screenPos.y-popup.uiComponent.height);
+//
+//	if (popup.uiComponent.x<0)
+//	{
+//		popup.uiComponent.x = 0;
+//		popup.uiComponent.wordWrap = true;
+//		popup.uiComponent.width = screenPos.x;
+//		popup.uiComponent.validateNow();
+//		popup.uiComponent.height = (popup.uiComponent.textHeight+5);
+//	}
+//	
+//	if (popup.uiComponent.y<0)
+//	{
+//		popup.uiComponent.y = 0;
+//	}
+//
+//	if ((popup.uiComponent.y+popup.uiComponent.height)>_settings.height)
+//	{
+//		popup.uiComponent.y = (_settings.height-popup.uiComponent.height);		
+//	}
 
 	_popups.push(popup);
 }
@@ -2449,7 +2451,7 @@ private function removeAllPopups(): void
 {
 	for each (var popup: Object in _popups)
 	{
-		viewer.removeChild(popup.uiComponent);	
+//		viewer.removeChild(popup.uiComponent);	
 	}
 	
 	_popups = [];
@@ -3213,6 +3215,58 @@ private function setAnimationTime(time: String): void
 		
 	}	
 }
+	
+private function drawPopupsIntoViewer(): void
+{
+	var graphics: Graphics = viewer.graphics;
+
+	for each (var popup: Object in _popups)
+	{
+		var screenPos: Point = getXYFromLatLon(popup.originLatLon, _latLonToXYMatrix);
+		
+		var textfield:TextField = new TextField;
+		textfield.text = popup.text;
+		var popupWidth: int = (textfield.textWidth+5);
+		textfield.width = popupWidth;
+		
+		var popupHeight: int = 15;
+		
+		var popupLeftX: Number = Math.max(0, (screenPos.x-popupWidth));
+		var popupRightX: Number = (popupLeftX+popupWidth);
+		var popupTopY: Number = Math.max(0, (screenPos.y-popupHeight));
+		var popupBottomY: Number = (popupTopY+popupHeight);
+				
+		var fillColor: uint = 0xffffff;
+		
+		graphics.lineStyle();
+		
+		graphics.beginFill(fillColor, 1.0);	
+		graphics.moveTo(popupLeftX, popupTopY);
+		graphics.lineTo(popupRightX, popupTopY);
+		graphics.lineTo(popupRightX, popupBottomY);
+		graphics.lineTo(popupLeftX, popupBottomY);
+		graphics.lineTo(popupLeftX, popupTopY);
+		graphics.endFill();
+		
+		var bitmapdata:BitmapData = new BitmapData(popupWidth, popupHeight, true, 0x00000000);
+		bitmapdata.draw(textfield);
+		
+		var textMatrix: Matrix = new Matrix();
+		textMatrix.translate(popupLeftX, popupTopY);
+		
+		graphics.beginBitmapFill(bitmapdata, textMatrix);
+		graphics.drawRect(popupLeftX, popupTopY, popupWidth, popupHeight);
+		graphics.endFill();
+		
+		graphics.lineStyle(0, 0x000000, 1.0);
+		graphics.moveTo(popupLeftX, popupBottomY);
+		graphics.lineTo(popupLeftX, popupTopY);
+		graphics.lineTo(popupRightX, popupTopY);
+		graphics.lineTo(popupRightX, popupBottomY);
+		graphics.lineTo(popupLeftX, popupBottomY);
+	}
+}
+
 	
 ]]>
 </mx:Script>
