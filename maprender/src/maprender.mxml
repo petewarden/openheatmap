@@ -174,7 +174,8 @@ public var _settings: Object =
 	is_point_blob_radius_in_pixels: false,
 	point_bitmap_scale: 2,
 	tab_height: 15,
-	clear_ways: true
+	clear_ways: true,
+	is_value_distance: false
 };
 
 public var _lastSetWayIds: Object = {};
@@ -3111,6 +3112,8 @@ public function drawPointBlobTile(width: Number,
 	
 	var hasValues: Boolean = (_valueColumnIndex!==-1);
 	
+	var isValueDistance: Boolean = (_settings.is_value_distance);
+	
 	var leftLon: Number = viewingArea.left;
 	var rightLon: Number = viewingArea.right;
 	var widthLon: Number = (rightLon-leftLon);
@@ -3147,6 +3150,7 @@ public function drawPointBlobTile(width: Number,
 			
 			var value: Number = 0;
 			var lerpTotal: Number = 0;
+			var minDistance: Number = blobRadius;
 			
 			for each (var point: Object in candidatePoints)
 			{
@@ -3161,10 +3165,14 @@ public function drawPointBlobTile(width: Number,
 				
 				value += (point.value*lerp);
 				lerpTotal += lerp;
+				minDistance = Math.min(minDistance, distance);
 			}
 			
-			var color: uint;
-			if (lerpTotal>0)
+			if (isValueDistance)
+			{
+				value = (minValue+((1-(minDistance/blobRadius))*valueScale));				
+			}
+			else if (lerpTotal>0)
 			{
 				if (hasValues)
 					value = (value/lerpTotal);	
@@ -3176,7 +3184,7 @@ public function drawPointBlobTile(width: Number,
 			
 			var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
 			
-			color = getColorForValue(value, minValue, maxValue, valueScale);
+			var color: uint = getColorForValue(value, minValue, maxValue, valueScale);
 			
 			var colorAlpha: uint = (color>>24)&0xff;
 			var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;

@@ -697,7 +697,8 @@ function OpenHeatMap(canvas)
             is_point_blob_radius_in_pixels: false,
             point_bitmap_scale: 2,
             tab_height: 15,
-            clear_ways: true
+            clear_ways: true,
+            is_value_distance: false
         };
 
         this._lastSetWayIds = {};
@@ -3544,6 +3545,8 @@ function OpenHeatMap(canvas)
         
         var hasValues = (this._valueColumnIndex!==-1);
         
+        var isValueDistance = (this._settings.is_value_distance);
+        
         var leftLon = viewingArea.left();
         var rightLon = viewingArea.right();
         var widthLon = (rightLon-leftLon);
@@ -3585,6 +3588,7 @@ function OpenHeatMap(canvas)
                 
                 var value = 0;
                 var lerpTotal = 0;
+                var minDistance = blobRadius;
                 
                 for (var pointIndex in candidatePoints)
                 {
@@ -3601,10 +3605,14 @@ function OpenHeatMap(canvas)
                     
                     value += (point.value*lerp);
                     lerpTotal += lerp;
+                    minDistance = Math.min(minDistance, distance);
                 }
                 
-                var color;
-                if (lerpTotal>0)
+                if (isValueDistance)
+                {
+                    value = (minValue+((1-(minDistance/blobRadius))*valueScale));                           
+                }
+                else if (lerpTotal>0)
                 {
                     if (hasValues)
                         value = (value/lerpTotal);	
@@ -3616,7 +3624,7 @@ function OpenHeatMap(canvas)
                 
                 var alpha = Math.floor(255*(Math.min(lerpTotal, 1.0)));
                 
-                color = this.getColorForValue(value, minValue, maxValue, valueScale);
+                var color = this.getColorForValue(value, minValue, maxValue, valueScale);
                 
                 var colorAlpha = (color>>24)&0xff;
                 var outputAlpha = ((colorAlpha*alpha)>>8)&0xff;
