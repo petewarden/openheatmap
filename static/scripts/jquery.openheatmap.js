@@ -548,6 +548,12 @@ function OpenHeatMap(canvas)
     this.__constructor = function(canvas)
     {
         this.initializeMembers();
+        
+        if ((navigator.userAgent.indexOf('iPhone') != -1) || 
+            (navigator.userAgent.indexOf('iPod') != -1))
+        {
+            this._settings.point_blob_tile_size = 32;
+        }
 
         this.setSize(800, 600);
 
@@ -698,7 +704,8 @@ function OpenHeatMap(canvas)
             point_bitmap_scale: 2,
             tab_height: 15,
             clear_ways: true,
-            is_value_distance: false
+            is_value_distance: false,
+            point_blob_tile_size: 128
         };
 
         this._lastSetWayIds = {};
@@ -2453,7 +2460,7 @@ function OpenHeatMap(canvas)
             this._pointBlobStillRendering = true;
         }
 
-        var tileSize = 128;	
+        var tileSize = this._settings.point_blob_tile_size;	
         
         while (this._pointBlobTileY<this._pointBlobBitmapHeight)
         {

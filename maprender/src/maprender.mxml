@@ -175,7 +175,8 @@ public var _settings: Object =
 	point_bitmap_scale: 2,
 	tab_height: 15,
 	clear_ways: true,
-	is_value_distance: false
+	is_value_distance: false,
+	point_blob_tile_size: 128
 };
 
 public var _lastSetWayIds: Object = {};
@@ -1986,7 +1987,7 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 		_pointBlobStillRendering = true;
 	}
 
-	var tileSize: int = 128;	
+	var tileSize: int = _settings.point_blob_tile_size;	
 	
 	while (_pointBlobTileY<_pointBlobBitmapHeight)
 	{
