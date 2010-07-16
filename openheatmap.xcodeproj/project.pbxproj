@@ -82,6 +82,16 @@
 		59820D4B11AB32AA0047D5FC /* geoip.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geoip.php; path = website/geoip.php; sourceTree = "<group>"; };
 		59820D9E11AC68570047D5FC /* placemaker.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = placemaker.php; path = website/placemaker.php; sourceTree = "<group>"; };
 		599DCB0F11ED3A370082DE3F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		599DCC1311EF973F0082DE3F /* twitterlocations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterlocations.php; path = mapfileprocess/twitterlocations.php; sourceTree = "<group>"; };
+		599DCC1411EFAD500082DE3F /* twitterquantize.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterquantize.php; path = mapfileprocess/twitterquantize.php; sourceTree = "<group>"; };
+		599DCC1511EFAF330082DE3F /* twittercount.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twittercount.php; path = mapfileprocess/twittercount.php; sourceTree = "<group>"; };
+		599DCC2111EFBBCC0082DE3F /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = config.php; path = website/examples/twitter_followers/config.php; sourceTree = "<group>"; };
+		599DCC2211EFBBCC0082DE3F /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = index.php; path = website/examples/twitter_followers/index.php; sourceTree = "<group>"; };
+		599DCC2411EFBBCC0082DE3F /* oauth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = oauth.php; sourceTree = "<group>"; };
+		599DCC2511EFBBCC0082DE3F /* twitteroauth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = twitteroauth.php; sourceTree = "<group>"; };
+		599DCC2611EFBBCC0082DE3F /* oauthutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = oauthutils.php; path = website/examples/twitter_followers/oauthutils.php; sourceTree = "<group>"; };
+		599DCC2711EFBBCC0082DE3F /* peteutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = peteutils.php; path = website/examples/twitter_followers/peteutils.php; sourceTree = "<group>"; };
+		599DCC2811EFBBCC0082DE3F /* updates.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = updates.php; path = website/examples/twitter_followers/updates.php; sourceTree = "<group>"; };
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -160,6 +170,9 @@
 				59820B8311A44A9F0047D5FC /* reducelod.php */,
 				59820B8411A44A9F0047D5FC /* rules.txt */,
 				59820B8511A44A9F0047D5FC /* selectways.php */,
+				599DCC1511EFAF330082DE3F /* twittercount.php */,
+				599DCC1311EF973F0082DE3F /* twitterlocations.php */,
+				599DCC1411EFAD500082DE3F /* twitterquantize.php */,
 				59820B8611A44A9F0047D5FC /* unemploymenttocsv.php */,
 				59820B8711A44A9F0047D5FC /* worldbanksplitter.php */,
 				5959068F11D7F0EA000715A7 /* ecoprocess.py */,
@@ -239,6 +252,7 @@
 				59820D4711AB15060047D5FC /* hello_world */,
 				59820B9211A44B540047D5FC /* map_data_viewer */,
 				590D2C3511CBC34700954586 /* twitter */,
+				599DCC1611EFBBAE0082DE3F /* twitter_followers */,
 				590D2C4411CD65D400954586 /* twitter_search */,
 				599DCB0D11ED3A360082DE3F /* unemployment_and_congress */,
 				59820B9111A44B450047D5FC /* us_unemployment_county */,
@@ -306,6 +320,29 @@
 			);
 			name = unemployment_and_congress;
 			path = website/examples/unemployment_and_congress;
+			sourceTree = "<group>";
+		};
+		599DCC1611EFBBAE0082DE3F /* twitter_followers */ = {
+			isa = PBXGroup;
+			children = (
+				599DCC2111EFBBCC0082DE3F /* config.php */,
+				599DCC2211EFBBCC0082DE3F /* index.php */,
+				599DCC2311EFBBCC0082DE3F /* oauth */,
+				599DCC2611EFBBCC0082DE3F /* oauthutils.php */,
+				599DCC2711EFBBCC0082DE3F /* peteutils.php */,
+				599DCC2811EFBBCC0082DE3F /* updates.php */,
+			);
+			name = twitter_followers;
+			sourceTree = "<group>";
+		};
+		599DCC2311EFBBCC0082DE3F /* oauth */ = {
+			isa = PBXGroup;
+			children = (
+				599DCC2411EFBBCC0082DE3F /* oauth.php */,
+				599DCC2511EFBBCC0082DE3F /* twitteroauth.php */,
+			);
+			name = oauth;
+			path = website/examples/twitter_followers/oauth;
 			sourceTree = "<group>";
 		};
 		59F11CE411DFFD8900DF3832 /* canvas_test */ = {
