@@ -1,0 +1,28 @@
+state,time,volue
+California,2008,10.7
+California,2009,12
+California,2010,15
+Oregon,2008,9
+Oregon,2009,8
+Oregon,2010,6.2
+Washington,2008,9.1
+Washington,2009,8.7
+Washington,2010,6.9
+Arizona,2008,11.1
+Arizona,2009,14.3
+Arizona,2010,17.4
+Utah,2008,11.9
+Utah,2009,11.3
+Utah,2010,11.1
+New Mexico,2008,8.2
+New Mexico,2009,12.3
+New Mexico,2010,15.9
+Colorado,2008,8.8
+Colorado,2009,8.3
+Colorado,2010,8.7
+Nevada,2008,7.3
+Nevada,2009,8.5
+Nevada,2010,9.1
+Texas,2008,8.5
+Texas,2009,11.3
+Texas,2010,16.9
