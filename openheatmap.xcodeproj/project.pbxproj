@@ -94,6 +94,7 @@
 		599DCC2811EFBBCC0082DE3F /* updates.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = updates.php; path = website/examples/twitter_followers/updates.php; sourceTree = "<group>"; };
 		599DCCD711F259E20082DE3F /* uploadgoogle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = uploadgoogle.html; path = website/uploadgoogle.html; sourceTree = "<group>"; };
 		599DCD9C11F376840082DE3F /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = common.js; path = static/scripts/common.js; sourceTree = "<group>"; };
+		599DCE2611F396BF0082DE3F /* jqueryui.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = jqueryui.css; path = static/css/jqueryui.css; sourceTree = "<group>"; };
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				59820BB111A458D40047D5FC /* colorpicker.css */,
+				599DCE2611F396BF0082DE3F /* jqueryui.css */,
 				59820BB211A458D40047D5FC /* mainstyle.css */,
 			);
 			name = css;
