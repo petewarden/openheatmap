@@ -186,3 +186,30 @@ function htmlspecialchars(string)
 { 
     return $('<span>').text(string).html()
 }
+
+function onStartClick()
+{
+    $('#choose_dialog').dialog({
+        modal: true,
+        draggable: false,
+        resizable: false,
+        title: 'Where is your spreadsheet?',
+        width: 600,
+        autoOpen: false
+        });
+    $('#choose_dialog').dialog('open');
+}
+
+function onVideoClick()
+{
+    $('#choose_dialog').dialog('close');
+    $('#video_dialog').dialog({
+        modal: true,
+        draggable: false,
+        resizable: false,
+        title: 'What\'s this all about?',
+        width: 700,
+        height: 450,
+        autoOpen: true
+        });
+}
