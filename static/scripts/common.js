@@ -213,3 +213,205 @@ function onVideoClick()
         autoOpen: true
         });
 }
+
+function updateOpenHeatMapMessage(event)
+{
+    if (!g_areWaysLoaded||!g_areValuesLoaded)
+    {
+        $('#openheatmap_message').html('Loading map data <img src="http://static.openheatmap.com/images/loading.gif"/>');
+        return;
+    }
+
+    var map = $.getOpenHeatMap();
+    var infoHTML = '';
+
+    if (g_mapSettings.general.type=='colored areas')
+    {
+        map.removeAllPopups();
+        var valueHeaders = map.getValueHeaders();
+        
+        var hasState = false;
+        var hasCounty = false;
+        for (var valueHeaderIndex in valueHeaders)
+        {
+            var valueHeader = valueHeaders[valueHeaderIndex];
+            if (valueHeader==='state_code')
+                hasState = true;
+                
+            if (valueHeader==='county_code')
+                hasCounty = true;
+        }
+
+        var ways = map.getWaysContainingLatLon(event.lat, event.lon);
+        var waysLength = ways.length;
+        
+        infoHTML += g_defaultMessage;
+        
+        if (waysLength>=1)
+        {
+            var popupHTML = '';
+            var wayNames = [];
+            for (var wayIndex in ways)
+            {
+                var way = ways[wayIndex];
+                
+                var wayTags = way.tags;
+                
+                var areaName;
+                if (hasState&&!hasCounty)
+                {
+                    var stateCode = wayTags.state_code;
+                    areaName = g_fipsToStateName[stateCode];
+                }
+                else if (hasState&&hasCounty)
+                {
+                    var stateCode = wayTags.state_code;
+                    var stateName = g_fipsToStateName[stateCode];
+                    var countyName = wayTags.name;
+                    areaName = countyName+', '+stateName;
+                }
+                else if (typeof wayTags.name !== 'undefined')
+                {
+                    areaName = wayTags.name;
+                }
+                else if (typeof wayTags.zip_code !== 'undefined')
+                {
+                    areaName = wayTags.zip_code;
+                }
+                
+                var description = areaName;
+
+                var wayId = way.id;
+                var value = map.getValueForWayId(wayId);
+                
+                if (value!==null)
+                {
+                    description += ' - ';
+                    var valueAsNumber = Number(value);
+                    if (valueAsNumber<0.1)
+                        description += valueAsNumber.toPrecision(3);
+                    else
+                        description += valueAsNumber.toFixed(2);
+                }
+                else
+                {
+                    description += ' - NA';
+                }
+                
+                wayNames.push(description);
+            }
+        
+            popupHTML += wayNames.join(',');
+
+            map.addPopupAtScreenPosition(event.x, event.y, popupHTML);  
+        }
+
+    }
+    else
+    {
+        map.removeAllPopups();
+
+        infoHTML = g_defaultMessage;
+
+        if (g_mapSettings.component.is_value_distance)
+        {
+            var pickRadius = g_mapSettings.component.point_blob_radius;
+        
+            for (var pass=0; pass<6; pass+=1)
+            {        
+                var points = map.getValuePointsNearLatLon(event.lat, event.lon, pickRadius);
+                var pointsLength = points.length;
+                if (pointsLength>=1)
+                    break;
+                    
+                pickRadius *= 2;
+            }
+            
+            var closestDistance = 10000000;
+            var closestName = '';
+            for (var pointIndex in points)
+            {
+                var point = points[pointIndex];
+                
+                var distance = distanceFromLatLon(event.lat, event.lon, point.lat, point.lon, 'M');                
+                if (distance<closestDistance)
+                {
+                    closestDistance = distance;
+                    if (typeof point.name !== 'undefined')
+                        closestName = point.name;
+                }
+            }
+
+            if (closestDistance<10000000)
+            {
+                var popupHTML = '';
+                popupHTML += closestDistance.toFixed(1)+' miles';
+
+                if (closestName!=='')
+                    popupHTML += ' to '+closestName;
+
+                map.addPopup(event.lat, event.lon, popupHTML);        
+            }
+
+        }
+        else
+        {
+            var pickRadius = g_mapSettings.component.point_blob_radius;
+        
+            var points = map.getValuePointsNearLatLon(event.lat, event.lon, pickRadius);
+            var pointsLength = points.length;
+            if (pointsLength>=1)
+            {
+                var pointNames = [];
+                var closestIndex;
+                
+                if (pointsLength===1)
+                {
+                    closestIndex = 0;
+                }
+                else
+                {
+                    var closestDistance = 10000000;
+                    for (var pointIndex in points)
+                    {
+                        var point = points[pointIndex];
+                        var deltaLat = (event.lat-point.lat);
+                        var deltaLon = (event.lon-point.lon);
+                        var distanceSquared = ((deltaLat*deltaLat)+(deltaLon*deltaLon));
+                        
+                        if (distanceSquared<closestDistance)
+                        {
+                            closestDistance = distanceSquared;
+                            closestIndex = pointIndex;
+                        }
+                    }
+                    
+                }
+
+                var point = points[closestIndex];
+
+                var popupHTML = '';
+                for (var key in point)
+                {
+                    if ((key==='lat')||(key==='lon'))
+                        continue;
+
+                    var value = point[key];
+                    if (value==='')
+                        continue;
+                    
+                    popupHTML += key;
+                    popupHTML += ': ';
+                    popupHTML += value;
+                    popupHTML += ' ';
+                }
+
+                map.addPopup(point.lat, point.lon, popupHTML);        
+            }
+        }
+    }
+
+    $('#openheatmap_message').html(infoHTML);
+    
+    return true;
+}
