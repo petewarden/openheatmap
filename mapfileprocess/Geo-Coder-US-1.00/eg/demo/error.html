@@ -1,0 +1,44 @@
+[% INSERT header.html %]
+<table width="75%">
+<tr><td>
+<form>
+<div>
+    <p>
+	No matches were found for
+	<input type="text" name="address" value="[% address %]" size="60" />
+	<input type="submit" value="Search" />
+    </p>
+	[% IF reason == 'missing' %]
+	<h3>Reason:</h3>
+	<p class="text">
+	    The address provided could not be found.
+	</p>
+
+	<h3>Suggestions:</h3>
+	<p class="text"> 
+	    You might try
+	    adding a comma between the street and the city name,
+	    as this often helps to disambiguate complex addresses. If
+	    you're sure this address exists, please drop an e-mail to <a
+	    href="mailto:missing@geocoder.us">missing@geocoder.us</a>,
+	    so that we can attempt to improve our code.
+	</p>
+	[% ELSE %]
+	<h3>Reason:</h3>
+	<p class="text">
+	    The address provided could not be parsed.
+	</p>
+
+	<h3>Suggestions:</h3>
+	<p class="text"> Be sure
+	    all addresses contain a city and state, or a ZIP
+	    code. You might check the US Postal Service's <a
+	    href="http://www.usps.com/zip4/">ZIP+4 lookup</a> to find
+	    the canonical rendering of this address.
+	[% END %]
+    </p>
+</div>
+</form>
+</td></tr></table>
+
+[% INSERT footer.html %]

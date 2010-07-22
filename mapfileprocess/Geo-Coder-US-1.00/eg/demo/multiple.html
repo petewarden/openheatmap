@@ -1,0 +1,40 @@
+
+[% INSERT header.html %]
+<form>
+<div>Showing [% matches.size %] matches for
+    <input type="text" name="address" value="[% address %]" size="60" />
+    <input type="submit" value="Search" />
+</div>
+</form>
+	    <table border="0" cellspacing="10" width="90%">
+	    <tr>
+		<th>Latitude</th>
+		<th>Longitude</th>
+		<th>Address</th>
+		<th>Map</th>
+	    </tr>
+
+	    [% FOREACH matches %]
+		    <tr>
+			<td align="center">[% lat %] &deg;</td>
+			<td align="center">[% long %] &deg;</td>
+		<td align="center">
+		[% IF street1 %]
+		    [% prefix1 %] [% street1 %]
+			[% type1 %] [% suffix1 %] &amp;
+			[% prefix2 %] [% street2 %]
+			[% type2 %] [% suffix2 %]
+		[% ELSE %]
+		    [% number %] [% prefix %]
+			[% street %] [% type %] [% suffix %]
+		[% END %]
+		<br />[% city %] [% state %] [% zip %]</td>
+
+		 <td align="center"><a 
+	           href="demo.cgi?address=[% address %]&match=[% match %]">	
+		 <img src="http://tiger.census.gov/cgi-bin/mapgen?lat=[% lat %]&lon=[% long %]&wid=[% width %]&ht=[% width %]&mark=[% long %],[% lat %],redpin&iwd=192&iht=192" height="192" width="192" border="1" /></a>
+	         </td>	
+	    </tr>
+	[% END %]
+	</table>
+[% INSERT footer.html %]

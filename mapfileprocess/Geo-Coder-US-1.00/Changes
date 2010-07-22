@@ -1,0 +1,10 @@
+Revision history for Perl extension Geo::Coder::US.
+
+0.21  Mon Jun 14 18:54:47 PDT 2004
+	- Added FIPS-55 "other" names.
+
+0.20  Sun Jun 13 00:16:40 PDT 2004
+	- Added FIPS-55 "part of" names.
+
+0.10  Mon Apr  5 01:40:16 2004
+	- original version; created by h2xs 1.23

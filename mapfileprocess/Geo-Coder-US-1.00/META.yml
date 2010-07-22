@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Geo-Coder-US
+version:      1.00
+version_from: US.pm
+installdirs:  site
+requires:
+    DB_File:                       0
+    Geo::Fips55:                   0.01
+    Geo::StreetAddress::US:        0.99
+    Geo::TigerLine:                0.02
+    Test::More:                    0.47
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

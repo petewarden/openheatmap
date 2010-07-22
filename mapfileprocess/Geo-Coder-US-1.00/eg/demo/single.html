@@ -1,0 +1,142 @@
+[% INSERT header.html %]
+
+<script language="JavaScript">
+    function getOffsets (evt) {
+	var target = evt.target;
+	if (typeof target.offsetLeft == 'undefined') {
+	    target = target.parentNode;
+	}
+	var pageCoords = getPageCoords(target);
+	var eventCoords = { 
+	    x: window.pageXOffset + evt.clientX,
+	    y: window.pageYOffset + evt.clientY
+	};
+	var offsets = {
+	    offsetX: eventCoords.x - pageCoords.x,
+	    offsetY: eventCoords.y - pageCoords.y
+	}
+	return offsets;
+    }
+
+    function getPageCoords (element) {
+	var coords = {x : 0, y : 0};
+	while (element) {
+	    coords.x += element.offsetLeft;
+	    coords.y += element.offsetTop;
+	    element = element.offsetParent;
+	}
+	return coords;
+    }
+
+    var mapCenterLat = [% lat %], mapCenterLon = [% long %],
+	mapPixels = [% pixels %], mapWid = [% width %];
+
+    var mapLat = mapCenterLat, mapLon = mapCenterLon, 
+	mapZoom = 3, mapMaxWid = 50, mapMinWid = .001;
+
+    function mapZoomOut (event) {
+	if (mapWid * mapZoom < mapMaxWid) 
+	    mapWid *= mapZoom;
+	else
+	    mapWid = mapMaxWid;
+	mapRedraw();
+	return false;
+    }
+
+    function mapZoomIn (event) {
+	if (mapWid / mapZoom > mapMinWid)
+	    mapWid /= mapZoom;
+	else
+	    mapWid = mapMinWid;
+	mapRedraw();
+	return false;
+    }
+
+    function mapCenter (event) {
+	var perPixel = mapWid / mapPixels,
+	    mapCenter = mapPixels / 2;
+	var off = getOffsets(event);
+	var x = off.offsetX,
+            y = off.offsetY;
+	mapLat += (mapCenter - y) * perPixel;
+	mapLon += (x - mapCenter) * perPixel;
+	mapRedraw();
+	return false;
+    }
+
+    function mapRecenter (event) {
+	mapLat = mapCenterLat;
+	mapLon = mapCenterLon;
+	mapRedraw();
+	return false;
+    }
+	
+    function mapRedraw () {
+	document.mapLoading.src = "img/red-dot.png";
+	document.mapImage.src = 
+	    "http://tiger.census.gov/cgi-bin/mapgen?" +
+		"lon=" + mapLon + "&lat=" + mapLat + 
+		"&wid=" + mapWid + "&ht="  + mapWid +
+		"&iht=" + mapPixels + "&iwd=" + mapPixels +
+		"&mark=" + mapCenterLon + "," + mapCenterLat + ",redpin";
+    }
+</script>
+
+  <table width="90%" cellspacing="20%" border="0">
+  <tr valign="top">
+    <td>
+	<h3>Address</h3>
+    </td>
+    <td>
+	[% IF street1 %]
+	    [% prefix1 %] [% street1 %]
+		[% type1 %] [% suffix1 %] &amp;
+		[% prefix2 %] [% street2 %]
+		[% type2 %] [% suffix2 %]
+	[% ELSE %]
+	    [% number %] [% prefix %]
+		[% street %] [% type %] [% suffix %]
+	[% END %]
+	<br />[% city %] [% state %] [% zip %]
+    </td>
+    <td width="[% pixels %]" rowspan="4">
+    <div onClick="return mapCenter(event)"><img
+	name="mapImage" src="[% map %]"
+	width="[% pixels %]" height="[% pixels %]" border="2"
+	style="cursor: crosshair"
+	onLoad="document.mapLoading.src = 'img/green-dot.png';" /></div>
+    </td>
+    <td rowspan="4">
+	<a href="" onClick="return mapZoomIn()"><img
+	    src="img/zoom-in.png" width="32" height="32" border="0" /></a>
+	    <br />
+	<a href="" onClick="return mapZoomOut()"><img
+	    src="img/zoom-out.png" width="32" height="32" border="0" /></a>
+	    <br />
+	<a href="" onClick="return mapRecenter()"><img
+	    src="img/recenter.png" width="32" height="32" border="0" /></a>
+	    <br />
+	<img name="mapLoading"
+	    src="img/red-dot.png" width="32" height="32" border="0" />
+    </td>
+</tr>
+<tr>
+    <td><h3>Latitude</h3></td>
+    <td>[% lat %] &deg;</td>
+</tr>
+<tr>
+    <td><h3>Longitude</h3></td>
+    <td>[% long %] &deg;</td>
+</tr>
+<tr>
+    <td colspan="2">
+	<h3>Search for another address:</h3>
+	<form>
+	    <input type="text" name="address" size="45" value="[% address %]" />
+	    <input type="submit" value="Submit" />
+	</form>
+    </td>
+  </tr>
+  </table>
+[% INSERT footer.html %]
+</html>

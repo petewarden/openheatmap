@@ -7,3 +7,4 @@ website/config.php
 mapfileprocess/test_data/zipcode_clean.osm
 static/openheatmap.swf
 website
+mapfileprocess/test_data/tiger_data
