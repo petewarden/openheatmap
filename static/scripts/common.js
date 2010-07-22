@@ -437,3 +437,25 @@ function distanceFromLatLon(lat1, lon1, lat2, lon2, unit)
     return dist
 }
 
+function onEmbed(event) {
+
+    var location = window.location.href;
+    location = location.replace('view.html', 'embed.html');
+    
+    var embedCode = '<iframe '
+        +'width="600" '
+        +'height="450" '
+        +'src="'+location+'" '
+        +'></iframe>';
+    
+    var inputElement = $('<input type="text" size="80">');
+    inputElement.val(embedCode);
+    
+    $('#ck_embedthis_span')
+    .empty()
+    .append($('<br>'))
+    .append(inputElement);
+
+    return false;
+};    
+
