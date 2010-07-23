@@ -100,6 +100,14 @@
 		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		59F11F9911E556A900DF3832 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embed.html; path = website/embed.html; sourceTree = "<group>"; };
 		59F11FA911E5588A00DF3832 /* embedtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embedtest.html; path = website/embedtest.html; sourceTree = "<group>"; };
+		59FC5C3611F90BFC00A4E6F1 /* bdb_lookup.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = bdb_lookup.pl; sourceTree = "<group>"; };
+		59FC5C4311F90BFC00A4E6F1 /* geocode_benchmark.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = geocode_benchmark.pl; sourceTree = "<group>"; };
+		59FC5C4411F90BFC00A4E6F1 /* geocode_cli.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = geocode_cli.pl; sourceTree = "<group>"; };
+		59FC5C4511F90BFC00A4E6F1 /* import_fips.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = import_fips.pl; sourceTree = "<group>"; };
+		59FC5C4611F90BFC00A4E6F1 /* import_tiger.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = import_tiger.pl; sourceTree = "<group>"; };
+		59FC5C4711F90BFC00A4E6F1 /* import_tiger_zip.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = import_tiger_zip.pl; sourceTree = "<group>"; };
+		59FC5C4811F90BFC00A4E6F1 /* lookup.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = lookup.pl; sourceTree = "<group>"; };
+		59FC5C4911F90D5600A4E6F1 /* geocoder.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geocoder.php; path = website/geocoder.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -151,6 +159,7 @@
 		59820B7311A44A450047D5FC /* mapfileprocess */ = {
 			isa = PBXGroup;
 			children = (
+				59FC5C3011F90BE000A4E6F1 /* Geo-Coder-US-1.00 */,
 				59820B7711A44A9F0047D5FC /* bucketgrid.php */,
 				59820CE511A8789A0047D5FC /* cleanmesh.php */,
 				59820B7811A44A9F0047D5FC /* cliargs.php */,
@@ -201,6 +210,7 @@
 				59F11FA911E5588A00DF3832 /* embedtest.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
 				59820D4911AB289F0047D5FC /* gallery.html */,
+				59FC5C4911F90D5600A4E6F1 /* geocoder.php */,
 				59820D4B11AB32AA0047D5FC /* geoip.php */,
 				59820B9411A44B890047D5FC /* geometryindex.php */,
 				59820B9511A44B890047D5FC /* index.html */,
@@ -358,6 +368,29 @@
 			);
 			name = canvas_test;
 			path = website/examples/canvas_test;
+			sourceTree = "<group>";
+		};
+		59FC5C3011F90BE000A4E6F1 /* Geo-Coder-US-1.00 */ = {
+			isa = PBXGroup;
+			children = (
+				59FC5C3511F90BFC00A4E6F1 /* eg */,
+			);
+			name = "Geo-Coder-US-1.00";
+			sourceTree = "<group>";
+		};
+		59FC5C3511F90BFC00A4E6F1 /* eg */ = {
+			isa = PBXGroup;
+			children = (
+				59FC5C3611F90BFC00A4E6F1 /* bdb_lookup.pl */,
+				59FC5C4311F90BFC00A4E6F1 /* geocode_benchmark.pl */,
+				59FC5C4411F90BFC00A4E6F1 /* geocode_cli.pl */,
+				59FC5C4511F90BFC00A4E6F1 /* import_fips.pl */,
+				59FC5C4611F90BFC00A4E6F1 /* import_tiger.pl */,
+				59FC5C4711F90BFC00A4E6F1 /* import_tiger_zip.pl */,
+				59FC5C4811F90BFC00A4E6F1 /* lookup.pl */,
+			);
+			name = eg;
+			path = "mapfileprocess/Geo-Coder-US-1.00/eg";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
