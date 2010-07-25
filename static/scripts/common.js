@@ -459,3 +459,324 @@ function onEmbed(event) {
     return false;
 };    
 
+var g_openHeatMap = null;
+
+function commonOnMapCreated()
+{
+    var mapSettings = g_mapSettings;
+    
+    var openHeatMap = $.getOpenHeatMap();
+    
+    g_openHeatMap = openHeatMap;
+    
+    setMapSize(mapSettings.general.width, mapSettings.general.height);
+
+    openHeatMap.bind('mousemove', 'onMouseMove');
+    openHeatMap.bind('datachange', 'onDataChange');
+    openHeatMap.bind('waysload', 'onWaysLoad');
+    openHeatMap.bind('valuesload', 'onValuesLoad');
+    openHeatMap.bind('error', 'onError');
+
+    if (mapSettings.general.author_name!=='')
+    {
+        var authorHtml = '<i>Map created by ';
+        if (mapSettings.general.author_url!=='')
+        {
+            authorHtml += '<a rel="nofollow" href="http://';
+            authorHtml += mapSettings.general.author_url;
+            authorHtml += '">';
+        }
+        authorHtml += mapSettings.general.author_name;
+        if (mapSettings.general.author_url!=='')
+        {
+            authorHtml += '</a>';
+        }
+        authorHtml += '</i>';
+        $('#author_message').html(authorHtml);
+    }
+
+    document.title = 'OpenHeatMap - '+mapSettings.component.title_text;
+
+    updateMapWithSettings(mapSettings);
+
+    loadMapGeometryForSettings(mapSettings);
+
+    if ((typeof mapSettings.general.external_source === 'undefined')||
+        (mapSettings.general.external_source === ''))
+    {
+        var valuesUrl = '/data/';
+        valuesUrl += g_currentMapId;
+        valuesUrl += '/values.csv';    
+    }
+    else
+    {
+        var valuesUrl = 'retrieveonlinedata.php';
+        valuesUrl += '?map='+g_currentMapId;
+        
+        if ($(document).getUrlParam('refresh')==='true')
+            valuesUrl += '&refresh=true';
+    }
+    
+    openHeatMap.loadValuesFromFile(valuesUrl);
+}
+
+function onWaysLoad(event)
+{
+    g_areWaysLoaded = true;
+
+    if (g_areWaysLoaded&&g_areValuesLoaded)
+        $('#openheatmap_message').html(g_defaultMessage);
+    
+    return true;
+}
+
+function onValuesLoad(event)
+{
+    g_areValuesLoaded = true;
+    
+    if (g_areWaysLoaded&&g_areValuesLoaded)
+        $('#openheatmap_message').html(g_defaultMessage);
+    
+    return true;
+}
+
+function onError(message)
+{
+    setInfoDisplayHTML(message);
+}
+
+g_lastEvent = null;
+
+function onMouseMove(event)
+{
+    g_lastEvent = event;
+
+    updateOpenHeatMapMessage(event);
+    
+    return true;
+}
+
+function onDataChange()
+{
+    updateOpenHeatMapMessage(g_lastEvent);
+    
+    return true;
+}
+
+function updateMapWithSettings(mapSettings)
+{
+    var openHeatMap = $.getOpenHeatMap();
+
+    for (var key in mapSettings.component)
+    {
+        var value = mapSettings.component[key];
+        openHeatMap.setSetting(key, value);
+    }
+    
+    openHeatMap.setColorGradient(mapSettings.general.gradient_with_alpha);
+    
+    openHeatMap.setWayDefault('color', 0xf0f0f0);
+}
+
+function loadMapGeometryForSettings(mapSettings)
+{
+    var openHeatMap = $.getOpenHeatMap();
+
+    setMapSize(mapSettings.general.width, mapSettings.general.height);
+
+    openHeatMap.setLatLonViewingArea(
+        mapSettings.general.top_lat,
+        mapSettings.general.left_lon,
+        mapSettings.general.bottom_lat,
+        mapSettings.general.right_lon
+    );
+ 
+    openHeatMap.removeAllInlays();   
+    var inlays = mapSettings.general.inlays;
+    for (var inlayIndex in inlays)
+    {
+        var inlay = inlays[inlayIndex];
+        openHeatMap.addInlay(
+            inlay.left_x,
+            inlay.top_y,
+            inlay.right_x,
+            inlay.bottom_y,
+            inlay.top_lat,
+            inlay.left_lon,
+            inlay.bottom_lat,
+            inlay.right_lon
+        );
+    }
+
+    $('#openheatmap_message').html('Loading map data <img src="http://static.openheatmap.com/images/loading.gif"/>');
+    g_areWaysLoaded = false;
+    
+    openHeatMap.removeAllWays();
+
+    if (mapSettings.general.ways_file!='')
+        openHeatMap.loadWaysFromFile(mapSettings.general.ways_file);
+    else
+        g_areWaysLoaded = true;
+}
+
+function setMapSize(width, height)
+{
+    var openHeatMap = $.getOpenHeatMap();
+    
+    openHeatMap.setSize(width, height);
+    
+    $('#openheatmap_container')
+    .width(width+'px')
+    .height(height+'px');
+
+    $('#openheatmap')
+    .width(width+'px')
+    .height(height+'px');
+}
+
+function createGradientFromSettings()
+{
+    if (typeof g_mapSettings.general.gradient_with_alpha!== 'undefined')
+        return;
+
+    var gradient = [];
+    gradient.push(g_mapSettings.general.gradient_start_color);
+    gradient.push(g_mapSettings.general.gradient_mid_color);
+    gradient.push(g_mapSettings.general.gradient_end_color);
+      
+    var gradientWithAlpha = [];
+
+    if (g_mapSettings.general.type!='colored areas')
+    {
+        gradientWithAlpha.push('#00000000');
+    }
+
+    for (var gradientIndex in gradient)
+    {
+        var color = gradient[gradientIndex];
+        color = color.replace('#', '');
+        
+        var alpha = 255;        
+        var colorString = '#'+alpha.toString(16)+color;
+        
+        gradientWithAlpha.push(colorString);
+    }
+    
+    g_mapSettings.general.gradient_with_alpha = gradientWithAlpha;
+}
+
+function createColorKeyHTML(mapSettings)
+{
+    var result = '';
+    
+    result += '<center>';
+    result += '<div style="';
+    result += 'font-size:80%; text-decoration: italic;';
+    result += 'margin-top: 5px; ';
+    result += 'width:'+mapSettings.general.width+'px; ';
+    result += '">';
+    
+    result += '<div style="';
+    result += '">';
+
+    var keyDescription = 'Color Key';
+    if (typeof mapSettings.general.key_description !== 'undefined')
+        keyDescription = mapSettings.general.key_description;
+        
+    result += '<i>'+keyDescription+'</i>&nbsp;&nbsp;&nbsp;&nbsp;';
+    
+    if (!g_mapSettings.component.is_value_distance)
+    {    
+        result += '<div style="';
+        result += 'display: inline; ';
+        result += 'background-color: '+mapSettings.general.gradient_start_color+'; ';
+        result += 'border: 1px solid #000000; ';
+        result += '">';
+        result += parseInt(mapSettings.component.gradient_value_min).toPrecision(3);
+        result += '</div>';
+        
+        result += '&nbsp;&nbsp;&nbsp;&nbsp;';
+
+        var midValue = (parseInt(mapSettings.component.gradient_value_min)+
+            parseInt(mapSettings.component.gradient_value_max))/2;
+
+        result += '<div style="';
+        result += 'display: inline; ';
+        result += 'background-color: '+mapSettings.general.gradient_mid_color+'; ';
+        result += 'border: 1px solid #000000; ';
+        result += '">';
+        result += midValue.toPrecision(3);
+        result += '</div>';    
+        
+        result += '&nbsp;&nbsp;&nbsp;&nbsp;';
+        
+        result += '<div style="';
+        result += 'display: inline; ';
+        result += 'background-color: '+mapSettings.general.gradient_end_color+'; ';
+        result += 'border: 1px solid #000000; ';
+        result += '">';
+        result += parseInt(mapSettings.component.gradient_value_max).toPrecision(3);
+        result += '</div>';
+    }
+    
+    result += '</div>';
+    
+    result += '</div>';
+    result += '</center>';
+    
+    return result;
+}
+
+g_fipsToStateName = {
+    '01': 'Alabama',
+    '29': 'Missouri',
+    '02': 'Alaska',
+    '30': 'Montana',
+    '04': 'Arizona',
+    '31': 'Nebraska',
+    '05': 'Arkansas',
+    '32': 'Nevada',
+    '06': 'California',
+    '33': 'New Hampshire',
+    '08': 'Colorado',
+    '34': 'New Jersey',
+    '09': 'Connecticut',
+    '35': 'New Mexico',
+    '10': 'Delaware',
+    '36': 'New York',
+    '11': 'Washington DC',
+    '37': 'North Carolina',
+    '12': 'Florida',
+    '38': 'North Dakota',
+    '13': 'Georgia',
+    '39': 'Ohio',
+    '40': 'Oklahoma',
+    '41': 'Oregon',
+    '15': 'Hawaii',
+    '42': 'Pennsylvania',
+    '16': 'Idaho',
+    '44': 'Rhode Island',
+    '17': 'Illinois',
+    '45': 'South Carolina',
+    '18': 'Indiana',
+    '46': 'South Dakota',
+    '19': 'Iowa',
+    '47': 'Tennessee',
+    '20': 'Kansas',
+    '48': 'Texas',
+    '21': 'Kentucky',
+    '49': 'Utah',
+    '22': 'Louisiana',
+    '50': 'Vermont',
+    '23': 'Maine',
+    '51': 'Virginia',
+    '24': 'Maryland',
+    '53': 'Washington',
+    '25': 'Massachusetts',
+    '54': 'West Virginia',
+    '26': 'Michigan',
+    '55': 'Wisconsin',
+    '27': 'Minnesotta',
+    '56': 'Wyoming',
+    '28': 'Mississippi'
+};

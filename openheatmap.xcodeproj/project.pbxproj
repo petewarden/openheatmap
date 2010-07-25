@@ -108,6 +108,9 @@
 		59FC5C4711F90BFC00A4E6F1 /* import_tiger_zip.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = import_tiger_zip.pl; sourceTree = "<group>"; };
 		59FC5C4811F90BFC00A4E6F1 /* lookup.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = lookup.pl; sourceTree = "<group>"; };
 		59FC5C4911F90D5600A4E6F1 /* geocoder.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geocoder.php; path = website/geocoder.php; sourceTree = "<group>"; };
+		59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = retrieveonlinedata.php; path = website/retrieveonlinedata.php; sourceTree = "<group>"; };
+		59FC5C4B11FB7BC700A4E6F1 /* yellowpagescrawl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = yellowpagescrawl.php; path = mapfileprocess/yellowpagescrawl.php; sourceTree = "<group>"; };
+		59FC5C4C11FB7BD700A4E6F1 /* parallelcurl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = parallelcurl.php; path = mapfileprocess/parallelcurl.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -175,6 +178,7 @@
 				59820CE611A87B390047D5FC /* geomutils.php */,
 				59820B7D11A44A9F0047D5FC /* mergeosmfiles.php */,
 				59820B7E11A44A9F0047D5FC /* osmways.php */,
+				59FC5C4C11FB7BD700A4E6F1 /* parallelcurl.php */,
 				59820B7F11A44A9F0047D5FC /* placeiqtocsv.php */,
 				59820B8011A44A9F0047D5FC /* polyshp2osm.py */,
 				59820B8111A44A9F0047D5FC /* publish.sh */,
@@ -187,6 +191,7 @@
 				599DCC1411EFAD500082DE3F /* twitterquantize.php */,
 				59820B8611A44A9F0047D5FC /* unemploymenttocsv.php */,
 				59820B8711A44A9F0047D5FC /* worldbanksplitter.php */,
+				59FC5C4B11FB7BC700A4E6F1 /* yellowpagescrawl.php */,
 				5959068F11D7F0EA000715A7 /* ecoprocess.py */,
 			);
 			name = mapfileprocess;
@@ -221,6 +226,7 @@
 				59820B9911A44B890047D5FC /* locationvalueshelp.php */,
 				59820B9A11A44B890047D5FC /* mapsettings.php */,
 				59820D9E11AC68570047D5FC /* placemaker.php */,
+				59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */,
 				59820B9B11A44B890047D5FC /* S3.php */,
 				59820B9C11A44B890047D5FC /* savesettings.php */,
 				59820B9D11A44B890047D5FC /* settingshelp.php */,
