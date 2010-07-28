@@ -2602,7 +2602,10 @@ function OpenHeatMap(canvas)
                     if (typeof this._tabInfo[thisTab] === 'undefined')
                     {
                         this._tabInfo[thisTab] = {};
-                        this._tabNames.push(thisTab);					
+                        this._tabNames.push(thisTab);
+                    }
+                    if (typeof dataDestination[thisTab] === 'undefined')
+                    {
                         dataDestination[thisTab] = [];
                     }
                     
@@ -2618,6 +2621,9 @@ function OpenHeatMap(canvas)
                     if (typeof this._foundTimes[thisTime] === 'undefined')
                     {
                         this._foundTimes[thisTime] = true;
+                    }
+                    if (typeof dataDestination[thisTime] === 'undefined')
+                    {
                         dataDestination[thisTime] = [];
                     }
                     
