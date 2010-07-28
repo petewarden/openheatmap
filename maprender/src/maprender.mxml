@@ -671,7 +671,7 @@ private function doEveryFrame(event: Event): void
 
 	if (_hasTime)
 	{
-		if (_timelineControls.isPlaying)
+		if (_timelineControls.isPlaying&&!_pointBlobStillRendering)
 		{
 			_frameIndex += 1;
 			if (_frameIndex>=_frameTimes.length)
@@ -2129,7 +2129,10 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 				if (typeof _tabInfo[thisTab] === 'undefined')
 				{
 					_tabInfo[thisTab] = {};
-					_tabNames.push(thisTab);					
+					_tabNames.push(thisTab);
+				}
+				if (typeof dataDestination[thisTab] === 'undefined')
+				{
 					dataDestination[thisTab] = [];
 				}
 				
@@ -2145,6 +2148,9 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 				if (typeof _foundTimes[thisTime] === 'undefined')
 				{
 					_foundTimes[thisTime] = true;
+				}
+				if (typeof dataDestination[thisTime] === 'undefined')
+				{
 					dataDestination[thisTime] = [];
 				}
 				

@@ -76,6 +76,7 @@
                     } else {
                         element.css({
                             opacity: 0.0,
+                            display: 'none',
                             position: 'absolute',
                             left: self.settings.rightX+'px',
                             top: self.settings.topY+'px'

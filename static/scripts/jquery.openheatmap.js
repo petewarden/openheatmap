@@ -1157,7 +1157,7 @@ function OpenHeatMap(canvas)
         
         if (this._hasTime)
         {
-            if (this._timelineButton.getIsOn())
+            if (this._timelineButton.getIsOn()&&!this._pointBlobStillRendering)
             {
                 this._frameIndex += 1;
                 if (this._frameIndex>=this._frameTimes.length)
