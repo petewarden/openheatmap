@@ -16,9 +16,7 @@ for ((i=0;i<$SERVER_COUNT;i++)); do
   SERVER_HOST=root@${SERVER_LIST[${i}]}
   SERVER_FULL=${SERVER_HOST}:${SERVER_PATH}
 
-  rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.xml ${SERVER_FULL}
-  rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.php ${SERVER_FULL}
-  rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.html ${SERVER_FULL}
+  rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}*.* ${SERVER_FULL}
 
   rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}examples/* ${SERVER_FULL}/examples/
 
