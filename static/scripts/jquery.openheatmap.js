@@ -717,7 +717,7 @@ function OpenHeatMap(canvas)
 
         this._informationLayerCanvas = null;
 
-        this._mapTilesDirty = true;
+        this._mapTilesDirty = false;
 	
         this._tabColumnIndex = -1;
         this._hasTabs = false;
@@ -2780,7 +2780,7 @@ function OpenHeatMap(canvas)
             'show_map_tiles': function(instance) {
                 if (typeof instance._settings.show_map_tiles==='string')
                     instance._settings.show_map_tiles = (Boolean)(instance._settings.show_map_tiles);
-                instance._mapTilesDirty = true;
+                instance._mapTilesDirty = instance._settings.show_map_tiles;
             },
             'information_alpha': function(instance) {
                 instance.setWayDefault('alpha', instance._settings.information_alpha);
@@ -2859,8 +2859,8 @@ function OpenHeatMap(canvas)
         {
             var inlay = this._inlays[inlayIndex];
         
-            var topLeftScreen = this.getXYFromLatLon(inlay.worldTopLeftLatLon, _latLonToXYMatrix);
-            var bottomRightScreen = this.getXYFromLatLon(inlay.worldBottomRightLatLon, _latLonToXYMatrix);
+            var topLeftScreen = this.getXYFromLatLon(inlay.worldTopLeftLatLon, this._latLonToXYMatrix);
+            var bottomRightScreen = this.getXYFromLatLon(inlay.worldBottomRightLatLon, this._latLonToXYMatrix);
             
             var outputInlay =
             {
@@ -3665,6 +3665,14 @@ function OpenHeatMap(canvas)
             }
 
         }       
+    };
+
+    this.getAnimationTime = function() {
+        if (!this._hasTime)
+            return null;
+	
+        var currentTime = this._frameTimes[this._frameIndex];
+        return currentTime;	
     };
 
     this.beginDrawing = function(canvas) {

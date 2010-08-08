@@ -499,7 +499,10 @@ function commonOnMapCreated()
 
     document.title = 'OpenHeatMap - '+mapSettings.component.title_text;
 
-    $('#title_text').text(mapSettings.component.title_text);
+    if (mapSettings.component.title_text!=='')
+        $('#title_text').text(mapSettings.component.title_text);
+    else
+        $('#title_text').html('&nbsp;');
 
     updateMapWithSettings(mapSettings);
 
@@ -540,6 +543,15 @@ function onValuesLoad(event)
     
     if (g_areWaysLoaded&&g_areValuesLoaded)
         $('#openheatmap_message').html(g_defaultMessage);
+
+    var openHeatMap = $.getOpenHeatMap();
+
+    if ((typeof g_mapSettings.general.animation_time !== 'undefined') &&
+        (g_mapSettings.general.animation_time != null) &&
+        (g_mapSettings.general.animation_time != ''))
+    {
+        openHeatMap.setAnimationTime(g_mapSettings.general.animation_time);
+    }
     
     return true;
 }
@@ -614,6 +626,7 @@ function loadMapGeometryForSettings(mapSettings)
             inlay.right_lon
         );
     }
+        
 
     $('#openheatmap_message').html('Loading map data <img src="http://static.openheatmap.com/images/loading.gif"/>');
     g_areWaysLoaded = false;

@@ -275,6 +275,7 @@ public function startup():void
 	ExternalInterface.addCallback("addPopupAtScreenPosition", addPopupAtScreenPosition);
 	ExternalInterface.addCallback("setAttributeForMatchingWays", setAttributeForMatchingWays);
 	ExternalInterface.addCallback("setAnimationTime", setAnimationTime);
+	ExternalInterface.addCallback("getAnimationTime", getAnimationTime);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -3287,6 +3288,14 @@ private function drawPopupsIntoViewer(): void
 	}
 }
 
+private function getAnimationTime(): String
+{
+	if (!_hasTime)
+		return null;
+	
+	var currentTime: String = _frameTimes[_frameIndex];
+	return currentTime;	
+}
 	
 ]]>
 </mx:Script>
