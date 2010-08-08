@@ -38,6 +38,12 @@ package
 		[Embed(source="images/pause.png")]
 		public var PauseImage:Class;
 
+		[Embed(source="images/thumb.png")]
+		public var ThumbImage:Class;
+
+		[Embed(source="images/track.png")]
+		public var TrackImage:Class;
+
 		protected var _timeTextLabel: Label = new Label();
 		protected var _playButton: Image = new Image();
 		protected var _buttonContainer: HBox = new HBox();
@@ -110,12 +116,12 @@ package
 
 		override public function initialize(): void
 		{
-			setStyle( "verticalAlign", "middle" );
+//			setStyle( "verticalAlign", "middle" );
 			setStyle( "paddingLeft", 15 );
 			setStyle( "paddingRight", 15 );
-			setStyle( "paddingTop", 3 );
-			setStyle( "paddingBottom", 3 );
-			setStyle( "horizontalGap", 10 );
+//			setStyle( "paddingTop", 3 );
+//			setStyle( "paddingBottom", 3 );
+//			setStyle( "horizontalGap", 10 );
 			
 			_buttonContainer.setStyle( "horizontalGap", 3 );
 			_buttonContainer.setStyle( "verticalAlign", "middle" );
@@ -128,12 +134,15 @@ package
 			_playButton.source = playAsset;
 			_buttonContainer.addChild( _playButton );
 
-			_titleContainer.setStyle( "verticalGap", 0 );
+//			_titleContainer.setStyle( "verticalGap", 0 );
 			_titleContainer.width = _wantedWidth;
+			_titleContainer.y = -10;
 			addChild( _titleContainer );
 
 			_slider.percentWidth = 100;
-			_slider.setStyle("horizontalAlign", "center");
+//			_slider.setStyle("horizontalAlign", "center");
+			_slider.setStyle("thumbSkin", ThumbImage);
+			_slider.setStyle("trackSkin", TrackImage);
 			_slider.minimum = 0;
 			_slider.maximum = 1;
 			_slider.showDataTip = false;
@@ -147,6 +156,7 @@ package
 			_timeTextLabel.setStyle( "fontSize", _wantedFontSize );
 			_timeTextLabel.setStyle( "color", _wantedFontColor );
 			_timeTextLabel.setStyle( "horizontalAlign", "left" );
+			_timeTextLabel.setStyle('fontFamily', 'Baskerville, Georgia, Times New Roman, Serif');
 			_timerContainer.addChild( _timeTextLabel );
 			addChild( _timerContainer );
 			

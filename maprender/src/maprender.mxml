@@ -206,6 +206,12 @@ public var _pointBlobTileY: int = 0;
 public var _pointBlobStillRendering: Boolean = false;
 
 public var _wayLayers: Array = [];
+
+[Embed(source="images/thumb.png")]
+public var VThumbImage:Class;
+
+[Embed(source="images/track.png")]
+public var VTrackImage:Class;
 	
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -1332,7 +1338,7 @@ private function addTimelineControls(): void
 		var verticalCenter: Number = ((_settings.height/2)-40);
 		_timelineControls.y = (_settings.height-50);
 	
-		_timelineControls.setTimeTextStyle(12, 0x000000);
+		_timelineControls.setTimeTextStyle(18, 0x000000);
 		
 		_timelineControls.setOnUserInputCallback(onTimelineUserInput);
 	
@@ -1681,6 +1687,8 @@ private function createViewerElements(): void
 	_zoomSlider.minimum = 0;
 	_zoomSlider.maximum = 1;
 	_zoomSlider.liveDragging = true;
+	_zoomSlider.setStyle("thumbSkin", VThumbImage);
+	_zoomSlider.setStyle("trackSkin", VTrackImage);
 
 	_zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
 	_zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
@@ -1695,12 +1703,12 @@ private function createViewerElements(): void
 	var blackTint:ColorTransform = new ColorTransform();
 	blackTint.color = 0x000000;
 	
-	plusImage.x = 6;
-	plusImage.y = 40;
+	plusImage.x = 8;
+	plusImage.y = 37;
 	plusImage.transform.colorTransform = blackTint;
 	viewer.addChild(plusImage);
 	
-	minusImage.x = 6;
+	minusImage.x = 8;
 	minusImage.y = 195;
 	minusImage.transform.colorTransform = blackTint;
 	viewer.addChild(minusImage);
@@ -1711,7 +1719,7 @@ private function createViewerElements(): void
 	_credit.height = 20;
 	_credit.setStyle('text-align', 'right');
 	_credit.setStyle('color', _settings.credit_color);
-	_credit.setStyle('font-family', 'Baskerville');
+	_credit.setStyle('fontFamily', 'Baskerville, Georgia, Times New Roman, Serif');
 	
     _credit.addEventListener( MouseEvent.CLICK, function(): void {
     	var url:String = "http://"+_credit.text;
@@ -1733,7 +1741,7 @@ private function createViewerElements(): void
 
 	var titleFormat: TextFormat = _title.defaultTextFormat;
 	titleFormat.size = _settings.title_size;
-	titleFormat.font = 'Verdana';
+	titleFormat.font = 'Baskerville';
 	_title.defaultTextFormat = titleFormat;
 	
 	viewer.addChild(_title);
@@ -3232,7 +3240,11 @@ private function drawPopupsIntoViewer(): void
 	{
 		var screenPos: Point = getXYFromLatLon(popup.originLatLon, _latLonToXYMatrix);
 		
+		var newFormat:TextFormat = new TextFormat();
+		newFormat.font = 'Baskerville';
+
 		var textfield:TextField = new TextField;
+		textfield.setTextFormat(newFormat);
 		textfield.text = popup.text;
 		var popupWidth: int = (textfield.textWidth+5);
 		textfield.width = popupWidth;

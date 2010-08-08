@@ -24,7 +24,6 @@
 		590D907E11BB047B00D4F8C1 /* thanks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = thanks.html; path = website/thanks.html; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
 		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
-		5959B19C11FFC6CD00E78F0C /* mainstylenew.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mainstylenew.css; path = static/css/mainstylenew.css; sourceTree = "<group>"; };
 		596DFE1711FE236400C62A97 /* jquery.slidefade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.slidefade.js; path = static/scripts/jquery.slidefade.js; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
 		59820B7811A44A9F0047D5FC /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = mapfileprocess/cliargs.php; sourceTree = "<group>"; };
@@ -297,7 +296,6 @@
 				59820BB111A458D40047D5FC /* colorpicker.css */,
 				599DCE2611F396BF0082DE3F /* jqueryui.css */,
 				59820BB211A458D40047D5FC /* mainstyle.css */,
-				5959B19C11FFC6CD00E78F0C /* mainstylenew.css */,
 			);
 			name = css;
 			sourceTree = "<group>";
