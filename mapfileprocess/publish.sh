@@ -23,5 +23,5 @@ for ((i=0;i<$SERVER_COUNT;i++)); do
 done
 
 s3sync.rb -r -p -v ${STATIC_PATH} static.openheatmap.com:
-mv ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
+cp ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
 s3sync.rb -r -p -v ${LOCAL_PATH}../maprender/bin-debug/ static.openheatmap.com:

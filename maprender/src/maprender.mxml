@@ -176,7 +176,8 @@ public var _settings: Object =
 	tab_height: 15,
 	clear_ways: true,
 	is_value_distance: false,
-	point_blob_tile_size: 128
+	point_blob_tile_size: 128,
+	show_tabs: true
 };
 
 public var _lastSetWayIds: Object = {};
@@ -276,6 +277,8 @@ public function startup():void
 	ExternalInterface.addCallback("setAttributeForMatchingWays", setAttributeForMatchingWays);
 	ExternalInterface.addCallback("setAnimationTime", setAnimationTime);
 	ExternalInterface.addCallback("getAnimationTime", getAnimationTime);
+	ExternalInterface.addCallback("getTabInfo", getTabInfo);
+	ExternalInterface.addCallback("selectTab", selectTab);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
 	if (onLoadFunction !== null)
@@ -671,7 +674,7 @@ private function doEveryFrame(event: Event): void
 	
 	drawMainBitmapIntoViewer();
 
-	if (_hasTabs)
+	if (_hasTabs&&_settings.show_tabs)
 	{
 		drawTabsIntoViewer();
 	}	
@@ -2943,7 +2946,7 @@ private function isEventInTopBar(event: MouseEvent): Boolean
 {
 	var hasTitle: Boolean = (_settings.title_text!=='');
 	
-	if ((!hasTitle)&&(!_hasTabs))
+	if ((!hasTitle)&&(!_hasTabs||!_settings.show_tabs))
 		return false;
 	
 	var tabHeight: Number = _settings.tab_height;
@@ -3295,6 +3298,25 @@ private function getAnimationTime(): String
 	
 	var currentTime: String = _frameTimes[_frameIndex];
 	return currentTime;	
+}
+	
+private function getTabInfo(): Object
+{
+	if (!_hasTabs)
+		return null;
+	
+	var result: Object = {
+		'selected_tab_index': _selectedTabIndex,
+		'tab_names': _tabNames
+	};
+	
+	return result;
+}
+	
+private function selectTab(tabIndex: Number): void
+{
+	_selectedTabIndex = tabIndex;
+	_dirty = true;
 }
 	
 ]]>

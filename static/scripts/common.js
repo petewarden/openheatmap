@@ -553,6 +553,40 @@ function onValuesLoad(event)
         openHeatMap.setAnimationTime(g_mapSettings.general.animation_time);
     }
     
+    var tabInfo = openHeatMap.getTabInfo();
+    if (tabInfo != null)
+    {
+        $('#tab_bar').empty();
+        for (var tabIndex in tabInfo.tab_names)
+        {
+            var tabName = tabInfo.tab_names[tabIndex];
+            var tabElement = $('<li><a href="#" onclick="return false;">'+tabName+'</a></li>');
+            
+            if (tabIndex==tabInfo.selected_tab_index)
+                tabElement.addClass('current');
+            
+            tabElement.hover(
+                function(){ $(this).children().css({color:'#990000'}); },
+                function(){ $(this).children().css({color:'#000000'}); }
+            );
+            
+            var localFunc = function (myIndex) {
+                
+                tabElement.click(function() {
+                    var openHeatMap = $.getOpenHeatMap();
+
+                    $(this).parent().children('.current').removeClass('current');
+                    $(this).addClass('current');
+                    
+                    openHeatMap.selectTab(myIndex);
+                });
+            
+            }(tabIndex);
+            
+            $('#tab_bar').append(tabElement);
+        }
+    }
+    
     return true;
 }
 
@@ -595,6 +629,8 @@ function updateMapWithSettings(mapSettings)
     openHeatMap.setColorGradient(mapSettings.general.gradient_with_alpha);
     
     openHeatMap.setWayDefault('color', 0xf0f0f0);
+    
+    openHeatMap.setSetting('show_tabs', false);
 }
 
 function loadMapGeometryForSettings(mapSettings)
