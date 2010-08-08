@@ -1,44 +1,40 @@
-
 body {
-	font-family:"lucida grande", "verdana";
-	font-size:11px;
+  font-family: Baskerville, Georgia, 'Times New Roman', Serif;
+	font-size:.6875em;
 	margin:0px;
 	padding:0px;
 	text-align:left;
-    background: #b4b4b4 url(../images/gradientbackground.jpg) repeat-x;
+  background-color: #ffffff;
 }
 
-#header { font-size:200%; text-align: center; }
-#footer { font-size:200%; text-align: center; margin-top: 10px; }
-#container { width: 960px; margin-left: auto; margin-right: auto; margin-top: 10px; background-color: #f0f0f0;}
+#header { float: right; font-size: 80%; text-align: right; text-decoration: none; vertical-align: middle; background-color: #ffffff; margin-top: 25px; font-size: 65%; }
+#footer { font-size: 200%; text-align: center; margin-top: 100px; }
+#container { width: /*800px;*/ 960px; margin-left: auto; margin-right: auto; margin-top: 10px; background-color: #ffffff;}
 
-.headerlogo { position: relative; left: -30px; top:17px; border-style: none; }
-.headertext { position: relative; left: -35px; }
+.headerlogo { position: relative; left: -30px; top: 17px; border-style: none; }
+.headertext { position: relative; left: -35px; top: -10px; text-decoration: none; font-style: normal; color: #333333; font-weight: bold; font-family: Arial, sans-serif; }
 
-.maindiv { position:absolute; left: 0px; top: 10px; width: 700px; height: 490px; border: 2px solid #000000; }
-.mainimg { position:absolute; left: 0px; top: 10px; width: 688px; }
-.overlay { position:absolute; left: 0px; top: 370px; width: 680px; height: 100px; background-color: #a0a0a0; opacity:0.8; filter:alpha(opacity=80); font-size:200%; padding:10px; }
+.maindiv { position: absolute; left: 0px; top: 10px; width: 700px; height: 490px; border: 2px solid #000000; }
+.mainimg { position: absolute; left: 0px; top: 10px; width: 688px; }
+.overlay { position: absolute; left: 0px; top: 370px; width: 680px; height: 100px; background-color: #a0a0a0; opacity: 0.8; filter: alpha(opacity=80); font-size: 200%; padding: 10px; }
 
-.bgimg { position:absolute; left: 0px; top: 0px; width: 700px; height: 490px; }
-.img0 { position:absolute; left: 10px; top: 10px; height: 450px; }
-.img1 { position:absolute; left: 230px; top: 10px; height: 450px; }
-.img2 {position:absolute; left: 380px; top: 10px; height: 450px; }
+.bgimg { position: absolute; left: 0px; top: 0px; width: 700px; height: 490px; }
+.img0 { position: absolute; left: 10px; top: 10px; height: 450px; }
+.img1 { position: absolute; left: 230px; top: 10px; height: 450px; }
+.img2 {position: absolute; left: 380px; top: 10px; height: 450px; }
 
-.sidediv0 { position:absolute; left: 710px; top: 10px; width: 245px; height: 157px; border: 2px solid #ff0000; }
-.sidediv1 { position:absolute; left: 710px; top: 177px; width: 245px; height: 157px; border: 2px solid #000000; }
-.sidediv2 { position:absolute; left: 710px; top: 343px; width: 245px; height: 157px; border: 2px solid #000000; }
+.sidediv0 { position: absolute; left: 710px; top: 10px; width: 245px; height: 157px; border: 2px solid #ff0000; }
+.sidediv1 { position: absolute; left: 710px; top: 177px; width: 245px; height: 157px; border: 2px solid #000000; }
+.sidediv2 { position: absolute; left: 710px; top: 343px; width: 245px; height: 157px; border: 2px solid #000000; }
 
-.sideimg0 { position:absolute; left: 45px; top: 5px; width: 150px; }
-.sideimg1 { position:absolute; left: 5px; top: 5px; width: 230px; }
-.sideimg2 { position:absolute; left: 35px; top: 5px; width: 170px; }
+.sideimg0 { position: absolute; left: 45px; top: 5px; width: 150px; }
+.sideimg1 { position: absolute; left: 5px; top: 5px; width: 230px; }
+.sideimg2 { position: absolute; left: 35px; top: 5px; width: 170px; }
 
 .imagemain { position: relative; height: 520px; }
 
 .ui-corner-all {
-    background-color: #fff;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #000;
+    background-color: #ffffff;
     padding: 10px;
     margin: 0px;
     font-size: 100%;
@@ -56,17 +52,67 @@ body {
 
 .button 
 {
-    border: 1px solid #000000;
-    background-color: #d0d0d0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 170px;
-    text-align: center;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    font-size: 100%; 
+    margin: 10px 0px 0px 0px; 
+    padding: 0px; 
+    text-align: center; 
+    width: 160px; 
+    height: 25px; 
+    background: #CCCCCC; 
+    display: block; 
+    padding: 5px; 
 }
 
 .button:hover {
-    background-color: #e0e0e0;
-    cursor: pointer;
+/*    background-color: #e0e0e0;
+    cursor: pointer;*/
 }
+
+/* LIZ ADDED BELOW */
+
+h1, h2, h3, h4, h5, h6 { margin-top: 0px; margin-bottom: 0px; font-weight: normal; }
+h1 { font-size: 2.25em; }
+h2 { font-size: 2.00em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.50em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1.125em; }
+ul, ol, li { margin: 0px; padding: 0px; }
+
+.textred { color: #990000; } /* should do differently or change name */
+
+/* For Tabbed Navigation */
+ul.tabNav { float: left; list-style: none; width: 100%; margin-left: 0px; }
+ul.tabNav li { float: left; margin: 0 1px 0 0; padding: 6px 0 0; }
+ul.tabNav li.current { padding-top: 0; }
+ul.tabNav a { background: #ececec; border: 1px solid #dedede; border-width: 1px 1px 0; color: #333333; display: block; padding: 4px 20px 5px 20px; text-decoration: none; }
+ul.tabNav li.current a { background: #dedede; border: none; padding: 8px 20px 8px; }
+
+div.tabContainer { clear: both; float: left; width: 100%; }
+div.tabContainer div.tab { border: 1px solid #dedede; color: #000; display: none; padding: 10px; }
+div.tabContainer div.current { display: block; }
+div.tab p:last-child { margin-bottom: 0; }
+
+/* Key */
+ul.key { float: left; list-style: none; width: 100%; margin-top: 30px; margin-bottom: 30px; }
+ul.key li { float: left; margin: 0px; padding: 5px 10px 5px 10px; text-align: center; width: 60px; height: 20px; }
+ul.key li.keyUnits { padding-right: 20px; width: auto; text-align: left; }
+
+#author_message { font-style: italic; padding: 10px; margin-top: 30px; margin-bottom: 0px; }
+.footer_links { margin: 20px; font-size: 120%; }
+#footer_byline { font-size: 75%; text-color: #a0a0a0; margin-top: 20px; }
+
+/* Share, embed etc. */
+ul.share { float: left; list-style: none; width: 100%; padding-top: margin-top: 10px; margin-bottom: 20px; margin-left: 0px; font-size: 100%; }
+ul.share li { float: left; margin: 10px 0px 15px 10px; padding: 0px; text-align: center; width: 80px; height: 25px; }
+ul.share li a { background: #CCCCCC; display: block; padding: 5px; }
+
+
+a:link {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover {color: #990000; text-decoration: underline;}
+/*
+a:link {color: #0000FF; text-decoration: none;}
+a:visited {color: #6600CC; text-decoration: none;}
+a:hover {color: #FF0000; text-decoration: underline;}
+*/

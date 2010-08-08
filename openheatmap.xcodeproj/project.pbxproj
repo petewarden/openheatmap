@@ -24,7 +24,6 @@
 		590D907E11BB047B00D4F8C1 /* thanks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = thanks.html; path = website/thanks.html; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
 		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
-		5959B19B11FFC69300E78F0C /* viewnew.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = viewnew.html; path = website/viewnew.html; sourceTree = "<group>"; };
 		5959B19C11FFC6CD00E78F0C /* mainstylenew.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mainstylenew.css; path = static/css/mainstylenew.css; sourceTree = "<group>"; };
 		596DFE1711FE236400C62A97 /* jquery.slidefade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.slidefade.js; path = static/scripts/jquery.slidefade.js; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
@@ -74,7 +73,6 @@
 		59820BB811A458E10047D5FC /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = json.js; path = static/scripts/json.js; sourceTree = "<group>"; };
 		59820BBA11A458E10047D5FC /* urlparam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = urlparam.js; path = static/scripts/urlparam.js; sourceTree = "<group>"; };
 		59820BBB11A458E10047D5FC /* watermarkinput.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = watermarkinput.js; path = static/scripts/watermarkinput.js; sourceTree = "<group>"; };
-		59820BBC11A45C020047D5FC /* create.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = create.html; path = website/create.html; sourceTree = "<group>"; };
 		59820BBD11A45C100047D5FC /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = upload.html; path = website/upload.html; sourceTree = "<group>"; };
 		59820C5311A5C8D80047D5FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = website/examples/map_data_viewer/index.html; sourceTree = "<group>"; };
 		59820CE511A8789A0047D5FC /* cleanmesh.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cleanmesh.php; path = mapfileprocess/cleanmesh.php; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 		59C216EF120106B100114912 /* scifoo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = scifoo.php; path = website/examples/twitter_followers/scifoo.php; sourceTree = "<group>"; };
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
-		59F11CE511DFFD8900DF3832 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		59F11F9911E556A900DF3832 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embed.html; path = website/embed.html; sourceTree = "<group>"; };
 		59F11FA911E5588A00DF3832 /* embedtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embedtest.html; path = website/embedtest.html; sourceTree = "<group>"; };
 		59FC5C3611F90BFC00A4E6F1 /* bdb_lookup.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = bdb_lookup.pl; sourceTree = "<group>"; };
@@ -221,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				59820B9311A44B890047D5FC /* config.php */,
-				59820BBC11A45C020047D5FC /* create.html */,
 				59820BAF11A44E5C0047D5FC /* edit.html */,
 				59F11F9911E556A900DF3832 /* embed.html */,
 				59F11FA911E5588A00DF3832 /* embedtest.html */,
@@ -248,7 +244,6 @@
 				599DCCD711F259E20082DE3F /* uploadgoogle.html */,
 				59820BA211A44B890047D5FC /* utils.php */,
 				59820BA311A44B890047D5FC /* view.html */,
-				5959B19B11FFC69300E78F0C /* viewnew.html */,
 			);
 			name = website;
 			sourceTree = "<group>";
@@ -283,7 +278,6 @@
 		59820B8D11A44B0C0047D5FC /* examples */ = {
 			isa = PBXGroup;
 			children = (
-				59F11CE411DFFD8900DF3832 /* canvas_test */,
 				59B4864A120A68F800C96A58 /* facebook */,
 				59820D4711AB15060047D5FC /* hello_world */,
 				59820B9211A44B540047D5FC /* map_data_viewer */,
@@ -398,15 +392,6 @@
 			);
 			name = facebook;
 			path = website/examples/facebook;
-			sourceTree = "<group>";
-		};
-		59F11CE411DFFD8900DF3832 /* canvas_test */ = {
-			isa = PBXGroup;
-			children = (
-				59F11CE511DFFD8900DF3832 /* index.html */,
-			);
-			name = canvas_test;
-			path = website/examples/canvas_test;
 			sourceTree = "<group>";
 		};
 		59FC5C3011F90BE000A4E6F1 /* Geo-Coder-US-1.00 */ = {

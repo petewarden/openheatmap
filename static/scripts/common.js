@@ -59,7 +59,7 @@ function onUploadComplete(responseString64)
 
     // enable upload button
     $('#upload_button')
-    .html('<i>Upload</i>');
+    .html('Upload');
 
     if ((messageHtml!=='')||g_hasSetResultMessage)
     {
@@ -82,7 +82,9 @@ function onUploadComplete(responseString64)
         $('#next_button').hide();
         $('#upload_button').show();
 
-        $('#guidance_message').html('There were some errors uploading the data. Email the file to <a href="mailto:pete@mailana.com">pete@mailana.com</a> and I\'ll be happy to investigate what\'s going wrong. I\'m so keen to get bug reports, I\'ll even send you a t-shirt!');
+        $('#guidance_message').html('There were some errors uploading the data.<br> Email the file to <a href="mailto:pete@mailana.com">pete@mailana.com</a> and I\'ll be happy to investigate what\'s going wrong.<br> I\'m so keen to get bug reports, I\'ll even send you a t-shirt!');
+
+        SnapABug.startChat('<b>Pete Warden:</b> Sorry your upload didn\'t work!<br> If I\'m online I\'d be happy to look at your spreadsheet and figure out what went wrong');
     }
 }
 
@@ -497,6 +499,8 @@ function commonOnMapCreated()
 
     document.title = 'OpenHeatMap - '+mapSettings.component.title_text;
 
+    $('#title_text').text(mapSettings.component.title_text);
+
     updateMapWithSettings(mapSettings);
 
     loadMapGeometryForSettings(mapSettings);
@@ -569,6 +573,9 @@ function updateMapWithSettings(mapSettings)
 
     for (var key in mapSettings.component)
     {
+        if (key==='title_text')
+            continue;
+            
         var value = mapSettings.component[key];
         openHeatMap.setSetting(key, value);
     }
@@ -669,60 +676,43 @@ function createColorKeyHTML(mapSettings)
 {
     var result = '';
     
-    result += '<center>';
-    result += '<div style="';
-    result += 'font-size:80%; text-decoration: italic;';
-    result += 'margin-top: 5px; ';
-    result += 'width:'+mapSettings.general.width+'px; ';
-    result += '">';
-    
-    result += '<div style="';
-    result += '">';
-
     var keyDescription = 'Color Key';
     if (typeof mapSettings.general.key_description !== 'undefined')
         keyDescription = mapSettings.general.key_description;
-        
-    result += '<i>'+keyDescription+'</i>&nbsp;&nbsp;&nbsp;&nbsp;';
+
+    result += '<ul class="key">';
+    result += '<li class="keyUnits">';
+    result += keyDescription;
+    result += '</li>';
     
     if (!g_mapSettings.component.is_value_distance)
-    {    
-        result += '<div style="';
-        result += 'display: inline; ';
-        result += 'background-color: '+mapSettings.general.gradient_start_color+'; ';
-        result += 'border: 1px solid #000000; ';
+    {
+        result += '<li ';
+        result += 'style="background-color: ';
+        result += mapSettings.general.gradient_start_color+';';
         result += '">';
         result += parseInt(mapSettings.component.gradient_value_min).toPrecision(3);
-        result += '</div>';
-        
-        result += '&nbsp;&nbsp;&nbsp;&nbsp;';
+        result += '</li>';
 
         var midValue = (parseInt(mapSettings.component.gradient_value_min)+
             parseInt(mapSettings.component.gradient_value_max))/2;
 
-        result += '<div style="';
-        result += 'display: inline; ';
-        result += 'background-color: '+mapSettings.general.gradient_mid_color+'; ';
-        result += 'border: 1px solid #000000; ';
+        result += '<li ';
+        result += 'style="background-color: ';
+        result += mapSettings.general.gradient_mid_color+';';
         result += '">';
-        result += midValue.toPrecision(3);
-        result += '</div>';    
-        
-        result += '&nbsp;&nbsp;&nbsp;&nbsp;';
-        
-        result += '<div style="';
-        result += 'display: inline; ';
-        result += 'background-color: '+mapSettings.general.gradient_end_color+'; ';
-        result += 'border: 1px solid #000000; ';
+        result += parseInt(midValue).toPrecision(3);
+        result += '</li>';
+
+        result += '<li ';
+        result += 'style="background-color: ';
+        result += mapSettings.general.gradient_end_color+';';
         result += '">';
         result += parseInt(mapSettings.component.gradient_value_max).toPrecision(3);
-        result += '</div>';
+        result += '</li>';
     }
     
-    result += '</div>';
-    
-    result += '</div>';
-    result += '</center>';
+    result += '</ul>';
     
     return result;
 }
