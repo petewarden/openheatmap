@@ -107,6 +107,7 @@ ul.share { float: left; list-style: none; width: 100%; padding-top: margin-top: 
 ul.share li { float: left; margin: 10px 0px 15px 10px; padding: 0px; text-align: center; width: 80px; height: 25px; }
 ul.share li a { background: #CCCCCC; display: block; padding: 5px; }
 
+#openheatmap_container { border: 1px solid #979797; }
 
 a:link {color: #000000; text-decoration: none;}
 a:visited {color: #000000; text-decoration: none;}

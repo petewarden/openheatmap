@@ -120,9 +120,9 @@ public var _lastDragPosition: Point = null;
 public var _lastClickTime: Number = 0;
 
 public var _zoomSlider: Slider = null;
-[Embed(source="images/plus.gif")]
+[Embed(source="embed_images/plus.gif")]
 public var PlusImage:Class;
-[Embed(source="images/minus.gif")]
+[Embed(source="embed_images/minus.gif")]
 public var MinusImage:Class;
 
 public var _foundTimes: Object = {};
@@ -149,7 +149,7 @@ public var _settings: Object =
 	gradient_value_max: 0,
 	point_blob_radius: 0.001,
 	point_blob_value: 1.0,
-	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap</u></a>',
+	credit_text: '<a href="http://openheatmap.com"><u>OpenHeatMap</u></a> ',
 	credit_color: '0x303030',
 	title_text: '',
 	title_size: 15,
@@ -207,10 +207,10 @@ public var _pointBlobStillRendering: Boolean = false;
 
 public var _wayLayers: Array = [];
 
-[Embed(source="images/thumb.png")]
+[Embed(source="embed_images/thumb.png")]
 public var VThumbImage:Class;
 
-[Embed(source="images/track.png")]
+[Embed(source="embed_images/track.png")]
 public var VTrackImage:Class;
 	
 private function getURLInput(name: String, defaultValue: String = null): String

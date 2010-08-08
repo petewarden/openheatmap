@@ -22,8 +22,6 @@ for ((i=0;i<$SERVER_COUNT;i++)); do
 
 done
 
-s3cmd -P -f put ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${S3_BUCKET}openheatmap.swf
-s3cmd -P -f -r put ${STATIC_PATH}scripts ${S3_BUCKET}
-s3cmd -P -f -r put ${STATIC_PATH}css ${S3_BUCKET}
-s3cmd -P -f -r put ${STATIC_PATH}images ${S3_BUCKET}
-
+s3sync.rb -r -p -v ${STATIC_PATH} static.openheatmap.com:
+mv ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
+s3sync.rb -r -p -v ${LOCAL_PATH}../maprender/bin-debug/ static.openheatmap.com:

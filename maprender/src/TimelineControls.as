@@ -32,16 +32,16 @@ package
 
 	public class TimelineControls extends HBox
 	{
-		[Embed(source="images/play.png")]
+		[Embed(source="embed_images/play.png")]
 		public var PlayImage:Class;
 
-		[Embed(source="images/pause.png")]
+		[Embed(source="embed_images/pause.png")]
 		public var PauseImage:Class;
 
-		[Embed(source="images/thumb.png")]
+		[Embed(source="embed_images/thumb.png")]
 		public var ThumbImage:Class;
 
-		[Embed(source="images/track.png")]
+		[Embed(source="embed_images/track.png")]
 		public var TrackImage:Class;
 
 		protected var _timeTextLabel: Label = new Label();
