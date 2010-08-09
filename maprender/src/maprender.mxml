@@ -3151,7 +3151,7 @@ public function drawPointBlobTile(width: Number,
 	
 	var pixelData: ByteArray = new ByteArray();
 	
-	var zeroColor: uint = getColorForValue(0, minValue, maxValue, valueScale);
+	var zeroColor: uint = 0x00000000;
 	var fullColor: uint = getColorForValue(maxValue, minValue, maxValue, valueScale);
 	
 	var worldPoint: Point = new Point();

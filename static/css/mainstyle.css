@@ -112,8 +112,6 @@ ul.share li a { background: #CCCCCC; display: block; padding: 5px; }
 a:link {color: #000000; text-decoration: none;}
 a:visited {color: #000000; text-decoration: none;}
 a:hover {color: #990000; text-decoration: underline;}
-/*
-a:link {color: #0000FF; text-decoration: none;}
-a:visited {color: #6600CC; text-decoration: none;}
-a:hover {color: #FF0000; text-decoration: underline;}
-*/
+
+.gallery_box1 { margin-top:10px; margin-right:15px; font-size: 150%; width:450px; height:470px; float:left; }
+.gallery_box2 { margin-top:10px; font-size: 150%; width:450px; height:470px; float:left; }

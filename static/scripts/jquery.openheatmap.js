@@ -3580,7 +3580,7 @@ function OpenHeatMap(canvas)
         var pixelData = imageData.data;
         var pixelDataIndex = 0;
         
-        var zeroColor = this.getColorForValue(0, minValue, maxValue, valueScale);
+        var zeroColor = 0x00000000;
         var fullColor = this.getColorForValue(maxValue, minValue, maxValue, valueScale);
         
         var worldPoint = new Point();
