@@ -53,14 +53,14 @@ g_openHeatMapObjects = {};
 
                 $(this).append(canvas);
                 
-                onMapCreated();
+                onMapCreated(settings.mapName);
             });
         }
         else
         {
             this.each(function() {
                 var params = {};
-                params.src = settings.source;
+                params.src = settings.source+'?mapname='+encodeURIComponent(settings.mapName);
                 params.id = settings.mapName;
                 params.name = settings.mapName;
                 params.allowScriptAccess = "always";
@@ -1296,8 +1296,12 @@ function OpenHeatMap(canvas)
         
         var instance = this;
         this._waysFileName = waysFileName;
-        $.get(waysFileName, function(data) {
-            instance.onWaysLoad(data);
+        
+        $.ajax({
+          url: waysFileName,
+          data: null,
+          success: function(data) { instance.onWaysLoad(data); },
+          dataType: 'xml'
         });
     }
 

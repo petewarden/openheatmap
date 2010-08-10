@@ -281,8 +281,8 @@ public function startup():void
 	ExternalInterface.addCallback("selectTab", selectTab);
 
 	var onLoadFunction: String = getURLInput('onload', 'onMapCreated');
-	if (onLoadFunction !== null)
-		ExternalInterface.call(onLoadFunction, '');
+	var mapName: String = getURLInput('mapname', 'openheatmap');
+	ExternalInterface.call(onLoadFunction, mapName);
 }
 
 private function setWayDefault(propertyName: String, propertyValue: Object): void
@@ -3318,7 +3318,15 @@ private function selectTab(tabIndex: Number): void
 	_selectedTabIndex = tabIndex;
 	_dirty = true;
 }
-	
+
+// See http://www.twisty.com/bandwagon/archives/2007/07/23/162642
+private function trim(str:String):String
+{
+	for(var i: int = 0; str.charCodeAt(i) < 33; i++) {}
+	for(var j: int = str.length-1; str.charCodeAt(j) < 33; j--) {}
+	return str.substring(i, j+1);
+}
+
 ]]>
 </mx:Script>
 <mx:UIComponent id="viewer"></mx:UIComponent>
