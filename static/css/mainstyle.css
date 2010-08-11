@@ -83,10 +83,9 @@ ul, ol, li { margin: 0px; padding: 0px; }
 
 /* For Tabbed Navigation */
 ul.tabNav { float: left; list-style: none; width: 100%; margin-left: 0px; }
-ul.tabNav li { float: left; margin: 0 1px 0 0; padding: 6px 0 0; }
-ul.tabNav li.current { padding-top: 0; }
+ul.tabNav li { float: left; margin: 0 0px 0 0; padding: 6px 0 0; }
 ul.tabNav a { background: #ececec; border: 1px solid #dedede; border-width: 1px 1px 0; color: #333333; display: block; padding: 4px 20px 5px 20px; text-decoration: none; }
-ul.tabNav li.current a { background: #dedede; border: none; padding: 8px 20px 8px; }
+ul.tabNav li.current a { background: #dedede; }
 
 div.tabContainer { clear: both; float: left; width: 100%; }
 div.tabContainer div.tab { border: 1px solid #dedede; color: #000; display: none; padding: 10px; }

@@ -177,7 +177,9 @@ public var _settings: Object =
 	clear_ways: true,
 	is_value_distance: false,
 	point_blob_tile_size: 128,
-	show_tabs: true
+	show_tabs: true,
+	show_zoom: true,
+	allow_pan: true
 };
 
 public var _lastSetWayIds: Object = {};
@@ -207,7 +209,9 @@ public var _pointBlobTileY: int = 0;
 public var _pointBlobStillRendering: Boolean = false;
 
 public var _wayLayers: Array = [];
-
+public var _plusImage: BitmapAsset = null;
+public var _minusImage: BitmapAsset = null;
+	
 [Embed(source="embed_images/thumb.png")]
 public var VThumbImage:Class;
 
@@ -524,7 +528,7 @@ private function mapMouseDoubleClickHandler( event:MouseEvent ): Boolean
 	else
 		continueHandling = true;
 		
-	if (continueHandling)
+	if (continueHandling&&_settings.allow_pan)
 	{
 		var center: Point = new Point(event.localX, event.localY);
 		var zoomFactor: Number = 2.0;
@@ -548,7 +552,7 @@ private function mapMouseDownHandler( event:MouseEvent ): Boolean
 	else
 		continueHandling = true;
 	
-	if (continueHandling)
+	if (continueHandling&&_settings.allow_pan)
 	{
 		var mousePosition: Point = new Point(event.localX, event.localY);
 
@@ -570,7 +574,7 @@ private function mapMouseUpHandler( event:MouseEvent ): Boolean
 	else
 		continueHandling = true;
 	
-	if (continueHandling)
+	if (continueHandling&&_settings.allow_pan)
 	{
 		if (_isDragging)
 		{
@@ -628,7 +632,7 @@ private function mapMouseMoveHandler( event:MouseEvent): Boolean
 	else
 		continueHandling = true;
 
-	if (continueHandling)
+	if (continueHandling&&_settings.allow_pan)
 	{
 		if (_isDragging)
 		{
@@ -647,6 +651,12 @@ private function mapMouseMoveHandler( event:MouseEvent): Boolean
 
 private function doEveryFrame(event: Event): void
 {		
+	if ((_zoomSlider==null)&&_settings.show_zoom)
+		createZoomSlider();
+	
+	if ((_zoomSlider!=null)&&!_settings.show_zoom)
+		destroyZoomSlider();
+	
 	if (_redrawCountdown>0)
 	{
 		_redrawCountdown -= 1;
@@ -1682,41 +1692,7 @@ private function createViewerElements(): void
 	_informationLayerBitmap = new Bitmap(informationBitmapData);
 	_informationLayerBitmap.x = 0;
 	_informationLayerBitmap.y = 0;
-	
-	_zoomSlider = new VSlider();
-	_zoomSlider.x = 4;
-	_zoomSlider.y = 50;
-	_zoomSlider.height = 150;
-	_zoomSlider.showDataTip = false;
-	_zoomSlider.minimum = 0;
-	_zoomSlider.maximum = 1;
-	_zoomSlider.liveDragging = true;
-	_zoomSlider.setStyle("thumbSkin", VThumbImage);
-	_zoomSlider.setStyle("trackSkin", VTrackImage);
-
-	_zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
-	_zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
-	
-	addChild(_zoomSlider);
-
-	var plusImage: BitmapAsset = BitmapAsset( new PlusImage() );
-	var minusImage: BitmapAsset = BitmapAsset( new MinusImage() );
-
-	var blackTint:ColorTransform = new ColorTransform();
-	blackTint.color = 0x000000;
-	
-	plusImage.x = 8;
-	plusImage.y = 37;
-	plusImage.transform.colorTransform = blackTint;
-	viewer.addChild(plusImage);
-	
-	minusImage.x = 8;
-	minusImage.y = 195;
-	minusImage.transform.colorTransform = blackTint;
-	viewer.addChild(minusImage);
-	
+		
 	_credit = new Label();
 	_credit.htmlText = _settings.credit_text;
 	_credit.width = 150;
@@ -1808,6 +1784,9 @@ private function calculatePixelsPerDegreeLatitudeFromZoomSlider(): Number
 
 private function updateZoomSliderDisplay(): void
 {
+	if (_zoomSlider == null)
+		return;
+	
 	var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
 
 	var minPixelsPerDegreeLatitude: Number = (_settings.height/_settings.zoomed_out_degrees_per_pixel);
@@ -3325,6 +3304,55 @@ private function trim(str:String):String
 	for(var i: int = 0; str.charCodeAt(i) < 33; i++) {}
 	for(var j: int = str.length-1; str.charCodeAt(j) < 33; j--) {}
 	return str.substring(i, j+1);
+}
+	
+private function createZoomSlider(): void
+{
+	_zoomSlider = new VSlider();
+	_zoomSlider.x = 4;
+	_zoomSlider.y = 50;
+	_zoomSlider.height = 150;
+	_zoomSlider.showDataTip = false;
+	_zoomSlider.minimum = 0;
+	_zoomSlider.maximum = 1;
+	_zoomSlider.liveDragging = true;
+	_zoomSlider.setStyle("thumbSkin", VThumbImage);
+	_zoomSlider.setStyle("trackSkin", VTrackImage);
+	
+	_zoomSlider.addEventListener( SliderEvent.CHANGE, onZoomThumbDrag );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_DRAG, onZoomThumbDrag );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_RELEASE, onZoomThumbRelease );
+	_zoomSlider.addEventListener( SliderEvent.THUMB_PRESS, onZoomThumbRelease );
+	
+	addChild(_zoomSlider);
+	
+	_plusImage = BitmapAsset( new PlusImage() );
+	_minusImage = BitmapAsset( new MinusImage() );
+	
+	var blackTint:ColorTransform = new ColorTransform();
+	blackTint.color = 0x000000;
+	
+	_plusImage.x = 8;
+	_plusImage.y = 37;
+	_plusImage.transform.colorTransform = blackTint;
+	viewer.addChild(_plusImage);
+	
+	_minusImage.x = 8;
+	_minusImage.y = 195;
+	_minusImage.transform.colorTransform = blackTint;
+	viewer.addChild(_minusImage);
+	
+	updateZoomSliderDisplay();
+}
+	
+private function destroyZoomSlider(): void
+{
+	if (_zoomSlider === null)
+		return;
+	
+	removeChild(_zoomSlider);
+	viewer.removeChild(_plusImage);
+	viewer.removeChild(_minusImage);
 }
 
 ]]>

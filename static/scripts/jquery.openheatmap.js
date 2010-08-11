@@ -706,7 +706,9 @@ function OpenHeatMap(canvas)
             clear_ways: true,
             is_value_distance: false,
             point_blob_tile_size: 128,
-            show_tabs: true
+            show_tabs: true,
+            show_zoom: true,
+            allow_pan: true
         };
 
         this._lastSetWayIds = {};
@@ -974,7 +976,7 @@ function OpenHeatMap(canvas)
         else
             continueHandling = true;
             
-        if (continueHandling)
+        if (continueHandling&&ohmThis._settings.allow_pan)
         {
             var center = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
             var zoomFactor = 2.0;
@@ -1003,7 +1005,7 @@ function OpenHeatMap(canvas)
         else
             continueHandling = true;
         
-        if (continueHandling)
+        if (continueHandling&&ohmThis._settings.allow_pan)
         {
             var mousePosition = ohmThis.getLocalPosition($(event.target), event.pageX, event.pageY);
 
@@ -1030,7 +1032,7 @@ function OpenHeatMap(canvas)
         else
             continueHandling = true;
         
-        if (continueHandling)
+        if (continueHandling&&ohmThis._settings.allow_pan)
         {
             if (ohmThis._isDragging)
             {
@@ -1103,7 +1105,7 @@ function OpenHeatMap(canvas)
         else
             continueHandling = true;
 
-        if (continueHandling)
+        if (continueHandling&&ohmThis._settings.allow_pan)
         {
             if (ohmThis._isDragging)
             {
@@ -1121,7 +1123,11 @@ function OpenHeatMap(canvas)
     }
 
     this.doEveryFrame = function()
-    {		
+    {
+        this._zoomSlider._isVisible = this._settings.show_zoom;
+        this._plusImage._isVisible = this._settings.show_zoom;
+        this._minusImage._isVisible = this._settings.show_zoom;
+        	
         if (this._redrawCountdown>0)
         {
             this._redrawCountdown -= 1;
@@ -4387,6 +4393,7 @@ function UIImage(imagePath, x, y)
     {
         this._x = x;
         this._y = y;
+        this._isVisible = true;
     
 		this._isLoaded = false;
         this._image = new Image();
@@ -4405,7 +4412,7 @@ function UIImage(imagePath, x, y)
     
     this.draw = function(context)
     {
-        if (!this._isLoaded)
+        if (!this._isLoaded || !this._isVisible)
             return;
             
         context.drawImage(this._image, this._x, this._y);    
@@ -4424,6 +4431,7 @@ function Slider(x, y, width, height, changeCallback)
         this._y = y;
         this._width = width;
         this._height = height;
+        this._isVisible = true;
         
         this._value = 0;
 
@@ -4499,7 +4507,8 @@ function Slider(x, y, width, height, changeCallback)
         if (!this._trackStart._isLoaded ||
             !this._trackMid._isLoaded ||
             !this._trackEnd._isLoaded ||
-            !this._thumb._isLoaded)
+            !this._thumb._isLoaded ||
+            !this._isVisible)
             return true;
 
         var mouseX = event.localX;
@@ -4558,7 +4567,8 @@ function Slider(x, y, width, height, changeCallback)
         if (!this._trackStart._isLoaded ||
             !this._trackMid._isLoaded ||
             !this._trackEnd._isLoaded ||
-            !this._thumb._isLoaded)
+            !this._thumb._isLoaded ||
+            !this._isVisible)
             return;
             
         var x = this._x;
