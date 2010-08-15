@@ -104,6 +104,7 @@
 		59B48661120BD00000C96A58 /* callfb.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = callfb.php; sourceTree = "<group>"; };
 		59B48662120C5C4500C96A58 /* placemaker.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = placemaker.php; sourceTree = "<group>"; };
 		59C216EF120106B100114912 /* scifoo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = scifoo.php; path = website/examples/twitter_followers/scifoo.php; sourceTree = "<group>"; };
+		59E636181218B0A50076D3B4 /* parallelcurl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = parallelcurl.php; path = website/parallelcurl.php; sourceTree = "<group>"; };
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11F9911E556A900DF3832 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embed.html; path = website/embed.html; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 				59820B9811A44B890047D5FC /* locationtables.php */,
 				59820B9911A44B890047D5FC /* locationvalueshelp.php */,
 				59820B9A11A44B890047D5FC /* mapsettings.php */,
+				59E636181218B0A50076D3B4 /* parallelcurl.php */,
 				59820D9E11AC68570047D5FC /* placemaker.php */,
 				59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */,
 				59820B9B11A44B890047D5FC /* S3.php */,

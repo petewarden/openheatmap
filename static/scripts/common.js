@@ -234,6 +234,7 @@ function updateOpenHeatMapMessage(event)
         
         var hasState = false;
         var hasCounty = false;
+        var hasCongress = false;
         for (var valueHeaderIndex in valueHeaders)
         {
             var valueHeader = valueHeaders[valueHeaderIndex];
@@ -242,6 +243,9 @@ function updateOpenHeatMapMessage(event)
                 
             if (valueHeader==='county_code')
                 hasCounty = true;
+                
+            if (valueHeader==='district_code')
+                hasCongress = true;
         }
 
         var ways = map.getWaysContainingLatLon(event.lat, event.lon);
@@ -260,7 +264,7 @@ function updateOpenHeatMapMessage(event)
                 var wayTags = way.tags;
                 
                 var areaName;
-                if (hasState&&!hasCounty)
+                if (hasState&&!hasCounty&&!hasCongress)
                 {
                     var stateCode = wayTags.state_code;
                     areaName = g_fipsToStateName[stateCode];
@@ -271,6 +275,13 @@ function updateOpenHeatMapMessage(event)
                     var stateName = g_fipsToStateName[stateCode];
                     var countyName = wayTags.name;
                     areaName = countyName+', '+stateName;
+                }
+                else if (hasState&&hasCongress)
+                {
+                    var stateCode = wayTags.state_code;
+                    var stateName = g_fipsToStateName[stateCode];
+                    districtCode = wayTags['district_code'];
+                    areaName = g_numberToWord[districtCode]+' district, '+stateName;
                 }
                 else if (typeof wayTags.name !== 'undefined')
                 {
@@ -819,3 +830,66 @@ g_fipsToStateName = {
     '56': 'Wyoming',
     '28': 'Mississippi'
 };
+
+g_numberToWord = {
+    '01': 'First',
+    '02': 'Second',
+    '03': 'Third',
+    '04': 'Fourth',
+    '05': 'Fifth',
+    '06': 'Sixth',
+    '07': 'Seventh',
+    '08': 'Eighth',
+    '09': 'Ninth',
+    '10': 'Tenth',
+    '11': 'Eleventh',
+    '12': 'Twelfth',
+    '13': 'Thirteenth',
+    '14': 'Fourteenth',
+    '15': 'Fifteenth',
+    '16': 'Sixteenth',
+    '17': 'Seventeenth',
+    '18': 'Eighteenth',
+    '19': 'Nineteenth',
+    '20': 'Twentieth',
+    '21': 'Twenty first',
+    '22': 'Twenty second',
+    '23': 'Twenty third',
+    '24': 'Twenty fourth',
+    '25': 'Twenty fifth',
+    '26': 'Twenty sixth',
+    '27': 'Twenty seventh',
+    '28': 'Twenty eighth',
+    '29': 'Twenty ninth',
+    '30': 'Thirtieth',
+    '31': 'Thirty first',
+    '32': 'Thirty second',
+    '33': 'Thirty third',
+    '34': 'Thirty fourth',
+    '35': 'Thirty fifth',
+    '36': 'Thirty sixth',
+    '37': 'Thirty seventh',
+    '38': 'Thirty eighth',
+    '39': 'Thirty ninth',
+    '40': 'Fortieth',
+    '41': 'Forty first',
+    '42': 'Forty second',
+    '43': 'Forty third',
+    '44': 'Forty fourth',
+    '45': 'Forty fifth',
+    '46': 'Forty sixth',
+    '47': 'Forty seventh',
+    '48': 'Forty eighth',
+    '49': 'Forty ninth',
+    '50': 'Fiftieth',
+    '51': 'Fifty first',
+    '52': 'Fifty second',
+    '53': 'Fifty third',
+    '54': 'Fifty fourth',
+    '55': 'Fifty fifth',
+    '56': 'Fifty sixth',
+    '57': 'Fifty seventh',
+    '58': 'Fifty eighth',
+    '59': 'Fifty ninth'
+};
+

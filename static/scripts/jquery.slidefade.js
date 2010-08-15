@@ -1,4 +1,6 @@
 /**
+* JQuery plugin to allow a series of horizontally-scrolling elements to slide in and out of the
+* containing object.
 * author Pete Warden
 */
 
@@ -53,13 +55,12 @@
                             .css({display:'block'})
                             .animate({left:mySelf.settings.midX+'px', opacity:1.0 }, mySelf.settings.fadeTime )
                             .animate({opacity:1.0}, mySelf.settings.holdTime)
-                            .animate({left:mySelf.settings.leftX+'px', opacity:0.0 }, mySelf.settings.fadeTime, function() {
+                            .animate({left:mySelf.settings.leftX+'px', opacity:0.0 }, mySelf.settings.fadeTime, 'swing', function() {
                                 mySelf.animationFunctions[myNextIndex]();
                             })
-                            .animate({left:mySelf.settings.rightX+'px', opacity:0.0}, 0, function() { myElement.css({display:'none'}); });
+                            .animate({left:mySelf.settings.rightX+'px', opacity:0.0}, 0, 'swing', function() { myElement.css({display:'none'}); });
                         };
                     }();
-
                 }
                 
                 var isFirst = true;
@@ -82,7 +83,7 @@
                             top: self.settings.topY+'px'
                         });
                     }
-                                        
+                    
                     $(this).append(element);
                     
                     isFirst = false;
@@ -98,3 +99,4 @@
         return this;
     };
 }(jQuery));
+

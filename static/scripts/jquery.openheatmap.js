@@ -1307,7 +1307,7 @@ function OpenHeatMap(canvas)
           url: waysFileName,
           data: null,
           success: function(data) { instance.onWaysLoad(data); },
-          dataType: 'xml'
+          dataType: 'text'
         });
     }
 
