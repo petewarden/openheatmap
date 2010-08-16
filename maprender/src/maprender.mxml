@@ -231,7 +231,10 @@ public function startup():void
 	flash.system.Security.allowDomain("*");
 	flash.system.Security.allowInsecureDomain("*");
 
-	setSize(800, 600);
+	var width: Number = Number(getURLInput('width', '800'));
+	var height: Number = Number(getURLInput('height', '600'));
+
+	setSize(width, height);
 
 	createViewerElements();
 
@@ -1128,7 +1131,8 @@ private function setWaysFromValues(): void
 			}
 		}
 		
-		var setColor: Number = getColorForValue(thisValue, minValue, maxValue, valueScale);
+		var setColor: uint = getColorForValue(thisValue, minValue, maxValue, valueScale);
+		setColor = (setColor & 0x00ffffff);
 		
 		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds);
 	}
@@ -2154,7 +2158,7 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 	}		
 }
 
-private function getColorForValue(thisValue: Number, minValue: Number, maxValue: Number, valueScale: Number): int
+private function getColorForValue(thisValue: Number, minValue: Number, maxValue: Number, valueScale: Number): uint
 {	
 	var normalizedValue: Number = ((thisValue-minValue)*valueScale); 
 	normalizedValue = Math.min(normalizedValue, 1.0);
@@ -2175,7 +2179,7 @@ private function getColorForValue(thisValue: Number, minValue: Number, maxValue:
 	var green: int = (int)((lowerValue.green*oneMinusLerp)+(higherValue.green*lerpValue));
 	var blue: int = (int)((lowerValue.blue*oneMinusLerp)+(higherValue.blue*lerpValue));
 	
-	var setColor: int = ((alpha<<24)|(red<<16)|(green<<8)|(blue<<0));
+	var setColor: uint = ((alpha<<24)|(red<<16)|(green<<8)|(blue<<0));
 	
 	return setColor;
 }

@@ -19,7 +19,7 @@ g_openHeatMapObjects = {};
             width: 800,
             height: 600,
             prefer: 'flash',
-            wmmode: ''
+            wmode: ''
         };
  
         if (settings) 
@@ -46,10 +46,8 @@ g_openHeatMapObjects = {};
                     +'"></canvas>'
                 );
 
-                var openHeatMap = new OpenHeatMap(canvas);
+                var openHeatMap = new OpenHeatMap(canvas, settings.width, settings.height);
                 
-                openHeatMap.setSize(settings.width, settings.height);
-
                 g_openHeatMapObjects[settings.mapName] = openHeatMap;
 
                 $(this).append(canvas);
@@ -61,13 +59,17 @@ g_openHeatMapObjects = {};
         {
             this.each(function() {
                 var params = {};
-                params.src = settings.source+'?mapname='+encodeURIComponent(settings.mapName);
+                params.src = settings.source;
+                params.src += '?mapname='+encodeURIComponent(settings.mapName);
+                params.src += '&width='+settings.width;
+                params.src += '&height='+settings.height;
+                
                 params.id = settings.mapName;
                 params.name = settings.mapName;
                 params.allowScriptAccess = "always";
                 params.menu = false;
-                if (settings.wmmode!=='')
-                    params.wmmode = settings.wmmode;
+                if (settings.wmode!=='')
+                    params.wmode = settings.wmode;
 
                 $(this).empty();
                 var widthString = settings.width+'px';
@@ -546,9 +548,9 @@ if (window.attachEvent) {
 	
 })();
 
-function OpenHeatMap(canvas)
+function OpenHeatMap(canvas, width, height)
 {
-    this.__constructor = function(canvas)
+    this.__constructor = function(canvas, width, height)
     {
         this.initializeMembers();
         
@@ -558,7 +560,7 @@ function OpenHeatMap(canvas)
             this._settings.point_blob_tile_size = 32;
         }
 
-        this.setSize(800, 600);
+        this.setSize(width, height);
 
         this.createViewerElements();
 
@@ -3861,7 +3863,7 @@ function OpenHeatMap(canvas)
         this._viewerElements = newElements;
     };
 
-    this.__constructor(canvas);
+    this.__constructor(canvas, width, height);
 
     return this;
 }

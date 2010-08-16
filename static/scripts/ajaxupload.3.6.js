@@ -301,6 +301,7 @@ AjaxUpload.prototype = {
 		this._parentDialog.appendChild(input);
 
 		addEvent(input, 'change', function(){
+        
 			// get filename from input
 			var file = fileFromPath(this.value);	
 			if(self._settings.onChange.call(self, file, getExt(file)) == false ){

@@ -21,38 +21,47 @@ function onUploadComplete(responseString64)
     else
     {
         var responseString = $.base64.decode(responseString64);
-        
-        var response = eval('('+responseString+')');
-
-        wasSuccessful = ((response.output_id!=='')&&
-            (response.errors.length===0));
-                        
-        var errors = response.errors;
-        
-        if (errors.length>0)
+        if (responseString === '')
         {
-            messageHtml += '<i>';
-            messageHtml += '<b>';
-            messageHtml += 'Errors:';
-            messageHtml += '</b>';
-            messageHtml += '</i>';
-            messageHtml += '<br>';
-            
-            messageHtml += formatErrors(errors);
+            messageHtml = 'The server gave this response as an error: ';
+            messageHtml += responseString64;
+            messageHtml += ' Please contact <a href="mailto:pete@petewarden.com">pete@petewarden.com</a> to report this bug if you see this repeatedly';
+            wasSuccessful = false;
         }
-        
-        var warnings = response.warnings;
-        
-        if (warnings.length>0)
+        else
         {
-            messageHtml += '<i>';
-            messageHtml += '<b>';
-            messageHtml += 'Warnings:';
-            messageHtml += '</b>';
-            messageHtml += '</i>';
-            messageHtml += '<br>';
+            var response = eval('('+responseString+')');
 
-            messageHtml += formatErrors(warnings);
+            wasSuccessful = ((response.output_id!=='')&&
+                (response.errors.length===0));
+                            
+            var errors = response.errors;
+            
+            if (errors.length>0)
+            {
+                messageHtml += '<i>';
+                messageHtml += '<b>';
+                messageHtml += 'Errors:';
+                messageHtml += '</b>';
+                messageHtml += '</i>';
+                messageHtml += '<br>';
+                
+                messageHtml += formatErrors(errors);
+            }
+            
+            var warnings = response.warnings;
+            
+            if (warnings.length>0)
+            {
+                messageHtml += '<i>';
+                messageHtml += '<b>';
+                messageHtml += 'Warnings:';
+                messageHtml += '</b>';
+                messageHtml += '</i>';
+                messageHtml += '<br>';
+
+                messageHtml += formatErrors(warnings);
+            }
         }
         
     }
