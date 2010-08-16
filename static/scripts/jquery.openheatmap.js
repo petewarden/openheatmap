@@ -18,7 +18,8 @@ g_openHeatMapObjects = {};
             mapName: 'openheatmap',
             width: 800,
             height: 600,
-            prefer: 'flash'
+            prefer: 'flash',
+            wmmode: ''
         };
  
         if (settings) 
@@ -65,6 +66,8 @@ g_openHeatMapObjects = {};
                 params.name = settings.mapName;
                 params.allowScriptAccess = "always";
                 params.menu = false;
+                if (settings.wmmode!=='')
+                    params.wmmode = settings.wmmode;
 
                 $(this).empty();
                 var widthString = settings.width+'px';
