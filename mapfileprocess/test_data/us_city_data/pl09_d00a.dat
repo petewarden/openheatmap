@@ -1,0 +1,854 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "09"
+ "10870"
+ "Canaan"
+ "57"
+ "CDP"
+ 
+ 2
+ "09"
+ "54660"
+ "North Granby"
+ "57"
+ "CDP"
+ 
+ 3
+ "09"
+ "63270"
+ "Quinebaug"
+ "57"
+ "CDP"
+ 
+ 4
+ "09"
+ "68450"
+ "Sherwood Manor"
+ "57"
+ "CDP"
+ 
+ 5
+ "09"
+ "75940"
+ "Thompsonville"
+ "57"
+ "CDP"
+ 
+ 6
+ "09"
+ "37770"
+ "Hazardville"
+ "57"
+ "CDP"
+ 
+ 7
+ "09"
+ "54730"
+ "North Grosvenor Dale"
+ "57"
+ "CDP"
+ 
+ 8
+ "09"
+ "13445"
+ "Central Somers"
+ "57"
+ "CDP"
+ 
+ 9
+ "09"
+ "74655"
+ "Suffield Depot"
+ "57"
+ "CDP"
+ 
+ 10
+ "09"
+ "71460"
+ "Southwood Acres"
+ "57"
+ "CDP"
+ 
+ 11
+ "09"
+ "66455"
+ "Salmon Brook"
+ "57"
+ "CDP"
+ 
+ 12
+ "09"
+ "18220"
+ "Crystal Lake"
+ "57"
+ "CDP"
+ 
+ 13
+ "09"
+ "87140"
+ "Windsor Locks"
+ "57"
+ "CDP"
+ 
+ 14
+ "09"
+ "87350"
+ "Winsted"
+ "57"
+ "CDP"
+ 
+ 15
+ "09"
+ "71530"
+ "South Woodstock"
+ "57"
+ "CDP"
+ 
+ 16
+ "09"
+ "08770"
+ "Broad Brook"
+ "57"
+ "CDP"
+ 
+ 17
+ "09"
+ "62745"
+ "Putnam District"
+ "57"
+ "CDP"
+ 
+ 18
+ "09"
+ "75100"
+ "Tariffville"
+ "57"
+ "CDP"
+ 
+ 19
+ "09"
+ "69010"
+ "Simsbury Center"
+ "57"
+ "CDP"
+ 
+ 20
+ "09"
+ "83990"
+ "West Simsbury"
+ "57"
+ "CDP"
+ 
+ 21
+ "09"
+ "76500"
+ "Torrington"
+ "58"
+ "city"
+ 
+ 22
+ "09"
+ "51420"
+ "New Hartford Center"
+ "57"
+ "CDP"
+ 
+ 23
+ "09"
+ "65230"
+ "Rockville"
+ "57"
+ "CDP"
+ 
+ 24
+ "09"
+ "80770"
+ "Weatogue"
+ "57"
+ "CDP"
+ 
+ 25
+ "09"
+ "12370"
+ "Canton Valley"
+ "57"
+ "CDP"
+ 
+ 26
+ "09"
+ "16120"
+ "Collinsville"
+ "57"
+ "CDP"
+ 
+ 27
+ "09"
+ "06050"
+ "Blue Hills"
+ "57"
+ "CDP"
+ 
+ 28
+ "09"
+ "73980"
+ "Storrs"
+ "57"
+ "CDP"
+ 
+ 29
+ "09"
+ "18780"
+ "Danielson"
+ "56"
+ "borough"
+ 
+ 30
+ "09"
+ "21160"
+ "East Brooklyn"
+ "57"
+ "CDP"
+ 
+ 31
+ "09"
+ "37000"
+ "Hartford"
+ "58"
+ "city"
+ 
+ 32
+ "09"
+ "82660"
+ "West Hartford"
+ "57"
+ "CDP"
+ 
+ 33
+ "09"
+ "22700"
+ "East Hartford"
+ "57"
+ "CDP"
+ 
+ 34
+ "09"
+ "13435"
+ "Central Manchester"
+ "57"
+ "CDP"
+ 
+ 35
+ "09"
+ "55725"
+ "Northwest Harwinton"
+ "57"
+ "CDP"
+ 
+ 36
+ "09"
+ "69990"
+ "South Coventry"
+ "57"
+ "CDP"
+ 
+ 37
+ "09"
+ "17835"
+ "Coventry Lake"
+ "57"
+ "CDP"
+ 
+ 38
+ "09"
+ "45120"
+ "Mansfield Center"
+ "57"
+ "CDP"
+ 
+ 39
+ "09"
+ "80630"
+ "Wauregan"
+ "57"
+ "CDP"
+ 
+ 40
+ "09"
+ "43300"
+ "Litchfield"
+ "56"
+ "borough"
+ 
+ 41
+ "09"
+ "49180"
+ "Moosup"
+ "57"
+ "CDP"
+ 
+ 42
+ "09"
+ "02690"
+ "Bantam"
+ "56"
+ "borough"
+ 
+ 43
+ "09"
+ "84970"
+ "Wethersfield"
+ "57"
+ "CDP"
+ 
+ 44
+ "09"
+ "85810"
+ "Willimantic"
+ "57"
+ "CDP"
+ 
+ 45
+ "09"
+ "31270"
+ "Glastonbury Center"
+ "57"
+ "CDP"
+ 
+ 46
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 47
+ "09"
+ "52210"
+ "Newington"
+ "57"
+ "CDP"
+ 
+ 48
+ "09"
+ "08420"
+ "Bristol"
+ "58"
+ "city"
+ 
+ 49
+ "09"
+ "50370"
+ "New Britain"
+ "58"
+ "city"
+ 
+ 50
+ "09"
+ "71250"
+ "South Windham"
+ "57"
+ "CDP"
+ 
+ 51
+ "09"
+ "52770"
+ "New Preston"
+ "57"
+ "CDP"
+ 
+ 52
+ "09"
+ "75240"
+ "Terryville"
+ "57"
+ "CDP"
+ 
+ 53
+ "09"
+ "60090"
+ "Plainfield Village"
+ "57"
+ "CDP"
+ 
+ 54
+ "09"
+ "04945"
+ "Bethlehem Village"
+ "57"
+ "CDP"
+ 
+ 55
+ "09"
+ "40150"
+ "Kensington"
+ "57"
+ "CDP"
+ 
+ 56
+ "09"
+ "75200"
+ "Terramuggus"
+ "57"
+ "CDP"
+ 
+ 57
+ "09"
+ "52560"
+ "New Milford"
+ "57"
+ "CDP"
+ 
+ 58
+ "09"
+ "39940"
+ "Jewett City"
+ "56"
+ "borough"
+ 
+ 59
+ "09"
+ "80000"
+ "Waterbury"
+ "58"
+ "city"
+ 
+ 60
+ "09"
+ "41410"
+ "Lake Pocotopaug"
+ "57"
+ "CDP"
+ 
+ 61
+ "09"
+ "56690"
+ "Oakville"
+ "57"
+ "CDP"
+ 
+ 62
+ "09"
+ "56200"
+ "Norwich"
+ "58"
+ "city"
+ 
+ 63
+ "09"
+ "47290"
+ "Middletown"
+ "58"
+ "city"
+ 
+ 64
+ "09"
+ "61870"
+ "Portland"
+ "57"
+ "CDP"
+ 
+ 65
+ "09"
+ "22420"
+ "East Hampton"
+ "57"
+ "CDP"
+ 
+ 66
+ "09"
+ "46450"
+ "Meriden"
+ "58"
+ "city"
+ 
+ 67
+ "09"
+ "87980"
+ "Woodbury Center"
+ "57"
+ "CDP"
+ 
+ 68
+ "09"
+ "14200"
+ "Cheshire Village"
+ "57"
+ "CDP"
+ 
+ 69
+ "09"
+ "49880"
+ "Naugatuck"
+ "56"
+ "borough"
+ 
+ 70
+ "09"
+ "49110"
+ "Moodus"
+ "57"
+ "CDP"
+ 
+ 71
+ "09"
+ "38050"
+ "Higganum"
+ "57"
+ "CDP"
+ 
+ 72
+ "09"
+ "37930"
+ "Heritage Village"
+ "57"
+ "CDP"
+ 
+ 73
+ "09"
+ "20740"
+ "Durham"
+ "57"
+ "CDP"
+ 
+ 74
+ "09"
+ "78880"
+ "Wallingford Center"
+ "57"
+ "CDP"
+ 
+ 75
+ "09"
+ "58520"
+ "Oxoboxo River"
+ "57"
+ "CDP"
+ 
+ 76
+ "09"
+ "18430"
+ "Danbury"
+ "58"
+ "city"
+ 
+ 77
+ "09"
+ "54940"
+ "North Haven"
+ "57"
+ "CDP"
+ 
+ 78
+ "09"
+ "52910"
+ "Newtown"
+ "56"
+ "borough"
+ 
+ 79
+ "09"
+ "14370"
+ "Chester Center"
+ "57"
+ "CDP"
+ 
+ 80
+ "09"
+ "19200"
+ "Deep River Center"
+ "57"
+ "CDP"
+ 
+ 81
+ "09"
+ "16960"
+ "Conning Towers-Nautilus Park"
+ "57"
+ "CDP"
+ 
+ 82
+ "09"
+ "57180"
+ "Old Mystic"
+ "57"
+ "CDP"
+ 
+ 83
+ "09"
+ "59140"
+ "Pawcatuck"
+ "57"
+ "CDP"
+ 
+ 84
+ "09"
+ "04790"
+ "Bethel"
+ "57"
+ "CDP"
+ 
+ 85
+ "09"
+ "52280"
+ "New London"
+ "58"
+ "city"
+ 
+ 86
+ "09"
+ "26370"
+ "Essex Village"
+ "57"
+ "CDP"
+ 
+ 87
+ "09"
+ "68100"
+ "Shelton"
+ "58"
+ "city"
+ 
+ 88
+ "09"
+ "49810"
+ "Mystic"
+ "57"
+ "CDP"
+ 
+ 89
+ "09"
+ "34180"
+ "Groton"
+ "58"
+ "city"
+ 
+ 90
+ "09"
+ "22980"
+ "East Haven"
+ "57"
+ "CDP"
+ 
+ 91
+ "09"
+ "43790"
+ "Long Hill"
+ "57"
+ "CDP"
+ 
+ 92
+ "09"
+ "01150"
+ "Ansonia"
+ "58"
+ "city"
+ 
+ 93
+ "09"
+ "13495"
+ "Central Waterford"
+ "57"
+ "CDP"
+ 
+ 94
+ "09"
+ "19480"
+ "Derby"
+ "58"
+ "city"
+ 
+ 95
+ "09"
+ "53260"
+ "Noank"
+ "57"
+ "CDP"
+ 
+ 96
+ "09"
+ "52000"
+ "New Haven"
+ "58"
+ "city"
+ 
+ 97
+ "09"
+ "61730"
+ "Poquonock Bridge"
+ "57"
+ "CDP"
+ 
+ 98
+ "09"
+ "53120"
+ "Niantic"
+ "57"
+ "CDP"
+ 
+ 99
+ "09"
+ "73700"
+ "Stonington"
+ "56"
+ "borough"
+ 
+ 100
+ "09"
+ "34460"
+ "Groton Long Point"
+ "56"
+ "borough"
+ 
+ 101
+ "09"
+ "57670"
+ "Orange"
+ "57"
+ "CDP"
+ 
+ 102
+ "09"
+ "82800"
+ "West Haven"
+ "58"
+ "city"
+ 
+ 103
+ "09"
+ "57390"
+ "Old Saybrook Center"
+ "57"
+ "CDP"
+ 
+ 104
+ "09"
+ "77270"
+ "Trumbull"
+ "57"
+ "CDP"
+ 
+ 105
+ "09"
+ "35020"
+ "Guilford Center"
+ "57"
+ "CDP"
+ 
+ 106
+ "09"
+ "63900"
+ "Ridgefield"
+ "57"
+ "CDP"
+ 
+ 107
+ "09"
+ "07345"
+ "Branford Center"
+ "57"
+ "CDP"
+ 
+ 108
+ "09"
+ "44630"
+ "Madison Center"
+ "57"
+ "CDP"
+ 
+ 109
+ "09"
+ "15420"
+ "Clinton"
+ "57"
+ "CDP"
+ 
+ 110
+ "09"
+ "81750"
+ "Westbrook Center"
+ "57"
+ "CDP"
+ 
+ 111
+ "09"
+ "67050"
+ "Saybrook Manor"
+ "57"
+ "CDP"
+ 
+ 112
+ "09"
+ "47515"
+ "Milford city (balance)"
+ "59"
+ " "
+ 
+ 113
+ "09"
+ "27810"
+ "Fenwick"
+ "56"
+ "borough"
+ 
+ 114
+ "09"
+ "74260"
+ "Stratford"
+ "57"
+ "CDP"
+ 
+ 115
+ "09"
+ "30540"
+ "Georgetown"
+ "57"
+ "CDP"
+ 
+ 116
+ "09"
+ "88050"
+ "Woodmont"
+ "56"
+ "borough"
+ 
+ 117
+ "09"
+ "08000"
+ "Bridgeport"
+ "58"
+ "city"
+ 
+ 118
+ "09"
+ "83570"
+ "Westport"
+ "57"
+ "CDP"
+ 
+ 119
+ "09"
+ "73000"
+ "Stamford"
+ "58"
+ "city"
+ 
+ 120
+ "09"
+ "55990"
+ "Norwalk"
+ "58"
+ "city"
+ 
+ 121
+ "09"
+ "18920"
+ "Darien"
+ "57"
+ "CDP"
+ 

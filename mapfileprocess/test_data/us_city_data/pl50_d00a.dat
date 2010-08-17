@@ -1,0 +1,476 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 2
+ "50"
+ "52075"
+ "North Troy"
+ "61"
+ "village"
+ 
+ 3
+ "50"
+ "17500"
+ "Derby Line"
+ "61"
+ "village"
+ 
+ 4
+ "50"
+ "00625"
+ "Alburg"
+ "61"
+ "village"
+ 
+ 5
+ "50"
+ "17425"
+ "Derby Center"
+ "61"
+ "village"
+ 
+ 6
+ "50"
+ "48850"
+ "Newport"
+ "58"
+ "city"
+ 
+ 7
+ "50"
+ "71650"
+ "Swanton"
+ "61"
+ "village"
+ 
+ 8
+ "50"
+ "24025"
+ "Enosburg Falls"
+ "61"
+ "village"
+ 
+ 9
+ "50"
+ "35725"
+ "Island Pond"
+ "57"
+ "CDP"
+ 
+ 10
+ "50"
+ "61675"
+ "St. Albans"
+ "58"
+ "city"
+ 
+ 11
+ "50"
+ "53575"
+ "Orleans"
+ "61"
+ "village"
+ 
+ 12
+ "50"
+ "03475"
+ "Barton"
+ "61"
+ "village"
+ 
+ 13
+ "50"
+ "00400"
+ "Albany"
+ "61"
+ "village"
+ 
+ 14
+ "50"
+ "45175"
+ "Milton"
+ "61"
+ "village"
+ 
+ 15
+ "50"
+ "79150"
+ "West Burke"
+ "61"
+ "village"
+ 
+ 16
+ "50"
+ "11425"
+ "Cambridge"
+ "61"
+ "village"
+ 
+ 17
+ "50"
+ "36475"
+ "Jeffersonville"
+ "61"
+ "village"
+ 
+ 18
+ "50"
+ "37000"
+ "Johnson"
+ "61"
+ "village"
+ 
+ 19
+ "50"
+ "34975"
+ "Hyde Park"
+ "61"
+ "village"
+ 
+ 20
+ "50"
+ "46825"
+ "Morrisville"
+ "61"
+ "village"
+ 
+ 21
+ "50"
+ "41950"
+ "Lyndonville"
+ "61"
+ "village"
+ 
+ 22
+ "50"
+ "10675"
+ "Burlington"
+ "58"
+ "city"
+ 
+ 23
+ "50"
+ "66175"
+ "South Burlington"
+ "58"
+ "city"
+ 
+ 24
+ "50"
+ "36625"
+ "Jericho"
+ "61"
+ "village"
+ 
+ 25
+ "50"
+ "24400"
+ "Essex Junction"
+ "61"
+ "village"
+ 
+ 26
+ "50"
+ "85150"
+ "Winooski"
+ "58"
+ "city"
+ 
+ 27
+ "50"
+ "62125"
+ "St. Johnsbury"
+ "57"
+ "CDP"
+ 
+ 28
+ "50"
+ "11050"
+ "Cabot"
+ "61"
+ "village"
+ 
+ 29
+ "50"
+ "76900"
+ "Waterbury"
+ "61"
+ "village"
+ 
+ 30
+ "50"
+ "43525"
+ "Marshfield"
+ "61"
+ "village"
+ 
+ 31
+ "50"
+ "46000"
+ "Montpelier"
+ "58"
+ "city"
+ 
+ 32
+ "50"
+ "03175"
+ "Barre"
+ "58"
+ "city"
+ 
+ 33
+ "50"
+ "29450"
+ "Graniteville-East Barre"
+ "57"
+ "CDP"
+ 
+ 34
+ "50"
+ "66025"
+ "South Barre"
+ "57"
+ "CDP"
+ 
+ 35
+ "50"
+ "74650"
+ "Vergennes"
+ "58"
+ "city"
+ 
+ 36
+ "50"
+ "50200"
+ "Northfield"
+ "61"
+ "village"
+ 
+ 37
+ "50"
+ "78025"
+ "Wells River"
+ "61"
+ "village"
+ 
+ 38
+ "50"
+ "48100"
+ "Newbury"
+ "61"
+ "village"
+ 
+ 39
+ "50"
+ "44275"
+ "Middlebury"
+ "57"
+ "CDP"
+ 
+ 40
+ "50"
+ "07225"
+ "Bradford"
+ "61"
+ "village"
+ 
+ 41
+ "50"
+ "07675"
+ "Brandon"
+ "57"
+ "CDP"
+ 
+ 42
+ "50"
+ "84025"
+ "Wilder"
+ "57"
+ "CDP"
+ 
+ 43
+ "50"
+ "83575"
+ "White River Junction"
+ "57"
+ "CDP"
+ 
+ 44
+ "50"
+ "85900"
+ "Woodstock"
+ "61"
+ "village"
+ 
+ 45
+ "50"
+ "61225"
+ "Rutland"
+ "58"
+ "city"
+ 
+ 46
+ "50"
+ "82375"
+ "West Rutland"
+ "57"
+ "CDP"
+ 
+ 47
+ "50"
+ "25450"
+ "Fair Haven"
+ "57"
+ "CDP"
+ 
+ 48
+ "50"
+ "56800"
+ "Poultney"
+ "61"
+ "village"
+ 
+ 49
+ "50"
+ "75850"
+ "Wallingford"
+ "57"
+ "CDP"
+ 
+ 50
+ "50"
+ "41200"
+ "Ludlow"
+ "61"
+ "village"
+ 
+ 51
+ "50"
+ "54850"
+ "Perkinsville"
+ "61"
+ "village"
+ 
+ 52
+ "50"
+ "69475"
+ "Springfield"
+ "57"
+ "CDP"
+ 
+ 53
+ "50"
+ "13700"
+ "Chester-Chester Depot"
+ "57"
+ "CDP"
+ 
+ 54
+ "50"
+ "42925"
+ "Manchester Center"
+ "57"
+ "CDP"
+ 
+ 55
+ "50"
+ "42700"
+ "Manchester"
+ "61"
+ "village"
+ 
+ 56
+ "50"
+ "04225"
+ "Bellows Falls"
+ "61"
+ "village"
+ 
+ 57
+ "50"
+ "62950"
+ "Saxtons River"
+ "61"
+ "village"
+ 
+ 58
+ "50"
+ "52375"
+ "North Westminster"
+ "61"
+ "village"
+ 
+ 59
+ "50"
+ "01375"
+ "Arlington"
+ "57"
+ "CDP"
+ 
+ 60
+ "50"
+ "81325"
+ "Westminster"
+ "61"
+ "village"
+ 
+ 61
+ "50"
+ "48325"
+ "Newfane"
+ "61"
+ "village"
+ 
+ 62
+ "50"
+ "68200"
+ "South Shaftsbury"
+ "57"
+ "CDP"
+ 
+ 63
+ "50"
+ "49075"
+ "North Bennington"
+ "61"
+ "village"
+ 
+ 64
+ "50"
+ "07975"
+ "Brattleboro"
+ "57"
+ "CDP"
+ 
+ 65
+ "50"
+ "04750"
+ "Bennington"
+ "57"
+ "CDP"
+ 
+ 66
+ "50"
+ "53125"
+ "Old Bennington"
+ "61"
+ "village"
+ 
+ 67
+ "50"
+ "78850"
+ "West Brattleboro"
+ "57"
+ "CDP"
+ 
+ 68
+ "50"
+ "36025"
+ "Jacksonville"
+ "61"
+ "village"
+ 

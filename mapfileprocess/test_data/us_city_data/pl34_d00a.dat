@@ -1,0 +1,3703 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "34"
+ "75750"
+ "Vernon Valley"
+ "57"
+ "CDP"
+ 
+ 2
+ "34"
+ "71670"
+ "Sussex"
+ "56"
+ "borough"
+ 
+ 3
+ "34"
+ "79430"
+ "West Milford"
+ "57"
+ "CDP"
+ 
+ 4
+ "34"
+ "31405"
+ "Highland Lake"
+ "57"
+ "CDP"
+ 
+ 5
+ "34"
+ "63150"
+ "Ringwood"
+ "56"
+ "borough"
+ 
+ 6
+ "34"
+ "29220"
+ "Hamburg"
+ "56"
+ "borough"
+ 
+ 7
+ "34"
+ "07300"
+ "Branchville"
+ "56"
+ "borough"
+ 
+ 8
+ "34"
+ "15610"
+ "Crandon Lakes"
+ "57"
+ "CDP"
+ 
+ 9
+ "34"
+ "24930"
+ "Franklin"
+ "56"
+ "borough"
+ 
+ 10
+ "34"
+ "54660"
+ "Ogdensburg"
+ "56"
+ "borough"
+ 
+ 11
+ "34"
+ "75140"
+ "Upper Saddle River"
+ "56"
+ "borough"
+ 
+ 12
+ "34"
+ "61680"
+ "Ramsey"
+ "56"
+ "borough"
+ 
+ 13
+ "34"
+ "47610"
+ "Montvale"
+ "56"
+ "borough"
+ 
+ 14
+ "34"
+ "76730"
+ "Wanaque"
+ "56"
+ "borough"
+ 
+ 15
+ "34"
+ "51930"
+ "Newton"
+ "60"
+ "town"
+ 
+ 16
+ "34"
+ "06340"
+ "Bloomingdale"
+ "56"
+ "borough"
+ 
+ 17
+ "34"
+ "53850"
+ "Oakland"
+ "56"
+ "borough"
+ 
+ 18
+ "34"
+ "65400"
+ "Saddle River"
+ "56"
+ "borough"
+ 
+ 19
+ "34"
+ "56130"
+ "Park Ridge"
+ "56"
+ "borough"
+ 
+ 20
+ "34"
+ "82300"
+ "Woodcliff Lake"
+ "56"
+ "borough"
+ 
+ 21
+ "34"
+ "00700"
+ "Allendale"
+ "56"
+ "borough"
+ 
+ 22
+ "34"
+ "63720"
+ "River Vale"
+ "57"
+ "CDP"
+ 
+ 23
+ "34"
+ "24990"
+ "Franklin Lakes"
+ "56"
+ "borough"
+ 
+ 24
+ "34"
+ "38040"
+ "Lake Mohawk"
+ "57"
+ "CDP"
+ 
+ 25
+ "34"
+ "54870"
+ "Old Tappan"
+ "56"
+ "borough"
+ 
+ 26
+ "34"
+ "37110"
+ "Kinnelon"
+ "56"
+ "borough"
+ 
+ 27
+ "34"
+ "83080"
+ "Wyckoff"
+ "57"
+ "CDP"
+ 
+ 28
+ "34"
+ "60090"
+ "Pompton Lakes"
+ "56"
+ "borough"
+ 
+ 29
+ "34"
+ "53430"
+ "Northvale"
+ "56"
+ "borough"
+ 
+ 30
+ "34"
+ "76400"
+ "Waldwick"
+ "56"
+ "borough"
+ 
+ 31
+ "34"
+ "31920"
+ "Hillsdale"
+ "56"
+ "borough"
+ 
+ 32
+ "34"
+ "09040"
+ "Butler"
+ "56"
+ "borough"
+ 
+ 33
+ "34"
+ "77870"
+ "Wayne"
+ "57"
+ "CDP"
+ 
+ 34
+ "34"
+ "64170"
+ "Rockleigh"
+ "56"
+ "borough"
+ 
+ 35
+ "34"
+ "53610"
+ "Norwood"
+ "56"
+ "borough"
+ 
+ 36
+ "34"
+ "32310"
+ "Ho-Ho-Kus"
+ "56"
+ "borough"
+ 
+ 37
+ "34"
+ "63000"
+ "Ridgewood"
+ "61"
+ "village"
+ 
+ 38
+ "34"
+ "46110"
+ "Midland Park"
+ "56"
+ "borough"
+ 
+ 39
+ "34"
+ "30150"
+ "Harrington Park"
+ "56"
+ "borough"
+ 
+ 40
+ "34"
+ "01090"
+ "Alpine"
+ "56"
+ "borough"
+ 
+ 41
+ "34"
+ "77510"
+ "Washington Township"
+ "57"
+ "CDP"
+ 
+ 42
+ "34"
+ "63300"
+ "Riverdale"
+ "56"
+ "borough"
+ 
+ 43
+ "34"
+ "01330"
+ "Andover"
+ "56"
+ "borough"
+ 
+ 44
+ "34"
+ "80270"
+ "Westwood"
+ "56"
+ "borough"
+ 
+ 45
+ "34"
+ "32910"
+ "Hopatcong"
+ "56"
+ "borough"
+ 
+ 46
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 47
+ "34"
+ "21450"
+ "Emerson"
+ "56"
+ "borough"
+ 
+ 48
+ "34"
+ "13810"
+ "Closter"
+ "56"
+ "borough"
+ 
+ 49
+ "34"
+ "30570"
+ "Hawthorne"
+ "56"
+ "borough"
+ 
+ 50
+ "34"
+ "55950"
+ "Paramus"
+ "56"
+ "borough"
+ 
+ 51
+ "34"
+ "53040"
+ "North Haledon"
+ "56"
+ "borough"
+ 
+ 52
+ "34"
+ "38430"
+ "Lake Telemark"
+ "57"
+ "CDP"
+ 
+ 53
+ "34"
+ "26640"
+ "Glen Rock"
+ "56"
+ "borough"
+ 
+ 54
+ "34"
+ "30540"
+ "Haworth"
+ "56"
+ "borough"
+ 
+ 55
+ "34"
+ "54990"
+ "Oradell"
+ "56"
+ "borough"
+ 
+ 56
+ "34"
+ "17530"
+ "Demarest"
+ "56"
+ "borough"
+ 
+ 57
+ "34"
+ "22470"
+ "Fair Lawn"
+ "56"
+ "borough"
+ 
+ 58
+ "34"
+ "18400"
+ "Dumont"
+ "56"
+ "borough"
+ 
+ 59
+ "34"
+ "15820"
+ "Cresskill"
+ "56"
+ "borough"
+ 
+ 60
+ "34"
+ "40290"
+ "Lincoln Park"
+ "56"
+ "borough"
+ 
+ 61
+ "34"
+ "51660"
+ "New Milford"
+ "56"
+ "borough"
+ 
+ 62
+ "34"
+ "61170"
+ "Prospect Park"
+ "56"
+ "borough"
+ 
+ 63
+ "34"
+ "29070"
+ "Haledon"
+ "56"
+ "borough"
+ 
+ 64
+ "34"
+ "63360"
+ "River Edge"
+ "56"
+ "borough"
+ 
+ 65
+ "34"
+ "48690"
+ "Mount Arlington"
+ "56"
+ "borough"
+ 
+ 66
+ "34"
+ "80750"
+ "White Meadow Lake"
+ "57"
+ "CDP"
+ 
+ 67
+ "34"
+ "57000"
+ "Paterson"
+ "58"
+ "city"
+ 
+ 68
+ "34"
+ "00675"
+ "Allamuchy-Panther Valley"
+ "57"
+ "CDP"
+ 
+ 69
+ "34"
+ "72420"
+ "Tenafly"
+ "56"
+ "borough"
+ 
+ 70
+ "34"
+ "05170"
+ "Bergenfield"
+ "56"
+ "borough"
+ 
+ 71
+ "34"
+ "70380"
+ "Stanhope"
+ "56"
+ "borough"
+ 
+ 72
+ "34"
+ "73140"
+ "Totowa"
+ "56"
+ "borough"
+ 
+ 73
+ "34"
+ "21300"
+ "Elmwood Park"
+ "56"
+ "borough"
+ 
+ 74
+ "34"
+ "65370"
+ "Saddle Brook"
+ "57"
+ "CDP"
+ 
+ 75
+ "34"
+ "64020"
+ "Rochelle Park"
+ "57"
+ "CDP"
+ 
+ 76
+ "34"
+ "06610"
+ "Boonton"
+ "60"
+ "town"
+ 
+ 77
+ "34"
+ "44880"
+ "Maywood"
+ "56"
+ "borough"
+ 
+ 78
+ "34"
+ "72390"
+ "Teaneck"
+ "57"
+ "CDP"
+ 
+ 79
+ "34"
+ "80390"
+ "Wharton"
+ "56"
+ "borough"
+ 
+ 80
+ "34"
+ "28680"
+ "Hackensack"
+ "58"
+ "city"
+ 
+ 81
+ "34"
+ "21480"
+ "Englewood"
+ "58"
+ "city"
+ 
+ 82
+ "34"
+ "64050"
+ "Rockaway"
+ "56"
+ "borough"
+ 
+ 83
+ "34"
+ "22380"
+ "Fairfield"
+ "57"
+ "CDP"
+ 
+ 84
+ "34"
+ "79820"
+ "West Paterson"
+ "56"
+ "borough"
+ 
+ 85
+ "34"
+ "48480"
+ "Mountain Lakes"
+ "56"
+ "borough"
+ 
+ 86
+ "34"
+ "50130"
+ "Netcong"
+ "56"
+ "borough"
+ 
+ 87
+ "34"
+ "21510"
+ "Englewood Cliffs"
+ "56"
+ "borough"
+ 
+ 88
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 89
+ "34"
+ "18070"
+ "Dover"
+ "60"
+ "town"
+ 
+ 90
+ "34"
+ "13690"
+ "Clifton"
+ "58"
+ "city"
+ 
+ 91
+ "34"
+ "41100"
+ "Lodi"
+ "56"
+ "borough"
+ 
+ 92
+ "34"
+ "08620"
+ "Budd Lake"
+ "57"
+ "CDP"
+ 
+ 93
+ "34"
+ "25770"
+ "Garfield"
+ "58"
+ "city"
+ 
+ 94
+ "34"
+ "40650"
+ "Little Falls"
+ "57"
+ "CDP"
+ 
+ 95
+ "34"
+ "27366"
+ "Great Meadows-Vienna"
+ "57"
+ "CDP"
+ 
+ 96
+ "34"
+ "71385"
+ "Succasunna-Kenvil"
+ "57"
+ "CDP"
+ 
+ 97
+ "34"
+ "06490"
+ "Bogota"
+ "56"
+ "borough"
+ 
+ 98
+ "34"
+ "52620"
+ "North Caldwell"
+ "56"
+ "borough"
+ 
+ 99
+ "34"
+ "28710"
+ "Hackettstown"
+ "60"
+ "town"
+ 
+ 100
+ "34"
+ "75890"
+ "Victory Gardens"
+ "56"
+ "borough"
+ 
+ 101
+ "34"
+ "11230"
+ "Cedar Grove"
+ "57"
+ "CDP"
+ 
+ 102
+ "34"
+ "56550"
+ "Passaic"
+ "58"
+ "city"
+ 
+ 103
+ "34"
+ "40020"
+ "Leonia"
+ "56"
+ "borough"
+ 
+ 104
+ "34"
+ "30420"
+ "Hasbrouck Heights"
+ "56"
+ "borough"
+ 
+ 105
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 106
+ "34"
+ "72480"
+ "Teterboro"
+ "56"
+ "borough"
+ 
+ 107
+ "34"
+ "78500"
+ "West Caldwell"
+ "57"
+ "CDP"
+ 
+ 108
+ "34"
+ "62940"
+ "Ridgefield Park"
+ "61"
+ "village"
+ 
+ 109
+ "34"
+ "24420"
+ "Fort Lee"
+ "56"
+ "borough"
+ 
+ 110
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 111
+ "34"
+ "82570"
+ "Wood-Ridge"
+ "56"
+ "borough"
+ 
+ 112
+ "34"
+ "76490"
+ "Wallington"
+ "56"
+ "borough"
+ 
+ 113
+ "34"
+ "47490"
+ "Montclair"
+ "57"
+ "CDP"
+ 
+ 114
+ "34"
+ "40680"
+ "Little Ferry"
+ "56"
+ "borough"
+ 
+ 115
+ "34"
+ "55770"
+ "Palisades Park"
+ "56"
+ "borough"
+ 
+ 116
+ "34"
+ "47700"
+ "Moonachie"
+ "56"
+ "borough"
+ 
+ 117
+ "34"
+ "19510"
+ "East Rutherford"
+ "56"
+ "borough"
+ 
+ 118
+ "34"
+ "48210"
+ "Morris Plains"
+ "56"
+ "borough"
+ 
+ 119
+ "34"
+ "75800"
+ "Verona"
+ "57"
+ "CDP"
+ 
+ 120
+ "34"
+ "10480"
+ "Carlstadt"
+ "56"
+ "borough"
+ 
+ 121
+ "34"
+ "06250"
+ "Bloomfield"
+ "57"
+ "CDP"
+ 
+ 122
+ "34"
+ "20020"
+ "Edgewater"
+ "56"
+ "borough"
+ 
+ 123
+ "34"
+ "09220"
+ "Caldwell"
+ "56"
+ "borough"
+ 
+ 124
+ "34"
+ "65280"
+ "Rutherford"
+ "56"
+ "borough"
+ 
+ 125
+ "34"
+ "62910"
+ "Ridgefield"
+ "56"
+ "borough"
+ 
+ 126
+ "34"
+ "04240"
+ "Beatyestown"
+ "57"
+ "CDP"
+ 
+ 127
+ "34"
+ "64590"
+ "Roseland"
+ "56"
+ "borough"
+ 
+ 128
+ "34"
+ "04990"
+ "Belvidere"
+ "60"
+ "town"
+ 
+ 129
+ "34"
+ "53670"
+ "Nutley"
+ "57"
+ "CDP"
+ 
+ 130
+ "34"
+ "21840"
+ "Essex Fells"
+ "56"
+ "borough"
+ 
+ 131
+ "34"
+ "13570"
+ "Cliffside Park"
+ "56"
+ "borough"
+ 
+ 132
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 133
+ "34"
+ "55500"
+ "Oxford"
+ "57"
+ "CDP"
+ 
+ 134
+ "34"
+ "26610"
+ "Glen Ridge"
+ "56"
+ "borough"
+ 
+ 135
+ "34"
+ "22560"
+ "Fairview"
+ "56"
+ "borough"
+ 
+ 136
+ "34"
+ "79790"
+ "West Orange"
+ "57"
+ "CDP"
+ 
+ 137
+ "34"
+ "42120"
+ "Lyndhurst"
+ "57"
+ "CDP"
+ 
+ 138
+ "34"
+ "40920"
+ "Livingston"
+ "57"
+ "CDP"
+ 
+ 139
+ "34"
+ "48300"
+ "Morristown"
+ "60"
+ "town"
+ 
+ 140
+ "34"
+ "04690"
+ "Belleville"
+ "57"
+ "CDP"
+ 
+ 141
+ "34"
+ "66570"
+ "Secaucus"
+ "60"
+ "town"
+ 
+ 142
+ "34"
+ "52320"
+ "North Arlington"
+ "56"
+ "borough"
+ 
+ 143
+ "34"
+ "41400"
+ "Long Valley"
+ "57"
+ "CDP"
+ 
+ 144
+ "34"
+ "28650"
+ "Guttenberg"
+ "60"
+ "town"
+ 
+ 145
+ "34"
+ "23910"
+ "Florham Park"
+ "56"
+ "borough"
+ 
+ 146
+ "34"
+ "79610"
+ "West New York"
+ "60"
+ "town"
+ 
+ 147
+ "34"
+ "12580"
+ "Chester"
+ "56"
+ "borough"
+ 
+ 148
+ "34"
+ "45330"
+ "Mendham"
+ "56"
+ "borough"
+ 
+ 149
+ "34"
+ "55020"
+ "Orange"
+ "57"
+ "CDP"
+ 
+ 150
+ "34"
+ "51000"
+ "Newark"
+ "58"
+ "city"
+ 
+ 151
+ "34"
+ "19390"
+ "East Orange"
+ "58"
+ "city"
+ 
+ 152
+ "34"
+ "36510"
+ "Kearny"
+ "60"
+ "town"
+ 
+ 153
+ "34"
+ "74630"
+ "Union City"
+ "58"
+ "city"
+ 
+ 154
+ "34"
+ "07360"
+ "Brass Castle"
+ "57"
+ "CDP"
+ 
+ 155
+ "34"
+ "42510"
+ "Madison"
+ "56"
+ "borough"
+ 
+ 156
+ "34"
+ "36000"
+ "Jersey City"
+ "58"
+ "city"
+ 
+ 157
+ "34"
+ "77270"
+ "Washington"
+ "56"
+ "borough"
+ 
+ 158
+ "34"
+ "69255"
+ "South Orange"
+ "57"
+ "CDP"
+ 
+ 159
+ "34"
+ "46410"
+ "Millburn"
+ "57"
+ "CDP"
+ 
+ 160
+ "34"
+ "43830"
+ "Maplewood"
+ "57"
+ "CDP"
+ 
+ 161
+ "34"
+ "32250"
+ "Hoboken"
+ "58"
+ "city"
+ 
+ 162
+ "34"
+ "05590"
+ "Bernardsville"
+ "56"
+ "borough"
+ 
+ 163
+ "34"
+ "12100"
+ "Chatham"
+ "56"
+ "borough"
+ 
+ 164
+ "34"
+ "19360"
+ "East Newark"
+ "56"
+ "borough"
+ 
+ 165
+ "34"
+ "30210"
+ "Harrison"
+ "60"
+ "town"
+ 
+ 166
+ "34"
+ "34440"
+ "Irvington"
+ "57"
+ "CDP"
+ 
+ 167
+ "34"
+ "57300"
+ "Peapack and Gladstone"
+ "56"
+ "borough"
+ 
+ 168
+ "34"
+ "71430"
+ "Summit"
+ "58"
+ "city"
+ 
+ 169
+ "34"
+ "09280"
+ "Califon"
+ "56"
+ "borough"
+ 
+ 170
+ "34"
+ "22890"
+ "Far Hills"
+ "56"
+ "borough"
+ 
+ 171
+ "34"
+ "74510"
+ "Union"
+ "57"
+ "CDP"
+ 
+ 172
+ "34"
+ "29460"
+ "Hampton"
+ "56"
+ "borough"
+ 
+ 173
+ "34"
+ "70050"
+ "Springfield"
+ "57"
+ "CDP"
+ 
+ 174
+ "34"
+ "51810"
+ "New Providence"
+ "56"
+ "borough"
+ 
+ 175
+ "34"
+ "26550"
+ "Glen Gardner"
+ "56"
+ "borough"
+ 
+ 176
+ "34"
+ "32010"
+ "Hillside"
+ "57"
+ "CDP"
+ 
+ 177
+ "34"
+ "58350"
+ "Phillipsburg"
+ "60"
+ "town"
+ 
+ 178
+ "34"
+ "03580"
+ "Bayonne"
+ "58"
+ "city"
+ 
+ 179
+ "34"
+ "48510"
+ "Mountainside"
+ "56"
+ "borough"
+ 
+ 180
+ "34"
+ "05350"
+ "Berkeley Heights"
+ "57"
+ "CDP"
+ 
+ 181
+ "34"
+ "36690"
+ "Kenilworth"
+ "56"
+ "borough"
+ 
+ 182
+ "34"
+ "21000"
+ "Elizabeth"
+ "58"
+ "city"
+ 
+ 183
+ "34"
+ "79040"
+ "Westfield"
+ "60"
+ "town"
+ 
+ 184
+ "34"
+ "31320"
+ "High Bridge"
+ "56"
+ "borough"
+ 
+ 185
+ "34"
+ "15670"
+ "Cranford"
+ "57"
+ "CDP"
+ 
+ 186
+ "34"
+ "66090"
+ "Scotch Plains"
+ "57"
+ "CDP"
+ 
+ 187
+ "34"
+ "64650"
+ "Roselle Park"
+ "56"
+ "borough"
+ 
+ 188
+ "34"
+ "01030"
+ "Alpha"
+ "56"
+ "borough"
+ 
+ 189
+ "34"
+ "77600"
+ "Watchung"
+ "56"
+ "borough"
+ 
+ 190
+ "34"
+ "06370"
+ "Bloomsbury"
+ "56"
+ "borough"
+ 
+ 191
+ "34"
+ "64620"
+ "Roselle"
+ "56"
+ "borough"
+ 
+ 192
+ "34"
+ "25800"
+ "Garwood"
+ "56"
+ "borough"
+ 
+ 193
+ "34"
+ "01480"
+ "Annandale"
+ "57"
+ "CDP"
+ 
+ 194
+ "34"
+ "40350"
+ "Linden"
+ "58"
+ "city"
+ 
+ 195
+ "34"
+ "22860"
+ "Fanwood"
+ "56"
+ "borough"
+ 
+ 196
+ "34"
+ "39630"
+ "Lebanon"
+ "56"
+ "borough"
+ 
+ 197
+ "34"
+ "13720"
+ "Clinton"
+ "60"
+ "town"
+ 
+ 198
+ "34"
+ "59190"
+ "Plainfield"
+ "58"
+ "city"
+ 
+ 199
+ "34"
+ "53280"
+ "North Plainfield"
+ "56"
+ "borough"
+ 
+ 200
+ "34"
+ "13180"
+ "Clark"
+ "57"
+ "CDP"
+ 
+ 201
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 202
+ "34"
+ "61530"
+ "Rahway"
+ "58"
+ "city"
+ 
+ 203
+ "34"
+ "80720"
+ "White House Station"
+ "57"
+ "CDP"
+ 
+ 204
+ "34"
+ "14380"
+ "Colonia"
+ "57"
+ "CDP"
+ 
+ 205
+ "34"
+ "20260"
+ "Edison"
+ "57"
+ "CDP"
+ 
+ 206
+ "34"
+ "10750"
+ "Carteret"
+ "56"
+ "borough"
+ 
+ 207
+ "34"
+ "02350"
+ "Avenel"
+ "57"
+ "CDP"
+ 
+ 208
+ "34"
+ "69390"
+ "South Plainfield"
+ "56"
+ "borough"
+ 
+ 209
+ "34"
+ "18490"
+ "Dunellen"
+ "56"
+ "borough"
+ 
+ 210
+ "34"
+ "45900"
+ "Middlesex"
+ "56"
+ "borough"
+ 
+ 211
+ "34"
+ "61980"
+ "Raritan"
+ "56"
+ "borough"
+ 
+ 212
+ "34"
+ "34470"
+ "Iselin"
+ "57"
+ "CDP"
+ 
+ 213
+ "34"
+ "06790"
+ "Bound Brook"
+ "56"
+ "borough"
+ 
+ 214
+ "34"
+ "68460"
+ "Somerville"
+ "56"
+ "borough"
+ 
+ 215
+ "34"
+ "60540"
+ "Port Reading"
+ "57"
+ "CDP"
+ 
+ 216
+ "34"
+ "46260"
+ "Milford"
+ "56"
+ "borough"
+ 
+ 217
+ "34"
+ "81950"
+ "Woodbridge"
+ "57"
+ "CDP"
+ 
+ 218
+ "34"
+ "66720"
+ "Sewaren"
+ "57"
+ "CDP"
+ 
+ 219
+ "34"
+ "68730"
+ "South Bound Brook"
+ "56"
+ "borough"
+ 
+ 220
+ "34"
+ "24030"
+ "Fords"
+ "57"
+ "CDP"
+ 
+ 221
+ "34"
+ "43620"
+ "Manville"
+ "56"
+ "borough"
+ 
+ 222
+ "34"
+ "45690"
+ "Metuchen"
+ "56"
+ "borough"
+ 
+ 223
+ "34"
+ "68304"
+ "Society Hill"
+ "57"
+ "CDP"
+ 
+ 224
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 225
+ "34"
+ "58200"
+ "Perth Amboy"
+ "58"
+ "city"
+ 
+ 226
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 227
+ "34"
+ "25350"
+ "Frenchtown"
+ "56"
+ "borough"
+ 
+ 228
+ "34"
+ "68370"
+ "Somerset"
+ "57"
+ "CDP"
+ 
+ 229
+ "34"
+ "23700"
+ "Flemington"
+ "56"
+ "borough"
+ 
+ 230
+ "34"
+ "31470"
+ "Highland Park"
+ "56"
+ "borough"
+ 
+ 231
+ "34"
+ "51210"
+ "New Brunswick"
+ "58"
+ "city"
+ 
+ 232
+ "34"
+ "46590"
+ "Millstone"
+ "56"
+ "borough"
+ 
+ 233
+ "34"
+ "65790"
+ "Sayreville"
+ "56"
+ "borough"
+ 
+ 234
+ "34"
+ "68550"
+ "South Amboy"
+ "58"
+ "city"
+ 
+ 235
+ "34"
+ "18970"
+ "East Brunswick"
+ "57"
+ "CDP"
+ 
+ 236
+ "34"
+ "52605"
+ "North Brunswick Township"
+ "57"
+ "CDP"
+ 
+ 237
+ "34"
+ "69420"
+ "South River"
+ "56"
+ "borough"
+ 
+ 238
+ "34"
+ "39360"
+ "Laurence Harbor"
+ "57"
+ "CDP"
+ 
+ 239
+ "34"
+ "46620"
+ "Milltown"
+ "56"
+ "borough"
+ 
+ 240
+ "34"
+ "42540"
+ "Madison Park"
+ "57"
+ "CDP"
+ 
+ 241
+ "34"
+ "74540"
+ "Union Beach"
+ "56"
+ "borough"
+ 
+ 242
+ "34"
+ "36480"
+ "Keansburg"
+ "56"
+ "borough"
+ 
+ 243
+ "34"
+ "13630"
+ "Cliffwood Beach"
+ "57"
+ "CDP"
+ 
+ 244
+ "34"
+ "36810"
+ "Keyport"
+ "56"
+ "borough"
+ 
+ 245
+ "34"
+ "53205"
+ "North Middletown"
+ "57"
+ "CDP"
+ 
+ 246
+ "34"
+ "60360"
+ "Port Monmouth"
+ "57"
+ "CDP"
+ 
+ 247
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 248
+ "34"
+ "04600"
+ "Belford"
+ "57"
+ "CDP"
+ 
+ 249
+ "34"
+ "36660"
+ "Kendall Park"
+ "57"
+ "CDP"
+ 
+ 250
+ "34"
+ "44520"
+ "Matawan"
+ "56"
+ "borough"
+ 
+ 251
+ "34"
+ "39990"
+ "Leonardo"
+ "57"
+ "CDP"
+ 
+ 252
+ "34"
+ "54690"
+ "Old Bridge"
+ "57"
+ "CDP"
+ 
+ 253
+ "34"
+ "31500"
+ "Highlands"
+ "56"
+ "borough"
+ 
+ 254
+ "34"
+ "02110"
+ "Atlantic Highlands"
+ "56"
+ "borough"
+ 
+ 255
+ "34"
+ "71280"
+ "Strathmore"
+ "57"
+ "CDP"
+ 
+ 256
+ "34"
+ "70980"
+ "Stockton"
+ "56"
+ "borough"
+ 
+ 257
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 258
+ "34"
+ "49740"
+ "Navesink"
+ "57"
+ "CDP"
+ 
+ 259
+ "34"
+ "08492"
+ "Brownville"
+ "57"
+ "CDP"
+ 
+ 260
+ "34"
+ "69810"
+ "Spotswood"
+ "56"
+ "borough"
+ 
+ 261
+ "34"
+ "30738"
+ "Heathcote"
+ "57"
+ "CDP"
+ 
+ 262
+ "34"
+ "64320"
+ "Rocky Hill"
+ "56"
+ "borough"
+ 
+ 263
+ "34"
+ "66240"
+ "Sea Bright"
+ "56"
+ "borough"
+ 
+ 264
+ "34"
+ "47190"
+ "Monmouth Junction"
+ "57"
+ "CDP"
+ 
+ 265
+ "34"
+ "16630"
+ "Dayton"
+ "57"
+ "CDP"
+ 
+ 266
+ "34"
+ "33150"
+ "Hopewell"
+ "56"
+ "borough"
+ 
+ 267
+ "34"
+ "30840"
+ "Helmetta"
+ "56"
+ "borough"
+ 
+ 268
+ "34"
+ "38610"
+ "Lambertville"
+ "58"
+ "city"
+ 
+ 269
+ "34"
+ "65130"
+ "Rumson"
+ "56"
+ "borough"
+ 
+ 270
+ "34"
+ "36930"
+ "Kingston"
+ "57"
+ "CDP"
+ 
+ 271
+ "34"
+ "40320"
+ "Lincroft"
+ "57"
+ "CDP"
+ 
+ 272
+ "34"
+ "22740"
+ "Fairview"
+ "57"
+ "CDP"
+ 
+ 273
+ "34"
+ "60990"
+ "Princeton North"
+ "57"
+ "CDP"
+ 
+ 274
+ "34"
+ "22440"
+ "Fair Haven"
+ "56"
+ "borough"
+ 
+ 275
+ "34"
+ "48030"
+ "Morganville"
+ "57"
+ "CDP"
+ 
+ 276
+ "34"
+ "62430"
+ "Red Bank"
+ "56"
+ "borough"
+ 
+ 277
+ "34"
+ "60900"
+ "Princeton"
+ "56"
+ "borough"
+ 
+ 278
+ "34"
+ "34890"
+ "Jamesburg"
+ "56"
+ "borough"
+ 
+ 279
+ "34"
+ "40770"
+ "Little Silver"
+ "56"
+ "borough"
+ 
+ 280
+ "34"
+ "60975"
+ "Princeton Meadows"
+ "57"
+ "CDP"
+ 
+ 281
+ "34"
+ "47130"
+ "Monmouth Beach"
+ "56"
+ "borough"
+ 
+ 282
+ "34"
+ "64865"
+ "Rossmoor"
+ "57"
+ "CDP"
+ 
+ 283
+ "34"
+ "81042"
+ "Whittingham"
+ "57"
+ "CDP"
+ 
+ 284
+ "34"
+ "60960"
+ "Princeton Junction"
+ "57"
+ "CDP"
+ 
+ 285
+ "34"
+ "67350"
+ "Shrewsbury"
+ "56"
+ "borough"
+ 
+ 286
+ "34"
+ "59285"
+ "Plainsboro Center"
+ "57"
+ "CDP"
+ 
+ 287
+ "34"
+ "73020"
+ "Tinton Falls"
+ "56"
+ "borough"
+ 
+ 288
+ "34"
+ "57600"
+ "Pennington"
+ "56"
+ "borough"
+ 
+ 289
+ "34"
+ "54570"
+ "Oceanport"
+ "56"
+ "borough"
+ 
+ 290
+ "34"
+ "41310"
+ "Long Branch"
+ "58"
+ "city"
+ 
+ 291
+ "34"
+ "15520"
+ "Cranbury"
+ "57"
+ "CDP"
+ 
+ 292
+ "34"
+ "14758"
+ "Concordia"
+ "57"
+ "CDP"
+ 
+ 293
+ "34"
+ "83245"
+ "Yorketown"
+ "57"
+ "CDP"
+ 
+ 294
+ "34"
+ "13399"
+ "Clearbrook Park"
+ "57"
+ "CDP"
+ 
+ 295
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 296
+ "34"
+ "19840"
+ "Eatontown"
+ "56"
+ "borough"
+ 
+ 297
+ "34"
+ "39570"
+ "Lawrenceville"
+ "57"
+ "CDP"
+ 
+ 298
+ "34"
+ "79310"
+ "West Long Branch"
+ "56"
+ "borough"
+ 
+ 299
+ "34"
+ "21570"
+ "Englishtown"
+ "56"
+ "borough"
+ 
+ 300
+ "34"
+ "22180"
+ "Ewing"
+ "57"
+ "CDP"
+ 
+ 301
+ "34"
+ "19150"
+ "East Freehold"
+ "57"
+ "CDP"
+ 
+ 302
+ "34"
+ "31620"
+ "Hightstown"
+ "56"
+ "borough"
+ 
+ 303
+ "34"
+ "74330"
+ "Twin Rivers"
+ "57"
+ "CDP"
+ 
+ 304
+ "34"
+ "25200"
+ "Freehold"
+ "56"
+ "borough"
+ 
+ 305
+ "34"
+ "53790"
+ "Oakhurst"
+ "57"
+ "CDP"
+ 
+ 306
+ "34"
+ "16660"
+ "Deal"
+ "56"
+ "borough"
+ 
+ 307
+ "34"
+ "79100"
+ "West Freehold"
+ "57"
+ "CDP"
+ 
+ 308
+ "34"
+ "45495"
+ "Mercerville-Hamilton Square"
+ "57"
+ "CDP"
+ 
+ 309
+ "34"
+ "74000"
+ "Trenton"
+ "58"
+ "city"
+ 
+ 310
+ "34"
+ "76700"
+ "Wanamassa"
+ "57"
+ "CDP"
+ 
+ 311
+ "34"
+ "34200"
+ "Interlaken"
+ "56"
+ "borough"
+ 
+ 312
+ "34"
+ "00730"
+ "Allenhurst"
+ "56"
+ "borough"
+ 
+ 313
+ "34"
+ "64410"
+ "Roosevelt"
+ "56"
+ "borough"
+ 
+ 314
+ "34"
+ "41010"
+ "Loch Arbour"
+ "61"
+ "village"
+ 
+ 315
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 316
+ "34"
+ "01960"
+ "Asbury Park"
+ "58"
+ "city"
+ 
+ 317
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 318
+ "34"
+ "54480"
+ "Ocean Grove"
+ "57"
+ "CDP"
+ 
+ 319
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 320
+ "34"
+ "06970"
+ "Bradley Beach"
+ "56"
+ "borough"
+ 
+ 321
+ "34"
+ "49920"
+ "Neptune City"
+ "56"
+ "borough"
+ 
+ 322
+ "34"
+ "80630"
+ "White Horse"
+ "57"
+ "CDP"
+ 
+ 323
+ "34"
+ "22950"
+ "Farmingdale"
+ "56"
+ "borough"
+ 
+ 324
+ "34"
+ "66840"
+ "Shark River Hills"
+ "57"
+ "CDP"
+ 
+ 325
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 326
+ "34"
+ "83185"
+ "Yardville-Groveville"
+ "57"
+ "CDP"
+ 
+ 327
+ "34"
+ "02440"
+ "Avon-by-the-Sea"
+ "56"
+ "borough"
+ 
+ 328
+ "34"
+ "04930"
+ "Belmar"
+ "56"
+ "borough"
+ 
+ 329
+ "34"
+ "00760"
+ "Allentown"
+ "56"
+ "borough"
+ 
+ 330
+ "34"
+ "78350"
+ "West Belmar"
+ "57"
+ "CDP"
+ 
+ 331
+ "34"
+ "68670"
+ "South Belmar"
+ "56"
+ "borough"
+ 
+ 332
+ "34"
+ "76107"
+ "Vista Center"
+ "57"
+ "CDP"
+ 
+ 333
+ "34"
+ "70110"
+ "Spring Lake"
+ "56"
+ "borough"
+ 
+ 334
+ "34"
+ "70140"
+ "Spring Lake Heights"
+ "56"
+ "borough"
+ 
+ 335
+ "34"
+ "00790"
+ "Allenwood"
+ "57"
+ "CDP"
+ 
+ 336
+ "34"
+ "06670"
+ "Bordentown"
+ "58"
+ "city"
+ 
+ 337
+ "34"
+ "23250"
+ "Fieldsboro"
+ "56"
+ "borough"
+ 
+ 338
+ "34"
+ "66330"
+ "Sea Girt"
+ "56"
+ "borough"
+ 
+ 339
+ "34"
+ "43050"
+ "Manasquan"
+ "56"
+ "borough"
+ 
+ 340
+ "34"
+ "61725"
+ "Ramtown"
+ "57"
+ "CDP"
+ 
+ 341
+ "34"
+ "23895"
+ "Florence-Roebling"
+ "57"
+ "CDP"
+ 
+ 342
+ "34"
+ "07750"
+ "Brielle"
+ "56"
+ "borough"
+ 
+ 343
+ "34"
+ "38580"
+ "Lakewood"
+ "57"
+ "CDP"
+ 
+ 344
+ "34"
+ "59910"
+ "Point Pleasant Beach"
+ "56"
+ "borough"
+ 
+ 345
+ "34"
+ "08920"
+ "Burlington"
+ "58"
+ "city"
+ 
+ 346
+ "34"
+ "59880"
+ "Point Pleasant"
+ "56"
+ "borough"
+ 
+ 347
+ "34"
+ "51360"
+ "New Egypt"
+ "57"
+ "CDP"
+ 
+ 348
+ "34"
+ "03520"
+ "Bay Head"
+ "56"
+ "borough"
+ 
+ 349
+ "34"
+ "05740"
+ "Beverly"
+ "58"
+ "city"
+ 
+ 350
+ "34"
+ "43380"
+ "Mantoloking"
+ "56"
+ "borough"
+ 
+ 351
+ "34"
+ "73110"
+ "Toms River"
+ "57"
+ "CDP"
+ 
+ 352
+ "34"
+ "42390"
+ "McGuire AFB"
+ "57"
+ "CDP"
+ 
+ 353
+ "34"
+ "39900"
+ "Leisure Village"
+ "57"
+ "CDP"
+ 
+ 354
+ "34"
+ "39910"
+ "Leisure Village East"
+ "57"
+ "CDP"
+ 
+ 355
+ "34"
+ "11155"
+ "Cedar Glen West"
+ "57"
+ "CDP"
+ 
+ 356
+ "34"
+ "82960"
+ "Wrightstown"
+ "56"
+ "borough"
+ 
+ 357
+ "34"
+ "24300"
+ "Fort Dix"
+ "57"
+ "CDP"
+ 
+ 358
+ "34"
+ "24300"
+ "Fort Dix"
+ "57"
+ "CDP"
+ 
+ 359
+ "34"
+ "39883"
+ "Leisure Knoll"
+ "57"
+ "CDP"
+ 
+ 360
+ "34"
+ "37770"
+ "Lakehurst"
+ "56"
+ "borough"
+ 
+ 361
+ "34"
+ "39920"
+ "Leisure Village West-Pine Lake Park"
+ "57"
+ "CDP"
+ 
+ 362
+ "34"
+ "63660"
+ "Riverton"
+ "56"
+ "borough"
+ 
+ 363
+ "34"
+ "55800"
+ "Palmyra"
+ "56"
+ "borough"
+ 
+ 364
+ "34"
+ "18148"
+ "Dover Beaches North"
+ "57"
+ "CDP"
+ 
+ 365
+ "34"
+ "82960"
+ "Wrightstown"
+ "56"
+ "borough"
+ 
+ 366
+ "34"
+ "57690"
+ "Pennsauken"
+ "57"
+ "CDP"
+ 
+ 367
+ "34"
+ "08455"
+ "Browns Mills"
+ "57"
+ "CDP"
+ 
+ 368
+ "34"
+ "32415"
+ "Holiday City-Berkeley"
+ "57"
+ "CDP"
+ 
+ 369
+ "34"
+ "47895"
+ "Moorestown-Lenola"
+ "57"
+ "CDP"
+ 
+ 370
+ "34"
+ "39390"
+ "Lavallette"
+ "56"
+ "borough"
+ 
+ 371
+ "34"
+ "57480"
+ "Pemberton"
+ "56"
+ "borough"
+ 
+ 372
+ "34"
+ "15910"
+ "Crestwood Village"
+ "57"
+ "CDP"
+ 
+ 373
+ "34"
+ "58852"
+ "Pine Ridge at Crestwood"
+ "57"
+ "CDP"
+ 
+ 374
+ "34"
+ "10000"
+ "Camden"
+ "58"
+ "city"
+ 
+ 375
+ "34"
+ "67665"
+ "Silver Ridge"
+ "57"
+ "CDP"
+ 
+ 376
+ "34"
+ "57540"
+ "Pemberton Heights"
+ "57"
+ "CDP"
+ 
+ 377
+ "34"
+ "18151"
+ "Dover Beaches South"
+ "57"
+ "CDP"
+ 
+ 378
+ "34"
+ "11140"
+ "Cedar Glen Lakes"
+ "57"
+ "CDP"
+ 
+ 379
+ "34"
+ "32418"
+ "Holiday City South"
+ "57"
+ "CDP"
+ 
+ 380
+ "34"
+ "45510"
+ "Merchantville"
+ "56"
+ "borough"
+ 
+ 381
+ "34"
+ "15250"
+ "Country Lake Estates"
+ "57"
+ "CDP"
+ 
+ 382
+ "34"
+ "66450"
+ "Seaside Heights"
+ "56"
+ "borough"
+ 
+ 383
+ "34"
+ "12385"
+ "Cherry Hill Mall"
+ "57"
+ "CDP"
+ 
+ 384
+ "34"
+ "32424"
+ "Holiday Heights"
+ "57"
+ "CDP"
+ 
+ 385
+ "34"
+ "61650"
+ "Ramblewood"
+ "57"
+ "CDP"
+ 
+ 386
+ "34"
+ "34530"
+ "Island Heights"
+ "56"
+ "borough"
+ 
+ 387
+ "34"
+ "69510"
+ "South Toms River"
+ "56"
+ "borough"
+ 
+ 388
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 389
+ "34"
+ "26902"
+ "Golden Triangle"
+ "57"
+ "CDP"
+ 
+ 390
+ "34"
+ "04180"
+ "Beachwood"
+ "56"
+ "borough"
+ 
+ 391
+ "34"
+ "58590"
+ "Pine Beach"
+ "56"
+ "borough"
+ 
+ 392
+ "34"
+ "66480"
+ "Seaside Park"
+ "56"
+ "borough"
+ 
+ 393
+ "34"
+ "54450"
+ "Ocean Gate"
+ "56"
+ "borough"
+ 
+ 394
+ "34"
+ "02905"
+ "Barclay-Kingston"
+ "57"
+ "CDP"
+ 
+ 395
+ "34"
+ "21645"
+ "Erlton-Ellisburg"
+ "57"
+ "CDP"
+ 
+ 396
+ "34"
+ "14260"
+ "Collingswood"
+ "56"
+ "borough"
+ 
+ 397
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 398
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 399
+ "34"
+ "60840"
+ "Presidential Lakes Estates"
+ "57"
+ "CDP"
+ 
+ 400
+ "34"
+ "27995"
+ "Greentree"
+ "57"
+ "CDP"
+ 
+ 401
+ "34"
+ "82450"
+ "Woodlynne"
+ "56"
+ "borough"
+ 
+ 402
+ "34"
+ "39885"
+ "Leisuretowne"
+ "57"
+ "CDP"
+ 
+ 403
+ "34"
+ "28770"
+ "Haddonfield"
+ "56"
+ "borough"
+ 
+ 404
+ "34"
+ "44100"
+ "Marlton"
+ "57"
+ "CDP"
+ 
+ 405
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 406
+ "34"
+ "53880"
+ "Oaklyn"
+ "56"
+ "borough"
+ 
+ 407
+ "34"
+ "26820"
+ "Gloucester City"
+ "58"
+ "city"
+ 
+ 408
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 409
+ "34"
+ "02200"
+ "Audubon"
+ "56"
+ "borough"
+ 
+ 410
+ "34"
+ "02230"
+ "Audubon Park"
+ "56"
+ "borough"
+ 
+ 411
+ "34"
+ "01990"
+ "Ashland"
+ "57"
+ "CDP"
+ 
+ 412
+ "34"
+ "69900"
+ "Springdale"
+ "57"
+ "CDP"
+ 
+ 413
+ "34"
+ "48750"
+ "Mount Ephraim"
+ "56"
+ "borough"
+ 
+ 414
+ "34"
+ "28800"
+ "Haddon Heights"
+ "56"
+ "borough"
+ 
+ 415
+ "34"
+ "80120"
+ "Westville"
+ "56"
+ "borough"
+ 
+ 416
+ "34"
+ "03250"
+ "Barrington"
+ "56"
+ "borough"
+ 
+ 417
+ "34"
+ "08170"
+ "Brooklawn"
+ "56"
+ "borough"
+ 
+ 418
+ "34"
+ "49680"
+ "National Park"
+ "56"
+ "borough"
+ 
+ 419
+ "34"
+ "72240"
+ "Tavistock"
+ "56"
+ "borough"
+ 
+ 420
+ "34"
+ "39420"
+ "Lawnside"
+ "56"
+ "borough"
+ 
+ 421
+ "34"
+ "04750"
+ "Bellmawr"
+ "56"
+ "borough"
+ 
+ 422
+ "34"
+ "45210"
+ "Medford Lakes"
+ "56"
+ "borough"
+ 
+ 423
+ "34"
+ "42630"
+ "Magnolia"
+ "56"
+ "borough"
+ 
+ 424
+ "34"
+ "65160"
+ "Runnemede"
+ "56"
+ "borough"
+ 
+ 425
+ "34"
+ "19900"
+ "Echelon"
+ "57"
+ "CDP"
+ 
+ 426
+ "34"
+ "68340"
+ "Somerdale"
+ "56"
+ "borough"
+ 
+ 427
+ "34"
+ "57150"
+ "Paulsboro"
+ "56"
+ "borough"
+ 
+ 428
+ "34"
+ "82120"
+ "Woodbury"
+ "58"
+ "city"
+ 
+ 429
+ "34"
+ "24180"
+ "Forked River"
+ "57"
+ "CDP"
+ 
+ 430
+ "34"
+ "26520"
+ "Glendora"
+ "57"
+ "CDP"
+ 
+ 431
+ "34"
+ "26070"
+ "Gibbsboro"
+ "56"
+ "borough"
+ 
+ 432
+ "34"
+ "32220"
+ "Hi-Nella"
+ "56"
+ "borough"
+ 
+ 433
+ "34"
+ "71220"
+ "Stratford"
+ "56"
+ "borough"
+ 
+ 434
+ "34"
+ "40440"
+ "Lindenwold"
+ "56"
+ "borough"
+ 
+ 435
+ "34"
+ "26100"
+ "Gibbstown"
+ "57"
+ "CDP"
+ 
+ 436
+ "34"
+ "39210"
+ "Laurel Springs"
+ "56"
+ "borough"
+ 
+ 437
+ "34"
+ "82180"
+ "Woodbury Heights"
+ "56"
+ "borough"
+ 
+ 438
+ "34"
+ "13420"
+ "Clementon"
+ "56"
+ "borough"
+ 
+ 439
+ "34"
+ "54060"
+ "Oak Valley"
+ "57"
+ "CDP"
+ 
+ 440
+ "34"
+ "06040"
+ "Blackwood"
+ "57"
+ "CDP"
+ 
+ 441
+ "34"
+ "05440"
+ "Berlin"
+ "56"
+ "borough"
+ 
+ 442
+ "34"
+ "58770"
+ "Pine Hill"
+ "56"
+ "borough"
+ 
+ 443
+ "34"
+ "78110"
+ "Wenonah"
+ "56"
+ "borough"
+ 
+ 444
+ "34"
+ "76820"
+ "Waretown"
+ "57"
+ "CDP"
+ 
+ 445
+ "34"
+ "58920"
+ "Pine Valley"
+ "56"
+ "borough"
+ 
+ 446
+ "34"
+ "74270"
+ "Turnersville"
+ "57"
+ "CDP"
+ 
+ 447
+ "34"
+ "04400"
+ "Beckett"
+ "57"
+ "CDP"
+ 
+ 448
+ "34"
+ "03040"
+ "Barnegat"
+ "57"
+ "CDP"
+ 
+ 449
+ "34"
+ "03130"
+ "Barnegat Light"
+ "56"
+ "borough"
+ 
+ 450
+ "34"
+ "54315"
+ "Ocean Acres"
+ "57"
+ "CDP"
+ 
+ 451
+ "34"
+ "71850"
+ "Swedesboro"
+ "56"
+ "borough"
+ 
+ 452
+ "34"
+ "10600"
+ "Carneys Point"
+ "57"
+ "CDP"
+ 
+ 453
+ "34"
+ "49440"
+ "Mullica Hill"
+ "57"
+ "CDP"
+ 
+ 454
+ "34"
+ "59070"
+ "Pitman"
+ "56"
+ "borough"
+ 
+ 455
+ "34"
+ "12550"
+ "Chesilhurst"
+ "56"
+ "borough"
+ 
+ 456
+ "34"
+ "57750"
+ "Penns Grove"
+ "56"
+ "borough"
+ 
+ 457
+ "34"
+ "26340"
+ "Glassboro"
+ "56"
+ "borough"
+ 
+ 458
+ "34"
+ "29430"
+ "Hammonton"
+ "60"
+ "town"
+ 
+ 459
+ "34"
+ "30390"
+ "Harvey Cedars"
+ "56"
+ "borough"
+ 
+ 460
+ "34"
+ "81380"
+ "Williamstown"
+ "57"
+ "CDP"
+ 
+ 461
+ "34"
+ "42930"
+ "Manahawkin"
+ "57"
+ "CDP"
+ 
+ 462
+ "34"
+ "57840"
+ "Pennsville"
+ "57"
+ "CDP"
+ 
+ 463
+ "34"
+ "04120"
+ "Beach Haven West"
+ "57"
+ "CDP"
+ 
+ 464
+ "34"
+ "13360"
+ "Clayton"
+ "56"
+ "borough"
+ 
+ 465
+ "34"
+ "71640"
+ "Surf City"
+ "56"
+ "borough"
+ 
+ 466
+ "34"
+ "82720"
+ "Woodstown"
+ "56"
+ "borough"
+ 
+ 467
+ "34"
+ "67110"
+ "Ship Bottom"
+ "56"
+ "borough"
+ 
+ 468
+ "34"
+ "75920"
+ "Victory Lakes"
+ "57"
+ "CDP"
+ 
+ 469
+ "34"
+ "52410"
+ "North Beach Haven"
+ "57"
+ "CDP"
+ 
+ 470
+ "34"
+ "23940"
+ "Folsom"
+ "56"
+ "borough"
+ 
+ 471
+ "34"
+ "74210"
+ "Tuckerton"
+ "56"
+ "borough"
+ 
+ 472
+ "34"
+ "21240"
+ "Elmer"
+ "56"
+ "borough"
+ 
+ 473
+ "34"
+ "14230"
+ "Collings Lakes"
+ "57"
+ "CDP"
+ 
+ 474
+ "34"
+ "20350"
+ "Egg Harbor City"
+ "58"
+ "city"
+ 
+ 475
+ "34"
+ "49560"
+ "Mystic Island"
+ "57"
+ "CDP"
+ 
+ 476
+ "34"
+ "21435"
+ "Elwood-Magnolia"
+ "57"
+ "CDP"
+ 
+ 477
+ "34"
+ "03940"
+ "Beach Haven"
+ "56"
+ "borough"
+ 
+ 478
+ "34"
+ "00850"
+ "Alloway"
+ "57"
+ "CDP"
+ 
+ 479
+ "34"
+ "65490"
+ "Salem"
+ "58"
+ "city"
+ 
+ 480
+ "34"
+ "76070"
+ "Vineland"
+ "58"
+ "city"
+ 
+ 481
+ "34"
+ "51390"
+ "Newfield"
+ "56"
+ "borough"
+ 
+ 482
+ "34"
+ "60600"
+ "Port Republic"
+ "58"
+ "city"
+ 
+ 483
+ "34"
+ "54960"
+ "Olivet"
+ "57"
+ "CDP"
+ 
+ 484
+ "34"
+ "08680"
+ "Buena"
+ "56"
+ "borough"
+ 
+ 485
+ "34"
+ "66300"
+ "Seabrook Farms"
+ "57"
+ "CDP"
+ 
+ 486
+ "34"
+ "64740"
+ "Rosenhayn"
+ "57"
+ "CDP"
+ 
+ 487
+ "34"
+ "60030"
+ "Pomona"
+ "57"
+ "CDP"
+ 
+ 488
+ "34"
+ "44820"
+ "Mays Landing"
+ "57"
+ "CDP"
+ 
+ 489
+ "34"
+ "67020"
+ "Shiloh"
+ "56"
+ "borough"
+ 
+ 490
+ "34"
+ "07600"
+ "Bridgeton"
+ "58"
+ "city"
+ 
+ 491
+ "34"
+ "00100"
+ "Absecon"
+ "58"
+ "city"
+ 
+ 492
+ "34"
+ "46680"
+ "Millville"
+ "58"
+ "city"
+ 
+ 493
+ "34"
+ "07810"
+ "Brigantine"
+ "58"
+ "city"
+ 
+ 494
+ "34"
+ "21870"
+ "Estell Manor"
+ "58"
+ "city"
+ 
+ 495
+ "34"
+ "59640"
+ "Pleasantville"
+ "58"
+ "city"
+ 
+ 496
+ "34"
+ "02080"
+ "Atlantic City"
+ "58"
+ "city"
+ 
+ 497
+ "34"
+ "22530"
+ "Fairton"
+ "57"
+ "CDP"
+ 
+ 498
+ "34"
+ "52950"
+ "Northfield"
+ "58"
+ "city"
+ 
+ 499
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 500
+ "34"
+ "40530"
+ "Linwood"
+ "58"
+ "city"
+ 
+ 501
+ "34"
+ "75620"
+ "Ventnor City"
+ "58"
+ "city"
+ 
+ 502
+ "34"
+ "11410"
+ "Cedarville"
+ "57"
+ "CDP"
+ 
+ 503
+ "34"
+ "43890"
+ "Margate City"
+ "58"
+ "city"
+ 
+ 504
+ "34"
+ "39120"
+ "Laurel Lake"
+ "57"
+ "CDP"
+ 
+ 505
+ "34"
+ "68430"
+ "Somers Point"
+ "58"
+ "city"
+ 
+ 506
+ "34"
+ "15160"
+ "Corbin City"
+ "58"
+ "city"
+ 
+ 507
+ "34"
+ "41370"
+ "Longport"
+ "56"
+ "borough"
+ 
+ 508
+ "34"
+ "54360"
+ "Ocean City"
+ "58"
+ "city"
+ 
+ 509
+ "34"
+ "60510"
+ "Port Norris"
+ "57"
+ "CDP"
+ 
+ 510
+ "34"
+ "81890"
+ "Woodbine"
+ "56"
+ "borough"
+ 
+ 511
+ "34"
+ "71250"
+ "Strathmere"
+ "57"
+ "CDP"
+ 
+ 512
+ "34"
+ "66390"
+ "Sea Isle City"
+ "58"
+ "city"
+ 
+ 513
+ "34"
+ "02320"
+ "Avalon"
+ "56"
+ "borough"
+ 
+ 514
+ "34"
+ "10300"
+ "Cape May Court House"
+ "57"
+ "CDP"
+ 
+ 515
+ "34"
+ "71010"
+ "Stone Harbor"
+ "56"
+ "borough"
+ 
+ 516
+ "34"
+ "80855"
+ "Whitesboro-Burleigh"
+ "57"
+ "CDP"
+ 
+ 517
+ "34"
+ "76010"
+ "Villas"
+ "57"
+ "CDP"
+ 
+ 518
+ "34"
+ "63180"
+ "Rio Grande"
+ "57"
+ "CDP"
+ 
+ 519
+ "34"
+ "53490"
+ "North Wildwood"
+ "58"
+ "city"
+ 
+ 520
+ "34"
+ "21660"
+ "Erma"
+ "57"
+ "CDP"
+ 
+ 521
+ "34"
+ "80210"
+ "West Wildwood"
+ "56"
+ "borough"
+ 
+ 522
+ "34"
+ "81170"
+ "Wildwood"
+ "58"
+ "city"
+ 
+ 523
+ "34"
+ "52650"
+ "North Cape May"
+ "57"
+ "CDP"
+ 
+ 524
+ "34"
+ "81200"
+ "Wildwood Crest"
+ "56"
+ "borough"
+ 
+ 525
+ "34"
+ "17815"
+ "Diamond Beach"
+ "57"
+ "CDP"
+ 
+ 526
+ "34"
+ "10270"
+ "Cape May"
+ "58"
+ "city"
+ 
+ 527
+ "34"
+ "78530"
+ "West Cape May"
+ "56"
+ "borough"
+ 
+ 528
+ "34"
+ "10330"
+ "Cape May Point"
+ "56"
+ "borough"
+ 

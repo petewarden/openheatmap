@@ -1431,15 +1431,18 @@ private function getValueForWayId(wayId: String): String
 		}
 		
 		var allMatch: Boolean = true;
+		var emptyMatchKeys: Boolean = true;
 		for (var key: String in matchKeys)
 		{
 			var value:String = matchKeys[key];
 			
 			if (way.tags[key]!==value)
-				allMatch = false;	
+				allMatch = false;
+			
+			emptyMatchKeys = false;
 		}
 		
-		if (allMatch)
+		if (allMatch && !emptyMatchKeys)
 		{
 			resultFound = true;
 			result = thisValue;

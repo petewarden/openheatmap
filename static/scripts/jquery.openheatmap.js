@@ -1977,15 +1977,18 @@ function OpenHeatMap(canvas, width, height)
             }
             
             var allMatch = true;
+            var emptyMatchKeys = true;
             for (var key in matchKeys)
             {
                 var value = matchKeys[key];
                 
                 if (way.tags[key]!==value)
-                    allMatch = false;	
+                    allMatch = false;
+                    
+                emptyMatchKeys = false;
             }
             
-            if (allMatch)
+            if (allMatch && !emptyMatchKeys)
             {
                 resultFound = true;
                 result = thisValue;

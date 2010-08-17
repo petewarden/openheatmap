@@ -244,6 +244,7 @@ function updateOpenHeatMapMessage(event)
         var hasState = false;
         var hasCounty = false;
         var hasCongress = false;
+        var hasCity = false;
         for (var valueHeaderIndex in valueHeaders)
         {
             var valueHeader = valueHeaders[valueHeaderIndex];
@@ -255,6 +256,9 @@ function updateOpenHeatMapMessage(event)
                 
             if (valueHeader==='district_code')
                 hasCongress = true;
+
+            if (valueHeader==='city_code')
+                hasCity = true;
         }
 
         var ways = map.getWaysContainingLatLon(event.lat, event.lon);
@@ -273,7 +277,7 @@ function updateOpenHeatMapMessage(event)
                 var wayTags = way.tags;
                 
                 var areaName;
-                if (hasState&&!hasCounty&&!hasCongress)
+                if (hasState&&!hasCounty&&!hasCongress&&!hasCity)
                 {
                     var stateCode = wayTags.state_code;
                     areaName = g_fipsToStateName[stateCode];
@@ -291,6 +295,13 @@ function updateOpenHeatMapMessage(event)
                     var stateName = g_fipsToStateName[stateCode];
                     districtCode = wayTags['district_code'];
                     areaName = g_numberToWord[districtCode]+' district, '+stateName;
+                }
+                else if (hasState&&hasCity)
+                {
+                    var stateCode = wayTags.state_code;
+                    var stateName = g_fipsToStateName[stateCode];
+                    var cityName = wayTags.name;
+                    areaName = cityName+', '+stateName;
                 }
                 else if (typeof wayTags.name !== 'undefined')
                 {

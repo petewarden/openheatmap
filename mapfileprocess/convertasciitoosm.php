@@ -24,7 +24,7 @@ require_once('osmways.php');
 
 function parse_ascii_description_file($file_name, $type)
 {
-    if ($type=='zip')
+    if ($type=='county')
     {
         $field_names = array(
             'state_code',
@@ -35,7 +35,7 @@ function parse_ascii_description_file($file_name, $type)
             '',
         );
     }
-    else if ($type=='county')
+    else if ($type=='zip')
     {
         $field_names = array(
             'zip_code',

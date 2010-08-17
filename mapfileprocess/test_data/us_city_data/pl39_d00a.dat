@@ -1,0 +1,9639 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "39"
+ "18350"
+ "Conneaut"
+ "58"
+ "city"
+ 
+ 2
+ "39"
+ "56700"
+ "North Kingsville"
+ "61"
+ "village"
+ 
+ 3
+ "39"
+ "02638"
+ "Ashtabula"
+ "58"
+ "city"
+ 
+ 4
+ "39"
+ "24542"
+ "Edgewood"
+ "57"
+ "CDP"
+ 
+ 5
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 6
+ "39"
+ "29652"
+ "Geneva-on-the-Lake"
+ "61"
+ "village"
+ 
+ 7
+ "39"
+ "56812"
+ "North Madison"
+ "57"
+ "CDP"
+ 
+ 8
+ "39"
+ "56910"
+ "North Perry"
+ "61"
+ "village"
+ 
+ 9
+ "39"
+ "29610"
+ "Geneva"
+ "58"
+ "city"
+ 
+ 10
+ "39"
+ "46480"
+ "Madison"
+ "61"
+ "village"
+ 
+ 11
+ "39"
+ "61882"
+ "Perry"
+ "61"
+ "village"
+ 
+ 12
+ "39"
+ "26306"
+ "Fairport Harbor"
+ "61"
+ "village"
+ 
+ 13
+ "39"
+ "49056"
+ "Mentor"
+ "58"
+ "city"
+ 
+ 14
+ "39"
+ "59416"
+ "Painesville"
+ "58"
+ "city"
+ 
+ 15
+ "39"
+ "38500"
+ "Jefferson"
+ "61"
+ "village"
+ 
+ 16
+ "39"
+ "31234"
+ "Grand River"
+ "61"
+ "village"
+ 
+ 17
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 18
+ "39"
+ "77000"
+ "Toledo"
+ "58"
+ "city"
+ 
+ 19
+ "39"
+ "49098"
+ "Mentor-on-the-Lake"
+ "58"
+ "city"
+ 
+ 20
+ "39"
+ "76022"
+ "Sylvania"
+ "58"
+ "city"
+ 
+ 21
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 22
+ "39"
+ "05732"
+ "Berkey"
+ "61"
+ "village"
+ 
+ 23
+ "39"
+ "49238"
+ "Metamora"
+ "61"
+ "village"
+ 
+ 24
+ "39"
+ "58730"
+ "Oregon"
+ "58"
+ "city"
+ 
+ 25
+ "39"
+ "85484"
+ "Willoughby"
+ "58"
+ "city"
+ 
+ 26
+ "39"
+ "45626"
+ "Lyons"
+ "61"
+ "village"
+ 
+ 27
+ "39"
+ "33376"
+ "Harbor View"
+ "61"
+ "village"
+ 
+ 28
+ "39"
+ "23618"
+ "Eastlake"
+ "58"
+ "city"
+ 
+ 29
+ "39"
+ "62834"
+ "Pioneer"
+ "61"
+ "village"
+ 
+ 30
+ "39"
+ "26768"
+ "Fayette"
+ "61"
+ "village"
+ 
+ 31
+ "39"
+ "59010"
+ "Ottawa Hills"
+ "61"
+ "village"
+ 
+ 32
+ "39"
+ "01588"
+ "Alvordton"
+ "61"
+ "village"
+ 
+ 33
+ "39"
+ "76834"
+ "Timberlake"
+ "61"
+ "village"
+ 
+ 34
+ "39"
+ "67846"
+ "Rock Creek"
+ "61"
+ "village"
+ 
+ 35
+ "39"
+ "41398"
+ "Lakeline"
+ "61"
+ "village"
+ 
+ 36
+ "39"
+ "65032"
+ "Put-in-Bay"
+ "61"
+ "village"
+ 
+ 37
+ "39"
+ "67600"
+ "Roaming Shores"
+ "61"
+ "village"
+ 
+ 38
+ "39"
+ "40670"
+ "Kirtland Hills"
+ "61"
+ "village"
+ 
+ 39
+ "39"
+ "85638"
+ "Willowick"
+ "58"
+ "city"
+ 
+ 40
+ "39"
+ "40642"
+ "Kirtland"
+ "58"
+ "city"
+ 
+ 41
+ "39"
+ "35882"
+ "Holland"
+ "61"
+ "village"
+ 
+ 42
+ "39"
+ "25704"
+ "Euclid"
+ "58"
+ "city"
+ 
+ 43
+ "39"
+ "80402"
+ "Waite Hill"
+ "61"
+ "village"
+ 
+ 44
+ "39"
+ "85036"
+ "Wickliffe"
+ "58"
+ "city"
+ 
+ 45
+ "39"
+ "85512"
+ "Willoughby Hills"
+ "58"
+ "city"
+ 
+ 46
+ "39"
+ "39662"
+ "Kelleys Island"
+ "61"
+ "village"
+ 
+ 47
+ "39"
+ "57190"
+ "Northwood"
+ "58"
+ "city"
+ 
+ 48
+ "39"
+ "35864"
+ "Holiday City"
+ "61"
+ "village"
+ 
+ 49
+ "39"
+ "68686"
+ "Rossford"
+ "58"
+ "city"
+ 
+ 50
+ "39"
+ "02050"
+ "Andover"
+ "61"
+ "village"
+ 
+ 51
+ "39"
+ "80486"
+ "Walbridge"
+ "61"
+ "village"
+ 
+ 52
+ "39"
+ "13554"
+ "Chardon"
+ "61"
+ "village"
+ 
+ 53
+ "39"
+ "75896"
+ "Swanton"
+ "61"
+ "village"
+ 
+ 54
+ "39"
+ "16000"
+ "Cleveland"
+ "58"
+ "city"
+ 
+ 55
+ "39"
+ "51772"
+ "Montpelier"
+ "61"
+ "village"
+ 
+ 56
+ "39"
+ "80486"
+ "Walbridge"
+ "61"
+ "village"
+ 
+ 57
+ "39"
+ "84308"
+ "West Unity"
+ "61"
+ "village"
+ 
+ 58
+ "39"
+ "48342"
+ "Maumee"
+ "58"
+ "city"
+ 
+ 59
+ "39"
+ "21616"
+ "Delta"
+ "61"
+ "village"
+ 
+ 60
+ "39"
+ "66894"
+ "Richmond Heights"
+ "58"
+ "city"
+ 
+ 61
+ "39"
+ "15588"
+ "Clay Center"
+ "61"
+ "village"
+ 
+ 62
+ "39"
+ "81928"
+ "Wauseon"
+ "58"
+ "city"
+ 
+ 63
+ "39"
+ "50260"
+ "Millbury"
+ "61"
+ "village"
+ 
+ 64
+ "39"
+ "62148"
+ "Perrysburg"
+ "58"
+ "city"
+ 
+ 65
+ "39"
+ "35252"
+ "Highland Heights"
+ "58"
+ "city"
+ 
+ 66
+ "39"
+ "48468"
+ "Mayfield"
+ "61"
+ "village"
+ 
+ 67
+ "39"
+ "29498"
+ "Gates Mills"
+ "61"
+ "village"
+ 
+ 68
+ "39"
+ "08336"
+ "Bratenahl"
+ "61"
+ "village"
+ 
+ 69
+ "39"
+ "24640"
+ "Edon"
+ "61"
+ "village"
+ 
+ 70
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 71
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 72
+ "39"
+ "02274"
+ "Aquilla"
+ "61"
+ "village"
+ 
+ 73
+ "39"
+ "23380"
+ "East Cleveland"
+ "58"
+ "city"
+ 
+ 74
+ "39"
+ "73264"
+ "South Euclid"
+ "58"
+ "city"
+ 
+ 75
+ "39"
+ "58856"
+ "Orwell"
+ "61"
+ "village"
+ 
+ 76
+ "39"
+ "47502"
+ "Marblehead"
+ "61"
+ "village"
+ 
+ 77
+ "39"
+ "16014"
+ "Cleveland Heights"
+ "58"
+ "city"
+ 
+ 78
+ "39"
+ "68042"
+ "Rocky Ridge"
+ "61"
+ "village"
+ 
+ 79
+ "39"
+ "45556"
+ "Lyndhurst"
+ "58"
+ "city"
+ 
+ 80
+ "39"
+ "29722"
+ "Genoa"
+ "61"
+ "village"
+ 
+ 81
+ "39"
+ "84770"
+ "Whitehouse"
+ "61"
+ "village"
+ 
+ 82
+ "39"
+ "02344"
+ "Archbold"
+ "61"
+ "village"
+ 
+ 83
+ "39"
+ "14100"
+ "Chesterland"
+ "57"
+ "CDP"
+ 
+ 84
+ "39"
+ "48482"
+ "Mayfield Heights"
+ "58"
+ "city"
+ 
+ 85
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 86
+ "39"
+ "06810"
+ "Blakeslee"
+ "61"
+ "village"
+ 
+ 87
+ "39"
+ "57582"
+ "Oak Harbor"
+ "61"
+ "village"
+ 
+ 88
+ "39"
+ "64150"
+ "Port Clinton"
+ "58"
+ "city"
+ 
+ 89
+ "39"
+ "03464"
+ "Avon Lake"
+ "58"
+ "city"
+ 
+ 90
+ "39"
+ "81858"
+ "Waterville"
+ "61"
+ "village"
+ 
+ 91
+ "39"
+ "75140"
+ "Stryker"
+ "61"
+ "village"
+ 
+ 92
+ "39"
+ "04416"
+ "Bay Village"
+ "58"
+ "city"
+ 
+ 93
+ "39"
+ "78932"
+ "University Heights"
+ "58"
+ "city"
+ 
+ 94
+ "39"
+ "72088"
+ "Sheffield Lake"
+ "58"
+ "city"
+ 
+ 95
+ "39"
+ "04500"
+ "Beachwood"
+ "58"
+ "city"
+ 
+ 96
+ "39"
+ "61686"
+ "Pepper Pike"
+ "58"
+ "city"
+ 
+ 97
+ "39"
+ "36918"
+ "Hunting Valley"
+ "61"
+ "village"
+ 
+ 98
+ "39"
+ "41664"
+ "Lakewood"
+ "58"
+ "city"
+ 
+ 99
+ "39"
+ "70380"
+ "Sandusky"
+ "58"
+ "city"
+ 
+ 100
+ "39"
+ "71682"
+ "Shaker Heights"
+ "58"
+ "city"
+ 
+ 101
+ "39"
+ "72060"
+ "Sheffield"
+ "61"
+ "village"
+ 
+ 102
+ "39"
+ "68056"
+ "Rocky River"
+ "58"
+ "city"
+ 
+ 103
+ "39"
+ "25144"
+ "Elmore"
+ "61"
+ "village"
+ 
+ 104
+ "39"
+ "09792"
+ "Bryan"
+ "58"
+ "city"
+ 
+ 105
+ "39"
+ "44856"
+ "Lorain"
+ "58"
+ "city"
+ 
+ 106
+ "39"
+ "10436"
+ "Burton"
+ "61"
+ "village"
+ 
+ 107
+ "39"
+ "03352"
+ "Avon"
+ "58"
+ "city"
+ 
+ 108
+ "39"
+ "83622"
+ "Westlake"
+ "58"
+ "city"
+ 
+ 109
+ "39"
+ "49700"
+ "Middlefield"
+ "61"
+ "village"
+ 
+ 110
+ "39"
+ "34412"
+ "Haskins"
+ "61"
+ "village"
+ 
+ 111
+ "39"
+ "04402"
+ "Bay View"
+ "61"
+ "village"
+ 
+ 112
+ "39"
+ "26446"
+ "Fairview Park"
+ "58"
+ "city"
+ 
+ 113
+ "39"
+ "45332"
+ "Luckey"
+ "61"
+ "village"
+ 
+ 114
+ "39"
+ "35255"
+ "Highland Hills"
+ "61"
+ "village"
+ 
+ 115
+ "39"
+ "86394"
+ "Woodmere"
+ "61"
+ "village"
+ 
+ 116
+ "39"
+ "58604"
+ "Orange"
+ "61"
+ "village"
+ 
+ 117
+ "39"
+ "52052"
+ "Moreland Hills"
+ "61"
+ "village"
+ 
+ 118
+ "39"
+ "24486"
+ "Edgerton"
+ "61"
+ "village"
+ 
+ 119
+ "39"
+ "09246"
+ "Brooklyn"
+ "58"
+ "city"
+ 
+ 120
+ "39"
+ "86492"
+ "Woodville"
+ "61"
+ "village"
+ 
+ 121
+ "39"
+ "80990"
+ "Warrensville Heights"
+ "58"
+ "city"
+ 
+ 122
+ "39"
+ "54250"
+ "Newburgh Heights"
+ "61"
+ "village"
+ 
+ 123
+ "39"
+ "19806"
+ "Cuyahoga Heights"
+ "61"
+ "village"
+ 
+ 124
+ "39"
+ "43414"
+ "Liberty Center"
+ "61"
+ "village"
+ 
+ 125
+ "39"
+ "43918"
+ "Linndale"
+ "61"
+ "village"
+ 
+ 126
+ "39"
+ "56882"
+ "North Olmsted"
+ "58"
+ "city"
+ 
+ 127
+ "39"
+ "13358"
+ "Chagrin Falls"
+ "61"
+ "village"
+ 
+ 128
+ "39"
+ "29428"
+ "Garfield Heights"
+ "58"
+ "city"
+ 
+ 129
+ "39"
+ "73684"
+ "South Russell"
+ "61"
+ "village"
+ 
+ 130
+ "39"
+ "56924"
+ "North Randall"
+ "61"
+ "village"
+ 
+ 131
+ "39"
+ "70422"
+ "Sandusky South"
+ "57"
+ "CDP"
+ 
+ 132
+ "39"
+ "43904"
+ "Lindsey"
+ "61"
+ "village"
+ 
+ 133
+ "39"
+ "09274"
+ "Brooklyn Heights"
+ "61"
+ "village"
+ 
+ 134
+ "39"
+ "26432"
+ "Fairview Lanes"
+ "57"
+ "CDP"
+ 
+ 135
+ "39"
+ "79716"
+ "Vermilion"
+ "58"
+ "city"
+ 
+ 136
+ "39"
+ "05550"
+ "Bentleyville"
+ "61"
+ "village"
+ 
+ 137
+ "39"
+ "01798"
+ "Amherst"
+ "58"
+ "city"
+ 
+ 138
+ "39"
+ "77070"
+ "Tontogany"
+ "61"
+ "village"
+ 
+ 139
+ "39"
+ "04920"
+ "Bedford Heights"
+ "58"
+ "city"
+ 
+ 140
+ "39"
+ "72928"
+ "Solon"
+ "58"
+ "city"
+ 
+ 141
+ "39"
+ "47306"
+ "Maple Heights"
+ "58"
+ "city"
+ 
+ 142
+ "39"
+ "61504"
+ "Pemberville"
+ "61"
+ "village"
+ 
+ 143
+ "39"
+ "09288"
+ "Brook Park"
+ "58"
+ "city"
+ 
+ 144
+ "39"
+ "37240"
+ "Independence"
+ "58"
+ "city"
+ 
+ 145
+ "39"
+ "61000"
+ "Parma"
+ "58"
+ "city"
+ 
+ 146
+ "39"
+ "56966"
+ "North Ridgeville"
+ "58"
+ "city"
+ 
+ 147
+ "39"
+ "03585"
+ "Bainbridge"
+ "57"
+ "CDP"
+ 
+ 148
+ "39"
+ "25256"
+ "Elyria"
+ "58"
+ "city"
+ 
+ 149
+ "39"
+ "53550"
+ "Napoleon"
+ "58"
+ "city"
+ 
+ 150
+ "39"
+ "79268"
+ "Valley View"
+ "61"
+ "village"
+ 
+ 151
+ "39"
+ "37016"
+ "Huron"
+ "58"
+ "city"
+ 
+ 152
+ "39"
+ "31206"
+ "Grand Rapids"
+ "61"
+ "village"
+ 
+ 153
+ "39"
+ "71416"
+ "Seven Hills"
+ "58"
+ "city"
+ 
+ 154
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 155
+ "39"
+ "04878"
+ "Bedford"
+ "58"
+ "city"
+ 
+ 156
+ "39"
+ "12476"
+ "Castalia"
+ "61"
+ "village"
+ 
+ 157
+ "39"
+ "07972"
+ "Bowling Green"
+ "58"
+ "city"
+ 
+ 158
+ "39"
+ "61028"
+ "Parma Heights"
+ "58"
+ "city"
+ 
+ 159
+ "39"
+ "57750"
+ "Oakwood"
+ "61"
+ "village"
+ 
+ 160
+ "39"
+ "30072"
+ "Gibsonburg"
+ "61"
+ "village"
+ 
+ 161
+ "39"
+ "83384"
+ "West Farmington"
+ "61"
+ "village"
+ 
+ 162
+ "39"
+ "58422"
+ "Olmsted Falls"
+ "58"
+ "city"
+ 
+ 163
+ "39"
+ "05690"
+ "Berea"
+ "58"
+ "city"
+ 
+ 164
+ "39"
+ "49644"
+ "Middleburg Heights"
+ "58"
+ "city"
+ 
+ 165
+ "39"
+ "80738"
+ "Walton Hills"
+ "61"
+ "village"
+ 
+ 166
+ "39"
+ "55874"
+ "Ney"
+ "61"
+ "village"
+ 
+ 167
+ "39"
+ "45794"
+ "McClure"
+ "61"
+ "village"
+ 
+ 168
+ "39"
+ "28826"
+ "Fremont"
+ "58"
+ "city"
+ 
+ 169
+ "39"
+ "30632"
+ "Glenwillow"
+ "61"
+ "village"
+ 
+ 170
+ "39"
+ "74832"
+ "Stony Prairie"
+ "57"
+ "CDP"
+ 
+ 171
+ "39"
+ "73040"
+ "South Amherst"
+ "61"
+ "village"
+ 
+ 172
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 173
+ "39"
+ "18812"
+ "Cortland"
+ "58"
+ "city"
+ 
+ 174
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 175
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 176
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 177
+ "39"
+ "83972"
+ "Weston"
+ "61"
+ "village"
+ 
+ 178
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 179
+ "39"
+ "08364"
+ "Brecksville"
+ "58"
+ "city"
+ 
+ 180
+ "39"
+ "09064"
+ "Broadview Heights"
+ "58"
+ "city"
+ 
+ 181
+ "39"
+ "57008"
+ "North Royalton"
+ "58"
+ "city"
+ 
+ 182
+ "39"
+ "75098"
+ "Strongsville"
+ "58"
+ "city"
+ 
+ 183
+ "39"
+ "58674"
+ "Orangeville"
+ "61"
+ "village"
+ 
+ 184
+ "39"
+ "56448"
+ "Northfield"
+ "61"
+ "village"
+ 
+ 185
+ "39"
+ "45976"
+ "Macedonia"
+ "58"
+ "city"
+ 
+ 186
+ "39"
+ "78050"
+ "Twinsburg"
+ "58"
+ "city"
+ 
+ 187
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 188
+ "39"
+ "66152"
+ "Reminderville"
+ "61"
+ "village"
+ 
+ 189
+ "39"
+ "03086"
+ "Aurora"
+ "58"
+ "city"
+ 
+ 190
+ "39"
+ "34860"
+ "Helena"
+ "61"
+ "village"
+ 
+ 191
+ "39"
+ "03716"
+ "Ballville"
+ "57"
+ "CDP"
+ 
+ 192
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 193
+ "39"
+ "64108"
+ "Portage"
+ "61"
+ "village"
+ 
+ 194
+ "39"
+ "05900"
+ "Berlin Heights"
+ "61"
+ "village"
+ 
+ 195
+ "39"
+ "08112"
+ "Bradner"
+ "61"
+ "village"
+ 
+ 196
+ "39"
+ "16308"
+ "Clyde"
+ "58"
+ "city"
+ 
+ 197
+ "39"
+ "46942"
+ "Malinta"
+ "61"
+ "village"
+ 
+ 198
+ "39"
+ "27538"
+ "Florida"
+ "61"
+ "village"
+ 
+ 199
+ "39"
+ "35658"
+ "Hiram"
+ "61"
+ "village"
+ 
+ 200
+ "39"
+ "21308"
+ "Defiance"
+ "58"
+ "city"
+ 
+ 201
+ "39"
+ "13484"
+ "Champion Heights"
+ "57"
+ "CDP"
+ 
+ 202
+ "39"
+ "24262"
+ "Eaton Estates"
+ "57"
+ "CDP"
+ 
+ 203
+ "39"
+ "18812"
+ "Cortland"
+ "58"
+ "city"
+ 
+ 204
+ "39"
+ "35098"
+ "Hicksville"
+ "61"
+ "village"
+ 
+ 205
+ "39"
+ "50708"
+ "Milton Center"
+ "61"
+ "village"
+ 
+ 206
+ "39"
+ "57834"
+ "Oberlin"
+ "58"
+ "city"
+ 
+ 207
+ "39"
+ "82334"
+ "Wayne"
+ "61"
+ "village"
+ 
+ 208
+ "39"
+ "50134"
+ "Milan"
+ "61"
+ "village"
+ 
+ 209
+ "39"
+ "31150"
+ "Grafton"
+ "61"
+ "village"
+ 
+ 210
+ "39"
+ "29442"
+ "Garrettsville"
+ "61"
+ "village"
+ 
+ 211
+ "39"
+ "72256"
+ "Sherwood"
+ "61"
+ "village"
+ 
+ 212
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 213
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 214
+ "39"
+ "05228"
+ "Bellevue"
+ "58"
+ "city"
+ 
+ 215
+ "39"
+ "47180"
+ "Mantua"
+ "61"
+ "village"
+ 
+ 216
+ "39"
+ "19750"
+ "Custar"
+ "61"
+ "village"
+ 
+ 217
+ "39"
+ "78050"
+ "Twinsburg"
+ "58"
+ "city"
+ 
+ 218
+ "39"
+ "07790"
+ "Boston Heights"
+ "61"
+ "village"
+ 
+ 219
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 220
+ "39"
+ "66530"
+ "Richfield"
+ "61"
+ "village"
+ 
+ 221
+ "39"
+ "36651"
+ "Hudson"
+ "58"
+ "city"
+ 
+ 222
+ "39"
+ "75014"
+ "Streetsboro"
+ "58"
+ "city"
+ 
+ 223
+ "39"
+ "09680"
+ "Brunswick"
+ "58"
+ "city"
+ 
+ 224
+ "39"
+ "57302"
+ "Norwalk"
+ "58"
+ "city"
+ 
+ 225
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 226
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 227
+ "39"
+ "86856"
+ "Yankee Lake"
+ "61"
+ "village"
+ 
+ 228
+ "39"
+ "67314"
+ "Risingsun"
+ "61"
+ "village"
+ 
+ 229
+ "39"
+ "80066"
+ "Vienna Center"
+ "57"
+ "CDP"
+ 
+ 230
+ "39"
+ "80892"
+ "Warren"
+ "58"
+ "city"
+ 
+ 231
+ "39"
+ "40544"
+ "Kipton"
+ "61"
+ "village"
+ 
+ 232
+ "39"
+ "10282"
+ "Burgoon"
+ "61"
+ "village"
+ 
+ 233
+ "39"
+ "36557"
+ "Howland Center"
+ "57"
+ "CDP"
+ 
+ 234
+ "39"
+ "32256"
+ "Green Springs"
+ "61"
+ "village"
+ 
+ 235
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 236
+ "39"
+ "80458"
+ "Wakeman"
+ "61"
+ "village"
+ 
+ 237
+ "39"
+ "39074"
+ "Jerry City"
+ "61"
+ "village"
+ 
+ 238
+ "39"
+ "42308"
+ "Leavittsburg"
+ "57"
+ "CDP"
+ 
+ 239
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 240
+ "39"
+ "09200"
+ "Brookfield Center"
+ "57"
+ "CDP"
+ 
+ 241
+ "39"
+ "35854"
+ "Holgate"
+ "61"
+ "village"
+ 
+ 242
+ "39"
+ "51618"
+ "Monroeville"
+ "61"
+ "village"
+ 
+ 243
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 244
+ "39"
+ "57302"
+ "Norwalk"
+ "58"
+ "city"
+ 
+ 245
+ "39"
+ "61574"
+ "Peninsula"
+ "61"
+ "village"
+ 
+ 246
+ "39"
+ "41230"
+ "Lagrange"
+ "61"
+ "village"
+ 
+ 247
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 248
+ "39"
+ "06194"
+ "Bettsville"
+ "61"
+ "village"
+ 
+ 249
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 250
+ "39"
+ "83888"
+ "West Millgrove"
+ "61"
+ "village"
+ 
+ 251
+ "39"
+ "85946"
+ "Windham"
+ "61"
+ "village"
+ 
+ 252
+ "39"
+ "19820"
+ "Cygnet"
+ "61"
+ "village"
+ 
+ 253
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 254
+ "39"
+ "83541"
+ "West Hill"
+ "57"
+ "CDP"
+ 
+ 255
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 256
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 257
+ "39"
+ "33096"
+ "Hamler"
+ "61"
+ "village"
+ 
+ 258
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 259
+ "39"
+ "12700"
+ "Cecil"
+ "61"
+ "village"
+ 
+ 260
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 261
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 262
+ "39"
+ "48272"
+ "Masury"
+ "57"
+ "CDP"
+ 
+ 263
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 264
+ "39"
+ "55916"
+ "Niles"
+ "58"
+ "city"
+ 
+ 265
+ "39"
+ "21812"
+ "Deshler"
+ "61"
+ "village"
+ 
+ 266
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 267
+ "39"
+ "07583"
+ "Bolindale"
+ "57"
+ "CDP"
+ 
+ 268
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 269
+ "39"
+ "30198"
+ "Girard"
+ "58"
+ "city"
+ 
+ 270
+ "39"
+ "55650"
+ "Newton Falls"
+ "61"
+ "village"
+ 
+ 271
+ "39"
+ "75196"
+ "Sugar Bush Knolls"
+ "61"
+ "village"
+ 
+ 272
+ "39"
+ "54110"
+ "New Bavaria"
+ "61"
+ "village"
+ 
+ 273
+ "39"
+ "44912"
+ "Lordstown"
+ "61"
+ "village"
+ 
+ 274
+ "39"
+ "19778"
+ "Cuyahoga Falls"
+ "58"
+ "city"
+ 
+ 275
+ "39"
+ "74944"
+ "Stow"
+ "58"
+ "city"
+ 
+ 276
+ "39"
+ "36568"
+ "Hoytville"
+ "61"
+ "village"
+ 
+ 277
+ "39"
+ "65592"
+ "Ravenna"
+ "58"
+ "city"
+ 
+ 278
+ "39"
+ "56154"
+ "North Baltimore"
+ "61"
+ "village"
+ 
+ 279
+ "39"
+ "02204"
+ "Antwerp"
+ "61"
+ "village"
+ 
+ 280
+ "39"
+ "28014"
+ "Fostoria"
+ "58"
+ "city"
+ 
+ 281
+ "39"
+ "73118"
+ "South Canal"
+ "57"
+ "CDP"
+ 
+ 282
+ "39"
+ "82642"
+ "Wellington"
+ "61"
+ "village"
+ 
+ 283
+ "39"
+ "14324"
+ "Churchill"
+ "57"
+ "CDP"
+ 
+ 284
+ "39"
+ "07062"
+ "Bloomdale"
+ "61"
+ "village"
+ 
+ 285
+ "39"
+ "45934"
+ "McDonald"
+ "61"
+ "village"
+ 
+ 286
+ "39"
+ "03646"
+ "Bairdstown"
+ "61"
+ "village"
+ 
+ 287
+ "39"
+ "72494"
+ "Silver Lake"
+ "61"
+ "village"
+ 
+ 288
+ "39"
+ "39872"
+ "Kent"
+ "58"
+ "city"
+ 
+ 289
+ "39"
+ "01000"
+ "Akron"
+ "58"
+ "city"
+ 
+ 290
+ "39"
+ "36582"
+ "Hubbard"
+ "58"
+ "city"
+ 
+ 291
+ "39"
+ "35613"
+ "Hilltop"
+ "57"
+ "CDP"
+ 
+ 292
+ "39"
+ "51816"
+ "Montrose-Ghent"
+ "57"
+ "CDP"
+ 
+ 293
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 294
+ "39"
+ "08168"
+ "Brady Lake"
+ "61"
+ "village"
+ 
+ 295
+ "39"
+ "61252"
+ "Paulding"
+ "61"
+ "village"
+ 
+ 296
+ "39"
+ "48790"
+ "Medina"
+ "58"
+ "city"
+ 
+ 297
+ "39"
+ "05396"
+ "Belmore"
+ "61"
+ "village"
+ 
+ 298
+ "39"
+ "50778"
+ "Mineral Ridge"
+ "57"
+ "CDP"
+ 
+ 299
+ "39"
+ "53312"
+ "Munroe Falls"
+ "58"
+ "city"
+ 
+ 300
+ "39"
+ "26166"
+ "Fairlawn"
+ "58"
+ "city"
+ 
+ 301
+ "39"
+ "47445"
+ "Maplewood Park"
+ "57"
+ "CDP"
+ 
+ 302
+ "39"
+ "76778"
+ "Tiffin"
+ "58"
+ "city"
+ 
+ 303
+ "39"
+ "76778"
+ "Tiffin"
+ "58"
+ "city"
+ 
+ 304
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 305
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 306
+ "39"
+ "19778"
+ "Cuyahoga Falls"
+ "58"
+ "city"
+ 
+ 307
+ "39"
+ "79394"
+ "Van Buren"
+ "61"
+ "village"
+ 
+ 308
+ "39"
+ "19778"
+ "Cuyahoga Falls"
+ "58"
+ "city"
+ 
+ 309
+ "39"
+ "88000"
+ "Youngstown"
+ "58"
+ "city"
+ 
+ 310
+ "39"
+ "76106"
+ "Tallmadge"
+ "58"
+ "city"
+ 
+ 311
+ "39"
+ "03184"
+ "Austintown"
+ "57"
+ "CDP"
+ 
+ 312
+ "39"
+ "42602"
+ "Leipsic"
+ "61"
+ "village"
+ 
+ 313
+ "39"
+ "66320"
+ "Republic"
+ "61"
+ "village"
+ 
+ 314
+ "39"
+ "67762"
+ "Rochester"
+ "61"
+ "village"
+ 
+ 315
+ "39"
+ "19106"
+ "Craig Beach"
+ "61"
+ "village"
+ 
+ 316
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 317
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 318
+ "39"
+ "45808"
+ "McComb"
+ "61"
+ "village"
+ 
+ 319
+ "39"
+ "62578"
+ "Pigeon Creek"
+ "57"
+ "CDP"
+ 
+ 320
+ "39"
+ "02316"
+ "Arcadia"
+ "61"
+ "village"
+ 
+ 321
+ "39"
+ "73992"
+ "Spencer"
+ "61"
+ "village"
+ 
+ 322
+ "39"
+ "56420"
+ "North Fairfield"
+ "61"
+ "village"
+ 
+ 323
+ "39"
+ "83706"
+ "West Leipsic"
+ "61"
+ "village"
+ 
+ 324
+ "39"
+ "08826"
+ "Brimfield"
+ "57"
+ "CDP"
+ 
+ 325
+ "39"
+ "18504"
+ "Continental"
+ "61"
+ "village"
+ 
+ 326
+ "39"
+ "50358"
+ "Miller City"
+ "61"
+ "village"
+ 
+ 327
+ "39"
+ "57792"
+ "Oakwood"
+ "61"
+ "village"
+ 
+ 328
+ "39"
+ "49000"
+ "Melrose"
+ "61"
+ "village"
+ 
+ 329
+ "39"
+ "54908"
+ "New London"
+ "61"
+ "village"
+ 
+ 330
+ "39"
+ "09386"
+ "Broughton"
+ "61"
+ "village"
+ 
+ 331
+ "39"
+ "41986"
+ "Latty"
+ "61"
+ "village"
+ 
+ 332
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 333
+ "39"
+ "11066"
+ "Campbell"
+ "58"
+ "city"
+ 
+ 334
+ "39"
+ "27048"
+ "Findlay"
+ "58"
+ "city"
+ 
+ 335
+ "39"
+ "61322"
+ "Payne"
+ "61"
+ "village"
+ 
+ 336
+ "39"
+ "14282"
+ "Chippewa Lake"
+ "61"
+ "village"
+ 
+ 337
+ "39"
+ "85232"
+ "Willard"
+ "58"
+ "city"
+ 
+ 338
+ "39"
+ "02820"
+ "Attica"
+ "61"
+ "village"
+ 
+ 339
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 340
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 341
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 342
+ "39"
+ "75126"
+ "Struthers"
+ "58"
+ "city"
+ 
+ 343
+ "39"
+ "51058"
+ "Mogadore"
+ "61"
+ "village"
+ 
+ 344
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 345
+ "39"
+ "22974"
+ "Dupont"
+ "61"
+ "village"
+ 
+ 346
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 347
+ "39"
+ "80304"
+ "Wadsworth"
+ "58"
+ "city"
+ 
+ 348
+ "39"
+ "57260"
+ "Norton"
+ "58"
+ "city"
+ 
+ 349
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 350
+ "39"
+ "07454"
+ "Boardman"
+ "57"
+ "CDP"
+ 
+ 351
+ "39"
+ "30660"
+ "Gloria Glens Park"
+ "61"
+ "village"
+ 
+ 352
+ "39"
+ "07286"
+ "Bloomville"
+ "61"
+ "village"
+ 
+ 353
+ "39"
+ "55398"
+ "New Riegel"
+ "61"
+ "village"
+ 
+ 354
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 355
+ "39"
+ "11360"
+ "Canfield"
+ "58"
+ "city"
+ 
+ 356
+ "39"
+ "45178"
+ "Lowellville"
+ "61"
+ "village"
+ 
+ 357
+ "39"
+ "58982"
+ "Ottawa"
+ "61"
+ "village"
+ 
+ 358
+ "39"
+ "32368"
+ "Greenwich"
+ "61"
+ "village"
+ 
+ 359
+ "39"
+ "44604"
+ "Lodi"
+ "61"
+ "village"
+ 
+ 360
+ "39"
+ "03828"
+ "Barberton"
+ "58"
+ "city"
+ 
+ 361
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 362
+ "39"
+ "30282"
+ "Glandorf"
+ "61"
+ "village"
+ 
+ 363
+ "39"
+ "83468"
+ "Westfield Center"
+ "61"
+ "village"
+ 
+ 364
+ "39"
+ "71486"
+ "Seville"
+ "61"
+ "village"
+ 
+ 365
+ "39"
+ "63954"
+ "Poland"
+ "61"
+ "village"
+ 
+ 366
+ "39"
+ "41454"
+ "Lakemore"
+ "61"
+ "village"
+ 
+ 367
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 368
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 369
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 370
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 371
+ "39"
+ "16266"
+ "Cloverdale"
+ "61"
+ "village"
+ 
+ 372
+ "39"
+ "64136"
+ "Portage Lakes"
+ "57"
+ "CDP"
+ 
+ 373
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 374
+ "39"
+ "32620"
+ "Grover Hill"
+ "61"
+ "village"
+ 
+ 375
+ "39"
+ "34552"
+ "Haviland"
+ "61"
+ "village"
+ 
+ 376
+ "39"
+ "30114"
+ "Gilboa"
+ "61"
+ "village"
+ 
+ 377
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 378
+ "39"
+ "63800"
+ "Plymouth"
+ "61"
+ "village"
+ 
+ 379
+ "39"
+ "05662"
+ "Benton Ridge"
+ "61"
+ "village"
+ 
+ 380
+ "39"
+ "67356"
+ "Rittman"
+ "58"
+ "city"
+ 
+ 381
+ "39"
+ "71080"
+ "Scott"
+ "61"
+ "village"
+ 
+ 382
+ "39"
+ "39536"
+ "Kalida"
+ "61"
+ "village"
+ 
+ 383
+ "39"
+ "19344"
+ "Creston"
+ "61"
+ "village"
+ 
+ 384
+ "39"
+ "10254"
+ "Burbank"
+ "61"
+ "village"
+ 
+ 385
+ "39"
+ "31860"
+ "Green"
+ "58"
+ "city"
+ 
+ 386
+ "39"
+ "78736"
+ "Uniontown"
+ "57"
+ "CDP"
+ 
+ 387
+ "39"
+ "43596"
+ "Limaville"
+ "61"
+ "village"
+ 
+ 388
+ "39"
+ "22568"
+ "Doylestown"
+ "61"
+ "village"
+ 
+ 389
+ "39"
+ "72298"
+ "Shiloh"
+ "61"
+ "village"
+ 
+ 390
+ "39"
+ "84196"
+ "West Salem"
+ "61"
+ "village"
+ 
+ 391
+ "39"
+ "79534"
+ "Vanlue"
+ "61"
+ "village"
+ 
+ 392
+ "39"
+ "55118"
+ "New Middletown"
+ "61"
+ "village"
+ 
+ 393
+ "39"
+ "70576"
+ "Savannah"
+ "61"
+ "village"
+ 
+ 394
+ "39"
+ "34328"
+ "Hartville"
+ "61"
+ "village"
+ 
+ 395
+ "39"
+ "55776"
+ "New Washington"
+ "61"
+ "village"
+ 
+ 396
+ "39"
+ "65634"
+ "Rawson"
+ "61"
+ "village"
+ 
+ 397
+ "39"
+ "54562"
+ "New Franklin"
+ "61"
+ "village"
+ 
+ 398
+ "39"
+ "12112"
+ "Carey"
+ "61"
+ "village"
+ 
+ 399
+ "39"
+ "75980"
+ "Sycamore"
+ "61"
+ "village"
+ 
+ 400
+ "39"
+ "13694"
+ "Chatfield"
+ "61"
+ "village"
+ 
+ 401
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 402
+ "39"
+ "59738"
+ "Pandora"
+ "61"
+ "village"
+ 
+ 403
+ "39"
+ "03562"
+ "Bailey Lakes"
+ "61"
+ "village"
+ 
+ 404
+ "39"
+ "63996"
+ "Polk"
+ "61"
+ "village"
+ 
+ 405
+ "39"
+ "12112"
+ "Carey"
+ "61"
+ "village"
+ 
+ 406
+ "39"
+ "59052"
+ "Ottoville"
+ "61"
+ "village"
+ 
+ 407
+ "39"
+ "16182"
+ "Clinton"
+ "61"
+ "village"
+ 
+ 408
+ "39"
+ "71220"
+ "Sebring"
+ "61"
+ "village"
+ 
+ 409
+ "39"
+ "32298"
+ "Greentown"
+ "57"
+ "CDP"
+ 
+ 410
+ "39"
+ "52668"
+ "Mount Cory"
+ "61"
+ "village"
+ 
+ 411
+ "39"
+ "01420"
+ "Alliance"
+ "58"
+ "city"
+ 
+ 412
+ "39"
+ "18014"
+ "Columbus Grove"
+ "61"
+ "village"
+ 
+ 413
+ "39"
+ "18308"
+ "Congress"
+ "61"
+ "village"
+ 
+ 414
+ "39"
+ "05410"
+ "Beloit"
+ "61"
+ "village"
+ 
+ 415
+ "39"
+ "18546"
+ "Convoy"
+ "61"
+ "village"
+ 
+ 416
+ "39"
+ "47362"
+ "Maple Ridge"
+ "57"
+ "CDP"
+ 
+ 417
+ "39"
+ "69834"
+ "Salem"
+ "58"
+ "city"
+ 
+ 418
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 419
+ "39"
+ "17036"
+ "Columbiana"
+ "61"
+ "village"
+ 
+ 420
+ "39"
+ "27818"
+ "Fort Jennings"
+ "61"
+ "village"
+ 
+ 421
+ "39"
+ "76932"
+ "Tiro"
+ "61"
+ "village"
+ 
+ 422
+ "39"
+ "72102"
+ "Shelby"
+ "58"
+ "city"
+ 
+ 423
+ "39"
+ "02400"
+ "Arlington"
+ "61"
+ "village"
+ 
+ 424
+ "39"
+ "81732"
+ "Washingtonville"
+ "61"
+ "village"
+ 
+ 425
+ "39"
+ "52598"
+ "Mount Blanchard"
+ "61"
+ "village"
+ 
+ 426
+ "39"
+ "48048"
+ "Marshallville"
+ "61"
+ "village"
+ 
+ 427
+ "39"
+ "07426"
+ "Bluffton"
+ "61"
+ "village"
+ 
+ 428
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 429
+ "39"
+ "38948"
+ "Jenera"
+ "61"
+ "village"
+ 
+ 430
+ "39"
+ "11304"
+ "Canal Fulton"
+ "61"
+ "village"
+ 
+ 431
+ "39"
+ "02568"
+ "Ashland"
+ "58"
+ "city"
+ 
+ 432
+ "39"
+ "56294"
+ "North Canton"
+ "58"
+ "city"
+ 
+ 433
+ "39"
+ "42560"
+ "Leetonia"
+ "61"
+ "village"
+ 
+ 434
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 435
+ "39"
+ "79562"
+ "Van Wert"
+ "58"
+ "city"
+ 
+ 436
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 437
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 438
+ "39"
+ "58828"
+ "Orrville"
+ "58"
+ "city"
+ 
+ 439
+ "39"
+ "72788"
+ "Smithville"
+ "61"
+ "village"
+ 
+ 440
+ "39"
+ "84574"
+ "Wharton"
+ "61"
+ "village"
+ 
+ 441
+ "39"
+ "86548"
+ "Wooster"
+ "58"
+ "city"
+ 
+ 442
+ "39"
+ "49728"
+ "Middle Point"
+ "61"
+ "village"
+ 
+ 443
+ "39"
+ "12000"
+ "Canton"
+ "58"
+ "city"
+ 
+ 444
+ "39"
+ "45094"
+ "Louisville"
+ "58"
+ "city"
+ 
+ 445
+ "39"
+ "21602"
+ "Delphos"
+ "58"
+ "city"
+ 
+ 446
+ "39"
+ "79044"
+ "Upper Sandusky"
+ "58"
+ "city"
+ 
+ 447
+ "39"
+ "55790"
+ "New Waterford"
+ "61"
+ "village"
+ 
+ 448
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 449
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 450
+ "39"
+ "23940"
+ "East Palestine"
+ "58"
+ "city"
+ 
+ 451
+ "39"
+ "47138"
+ "Mansfield"
+ "58"
+ "city"
+ 
+ 452
+ "39"
+ "10030"
+ "Bucyrus"
+ "58"
+ "city"
+ 
+ 453
+ "39"
+ "04752"
+ "Beaverdam"
+ "61"
+ "village"
+ 
+ 454
+ "39"
+ "35532"
+ "Hills and Dales"
+ "61"
+ "village"
+ 
+ 455
+ "39"
+ "10884"
+ "Cairo"
+ "61"
+ "village"
+ 
+ 456
+ "39"
+ "53942"
+ "Nevada"
+ "61"
+ "village"
+ 
+ 457
+ "39"
+ "48244"
+ "Massillon"
+ "58"
+ "city"
+ 
+ 458
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 459
+ "39"
+ "49294"
+ "Meyers Lake"
+ "61"
+ "village"
+ 
+ 460
+ "39"
+ "40558"
+ "Kirby"
+ "61"
+ "village"
+ 
+ 461
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 462
+ "39"
+ "62134"
+ "Perry Heights"
+ "57"
+ "CDP"
+ 
+ 463
+ "39"
+ "27636"
+ "Forest"
+ "61"
+ "village"
+ 
+ 464
+ "39"
+ "39060"
+ "Jeromesville"
+ "61"
+ "village"
+ 
+ 465
+ "39"
+ "19974"
+ "Dalton"
+ "61"
+ "village"
+ 
+ 466
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 467
+ "39"
+ "86632"
+ "Wren"
+ "61"
+ "village"
+ 
+ 468
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 469
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 470
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 471
+ "39"
+ "58520"
+ "Ontario"
+ "61"
+ "village"
+ 
+ 472
+ "39"
+ "19330"
+ "Crestline"
+ "61"
+ "village"
+ 
+ 473
+ "39"
+ "23324"
+ "East Canton"
+ "61"
+ "village"
+ 
+ 474
+ "39"
+ "24808"
+ "Elida"
+ "61"
+ "village"
+ 
+ 475
+ "39"
+ "43554"
+ "Lima"
+ "58"
+ "city"
+ 
+ 476
+ "39"
+ "56994"
+ "North Robinson"
+ "61"
+ "village"
+ 
+ 477
+ "39"
+ "22946"
+ "Dunkirk"
+ "61"
+ "village"
+ 
+ 478
+ "39"
+ "68084"
+ "Rogers"
+ "61"
+ "village"
+ 
+ 479
+ "39"
+ "79632"
+ "Venedocia"
+ "61"
+ "village"
+ 
+ 480
+ "39"
+ "44030"
+ "Lisbon"
+ "61"
+ "village"
+ 
+ 481
+ "39"
+ "61182"
+ "Patterson"
+ "61"
+ "village"
+ 
+ 482
+ "39"
+ "34636"
+ "Hayesville"
+ "61"
+ "village"
+ 
+ 483
+ "39"
+ "00198"
+ "Ada"
+ "61"
+ "village"
+ 
+ 484
+ "39"
+ "50036"
+ "Mifflin"
+ "61"
+ "village"
+ 
+ 485
+ "39"
+ "58002"
+ "Ohio City"
+ "61"
+ "village"
+ 
+ 486
+ "39"
+ "41118"
+ "Lafayette"
+ "61"
+ "village"
+ 
+ 487
+ "39"
+ "43554"
+ "Lima"
+ "58"
+ "city"
+ 
+ 488
+ "39"
+ "33306"
+ "Hanoverton"
+ "61"
+ "village"
+ 
+ 489
+ "39"
+ "02232"
+ "Apple Creek"
+ "61"
+ "village"
+ 
+ 490
+ "39"
+ "29162"
+ "Galion"
+ "58"
+ "city"
+ 
+ 491
+ "39"
+ "85736"
+ "Willshire"
+ "61"
+ "village"
+ 
+ 492
+ "39"
+ "33656"
+ "Harpster"
+ "61"
+ "village"
+ 
+ 493
+ "39"
+ "50834"
+ "Minerva"
+ "61"
+ "village"
+ 
+ 494
+ "39"
+ "24794"
+ "Elgin"
+ "61"
+ "village"
+ 
+ 495
+ "39"
+ "53690"
+ "Navarre"
+ "61"
+ "village"
+ 
+ 496
+ "39"
+ "08504"
+ "Brewster"
+ "61"
+ "village"
+ 
+ 497
+ "39"
+ "10926"
+ "Calcutta"
+ "57"
+ "CDP"
+ 
+ 498
+ "39"
+ "74034"
+ "Spencerville"
+ "61"
+ "village"
+ 
+ 499
+ "39"
+ "01210"
+ "Alger"
+ "61"
+ "village"
+ 
+ 500
+ "39"
+ "34118"
+ "Harrod"
+ "61"
+ "village"
+ 
+ 501
+ "39"
+ "27944"
+ "Fort Shawnee"
+ "61"
+ "village"
+ 
+ 502
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 503
+ "39"
+ "45276"
+ "Lucas"
+ "61"
+ "village"
+ 
+ 504
+ "39"
+ "47992"
+ "Marseilles"
+ "61"
+ "village"
+ 
+ 505
+ "39"
+ "52276"
+ "Morral"
+ "61"
+ "village"
+ 
+ 506
+ "39"
+ "67874"
+ "Rockford"
+ "61"
+ "village"
+ 
+ 507
+ "39"
+ "52682"
+ "Mount Eaton"
+ "61"
+ "village"
+ 
+ 508
+ "39"
+ "46998"
+ "Malvern"
+ "61"
+ "village"
+ 
+ 509
+ "39"
+ "46046"
+ "McGuffey"
+ "61"
+ "village"
+ 
+ 510
+ "39"
+ "42994"
+ "Lexington"
+ "61"
+ "village"
+ 
+ 511
+ "39"
+ "72396"
+ "Shreve"
+ "61"
+ "village"
+ 
+ 512
+ "39"
+ "75574"
+ "Summitville"
+ "61"
+ "village"
+ 
+ 513
+ "39"
+ "28616"
+ "Fredericksburg"
+ "61"
+ "village"
+ 
+ 514
+ "39"
+ "30520"
+ "Glenmoor"
+ "57"
+ "CDP"
+ 
+ 515
+ "39"
+ "49042"
+ "Mendon"
+ "61"
+ "village"
+ 
+ 516
+ "39"
+ "62190"
+ "Perrysville"
+ "61"
+ "village"
+ 
+ 517
+ "39"
+ "24052"
+ "East Sparta"
+ "61"
+ "village"
+ 
+ 518
+ "39"
+ "82376"
+ "Waynesburg"
+ "61"
+ "village"
+ 
+ 519
+ "39"
+ "39886"
+ "Kenton"
+ "58"
+ "city"
+ 
+ 520
+ "39"
+ "46844"
+ "Magnolia"
+ "61"
+ "village"
+ 
+ 521
+ "39"
+ "04458"
+ "Beach City"
+ "61"
+ "village"
+ 
+ 522
+ "39"
+ "05284"
+ "Bellville"
+ "61"
+ "village"
+ 
+ 523
+ "39"
+ "85806"
+ "Wilmot"
+ "61"
+ "village"
+ 
+ 524
+ "39"
+ "07594"
+ "Bolivar"
+ "61"
+ "village"
+ 
+ 525
+ "39"
+ "19400"
+ "Cridersville"
+ "61"
+ "village"
+ 
+ 526
+ "39"
+ "41090"
+ "La Croft"
+ "57"
+ "CDP"
+ 
+ 527
+ "39"
+ "23730"
+ "East Liverpool"
+ "58"
+ "city"
+ 
+ 528
+ "39"
+ "45066"
+ "Loudonville"
+ "61"
+ "village"
+ 
+ 529
+ "39"
+ "47754"
+ "Marion"
+ "58"
+ "city"
+ 
+ 530
+ "39"
+ "10954"
+ "Caledonia"
+ "61"
+ "village"
+ 
+ 531
+ "39"
+ "70100"
+ "Salineville"
+ "61"
+ "village"
+ 
+ 532
+ "39"
+ "35994"
+ "Holmesville"
+ "61"
+ "village"
+ 
+ 533
+ "39"
+ "39886"
+ "Kenton"
+ "58"
+ "city"
+ 
+ 534
+ "39"
+ "09974"
+ "Buckland"
+ "61"
+ "village"
+ 
+ 535
+ "39"
+ "82740"
+ "Wellsville"
+ "61"
+ "village"
+ 
+ 536
+ "39"
+ "88168"
+ "Zoar"
+ "61"
+ "village"
+ 
+ 537
+ "39"
+ "82390"
+ "Waynesfield"
+ "61"
+ "village"
+ 
+ 538
+ "39"
+ "74958"
+ "Strasburg"
+ "61"
+ "village"
+ 
+ 539
+ "39"
+ "50764"
+ "Mineral City"
+ "61"
+ "village"
+ 
+ 540
+ "39"
+ "78848"
+ "Uniopolis"
+ "61"
+ "village"
+ 
+ 541
+ "39"
+ "53634"
+ "Nashville"
+ "61"
+ "village"
+ 
+ 542
+ "39"
+ "12280"
+ "Carrollton"
+ "61"
+ "village"
+ 
+ 543
+ "39"
+ "10632"
+ "Butler"
+ "61"
+ "village"
+ 
+ 544
+ "39"
+ "80766"
+ "Wapakoneta"
+ "58"
+ "city"
+ 
+ 545
+ "39"
+ "54152"
+ "New Bloomington"
+ "61"
+ "village"
+ 
+ 546
+ "39"
+ "41902"
+ "La Rue"
+ "61"
+ "village"
+ 
+ 547
+ "39"
+ "37422"
+ "Irondale"
+ "61"
+ "village"
+ 
+ 548
+ "39"
+ "52738"
+ "Mount Gilead"
+ "61"
+ "village"
+ 
+ 549
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 550
+ "39"
+ "12868"
+ "Celina"
+ "58"
+ "city"
+ 
+ 551
+ "39"
+ "50372"
+ "Millersburg"
+ "61"
+ "village"
+ 
+ 552
+ "39"
+ "22456"
+ "Dover"
+ "58"
+ "city"
+ 
+ 553
+ "39"
+ "69680"
+ "St. Marys"
+ "58"
+ "city"
+ 
+ 554
+ "39"
+ "61056"
+ "Parral"
+ "61"
+ "village"
+ 
+ 555
+ "39"
+ "24598"
+ "Edison"
+ "61"
+ "village"
+ 
+ 556
+ "39"
+ "21560"
+ "Dellroy"
+ "61"
+ "village"
+ 
+ 557
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 558
+ "39"
+ "69680"
+ "St. Marys"
+ "58"
+ "city"
+ 
+ 559
+ "39"
+ "53144"
+ "Mount Victory"
+ "61"
+ "village"
+ 
+ 560
+ "39"
+ "31948"
+ "Green Camp"
+ "61"
+ "village"
+ 
+ 561
+ "39"
+ "75000"
+ "Stratton"
+ "61"
+ "village"
+ 
+ 562
+ "39"
+ "05718"
+ "Bergholz"
+ "61"
+ "village"
+ 
+ 563
+ "39"
+ "30506"
+ "Glenmont"
+ "61"
+ "village"
+ 
+ 564
+ "39"
+ "75210"
+ "Sugarcreek"
+ "61"
+ "village"
+ 
+ 565
+ "39"
+ "67118"
+ "Ridgeway"
+ "61"
+ "village"
+ 
+ 566
+ "39"
+ "25368"
+ "Empire"
+ "61"
+ "village"
+ 
+ 567
+ "39"
+ "55216"
+ "New Philadelphia"
+ "58"
+ "city"
+ 
+ 568
+ "39"
+ "05116"
+ "Belle Center"
+ "61"
+ "village"
+ 
+ 569
+ "39"
+ "12084"
+ "Cardington"
+ "61"
+ "village"
+ 
+ 570
+ "39"
+ "40180"
+ "Killbuck"
+ "61"
+ "village"
+ 
+ 571
+ "39"
+ "54838"
+ "New Knoxville"
+ "61"
+ "village"
+ 
+ 572
+ "39"
+ "72242"
+ "Sherrodsville"
+ "61"
+ "village"
+ 
+ 573
+ "39"
+ "41608"
+ "Lakeview"
+ "61"
+ "village"
+ 
+ 574
+ "39"
+ "16532"
+ "Coldwater"
+ "61"
+ "village"
+ 
+ 575
+ "39"
+ "51674"
+ "Montezuma"
+ "61"
+ "village"
+ 
+ 576
+ "39"
+ "28658"
+ "Fredericktown"
+ "61"
+ "village"
+ 
+ 577
+ "39"
+ "77112"
+ "Toronto"
+ "58"
+ "city"
+ 
+ 578
+ "39"
+ "14114"
+ "Chesterville"
+ "61"
+ "village"
+ 
+ 579
+ "39"
+ "69302"
+ "Russells Point"
+ "61"
+ "village"
+ 
+ 580
+ "39"
+ "68742"
+ "Roswell"
+ "61"
+ "village"
+ 
+ 581
+ "39"
+ "01938"
+ "Amsterdam"
+ "61"
+ "village"
+ 
+ 582
+ "39"
+ "07832"
+ "Botkins"
+ "61"
+ "village"
+ 
+ 583
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 584
+ "39"
+ "29288"
+ "Gann"
+ "61"
+ "village"
+ 
+ 585
+ "39"
+ "69176"
+ "Rushsylvania"
+ "61"
+ "village"
+ 
+ 586
+ "39"
+ "29050"
+ "Fulton"
+ "61"
+ "village"
+ 
+ 587
+ "39"
+ "80500"
+ "Waldo"
+ "61"
+ "village"
+ 
+ 588
+ "39"
+ "64780"
+ "Prospect"
+ "61"
+ "village"
+ 
+ 589
+ "39"
+ "42518"
+ "Leesville"
+ "61"
+ "village"
+ 
+ 590
+ "39"
+ "03940"
+ "Barnhill"
+ "61"
+ "village"
+ 
+ 591
+ "39"
+ "20114"
+ "Danville"
+ "61"
+ "village"
+ 
+ 592
+ "39"
+ "03744"
+ "Baltic"
+ "61"
+ "village"
+ 
+ 593
+ "39"
+ "36988"
+ "Huntsville"
+ "61"
+ "village"
+ 
+ 594
+ "39"
+ "54194"
+ "New Bremen"
+ "61"
+ "village"
+ 
+ 595
+ "39"
+ "38220"
+ "Jackson Center"
+ "61"
+ "village"
+ 
+ 596
+ "39"
+ "40054"
+ "Kettlersville"
+ "61"
+ "village"
+ 
+ 597
+ "39"
+ "49966"
+ "Midvale"
+ "61"
+ "village"
+ 
+ 598
+ "39"
+ "14156"
+ "Chickasaw"
+ "61"
+ "village"
+ 
+ 599
+ "39"
+ "66936"
+ "Richwood"
+ "61"
+ "village"
+ 
+ 600
+ "39"
+ "66824"
+ "Richmond"
+ "61"
+ "village"
+ 
+ 601
+ "39"
+ "07916"
+ "Bowerston"
+ "61"
+ "village"
+ 
+ 602
+ "39"
+ "69540"
+ "St. Henry"
+ "61"
+ "village"
+ 
+ 603
+ "39"
+ "78176"
+ "Uhrichsville"
+ "58"
+ "city"
+ 
+ 604
+ "39"
+ "27902"
+ "Fort Recovery"
+ "61"
+ "village"
+ 
+ 605
+ "39"
+ "53102"
+ "Mount Vernon"
+ "58"
+ "city"
+ 
+ 606
+ "39"
+ "02582"
+ "Ashley"
+ "61"
+ "village"
+ 
+ 607
+ "39"
+ "50918"
+ "Minster"
+ "61"
+ "village"
+ 
+ 608
+ "39"
+ "21714"
+ "Dennison"
+ "61"
+ "village"
+ 
+ 609
+ "39"
+ "70814"
+ "Scio"
+ "61"
+ "village"
+ 
+ 610
+ "39"
+ "74608"
+ "Steubenville"
+ "58"
+ "city"
+ 
+ 611
+ "39"
+ "83818"
+ "West Mansfield"
+ "61"
+ "village"
+ 
+ 612
+ "39"
+ "02092"
+ "Anna"
+ "61"
+ "village"
+ 
+ 613
+ "39"
+ "77924"
+ "Tuscarawas"
+ "61"
+ "village"
+ 
+ 614
+ "39"
+ "78176"
+ "Uhrichsville"
+ "58"
+ "city"
+ 
+ 615
+ "39"
+ "47558"
+ "Marengo"
+ "61"
+ "village"
+ 
+ 616
+ "39"
+ "74804"
+ "Stone Creek"
+ "61"
+ "village"
+ 
+ 617
+ "39"
+ "21714"
+ "Dennison"
+ "61"
+ "village"
+ 
+ 618
+ "39"
+ "73950"
+ "Sparta"
+ "61"
+ "village"
+ 
+ 619
+ "39"
+ "86184"
+ "Wintersville"
+ "61"
+ "village"
+ 
+ 620
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 621
+ "39"
+ "21714"
+ "Dennison"
+ "61"
+ "village"
+ 
+ 622
+ "39"
+ "05130"
+ "Bellefontaine"
+ "58"
+ "city"
+ 
+ 623
+ "39"
+ "77924"
+ "Tuscarawas"
+ "61"
+ "village"
+ 
+ 624
+ "39"
+ "29246"
+ "Gambier"
+ "61"
+ "village"
+ 
+ 625
+ "39"
+ "39172"
+ "Jewett"
+ "61"
+ "village"
+ 
+ 626
+ "39"
+ "30702"
+ "Gnadenhutten"
+ "61"
+ "village"
+ 
+ 627
+ "39"
+ "46830"
+ "Magnetic Springs"
+ "61"
+ "village"
+ 
+ 628
+ "39"
+ "10296"
+ "Burkettsville"
+ "61"
+ "village"
+ 
+ 629
+ "39"
+ "27832"
+ "Fort Loramie"
+ "61"
+ "village"
+ 
+ 630
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 631
+ "39"
+ "74608"
+ "Steubenville"
+ "58"
+ "city"
+ 
+ 632
+ "39"
+ "50904"
+ "Mingo Junction"
+ "61"
+ "village"
+ 
+ 633
+ "39"
+ "07202"
+ "Bloomingdale"
+ "61"
+ "village"
+ 
+ 634
+ "39"
+ "53816"
+ "Nellie"
+ "61"
+ "village"
+ 
+ 635
+ "39"
+ "58912"
+ "Osgood"
+ "61"
+ "village"
+ 
+ 636
+ "39"
+ "88070"
+ "Zanesfield"
+ "61"
+ "village"
+ 
+ 637
+ "39"
+ "55818"
+ "New Weston"
+ "61"
+ "village"
+ 
+ 638
+ "39"
+ "81032"
+ "Warsaw"
+ "61"
+ "village"
+ 
+ 639
+ "39"
+ "21434"
+ "Delaware"
+ "58"
+ "city"
+ 
+ 640
+ "39"
+ "64262"
+ "Port Jefferson"
+ "61"
+ "village"
+ 
+ 641
+ "39"
+ "64346"
+ "Port Washington"
+ "61"
+ "village"
+ 
+ 642
+ "39"
+ "57064"
+ "North Star"
+ "61"
+ "village"
+ 
+ 643
+ "39"
+ "87164"
+ "Yorkshire"
+ "61"
+ "village"
+ 
+ 644
+ "39"
+ "36260"
+ "Hopedale"
+ "61"
+ "village"
+ 
+ 645
+ "39"
+ "21378"
+ "De Graff"
+ "61"
+ "village"
+ 
+ 646
+ "39"
+ "79226"
+ "Valley Hi"
+ "61"
+ "village"
+ 
+ 647
+ "39"
+ "72424"
+ "Sidney"
+ "58"
+ "city"
+ 
+ 648
+ "39"
+ "21294"
+ "Deersville"
+ "61"
+ "village"
+ 
+ 649
+ "39"
+ "13036"
+ "Centerburg"
+ "61"
+ "village"
+ 
+ 650
+ "39"
+ "65200"
+ "Quincy"
+ "61"
+ "village"
+ 
+ 651
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 652
+ "39"
+ "54012"
+ "New Alexandria"
+ "61"
+ "village"
+ 
+ 653
+ "39"
+ "54432"
+ "Newcomerstown"
+ "61"
+ "village"
+ 
+ 654
+ "39"
+ "10800"
+ "Cadiz"
+ "61"
+ "village"
+ 
+ 655
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 656
+ "39"
+ "18868"
+ "Coshocton"
+ "58"
+ "city"
+ 
+ 657
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 658
+ "39"
+ "68672"
+ "Rossburg"
+ "61"
+ "village"
+ 
+ 659
+ "39"
+ "83608"
+ "West Lafayette"
+ "61"
+ "village"
+ 
+ 660
+ "39"
+ "72760"
+ "Smithfield"
+ "61"
+ "village"
+ 
+ 661
+ "39"
+ "48160"
+ "Marysville"
+ "58"
+ "city"
+ 
+ 662
+ "39"
+ "48090"
+ "Martinsburg"
+ "61"
+ "village"
+ 
+ 663
+ "39"
+ "83734"
+ "West Liberty"
+ "61"
+ "village"
+ 
+ 664
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 665
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 666
+ "39"
+ "58940"
+ "Ostrander"
+ "61"
+ "village"
+ 
+ 667
+ "39"
+ "75602"
+ "Sunbury"
+ "61"
+ "village"
+ 
+ 668
+ "39"
+ "34202"
+ "Hartford"
+ "61"
+ "village"
+ 
+ 669
+ "39"
+ "79114"
+ "Utica"
+ "61"
+ "village"
+ 
+ 670
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 671
+ "39"
+ "69344"
+ "Russia"
+ "61"
+ "village"
+ 
+ 672
+ "39"
+ "79912"
+ "Versailles"
+ "61"
+ "village"
+ 
+ 673
+ "39"
+ "29148"
+ "Galena"
+ "61"
+ "village"
+ 
+ 674
+ "39"
+ "56770"
+ "North Lewisburg"
+ "61"
+ "village"
+ 
+ 675
+ "39"
+ "00464"
+ "Adena"
+ "61"
+ "village"
+ 
+ 676
+ "39"
+ "02120"
+ "Ansonia"
+ "61"
+ "village"
+ 
+ 677
+ "39"
+ "28798"
+ "Freeport"
+ "61"
+ "village"
+ 
+ 678
+ "39"
+ "63044"
+ "Plainfield"
+ "61"
+ "village"
+ 
+ 679
+ "39"
+ "44352"
+ "Lockington"
+ "61"
+ "village"
+ 
+ 680
+ "39"
+ "78624"
+ "Union City"
+ "61"
+ "village"
+ 
+ 681
+ "39"
+ "22022"
+ "Dillonvale"
+ "61"
+ "village"
+ 
+ 682
+ "39"
+ "54068"
+ "New Athens"
+ "61"
+ "village"
+ 
+ 683
+ "39"
+ "65662"
+ "Rayland"
+ "61"
+ "village"
+ 
+ 684
+ "39"
+ "18266"
+ "Conesville"
+ "61"
+ "village"
+ 
+ 685
+ "39"
+ "50218"
+ "Milford Center"
+ "61"
+ "village"
+ 
+ 686
+ "39"
+ "34090"
+ "Harrisville"
+ "61"
+ "village"
+ 
+ 687
+ "39"
+ "62848"
+ "Piqua"
+ "58"
+ "city"
+ 
+ 688
+ "39"
+ "52976"
+ "Mount Pleasant"
+ "61"
+ "village"
+ 
+ 689
+ "39"
+ "76806"
+ "Tiltonsville"
+ "61"
+ "village"
+ 
+ 690
+ "39"
+ "86478"
+ "Woodstock"
+ "61"
+ "village"
+ 
+ 691
+ "39"
+ "64486"
+ "Powell"
+ "61"
+ "village"
+ 
+ 692
+ "39"
+ "69652"
+ "St. Louisville"
+ "61"
+ "village"
+ 
+ 693
+ "39"
+ "35924"
+ "Holloway"
+ "61"
+ "village"
+ 
+ 694
+ "39"
+ "87178"
+ "Yorkville"
+ "61"
+ "village"
+ 
+ 695
+ "39"
+ "71976"
+ "Shawnee Hills"
+ "61"
+ "village"
+ 
+ 696
+ "39"
+ "39340"
+ "Johnstown"
+ "61"
+ "village"
+ 
+ 697
+ "39"
+ "40264"
+ "Kimbolton"
+ "61"
+ "village"
+ 
+ 698
+ "39"
+ "22694"
+ "Dublin"
+ "58"
+ "city"
+ 
+ 699
+ "39"
+ "18000"
+ "Columbus"
+ "58"
+ "city"
+ 
+ 700
+ "39"
+ "27552"
+ "Flushing"
+ "61"
+ "village"
+ 
+ 701
+ "39"
+ "83342"
+ "Westerville"
+ "58"
+ "city"
+ 
+ 702
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 703
+ "39"
+ "27412"
+ "Fletcher"
+ "61"
+ "village"
+ 
+ 704
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 705
+ "39"
+ "79072"
+ "Urbana"
+ "58"
+ "city"
+ 
+ 706
+ "39"
+ "08084"
+ "Bradford"
+ "61"
+ "village"
+ 
+ 707
+ "39"
+ "78834"
+ "Unionville Center"
+ "61"
+ "village"
+ 
+ 708
+ "39"
+ "32340"
+ "Greenville"
+ "58"
+ "city"
+ 
+ 709
+ "39"
+ "48104"
+ "Martins Ferry"
+ "58"
+ "city"
+ 
+ 710
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 711
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 712
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 713
+ "39"
+ "69708"
+ "St. Paris"
+ "61"
+ "village"
+ 
+ 714
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 715
+ "39"
+ "22610"
+ "Dresden"
+ "61"
+ "village"
+ 
+ 716
+ "39"
+ "79072"
+ "Urbana"
+ "58"
+ "city"
+ 
+ 717
+ "39"
+ "19050"
+ "Covington"
+ "61"
+ "village"
+ 
+ 718
+ "39"
+ "54040"
+ "Newark"
+ "58"
+ "city"
+ 
+ 719
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 720
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 721
+ "39"
+ "69708"
+ "St. Paris"
+ "61"
+ "village"
+ 
+ 722
+ "39"
+ "63030"
+ "Plain City"
+ "61"
+ "village"
+ 
+ 723
+ "39"
+ "28574"
+ "Frazeysburg"
+ "61"
+ "village"
+ 
+ 724
+ "39"
+ "29974"
+ "Gettysburg"
+ "61"
+ "village"
+ 
+ 725
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 726
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 727
+ "39"
+ "86604"
+ "Worthington"
+ "58"
+ "city"
+ 
+ 728
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 729
+ "39"
+ "53970"
+ "New Albany"
+ "61"
+ "village"
+ 
+ 730
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 731
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 732
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 733
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 734
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 735
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 736
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 737
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 738
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 739
+ "39"
+ "36624"
+ "Huber Ridge"
+ "57"
+ "CDP"
+ 
+ 740
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 741
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 742
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 743
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 744
+ "39"
+ "69526"
+ "St. Clairsville"
+ "58"
+ "city"
+ 
+ 745
+ "39"
+ "33292"
+ "Hanover"
+ "61"
+ "village"
+ 
+ 746
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 747
+ "39"
+ "01154"
+ "Alexandria"
+ "61"
+ "village"
+ 
+ 748
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 749
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 750
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 751
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 752
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 753
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 754
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 755
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 756
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 757
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 758
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 759
+ "39"
+ "31402"
+ "Granville"
+ "61"
+ "village"
+ 
+ 760
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 761
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 762
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 763
+ "39"
+ "08560"
+ "Bridgeport"
+ "61"
+ "village"
+ 
+ 764
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 765
+ "39"
+ "48706"
+ "Mechanicsburg"
+ "61"
+ "village"
+ 
+ 766
+ "39"
+ "67440"
+ "Riverlea"
+ "61"
+ "village"
+ 
+ 767
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 768
+ "39"
+ "53480"
+ "Mutual"
+ "61"
+ "village"
+ 
+ 769
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 770
+ "39"
+ "50862"
+ "Minerva Park"
+ "61"
+ "village"
+ 
+ 771
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 772
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 773
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 774
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 775
+ "39"
+ "09316"
+ "Brookside"
+ "61"
+ "village"
+ 
+ 776
+ "39"
+ "00380"
+ "Adamsville"
+ "61"
+ "village"
+ 
+ 777
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 778
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 779
+ "39"
+ "31434"
+ "Granville South"
+ "57"
+ "CDP"
+ 
+ 780
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 781
+ "39"
+ "77588"
+ "Troy"
+ "58"
+ "city"
+ 
+ 782
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 783
+ "39"
+ "35476"
+ "Hilliard"
+ "58"
+ "city"
+ 
+ 784
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 785
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 786
+ "39"
+ "52346"
+ "Morristown"
+ "61"
+ "village"
+ 
+ 787
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 788
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 789
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 790
+ "39"
+ "69526"
+ "St. Clairsville"
+ "58"
+ "city"
+ 
+ 791
+ "39"
+ "79002"
+ "Upper Arlington"
+ "58"
+ "city"
+ 
+ 792
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 793
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 794
+ "39"
+ "26348"
+ "Fairview"
+ "61"
+ "village"
+ 
+ 795
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 796
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 797
+ "39"
+ "14296"
+ "Christiansburg"
+ "61"
+ "village"
+ 
+ 798
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 799
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 800
+ "39"
+ "18000"
+ "Columbus"
+ "58"
+ "city"
+ 
+ 801
+ "39"
+ "63534"
+ "Pleasant Hill"
+ "61"
+ "village"
+ 
+ 802
+ "39"
+ "29106"
+ "Gahanna"
+ "58"
+ "city"
+ 
+ 803
+ "39"
+ "12462"
+ "Casstown"
+ "61"
+ "village"
+ 
+ 804
+ "39"
+ "10996"
+ "Cambridge"
+ "58"
+ "city"
+ 
+ 805
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 806
+ "39"
+ "53788"
+ "Neffs"
+ "57"
+ "CDP"
+ 
+ 807
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 808
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 809
+ "39"
+ "59598"
+ "Palestine"
+ "61"
+ "village"
+ 
+ 810
+ "39"
+ "34748"
+ "Heath"
+ "58"
+ "city"
+ 
+ 811
+ "39"
+ "61112"
+ "Pataskala"
+ "58"
+ "city"
+ 
+ 812
+ "39"
+ "05074"
+ "Bellaire"
+ "58"
+ "city"
+ 
+ 813
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 814
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 815
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 816
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 817
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 818
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 819
+ "39"
+ "58226"
+ "Old Washington"
+ "61"
+ "village"
+ 
+ 820
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 821
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 822
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 823
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 824
+ "39"
+ "18000"
+ "Columbus"
+ "58"
+ "city"
+ 
+ 825
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 826
+ "39"
+ "05013"
+ "Beechwood Trails"
+ "57"
+ "CDP"
+ 
+ 827
+ "39"
+ "82348"
+ "Wayne Lakes"
+ "61"
+ "village"
+ 
+ 828
+ "39"
+ "05312"
+ "Belmont"
+ "61"
+ "village"
+ 
+ 829
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 830
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 831
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 832
+ "39"
+ "06138"
+ "Bethesda"
+ "61"
+ "village"
+ 
+ 833
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 834
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 835
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 836
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 837
+ "39"
+ "77308"
+ "Tremont City"
+ "61"
+ "village"
+ 
+ 838
+ "39"
+ "88084"
+ "Zanesville"
+ "58"
+ "city"
+ 
+ 839
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 840
+ "39"
+ "56938"
+ "Northridge"
+ "57"
+ "CDP"
+ 
+ 841
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 842
+ "39"
+ "57218"
+ "North Zanesville"
+ "57"
+ "CDP"
+ 
+ 843
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 844
+ "39"
+ "54446"
+ "New Concord"
+ "61"
+ "village"
+ 
+ 845
+ "39"
+ "02330"
+ "Arcanum"
+ "61"
+ "village"
+ 
+ 846
+ "39"
+ "12560"
+ "Catawba"
+ "61"
+ "village"
+ 
+ 847
+ "39"
+ "42028"
+ "Laura"
+ "61"
+ "village"
+ 
+ 848
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 849
+ "39"
+ "35896"
+ "Hollansburg"
+ "61"
+ "village"
+ 
+ 850
+ "39"
+ "45374"
+ "Ludlow Falls"
+ "61"
+ "village"
+ 
+ 851
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 852
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 853
+ "39"
+ "03926"
+ "Barnesville"
+ "61"
+ "village"
+ 
+ 854
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 855
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 856
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 857
+ "39"
+ "56588"
+ "North Hampton"
+ "61"
+ "village"
+ 
+ 858
+ "39"
+ "76876"
+ "Tipp City"
+ "58"
+ "city"
+ 
+ 859
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 860
+ "39"
+ "47474"
+ "Marble Cliff"
+ "61"
+ "village"
+ 
+ 861
+ "39"
+ "10716"
+ "Byesville"
+ "61"
+ "village"
+ 
+ 862
+ "39"
+ "62890"
+ "Pitsburg"
+ "61"
+ "village"
+ 
+ 863
+ "39"
+ "31304"
+ "Grandview Heights"
+ "58"
+ "city"
+ 
+ 864
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 865
+ "39"
+ "57372"
+ "Norwich"
+ "61"
+ "village"
+ 
+ 866
+ "39"
+ "66390"
+ "Reynoldsburg"
+ "58"
+ "city"
+ 
+ 867
+ "39"
+ "44954"
+ "Lore City"
+ "61"
+ "village"
+ 
+ 868
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 869
+ "39"
+ "42210"
+ "Lawrenceville"
+ "61"
+ "village"
+ 
+ 870
+ "39"
+ "84742"
+ "Whitehall"
+ "58"
+ "city"
+ 
+ 871
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 872
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 873
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 874
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 875
+ "39"
+ "34790"
+ "Hebron"
+ "61"
+ "village"
+ 
+ 876
+ "39"
+ "74118"
+ "Springfield"
+ "58"
+ "city"
+ 
+ 877
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 878
+ "39"
+ "06278"
+ "Bexley"
+ "58"
+ "city"
+ 
+ 879
+ "39"
+ "71640"
+ "Shadyside"
+ "61"
+ "village"
+ 
+ 880
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 881
+ "39"
+ "41363"
+ "Lake Darby"
+ "57"
+ "CDP"
+ 
+ 882
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 883
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 884
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 885
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 886
+ "39"
+ "70072"
+ "Salesville"
+ "61"
+ "village"
+ 
+ 887
+ "39"
+ "65116"
+ "Quaker City"
+ "61"
+ "village"
+ 
+ 888
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 889
+ "39"
+ "54978"
+ "New Madison"
+ "61"
+ "village"
+ 
+ 890
+ "39"
+ "83902"
+ "West Milton"
+ "61"
+ "village"
+ 
+ 891
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 892
+ "39"
+ "14288"
+ "Choctaw Lake"
+ "57"
+ "CDP"
+ 
+ 893
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 894
+ "39"
+ "83902"
+ "West Milton"
+ "61"
+ "village"
+ 
+ 895
+ "39"
+ "64430"
+ "Potsdam"
+ "61"
+ "village"
+ 
+ 896
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 897
+ "39"
+ "79282"
+ "Valleyview"
+ "61"
+ "village"
+ 
+ 898
+ "39"
+ "63478"
+ "Pleasant Grove"
+ "57"
+ "CDP"
+ 
+ 899
+ "39"
+ "43792"
+ "Lincoln Village"
+ "57"
+ "CDP"
+ 
+ 900
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 901
+ "39"
+ "40572"
+ "Kirkersville"
+ "61"
+ "village"
+ 
+ 902
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 903
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 904
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 905
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 906
+ "39"
+ "83580"
+ "West Jefferson"
+ "61"
+ "village"
+ 
+ 907
+ "39"
+ "54334"
+ "New Carlisle"
+ "58"
+ "city"
+ 
+ 908
+ "39"
+ "31458"
+ "Gratiot"
+ "61"
+ "village"
+ 
+ 909
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 910
+ "39"
+ "55426"
+ "New Rome"
+ "61"
+ "village"
+ 
+ 911
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 912
+ "39"
+ "33362"
+ "Harbor Hills"
+ "57"
+ "CDP"
+ 
+ 913
+ "39"
+ "09890"
+ "Buckeye Lake"
+ "61"
+ "village"
+ 
+ 914
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 915
+ "39"
+ "71360"
+ "Senecaville"
+ "61"
+ "village"
+ 
+ 916
+ "39"
+ "37604"
+ "Ithaca"
+ "61"
+ "village"
+ 
+ 917
+ "39"
+ "73796"
+ "South Vienna"
+ "61"
+ "village"
+ 
+ 918
+ "39"
+ "62498"
+ "Pickerington"
+ "58"
+ "city"
+ 
+ 919
+ "39"
+ "12504"
+ "Castine"
+ "61"
+ "village"
+ 
+ 920
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 921
+ "39"
+ "30912"
+ "Gordon"
+ "61"
+ "village"
+ 
+ 922
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 923
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 924
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 925
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 926
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 927
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 928
+ "39"
+ "26110"
+ "Fairfield Beach"
+ "57"
+ "CDP"
+ 
+ 929
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 930
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 931
+ "39"
+ "78470"
+ "Union"
+ "58"
+ "city"
+ 
+ 932
+ "39"
+ "79492"
+ "Vandalia"
+ "58"
+ "city"
+ 
+ 933
+ "39"
+ "21000"
+ "Dayton"
+ "58"
+ "city"
+ 
+ 934
+ "39"
+ "44674"
+ "London"
+ "58"
+ "city"
+ 
+ 935
+ "39"
+ "15644"
+ "Clayton"
+ "58"
+ "city"
+ 
+ 936
+ "39"
+ "08532"
+ "Brice"
+ "61"
+ "village"
+ 
+ 937
+ "39"
+ "04192"
+ "Batesville"
+ "61"
+ "village"
+ 
+ 938
+ "39"
+ "22288"
+ "Donnelsville"
+ "61"
+ "village"
+ 
+ 939
+ "39"
+ "06670"
+ "Blacklick Estates"
+ "57"
+ "CDP"
+ 
+ 940
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 941
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 942
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 943
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 944
+ "39"
+ "73894"
+ "South Zanesville"
+ "61"
+ "village"
+ 
+ 945
+ "39"
+ "24766"
+ "Eldorado"
+ "61"
+ "village"
+ 
+ 946
+ "39"
+ "83804"
+ "West Manchester"
+ "61"
+ "village"
+ 
+ 947
+ "39"
+ "62414"
+ "Phillipsburg"
+ "61"
+ "village"
+ 
+ 948
+ "39"
+ "50400"
+ "Millersport"
+ "61"
+ "village"
+ 
+ 949
+ "39"
+ "32592"
+ "Grove City"
+ "58"
+ "city"
+ 
+ 950
+ "39"
+ "63436"
+ "Pleasant City"
+ "61"
+ "village"
+ 
+ 951
+ "39"
+ "15644"
+ "Clayton"
+ "58"
+ "city"
+ 
+ 952
+ "39"
+ "79898"
+ "Verona"
+ "61"
+ "village"
+ 
+ 953
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 954
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 955
+ "39"
+ "79100"
+ "Urbancrest"
+ "61"
+ "village"
+ 
+ 956
+ "39"
+ "76680"
+ "Thornville"
+ "61"
+ "village"
+ 
+ 957
+ "39"
+ "59920"
+ "Park Layne"
+ "57"
+ "CDP"
+ 
+ 958
+ "39"
+ "36610"
+ "Huber Heights"
+ "58"
+ "city"
+ 
+ 959
+ "39"
+ "19596"
+ "Crystal Lakes"
+ "57"
+ "CDP"
+ 
+ 960
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 961
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 962
+ "39"
+ "15644"
+ "Clayton"
+ "58"
+ "city"
+ 
+ 963
+ "39"
+ "25396"
+ "Englewood"
+ "58"
+ "city"
+ 
+ 964
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 965
+ "39"
+ "57862"
+ "Obetz"
+ "61"
+ "village"
+ 
+ 966
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 967
+ "39"
+ "30436"
+ "Glenford"
+ "61"
+ "village"
+ 
+ 968
+ "39"
+ "32606"
+ "Groveport"
+ "61"
+ "village"
+ 
+ 969
+ "39"
+ "25452"
+ "Enon"
+ "61"
+ "village"
+ 
+ 970
+ "39"
+ "32207"
+ "Green Meadows"
+ "57"
+ "CDP"
+ 
+ 971
+ "39"
+ "64542"
+ "Powhatan Point"
+ "61"
+ "village"
+ 
+ 972
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 973
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 974
+ "39"
+ "32606"
+ "Groveport"
+ "61"
+ "village"
+ 
+ 975
+ "39"
+ "11332"
+ "Canal Winchester"
+ "61"
+ "village"
+ 
+ 976
+ "39"
+ "85834"
+ "Wilson"
+ "61"
+ "village"
+ 
+ 977
+ "39"
+ "62442"
+ "Philo"
+ "61"
+ "village"
+ 
+ 978
+ "39"
+ "35868"
+ "Holiday Valley"
+ "57"
+ "CDP"
+ 
+ 979
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 980
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 981
+ "39"
+ "55188"
+ "New Paris"
+ "61"
+ "village"
+ 
+ 982
+ "39"
+ "15644"
+ "Clayton"
+ "58"
+ "city"
+ 
+ 983
+ "39"
+ "42938"
+ "Lewisburg"
+ "61"
+ "village"
+ 
+ 984
+ "39"
+ "19694"
+ "Cumberland"
+ "61"
+ "village"
+ 
+ 985
+ "39"
+ "09358"
+ "Brookville"
+ "61"
+ "village"
+ 
+ 986
+ "39"
+ "03758"
+ "Baltimore"
+ "61"
+ "village"
+ 
+ 987
+ "39"
+ "29064"
+ "Fultonham"
+ "61"
+ "village"
+ 
+ 988
+ "39"
+ "21000"
+ "Dayton"
+ "58"
+ "city"
+ 
+ 989
+ "39"
+ "39130"
+ "Jerusalem"
+ "61"
+ "village"
+ 
+ 990
+ "39"
+ "04542"
+ "Beallsville"
+ "61"
+ "village"
+ 
+ 991
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 992
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 993
+ "39"
+ "76764"
+ "Thurston"
+ "61"
+ "village"
+ 
+ 994
+ "39"
+ "25914"
+ "Fairborn"
+ "58"
+ "city"
+ 
+ 995
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 996
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 997
+ "39"
+ "73124"
+ "South Charleston"
+ "61"
+ "village"
+ 
+ 998
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 999
+ "39"
+ "56952"
+ "Northridge"
+ "57"
+ "CDP"
+ 
+ 1000
+ "39"
+ "72284"
+ "Shiloh"
+ "57"
+ "CDP"
+ 
+ 1001
+ "39"
+ "50722"
+ "Miltonsburg"
+ "61"
+ "village"
+ 
+ 1002
+ "39"
+ "77504"
+ "Trotwood"
+ "58"
+ "city"
+ 
+ 1003
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1004
+ "39"
+ "67468"
+ "Riverside"
+ "58"
+ "city"
+ 
+ 1005
+ "39"
+ "67468"
+ "Riverside"
+ "58"
+ "city"
+ 
+ 1006
+ "39"
+ "67468"
+ "Riverside"
+ "58"
+ "city"
+ 
+ 1007
+ "39"
+ "67468"
+ "Riverside"
+ "58"
+ "city"
+ 
+ 1008
+ "39"
+ "63716"
+ "Pleasantville"
+ "61"
+ "village"
+ 
+ 1009
+ "39"
+ "72977"
+ "Somerset"
+ "61"
+ "village"
+ 
+ 1010
+ "39"
+ "68560"
+ "Roseville"
+ "61"
+ "village"
+ 
+ 1011
+ "39"
+ "86940"
+ "Yellow Springs"
+ "61"
+ "village"
+ 
+ 1012
+ "39"
+ "27846"
+ "Fort McKinley"
+ "57"
+ "CDP"
+ 
+ 1013
+ "39"
+ "33740"
+ "Harrisburg"
+ "61"
+ "village"
+ 
+ 1014
+ "39"
+ "44310"
+ "Lockbourne"
+ "61"
+ "village"
+ 
+ 1015
+ "39"
+ "70520"
+ "Sarahsville"
+ "61"
+ "village"
+ 
+ 1016
+ "39"
+ "44086"
+ "Lithopolis"
+ "61"
+ "village"
+ 
+ 1017
+ "39"
+ "58800"
+ "Orient"
+ "61"
+ "village"
+ 
+ 1018
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1019
+ "39"
+ "12252"
+ "Carroll"
+ "61"
+ "village"
+ 
+ 1020
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1021
+ "39"
+ "75406"
+ "Summerfield"
+ "61"
+ "village"
+ 
+ 1022
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1023
+ "39"
+ "16056"
+ "Clifton"
+ "61"
+ "village"
+ 
+ 1024
+ "39"
+ "56952"
+ "Northridge"
+ "57"
+ "CDP"
+ 
+ 1025
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 1026
+ "39"
+ "05158"
+ "Belle Valley"
+ "61"
+ "village"
+ 
+ 1027
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1028
+ "39"
+ "67468"
+ "Riverside"
+ "58"
+ "city"
+ 
+ 1029
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 1030
+ "39"
+ "15210"
+ "Clarington"
+ "61"
+ "village"
+ 
+ 1031
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1032
+ "39"
+ "19456"
+ "Crooksville"
+ "61"
+ "village"
+ 
+ 1033
+ "39"
+ "18070"
+ "Commercial Point"
+ "61"
+ "village"
+ 
+ 1034
+ "39"
+ "24234"
+ "Eaton"
+ "58"
+ "city"
+ 
+ 1035
+ "39"
+ "04720"
+ "Beavercreek"
+ "58"
+ "city"
+ 
+ 1036
+ "39"
+ "86436"
+ "Woodsfield"
+ "61"
+ "village"
+ 
+ 1037
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1038
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 1039
+ "39"
+ "42980"
+ "Lewisville"
+ "61"
+ "village"
+ 
+ 1040
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 1041
+ "39"
+ "86660"
+ "Wright-Patterson AFB"
+ "57"
+ "CDP"
+ 
+ 1042
+ "39"
+ "69204"
+ "Rushville"
+ "61"
+ "village"
+ 
+ 1043
+ "39"
+ "84182"
+ "West Rushville"
+ "61"
+ "village"
+ 
+ 1044
+ "39"
+ "41720"
+ "Lancaster"
+ "58"
+ "city"
+ 
+ 1045
+ "39"
+ "12784"
+ "Cedarville"
+ "61"
+ "village"
+ 
+ 1046
+ "39"
+ "10940"
+ "Caldwell"
+ "61"
+ "village"
+ 
+ 1047
+ "39"
+ "54852"
+ "New Lebanon"
+ "61"
+ "village"
+ 
+ 1048
+ "39"
+ "82880"
+ "West Alexandria"
+ "61"
+ "village"
+ 
+ 1049
+ "39"
+ "22624"
+ "Drexel"
+ "57"
+ "CDP"
+ 
+ 1050
+ "39"
+ "73768"
+ "South Solon"
+ "61"
+ "village"
+ 
+ 1051
+ "39"
+ "50008"
+ "Midway"
+ "61"
+ "village"
+ 
+ 1052
+ "39"
+ "40040"
+ "Kettering"
+ "58"
+ "city"
+ 
+ 1053
+ "39"
+ "02680"
+ "Ashville"
+ "61"
+ "village"
+ 
+ 1054
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1055
+ "39"
+ "85092"
+ "Wilberforce"
+ "57"
+ "CDP"
+ 
+ 1056
+ "39"
+ "57764"
+ "Oakwood"
+ "58"
+ "city"
+ 
+ 1057
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1058
+ "39"
+ "54866"
+ "New Lexington"
+ "58"
+ "city"
+ 
+ 1059
+ "39"
+ "52010"
+ "Moraine"
+ "58"
+ "city"
+ 
+ 1060
+ "39"
+ "39508"
+ "Junction City"
+ "61"
+ "village"
+ 
+ 1061
+ "39"
+ "53046"
+ "Mount Sterling"
+ "61"
+ "village"
+ 
+ 1062
+ "39"
+ "73068"
+ "South Bloomfield"
+ "61"
+ "village"
+ 
+ 1063
+ "39"
+ "86772"
+ "Xenia"
+ "58"
+ "city"
+ 
+ 1064
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1065
+ "39"
+ "74300"
+ "Stafford"
+ "61"
+ "village"
+ 
+ 1066
+ "39"
+ "08392"
+ "Bremen"
+ "61"
+ "village"
+ 
+ 1067
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1068
+ "39"
+ "20212"
+ "Darbyville"
+ "61"
+ "village"
+ 
+ 1069
+ "39"
+ "83111"
+ "West Carrollton City"
+ "58"
+ "city"
+ 
+ 1070
+ "39"
+ "26656"
+ "Farmersville"
+ "61"
+ "village"
+ 
+ 1071
+ "39"
+ "86331"
+ "Woodbourne-Hyde Park"
+ "57"
+ "CDP"
+ 
+ 1072
+ "39"
+ "38374"
+ "Jamestown"
+ "61"
+ "village"
+ 
+ 1073
+ "39"
+ "45822"
+ "McConnelsville"
+ "61"
+ "village"
+ 
+ 1074
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1075
+ "39"
+ "13190"
+ "Centerville"
+ "58"
+ "city"
+ 
+ 1076
+ "39"
+ "31542"
+ "Graysville"
+ "61"
+ "village"
+ 
+ 1077
+ "39"
+ "02148"
+ "Antioch"
+ "61"
+ "village"
+ 
+ 1078
+ "39"
+ "38920"
+ "Jeffersonville"
+ "61"
+ "village"
+ 
+ 1079
+ "39"
+ "21910"
+ "Dexter City"
+ "61"
+ "village"
+ 
+ 1080
+ "39"
+ "71983"
+ "Shawnee Hills"
+ "57"
+ "CDP"
+ 
+ 1081
+ "39"
+ "49434"
+ "Miamisburg"
+ "58"
+ "city"
+ 
+ 1082
+ "39"
+ "46970"
+ "Malta"
+ "61"
+ "village"
+ 
+ 1083
+ "39"
+ "31472"
+ "Gratis"
+ "61"
+ "village"
+ 
+ 1084
+ "39"
+ "11024"
+ "Camden"
+ "61"
+ "village"
+ 
+ 1085
+ "39"
+ "01630"
+ "Amanda"
+ "61"
+ "village"
+ 
+ 1086
+ "39"
+ "05102"
+ "Bellbrook"
+ "58"
+ "city"
+ 
+ 1087
+ "39"
+ "29932"
+ "Germantown"
+ "61"
+ "village"
+ 
+ 1088
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1089
+ "39"
+ "46158"
+ "Macksburg"
+ "61"
+ "village"
+ 
+ 1090
+ "39"
+ "15070"
+ "Circleville"
+ "58"
+ "city"
+ 
+ 1091
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1092
+ "39"
+ "75252"
+ "Sugar Grove"
+ "61"
+ "village"
+ 
+ 1093
+ "39"
+ "66222"
+ "Rendville"
+ "61"
+ "village"
+ 
+ 1094
+ "39"
+ "57918"
+ "Octa"
+ "61"
+ "village"
+ 
+ 1095
+ "39"
+ "74916"
+ "Stoutsville"
+ "61"
+ "village"
+ 
+ 1096
+ "39"
+ "71962"
+ "Shawnee"
+ "61"
+ "village"
+ 
+ 1097
+ "39"
+ "07188"
+ "Bloomingburg"
+ "61"
+ "village"
+ 
+ 1098
+ "39"
+ "74216"
+ "Spring Valley"
+ "61"
+ "village"
+ 
+ 1099
+ "39"
+ "18770"
+ "Corning"
+ "61"
+ "village"
+ 
+ 1100
+ "39"
+ "49434"
+ "Miamisburg"
+ "58"
+ "city"
+ 
+ 1101
+ "39"
+ "50316"
+ "Milledgeville"
+ "61"
+ "village"
+ 
+ 1102
+ "39"
+ "12168"
+ "Carlisle"
+ "61"
+ "village"
+ 
+ 1103
+ "39"
+ "74076"
+ "Springboro"
+ "58"
+ "city"
+ 
+ 1104
+ "39"
+ "34888"
+ "Hemlock"
+ "61"
+ "village"
+ 
+ 1105
+ "39"
+ "83216"
+ "West Elkton"
+ "61"
+ "village"
+ 
+ 1106
+ "39"
+ "85414"
+ "Williamsport"
+ "61"
+ "village"
+ 
+ 1107
+ "39"
+ "55552"
+ "New Straitsville"
+ "61"
+ "village"
+ 
+ 1108
+ "39"
+ "28476"
+ "Franklin"
+ "58"
+ "city"
+ 
+ 1109
+ "39"
+ "07930"
+ "Bowersville"
+ "61"
+ "village"
+ 
+ 1110
+ "39"
+ "44636"
+ "Logan Elm Village"
+ "57"
+ "CDP"
+ 
+ 1111
+ "39"
+ "16700"
+ "College Corner"
+ "61"
+ "village"
+ 
+ 1112
+ "39"
+ "27303"
+ "Five Points"
+ "57"
+ "CDP"
+ 
+ 1113
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1114
+ "39"
+ "72998"
+ "Somerville"
+ "61"
+ "village"
+ 
+ 1115
+ "39"
+ "54726"
+ "New Holland"
+ "61"
+ "village"
+ 
+ 1116
+ "39"
+ "45220"
+ "Lower Salem"
+ "61"
+ "village"
+ 
+ 1117
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1118
+ "39"
+ "81214"
+ "Washington"
+ "58"
+ "city"
+ 
+ 1119
+ "39"
+ "76148"
+ "Tarlton"
+ "61"
+ "village"
+ 
+ 1120
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1121
+ "39"
+ "06222"
+ "Beverly"
+ "61"
+ "village"
+ 
+ 1122
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1123
+ "39"
+ "64360"
+ "Port William"
+ "61"
+ "village"
+ 
+ 1124
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1125
+ "39"
+ "44632"
+ "Logan"
+ "58"
+ "city"
+ 
+ 1126
+ "39"
+ "74748"
+ "Stockport"
+ "61"
+ "village"
+ 
+ 1127
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1128
+ "39"
+ "49840"
+ "Middletown"
+ "58"
+ "city"
+ 
+ 1129
+ "39"
+ "82418"
+ "Waynesville"
+ "61"
+ "village"
+ 
+ 1130
+ "39"
+ "38192"
+ "Jacksonburg"
+ "61"
+ "village"
+ 
+ 1131
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1132
+ "39"
+ "45164"
+ "Lowell"
+ "61"
+ "village"
+ 
+ 1133
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1134
+ "39"
+ "18840"
+ "Corwin"
+ "61"
+ "village"
+ 
+ 1135
+ "39"
+ "59234"
+ "Oxford"
+ "58"
+ "city"
+ 
+ 1136
+ "39"
+ "48286"
+ "Matamoras"
+ "61"
+ "village"
+ 
+ 1137
+ "39"
+ "53410"
+ "Murray City"
+ "61"
+ "village"
+ 
+ 1138
+ "39"
+ "30674"
+ "Glouster"
+ "61"
+ "village"
+ 
+ 1139
+ "39"
+ "15336"
+ "Clarksburg"
+ "61"
+ "village"
+ 
+ 1140
+ "39"
+ "36806"
+ "Hunter"
+ "57"
+ "CDP"
+ 
+ 1141
+ "39"
+ "34384"
+ "Harveysburg"
+ "61"
+ "village"
+ 
+ 1142
+ "39"
+ "69400"
+ "Sabina"
+ "61"
+ "village"
+ 
+ 1143
+ "39"
+ "77322"
+ "Trenton"
+ "58"
+ "city"
+ 
+ 1144
+ "39"
+ "14086"
+ "Chesterhill"
+ "61"
+ "village"
+ 
+ 1145
+ "39"
+ "77406"
+ "Trimble"
+ "61"
+ "village"
+ 
+ 1146
+ "39"
+ "71444"
+ "Seven Mile"
+ "61"
+ "village"
+ 
+ 1147
+ "39"
+ "21868"
+ "Devola"
+ "57"
+ "CDP"
+ 
+ 1148
+ "39"
+ "73510"
+ "South Middletown"
+ "57"
+ "CDP"
+ 
+ 1149
+ "39"
+ "38304"
+ "Jacksonville"
+ "61"
+ "village"
+ 
+ 1150
+ "39"
+ "42084"
+ "Laurelville"
+ "61"
+ "village"
+ 
+ 1151
+ "39"
+ "51310"
+ "Monroe"
+ "58"
+ "city"
+ 
+ 1152
+ "39"
+ "40376"
+ "Kingston"
+ "61"
+ "village"
+ 
+ 1153
+ "39"
+ "53886"
+ "Nelsonville"
+ "58"
+ "city"
+ 
+ 1154
+ "39"
+ "09834"
+ "Buchtel"
+ "61"
+ "village"
+ 
+ 1155
+ "39"
+ "00450"
+ "Adelphi"
+ "61"
+ "village"
+ 
+ 1156
+ "39"
+ "42364"
+ "Lebanon"
+ "58"
+ "city"
+ 
+ 1157
+ "39"
+ "85792"
+ "Wilmington"
+ "58"
+ "city"
+ 
+ 1158
+ "39"
+ "47628"
+ "Marietta"
+ "58"
+ "city"
+ 
+ 1159
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1160
+ "39"
+ "33012"
+ "Hamilton"
+ "58"
+ "city"
+ 
+ 1161
+ "39"
+ "47628"
+ "Marietta"
+ "58"
+ "city"
+ 
+ 1162
+ "39"
+ "55104"
+ "New Miami"
+ "61"
+ "village"
+ 
+ 1163
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1164
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1165
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1166
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1167
+ "39"
+ "28182"
+ "Frankfort"
+ "61"
+ "village"
+ 
+ 1168
+ "39"
+ "13778"
+ "Chauncey"
+ "61"
+ "village"
+ 
+ 1169
+ "39"
+ "01784"
+ "Amesville"
+ "61"
+ "village"
+ 
+ 1170
+ "39"
+ "15406"
+ "Clarksville"
+ "61"
+ "village"
+ 
+ 1171
+ "39"
+ "48188"
+ "Mason"
+ "58"
+ "city"
+ 
+ 1172
+ "39"
+ "50540"
+ "Millville"
+ "61"
+ "village"
+ 
+ 1173
+ "39"
+ "76568"
+ "The Plains"
+ "57"
+ "CDP"
+ 
+ 1174
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1175
+ "39"
+ "73446"
+ "South Lebanon"
+ "61"
+ "village"
+ 
+ 1176
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1177
+ "39"
+ "14184"
+ "Chillicothe"
+ "58"
+ "city"
+ 
+ 1178
+ "39"
+ "84528"
+ "Wetherington"
+ "57"
+ "CDP"
+ 
+ 1179
+ "39"
+ "32088"
+ "Greenfield"
+ "58"
+ "city"
+ 
+ 1180
+ "39"
+ "25970"
+ "Fairfield"
+ "58"
+ "city"
+ 
+ 1181
+ "39"
+ "04840"
+ "Beckett Ridge"
+ "57"
+ "CDP"
+ 
+ 1182
+ "39"
+ "52374"
+ "Morrow"
+ "61"
+ "village"
+ 
+ 1183
+ "39"
+ "02736"
+ "Athens"
+ "58"
+ "city"
+ 
+ 1184
+ "39"
+ "42476"
+ "Leesburg"
+ "61"
+ "village"
+ 
+ 1185
+ "39"
+ "56546"
+ "North Fork Village"
+ "57"
+ "CDP"
+ 
+ 1186
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1187
+ "39"
+ "35210"
+ "Highland"
+ "61"
+ "village"
+ 
+ 1188
+ "39"
+ "58149"
+ "Olde West Chester"
+ "57"
+ "CDP"
+ 
+ 1189
+ "39"
+ "73698"
+ "South Salem"
+ "61"
+ "village"
+ 
+ 1190
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1191
+ "39"
+ "41755"
+ "Landen"
+ "57"
+ "CDP"
+ 
+ 1192
+ "39"
+ "55748"
+ "New Vienna"
+ "61"
+ "village"
+ 
+ 1193
+ "39"
+ "48118"
+ "Martinsville"
+ "61"
+ "village"
+ 
+ 1194
+ "39"
+ "68602"
+ "Ross"
+ "57"
+ "CDP"
+ 
+ 1195
+ "39"
+ "45122"
+ "Loveland Park"
+ "57"
+ "CDP"
+ 
+ 1196
+ "39"
+ "46872"
+ "Maineville"
+ "61"
+ "village"
+ 
+ 1197
+ "39"
+ "49896"
+ "Midland"
+ "61"
+ "village"
+ 
+ 1198
+ "39"
+ "06908"
+ "Blanchester"
+ "61"
+ "village"
+ 
+ 1199
+ "39"
+ "63604"
+ "Pleasant Run"
+ "57"
+ "CDP"
+ 
+ 1200
+ "39"
+ "63618"
+ "Pleasant Run Farm"
+ "57"
+ "CDP"
+ 
+ 1201
+ "39"
+ "10674"
+ "Butlerville"
+ "61"
+ "village"
+ 
+ 1202
+ "39"
+ "74104"
+ "Springdale"
+ "58"
+ "city"
+ 
+ 1203
+ "39"
+ "27706"
+ "Forest Park"
+ "58"
+ "city"
+ 
+ 1204
+ "39"
+ "71892"
+ "Sharonville"
+ "58"
+ "city"
+ 
+ 1205
+ "39"
+ "05424"
+ "Belpre"
+ "58"
+ "city"
+ 
+ 1206
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1207
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1208
+ "39"
+ "88028"
+ "Zaleski"
+ "61"
+ "village"
+ 
+ 1209
+ "39"
+ "45108"
+ "Loveland"
+ "58"
+ "city"
+ 
+ 1210
+ "39"
+ "52780"
+ "Mount Healthy Heights"
+ "57"
+ "CDP"
+ 
+ 1211
+ "39"
+ "63576"
+ "Pleasant Plain"
+ "61"
+ "village"
+ 
+ 1212
+ "39"
+ "07300"
+ "Blue Ash"
+ "58"
+ "city"
+ 
+ 1213
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1214
+ "39"
+ "30380"
+ "Glendale"
+ "61"
+ "village"
+ 
+ 1215
+ "39"
+ "56553"
+ "Northgate"
+ "57"
+ "CDP"
+ 
+ 1216
+ "39"
+ "32158"
+ "Greenhills"
+ "61"
+ "village"
+ 
+ 1217
+ "39"
+ "51716"
+ "Montgomery"
+ "58"
+ "city"
+ 
+ 1218
+ "39"
+ "33838"
+ "Harrison"
+ "58"
+ "city"
+ 
+ 1219
+ "39"
+ "25802"
+ "Evendale"
+ "61"
+ "village"
+ 
+ 1220
+ "39"
+ "86366"
+ "Woodlawn"
+ "61"
+ "village"
+ 
+ 1221
+ "39"
+ "56280"
+ "Northbrook"
+ "57"
+ "CDP"
+ 
+ 1222
+ "39"
+ "45696"
+ "McArthur"
+ "61"
+ "village"
+ 
+ 1223
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1224
+ "39"
+ "76582"
+ "The Village of Indian Hill"
+ "58"
+ "city"
+ 
+ 1225
+ "39"
+ "45542"
+ "Lynchburg"
+ "61"
+ "village"
+ 
+ 1226
+ "39"
+ "43722"
+ "Lincoln Heights"
+ "61"
+ "village"
+ 
+ 1227
+ "39"
+ "86730"
+ "Wyoming"
+ "58"
+ "city"
+ 
+ 1228
+ "39"
+ "52752"
+ "Mount Healthy"
+ "58"
+ "city"
+ 
+ 1229
+ "39"
+ "35560"
+ "Hillsboro"
+ "58"
+ "city"
+ 
+ 1230
+ "39"
+ "44366"
+ "Lockland"
+ "61"
+ "village"
+ 
+ 1231
+ "39"
+ "65732"
+ "Reading"
+ "58"
+ "city"
+ 
+ 1232
+ "39"
+ "32536"
+ "Groesbeck"
+ "57"
+ "CDP"
+ 
+ 1233
+ "39"
+ "01042"
+ "Albany"
+ "61"
+ "village"
+ 
+ 1234
+ "39"
+ "27104"
+ "Finneytown"
+ "57"
+ "CDP"
+ 
+ 1235
+ "39"
+ "03604"
+ "Bainbridge"
+ "61"
+ "village"
+ 
+ 1236
+ "39"
+ "84812"
+ "White Oak"
+ "57"
+ "CDP"
+ 
+ 1237
+ "39"
+ "69666"
+ "St. Martin"
+ "61"
+ "village"
+ 
+ 1238
+ "39"
+ "18588"
+ "Coolville"
+ "61"
+ "village"
+ 
+ 1239
+ "39"
+ "56322"
+ "North College Hill"
+ "58"
+ "city"
+ 
+ 1240
+ "39"
+ "39914"
+ "Kenwood"
+ "57"
+ "CDP"
+ 
+ 1241
+ "39"
+ "22008"
+ "Dillonvale"
+ "57"
+ "CDP"
+ 
+ 1242
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1243
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1244
+ "39"
+ "15000"
+ "Cincinnati"
+ "58"
+ "city"
+ 
+ 1245
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1246
+ "39"
+ "01672"
+ "Amberley"
+ "61"
+ "village"
+ 
+ 1247
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1248
+ "39"
+ "02428"
+ "Arlington Heights"
+ "61"
+ "village"
+ 
+ 1249
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1250
+ "39"
+ "31262"
+ "Grandview"
+ "57"
+ "CDP"
+ 
+ 1251
+ "39"
+ "21742"
+ "Dent"
+ "57"
+ "CDP"
+ 
+ 1252
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1253
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1254
+ "39"
+ "53270"
+ "Mulberry"
+ "57"
+ "CDP"
+ 
+ 1255
+ "39"
+ "21266"
+ "Deer Park"
+ "58"
+ "city"
+ 
+ 1256
+ "39"
+ "84864"
+ "White Oak West"
+ "57"
+ "CDP"
+ 
+ 1257
+ "39"
+ "84831"
+ "White Oak East"
+ "57"
+ "CDP"
+ 
+ 1258
+ "39"
+ "46312"
+ "Madeira"
+ "58"
+ "city"
+ 
+ 1259
+ "39"
+ "53032"
+ "Mount Repose"
+ "57"
+ "CDP"
+ 
+ 1260
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1261
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1262
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1263
+ "39"
+ "72522"
+ "Silverton"
+ "58"
+ "city"
+ 
+ 1264
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1265
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1266
+ "39"
+ "51215"
+ "Monfort Heights East"
+ "57"
+ "CDP"
+ 
+ 1267
+ "39"
+ "30786"
+ "Golf Manor"
+ "61"
+ "village"
+ 
+ 1268
+ "39"
+ "26796"
+ "Fayetteville"
+ "61"
+ "village"
+ 
+ 1269
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1270
+ "39"
+ "50176"
+ "Milford"
+ "58"
+ "city"
+ 
+ 1271
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1272
+ "39"
+ "25186"
+ "Elmwood Place"
+ "61"
+ "village"
+ 
+ 1273
+ "39"
+ "51217"
+ "Monfort Heights South"
+ "57"
+ "CDP"
+ 
+ 1274
+ "39"
+ "55664"
+ "Newtonsville"
+ "61"
+ "village"
+ 
+ 1275
+ "39"
+ "20366"
+ "Day Heights"
+ "57"
+ "CDP"
+ 
+ 1276
+ "39"
+ "69470"
+ "St. Bernard"
+ "58"
+ "city"
+ 
+ 1277
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1278
+ "39"
+ "46151"
+ "Mack North"
+ "57"
+ "CDP"
+ 
+ 1279
+ "39"
+ "08605"
+ "Bridgetown North"
+ "57"
+ "CDP"
+ 
+ 1280
+ "39"
+ "57386"
+ "Norwood"
+ "58"
+ "city"
+ 
+ 1281
+ "39"
+ "16028"
+ "Cleves"
+ "61"
+ "village"
+ 
+ 1282
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1283
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1284
+ "39"
+ "14128"
+ "Cheviot"
+ "58"
+ "city"
+ 
+ 1285
+ "39"
+ "76428"
+ "Terrace Park"
+ "61"
+ "village"
+ 
+ 1286
+ "39"
+ "32956"
+ "Hamden"
+ "61"
+ "village"
+ 
+ 1287
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1288
+ "39"
+ "46162"
+ "Mack South"
+ "57"
+ "CDP"
+ 
+ 1289
+ "39"
+ "56182"
+ "North Bend"
+ "61"
+ "village"
+ 
+ 1290
+ "39"
+ "47600"
+ "Mariemont"
+ "61"
+ "village"
+ 
+ 1291
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1292
+ "39"
+ "25942"
+ "Fairfax"
+ "61"
+ "village"
+ 
+ 1293
+ "39"
+ "81942"
+ "Waverly City"
+ "58"
+ "city"
+ 
+ 1294
+ "39"
+ "00436"
+ "Addyston"
+ "61"
+ "village"
+ 
+ 1295
+ "39"
+ "82712"
+ "Wellston"
+ "58"
+ "city"
+ 
+ 1296
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1297
+ "39"
+ "75434"
+ "Summerside"
+ "57"
+ "CDP"
+ 
+ 1298
+ "39"
+ "19008"
+ "Covedale"
+ "57"
+ "CDP"
+ 
+ 1299
+ "39"
+ "55678"
+ "Newtown"
+ "61"
+ "village"
+ 
+ 1300
+ "39"
+ "59220"
+ "Owensville"
+ "61"
+ "village"
+ 
+ 1301
+ "39"
+ "77840"
+ "Turpin Hills"
+ "57"
+ "CDP"
+ 
+ 1302
+ "39"
+ "22674"
+ "Dry Run"
+ "57"
+ "CDP"
+ 
+ 1303
+ "39"
+ "16434"
+ "Coalton"
+ "61"
+ "village"
+ 
+ 1304
+ "39"
+ "52612"
+ "Mount Carmel"
+ "57"
+ "CDP"
+ 
+ 1305
+ "39"
+ "72252"
+ "Sherwood"
+ "57"
+ "CDP"
+ 
+ 1306
+ "39"
+ "27776"
+ "Forestville"
+ "57"
+ "CDP"
+ 
+ 1307
+ "39"
+ "04150"
+ "Batavia"
+ "61"
+ "village"
+ 
+ 1308
+ "39"
+ "13848"
+ "Cherry Grove"
+ "57"
+ "CDP"
+ 
+ 1309
+ "39"
+ "28966"
+ "Fruit Hill"
+ "57"
+ "CDP"
+ 
+ 1310
+ "39"
+ "85190"
+ "Wilkesville"
+ "61"
+ "village"
+ 
+ 1311
+ "39"
+ "72578"
+ "Sinking Spring"
+ "61"
+ "village"
+ 
+ 1312
+ "39"
+ "62708"
+ "Piketon"
+ "61"
+ "village"
+ 
+ 1313
+ "39"
+ "86254"
+ "Withamsville"
+ "57"
+ "CDP"
+ 
+ 1314
+ "39"
+ "85288"
+ "Williamsburg"
+ "61"
+ "village"
+ 
+ 1315
+ "39"
+ "37842"
+ "Jackson"
+ "58"
+ "city"
+ 
+ 1316
+ "39"
+ "37842"
+ "Jackson"
+ "58"
+ "city"
+ 
+ 1317
+ "39"
+ "69358"
+ "Rutland"
+ "61"
+ "village"
+ 
+ 1318
+ "39"
+ "52906"
+ "Mount Orab"
+ "61"
+ "village"
+ 
+ 1319
+ "39"
+ "53186"
+ "Mowrystown"
+ "61"
+ "village"
+ 
+ 1320
+ "39"
+ "64024"
+ "Pomeroy"
+ "61"
+ "village"
+ 
+ 1321
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1322
+ "39"
+ "01742"
+ "Amelia"
+ "61"
+ "village"
+ 
+ 1323
+ "39"
+ "04696"
+ "Beaver"
+ "61"
+ "village"
+ 
+ 1324
+ "39"
+ "37842"
+ "Jackson"
+ "58"
+ "city"
+ 
+ 1325
+ "39"
+ "70534"
+ "Sardinia"
+ "61"
+ "village"
+ 
+ 1326
+ "39"
+ "70534"
+ "Sardinia"
+ "61"
+ "village"
+ 
+ 1327
+ "39"
+ "49756"
+ "Middleport"
+ "61"
+ "village"
+ 
+ 1328
+ "39"
+ "76050"
+ "Syracuse"
+ "61"
+ "village"
+ 
+ 1329
+ "39"
+ "55384"
+ "New Richmond"
+ "61"
+ "village"
+ 
+ 1330
+ "39"
+ "80178"
+ "Vinton"
+ "61"
+ "village"
+ 
+ 1331
+ "39"
+ "65256"
+ "Racine"
+ "61"
+ "village"
+ 
+ 1332
+ "39"
+ "06068"
+ "Bethel"
+ "61"
+ "village"
+ 
+ 1333
+ "39"
+ "85876"
+ "Winchester"
+ "61"
+ "village"
+ 
+ 1334
+ "39"
+ "61420"
+ "Peebles"
+ "61"
+ "village"
+ 
+ 1335
+ "39"
+ "13932"
+ "Cheshire"
+ "61"
+ "village"
+ 
+ 1336
+ "39"
+ "71206"
+ "Seaman"
+ "61"
+ "village"
+ 
+ 1337
+ "39"
+ "65508"
+ "Rarden"
+ "61"
+ "village"
+ 
+ 1338
+ "39"
+ "32984"
+ "Hamersville"
+ "61"
+ "village"
+ 
+ 1339
+ "39"
+ "57596"
+ "Oak Hill"
+ "61"
+ "village"
+ 
+ 1340
+ "39"
+ "29778"
+ "Georgetown"
+ "61"
+ "village"
+ 
+ 1341
+ "39"
+ "13169"
+ "Centerville"
+ "61"
+ "village"
+ 
+ 1342
+ "39"
+ "67258"
+ "Rio Grande"
+ "61"
+ "village"
+ 
+ 1343
+ "39"
+ "13834"
+ "Cherry Fork"
+ "61"
+ "village"
+ 
+ 1344
+ "39"
+ "45304"
+ "Lucasville"
+ "57"
+ "CDP"
+ 
+ 1345
+ "39"
+ "69316"
+ "Russellville"
+ "61"
+ "village"
+ 
+ 1346
+ "39"
+ "59066"
+ "Otway"
+ "61"
+ "village"
+ 
+ 1347
+ "39"
+ "52416"
+ "Moscow"
+ "61"
+ "village"
+ 
+ 1348
+ "39"
+ "26880"
+ "Felicity"
+ "61"
+ "village"
+ 
+ 1349
+ "39"
+ "29204"
+ "Gallipolis"
+ "58"
+ "city"
+ 
+ 1350
+ "39"
+ "73824"
+ "South Webster"
+ "61"
+ "village"
+ 
+ 1351
+ "39"
+ "53956"
+ "Neville"
+ "61"
+ "village"
+ 
+ 1352
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1353
+ "39"
+ "84294"
+ "West Union"
+ "61"
+ "village"
+ 
+ 1354
+ "39"
+ "68546"
+ "Rosemount"
+ "57"
+ "CDP"
+ 
+ 1355
+ "39"
+ "14226"
+ "Chilo"
+ "61"
+ "village"
+ 
+ 1356
+ "39"
+ "35168"
+ "Higginsport"
+ "61"
+ "village"
+ 
+ 1357
+ "39"
+ "84140"
+ "West Portsmouth"
+ "57"
+ "CDP"
+ 
+ 1358
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1359
+ "39"
+ "64304"
+ "Portsmouth"
+ "58"
+ "city"
+ 
+ 1360
+ "39"
+ "70912"
+ "Sciotodale"
+ "57"
+ "CDP"
+ 
+ 1361
+ "39"
+ "84588"
+ "Wheelersburg"
+ "57"
+ "CDP"
+ 
+ 1362
+ "39"
+ "54166"
+ "New Boston"
+ "61"
+ "village"
+ 
+ 1363
+ "39"
+ "67272"
+ "Ripley"
+ "61"
+ "village"
+ 
+ 1364
+ "39"
+ "47012"
+ "Manchester"
+ "61"
+ "village"
+ 
+ 1365
+ "39"
+ "00142"
+ "Aberdeen"
+ "61"
+ "village"
+ 
+ 1366
+ "39"
+ "68196"
+ "Rome"
+ "61"
+ "village"
+ 
+ 1367
+ "39"
+ "28532"
+ "Franklin Furnace"
+ "57"
+ "CDP"
+ 
+ 1368
+ "39"
+ "19554"
+ "Crown City"
+ "61"
+ "village"
+ 
+ 1369
+ "39"
+ "33194"
+ "Hanging Rock"
+ "61"
+ "village"
+ 
+ 1370
+ "39"
+ "37464"
+ "Ironton"
+ "58"
+ "city"
+ 
+ 1371
+ "39"
+ "02722"
+ "Athalia"
+ "61"
+ "village"
+ 
+ 1372
+ "39"
+ "16378"
+ "Coal Grove"
+ "61"
+ "village"
+ 
+ 1373
+ "39"
+ "64766"
+ "Proctorville"
+ "61"
+ "village"
+ 
+ 1374
+ "39"
+ "13904"
+ "Chesapeake"
+ "61"
+ "village"
+ 
+ 1375
+ "39"
+ "73670"
+ "South Point"
+ "61"
+ "village"
+ 
+ 1376
+ "39"
+ "10352"
+ "Burlington"
+ "57"
+ "CDP"
+ 

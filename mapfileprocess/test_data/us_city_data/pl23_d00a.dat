@@ -1,0 +1,805 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 2
+ "23"
+ "42485"
+ "Madawaska"
+ "57"
+ "CDP"
+ 
+ 3
+ "23"
+ "25720"
+ "Fort Kent"
+ "57"
+ "CDP"
+ 
+ 4
+ "23"
+ "78535"
+ "Van Buren"
+ "57"
+ "CDP"
+ 
+ 5
+ "23"
+ "41260"
+ "Loring AFB"
+ "57"
+ "CDP"
+ 
+ 6
+ "23"
+ "10565"
+ "Caribou"
+ "58"
+ "city"
+ 
+ 7
+ "23"
+ "39265"
+ "Limestone"
+ "57"
+ "CDP"
+ 
+ 8
+ "23"
+ "25580"
+ "Fort Fairfield"
+ "57"
+ "CDP"
+ 
+ 9
+ "23"
+ "60825"
+ "Presque Isle"
+ "58"
+ "city"
+ 
+ 10
+ "23"
+ "43745"
+ "Mars Hill-Blaine"
+ "57"
+ "CDP"
+ 
+ 11
+ "23"
+ "33945"
+ "Houlton"
+ "57"
+ "CDP"
+ 
+ 12
+ "23"
+ "45845"
+ "Millinocket"
+ "57"
+ "CDP"
+ 
+ 13
+ "23"
+ "21065"
+ "East Millinocket"
+ "57"
+ "CDP"
+ 
+ 14
+ "23"
+ "29500"
+ "Greenville"
+ "57"
+ "CDP"
+ 
+ 15
+ "23"
+ "39440"
+ "Lincoln"
+ "57"
+ "CDP"
+ 
+ 16
+ "23"
+ "34225"
+ "Howland"
+ "57"
+ "CDP"
+ 
+ 17
+ "23"
+ "45985"
+ "Milo"
+ "57"
+ "CDP"
+ 
+ 18
+ "23"
+ "18230"
+ "Dover-Foxcroft"
+ "57"
+ "CDP"
+ 
+ 19
+ "23"
+ "09585"
+ "Calais"
+ "58"
+ "city"
+ 
+ 20
+ "23"
+ "30060"
+ "Guilford"
+ "57"
+ "CDP"
+ 
+ 21
+ "23"
+ "87250"
+ "Woodland"
+ "57"
+ "CDP"
+ 
+ 22
+ "23"
+ "04965"
+ "Bingham"
+ "57"
+ "CDP"
+ 
+ 23
+ "23"
+ "17495"
+ "Dexter"
+ "57"
+ "CDP"
+ 
+ 24
+ "23"
+ "55225"
+ "Old Town"
+ "58"
+ "city"
+ 
+ 25
+ "23"
+ "45635"
+ "Milford"
+ "57"
+ "CDP"
+ 
+ 26
+ "23"
+ "21730"
+ "Eastport"
+ "58"
+ "city"
+ 
+ 27
+ "23"
+ "55575"
+ "Orono"
+ "57"
+ "CDP"
+ 
+ 28
+ "23"
+ "31705"
+ "Hartland"
+ "57"
+ "CDP"
+ 
+ 29
+ "23"
+ "02795"
+ "Bangor"
+ "58"
+ "city"
+ 
+ 30
+ "23"
+ "49100"
+ "Newport"
+ "57"
+ "CDP"
+ 
+ 31
+ "23"
+ "42625"
+ "Madison"
+ "57"
+ "CDP"
+ 
+ 32
+ "23"
+ "06925"
+ "Brewer"
+ "58"
+ "city"
+ 
+ 33
+ "23"
+ "68875"
+ "Skowhegan"
+ "57"
+ "CDP"
+ 
+ 34
+ "23"
+ "01360"
+ "Anson"
+ "57"
+ "CDP"
+ 
+ 35
+ "23"
+ "58970"
+ "Pittsfield"
+ "57"
+ "CDP"
+ 
+ 36
+ "23"
+ "30760"
+ "Hampden"
+ "57"
+ "CDP"
+ 
+ 37
+ "23"
+ "49800"
+ "Norridgewock"
+ "57"
+ "CDP"
+ 
+ 38
+ "23"
+ "41925"
+ "Machias"
+ "57"
+ "CDP"
+ 
+ 39
+ "23"
+ "24740"
+ "Farmington"
+ "57"
+ "CDP"
+ 
+ 40
+ "23"
+ "13435"
+ "Clinton"
+ "57"
+ "CDP"
+ 
+ 41
+ "23"
+ "86725"
+ "Winterport"
+ "57"
+ "CDP"
+ 
+ 42
+ "23"
+ "23200"
+ "Ellsworth"
+ "58"
+ "city"
+ 
+ 43
+ "23"
+ "08780"
+ "Bucksport"
+ "57"
+ "CDP"
+ 
+ 44
+ "23"
+ "78220"
+ "Unity"
+ "57"
+ "CDP"
+ 
+ 45
+ "23"
+ "85815"
+ "Wilton"
+ "57"
+ "CDP"
+ 
+ 46
+ "23"
+ "24285"
+ "Fairfield"
+ "57"
+ "CDP"
+ 
+ 47
+ "23"
+ "80740"
+ "Waterville"
+ "58"
+ "city"
+ 
+ 48
+ "23"
+ "64255"
+ "Rumford"
+ "57"
+ "CDP"
+ 
+ 49
+ "23"
+ "54525"
+ "Oakland"
+ "57"
+ "CDP"
+ 
+ 50
+ "23"
+ "86480"
+ "Winslow"
+ "57"
+ "CDP"
+ 
+ 51
+ "23"
+ "45250"
+ "Mexico"
+ "57"
+ "CDP"
+ 
+ 52
+ "23"
+ "17705"
+ "Dixfield"
+ "57"
+ "CDP"
+ 
+ 54
+ "23"
+ "12770"
+ "Chisholm"
+ "57"
+ "CDP"
+ 
+ 55
+ "23"
+ "66600"
+ "Searsport"
+ "57"
+ "CDP"
+ 
+ 56
+ "23"
+ "03950"
+ "Belfast"
+ "58"
+ "city"
+ 
+ 57
+ "23"
+ "40735"
+ "Livermore Falls"
+ "57"
+ "CDP"
+ 
+ 58
+ "23"
+ "02830"
+ "Bar Harbor"
+ "57"
+ "CDP"
+ 
+ 59
+ "23"
+ "02100"
+ "Augusta"
+ "58"
+ "city"
+ 
+ 62
+ "23"
+ "86935"
+ "Winthrop"
+ "57"
+ "CDP"
+ 
+ 63
+ "23"
+ "30550"
+ "Hallowell"
+ "58"
+ "city"
+ 
+ 65
+ "23"
+ "24635"
+ "Farmingdale"
+ "57"
+ "CDP"
+ 
+ 67
+ "23"
+ "53965"
+ "Norway"
+ "57"
+ "CDP"
+ 
+ 68
+ "23"
+ "71780"
+ "South Paris"
+ "57"
+ "CDP"
+ 
+ 69
+ "23"
+ "61735"
+ "Randolph"
+ "57"
+ "CDP"
+ 
+ 71
+ "23"
+ "27085"
+ "Gardiner"
+ "58"
+ "city"
+ 
+ 72
+ "23"
+ "09690"
+ "Camden"
+ "57"
+ "CDP"
+ 
+ 76
+ "23"
+ "02060"
+ "Auburn"
+ "58"
+ "city"
+ 
+ 79
+ "23"
+ "63590"
+ "Rockland"
+ "58"
+ "city"
+ 
+ 80
+ "23"
+ "38740"
+ "Lewiston"
+ "58"
+ "city"
+ 
+ 81
+ "23"
+ "56240"
+ "Oxford"
+ "57"
+ "CDP"
+ 
+ 82
+ "23"
+ "44620"
+ "Mechanic Falls"
+ "57"
+ "CDP"
+ 
+ 85
+ "23"
+ "62610"
+ "Richmond"
+ "57"
+ "CDP"
+ 
+ 86
+ "23"
+ "79515"
+ "Waldoboro"
+ "57"
+ "CDP"
+ 
+ 87
+ "23"
+ "07135"
+ "Bridgton"
+ "57"
+ "CDP"
+ 
+ 89
+ "23"
+ "76330"
+ "Thomaston"
+ "57"
+ "CDP"
+ 
+ 90
+ "23"
+ "16322"
+ "Damariscotta-Newcastle"
+ "57"
+ "CDP"
+ 
+ 91
+ "23"
+ "26875"
+ "Fryeburg"
+ "57"
+ "CDP"
+ 
+ 92
+ "23"
+ "87040"
+ "Wiscasset"
+ "57"
+ "CDP"
+ 
+ 93
+ "23"
+ "40105"
+ "Lisbon Falls"
+ "57"
+ "CDP"
+ 
+ 94
+ "23"
+ "03355"
+ "Bath"
+ "58"
+ "city"
+ 
+ 95
+ "23"
+ "76925"
+ "Topsham"
+ "57"
+ "CDP"
+ 
+ 96
+ "23"
+ "08395"
+ "Brunswick"
+ "57"
+ "CDP"
+ 
+ 98
+ "23"
+ "08500"
+ "Brunswick Station"
+ "57"
+ "CDP"
+ 
+ 100
+ "23"
+ "26490"
+ "Freeport"
+ "57"
+ "CDP"
+ 
+ 101
+ "23"
+ "06085"
+ "Boothbay Harbor"
+ "57"
+ "CDP"
+ 
+ 102
+ "23"
+ "53685"
+ "North Windham"
+ "57"
+ "CDP"
+ 
+ 103
+ "23"
+ "15500"
+ "Cumberland Center"
+ "57"
+ "CDP"
+ 
+ 104
+ "23"
+ "87810"
+ "Yarmouth"
+ "57"
+ "CDP"
+ 
+ 107
+ "23"
+ "40367"
+ "Little Falls-South Windham"
+ "57"
+ "CDP"
+ 
+ 108
+ "23"
+ "82105"
+ "Westbrook"
+ "58"
+ "city"
+ 
+ 109
+ "23"
+ "24530"
+ "Falmouth Foreside"
+ "57"
+ "CDP"
+ 
+ 110
+ "23"
+ "60545"
+ "Portland"
+ "58"
+ "city"
+ 
+ 111
+ "23"
+ "60545"
+ "Portland"
+ "58"
+ "city"
+ 
+ 112
+ "23"
+ "28205"
+ "Gorham"
+ "57"
+ "CDP"
+ 
+ 114
+ "23"
+ "37795"
+ "Lake Arrowhead"
+ "57"
+ "CDP"
+ 
+ 115
+ "23"
+ "60545"
+ "Portland"
+ "58"
+ "city"
+ 
+ 116
+ "23"
+ "60545"
+ "Portland"
+ "58"
+ "city"
+ 
+ 117
+ "23"
+ "71990"
+ "South Portland"
+ "58"
+ "city"
+ 
+ 118
+ "23"
+ "66110"
+ "Scarborough"
+ "57"
+ "CDP"
+ 
+ 119
+ "23"
+ "64675"
+ "Saco"
+ "58"
+ "city"
+ 
+ 120
+ "23"
+ "55120"
+ "Old Orchard Beach"
+ "57"
+ "CDP"
+ 
+ 121
+ "23"
+ "04860"
+ "Biddeford"
+ "58"
+ "city"
+ 
+ 122
+ "23"
+ "73285"
+ "Springvale"
+ "57"
+ "CDP"
+ 
+ 123
+ "23"
+ "65725"
+ "Sanford"
+ "57"
+ "CDP"
+ 
+ 124
+ "23"
+ "72200"
+ "South Sanford"
+ "57"
+ "CDP"
+ 
+ 125
+ "23"
+ "83330"
+ "West Kennebunk"
+ "57"
+ "CDP"
+ 
+ 126
+ "23"
+ "36500"
+ "Kennebunk"
+ "57"
+ "CDP"
+ 
+ 127
+ "23"
+ "36710"
+ "Kennebunkport"
+ "57"
+ "CDP"
+ 
+ 128
+ "23"
+ "50290"
+ "North Berwick"
+ "57"
+ "CDP"
+ 
+ 129
+ "23"
+ "04685"
+ "Berwick"
+ "57"
+ "CDP"
+ 
+ 130
+ "23"
+ "10320"
+ "Cape Neddick"
+ "57"
+ "CDP"
+ 
+ 131
+ "23"
+ "88160"
+ "York Harbor"
+ "57"
+ "CDP"
+ 
+ 132
+ "23"
+ "70660"
+ "South Eliot"
+ "57"
+ "CDP"
+ 
+ 133
+ "23"
+ "37235"
+ "Kittery"
+ "57"
+ "CDP"
+ 
+ 134
+ "23"
+ "37375"
+ "Kittery Point"
+ "57"
+ "CDP"
+ 

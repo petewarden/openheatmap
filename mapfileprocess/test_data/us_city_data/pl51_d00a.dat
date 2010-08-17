@@ -1,0 +1,2702 @@
+ 0
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 1
+ "51"
+ "47208"
+ "Lovettsville"
+ "60"
+ "town"
+ 
+ 2
+ "51"
+ "86720"
+ "Winchester"
+ "58"
+ "city"
+ 
+ 3
+ "51"
+ "37288"
+ "Hillsboro"
+ "60"
+ "town"
+ 
+ 4
+ "51"
+ "06968"
+ "Berryville"
+ "60"
+ "town"
+ 
+ 5
+ "51"
+ "65008"
+ "Purcellville"
+ "60"
+ "town"
+ 
+ 6
+ "51"
+ "34240"
+ "Hamilton"
+ "60"
+ "town"
+ 
+ 7
+ "51"
+ "69168"
+ "Round Hill"
+ "60"
+ "town"
+ 
+ 8
+ "51"
+ "44984"
+ "Leesburg"
+ "60"
+ "town"
+ 
+ 9
+ "51"
+ "75344"
+ "Stephens City"
+ "60"
+ "town"
+ 
+ 10
+ "51"
+ "08984"
+ "Boyce"
+ "60"
+ "town"
+ 
+ 11
+ "51"
+ "32496"
+ "Great Falls"
+ "57"
+ "CDP"
+ 
+ 12
+ "51"
+ "51512"
+ "Middletown"
+ "60"
+ "town"
+ 
+ 13
+ "51"
+ "76000"
+ "Strasburg"
+ "60"
+ "town"
+ 
+ 14
+ "51"
+ "66672"
+ "Reston"
+ "57"
+ "CDP"
+ 
+ 15
+ "51"
+ "36648"
+ "Herndon"
+ "60"
+ "town"
+ 
+ 16
+ "51"
+ "87240"
+ "Wolf Trap"
+ "57"
+ "CDP"
+ 
+ 17
+ "51"
+ "51448"
+ "Middleburg"
+ "60"
+ "town"
+ 
+ 18
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 19
+ "51"
+ "48376"
+ "McLean"
+ "57"
+ "CDP"
+ 
+ 20
+ "51"
+ "29968"
+ "Front Royal"
+ "60"
+ "town"
+ 
+ 21
+ "51"
+ "79024"
+ "Toms Brook"
+ "60"
+ "town"
+ 
+ 22
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 23
+ "51"
+ "79952"
+ "Tysons Corner"
+ "57"
+ "CDP"
+ 
+ 24
+ "51"
+ "03000"
+ "Arlington"
+ "57"
+ "CDP"
+ 
+ 25
+ "51"
+ "58472"
+ "Oakton"
+ "57"
+ "CDP"
+ 
+ 26
+ "51"
+ "62264"
+ "Pimmit Hills"
+ "57"
+ "CDP"
+ 
+ 27
+ "51"
+ "81072"
+ "Vienna"
+ "60"
+ "town"
+ 
+ 28
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 29
+ "51"
+ "23984"
+ "Dunn Loring"
+ "57"
+ "CDP"
+ 
+ 30
+ "51"
+ "14744"
+ "Chantilly"
+ "57"
+ "CDP"
+ 
+ 31
+ "51"
+ "39448"
+ "Idylwood"
+ "57"
+ "CDP"
+ 
+ 32
+ "51"
+ "27200"
+ "Falls Church"
+ "58"
+ "city"
+ 
+ 33
+ "51"
+ "87712"
+ "Woodstock"
+ "60"
+ "town"
+ 
+ 34
+ "51"
+ "51192"
+ "Merrifield"
+ "57"
+ "CDP"
+ 
+ 35
+ "51"
+ "14440"
+ "Centreville"
+ "57"
+ "CDP"
+ 
+ 36
+ "51"
+ "40584"
+ "Jefferson"
+ "57"
+ "CDP"
+ 
+ 37
+ "51"
+ "71216"
+ "Seven Corners"
+ "57"
+ "CDP"
+ 
+ 38
+ "51"
+ "26496"
+ "Fairfax"
+ "58"
+ "city"
+ 
+ 39
+ "51"
+ "43352"
+ "Lake Barcroft"
+ "57"
+ "CDP"
+ 
+ 40
+ "51"
+ "78192"
+ "The Plains"
+ "60"
+ "town"
+ 
+ 41
+ "51"
+ "01912"
+ "Annandale"
+ "57"
+ "CDP"
+ 
+ 42
+ "51"
+ "49144"
+ "Mantua"
+ "57"
+ "CDP"
+ 
+ 43
+ "51"
+ "04088"
+ "Bailey's Crossroads"
+ "57"
+ "CDP"
+ 
+ 44
+ "51"
+ "04928"
+ "Basye-Bryce Mountain"
+ "57"
+ "CDP"
+ 
+ 45
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 46
+ "51"
+ "01000"
+ "Alexandria"
+ "58"
+ "city"
+ 
+ 47
+ "51"
+ "45784"
+ "Lincolnia"
+ "57"
+ "CDP"
+ 
+ 48
+ "51"
+ "25008"
+ "Edinburg"
+ "60"
+ "town"
+ 
+ 49
+ "51"
+ "30176"
+ "Gainesville"
+ "57"
+ "CDP"
+ 
+ 50
+ "51"
+ "84976"
+ "West Springfield"
+ "57"
+ "CDP"
+ 
+ 51
+ "51"
+ "35976"
+ "Haymarket"
+ "60"
+ "town"
+ 
+ 52
+ "51"
+ "74592"
+ "Springfield"
+ "57"
+ "CDP"
+ 
+ 53
+ "51"
+ "57560"
+ "North Springfield"
+ "57"
+ "CDP"
+ 
+ 54
+ "51"
+ "11464"
+ "Burke"
+ "57"
+ "CDP"
+ 
+ 55
+ "51"
+ "88176"
+ "Yorkshire"
+ "57"
+ "CDP"
+ 
+ 56
+ "51"
+ "68880"
+ "Rose Hill"
+ "57"
+ "CDP"
+ 
+ 57
+ "51"
+ "76416"
+ "Sudley"
+ "57"
+ "CDP"
+ 
+ 58
+ "51"
+ "39064"
+ "Huntington"
+ "57"
+ "CDP"
+ 
+ 59
+ "51"
+ "29552"
+ "Franconia"
+ "57"
+ "CDP"
+ 
+ 60
+ "51"
+ "33584"
+ "Groveton"
+ "57"
+ "CDP"
+ 
+ 61
+ "51"
+ "11230"
+ "Bull Run"
+ "57"
+ "CDP"
+ 
+ 62
+ "51"
+ "46328"
+ "Loch Lomond"
+ "57"
+ "CDP"
+ 
+ 63
+ "51"
+ "84424"
+ "West Gate"
+ "57"
+ "CDP"
+ 
+ 64
+ "51"
+ "05928"
+ "Belle Haven"
+ "57"
+ "CDP"
+ 
+ 65
+ "51"
+ "48968"
+ "Manassas Park"
+ "58"
+ "city"
+ 
+ 66
+ "51"
+ "17376"
+ "Clifton"
+ "60"
+ "town"
+ 
+ 67
+ "51"
+ "45957"
+ "Linton Hall"
+ "57"
+ "CDP"
+ 
+ 68
+ "51"
+ "48952"
+ "Manassas"
+ "58"
+ "city"
+ 
+ 69
+ "51"
+ "48968"
+ "Manassas Park"
+ "58"
+ "city"
+ 
+ 70
+ "51"
+ "29136"
+ "Fort Hunt"
+ "57"
+ "CDP"
+ 
+ 71
+ "51"
+ "53992"
+ "Mount Jackson"
+ "60"
+ "town"
+ 
+ 72
+ "51"
+ "39304"
+ "Hybla Valley"
+ "57"
+ "CDP"
+ 
+ 73
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 74
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 75
+ "51"
+ "55752"
+ "Newington"
+ "57"
+ "CDP"
+ 
+ 76
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 77
+ "51"
+ "29008"
+ "Fort Belvoir"
+ "57"
+ "CDP"
+ 
+ 78
+ "51"
+ "54144"
+ "Mount Vernon"
+ "57"
+ "CDP"
+ 
+ 79
+ "51"
+ "83136"
+ "Warrenton"
+ "60"
+ "town"
+ 
+ 80
+ "51"
+ "47064"
+ "Lorton"
+ "57"
+ "CDP"
+ 
+ 81
+ "51"
+ "83248"
+ "Washington"
+ "60"
+ "town"
+ 
+ 82
+ "51"
+ "56464"
+ "Nokesville"
+ "57"
+ "CDP"
+ 
+ 83
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 84
+ "51"
+ "43432"
+ "Lake Ridge"
+ "57"
+ "CDP"
+ 
+ 85
+ "51"
+ "58696"
+ "Occoquan"
+ "60"
+ "town"
+ 
+ 86
+ "51"
+ "21088"
+ "Dale City"
+ "57"
+ "CDP"
+ 
+ 87
+ "51"
+ "47528"
+ "Luray"
+ "60"
+ "town"
+ 
+ 88
+ "51"
+ "87312"
+ "Woodbridge"
+ "57"
+ "CDP"
+ 
+ 89
+ "51"
+ "55848"
+ "New Market"
+ "60"
+ "town"
+ 
+ 90
+ "51"
+ "78736"
+ "Timberville"
+ "60"
+ "town"
+ 
+ 91
+ "51"
+ "52658"
+ "Montclair"
+ "57"
+ "CDP"
+ 
+ 92
+ "51"
+ "10040"
+ "Broadway"
+ "60"
+ "town"
+ 
+ 93
+ "51"
+ "75024"
+ "Stanley"
+ "60"
+ "town"
+ 
+ 94
+ "51"
+ "23760"
+ "Dumfries"
+ "60"
+ "town"
+ 
+ 95
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 96
+ "51"
+ "79360"
+ "Triangle"
+ "57"
+ "CDP"
+ 
+ 97
+ "51"
+ "65136"
+ "Quantico Station"
+ "57"
+ "CDP"
+ 
+ 98
+ "51"
+ "66512"
+ "Remington"
+ "60"
+ "town"
+ 
+ 99
+ "51"
+ "65120"
+ "Quantico"
+ "60"
+ "town"
+ 
+ 100
+ "51"
+ "71776"
+ "Shenandoah"
+ "60"
+ "town"
+ 
+ 101
+ "51"
+ "02112"
+ "Aquia Harbour"
+ "57"
+ "CDP"
+ 
+ 102
+ "51"
+ "20752"
+ "Culpeper"
+ "60"
+ "town"
+ 
+ 103
+ "51"
+ "35624"
+ "Harrisonburg"
+ "58"
+ "city"
+ 
+ 104
+ "51"
+ "50030"
+ "Massanutten"
+ "57"
+ "CDP"
+ 
+ 105
+ "51"
+ "21648"
+ "Dayton"
+ "60"
+ "town"
+ 
+ 106
+ "51"
+ "25408"
+ "Elkton"
+ "60"
+ "town"
+ 
+ 107
+ "51"
+ "52680"
+ "Monterey"
+ "60"
+ "town"
+ 
+ 108
+ "51"
+ "09656"
+ "Bridgewater"
+ "60"
+ "town"
+ 
+ 109
+ "51"
+ "48488"
+ "Madison"
+ "60"
+ "town"
+ 
+ 110
+ "51"
+ "53864"
+ "Mount Crawford"
+ "60"
+ "town"
+ 
+ 111
+ "51"
+ "27264"
+ "Falmouth"
+ "57"
+ "CDP"
+ 
+ 112
+ "51"
+ "21008"
+ "Dahlgren"
+ "57"
+ "CDP"
+ 
+ 113
+ "51"
+ "27040"
+ "Fairview Beach"
+ "57"
+ "CDP"
+ 
+ 114
+ "51"
+ "29744"
+ "Fredericksburg"
+ "58"
+ "city"
+ 
+ 115
+ "51"
+ "85184"
+ "Weyers Cave"
+ "57"
+ "CDP"
+ 
+ 116
+ "51"
+ "75008"
+ "Stanardsville"
+ "60"
+ "town"
+ 
+ 117
+ "51"
+ "33488"
+ "Grottoes"
+ "60"
+ "town"
+ 
+ 118
+ "51"
+ "18400"
+ "Colonial Beach"
+ "60"
+ "town"
+ 
+ 119
+ "51"
+ "59496"
+ "Orange"
+ "60"
+ "town"
+ 
+ 120
+ "51"
+ "74470"
+ "Spotsylvania Courthouse"
+ "57"
+ "CDP"
+ 
+ 121
+ "51"
+ "80864"
+ "Verona"
+ "57"
+ "CDP"
+ 
+ 122
+ "51"
+ "75216"
+ "Staunton"
+ "58"
+ "city"
+ 
+ 123
+ "51"
+ "20240"
+ "Crimora"
+ "57"
+ "CDP"
+ 
+ 124
+ "51"
+ "63928"
+ "Port Royal"
+ "60"
+ "town"
+ 
+ 125
+ "51"
+ "31936"
+ "Gordonsville"
+ "60"
+ "town"
+ 
+ 126
+ "51"
+ "27968"
+ "Fishersville"
+ "57"
+ "CDP"
+ 
+ 127
+ "51"
+ "22976"
+ "Dooms"
+ "57"
+ "CDP"
+ 
+ 128
+ "51"
+ "41144"
+ "Jolivue"
+ "57"
+ "CDP"
+ 
+ 129
+ "51"
+ "83680"
+ "Waynesboro"
+ "58"
+ "city"
+ 
+ 130
+ "51"
+ "52952"
+ "Montross"
+ "60"
+ "town"
+ 
+ 131
+ "51"
+ "19904"
+ "Craigsville"
+ "60"
+ "town"
+ 
+ 132
+ "51"
+ "20560"
+ "Crozet"
+ "57"
+ "CDP"
+ 
+ 133
+ "51"
+ "14968"
+ "Charlottesville"
+ "58"
+ "city"
+ 
+ 134
+ "51"
+ "08888"
+ "Bowling Green"
+ "60"
+ "town"
+ 
+ 135
+ "51"
+ "76272"
+ "Stuarts Draft"
+ "57"
+ "CDP"
+ 
+ 136
+ "51"
+ "47720"
+ "Lyndhurst"
+ "57"
+ "CDP"
+ 
+ 137
+ "51"
+ "47144"
+ "Louisa"
+ "60"
+ "town"
+ 
+ 138
+ "51"
+ "16512"
+ "Chincoteague"
+ "60"
+ "town"
+ 
+ 139
+ "51"
+ "32944"
+ "Greenville"
+ "57"
+ "CDP"
+ 
+ 140
+ "51"
+ "71904"
+ "Sherando"
+ "57"
+ "CDP"
+ 
+ 141
+ "51"
+ "52120"
+ "Mineral"
+ "60"
+ "town"
+ 
+ 142
+ "51"
+ "31968"
+ "Goshen"
+ "60"
+ "town"
+ 
+ 143
+ "51"
+ "83168"
+ "Warsaw"
+ "60"
+ "town"
+ 
+ 144
+ "51"
+ "43424"
+ "Lake Monticello"
+ "57"
+ "CDP"
+ 
+ 145
+ "51"
+ "77568"
+ "Tappahannock"
+ "60"
+ "town"
+ 
+ 146
+ "51"
+ "70576"
+ "Saxis"
+ "60"
+ "town"
+ 
+ 147
+ "51"
+ "34176"
+ "Hallwood"
+ "60"
+ "town"
+ 
+ 148
+ "51"
+ "17440"
+ "Clifton Forge"
+ "58"
+ "city"
+ 
+ 149
+ "51"
+ "08120"
+ "Bloxom"
+ "60"
+ "town"
+ 
+ 150
+ "51"
+ "77520"
+ "Tangier"
+ "60"
+ "town"
+ 
+ 151
+ "51"
+ "70800"
+ "Scottsville"
+ "60"
+ "town"
+ 
+ 152
+ "51"
+ "19728"
+ "Covington"
+ "58"
+ "city"
+ 
+ 153
+ "51"
+ "71072"
+ "Selma"
+ "57"
+ "CDP"
+ 
+ 154
+ "51"
+ "40024"
+ "Iron Gate"
+ "60"
+ "town"
+ 
+ 155
+ "51"
+ "47352"
+ "Low Moor"
+ "57"
+ "CDP"
+ 
+ 156
+ "51"
+ "45512"
+ "Lexington"
+ "58"
+ "city"
+ 
+ 157
+ "51"
+ "60680"
+ "Parksley"
+ "60"
+ "town"
+ 
+ 158
+ "51"
+ "03368"
+ "Ashland"
+ "60"
+ "town"
+ 
+ 159
+ "51"
+ "11032"
+ "Buena Vista"
+ "58"
+ "city"
+ 
+ 160
+ "51"
+ "18624"
+ "Columbia"
+ "60"
+ "town"
+ 
+ 161
+ "51"
+ "42424"
+ "Kilmarnock"
+ "60"
+ "town"
+ 
+ 162
+ "51"
+ "00180"
+ "Accomac"
+ "60"
+ "town"
+ 
+ 163
+ "51"
+ "59336"
+ "Onancock"
+ "60"
+ "town"
+ 
+ 164
+ "51"
+ "87960"
+ "Wyndham"
+ "57"
+ "CDP"
+ 
+ 165
+ "51"
+ "59384"
+ "Onley"
+ "60"
+ "town"
+ 
+ 166
+ "51"
+ "31200"
+ "Glen Allen"
+ "57"
+ "CDP"
+ 
+ 167
+ "51"
+ "72272"
+ "Short Pump"
+ "57"
+ "CDP"
+ 
+ 168
+ "51"
+ "50856"
+ "Mechanicsville"
+ "57"
+ "CDP"
+ 
+ 169
+ "51"
+ "40088"
+ "Irvington"
+ "60"
+ "town"
+ 
+ 170
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 171
+ "51"
+ "44280"
+ "Laurel"
+ "57"
+ "CDP"
+ 
+ 172
+ "51"
+ "50984"
+ "Melfa"
+ "60"
+ "town"
+ 
+ 173
+ "51"
+ "85600"
+ "White Stone"
+ "60"
+ "town"
+ 
+ 174
+ "51"
+ "31136"
+ "Glasgow"
+ "60"
+ "town"
+ 
+ 175
+ "51"
+ "80272"
+ "Urbanna"
+ "60"
+ "town"
+ 
+ 176
+ "51"
+ "14544"
+ "Chamberlayne"
+ "57"
+ "CDP"
+ 
+ 177
+ "51"
+ "43464"
+ "Lakeside"
+ "57"
+ "CDP"
+ 
+ 178
+ "51"
+ "79560"
+ "Tuckahoe"
+ "57"
+ "CDP"
+ 
+ 179
+ "51"
+ "41656"
+ "Keller"
+ "60"
+ "town"
+ 
+ 180
+ "51"
+ "23744"
+ "Dumbarton"
+ "57"
+ "CDP"
+ 
+ 181
+ "51"
+ "24496"
+ "East Highland Park"
+ "57"
+ "CDP"
+ 
+ 182
+ "51"
+ "82320"
+ "Wachapreague"
+ "60"
+ "town"
+ 
+ 183
+ "51"
+ "01672"
+ "Amherst"
+ "60"
+ "town"
+ 
+ 184
+ "51"
+ "67000"
+ "Richmond"
+ "58"
+ "city"
+ 
+ 185
+ "51"
+ "60296"
+ "Painter"
+ "60"
+ "town"
+ 
+ 186
+ "51"
+ "84960"
+ "West Point"
+ "60"
+ "town"
+ 
+ 187
+ "51"
+ "37032"
+ "Highland Springs"
+ "57"
+ "CDP"
+ 
+ 188
+ "51"
+ "05912"
+ "Belle Haven"
+ "60"
+ "town"
+ 
+ 189
+ "51"
+ "22560"
+ "Dillwyn"
+ "60"
+ "town"
+ 
+ 190
+ "51"
+ "52904"
+ "Montrose"
+ "57"
+ "CDP"
+ 
+ 191
+ "51"
+ "10744"
+ "Buchanan"
+ "60"
+ "town"
+ 
+ 192
+ "51"
+ "08472"
+ "Bon Air"
+ "57"
+ "CDP"
+ 
+ 193
+ "51"
+ "26416"
+ "Exmore"
+ "60"
+ "town"
+ 
+ 194
+ "51"
+ "55592"
+ "New Castle"
+ "60"
+ "town"
+ 
+ 195
+ "51"
+ "27824"
+ "Fincastle"
+ "60"
+ "town"
+ 
+ 196
+ "51"
+ "48520"
+ "Madison Heights"
+ "57"
+ "CDP"
+ 
+ 197
+ "51"
+ "54984"
+ "Nassawadox"
+ "60"
+ "town"
+ 
+ 198
+ "51"
+ "47672"
+ "Lynchburg"
+ "58"
+ "city"
+ 
+ 199
+ "51"
+ "06728"
+ "Bensley"
+ "57"
+ "CDP"
+ 
+ 200
+ "51"
+ "06216"
+ "Bellwood"
+ "57"
+ "CDP"
+ 
+ 201
+ "51"
+ "21152"
+ "Daleville"
+ "57"
+ "CDP"
+ 
+ 202
+ "51"
+ "31608"
+ "Gloucester Courthouse"
+ "57"
+ "CDP"
+ 
+ 203
+ "51"
+ "79472"
+ "Troutville"
+ "60"
+ "town"
+ 
+ 204
+ "51"
+ "28688"
+ "Forest"
+ "57"
+ "CDP"
+ 
+ 205
+ "51"
+ "08200"
+ "Blue Ridge"
+ "57"
+ "CDP"
+ 
+ 206
+ "51"
+ "16208"
+ "Chesterfield Court House"
+ "57"
+ "CDP"
+ 
+ 207
+ "51"
+ "66896"
+ "Rich Creek"
+ "60"
+ "town"
+ 
+ 208
+ "51"
+ "16096"
+ "Chester"
+ "57"
+ "CDP"
+ 
+ 209
+ "51"
+ "44620"
+ "Laymantown"
+ "57"
+ "CDP"
+ 
+ 210
+ "51"
+ "31376"
+ "Glen Lyn"
+ "60"
+ "town"
+ 
+ 211
+ "51"
+ "17680"
+ "Cloverdale"
+ "57"
+ "CDP"
+ 
+ 212
+ "51"
+ "02072"
+ "Appomattox"
+ "60"
+ "town"
+ 
+ 213
+ "51"
+ "37880"
+ "Hollins"
+ "57"
+ "CDP"
+ 
+ 214
+ "51"
+ "78688"
+ "Timberlake"
+ "57"
+ "CDP"
+ 
+ 215
+ "51"
+ "05544"
+ "Bedford"
+ "58"
+ "city"
+ 
+ 216
+ "51"
+ "24752"
+ "Eastville"
+ "60"
+ "town"
+ 
+ 217
+ "51"
+ "54904"
+ "Narrows"
+ "60"
+ "town"
+ 
+ 218
+ "51"
+ "61208"
+ "Pearisburg"
+ "60"
+ "town"
+ 
+ 219
+ "51"
+ "68000"
+ "Roanoke"
+ "58"
+ "city"
+ 
+ 220
+ "51"
+ "61336"
+ "Pembroke"
+ "60"
+ "town"
+ 
+ 221
+ "51"
+ "27440"
+ "Farmville"
+ "60"
+ "town"
+ 
+ 222
+ "51"
+ "70000"
+ "Salem"
+ "58"
+ "city"
+ 
+ 223
+ "51"
+ "31616"
+ "Gloucester Point"
+ "57"
+ "CDP"
+ 
+ 224
+ "51"
+ "69536"
+ "Rustburg"
+ "57"
+ "CDP"
+ 
+ 225
+ "51"
+ "38424"
+ "Hopewell"
+ "58"
+ "city"
+ 
+ 226
+ "51"
+ "63288"
+ "Pocahontas"
+ "60"
+ "town"
+ 
+ 227
+ "51"
+ "86160"
+ "Williamsburg"
+ "58"
+ "city"
+ 
+ 228
+ "51"
+ "15112"
+ "Cheriton"
+ "60"
+ "town"
+ 
+ 229
+ "51"
+ "18448"
+ "Colonial Heights"
+ "58"
+ "city"
+ 
+ 230
+ "51"
+ "33648"
+ "Grundy"
+ "60"
+ "town"
+ 
+ 231
+ "51"
+ "81280"
+ "Vinton"
+ "60"
+ "town"
+ 
+ 232
+ "51"
+ "29152"
+ "Fort Lee"
+ "57"
+ "CDP"
+ 
+ 233
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 234
+ "51"
+ "12808"
+ "Cape Charles"
+ "60"
+ "town"
+ 
+ 235
+ "51"
+ "07784"
+ "Blacksburg"
+ "60"
+ "town"
+ 
+ 236
+ "51"
+ "60488"
+ "Pamplin City"
+ "60"
+ "town"
+ 
+ 237
+ "51"
+ "26128"
+ "Ettrick"
+ "57"
+ "CDP"
+ 
+ 238
+ "51"
+ "13720"
+ "Cave Spring"
+ "57"
+ "CDP"
+ 
+ 239
+ "51"
+ "08152"
+ "Bluefield"
+ "60"
+ "town"
+ 
+ 240
+ "51"
+ "34304"
+ "Hampden Sydney"
+ "57"
+ "CDP"
+ 
+ 241
+ "51"
+ "80608"
+ "Vansant"
+ "57"
+ "CDP"
+ 
+ 242
+ "51"
+ "61832"
+ "Petersburg"
+ "58"
+ "city"
+ 
+ 243
+ "51"
+ "50136"
+ "Matoaca"
+ "57"
+ "CDP"
+ 
+ 244
+ "51"
+ "88240"
+ "Yorktown"
+ "57"
+ "CDP"
+ 
+ 245
+ "51"
+ "16880"
+ "Claremont"
+ "60"
+ "town"
+ 
+ 246
+ "51"
+ "25496"
+ "Elliston-Lafayette"
+ "57"
+ "CDP"
+ 
+ 247
+ "51"
+ "56000"
+ "Newport News"
+ "58"
+ "city"
+ 
+ 248
+ "51"
+ "36008"
+ "Haysi"
+ "60"
+ "town"
+ 
+ 249
+ "51"
+ "51208"
+ "Merrimac"
+ "57"
+ "CDP"
+ 
+ 250
+ "51"
+ "20160"
+ "Crewe"
+ "60"
+ "town"
+ 
+ 251
+ "51"
+ "11560"
+ "Burkeville"
+ "60"
+ "town"
+ 
+ 252
+ "51"
+ "71632"
+ "Shawsville"
+ "57"
+ "CDP"
+ 
+ 253
+ "51"
+ "16608"
+ "Christiansburg"
+ "60"
+ "town"
+ 
+ 254
+ "51"
+ "17504"
+ "Clinchco"
+ "60"
+ "town"
+ 
+ 255
+ "51"
+ "63768"
+ "Poquoson"
+ "58"
+ "city"
+ 
+ 256
+ "51"
+ "84632"
+ "Westlake Corner"
+ "57"
+ "CDP"
+ 
+ 257
+ "51"
+ "26736"
+ "Fairlawn"
+ "57"
+ "CDP"
+ 
+ 258
+ "51"
+ "17552"
+ "Clintwood"
+ "60"
+ "town"
+ 
+ 259
+ "51"
+ "65392"
+ "Radford"
+ "58"
+ "city"
+ 
+ 260
+ "51"
+ "76880"
+ "Surry"
+ "60"
+ "town"
+ 
+ 261
+ "51"
+ "64272"
+ "Pound"
+ "60"
+ "town"
+ 
+ 262
+ "51"
+ "69472"
+ "Rushmere"
+ "57"
+ "CDP"
+ 
+ 263
+ "51"
+ "77792"
+ "Tazewell"
+ "60"
+ "town"
+ 
+ 264
+ "51"
+ "01528"
+ "Altavista"
+ "60"
+ "town"
+ 
+ 265
+ "51"
+ "65744"
+ "Raven"
+ "57"
+ "CDP"
+ 
+ 266
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 267
+ "51"
+ "08584"
+ "Boones Mill"
+ "60"
+ "town"
+ 
+ 268
+ "51"
+ "57531"
+ "North Shore"
+ "57"
+ "CDP"
+ 
+ 269
+ "51"
+ "35000"
+ "Hampton"
+ "58"
+ "city"
+ 
+ 270
+ "51"
+ "23648"
+ "Dublin"
+ "60"
+ "town"
+ 
+ 271
+ "51"
+ "39224"
+ "Hurt"
+ "60"
+ "town"
+ 
+ 272
+ "51"
+ "66928"
+ "Richlands"
+ "60"
+ "town"
+ 
+ 273
+ "51"
+ "07832"
+ "Blackstone"
+ "60"
+ "town"
+ 
+ 274
+ "51"
+ "13784"
+ "Cedar Bluff"
+ "60"
+ "town"
+ 
+ 275
+ "51"
+ "61896"
+ "Phenix"
+ "60"
+ "town"
+ 
+ 276
+ "51"
+ "17120"
+ "Claypool Hill"
+ "57"
+ "CDP"
+ 
+ 277
+ "51"
+ "64880"
+ "Pulaski"
+ "60"
+ "town"
+ 
+ 278
+ "51"
+ "10296"
+ "Brookneal"
+ "60"
+ "town"
+ 
+ 279
+ "51"
+ "14952"
+ "Charlotte Court House"
+ "60"
+ "town"
+ 
+ 280
+ "51"
+ "22160"
+ "Dendron"
+ "60"
+ "town"
+ 
+ 281
+ "51"
+ "83600"
+ "Waverly"
+ "60"
+ "town"
+ 
+ 282
+ "51"
+ "80000"
+ "Union Hall"
+ "57"
+ "CDP"
+ 
+ 283
+ "51"
+ "42264"
+ "Keysville"
+ "60"
+ "town"
+ 
+ 284
+ "51"
+ "61464"
+ "Penhook"
+ "57"
+ "CDP"
+ 
+ 285
+ "51"
+ "38280"
+ "Honaker"
+ "60"
+ "town"
+ 
+ 286
+ "51"
+ "68496"
+ "Rocky Mount"
+ "60"
+ "town"
+ 
+ 287
+ "51"
+ "81024"
+ "Victoria"
+ "60"
+ "town"
+ 
+ 288
+ "51"
+ "23376"
+ "Drakes Branch"
+ "60"
+ "town"
+ 
+ 289
+ "51"
+ "73200"
+ "Smithfield"
+ "60"
+ "town"
+ 
+ 290
+ "51"
+ "50312"
+ "Max Meadows"
+ "57"
+ "CDP"
+ 
+ 291
+ "51"
+ "48344"
+ "McKenney"
+ "60"
+ "town"
+ 
+ 292
+ "51"
+ "87072"
+ "Wise"
+ "60"
+ "town"
+ 
+ 293
+ "51"
+ "88000"
+ "Wytheville"
+ "60"
+ "town"
+ 
+ 294
+ "51"
+ "82384"
+ "Wakefield"
+ "60"
+ "town"
+ 
+ 295
+ "51"
+ "41832"
+ "Kenbridge"
+ "60"
+ "town"
+ 
+ 296
+ "51"
+ "29040"
+ "Fort Chiswell"
+ "57"
+ "CDP"
+ 
+ 297
+ "51"
+ "57000"
+ "Norfolk"
+ "58"
+ "city"
+ 
+ 298
+ "51"
+ "27712"
+ "Ferrum"
+ "57"
+ "CDP"
+ 
+ 299
+ "51"
+ "17952"
+ "Coeburn"
+ "60"
+ "town"
+ 
+ 300
+ "51"
+ "33232"
+ "Gretna"
+ "60"
+ "town"
+ 
+ 301
+ "51"
+ "57688"
+ "Norton"
+ "58"
+ "city"
+ 
+ 302
+ "51"
+ "75840"
+ "Stony Creek"
+ "60"
+ "town"
+ 
+ 303
+ "51"
+ "17296"
+ "Cleveland"
+ "60"
+ "town"
+ 
+ 304
+ "51"
+ "82000"
+ "Virginia Beach"
+ "58"
+ "city"
+ 
+ 305
+ "51"
+ "76432"
+ "Suffolk"
+ "58"
+ "city"
+ 
+ 306
+ "51"
+ "64000"
+ "Portsmouth"
+ "58"
+ "city"
+ 
+ 307
+ "51"
+ "02040"
+ "Appalachia"
+ "60"
+ "town"
+ 
+ 308
+ "51"
+ "28544"
+ "Floyd"
+ "60"
+ "town"
+ 
+ 309
+ "51"
+ "69456"
+ "Rural Retreat"
+ "60"
+ "town"
+ 
+ 310
+ "51"
+ "69936"
+ "St. Paul"
+ "60"
+ "town"
+ 
+ 311
+ "51"
+ "40232"
+ "Ivor"
+ "60"
+ "town"
+ 
+ 312
+ "51"
+ "44696"
+ "Lebanon"
+ "60"
+ "town"
+ 
+ 313
+ "51"
+ "70096"
+ "Saltville"
+ "60"
+ "town"
+ 
+ 314
+ "51"
+ "13512"
+ "Castlewood"
+ "57"
+ "CDP"
+ 
+ 315
+ "51"
+ "03512"
+ "Atkins"
+ "57"
+ "CDP"
+ 
+ 316
+ "51"
+ "07480"
+ "Big Stone Gap"
+ "60"
+ "town"
+ 
+ 317
+ "51"
+ "42104"
+ "Keokee"
+ "57"
+ "CDP"
+ 
+ 318
+ "51"
+ "00724"
+ "Alberta"
+ "60"
+ "town"
+ 
+ 319
+ "51"
+ "16000"
+ "Chesapeake"
+ "58"
+ "city"
+ 
+ 320
+ "51"
+ "49464"
+ "Marion"
+ "60"
+ "town"
+ 
+ 321
+ "51"
+ "15000"
+ "Chatham"
+ "60"
+ "town"
+ 
+ 322
+ "51"
+ "23952"
+ "Dungannon"
+ "60"
+ "town"
+ 
+ 323
+ "51"
+ "40536"
+ "Jarratt"
+ "60"
+ "town"
+ 
+ 324
+ "51"
+ "58312"
+ "Oak Level"
+ "57"
+ "CDP"
+ 
+ 325
+ "51"
+ "86784"
+ "Windsor"
+ "60"
+ "town"
+ 
+ 326
+ "51"
+ "16480"
+ "Chilhowie"
+ "60"
+ "town"
+ 
+ 327
+ "51"
+ "14984"
+ "Chase City"
+ "60"
+ "town"
+ 
+ 328
+ "51"
+ "00468"
+ "Adwolf"
+ "57"
+ "CDP"
+ 
+ 329
+ "51"
+ "69792"
+ "St. Charles"
+ "60"
+ "town"
+ 
+ 330
+ "51"
+ "25800"
+ "Emory-Meadow View"
+ "57"
+ "CDP"
+ 
+ 331
+ "51"
+ "31056"
+ "Glade Spring"
+ "60"
+ "town"
+ 
+ 332
+ "51"
+ "23584"
+ "Dryden"
+ "57"
+ "CDP"
+ 
+ 333
+ "51"
+ "76448"
+ "Sugar Grove"
+ "57"
+ "CDP"
+ 
+ 334
+ "51"
+ "87408"
+ "Woodlawn"
+ "57"
+ "CDP"
+ 
+ 335
+ "51"
+ "37336"
+ "Hillsville"
+ "60"
+ "town"
+ 
+ 336
+ "51"
+ "34064"
+ "Halifax"
+ "60"
+ "town"
+ 
+ 337
+ "51"
+ "04872"
+ "Bassett"
+ "57"
+ "CDP"
+ 
+ 338
+ "51"
+ "61560"
+ "Pennington Gap"
+ "60"
+ "town"
+ 
+ 339
+ " "
+ " "
+ " "
+ " "
+ " "
+ 
+ 340
+ "51"
+ "75040"
+ "Stanleytown"
+ "57"
+ "CDP"
+ 
+ 341
+ "51"
+ "44520"
+ "Lawrenceville"
+ "60"
+ "town"
+ 
+ 342
+ "51"
+ "70752"
+ "Scottsburg"
+ "60"
+ "town"
+ 
+ 343
+ "51"
+ "56304"
+ "Nickelsville"
+ "60"
+ "town"
+ 
+ 344
+ "51"
+ "18352"
+ "Collinsville"
+ "57"
+ "CDP"
+ 
+ 345
+ "51"
+ "73904"
+ "South Hill"
+ "60"
+ "town"
+ 
+ 346
+ "51"
+ "73712"
+ "South Boston"
+ "60"
+ "town"
+ 
+ 347
+ "51"
+ "00148"
+ "Abingdon"
+ "60"
+ "town"
+ 
+ 348
+ "51"
+ "23680"
+ "Duffield"
+ "60"
+ "town"
+ 
+ 349
+ "51"
+ "19600"
+ "Courtland"
+ "60"
+ "town"
+ 
+ 350
+ "51"
+ "29920"
+ "Fries"
+ "60"
+ "town"
+ 
+ 351
+ "51"
+ "25808"
+ "Emporia"
+ "58"
+ "city"
+ 
+ 352
+ "51"
+ "79456"
+ "Troutdale"
+ "60"
+ "town"
+ 
+ 353
+ "51"
+ "12904"
+ "Capron"
+ "60"
+ "town"
+ 
+ 354
+ "51"
+ "49784"
+ "Martinsville"
+ "58"
+ "city"
+ 
+ 355
+ "51"
+ "43176"
+ "La Crosse"
+ "60"
+ "town"
+ 
+ 356
+ "51"
+ "27744"
+ "Fieldale"
+ "57"
+ "CDP"
+ 
+ 357
+ "51"
+ "10072"
+ "Brodnax"
+ "60"
+ "town"
+ 
+ 358
+ "51"
+ "29600"
+ "Franklin"
+ "58"
+ "city"
+ 
+ 359
+ "51"
+ "81152"
+ "Villa Heights"
+ "57"
+ "CDP"
+ 
+ 360
+ "51"
+ "44476"
+ "Laurel Park"
+ "57"
+ "CDP"
+ 
+ 361
+ "51"
+ "27296"
+ "Fancy Gap"
+ "57"
+ "CDP"
+ 
+ 362
+ "51"
+ "15048"
+ "Chatmoss"
+ "57"
+ "CDP"
+ 
+ 363
+ "51"
+ "30208"
+ "Galax"
+ "58"
+ "city"
+ 
+ 364
+ "51"
+ "41272"
+ "Jonesville"
+ "60"
+ "town"
+ 
+ 365
+ "51"
+ "17536"
+ "Clinchport"
+ "60"
+ "town"
+ 
+ 366
+ "51"
+ "68885"
+ "Rose Hill"
+ "57"
+ "CDP"
+ 
+ 367
+ "51"
+ "09816"
+ "Bristol"
+ "58"
+ "city"
+ 
+ 368
+ "51"
+ "60984"
+ "Patrick Springs"
+ "57"
+ "CDP"
+ 
+ 369
+ "51"
+ "09016"
+ "Boydton"
+ "60"
+ "town"
+ 
+ 370
+ "51"
+ "38552"
+ "Horse Pasture"
+ "57"
+ "CDP"
+ 
+ 371
+ "51"
+ "26384"
+ "Ewing"
+ "57"
+ "CDP"
+ 
+ 372
+ "51"
+ "30496"
+ "Gate City"
+ "60"
+ "town"
+ 
+ 373
+ "51"
+ "76256"
+ "Stuart"
+ "60"
+ "town"
+ 
+ 374
+ "51"
+ "21344"
+ "Danville"
+ "58"
+ "city"
+ 
+ 375
+ "51"
+ "21184"
+ "Damascus"
+ "60"
+ "town"
+ 
+ 376
+ "51"
+ "39528"
+ "Independence"
+ "60"
+ "town"
+ 
+ 377
+ "51"
+ "16992"
+ "Clarksville"
+ "60"
+ "town"
+ 
+ 378
+ "51"
+ "83808"
+ "Weber City"
+ "60"
+ "town"
+ 
+ 379
+ "51"
+ "56096"
+ "Newsoms"
+ "60"
+ "town"
+ 
+ 380
+ "51"
+ "12600"
+ "Cana"
+ "57"
+ "CDP"
+ 
+ 381
+ "51"
+ "70296"
+ "Sandy Level"
+ "57"
+ "CDP"
+ 
+ 382
+ "51"
+ "09032"
+ "Boykins"
+ "60"
+ "town"
+ 
+ 383
+ "51"
+ "67208"
+ "Ridgeway"
+ "60"
+ "town"
+ 
+ 384
+ "51"
+ "09208"
+ "Branchville"
+ "60"
+ "town"
+ 
+ 385
+ "51"
+ "81312"
+ "Virgilina"
+ "60"
+ "town"
+ 
