@@ -741,6 +741,14 @@ function createGradientFromSettings()
     g_mapSettings.general.gradient_with_alpha = gradientWithAlpha;
 }
 
+function niceNumberFormat(number)
+{
+    if (number<100)
+        return parseInt(number).toPrecision(3);
+    else
+        return parseInt(number).toFixed(0);    
+}
+
 function createColorKeyHTML(mapSettings)
 {
     var result = '';
@@ -760,7 +768,7 @@ function createColorKeyHTML(mapSettings)
         result += 'style="background-color: ';
         result += mapSettings.general.gradient_start_color+';';
         result += '">';
-        result += parseInt(mapSettings.component.gradient_value_min).toPrecision(3);
+        result += niceNumberFormat(mapSettings.component.gradient_value_min);
         result += '</li>';
 
         var midValue = (parseInt(mapSettings.component.gradient_value_min)+
@@ -770,14 +778,14 @@ function createColorKeyHTML(mapSettings)
         result += 'style="background-color: ';
         result += mapSettings.general.gradient_mid_color+';';
         result += '">';
-        result += parseInt(midValue).toPrecision(3);
+        result += niceNumberFormat(midValue);
         result += '</li>';
 
         result += '<li ';
         result += 'style="background-color: ';
         result += mapSettings.general.gradient_end_color+';';
         result += '">';
-        result += parseInt(mapSettings.component.gradient_value_max).toPrecision(3);
+        result += niceNumberFormat(mapSettings.component.gradient_value_max);
         result += '</li>';
     }
     

@@ -5,10 +5,27 @@
  * component to your page, and then wait for your onMapCreated() function to be called.
  * You can then call getOpenHeatMap() to grab the API object to continue construction
  *
- *
+ * The canonical source for this file is http://static.openheatmap.com/scripts/jquery.openheatmap.js
+ 
+ Copyright (C) 2010 Pete Warden <pete@mailana.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
  **/
 
 g_openHeatMapObjects = {};
+g_openHeatMapUserData = {};
 
 (function($) {
  
@@ -19,13 +36,16 @@ g_openHeatMapObjects = {};
             width: 800,
             height: 600,
             prefer: 'flash',
-            wmode: ''
+            wmode: '',
+            userData: null
         };
  
         if (settings) 
             settings = $.extend(defaults, settings);
         else
             settings = defaults;
+ 
+        g_openHeatMapUserData[settings.mapName] = settings.userData;
  
         // See http://diveintohtml5.org/detect.html#canvas
         var hasCanvas = !!document.createElement('canvas').getContext;
@@ -107,6 +127,13 @@ g_openHeatMapObjects = {};
             var isIE = navigator.appName.indexOf("Microsoft") != -1;
             return (isIE) ? document.getElementsByName(mapName)[0] : document.getElementById(mapName);
         }
+    };
+
+    $.getOpenHeatMapUserData = function(mapName) {
+        if (!mapName)
+            mapName = 'openheatmap';
+
+        return g_openHeatMapUserData[mapName];
     };
  
 })(jQuery);
