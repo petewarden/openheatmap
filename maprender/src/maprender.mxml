@@ -2002,7 +2002,8 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 			
 			_pointBlobTileX+=tileSize;
 
-			return _pointBlobBitmap;
+			if ((_timelineControls===null)||(!_timelineControls.isPlaying))
+				return _pointBlobBitmap;
 		}
 		
 		_pointBlobTileX = 0;

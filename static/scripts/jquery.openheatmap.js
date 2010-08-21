@@ -2522,7 +2522,8 @@ function OpenHeatMap(canvas, width, height)
                 
                 this._pointBlobTileX+=tileSize;
 
-                return this._pointBlobCanvas;
+                if ((this._timelineButton===null)||(!this._timelineButton.getIsOn()))
+                    return this._pointBlobCanvas;
             }
             
             this._pointBlobTileX = 0;

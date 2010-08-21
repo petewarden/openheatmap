@@ -9,3 +9,4 @@ static/openheatmap.swf
 website
 mapfileprocess/test_data/tiger_data
 mapfileprocess/test_data/tiger_data.tar
+gzipped/compressed/*

@@ -106,6 +106,7 @@
 		59C216EF120106B100114912 /* scifoo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = scifoo.php; path = website/examples/twitter_followers/scifoo.php; sourceTree = "<group>"; };
 		59E636181218B0A50076D3B4 /* parallelcurl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = parallelcurl.php; path = website/parallelcurl.php; sourceTree = "<group>"; };
 		59E63700121B433B0076D3B4 /* createcitytables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createcitytables.php; path = mapfileprocess/createcitytables.php; sourceTree = "<group>"; };
+		59E6374A121DE6BB0076D3B4 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = scratchpad.py; path = mapfileprocess/scratchpad.py; sourceTree = "<group>"; };
 		59F11C8C11DEA61F00DF3832 /* flattenrelations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flattenrelations.php; path = mapfileprocess/flattenrelations.php; sourceTree = "<group>"; };
 		59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.openheatmap.js; path = static/scripts/jquery.openheatmap.js; sourceTree = "<group>"; };
 		59F11F9911E556A900DF3832 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = embed.html; path = website/embed.html; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 				59820B8211A44A9F0047D5FC /* README */,
 				59820B8311A44A9F0047D5FC /* reducelod.php */,
 				59820B8411A44A9F0047D5FC /* rules.txt */,
+				59E6374A121DE6BB0076D3B4 /* scratchpad.py */,
 				59820B8511A44A9F0047D5FC /* selectways.php */,
 				599DCC1511EFAF330082DE3F /* twittercount.php */,
 				599DCC1311EF973F0082DE3F /* twitterlocations.php */,

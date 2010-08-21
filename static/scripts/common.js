@@ -424,19 +424,26 @@ function updateOpenHeatMapMessage(event)
                 var point = points[closestIndex];
 
                 var popupHTML = '';
-                for (var key in point)
+                if (typeof point.tooltip !== 'undefined')
                 {
-                    if ((key==='lat')||(key==='lon'))
-                        continue;
+                    popupHTML = htmlspecialchars(point.tooltip)
+                }
+                else
+                {
+                    for (var key in point)
+                    {
+                        if ((key==='lat')||(key==='lon'))
+                            continue;
 
-                    var value = point[key];
-                    if (value==='')
-                        continue;
-                    
-                    popupHTML += key;
-                    popupHTML += ': ';
-                    popupHTML += value;
-                    popupHTML += ' ';
+                        var value = point[key];
+                        if (value==='')
+                            continue;
+                        
+                        popupHTML += key;
+                        popupHTML += ': ';
+                        popupHTML += value;
+                        popupHTML += ' ';
+                    }
                 }
 
                 map.addPopup(point.lat, point.lon, popupHTML);        
