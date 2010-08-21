@@ -708,7 +708,7 @@ function OpenHeatMap(canvas, width, height)
             is_gradient_value_range_set: false,
             gradient_value_min: 0,
             gradient_value_max: 0,
-            point_blob_radius: 0.001,
+            point_blob_radius: 1.0,
             point_blob_value: 1.0,
             credit_text: 'OpenHeatMap',
             credit_color: '0x303030',
