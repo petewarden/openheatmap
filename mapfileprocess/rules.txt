@@ -22,5 +22,14 @@ outer,CEM_NAME,,name,-
 outer,Location,,location,-
 outer,,,landuse,cemetery
 outer,NAME,,name,-
+inner,NAME,,name,-
 outer,GMI_CNTRY,,gmi_country,-
 outer,REGION,,region,-
+outer,AREA_CODE,,area_code,-
+inner,AREA_CODE,,area_code,-
+outer,DESCRIPTIO,,description,-
+inner,DESCRIPTIO,,description,-
+outer,FILE_NAME,,file_name,-
+inner,FILE_NAME,,file_name,-
+outer,CODE,,uk_district_code,-
+inner,CODE,,uk_district_code,-

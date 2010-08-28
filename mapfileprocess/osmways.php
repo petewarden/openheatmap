@@ -271,6 +271,11 @@ class OSMWays
     {
         $xml_data = simplexml_load_string($xml_string);
         
+        $this->deserialize_from_children($xml_data);
+    }
+    
+    public function deserialize_from_children($xml_data)
+    {
         foreach ($xml_data->children() as $top_child)
         {
             $name = strtolower($top_child->getName());
@@ -347,6 +352,10 @@ class OSMWays
                 }
                 
                 $this->end_relation($way_id);
+            }
+            else if ($name=='create')
+            {
+                $this->deserialize_from_children($top_child);
             }
             else
             {

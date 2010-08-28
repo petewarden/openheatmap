@@ -2309,7 +2309,13 @@ private function setSetting(key: String, value: *): void
         },
         'information_alpha': function(): void {
         	setWayDefault('alpha', _settings.information_alpha);
-        }
+        },
+		'credit_text': function(): void {
+			if (_credit !== null)
+			{
+				_credit.htmlText = _settings.credit_text;
+			}
+		}
    	}
 	
 	if (changeHandlers.hasOwnProperty(key))

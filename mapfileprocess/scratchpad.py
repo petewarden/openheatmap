@@ -315,15 +315,26 @@ for i in range(start, end, step):
     command_line = 'echo "" >> userlist.txt'
     os.system(command_line)
 
-
-# Turns the twitter user information CSV file into a growth curve for the time period
+# Takes the raw list of company information, and turns it into a CSV file
 import os, sys, csv
+try:
+    import simplejson as json
+except ImportError:
+    import json
 
-reader = csv.reader(open('/Users/petewarden/Documents/userlist.csv', 'rb'))
+step = 10
 
-line_number = 0
-for row in reader:
-    line_number += 1
-    if line_number == 1:
+input = open('/Users/petewarden/Documents/userlist_'+str(step)+'.txt', 'rb')
+writer = csv.writer(open('/Users/petewarden/Documents/userlist_'+str(step)+'.csv', 'wb'))
+
+writer.writerow(['id', 'screen_name', 'name', 'created_at', 'location', 'position'])
+
+position = 1
+for line in input.readlines():
+    try:
+        data = json.loads(line)
+    except:
         continue
-    print str(line_number-1)+' - <a href="http://twitter.com/'+row[1]+'">'+row[2]+'</a><br>'
+    if not 'id' in data:
+        continue
+

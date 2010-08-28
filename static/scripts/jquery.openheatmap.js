@@ -2831,6 +2831,12 @@ function OpenHeatMap(canvas, width, height)
             },
             'information_alpha': function(instance) {
                 instance.setWayDefault('alpha', instance._settings.information_alpha);
+            },
+            'credit_text': function(instance) {
+                if (instance._credit !== null)
+                {
+                    instance._credit._text = instance._settings.credit_text;
+                }
             }
         }
         
