@@ -1366,16 +1366,21 @@ private function addTimelineControls(): void
 	updateTimelineDisplay();
 }
 
-private function onTimelineUserInput(dragging: Boolean): void
+private function onTimelineUserInput(dragging: Boolean, playClick: Boolean): void
 {
 	var sliderValue: Number = _timelineControls.sliderValue;
 
 	var totalFrames: int = _frameTimes.length;
 
-	_frameIndex = Math.round(sliderValue*totalFrames);
+	_frameIndex = Math.round(sliderValue*(totalFrames-1));
 	_frameIndex = Math.min(_frameIndex, (totalFrames-1));
 	_frameIndex = Math.max(_frameIndex, 0);
 	
+	if (playClick&&(_frameIndex==(totalFrames-1)))
+	{
+		_frameIndex = 0;
+	}
+		
 	updateTimelineDisplay();
 	
 	if (dragging)
@@ -1395,7 +1400,7 @@ private function updateTimelineDisplay(): void
 		_timelineControls.timeText = currentTime;
 		
 		var totalFrames: int = _frameTimes.length;
-		_timelineControls.sliderValue = (_frameIndex/totalFrames);
+		_timelineControls.sliderValue = (_frameIndex/(totalFrames-1));
 	}
 }
 

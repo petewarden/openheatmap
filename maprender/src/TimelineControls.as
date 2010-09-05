@@ -184,19 +184,19 @@ package
 			this.isPlaying = !this.isPlaying;
 			
 			if (_onUserInputCallback !== null)
-				_onUserInputCallback(false);
+				_onUserInputCallback(false, true);
 		}
 		
 		protected function onThumbDrag( event: * ): void
 		{
 			if (_onUserInputCallback !== null)
-				_onUserInputCallback(true);
+				_onUserInputCallback(true, false);
 		}
 		
 		protected function onThumbRelease( event: * ): void
 		{
 			if (_onUserInputCallback !== null)
-				_onUserInputCallback(false);
+				_onUserInputCallback(false, false);
 		}
 	}
 }

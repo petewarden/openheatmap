@@ -1903,7 +1903,17 @@ function OpenHeatMap(canvas, width, height)
                 40, (this._settings.height-39),
                 32, 32,
                 'http://static.openheatmap.com/images/pause.png',
-                'http://static.openheatmap.com/images/play.png');
+                'http://static.openheatmap.com/images/play.png',
+                function(myInstance) { 
+                    return function(button) {
+                        var totalFrames = myInstance._frameTimes.length;
+                        if ((button._isOn)&&(myInstance._frameIndex==(totalFrames-1)))
+                        {
+                            myInstance._frameIndex = 0;
+                        }
+                    } 
+                }(instance)
+                );
             this.addChild(this._timelineButton);
         }
         
@@ -1916,7 +1926,7 @@ function OpenHeatMap(canvas, width, height)
 
         var totalFrames = this._frameTimes.length;
 
-        this._frameIndex = Math.round(sliderValue*totalFrames);
+        this._frameIndex = Math.round(sliderValue*(totalFrames-1));
         this._frameIndex = Math.min(this._frameIndex, (totalFrames-1));
         this._frameIndex = Math.max(this._frameIndex, 0);
         
@@ -1939,7 +1949,7 @@ function OpenHeatMap(canvas, width, height)
             this._timelineText.setText(currentTime);
             
             var totalFrames = this._frameTimes.length;
-            this._timelineSlider.setSliderValue(this._frameIndex/totalFrames);
+            this._timelineSlider.setSliderValue(this._frameIndex/(totalFrames-1));
         }
     };
 
@@ -4835,7 +4845,7 @@ function UIButton(x, y, width, height, onImage, offImage, changeCallback)
         this._isOn = !this._isOn;
 
         if (typeof this._changeCallback !== 'undefined')
-            this._changeCallback();
+            this._changeCallback(this);
 
         return false;
     };
