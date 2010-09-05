@@ -105,6 +105,10 @@
 		59B48661120BD00000C96A58 /* callfb.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = callfb.php; sourceTree = "<group>"; };
 		59B48662120C5C4500C96A58 /* placemaker.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = placemaker.php; sourceTree = "<group>"; };
 		59C216EF120106B100114912 /* scifoo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = scifoo.php; path = website/examples/twitter_followers/scifoo.php; sourceTree = "<group>"; };
+		59DA390D122B147F00B61ABD /* translatefunctions.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = translatefunctions.php; path = website/translatefunctions.php; sourceTree = "<group>"; };
+		59DA390E122B147F00B61ABD /* translateutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = translateutils.php; path = website/translateutils.php; sourceTree = "<group>"; };
+		59DA390F122B177400B61ABD /* translatetest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = translatetest.php; path = website/translatetest.php; sourceTree = "<group>"; };
+		59DA3921122B258700B61ABD /* testtranslate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = testtranslate.py; path = mapfileprocess/testtranslate.py; sourceTree = "<group>"; };
 		59E636181218B0A50076D3B4 /* parallelcurl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = parallelcurl.php; path = website/parallelcurl.php; sourceTree = "<group>"; };
 		59E63700121B433B0076D3B4 /* createcitytables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createcitytables.php; path = mapfileprocess/createcitytables.php; sourceTree = "<group>"; };
 		59E6374A121DE6BB0076D3B4 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = scratchpad.py; path = mapfileprocess/scratchpad.py; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 				59820B8411A44A9F0047D5FC /* rules.txt */,
 				59E6374A121DE6BB0076D3B4 /* scratchpad.py */,
 				59820B8511A44A9F0047D5FC /* selectways.php */,
+				59DA3921122B258700B61ABD /* testtranslate.py */,
 				599DCC1511EFAF330082DE3F /* twittercount.php */,
 				599DCC1311EF973F0082DE3F /* twitterlocations.php */,
 				599DCC1411EFAD500082DE3F /* twitterquantize.php */,
@@ -246,6 +251,9 @@
 				59820B9C11A44B890047D5FC /* savesettings.php */,
 				59820B9D11A44B890047D5FC /* settingshelp.php */,
 				590D907E11BB047B00D4F8C1 /* thanks.html */,
+				59DA390D122B147F00B61ABD /* translatefunctions.php */,
+				59DA390F122B177400B61ABD /* translatetest.php */,
+				59DA390E122B147F00B61ABD /* translateutils.php */,
 				59820BBD11A45C100047D5FC /* upload.html */,
 				59820BA111A44B890047D5FC /* uploadcsv.php */,
 				599DCCD711F259E20082DE3F /* uploadgoogle.html */,

@@ -2835,7 +2835,11 @@ function OpenHeatMap(canvas, width, height)
             'credit_text': function(instance) {
                 if (instance._credit !== null)
                 {
-                    instance._credit._text = instance._settings.credit_text;
+                    // Workaround hack for a bad default setting
+                    if (instance._settings.credit_text!='Created with <a href="http://openheatmap.com"><u>OpenHeatMap</u></a>')
+                    {
+                        instance._credit._text = instance._settings.credit_text;
+                    }
                 }
             }
         }
