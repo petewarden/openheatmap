@@ -95,6 +95,11 @@ $cliargs = array(
         'type' => 'switch',
         'description' => 'Whether to output the data for the accepted values table',
     ),
+    'namesonly' => array(
+        'short' => 'n',
+        'type' => 'switch',
+        'description' => 'Whether to output the data as a list of city names only',
+    ),
 );	
 
 $options = cliargs_get_options($cliargs);
@@ -102,6 +107,7 @@ $options = cliargs_get_options($cliargs);
 $input = $options['input'];
 $output = $options['output'];
 $accepted_values = $options['acceptedvalues'];
+$names_only = $options['namesonly'];
 
 $input_osm_ways = new OSMWays();
 $input_contents = file_get_contents($input) or die("Couldn't read file '$input'");
@@ -122,17 +128,22 @@ foreach ($input_osm_ways->ways as $way)
     $city_code = $tags['city_code'];
     $name = $tags['name'];
     
-    if (!isset($state_translation_table[$state_code]))
+    if (!isset($state_translation_table[strtolower($state_code)]))
         continue;
         
-    $state_name = $state_translation_table[$state_code];
+    $state_name = $state_translation_table[strtolower($state_code)];
     
     $full_name = $name.', '.$state_name;
     $full_name = strtolower($full_name);
     $full_name = addslashes($full_name);
+    
+    $name = strtolower($name);
+    $name = addslashes($name);
 
     if ($accepted_values)
         fwrite($output_file_handle, "    '$city_code',\n");
+    else if ($names_only)
+        fwrite($output_file_handle, "    '$name' => true,\n");
     else
         fwrite($output_file_handle, "    '$full_name' => array('$state_code', '$city_code'),\n");
 }

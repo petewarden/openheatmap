@@ -209,7 +209,7 @@ for ($line_index=0; $line_index<$lines_count; $line_index+=1)
         continue;
         
     $state_name = $matches[1];
-    if (!isset($state_translation_table[$state_name]))
+    if (!isset($state_translation_table[strtolower($state_name)]))
         continue;
     
     if (!isset($republican_index)||!isset($democratic_index))
