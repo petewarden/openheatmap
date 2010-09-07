@@ -1,0 +1,23 @@
+/.cvsignore/1.2/Thu Apr 22 14:28:37 2010//
+/Makefile/1.14/Mon Jan  4 04:08:02 2010//
+/ShapeFileII.pas/1.3/Wed May 14 20:04:51 2003//
+/Shape_PointInPoly.cpp/1.1/Fri Jan  9 16:47:57 2004//
+/Shape_PointInPoly_README.txt/1.1/Fri Jan  9 16:47:57 2004//
+/csv2shp.c/1.1/Fri Jun 10 16:56:19 2005//
+/dbfcat.c/1.1/Wed May 26 02:56:31 1999//
+/dbfinfo.c/1.2/Wed May 26 02:56:31 1999//
+/makefile.vc/1.3/Thu Feb 28 20:54:28 2008//
+/my_nan.h/1.2/Fri Jan 11 15:22:20 2002//
+/shpcat.c/1.3/Thu Jan  2 15:20:15 2003//
+/shpcentrd.c/1.2/Wed May 26 02:56:31 1999//
+/shpdata.c/1.2/Wed May 26 02:56:31 1999//
+/shpdxf.c/1.2/Wed May 26 02:59:08 1999//
+/shpfix.c/1.1/Wed May 26 03:20:36 1999//
+/shpgeo.c/1.12/Mon Sep  3 23:17:46 2007//
+/shpgeo.h/1.3/Tue Jan 15 14:36:56 2002//
+/shpinfo.c/1.3/Mon Apr 15 21:33:03 2002//
+/shpproj.c/1.9/Tue Jan 15 14:37:08 2002//
+/shpsort.c/1.3/Tue Jul  6 21:23:17 2004//
+/shpsort.txt/1.1/Tue Jul  6 21:21:08 2004//
+/shpwkb.c/1.1/Wed May 26 02:29:36 1999//
+D
