@@ -943,7 +943,7 @@ function OpenHeatMap(canvas, width, height)
         var mainLatLon = this.getLatLonFromXY(new Point(mouseX, mouseY), this._xYToLatLonMatrix);
         
         var mouseLatLon = null;
-        for (var inlayIndex in this._inlays)
+        for (var inlayIndex=0; inlayIndex<this._inlays.length; inlayIndex += 1)
         {
             var inlay = this._inlays[inlayIndex];
             
@@ -1587,7 +1587,7 @@ function OpenHeatMap(canvas, width, height)
                     context.moveTo(firstPos.x, firstPos.y);
                 }
 
-                for (var currentNdIndex in way.nds)
+                for (var currentNdIndex=0; currentNdIndex<way.nds.length; currentNdIndex+=1)
                 {
                     var currentNd = way.nds[currentNdIndex];
                     var currentNode = this._nodes[currentNd];
@@ -1623,6 +1623,8 @@ function OpenHeatMap(canvas, width, height)
         {
             var minValue = this._settings.gradient_value_min;
             var maxValue = this._settings.gradient_value_max;	
+            if (Math.abs(maxValue-minValue)<0.00001)	
+                minValue = (maxValue-1.0);
         }
         else
         {
@@ -1688,7 +1690,7 @@ function OpenHeatMap(canvas, width, height)
     {
         this._colorGradient = [];
         
-        for (var colorStringIndex in colorList)
+        for (var colorStringIndex=0; colorStringIndex<colorList.length; colorStringIndex+=1)
         {
             var colorString = colorList[colorStringIndex];
             colorString = colorString.replace('#', '0x');
@@ -2085,7 +2087,7 @@ function OpenHeatMap(canvas, width, height)
 
         this.drawImage(this._mainCanvas, this._informationLayerCanvas.get(0), 0, 0, this._settings.width, this._settings.height);
                 
-        for (var inlayIndex in this._inlays)
+        for (var inlayIndex=0; inlayIndex<this._inlays.length; inlayIndex+=1)
         {
             var inlay = this._inlays[inlayIndex];
             
@@ -2212,7 +2214,7 @@ function OpenHeatMap(canvas, width, height)
         this._xYToLatLonMatrix = this._latLonToXYMatrix.clone();
         this._xYToLatLonMatrix.invert();
 
-        for (var inlayIndex in this._inlays)
+        for (var inlayIndex=0; inlayIndex<this._inlays.length; inlayIndex+=1)
         {
             var inlay = this._inlays[inlayIndex];
             var newLatLonToXYMatrix = inlay.latLonToXYMatrix.clone();
@@ -2394,7 +2396,7 @@ function OpenHeatMap(canvas, width, height)
         var lineStart = null;
         var isFirst = true;
         
-        for (var currentNdIndex in way.nds)
+        for (var currentNdIndex=0; currentNdIndex<way.nds.length; currentNdIndex+=1)
         {
             var currentNd = way.nds[currentNdIndex];
             
@@ -2451,7 +2453,7 @@ function OpenHeatMap(canvas, width, height)
         var thicknessSquared = (thickness*thickness);
         
         var isInside = false;
-        for (var currentNdIndex in way.nds)
+        for (var currentNdIndex=0; currentNdIndex<way.nds.length; currentNdIndex+=1)
         {
             var currentNd = way.nds[currentNdIndex];
             
@@ -2922,7 +2924,7 @@ function OpenHeatMap(canvas, width, height)
     {
         var result = [];
         
-        for (var inlayIndex in this._inlays)
+        for (var inlayIndex=0; inlayIndex<this._inlays.length; inlayIndex+=1)
         {
             var inlay = this._inlays[inlayIndex];
         
@@ -2976,7 +2978,7 @@ function OpenHeatMap(canvas, width, height)
 
     this.removeAllPopups = function()
     {
-        for (var popupIndex in this._popups)
+        for (var popupIndex=0; popupIndex<this._popups.length; popupIndex+=1)
         {
             var popup = this._popups[popupIndex];
             this.removeChild(popup.uiComponent);	
@@ -3006,7 +3008,7 @@ function OpenHeatMap(canvas, width, height)
 
         var areAllLoaded = true;
 
-        for (var currentURLIndex in wantedTiles)
+        for (var currentURLIndex=0; currentURLIndex<wantedTiles.length; currentURLIndex+=1)
         {
             var currentURL = wantedTiles[currentURLIndex];
             if (!this._mapTiles[currentURL].imageLoader._isLoaded)
@@ -3026,7 +3028,7 @@ function OpenHeatMap(canvas, width, height)
             }
         }
 
-        for (currentURLIndex in mapTilesURLs)
+        for (currentURLIndex=0; currentURLIndex<mapTilesURLs.length; currentURLIndex+=1)
         {
             var currentURL = mapTilesURLs[currentURLIndex];
             
@@ -3153,7 +3155,7 @@ function OpenHeatMap(canvas, width, height)
         
         var result = [];
         
-        for (var wantedTileIndex in wantedTiles)
+        for (var wantedTileIndex=0; wantedTileIndex<wantedTiles.length; wantedTileIndex+=1)
         {
             var wantedTile = wantedTiles[wantedTileIndex];
             
@@ -3615,6 +3617,8 @@ function OpenHeatMap(canvas, width, height)
         {
             var minValue = this._settings.gradient_value_min;
             var maxValue = this._settings.gradient_value_max;	
+            if (Math.abs(maxValue-minValue)<0.00001)	
+                minValue = (maxValue-1.0);
         }
         else
         {
@@ -3756,6 +3760,7 @@ function OpenHeatMap(canvas, width, height)
 	
     this.selectTab = function(tabIndex) {
         this._selectedTabIndex = tabIndex;
+        this._valuesDirty = true;
         this._dirty = true;
     };
 
@@ -3871,7 +3876,7 @@ function OpenHeatMap(canvas, width, height)
     {
         var context = this.beginDrawing(canvas);
         
-        for (var elementIndex in this._viewerElements)
+        for (var elementIndex=0; elementIndex<this._viewerElements.length; elementIndex+=1)
         {
             var element = this._viewerElements[elementIndex];
             
@@ -3887,7 +3892,7 @@ function OpenHeatMap(canvas, width, height)
         event.localX = currentPosition.x;
         event.localY = currentPosition.y;
 
-        for (var elementIndex in this._viewerElements)
+        for (var elementIndex=0; elementIndex<this._viewerElements.length; elementIndex+=1)
         {
             var element = this._viewerElements[elementIndex];
             if (typeof element[callback] === 'undefined')
@@ -3904,7 +3909,7 @@ function OpenHeatMap(canvas, width, height)
     this.removeChild = function(elementToRemove)
     {
         var newElements = [];
-        for (var elementIndex in this._viewerElements)
+        for (var elementIndex=0; elementIndex<this._viewerElements.length; elementIndex+=1)
         {
             var element = this._viewerElements[elementIndex];
             if (element!==elementToRemove)
@@ -4369,7 +4374,7 @@ function BucketGrid(boundingBox, rows, columns)
             for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
             {
                 var bucket = this._grid[rowIndex][columnIndex];
-                for (var index in bucket.contents)
+                for (var index=0; index<bucket.contents.length; index+=1)
                 {
                     if (bucket.contents[index]==object)
                     {
@@ -4406,7 +4411,7 @@ function BucketGrid(boundingBox, rows, columns)
             for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
             { 
                 var bucket = this._grid[rowIndex][columnIndex];
-                for (var objectIndex in bucket.contents)
+                for (var objectIndex=0; objectIndex<bucket.contents.length; objectIndex += 1)
                     result.push(bucket.contents[objectIndex]);
             }
         }

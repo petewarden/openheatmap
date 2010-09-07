@@ -1092,6 +1092,8 @@ private function setWaysFromValues(): void
 	{
 		var minValue: Number = _settings.gradient_value_min;
 		var maxValue: Number = _settings.gradient_value_max;	
+		if (Math.abs(maxValue-minValue)<0.00001)	
+			minValue = (maxValue-1.0);
 	}
 	else
 	{
@@ -1099,7 +1101,7 @@ private function setWaysFromValues(): void
 		maxValue = _largestValue;
 	}
 	var valueScale: Number = (1/(maxValue-minValue));
-
+	
 	var currentValues: Array = getCurrentValues();
 	
 	var thisSetWayIds: Object = {};
@@ -3126,6 +3128,8 @@ public function drawPointBlobTile(width: Number,
 	{
 		var minValue: Number = _settings.gradient_value_min;
 		var maxValue: Number = _settings.gradient_value_max;	
+		if (Math.abs(maxValue-minValue)<0.00001)	
+			minValue = (maxValue-1.0);
 	}
 	else
 	{
@@ -3318,6 +3322,7 @@ private function getTabInfo(): Object
 private function selectTab(tabIndex: Number): void
 {
 	_selectedTabIndex = tabIndex;
+	_valuesDirty = true;
 	_dirty = true;
 }
 

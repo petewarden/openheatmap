@@ -129,6 +129,8 @@
 		59FC5C4C11FB7BD700A4E6F1 /* parallelcurl.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = parallelcurl.php; path = mapfileprocess/parallelcurl.php; sourceTree = "<group>"; };
 		59FE232A1235879B005C6314 /* uktolatlon.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = uktolatlon.py; path = mapfileprocess/uktolatlon.py; sourceTree = "<group>"; };
 		59FE232B12358EB8005C6314 /* uktolatlon.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = uktolatlon.php; path = mapfileprocess/uktolatlon.php; sourceTree = "<group>"; };
+		59FE232C12369F86005C6314 /* convertjsontoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertjsontoosm.php; path = mapfileprocess/convertjsontoosm.php; sourceTree = "<group>"; };
+		59FE232F1236D042005C6314 /* zipcodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = zipcodes.json; path = website/zipcodes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -185,6 +187,7 @@
 				59820CE511A8789A0047D5FC /* cleanmesh.php */,
 				59820B7811A44A9F0047D5FC /* cliargs.php */,
 				59820B7911A44A9F0047D5FC /* convertasciitoosm.php */,
+				59FE232C12369F86005C6314 /* convertjsontoosm.php */,
 				590D2C3011CACE8B00954586 /* crawlallelectiondata.sh */,
 				590D2C2911CAB31100954586 /* crawlelectiondata.php */,
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
@@ -263,6 +266,7 @@
 				599DCCD711F259E20082DE3F /* uploadgoogle.html */,
 				59820BA211A44B890047D5FC /* utils.php */,
 				59820BA311A44B890047D5FC /* view.html */,
+				59FE232F1236D042005C6314 /* zipcodes.json */,
 			);
 			name = website;
 			sourceTree = "<group>";
