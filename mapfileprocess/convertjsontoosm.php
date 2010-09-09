@@ -1,4 +1,5 @@
 #!/usr/bin/php
+
 <?php
 
 /*
@@ -21,146 +22,18 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 
 require_once('cliargs.php');
 require_once('osmways.php');
-
-function parse_ascii_description_file($file_name, $type)
-{
-    if ($type=='county')
-    {
-        $field_names = array(
-            'state_code',
-            'county_code',
-            'name',
-            'admin_level',
-            'admin_level_name',
-            '',
-        );
-    }
-    else if ($type=='zip')
-    {
-        $field_names = array(
-            'zip_code',
-            'other_code',
-            'tla',
-            'desc',
-            '',
-        );            
-    }
-    else if ($type=='congress')
-    {
-        $field_names = array(
-            'state_code',
-            'district_code',
-            'district_code_no_padding',
-            '_unknown_',
-            'desc',
-            '',
-        );
-    }
-    else
-    {
-        die("Unknown boundary type '$type'\n");
-    }
-
-    $field_length = count($field_names);
-
-    $result = array();
-
-    $file_handle = fopen($file_name, "r") or die("Couldn't open $file_name\n");
-
-    $line_index = 0;
-    while(!feof($file_handle))
-    {
-        $current_line = fgets($file_handle);
-        $current_line = trim($current_line, " \t\"\n");
-
-        if ($line_index===0)
-        {
-            $current_id = $current_line;
-            $result[$current_id] = array();
-        }
-        else
-        {            
-            $key = $field_names[$line_index-1];
-            if (!empty($key))
-                $result[$current_id][$key] = $current_line;
-        }
-        
-        $line_index += 1;
-        if ($line_index>$field_length)
-            $line_index = 0;
-    }
-    
-    fclose($file_handle);
-    
-    return $result;
-}
-
-function parse_ascii_vertex_file($file_name, $description_data, &$result)
-{
-    $file_handle = fopen($file_name, "r") or die("Couldn't open $file_name\n");
-
-    $on_first_line = true;
-    $last_source_id = null;
-    while(!feof($file_handle))
-    {
-        $current_line = fgets($file_handle);
-        $current_line = trim($current_line, " \t\n\"");
-        
-        $current_line = preg_replace('/ +/', ' ', $current_line);
-        $current_data = split(' ', $current_line);
-        
-        if ($on_first_line)
-        {
-            if ($current_line==='END')
-                break;
-
-            $source_id = $current_data[0];
-            
-            if ($source_id==='-99999')
-                $source_id = $last_source_id;
-            
-            $last_source_id = $source_id;
-            
-            $output_id = $result->begin_way();
-        
-            if (!isset($description_data[$source_id]))
-            {  
-                error_log("'$source_id' was not found in $file_name");
-                error_log("Description data: ".print_r($description_data, true));
-                die();
-            }
-            $current_description = $description_data[$source_id];
-            foreach ($current_description as $key => $value)
-            {
-                $result->add_tag($key, $value);
-            }
-        
-            $on_first_line = false;
-        }
-        else
-        {
-            if ($current_line==='END')
-            {
-                $result->end_way();
-                $on_first_line = true;
-                continue;
-            }
-            
-            $lat = (float)($current_data[1]);
-            $lon = (float)($current_data[0]);
-            
-            $result->add_vertex($lat, $lon);
-        }
-    }
-    
-    return $result;
-}
+require_once('uktolatlon.php');
 
 $cliargs = array(
-	'inputdirectory' => array(
-		'short' => 'i',
+	'inputgeometry' => array(
+		'short' => 'g',
 		'type' => 'required',
-		'description' => 'The folder containing the ASCII files',
+		'description' => 'The JSON file containing the geometry data from the .shp file',
+	),
+	'inputattributes' => array(
+		'short' => 'a',
+		'type' => 'required',
+		'description' => 'The JSON file containing the attribute data from the .dbf file',
 	),
 	'outputfile' => array(
 		'short' => 'o',
@@ -168,11 +41,10 @@ $cliargs = array(
 		'description' => 'The file to write the output OSM XML data to - if unset, will write to stdout',
         'default' => 'php://stdout',
 	),
-    'type' => array(
-        'short' => 't',
-        'type' => 'optional',
-        'description' => 'Whether the input file contains ZIP code (zip), county (county) or congressional district (congress) boundaries',
-        'default' => 'county',
+    'convertfromuk' => array(
+        'short' => 'c',
+        'type' => 'switch',
+        'description' => 'Convert from UK Ordnance Survey easting/northing coordinates to lat/lon',
     ),
 );	
 
@@ -180,23 +52,61 @@ ini_set('memory_limit', '-1');
 
 $options = cliargs_get_options($cliargs);
 
-$input_directory = $options['inputdirectory'];
+$input_geometry = $options['inputgeometry'];
+$input_attributes = $options['inputattributes'];
 $output_file = $options['outputfile'];
-$type = $options['type'];
-
-$input_path = $input_directory.'/*a.dat';
-
-error_log("Looking for '$input_path'");
+$convert_from_uk = $options['convertfromuk'];
 
 $osm_ways = new OSMWays();
 
-foreach (glob($input_path) as $description_file)
+$geometry_string = file_get_contents($input_geometry) or die("Couldn't open $input_geometry for reading");
+$geometry = json_decode($geometry_string, true);
+
+$attributes_string = file_get_contents($input_attributes) or die("Couldn't open $input_attributes for reading");
+$attributes = json_decode($attributes_string, true);
+
+$shapes = $geometry['shapes'];
+foreach ($shapes as $shape)
 {
-    $vertex_file = str_replace('a.dat', '.dat', $description_file);
-
-    $description_data = parse_ascii_description_file($description_file, $type);
-
-    parse_ascii_vertex_file($vertex_file, $description_data, $osm_ways);
+    $index = $shape['index'];
+    $parts = $shape['parts'];
+    $current_attributes = $attributes[$index]['attributes'];
+    
+    error_log("Processing $index");
+    
+    foreach ($parts as $part)
+    {
+        $vertices = $part['vertices'];
+        
+        $osm_ways->begin_way();
+        
+        foreach ($vertices as $vertex)
+        {
+            $x = $vertex['x'];
+            $y = $vertex['y'];
+            
+            if ($convert_from_uk)
+            {
+                $geo = NEtoLL($x, $y);
+                $lat = $geo['latitude'];
+                $lon = $geo['longitude'];
+            }
+            else
+            {
+                $lat = $y;
+                $lon = $x;
+            }
+        
+            $osm_ways->add_vertex($lat, $lon);
+        }
+        
+        foreach ($current_attributes as $key => $value)
+        {
+            $osm_ways->add_tag($key, $value);
+        }
+        
+        $osm_ways->end_way();
+    }
 }
 
 $osm_xml = $osm_ways->serialize_to_xml();

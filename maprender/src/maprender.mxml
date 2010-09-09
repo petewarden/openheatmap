@@ -217,6 +217,8 @@ public var VThumbImage:Class;
 
 [Embed(source="embed_images/track.png")]
 public var VTrackImage:Class;
+
+public var _tooltipColumnIndex: int;
 	
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -915,6 +917,7 @@ private function loadValuesFromCSVString(valuesString: String): void
 	_latitudeColumnIndex = -1;
 	_longitudeColumnIndex = -1;
 	_tabColumnIndex = -1;
+	_tooltipColumnIndex = -1;
 	for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
 	{
 		var header: String = _valueHeaders[headerIndex].toLowerCase();
@@ -924,10 +927,12 @@ private function loadValuesFromCSVString(valuesString: String): void
 			_valueColumnIndex = headerIndex;
 		else if ((header==='latitude')||(header==='lat'))
 			_latitudeColumnIndex = headerIndex;
-		else if ((header==='longitude')||(header==='lon'))
+		else if ((header==='longitude')||(header==='lon')||(header==='long'))
 			_longitudeColumnIndex = headerIndex;
 		else if ((header==='tab')||(header==='category'))
 			_tabColumnIndex = headerIndex;
+		else if (header==='tooltip')
+			_tooltipColumnIndex = headerIndex;
 	}
 	
 	var hasLatitude: Boolean = (_latitudeColumnIndex!==-1);
@@ -1126,7 +1131,7 @@ private function setWaysFromValues(): void
 			{
 				thisValue = (Number)(values[i]);
 			}
-			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
+			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex)&&(i!==_tooltipColumnIndex))
 			{
 				var headerName: String = _valueHeaders[i];
 				matchKeys[headerName] = values[i];	
@@ -1430,7 +1435,7 @@ private function getValueForWayId(wayId: String): String
 			{
 				thisValue = values[i];
 			}
-			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex))
+			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex)&&(i!==_tooltipColumnIndex))
 			{
 				var headerName: String = _valueHeaders[i];
 				matchKeys[headerName] = values[i];	

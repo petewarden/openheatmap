@@ -1,5 +1,3 @@
-#!/usr/bin/php
-
 <?php
 
 // Converted from Javascript version by Roger Muggleton:

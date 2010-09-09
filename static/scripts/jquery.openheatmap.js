@@ -777,6 +777,8 @@ function OpenHeatMap(canvas, width, height)
         this._timelineButton = null;
         
         this._wayLayers = [];
+
+        this._tooltipColumnIndex = -1;
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -1435,6 +1437,7 @@ function OpenHeatMap(canvas, width, height)
         this._latitudeColumnIndex = -1;
         this._longitudeColumnIndex = -1;
         this._tabColumnIndex = -1;
+        this._tooltipColumnIndex = -1;
         for(var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++ )
         {
             var header = this._valueHeaders[headerIndex].toLowerCase();
@@ -1444,10 +1447,12 @@ function OpenHeatMap(canvas, width, height)
                 this._valueColumnIndex = headerIndex;
             else if ((header==='latitude')||(header==='lat'))
                 this._latitudeColumnIndex = headerIndex;
-            else if ((header==='longitude')||(header==='lon'))
+            else if ((header==='longitude')||(header==='lon')||(header==='long'))
                 this._longitudeColumnIndex = headerIndex;
             else if ((header==='tab')||(header==='category'))
                 this._tabColumnIndex = headerIndex;
+            else if (header==='tooltip')
+                this._tooltipColumnIndex = headerIndex;
         }
         
         var hasLatitude = (this._latitudeColumnIndex!==-1);
@@ -1658,7 +1663,7 @@ function OpenHeatMap(canvas, width, height)
                 {
                     thisValue = values[i];
                 }
-                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex))
+                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex)&&(i!==this._tooltipColumnIndex))
                 {
                     var headerName = this._valueHeaders[i];
                     matchKeys[headerName] = values[i];	
@@ -1981,7 +1986,7 @@ function OpenHeatMap(canvas, width, height)
                 {
                     thisValue = values[i];
                 }
-                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex))
+                else if ((i!==this._timeColumnIndex)&&(i!==this._tabColumnIndex)&&(i!==this._tooltipColumnIndex))
                 {
                     var headerName = this._valueHeaders[i];
                     matchKeys[headerName] = values[i];	
@@ -4411,7 +4416,7 @@ function BucketGrid(boundingBox, rows, columns)
             for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
             { 
                 var bucket = this._grid[rowIndex][columnIndex];
-                for (var objectIndex=0; objectIndex<bucket.contents.length; objectIndex += 1)
+                for (var objectIndex in bucket.contents)
                     result.push(bucket.contents[objectIndex]);
             }
         }
