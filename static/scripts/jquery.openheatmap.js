@@ -1528,9 +1528,9 @@ function OpenHeatMap(canvas, width, height)
         
         var context = this.beginDrawing(canvas);
 
-        for (var layerIndex in this._wayLayers)
+        for (var layerIndex=0; layerIndex<this._wayLayers.length; layerIndex+=1)
         {
-            for (var wayIndex in this._wayLayers[layerIndex])
+            for (var wayIndex=0; wayIndex<this._wayLayers[layerIndex].length; wayIndex+=1)
             {
                 var way = this._wayLayers[layerIndex][wayIndex];
                 var wayColor;
@@ -1744,7 +1744,7 @@ function OpenHeatMap(canvas, width, height)
             if (matchingWayIds === null)
             {
                 matchingWayIds = {};
-                for (var wayIdIndex in currentMatches)
+                for (var wayIdIndex=0; wayIdIndex<currentMatches.length; wayIdIndex+=1)
                 {
                     var wayId = currentMatches[wayIdIndex];
                     matchingWayIds[wayId] = true;
@@ -1754,7 +1754,7 @@ function OpenHeatMap(canvas, width, height)
             {
                 var previousMatchingWayIds = matchingWayIds;
                 matchingWayIds = {};
-                for (var wayIdIndex in currentMatches)
+                for (var wayIdIndex=0; wayIdIndex<currentMatches.length; wayIdIndex+=1)
                 {
                     var wayId = currentMatches[wayIdIndex];
                     if (typeof previousMatchingWayIds[wayId] !== 'undefined')
