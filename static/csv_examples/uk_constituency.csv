@@ -1,0 +1,633 @@
+uk_constituency,value
+Aldershot,1
+Aldridge-Brownhills,2
+Altrincham and Sale West,3
+Amber Valley,4
+Arundel and South Downs,5
+Ashfield,6
+Ashford,7
+Ashton-under-Lyne,8
+Aylesbury,9
+Banbury,10
+Barking,11
+Barnsley Central,12
+Barnsley East,13
+Barrow and Furness,14
+Basildon and Billericay,15
+Basingstoke,16
+Bassetlaw,17
+Bath,18
+Batley and Spen,19
+Battersea,20
+Beaconsfield,21
+Beckenham,22
+Bedford,23
+Bermondsey and Old Southwark,24
+Berwick-upon-Tweed,25
+Bethnal Green and Bow,26
+Beverley and Holderness,27
+Bexhill and Battle,28
+Bexleyheath and Crayford,29
+Birkenhead,30
+"Birmingham, Edgbaston",31
+"Birmingham, Erdington",32
+"Birmingham, Hall Green",33
+"Birmingham, Hodge Hill",34
+"Birmingham, Ladywood",35
+"Birmingham, Northfield",36
+"Birmingham, Perry Barr",37
+"Birmingham, Selly Oak",38
+"Birmingham, Yardley",39
+Bishop Auckland,40
+Blackburn,41
+Blackley and Broughton,42
+Blackpool North and Cleveleys,43
+Blackpool South,44
+Blaydon,45
+Blyth Valley,46
+Bognor Regis and Littlehampton,47
+Bolsover,48
+Bolton North East,49
+Bolton South East,50
+Bolton West,51
+Bootle,52
+Boston and Skegness,53
+Bosworth,54
+Bournemouth East,55
+Bournemouth West,56
+Bracknell,57
+Bradford East,58
+Bradford South,59
+Bradford West,60
+Braintree,61
+Brent Central,62
+Brent North,63
+Brentford and Isleworth,64
+Brentwood and Ongar,65
+Bridgwater and West Somerset,66
+Brigg and Goole,67
+"Brighton, Kemptown",68
+"Brighton, Pavilion",69
+Bristol East,70
+Bristol North West,71
+Bristol South,72
+Bristol West,73
+Broadland,74
+Bromley and Chislehurst,75
+Bromsgrove,76
+Broxbourne,77
+Broxtowe,78
+Buckingham,79
+Burnley,80
+Burton,81
+Bury North,82
+Bury South,83
+Bury St. Edmunds,84
+Calder Valley,85
+Camberwell and Peckham,86
+Camborne and Redruth,87
+Cambridge,88
+Cannock Chase,89
+Canterbury,90
+Carlisle,91
+Carshalton and Wallington,92
+Castle Point,93
+Central Devon,94
+Central Suffolk and North Ipswich,95
+Charnwood,96
+Chatham and Aylesford,97
+Cheadle,98
+Chelmsford,99
+Chelsea and Fulham,100
+Cheltenham,101
+Chesham and Amersham,102
+Chesterfield,103
+Chichester,104
+Chingford and Woodford Green,105
+Chippenham,106
+Chipping Barnet,107
+Chorley,108
+Christchurch,109
+Cities of London and Westminster,110
+City of Chester,111
+City of Durham,112
+Clacton,113
+Cleethorpes,114
+Colchester,115
+Colne Valley,116
+Congleton,117
+Copeland,118
+Corby,119
+Coventry North East,120
+Coventry North West,121
+Coventry South,122
+Crawley,123
+Crewe and Nantwich,124
+Croydon Central,125
+Croydon North,126
+Croydon South,127
+Dagenham and Rainham,128
+Darlington,129
+Dartford,130
+Daventry,131
+Denton and Reddish,132
+Derby North,133
+Derby South,134
+Derbyshire Dales,135
+Devizes,136
+Dewsbury,137
+Don Valley,138
+Doncaster Central,139
+Doncaster North,140
+Dover,141
+Dudley North,142
+Dudley South,143
+Dulwich and West Norwood,144
+Ealing Central and Acton,145
+Ealing North,146
+"Ealing, Southall",147
+Easington,148
+East Devon,149
+East Ham,150
+East Hampshire,151
+East Surrey,152
+East Worthing and Shoreham,153
+East Yorkshire,154
+Eastbourne,155
+Eastleigh,156
+Eddisbury,157
+Edmonton,158
+Ellesmere Port and Neston,159
+Elmet and Rothwell,160
+Eltham,161
+Enfield North,162
+"Enfield, Southgate",163
+Epping Forest,164
+Epsom and Ewell,165
+Erewash,166
+Erith and Thamesmead,167
+Esher and Walton,168
+Exeter,169
+Fareham,170
+Faversham and Mid Kent,171
+Feltham and Heston,172
+Filton and Bradley Stoke,173
+Finchley and Golders Green,174
+Folkestone and Hythe,175
+Forest of Dean,176
+Fylde,177
+Gainsborough,178
+Garston and Halewood,179
+Gateshead,180
+Gedling,181
+Gillingham and Rainham,182
+Gloucester,183
+Gosport,184
+Grantham and Stamford,185
+Gravesham,186
+Great Grimsby,187
+Great Yarmouth,188
+Greenwich and Woolwich,189
+Guildford,190
+Hackney North and Stoke Newington,191
+Hackney South and Shoreditch,192
+Halesowen and Rowley Regis,193
+Halifax,194
+Haltemprice and Howden,195
+Halton,196
+Hammersmith,197
+Hampstead and Kilburn,198
+Harborough,199
+Harlow,200
+Harrogate and Knaresborough,201
+Harrow East,202
+Harrow West,203
+Hartlepool,204
+Harwich and North Essex,205
+Hastings and Rye,206
+Havant,207
+Hayes and Harlington,208
+Hazel Grove,209
+Hemel Hempstead,210
+Hemsworth,211
+Hendon,212
+Henley,213
+Hereford and South Herefordshire,214
+Hertford and Stortford,215
+Hertsmere,216
+Hexham,217
+Heywood and Middleton,218
+High Peak,219
+Hitchin and Harpenden,220
+Holborn and St. Pancras,221
+Hornchurch and Upminster,222
+Hornsey and Wood Green,223
+Horsham,224
+Houghton and Sunderland South,225
+Hove,226
+Huddersfield,227
+Huntingdon,228
+Hyndburn,229
+Ilford North,230
+Ilford South,231
+Ipswich,232
+Isle of Wight,233
+Islington North,234
+Islington South and Finsbury,235
+Jarrow,236
+Keighley,237
+Kenilworth and Southam,238
+Kensington,239
+Kettering,240
+Kingston and Surbiton,241
+Kingston upon Hull East,242
+Kingston upon Hull North,243
+Kingston upon Hull West and Hessle,244
+Kingswood,245
+Knowsley,246
+Lancaster and Fleetwood,247
+Leeds Central,248
+Leeds East,249
+Leeds North East,250
+Leeds North West,251
+Leeds West,252
+Leicester East,253
+Leicester South,254
+Leicester West,255
+Leigh,256
+Lewes,257
+Lewisham East,258
+Lewisham West and Penge,259
+"Lewisham, Deptford",260
+Leyton and Wanstead,261
+Lichfield,262
+Lincoln,263
+"Liverpool, Riverside",264
+"Liverpool, Walton",265
+"Liverpool, Wavertree",266
+"Liverpool, West Derby",267
+Loughborough,268
+Louth and Horncastle,269
+Ludlow,270
+Luton North,271
+Luton South,272
+Macclesfield,273
+Maidenhead,274
+Maidstone and The Weald,275
+Makerfield,276
+Maldon,277
+Manchester Central,278
+"Manchester, Gorton",279
+"Manchester, Withington",280
+Mansfield,281
+Meon Valley,282
+Meriden,283
+Mid Bedfordshire,284
+Mid Derbyshire,285
+Mid Dorset and North Poole,286
+Mid Norfolk,287
+Mid Sussex,288
+Mid Worcestershire,289
+Middlesbrough,290
+Middlesbrough South and East Cleveland,291
+Milton Keynes North,292
+Milton Keynes South,293
+Mitcham and Morden,294
+Mole Valley,295
+Morecambe and Lunesdale,296
+Morley and Outwood,297
+New Forest East,298
+New Forest West,299
+Newark,300
+Newbury,301
+Newcastle upon Tyne Central,302
+Newcastle upon Tyne East,303
+Newcastle upon Tyne North,304
+Newcastle-under-Lyme,305
+Newton Abbot,306
+"Normanton, Pontefract and Castleford",307
+North Cornwall,308
+North Devon,309
+North Dorset,310
+North Durham,311
+North East Bedfordshire,312
+North East Cambridgeshire,313
+North East Derbyshire,314
+North East Hampshire,315
+North East Hertfordshire,316
+North East Somerset,317
+North Herefordshire,318
+North Norfolk,319
+North Shropshire,320
+North Somerset,321
+North Swindon,322
+North Thanet,323
+North Tyneside,324
+North Warwickshire,325
+North West Cambridgeshire,326
+North West Durham,327
+North West Hampshire,328
+North West Leicestershire,329
+North West Norfolk,330
+North Wiltshire,331
+Northampton North,332
+Northampton South,333
+Norwich North,334
+Norwich South,335
+Nottingham East,336
+Nottingham North,337
+Nottingham South,338
+Nuneaton,339
+Old Bexley and Sidcup,340
+Oldham East and Saddleworth,341
+Oldham West and Royton,342
+Orpington,343
+Oxford East,344
+Oxford West and Abingdon,345
+Pendle,346
+Penistone and Stocksbridge,347
+Penrith and The Border,348
+Peterborough,349
+"Plymouth, Moor View",350
+"Plymouth, Sutton and Devonport",351
+Poole,352
+Poplar and Limehouse,353
+Portsmouth North,354
+Portsmouth South,355
+Preston,356
+Pudsey,357
+Putney,358
+Rayleigh and Wickford,359
+Reading East,360
+Reading West,361
+Redcar,362
+Redditch,363
+Reigate,364
+Ribble Valley,365
+Richmond (Yorks),366
+Richmond Park,367
+Rochdale,368
+Rochester and Strood,369
+Rochford and Southend East,370
+Romford,371
+Romsey and Southampton North,372
+Rossendale and Darwen,373
+Rother Valley,374
+Rotherham,375
+Rugby,376
+"Ruislip, Northwood and Pinner",377
+Runnymede and Weybridge,378
+Rushcliffe,379
+Rutland and Melton,380
+Saffron Walden,381
+Salford and Eccles,382
+Salisbury,383
+Scarborough and Whitby,384
+Scunthorpe,385
+Sedgefield,386
+Sefton Central,387
+Selby and Ainsty,388
+Sevenoaks,389
+Sheffield Central,390
+Sheffield South East,391
+"Sheffield, Brightside and Hillsborough",392
+"Sheffield, Hallam",393
+"Sheffield, Heeley",394
+Sherwood,395
+Shipley,396
+Shrewsbury and Atcham,397
+Sittingbourne and Sheppey,398
+Skipton and Ripon,399
+Sleaford and North Hykeham,400
+Slough,401
+Solihull,402
+Somerton and Frome,403
+South Basildon and East Thurrock,404
+South Cambridgeshire,405
+South Derbyshire,406
+South Dorset,407
+South East Cambridgeshire,408
+South East Cornwall,409
+South Holland and The Deepings,410
+South Leicestershire,411
+South Norfolk,412
+South Northamptonshire,413
+South Ribble,414
+South Shields,415
+South Staffordshire,416
+South Suffolk,417
+South Swindon,418
+South Thanet,419
+South West Bedfordshire,420
+South West Devon,421
+South West Hertfordshire,422
+South West Norfolk,423
+South West Surrey,424
+South West Wiltshire,425
+"Southampton, Itchen",426
+"Southampton, Test",427
+Southend West,428
+Southport,429
+Spelthorne,430
+St. Albans,431
+St. Austell and Newquay,432
+St. Helens North,433
+St. Helens South and Whiston,434
+St. Ives,435
+Stafford,436
+Staffordshire Moorlands,437
+Stalybridge and Hyde,438
+Stevenage,439
+Stockport,440
+Stockton North,441
+Stockton South,442
+Stoke-on-Trent Central,443
+Stoke-on-Trent North,444
+Stoke-on-Trent South,445
+Stone,446
+Stourbridge,447
+Stratford-on-Avon,448
+Streatham,449
+Stretford and Urmston,450
+Stroud,451
+Suffolk Coastal,452
+Sunderland Central,453
+Surrey Heath,454
+Sutton and Cheam,455
+Sutton Coldfield,456
+Tamworth,457
+Tatton,458
+Taunton Deane,459
+Telford,460
+Tewkesbury,461
+The Cotswolds,462
+The Wrekin,463
+Thirsk and Malton,464
+Thornbury and Yate,465
+Thurrock,466
+Tiverton and Honiton,467
+Tonbridge and Malling,468
+Tooting,469
+Torbay,470
+Torridge and West Devon,471
+Totnes,472
+Tottenham,473
+Truro and Falmouth,474
+Tunbridge Wells,475
+Twickenham,476
+Tynemouth,477
+Uxbridge and South Ruislip,478
+Vauxhall,479
+Wakefield,480
+Wallasey,481
+Walsall North,482
+Walsall South,483
+Walthamstow,484
+Wansbeck,485
+Wantage,486
+Warley,487
+Warrington North,488
+Warrington South,489
+Warwick and Leamington,490
+Washington and Sunderland West,491
+Watford,492
+Waveney,493
+Wealden,494
+Weaver Vale,495
+Wellingborough,496
+Wells,497
+Welwyn Hatfield,498
+Wentworth and Dearne,499
+West Bromwich East,500
+West Bromwich West,501
+West Dorset,502
+West Ham,503
+West Lancashire,504
+West Suffolk,505
+West Worcestershire,506
+Westminster North,507
+Westmorland and Lonsdale,508
+Weston-Super-Mare,509
+Wigan,510
+Wimbledon,511
+Winchester,512
+Windsor,513
+Wirral South,514
+Wirral West,515
+Witham,516
+Witney,517
+Woking,518
+Wokingham,519
+Wolverhampton North East,520
+Wolverhampton South East,521
+Wolverhampton South West,522
+Worcester,523
+Workington,524
+Worsley and Eccles South,525
+Worthing West,526
+Wycombe,527
+Wyre and Preston North,528
+Wyre Forest,529
+Wythenshawe and Sale East,530
+Yeovil,531
+York Central,532
+York Outer,533
+Ynys Mon,534
+Delyn,535
+Alyn and Deeside,536
+Wrexham,537
+Llanelli,538
+Gower,539
+Swansea West,540
+Swansea East,541
+Aberavon,542
+Cardiff Central,543
+Cardiff North,544
+Rhondda,545
+Torfaen,546
+Monmouth,547
+Newport East,548
+Newport West,549
+Arfon,550
+Aberconwy,551
+Clwyd West,552
+Vale of Clwyd,553
+Dwyfor Meirionnydd,554
+Clwyd South,555
+Montgomeryshire,556
+Ceredigion,557
+Preseli Pembrokeshire,558
+Carmarthen West and South Pembrokeshire,559
+Carmarthen East and Dinefwr,560
+Brecon and Radnorshire,561
+Neath,562
+Cynon Valley,563
+Merthyr Tydfil and Rhymney,564
+Blaenau Gwent,565
+Bridgend,566
+Ogmore,567
+Pontypridd,568
+Caerphilly,569
+Islwyn,570
+Vale of Glamorgan,571
+Cardiff West,572
+Cardiff South and Penarth,573
+Aberdeen North,574
+Aberdeen South,575
+Airdrie and Shotts,576
+Angus,577
+Argyll and Bute,578
+"Ayr, Carrick and Cumnock",579
+Banff and Buchan,580
+"Berwickshire, Roxburgh and Selkirk",581
+"Caithness, Sutherland and Easter Ross",582
+Central Ayrshire,583
+"Coatbridge, Chryston and Bellshill",584
+"Cumbernauld, Kilsyth and Kirkintilloch East",585
+Dumfries and Galloway,586
+"Dumfriesshire, Clydesdale and Tweeddale",587
+Dundee East,588
+Dundee West,589
+Dunfermline and West Fife,590
+East Dunbartonshire,591
+"East Kilbride, Strathaven and Lesmahagow",592
+East Lothian,593
+East Renfrewshire,594
+Edinburgh East,595
+Edinburgh North and Leith,596
+Edinburgh South,597
+Edinburgh South West,598
+Edinburgh West,599
+Falkirk,600
+Glasgow Central,601
+Glasgow East,602
+Glasgow North,603
+Glasgow North East,604
+Glasgow North West,605
+Glasgow South,606
+Glasgow South West,607
+Glenrothes,608
+Gordon,609
+Inverclyde,610
+"Inverness, Nairn, Badenoch and Strathspey",611
+Kilmarnock and Loudoun,612
+Kirkcaldy and Cowdenbeath,613
+Lanark and Hamilton East,614
+Linlithgow and East Falkirk,615
+Livingston,616
+Midlothian,617
+Moray,618
+Motherwell and Wishaw,619
+Na h-Eileanan an Iar,620
+North Ayrshire and Arran,621
+North East Fife,622
+Ochil and South Perthshire,623
+Orkney and Shetland,624
+Paisley and Renfrewshire North,625
+Paisley and Renfrewshire South,626
+Perth and North Perthshire,627
+"Ross, Skye and Lochaber",628
+Rutherglen and Hamilton West,629
+Stirling,630
+West Aberdeenshire and Kincardine,631
+West Dunbartonshire,632

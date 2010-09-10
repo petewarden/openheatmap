@@ -98,5 +98,6 @@
         
         return this;
     };
+
 }(jQuery));
 

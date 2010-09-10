@@ -1,0 +1,93 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "CODE": "CA01",
+           "NAME": "Alberta"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "CODE": "CA11",
+           "NAME": "Saskatchewan"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "CODE": "CA03",
+           "NAME": "Manitoba"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "CODE": "CA05",
+           "NAME": "Newfoundland  & Labrador"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "CODE": "CA09",
+           "NAME": "Prince Edward Island"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "CODE": "CA07",
+           "NAME": "Nova Scotia"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "CODE": "CA06",
+           "NAME": "Northwest Territories"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "CODE": "CA13",
+           "NAME": "Nunavut"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "CODE": "CA08",
+           "NAME": "Ontario"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "CODE": "CA04",
+           "NAME": "New Brunswick"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "CODE": "CA12",
+           "NAME": "Yukon Territory"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "CODE": "CA02",
+           "NAME": "British Columbia"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "CODE": "CA10",
+           "NAME": "Quebec"
+       }
+    }
+]
