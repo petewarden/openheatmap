@@ -1,0 +1,572 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 2,
+           "FEATUREID": "2",
+           "CNTRLONG": -115108856,
+           "CNTRLAT": 30586203,
+           "DESCRIP": "BAJA CALIFORNIA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 3,
+           "FEATUREID": "26",
+           "CNTRLONG": -110797821,
+           "CNTRLAT": 29693926,
+           "DESCRIP": "SONORA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 4,
+           "FEATUREID": "8",
+           "CNTRLONG": -106466583,
+           "CNTRLAT": 28813375,
+           "DESCRIP": "CHIHUAHUA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 5,
+           "FEATUREID": "5",
+           "CNTRLONG": -102041122,
+           "CNTRLAT": 27298523,
+           "DESCRIP": "COAHUILA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 6,
+           "FEATUREID": "2",
+           "CNTRLONG": -114146698,
+           "CNTRLAT": 28038691,
+           "DESCRIP": "BAJA CALIFORNIA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 7,
+           "FEATUREID": "2",
+           "CNTRLONG": -114097397,
+           "CNTRLAT": 28016373,
+           "DESCRIP": "BAJA CALIFORNIA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 8,
+           "FEATUREID": "3",
+           "CNTRLONG": -112050613,
+           "CNTRLAT": 25931843,
+           "DESCRIP": "BAJA CALIFORNIA SUR",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 9,
+           "FEATUREID": "19",
+           "CNTRLONG": -99978210,
+           "CNTRLAT": 25569424,
+           "DESCRIP": "NUEVO LEON",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 10,
+           "FEATUREID": "28",
+           "CNTRLONG": -98667511,
+           "CNTRLAT": 24272781,
+           "DESCRIP": "TAMAULIPAS",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 11,
+           "FEATUREID": "25",
+           "CNTRLONG": -107459572,
+           "CNTRLAT": 24995892,
+           "DESCRIP": "SINALOA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 12,
+           "FEATUREID": "10",
+           "CNTRLONG": -104903877,
+           "CNTRLAT": 24929398,
+           "DESCRIP": "DURANGO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 13,
+           "FEATUREID": "26",
+           "CNTRLONG": -109195374,
+           "CNTRLAT": 26306414,
+           "DESCRIP": "SONORA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 14,
+           "FEATUREID": "32",
+           "CNTRLONG": -102694847,
+           "CNTRLAT": 23279861,
+           "DESCRIP": "ZACATECAS",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 15,
+           "FEATUREID": "24",
+           "CNTRLONG": -100439812,
+           "CNTRLAT": 22588728,
+           "DESCRIP": "SAN LUIS POTOSI",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 16,
+           "FEATUREID": "18",
+           "CNTRLONG": -104890831,
+           "CNTRLAT": 21831696,
+           "DESCRIP": "NAYARIT",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 17,
+           "FEATUREID": "14",
+           "CNTRLONG": -103613823,
+           "CNTRLAT": 20592760,
+           "DESCRIP": "JALISCO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 18,
+           "FEATUREID": "30",
+           "CNTRLONG": -96401215,
+           "CNTRLAT": 19361069,
+           "DESCRIP": "VERACRUZ",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 19,
+           "FEATUREID": "1",
+           "CNTRLONG": -102358627,
+           "CNTRLAT": 22007948,
+           "DESCRIP": "AGUASCALIENTES",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 20,
+           "FEATUREID": "11",
+           "CNTRLONG": -101011391,
+           "CNTRLAT": 20899094,
+           "DESCRIP": "GUANAJUATO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 21,
+           "FEATUREID": "22",
+           "CNTRLONG": -99852158,
+           "CNTRLAT": 20853729,
+           "DESCRIP": "QUERETARO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 22,
+           "FEATUREID": "31",
+           "CNTRLONG": -88926384,
+           "CNTRLAT": 20777872,
+           "DESCRIP": "YUCATAN",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 23,
+           "FEATUREID": "23",
+           "CNTRLONG": -88275360,
+           "CNTRLAT": 19536064,
+           "DESCRIP": "QUINTANA ROO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 24,
+           "FEATUREID": "13",
+           "CNTRLONG": -98881027,
+           "CNTRLAT": 20482183,
+           "DESCRIP": "HIDALGO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 25,
+           "FEATUREID": "4",
+           "CNTRLONG": -90405067,
+           "CNTRLAT": 20802975,
+           "DESCRIP": "CAMPECHE",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 26,
+           "FEATUREID": "4",
+           "CNTRLONG": -90413155,
+           "CNTRLAT": 18876432,
+           "DESCRIP": "CAMPECHE",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 27,
+           "FEATUREID": "21",
+           "CNTRLONG": -97892883,
+           "CNTRLAT": 19015203,
+           "DESCRIP": "PUEBLA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 28,
+           "FEATUREID": "23",
+           "CNTRLONG": -86918549,
+           "CNTRLAT": 20440002,
+           "DESCRIP": "QUINTANA ROO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 29,
+           "FEATUREID": "16",
+           "CNTRLONG": -101884583,
+           "CNTRLAT": 19209316,
+           "DESCRIP": "MICHOACAN",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 30,
+           "FEATUREID": "15",
+           "CNTRLONG": -99644241,
+           "CNTRLAT": 19356070,
+           "DESCRIP": "EDO. DE MEXICO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 31,
+           "FEATUREID": "29",
+           "CNTRLONG": -98173476,
+           "CNTRLAT": 19425001,
+           "DESCRIP": "TLAXCALA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 32,
+           "FEATUREID": "9",
+           "CNTRLONG": -99139122,
+           "CNTRLAT": 19276987,
+           "DESCRIP": "DISTRITO FEDERAL",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 33,
+           "FEATUREID": "6",
+           "CNTRLONG": -103911613,
+           "CNTRLAT": 19135908,
+           "DESCRIP": "COLIMA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 34,
+           "FEATUREID": "17",
+           "CNTRLONG": -99068398,
+           "CNTRLAT": 18732716,
+           "DESCRIP": "MORELOS",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 35,
+           "FEATUREID": "12",
+           "CNTRLONG": -99912758,
+           "CNTRLAT": 17665871,
+           "DESCRIP": "GUERRERO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 36,
+           "FEATUREID": "4",
+           "CNTRLONG": -91676842,
+           "CNTRLAT": 18684244,
+           "DESCRIP": "CAMPECHE",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 37,
+           "FEATUREID": "20",
+           "CNTRLONG": -96447479,
+           "CNTRLAT": 16967752,
+           "DESCRIP": "OAXACA",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 38,
+           "FEATUREID": "27",
+           "CNTRLONG": -92574997,
+           "CNTRLAT": 17928041,
+           "DESCRIP": "TABASCO",
+           "STFIPS": null
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "RECTYPE": "A",
+           "VERSION": "01",
+           "REVISION": "00",
+           "MODDATE": null,
+           "POLYID": 39,
+           "FEATUREID": "7",
+           "CNTRLONG": -92464523,
+           "CNTRLAT": 16479174,
+           "DESCRIP": "CHIAPAS",
+           "STFIPS": null
+       }
+    }
+]
