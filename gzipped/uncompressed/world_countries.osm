@@ -79194,8 +79194,9 @@
     <nd ref="288235"/>
     <nd ref="288239"/>
     <nd ref="288231"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
+    <tag k="country_code" v="SCT"/>
     <tag k="country_code" v="GBR"/>
   </way>
   <way id="288241">
@@ -79203,25 +79204,27 @@
     <nd ref="288258"/>
     <nd ref="288264"/>
     <nd ref="288247"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="England"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="ENG"/>
   </way>
   <way id="288265">
     <nd ref="288269"/>
     <nd ref="288272"/>
     <nd ref="288277"/>
     <nd ref="288269"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288278">
     <nd ref="288283"/>
     <nd ref="288285"/>
     <nd ref="288290"/>
     <nd ref="288283"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
   </way>
@@ -79230,17 +79233,19 @@
     <nd ref="288303"/>
     <nd ref="288308"/>
     <nd ref="288297"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288316">
     <nd ref="288318"/>
     <nd ref="288321"/>
     <nd ref="288328"/>
     <nd ref="288318"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Wales"/>
     <tag k="region" v="150"/>
+    <tag k="country_code" v="WLS"/>
     <tag k="country_code" v="GBR"/>
   </way>
   <way id="288336">
@@ -79249,8 +79254,9 @@
     <nd ref="288345"/>
     <nd ref="288363"/>
     <nd ref="288337"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Wales"/>
     <tag k="region" v="150"/>
+    <tag k="country_code" v="WLS"/>
     <tag k="country_code" v="GBR"/>
   </way>
   <way id="288367">
@@ -79273,8 +79279,9 @@
     <nd ref="288531"/>
     <nd ref="288536"/>
     <nd ref="288372"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Northern Ireland"/>
     <tag k="region" v="150"/>
+    <tag k="country_code" v="NIR"/>
     <tag k="country_code" v="GBR"/>
   </way>
   <way id="288538">
@@ -79282,9 +79289,10 @@
     <nd ref="288543"/>
     <nd ref="288553"/>
     <nd ref="288542"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288554">
     <nd ref="288558"/>
@@ -79292,18 +79300,20 @@
     <nd ref="288583"/>
     <nd ref="288586"/>
     <nd ref="288558"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288591">
     <nd ref="288595"/>
     <nd ref="288598"/>
     <nd ref="288607"/>
     <nd ref="288595"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288614">
     <nd ref="288626"/>
@@ -79313,90 +79323,100 @@
     <nd ref="288668"/>
     <nd ref="288676"/>
     <nd ref="288626"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288680">
     <nd ref="288684"/>
     <nd ref="288690"/>
     <nd ref="288694"/>
     <nd ref="288684"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288696">
     <nd ref="288698"/>
     <nd ref="288710"/>
     <nd ref="288718"/>
     <nd ref="288698"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288734">
     <nd ref="288736"/>
     <nd ref="288741"/>
     <nd ref="288747"/>
     <nd ref="288736"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288752">
     <nd ref="288754"/>
     <nd ref="288758"/>
     <nd ref="288763"/>
     <nd ref="288754"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288764">
     <nd ref="288769"/>
     <nd ref="288778"/>
     <nd ref="288779"/>
     <nd ref="288769"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288781">
     <nd ref="288786"/>
     <nd ref="288791"/>
     <nd ref="288794"/>
     <nd ref="288786"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288795">
     <nd ref="288797"/>
     <nd ref="288802"/>
     <nd ref="288804"/>
     <nd ref="288797"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288806">
     <nd ref="288808"/>
     <nd ref="288813"/>
     <nd ref="288819"/>
     <nd ref="288808"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288823">
     <nd ref="288833"/>
     <nd ref="288839"/>
     <nd ref="288846"/>
     <nd ref="288833"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288847">
     <nd ref="288850"/>
@@ -79406,63 +79426,70 @@
     <nd ref="288928"/>
     <nd ref="288932"/>
     <nd ref="288850"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288945">
     <nd ref="288952"/>
     <nd ref="288962"/>
     <nd ref="288966"/>
     <nd ref="288952"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288968">
     <nd ref="288972"/>
     <nd ref="288979"/>
     <nd ref="288987"/>
     <nd ref="288972"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="288988">
     <nd ref="288993"/>
     <nd ref="289000"/>
     <nd ref="289011"/>
     <nd ref="288993"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289014">
     <nd ref="289023"/>
     <nd ref="289024"/>
     <nd ref="289029"/>
     <nd ref="289023"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289032">
     <nd ref="289034"/>
     <nd ref="289039"/>
     <nd ref="289043"/>
     <nd ref="289034"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289045">
     <nd ref="289050"/>
     <nd ref="289055"/>
     <nd ref="289061"/>
     <nd ref="289050"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289068">
     <nd ref="289075"/>
@@ -79470,36 +79497,40 @@
     <nd ref="289086"/>
     <nd ref="289094"/>
     <nd ref="289075"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289103">
     <nd ref="289109"/>
     <nd ref="289117"/>
     <nd ref="289124"/>
     <nd ref="289109"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289127">
     <nd ref="289136"/>
     <nd ref="289144"/>
     <nd ref="289145"/>
     <nd ref="289136"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289149">
     <nd ref="289151"/>
     <nd ref="289156"/>
     <nd ref="289161"/>
     <nd ref="289151"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289162">
     <nd ref="289168"/>
@@ -79513,54 +79544,60 @@
     <nd ref="289269"/>
     <nd ref="289275"/>
     <nd ref="289168"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289276">
     <nd ref="289282"/>
     <nd ref="289299"/>
     <nd ref="289307"/>
     <nd ref="289282"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289308">
     <nd ref="289310"/>
     <nd ref="289314"/>
     <nd ref="289320"/>
     <nd ref="289310"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289323">
     <nd ref="289325"/>
     <nd ref="289330"/>
     <nd ref="289334"/>
     <nd ref="289325"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289335">
     <nd ref="289337"/>
     <nd ref="289345"/>
     <nd ref="289348"/>
     <nd ref="289337"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289349">
     <nd ref="289353"/>
     <nd ref="289359"/>
     <nd ref="289363"/>
     <nd ref="289353"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289364">
     <nd ref="289408"/>
@@ -79574,14 +79611,12 @@
     <nd ref="289530"/>
     <nd ref="289540"/>
     <nd ref="289408"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="289541">
-    <nd ref="288337"/>
-    <nd ref="289554"/>
-    <nd ref="289576"/>
     <nd ref="289610"/>
     <nd ref="289615"/>
     <nd ref="289629"/>
@@ -79590,6 +79625,72 @@
     <nd ref="289655"/>
     <nd ref="289671"/>
     <nd ref="289674"/>
+    <nd ref="289690"/>
+    <nd ref="290754"/>
+    <nd ref="290764"/>
+    <nd ref="290772"/>
+    <nd ref="290786"/>
+    <nd ref="290793"/>
+    <nd ref="290797"/>
+    <nd ref="290806"/>
+    <nd ref="290814"/>
+    <nd ref="290825"/>
+    <nd ref="290836"/>
+    <nd ref="290904"/>
+    <nd ref="290915"/>
+    <nd ref="290927"/>
+    <nd ref="290933"/>
+    <nd ref="290954"/>
+    <nd ref="290967"/>
+    <nd ref="290979"/>
+    <nd ref="290989"/>
+    <nd ref="290998"/>
+    <nd ref="291004"/>
+    <nd ref="291028"/>
+    <nd ref="291042"/>
+    <nd ref="291073"/>
+    <nd ref="291089"/>
+    <nd ref="291120"/>
+    <nd ref="291130"/>
+    <nd ref="291131"/>
+    <nd ref="291155"/>
+    <nd ref="291171"/>
+    <nd ref="291178"/>
+    <nd ref="291188"/>
+    <nd ref="291204"/>
+    <nd ref="291216"/>
+    <nd ref="291222"/>
+    <nd ref="291237"/>
+    <nd ref="291256"/>
+    <nd ref="291269"/>
+    <nd ref="291281"/>
+    <nd ref="291295"/>
+    <nd ref="291309"/>
+    <nd ref="291314"/>
+    <nd ref="291321"/>
+    <nd ref="291344"/>
+    <nd ref="291357"/>
+    <nd ref="291360"/>
+    <nd ref="291375"/>
+    <nd ref="291389"/>
+    <nd ref="291429"/>
+    <nd ref="291448"/>
+    <nd ref="291465"/>
+    <nd ref="291476"/>
+    <nd ref="291483"/>
+    <nd ref="291491"/>
+    <nd ref="291510"/>
+    <nd ref="291511"/>
+    <nd ref="291517"/>
+    <nd ref="291544"/>
+    <nd ref="289610"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="name" v="England"/>
+    <tag k="region" v="150"/>
+    <tag k="country_code" v="ENG"/>
+    <tag k="country_code" v="GBR"/>
+  </way>
+  <way id="289542">
     <nd ref="289690"/>
     <nd ref="289702"/>
     <nd ref="289705"/>
@@ -79662,61 +79763,14 @@
     <nd ref="290733"/>
     <nd ref="290747"/>
     <nd ref="290754"/>
-    <nd ref="290764"/>
-    <nd ref="290772"/>
-    <nd ref="290786"/>
-    <nd ref="290793"/>
-    <nd ref="290797"/>
-    <nd ref="290806"/>
-    <nd ref="290814"/>
-    <nd ref="290825"/>
-    <nd ref="290836"/>
-    <nd ref="290904"/>
-    <nd ref="290915"/>
-    <nd ref="290927"/>
-    <nd ref="290933"/>
-    <nd ref="290954"/>
-    <nd ref="290967"/>
-    <nd ref="290979"/>
-    <nd ref="290989"/>
-    <nd ref="290998"/>
-    <nd ref="291004"/>
-    <nd ref="291028"/>
-    <nd ref="291042"/>
-    <nd ref="291073"/>
-    <nd ref="291089"/>
-    <nd ref="291120"/>
-    <nd ref="291130"/>
-    <nd ref="291131"/>
-    <nd ref="291155"/>
-    <nd ref="291171"/>
-    <nd ref="291178"/>
-    <nd ref="291188"/>
-    <nd ref="291204"/>
-    <nd ref="291216"/>
-    <nd ref="291222"/>
-    <nd ref="291237"/>
-    <nd ref="291256"/>
-    <nd ref="291269"/>
-    <nd ref="291281"/>
-    <nd ref="291295"/>
-    <nd ref="291309"/>
-    <nd ref="291314"/>
-    <nd ref="291321"/>
-    <nd ref="291344"/>
-    <nd ref="291357"/>
-    <nd ref="291360"/>
-    <nd ref="291375"/>
-    <nd ref="291389"/>
-    <nd ref="291429"/>
-    <nd ref="291448"/>
-    <nd ref="291465"/>
-    <nd ref="291476"/>
-    <nd ref="291483"/>
-    <nd ref="291491"/>
-    <nd ref="291510"/>
-    <nd ref="291511"/>
-    <nd ref="291517"/>
+    <nd ref="289690"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="name" v="Scotland"/>
+    <tag k="region" v="150"/>
+    <tag k="country_code" v="SCT"/>
+    <tag k="country_code" v="GBR"/>
+  </way>
+  <way id="289543">
     <nd ref="291544"/>
     <nd ref="291565"/>
     <nd ref="291572"/>
@@ -79733,9 +79787,15 @@
     <nd ref="291736"/>
     <nd ref="291748"/>
     <nd ref="288337"/>
+    <nd ref="288337"/>
+    <nd ref="289554"/>
+    <nd ref="289576"/>
+    <nd ref="289610"/>
+    <nd ref="291544"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Wales"/>
     <tag k="region" v="150"/>
+    <tag k="country_code" v="WLS"/>
     <tag k="country_code" v="GBR"/>
   </way>
   <way id="291756">
@@ -79743,18 +79803,20 @@
     <nd ref="291774"/>
     <nd ref="291775"/>
     <nd ref="291763"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291776">
     <nd ref="291780"/>
     <nd ref="291788"/>
     <nd ref="291792"/>
     <nd ref="291780"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291798">
     <nd ref="291800"/>
@@ -79762,27 +79824,30 @@
     <nd ref="291820"/>
     <nd ref="291828"/>
     <nd ref="291800"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291835">
     <nd ref="291847"/>
     <nd ref="291853"/>
     <nd ref="291854"/>
     <nd ref="291847"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291859">
     <nd ref="291866"/>
     <nd ref="291879"/>
     <nd ref="291884"/>
     <nd ref="291866"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291885">
     <nd ref="291887"/>
@@ -79797,27 +79862,30 @@
     <nd ref="291976"/>
     <nd ref="291983"/>
     <nd ref="291887"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="291987">
     <nd ref="291998"/>
     <nd ref="292005"/>
     <nd ref="292011"/>
     <nd ref="291998"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="292012">
     <nd ref="292017"/>
     <nd ref="292021"/>
     <nd ref="292026"/>
     <nd ref="292017"/>
-    <tag k="name" v="United Kingdom"/>
+    <tag k="name" v="Scotland"/>
     <tag k="region" v="150"/>
     <tag k="country_code" v="GBR"/>
+    <tag k="country_code" v="SCT"/>
   </way>
   <way id="292028">
     <nd ref="292030"/>

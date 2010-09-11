@@ -786,8 +786,21 @@ private function onWaysLoad(success:Boolean): void
 	  	{
 	  		var key: String = tag.@k;
 	  		var value: String = tag.@v;
-	  		
-	  		newWay.tags[key] = value;
+
+			if (typeof newWay.tags[key] === 'undefined')
+			{
+				newWay.tags[key] = value;				
+			}
+			else
+			{
+				var oldValue: * = newWay.tags[key];
+				if (!(oldValue is Array))
+				{
+					oldValue = [ oldValue ];
+				}
+				oldValue.push(value);
+	  			newWay.tags[key] = oldValue;
+			}
 	  		
 	  		if (typeof _tagMap[key] === 'undefined')
 	  			_tagMap[key] = {};
@@ -1097,14 +1110,14 @@ private function setWaysFromValues(): void
 	{
 		var minValue: Number = _settings.gradient_value_min;
 		var maxValue: Number = _settings.gradient_value_max;	
-		if (Math.abs(maxValue-minValue)<0.00001)	
-			minValue = (maxValue-1.0);
 	}
 	else
 	{
 		minValue = _smallestValue;
 		maxValue = _largestValue;
 	}
+	if (Math.abs(maxValue-minValue)<0.00001)	
+		minValue = (maxValue-1.0);
 	var valueScale: Number = (1/(maxValue-minValue));
 	
 	var currentValues: Array = getCurrentValues();
@@ -1448,8 +1461,24 @@ private function getValueForWayId(wayId: String): String
 		{
 			var value:String = matchKeys[key];
 			
-			if (way.tags[key]!==value)
-				allMatch = false;
+			var wayValue: * = way.tags[key];
+			if (wayValue is Array)
+			{
+				var anyMatch: Boolean = false;
+				for (var wayValueIndex: int = 0; wayValueIndex<wayValue.length; wayValueIndex+=1)
+				{
+					var subValue: String = wayValue[wayValueIndex];
+					if (subValue==value)
+						anyMatch = true;
+				}
+				if (!anyMatch)
+					allMatch = false;
+			}
+			else
+			{
+				if (way.tags[key]!==value)
+					allMatch = false;
+			}
 			
 			emptyMatchKeys = false;
 		}

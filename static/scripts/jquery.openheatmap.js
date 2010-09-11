@@ -1290,8 +1290,21 @@ function OpenHeatMap(canvas, width, height)
                 
                 var key = $(this).attr('k');
                 var value = $(this).attr('v');
-	  		
-                newWay.tags[key] = value;
+
+                if (typeof newWay.tags[key] === 'undefined')
+                {
+                    newWay.tags[key] = value;				
+                }
+                else
+                {
+                    var oldValue = newWay.tags[key];
+                    if (!(oldValue instanceof Array))
+                    {
+                        oldValue = [ oldValue ];
+                    }
+                    oldValue.push(value);
+                    newWay.tags[key] = oldValue;
+                }
 	  		
                 if (typeof instance._tagMap[key] === 'undefined')
                     instance._tagMap[key] = {};
@@ -1628,14 +1641,14 @@ function OpenHeatMap(canvas, width, height)
         {
             var minValue = this._settings.gradient_value_min;
             var maxValue = this._settings.gradient_value_max;	
-            if (Math.abs(maxValue-minValue)<0.00001)	
-                minValue = (maxValue-1.0);
         }
         else
         {
             minValue = this._smallestValue;
             maxValue = this._largestValue;
         }
+        if (Math.abs(maxValue-minValue)<0.00001)	
+            minValue = (maxValue-1.0);
         var valueScale = (1.0/(maxValue-minValue));
 
         var currentValues = this.getCurrentValues();
@@ -1999,8 +2012,24 @@ function OpenHeatMap(canvas, width, height)
             {
                 var value = matchKeys[key];
                 
-                if (way.tags[key]!==value)
-                    allMatch = false;
+                var wayValue = way.tags[key];
+                if (wayValue instanceof Array)
+                {
+                    var anyMatch = false;
+                    for (var wayValueIndex = 0; wayValueIndex<wayValue.length; wayValueIndex+=1)
+                    {
+                        var subValue = wayValue[wayValueIndex];
+                        if (subValue==value)
+                            anyMatch = true;
+                    }
+                    if (!anyMatch)
+                        allMatch = false;
+                }
+                else
+                {
+                    if (way.tags[key]!==value)
+                        allMatch = false;
+                }
                     
                 emptyMatchKeys = false;
             }
