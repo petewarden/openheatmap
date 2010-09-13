@@ -1020,7 +1020,8 @@ $(function()
     $('#footer_byline').staticfade([
             $('<div>Background detail from <a href="http://openstreetmap.org">OpenStreetMap</a></div>'),
             $('<div>Country boundaries by <a href="http://thematicmapping.org/">Thematic Mapping</a></div>'),
-            $('<div>Contains Ordnance Survey data <a href="http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/index.html">© Crown copyright and database right 2010</a></div>')
+            $('<div>Contains Ordnance Survey data <a href="http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/index.html">© Crown copyright and database right 2010</a></div>'),
+            $('<div>Irish boundaries by <a href="http://www.tallyroom.com.au/maps">Ben Raue</a></div>')
         ],
         {
             fadeTime: 1000,

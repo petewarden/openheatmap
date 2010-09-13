@@ -133,6 +133,9 @@
 		59FE232F1236D042005C6314 /* zipcodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = zipcodes.json; path = website/zipcodes.json; sourceTree = "<group>"; };
 		59FE23B312381C9D005C6314 /* createukcountytables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createukcountytables.php; path = mapfileprocess/createukcountytables.php; sourceTree = "<group>"; };
 		59FE24B912392A6A005C6314 /* createukconstituencytables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createukconstituencytables.php; path = mapfileprocess/createukconstituencytables.php; sourceTree = "<group>"; };
+		59FE25E7123C4578005C6314 /* convertkmltoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertkmltoosm.php; path = mapfileprocess/convertkmltoosm.php; sourceTree = "<group>"; };
+		59FE25FD123C55B4005C6314 /* remaptags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remaptags.php; path = mapfileprocess/remaptags.php; sourceTree = "<group>"; };
+		59FE25FE123DA4E2005C6314 /* createtagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createtagtables.php; path = mapfileprocess/createtagtables.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -190,10 +193,12 @@
 				59820B7811A44A9F0047D5FC /* cliargs.php */,
 				59820B7911A44A9F0047D5FC /* convertasciitoosm.php */,
 				59FE232C12369F86005C6314 /* convertjsontoosm.php */,
+				59FE25E7123C4578005C6314 /* convertkmltoosm.php */,
 				590D2C3011CACE8B00954586 /* crawlallelectiondata.sh */,
 				590D2C2911CAB31100954586 /* crawlelectiondata.php */,
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				59E63700121B433B0076D3B4 /* createcitytables.php */,
+				59FE25FE123DA4E2005C6314 /* createtagtables.php */,
 				59FE24B912392A6A005C6314 /* createukconstituencytables.php */,
 				59FE23B312381C9D005C6314 /* createukcountytables.php */,
 				590D907F11BC2B5E00D4F8C1 /* cropways.php */,
@@ -211,6 +216,7 @@
 				5979627C122062C0009518FD /* publishmaps.py */,
 				59820B8211A44A9F0047D5FC /* README */,
 				59820B8311A44A9F0047D5FC /* reducelod.php */,
+				59FE25FD123C55B4005C6314 /* remaptags.php */,
 				59820B8411A44A9F0047D5FC /* rules.txt */,
 				59E6374A121DE6BB0076D3B4 /* scratchpad.py */,
 				59820B8511A44A9F0047D5FC /* selectways.php */,
