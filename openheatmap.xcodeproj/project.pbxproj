@@ -136,6 +136,7 @@
 		59FE25E7123C4578005C6314 /* convertkmltoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertkmltoosm.php; path = mapfileprocess/convertkmltoosm.php; sourceTree = "<group>"; };
 		59FE25FD123C55B4005C6314 /* remaptags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remaptags.php; path = mapfileprocess/remaptags.php; sourceTree = "<group>"; };
 		59FE25FE123DA4E2005C6314 /* createtagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createtagtables.php; path = mapfileprocess/createtagtables.php; sourceTree = "<group>"; };
+		59FE2652123EEC6E005C6314 /* average.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = average.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -380,6 +381,7 @@
 		599DCB0D11ED3A360082DE3F /* unemployment_and_congress */ = {
 			isa = PBXGroup;
 			children = (
+				59FE2652123EEC6E005C6314 /* average.html */,
 				599DCB0F11ED3A370082DE3F /* index.html */,
 			);
 			name = unemployment_and_congress;

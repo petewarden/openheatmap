@@ -1,0 +1,82 @@
+{
+    "to_delete": {
+    },
+    "to_rename": {
+    },
+    "to_add": {
+        "name": {
+            "new_key": "india_state_code",
+            "mapping": {
+                "ANDAMAN AND NICOBAR ISLANDS": "00"
+                "ANDHRA PRADESH": "00"
+                "ARUNACHAL PRADESH": "00"
+                "ASSAM": "00"
+                "BIHAR": "00"
+                "CHANDIGARH": "00"
+                "DADRA AND NAGAR HAVELI": "00"
+                "DAMAN AND DIU": "00"
+                "DELHI": "00"
+                "GOA": "00"
+                "GUJARAT": "00"
+                "HARYANA": "00"
+                "HIMACHAL PRADESH": "00"
+                "JAMMU AND KASHMIR": "00"
+                "KARNATAKA": "00"
+                "KERALA": "00"
+                "LAKSHADWEEP": "00"
+                "MADHYA PRADESH": "00"
+                "MAHARASHTRA": "00"
+                "MANIPUR": "00"
+                "MEGHALAYA": "00"
+                "MIZORAM": "00"
+                "NAGALAND": "00"
+                "ORISSA": "00"
+                "PONDICHERRY": "00"
+                "PUNJAB": "00"
+                "RAJASTHAN": "00"
+                "SIKKIM": "00"
+                "TAMIL NADU": "00"
+                "TRIPURA": "00"
+                "UTTAR PRADESH": "00"
+                "WEST BENGAL": "00"
+            }
+        }
+    },
+    "to_ucwords": [ "name" ]
+}
+
+Andaman and Nicobar Islands	u	IN.AN	AN	IN01	35	AN	AN	2	356,152	8,249	3,185	744	Port Blair
+Andhra Pradesh              s	IN.AP	AP	IN02	28	AP	AP	23	76,210,007	275,068	106,204	50-53	Hyderabad
+Arunachal Pradesh           s	IN.AR	AR	IN30	12	AR	AR	15	1,097,968	83,743	32,333	790-792	Itanagar
+Assam                       s	IN.AS	AS	IN03	18	AS	AS	23	26,655,528	78,438	30,285	78	Dispur
+Bihar                       s	IN.BR	BR	IN34	10	BR	BR	37	82,998,509	99,200	38,301	80-85	Patna
+Chandigarh                  u	IN.CH	CH	IN05	04	CHD	CH	1	900,635	114	44	16	Chandigarh
+Chhattisgarh                s	IN.CT	CT	IN37	22	 	CG	16	20,833,803	135,194	52,199	49	Raipur
+Dadra and Nagar Haveli      u	IN.DN	DN	IN06	26	DNH	DN	1	220,490	491	190	396	Silvassa
+Daman and Diu	u	IN.DD	DD	IN32	25	DD	DD	2	158,204	112	43	396	Daman
+Delhi	u	IN.DL	DL	IN07	07	DEL	DL	1	13,850,507	1,483	573	11	Delhi
+Goa	s	IN.GA	GA	IN33	30	GOA	GA	2	1,347,668	3,702	1,429	403	Panaji
+Gujarat	s	IN.GJ	GJ	IN09	24	GUJ	GJ	25	50,671,017	196,024	75,685	36-39	Gandhinagar
+Haryana	s	IN.HR	HR	IN10	06	HR	HR	19	21,144,564	44,212	17,070	12-13	Chandigarh
+Himachal Pradesh	s	IN.HP	HP	IN11	02	HP	HP	12	6,077,900	55,673	21,495	17	Shimla
+Jammu and Kashmir	s	IN.JK	JK	IN12	01	JK	JK	14	10,143,700	222,236	85,806	18-19	Srinagar, Jammu
+Jharkhand	s	IN.JH	JH	IN38	20	 	JH	18	26,945,829	74,677	28,833	814-835	Ranchi
+Karnataka	s	IN.KA	KA	IN19	29	KRN	KA	27	52,850,562	191,791	74,051	56-59	Bangalore
+Kerala	s	IN.KL	KL	IN13	32	KER	KL	14	31,841,374	38,863	15,005	67-69	Thiruvananthapuram
+Lakshadweep	u	IN.LD	LD	IN14	31	LKP	LD	1	60,650	32	12	673	Kavaratti
+Madhya Pradesh	s	IN.MP	MP	IN35	23	MP	MP	48	60,348,023	308,252	119,016	45-48	Bhopal
+Maharashtra	s	IN.MH	MH	IN16	27	MAH	MH	35	96,878,627	307,690	118,800	40-44	Mumbai
+Manipur	s	IN.MN	MN	IN17	14	MNP	MN	9	2,166,788	22,327	8,621	795-796	Imphal
+Meghalaya	s	IN.ML	ML	IN18	17	MEG	ML	7	2,318,822	22,429	8,660	793-794	Shillong
+Mizoram	s	IN.MZ	MZ	IN31	15	MIZ	MZ	8	888,573	21,081	8,139	796	Aizawl
+Nagaland	s	IN.NL	NL	IN20	13	NLD	NL	8	1,990,036	16,579	6,401	797-798	Kohima
+Orissa	s	IN.OR	OR	IN21	21	OR	OR	30	36,804,660	155,707	60,119	75-77	Bhubaneswar
+Puducherry	u	IN.PY	PY	IN22	34	PDY	PY	4	974,345	492	190	605	Puducherry
+Punjab	s	IN.PB	PB	IN23	03	PU	PB	17	24,358,999	50,362	19,445	14-15	Chandigarh
+Rajasthan	s	IN.RJ	RJ	IN24	08	RAJ	RJ	32	56,507,188	342,239	132,139	30-34	Jaipur
+Sikkim	s	IN.SK	SK	IN29	11	SKM	SK	4	540,851	7,096	2,740	737	Gangtok
+Tamil Nadu	s	IN.TN	TN	IN25	33	TN	TN	30	62,405,679	130,058	50,216	60-64	Chennai
+Tripura	s	IN.TR	TR	IN26	16	TRP	TR	4	3,199,203	10,486	4,049	799	Agartala
+Uttarakhand	s	IN.UT	UL	IN39	05	 	UA	13	8,489,349	51,125	19,739	246-263	Dehradun
+Uttar Pradesh	s	IN.UP	UP	IN36	09	UP	UP	70	166,197,921	243,286	93,934	20-28	Lucknow
+West Bengal	s	IN.WB	WB	IN28	19	WB	WB	19	80,176,197	88,752	34,267	70-74	Kolkata

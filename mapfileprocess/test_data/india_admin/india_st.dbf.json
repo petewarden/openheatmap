@@ -1,0 +1,194 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "CHANDIGARH"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "DADRA AND NAGAR HAVELI"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "DAMAN AND DIU"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "DELHI"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "GOA"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "LAKSHADWEEP"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MIZORAM"
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "PONDICHERRY"
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "SIKKIM"
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "TRIPURA"
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "WEST BENGAL"
+       }
+    }
+]

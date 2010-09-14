@@ -1,0 +1,3858 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "DST_ID": 1.000000,
+           "DISTRICT": "Gilgit",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "DST_ID": 2.000000,
+           "DISTRICT": "Kargil",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "DST_ID": 3.000000,
+           "DISTRICT": "Ladakh",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "DST_ID": 4.000000,
+           "DISTRICT": "Chilas",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "DST_ID": 5.000000,
+           "DISTRICT": "Kupwara",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "DST_ID": 6.000000,
+           "DISTRICT": "Baramula",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "DST_ID": 7.000000,
+           "DISTRICT": "Srinagar",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "DST_ID": 8.000000,
+           "DISTRICT": "Anantnag",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "DST_ID": 9.000000,
+           "DISTRICT": "Doda",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "DST_ID": 10.000000,
+           "DISTRICT": "Badgam",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "DST_ID": 11.000000,
+           "DISTRICT": "Punch",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "DST_ID": 12.000000,
+           "DISTRICT": "Pulwama",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "DST_ID": 13.000000,
+           "DISTRICT": "Mirpur",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "DST_ID": 14.000000,
+           "DISTRICT": "Udhampur",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "DST_ID": 15.000000,
+           "DISTRICT": "Rajauri",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "DST_ID": 16.000000,
+           "DISTRICT": "Lahul and Spiti",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "DST_ID": 17.000000,
+           "DISTRICT": "Chamba",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "DST_ID": 18.000000,
+           "DISTRICT": "Jammu",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "DST_ID": 19.000000,
+           "DISTRICT": "Kathua",
+           "STATE": "JAMMU AND KASHMIR"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "DST_ID": 20.000000,
+           "DISTRICT": "Gurdaspur",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "DST_ID": 21.000000,
+           "DISTRICT": "Kangra",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "DST_ID": 22.000000,
+           "DISTRICT": "Kullu",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "DST_ID": 23.000000,
+           "DISTRICT": "Hoshiarpur",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "DST_ID": 24.000000,
+           "DISTRICT": "Kinnaur",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "DST_ID": 25.000000,
+           "DISTRICT": "Amritsar",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "DST_ID": 26.000000,
+           "DISTRICT": "Mandi",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "DST_ID": 27.000000,
+           "DISTRICT": "Una",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "DST_ID": 28.000000,
+           "DISTRICT": "Hamirpur",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "DST_ID": 29.000000,
+           "DISTRICT": "Shimla",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "DST_ID": 30.000000,
+           "DISTRICT": "Kapurthala",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "DST_ID": 31.000000,
+           "DISTRICT": "Jalandhar",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "DST_ID": 32.000000,
+           "DISTRICT": "Bilaspur",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "DST_ID": 33.000000,
+           "DISTRICT": "Uttar Kashi",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "DST_ID": 34.000000,
+           "DISTRICT": "Rupnagar",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "DST_ID": 35.000000,
+           "DISTRICT": "Kapurthala",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "DST_ID": 36.000000,
+           "DISTRICT": "Solan",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "DST_ID": 37.000000,
+           "DISTRICT": "Firozpur",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "DST_ID": 38.000000,
+           "DISTRICT": "Chamoli",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "DST_ID": 39.000000,
+           "DISTRICT": "Ludhiana",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "DST_ID": 40.000000,
+           "DISTRICT": "Sirmaur",
+           "STATE": "HIMACHAL PRADESH"
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "DST_ID": 41.000000,
+           "DISTRICT": "Dehradun",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "DST_ID": 42.000000,
+           "DISTRICT": "Ambala",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "DST_ID": 43.000000,
+           "DISTRICT": "Faridkot",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "DST_ID": 44.000000,
+           "DISTRICT": "Patiala",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "DST_ID": 45.000000,
+           "DISTRICT": "Tehri Garhwal",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "DST_ID": 46.000000,
+           "DISTRICT": "Chandigarh",
+           "STATE": "CHANDIGARH"
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "DST_ID": 47.000000,
+           "DISTRICT": "Pithoragarh",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "DST_ID": 48.000000,
+           "DISTRICT": "Sangrur",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "DST_ID": 49.000000,
+           "DISTRICT": "Bathinda",
+           "STATE": "PUNJAB"
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "DST_ID": 50.000000,
+           "DISTRICT": "Yamunanagar",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "DST_ID": 51.000000,
+           "DISTRICT": "Saharanpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "DST_ID": 52.000000,
+           "DISTRICT": "Almora",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "DST_ID": 53.000000,
+           "DISTRICT": "Kurukshetra",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "DST_ID": 54.000000,
+           "DISTRICT": "Garhwal",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "DST_ID": 55.000000,
+           "DISTRICT": "Ganganagar",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "DST_ID": 56.000000,
+           "DISTRICT": "Hardwar",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "DST_ID": 57.000000,
+           "DISTRICT": "Kaithal",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "DST_ID": 58.000000,
+           "DISTRICT": "Sirsa",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "DST_ID": 59.000000,
+           "DISTRICT": "Karnal",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "DST_ID": 60.000000,
+           "DISTRICT": "Jind",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "DST_ID": 61.000000,
+           "DISTRICT": "Hissar",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "DST_ID": 62.000000,
+           "DISTRICT": "Bijnor",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "DST_ID": 63.000000,
+           "DISTRICT": "Muzaffarnagar",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "DST_ID": 64.000000,
+           "DISTRICT": "Panipat",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "DST_ID": 65.000000,
+           "DISTRICT": "Dibang Valley",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "DST_ID": 66.000000,
+           "DISTRICT": "Nainital",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "DST_ID": 67.000000,
+           "DISTRICT": "West Siang",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "DST_ID": 68.000000,
+           "DISTRICT": "Sonipat",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "DST_ID": 69.000000,
+           "DISTRICT": "Meerut",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "DST_ID": 70.000000,
+           "DISTRICT": "Moradabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "DST_ID": 71.000000,
+           "DISTRICT": "Bhiwani",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "DST_ID": 72.000000,
+           "DISTRICT": "Rampur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "DST_ID": 73.000000,
+           "DISTRICT": "Rohtak",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "DST_ID": 74.000000,
+           "DISTRICT": "Bikaner",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "DST_ID": 75.000000,
+           "DISTRICT": "Churu",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "DST_ID": 76.000000,
+           "DISTRICT": "East Siang",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "DST_ID": 77.000000,
+           "DISTRICT": "Ghaziabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "DST_ID": 78.000000,
+           "DISTRICT": "Delhi",
+           "STATE": "DELHI"
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "DST_ID": 79.000000,
+           "DISTRICT": "Bareilly",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "DST_ID": 80.000000,
+           "DISTRICT": "Pilibhit",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "DST_ID": 81.000000,
+           "DISTRICT": "Upper Subansiri",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "DST_ID": 82.000000,
+           "DISTRICT": "Bulandshahr",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "DST_ID": 83.000000,
+           "DISTRICT": "Kheri",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "DST_ID": 84.000000,
+           "DISTRICT": "Lohit",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "DST_ID": 85.000000,
+           "DISTRICT": "Jhunjhunun",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "DST_ID": 86.000000,
+           "DISTRICT": "Gurgaon",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "DST_ID": 87.000000,
+           "DISTRICT": "Faridabad",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "DST_ID": 88.000000,
+           "DISTRICT": "Shahjahanpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "DST_ID": 89.000000,
+           "DISTRICT": "Budaun",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "DST_ID": 90.000000,
+           "DISTRICT": "Lower Subansiri",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "DST_ID": 91.000000,
+           "DISTRICT": "Rewari",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "DST_ID": 92.000000,
+           "DISTRICT": "Mahendragarh",
+           "STATE": "HARYANA"
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "DST_ID": 93.000000,
+           "DISTRICT": "Bahraich",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "DST_ID": 94.000000,
+           "DISTRICT": "Sikar",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "DST_ID": 95.000000,
+           "DISTRICT": "Alwar",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "DST_ID": 96.000000,
+           "DISTRICT": "Jaisalmer",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "DST_ID": 97.000000,
+           "DISTRICT": "Aligarh",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "DST_ID": 98.000000,
+           "DISTRICT": "Tinsukia",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "DST_ID": 99.000000,
+           "DISTRICT": "North District",
+           "STATE": "SIKKIM"
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "DST_ID": 100.000000,
+           "DISTRICT": "West Kameng",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "DST_ID": 101.000000,
+           "DISTRICT": "Dhemaji",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "DST_ID": 102.000000,
+           "DISTRICT": "Etah",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "DST_ID": 103.000000,
+           "DISTRICT": "Tawang",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "DST_ID": 104.000000,
+           "DISTRICT": "Mathura",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "DST_ID": 105.000000,
+           "DISTRICT": "Dibrugarh",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "DST_ID": 106.000000,
+           "DISTRICT": "Sitapur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "DST_ID": 107.000000,
+           "DISTRICT": "East Kameng",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "DST_ID": 108.000000,
+           "DISTRICT": "Changlang",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "DST_ID": 109.000000,
+           "DISTRICT": "Jaipur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "DST_ID": 110.000000,
+           "DISTRICT": "Gonda",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "DST_ID": 111.000000,
+           "DISTRICT": "Bharatpur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "DST_ID": 112.000000,
+           "DISTRICT": "Hardoi",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "DST_ID": 113.000000,
+           "DISTRICT": "Lakhimpur",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "DST_ID": 114.000000,
+           "DISTRICT": "Nagaur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "DST_ID": 115.000000,
+           "DISTRICT": "Farrukhabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "DST_ID": 116.000000,
+           "DISTRICT": "Jodhpur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "DST_ID": 117.000000,
+           "DISTRICT": "West District",
+           "STATE": "SIKKIM"
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "DST_ID": 118.000000,
+           "DISTRICT": "South District",
+           "STATE": "SIKKIM"
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "DST_ID": 119.000000,
+           "DISTRICT": "Siddharthnagar",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "DST_ID": 120.000000,
+           "DISTRICT": "Pashchim Champaran",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "DST_ID": 121.000000,
+           "DISTRICT": "Maharajganj",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "DST_ID": 122.000000,
+           "DISTRICT": "Firozabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "DST_ID": 123.000000,
+           "DISTRICT": "East District",
+           "STATE": "SIKKIM"
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "DST_ID": 124.000000,
+           "DISTRICT": "Mainpuri",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "DST_ID": 125.000000,
+           "DISTRICT": "Tirap",
+           "STATE": "ARUNACHAL PRADESH"
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "DST_ID": 126.000000,
+           "DISTRICT": "Sibsagar",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "DST_ID": 127.000000,
+           "DISTRICT": "Agra",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "DST_ID": 128.000000,
+           "DISTRICT": "Barabanki",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "DST_ID": 129.000000,
+           "DISTRICT": "Jorhat",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "DST_ID": 130.000000,
+           "DISTRICT": "Deoria",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "DST_ID": 131.000000,
+           "DISTRICT": "Gorakhpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "DST_ID": 132.000000,
+           "DISTRICT": "Darjiling",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "DST_ID": 133.000000,
+           "DISTRICT": "Sawai Madhopur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "DST_ID": 134.000000,
+           "DISTRICT": "Basti",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "DST_ID": 135.000000,
+           "DISTRICT": "Sonitpur",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "DST_ID": 136.000000,
+           "DISTRICT": "Mon",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "DST_ID": 137.000000,
+           "DISTRICT": "Lucknow",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "DST_ID": 138.000000,
+           "DISTRICT": "Unnao",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "DST_ID": 139.000000,
+           "DISTRICT": "Jalpaiguri",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "DST_ID": 140.000000,
+           "DISTRICT": "Golaghat",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "DST_ID": 141.000000,
+           "DISTRICT": "Darrang",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "DST_ID": 142.000000,
+           "DISTRICT": "Purbi Champaran",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "DST_ID": 143.000000,
+           "DISTRICT": "Ajmer",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "DST_ID": 144.000000,
+           "DISTRICT": "Etawah",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "DST_ID": 145.000000,
+           "DISTRICT": "Kokrajhar",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "DST_ID": 146.000000,
+           "DISTRICT": "Kanpur Dehat",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "DST_ID": 147.000000,
+           "DISTRICT": "Dholpur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "DST_ID": 148.000000,
+           "DISTRICT": "Mokokchung",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "DST_ID": 149.000000,
+           "DISTRICT": "Nalbari",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "DST_ID": 150.000000,
+           "DISTRICT": "Bongaigaon",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "DST_ID": 151.000000,
+           "DISTRICT": "Barpeta",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "DST_ID": 152.000000,
+           "DISTRICT": "Kamrup",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "DST_ID": 153.000000,
+           "DISTRICT": "Sitamarhi",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "DST_ID": 154.000000,
+           "DISTRICT": "Morena",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "DST_ID": 155.000000,
+           "DISTRICT": "Nagaon",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "DST_ID": 156.000000,
+           "DISTRICT": "Faizabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "DST_ID": 157.000000,
+           "DISTRICT": "Bhind",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "DST_ID": 158.000000,
+           "DISTRICT": "Tuensang",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "DST_ID": 159.000000,
+           "DISTRICT": "Karbi Anglong",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "DST_ID": 160.000000,
+           "DISTRICT": "Madhubani",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "DST_ID": 161.000000,
+           "DISTRICT": "Wokha",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "DST_ID": 162.000000,
+           "DISTRICT": "Gopalganj",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "DST_ID": 163.000000,
+           "DISTRICT": "Saharsa",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "DST_ID": 164.000000,
+           "DISTRICT": "Barmer",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "DST_ID": 165.000000,
+           "DISTRICT": "Kanpur Nagar",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "DST_ID": 166.000000,
+           "DISTRICT": "Sultanpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "DST_ID": 167.000000,
+           "DISTRICT": "Kishanganj",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "DST_ID": 168.000000,
+           "DISTRICT": "Marigaon",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "DST_ID": 169.000000,
+           "DISTRICT": "Koch Bihar",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "DST_ID": 170.000000,
+           "DISTRICT": "Rae Bareli",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "DST_ID": 171.000000,
+           "DISTRICT": "Tonk",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "DST_ID": 172.000000,
+           "DISTRICT": "Araria",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "DST_ID": 173.000000,
+           "DISTRICT": "West Dinajpur",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "DST_ID": 174.000000,
+           "DISTRICT": "Pali",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "DST_ID": 175.000000,
+           "DISTRICT": "Zunheboto",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "DST_ID": 176.000000,
+           "DISTRICT": "Dhubri",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "DST_ID": 177.000000,
+           "DISTRICT": "Jalaun",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "DST_ID": 178.000000,
+           "DISTRICT": "Muzaffarpur",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "DST_ID": 179.000000,
+           "DISTRICT": "Darbhanga",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "DST_ID": 180.000000,
+           "DISTRICT": "Azamgarh",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "DST_ID": 181.000000,
+           "DISTRICT": "Saran",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "DST_ID": 182.000000,
+           "DISTRICT": "Siwan",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "DST_ID": 183.000000,
+           "DISTRICT": "Gwalior",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "DST_ID": 184.000000,
+           "DISTRICT": "Mau",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "DST_ID": 185.000000,
+           "DISTRICT": "Goalpara",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "DST_ID": 186.000000,
+           "DISTRICT": "Datia",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "DST_ID": 187.000000,
+           "DISTRICT": "Karbi Anglong",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "DST_ID": 188.000000,
+           "DISTRICT": "Ballia",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "DST_ID": 189.000000,
+           "DISTRICT": "Jaunpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "DST_ID": 190.000000,
+           "DISTRICT": "Fatehpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "DST_ID": 191.000000,
+           "DISTRICT": "East Khasi Hills",
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "DST_ID": 192.000000,
+           "DISTRICT": "Kohima",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "DST_ID": 193.000000,
+           "DISTRICT": "Pratapgarh",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "DST_ID": 194.000000,
+           "DISTRICT": "Purnia",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "DST_ID": 195.000000,
+           "DISTRICT": "Madhepura",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "DST_ID": 196.000000,
+           "DISTRICT": "Phek",
+           "STATE": "NAGALAND"
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "DST_ID": 197.000000,
+           "DISTRICT": "East Garo Hills",
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "DST_ID": 198.000000,
+           "DISTRICT": "Samastipur",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "DST_ID": 199.000000,
+           "DISTRICT": "Udaipur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "DST_ID": 200.000000,
+           "DISTRICT": "Gwalior",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "DST_ID": 201.000000,
+           "DISTRICT": "Vaishali",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "DST_ID": 202.000000,
+           "DISTRICT": "West Garo Hills",
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "DST_ID": 203.000000,
+           "DISTRICT": "Bhilwara",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "DST_ID": 204.000000,
+           "DISTRICT": "North Cachar Hills",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "DST_ID": 205.000000,
+           "DISTRICT": "West Khasi Hills",
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "DST_ID": 206.000000,
+           "DISTRICT": "Jhansi",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "DST_ID": 207.000000,
+           "DISTRICT": "Shivpuri",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "DST_ID": 208.000000,
+           "DISTRICT": "Katihar",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "DST_ID": 209.000000,
+           "DISTRICT": "Hamirpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "DST_ID": 210.000000,
+           "DISTRICT": "Banda",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "DST_ID": 211.000000,
+           "DISTRICT": "Ajmer",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "DST_ID": 212.000000,
+           "DISTRICT": "Bundi",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "DST_ID": 213.000000,
+           "DISTRICT": "Ghazipur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "DST_ID": 214.000000,
+           "DISTRICT": "Jalor",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "DST_ID": 215.000000,
+           "DISTRICT": "Jaintia Hills",
+           "STATE": "MEGHALAYA"
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "DST_ID": 216.000000,
+           "DISTRICT": "Ukhrul",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "DST_ID": 217.000000,
+           "DISTRICT": "Begusarai",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "DST_ID": 218.000000,
+           "DISTRICT": "Kota",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "DST_ID": 219.000000,
+           "DISTRICT": "Senapati",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "DST_ID": 220.000000,
+           "DISTRICT": "Allahabad",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "DST_ID": 221.000000,
+           "DISTRICT": "Bhojpur",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "DST_ID": 222.000000,
+           "DISTRICT": "Khagaria",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "DST_ID": 223.000000,
+           "DISTRICT": "Patna",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "DST_ID": 224.000000,
+           "DISTRICT": "Varanasi",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "DST_ID": 225.000000,
+           "DISTRICT": "Tikamgarh",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "DST_ID": 226.000000,
+           "DISTRICT": "Tamenglong",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "DST_ID": 227.000000,
+           "DISTRICT": "Maldah",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "DST_ID": 228.000000,
+           "DISTRICT": "Bhagalpur",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "DST_ID": 229.000000,
+           "DISTRICT": "Nalanda",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "DST_ID": 230.000000,
+           "DISTRICT": "Chhatapur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "DST_ID": 231.000000,
+           "DISTRICT": "Rohtas",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "DST_ID": 232.000000,
+           "DISTRICT": "Munger",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "DST_ID": 233.000000,
+           "DISTRICT": "Sirohi",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "DST_ID": 234.000000,
+           "DISTRICT": "Godda",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "DST_ID": 235.000000,
+           "DISTRICT": "Sahibganj",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "DST_ID": 236.000000,
+           "DISTRICT": "Jehanabad",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "DST_ID": 237.000000,
+           "DISTRICT": "Mirzapur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "DST_ID": 238.000000,
+           "DISTRICT": "Chittaurgarh",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "DST_ID": 239.000000,
+           "DISTRICT": "Cachar",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "DST_ID": 240.000000,
+           "DISTRICT": "Rewa",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "DST_ID": 241.000000,
+           "DISTRICT": "Lalitpur",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "DST_ID": 242.000000,
+           "DISTRICT": "Satna",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "DST_ID": 243.000000,
+           "DISTRICT": "Nawada",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "DST_ID": 244.000000,
+           "DISTRICT": "Guna",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "DST_ID": 245.000000,
+           "DISTRICT": "Imphal",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "DST_ID": 246.000000,
+           "DISTRICT": "Aurangabad",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "DST_ID": 247.000000,
+           "DISTRICT": "Mandsaur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "DST_ID": 248.000000,
+           "DISTRICT": "Gaya",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "DST_ID": 249.000000,
+           "DISTRICT": "Chittaurgarh",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "DST_ID": 250.000000,
+           "DISTRICT": "Panna",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "DST_ID": 251.000000,
+           "DISTRICT": "Karimganj",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "DST_ID": 252.000000,
+           "DISTRICT": "Imphal",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "DST_ID": 253.000000,
+           "DISTRICT": "Hailakandi",
+           "STATE": "ASSAM"
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "DST_ID": 254.000000,
+           "DISTRICT": "Jhalawar",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "DST_ID": 255.000000,
+           "DISTRICT": "Hazaribag",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "DST_ID": 256.000000,
+           "DISTRICT": "Bishnupur",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "DST_ID": 257.000000,
+           "DISTRICT": "Thoubal",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "DST_ID": 258.000000,
+           "DISTRICT": "Murshidabad",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "DST_ID": 259.000000,
+           "DISTRICT": "Kachchh",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "DST_ID": 260.000000,
+           "DISTRICT": "Sonbhadra",
+           "STATE": "UTTAR PRADESH"
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "DST_ID": 261.000000,
+           "DISTRICT": "Churachandpur",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "DST_ID": 262.000000,
+           "DISTRICT": "Banas Kantha",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "DST_ID": 263.000000,
+           "DISTRICT": "Chandel",
+           "STATE": "MANIPUR"
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "DST_ID": 264.000000,
+           "DISTRICT": "Giridih",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "DST_ID": 265.000000,
+           "DISTRICT": "Sidhi",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "DST_ID": 266.000000,
+           "DISTRICT": "Deoghar",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "DST_ID": 267.000000,
+           "DISTRICT": "Dumka",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "DST_ID": 268.000000,
+           "DISTRICT": "Palamu",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "DST_ID": 269.000000,
+           "DISTRICT": "Birbhum",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "DST_ID": 270.000000,
+           "DISTRICT": "North Tripura",
+           "STATE": "TRIPURA"
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "DST_ID": 271.000000,
+           "DISTRICT": "Aizawl",
+           "STATE": "MIZORAM"
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "DST_ID": 272.000000,
+           "DISTRICT": "Sabar Kantha",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "DST_ID": 273.000000,
+           "DISTRICT": "Sagar",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "DST_ID": 274.000000,
+           "DISTRICT": "Damoh",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "DST_ID": 275.000000,
+           "DISTRICT": "Shajapur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "DST_ID": 276.000000,
+           "DISTRICT": "Vidisha",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "DST_ID": 277.000000,
+           "DISTRICT": "West Tripura",
+           "STATE": "TRIPURA"
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "DST_ID": 278.000000,
+           "DISTRICT": "Rajgarh",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "DST_ID": 279.000000,
+           "DISTRICT": "Shahdol",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "DST_ID": 280.000000,
+           "DISTRICT": "Mahesana",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "DST_ID": 281.000000,
+           "DISTRICT": "Nadia",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "DST_ID": 282.000000,
+           "DISTRICT": "Jabalpur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "DST_ID": 283.000000,
+           "DISTRICT": "Dhanbad",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "DST_ID": 284.000000,
+           "DISTRICT": "Surguja",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "DST_ID": 285.000000,
+           "DISTRICT": "Dungarpur",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "DST_ID": 286.000000,
+           "DISTRICT": "South Tripura",
+           "STATE": "TRIPURA"
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "DST_ID": 287.000000,
+           "DISTRICT": "Barddhaman",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "DST_ID": 288.000000,
+           "DISTRICT": "Banswara",
+           "STATE": "RAJASTHAN"
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "DST_ID": 289.000000,
+           "DISTRICT": "Ratlam",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "DST_ID": 290.000000,
+           "DISTRICT": "Bhopal",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "DST_ID": 291.000000,
+           "DISTRICT": "Ujjain",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "DST_ID": 292.000000,
+           "DISTRICT": "Puruliya",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "DST_ID": 293.000000,
+           "DISTRICT": "Raisen",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "DST_ID": 294.000000,
+           "DISTRICT": "Ranchi",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "DST_ID": 295.000000,
+           "DISTRICT": "Bankura",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "DST_ID": 296.000000,
+           "DISTRICT": "Sehore",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "DST_ID": 297.000000,
+           "DISTRICT": "Gumla",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "DST_ID": 298.000000,
+           "DISTRICT": "Lohardaga",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "DST_ID": 299.000000,
+           "DISTRICT": "Surendranagar",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "DST_ID": 300.000000,
+           "DISTRICT": "Ahmedabad",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "DST_ID": 301.000000,
+           "DISTRICT": "Lunglei",
+           "STATE": "MIZORAM"
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "DST_ID": 302.000000,
+           "DISTRICT": "Panch Mahals",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "DST_ID": 303.000000,
+           "DISTRICT": "Gandhinagar",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "DST_ID": 304.000000,
+           "DISTRICT": "Mandla",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "DST_ID": 305.000000,
+           "DISTRICT": "Dewas",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "DST_ID": 306.000000,
+           "DISTRICT": "North 24 Parganas",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "DST_ID": 307.000000,
+           "DISTRICT": "Jhabua",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "DST_ID": 308.000000,
+           "DISTRICT": "Raigarh",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "DST_ID": 309.000000,
+           "DISTRICT": "Kheda",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "DST_ID": 310.000000,
+           "DISTRICT": "Narsimhapur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "DST_ID": 311.000000,
+           "DISTRICT": "Rajkot",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "DST_ID": 312.000000,
+           "DISTRICT": "Hugli",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "DST_ID": 313.000000,
+           "DISTRICT": "Dhar",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "DST_ID": 314.000000,
+           "DISTRICT": "Pashchimi Singhbhum",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 314,
+       "attributes": {
+           "DST_ID": 315.000000,
+           "DISTRICT": "Bilaspur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 315,
+       "attributes": {
+           "DST_ID": 316.000000,
+           "DISTRICT": "Indore",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 316,
+       "attributes": {
+           "DST_ID": 317.000000,
+           "DISTRICT": "Purbi Singhbhum",
+           "STATE": "BIHAR"
+       }
+    },
+    {
+       "index": 317,
+       "attributes": {
+           "DST_ID": 318.000000,
+           "DISTRICT": "Jamnagar",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 318,
+       "attributes": {
+           "DST_ID": 319.000000,
+           "DISTRICT": "Hoshangabad",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 319,
+       "attributes": {
+           "DST_ID": 320.000000,
+           "DISTRICT": "Medinipur",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 320,
+       "attributes": {
+           "DST_ID": 321.000000,
+           "DISTRICT": "Chhimtuipui",
+           "STATE": "MIZORAM"
+       }
+    },
+    {
+       "index": 321,
+       "attributes": {
+           "DST_ID": 322.000000,
+           "DISTRICT": "Vadodara",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 322,
+       "attributes": {
+           "DST_ID": 323.000000,
+           "DISTRICT": "Seoni",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 323,
+       "attributes": {
+           "DST_ID": 324.000000,
+           "DISTRICT": "Chhindwara",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 324,
+       "attributes": {
+           "DST_ID": 325.000000,
+           "DISTRICT": "Haora",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 325,
+       "attributes": {
+           "DST_ID": 326.000000,
+           "DISTRICT": "Calcutta",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 326,
+       "attributes": {
+           "DST_ID": 327.000000,
+           "DISTRICT": "West Nimar",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 327,
+       "attributes": {
+           "DST_ID": 328.000000,
+           "DISTRICT": "South 24 Parganas",
+           "STATE": "WEST BENGAL"
+       }
+    },
+    {
+       "index": 328,
+       "attributes": {
+           "DST_ID": 329.000000,
+           "DISTRICT": "Mayurbhanj",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 329,
+       "attributes": {
+           "DST_ID": 330.000000,
+           "DISTRICT": "Sundargarh",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 330,
+       "attributes": {
+           "DST_ID": 331.000000,
+           "DISTRICT": "Rajnandgaon",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 331,
+       "attributes": {
+           "DST_ID": 332.000000,
+           "DISTRICT": "East Nimar",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 332,
+       "attributes": {
+           "DST_ID": 333.000000,
+           "DISTRICT": "Bhavnagar",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 333,
+       "attributes": {
+           "DST_ID": 334.000000,
+           "DISTRICT": "Betul",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 334,
+       "attributes": {
+           "DST_ID": 335.000000,
+           "DISTRICT": "Balaghat",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 335,
+       "attributes": {
+           "DST_ID": 336.000000,
+           "DISTRICT": "Bharuch",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 336,
+       "attributes": {
+           "DST_ID": 337.000000,
+           "DISTRICT": "Kendujhar",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 337,
+       "attributes": {
+           "DST_ID": 338.000000,
+           "DISTRICT": "Sambalpur",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 338,
+       "attributes": {
+           "DST_ID": 339.000000,
+           "DISTRICT": "Junagarh",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 339,
+       "attributes": {
+           "DST_ID": 340.000000,
+           "DISTRICT": "Amreli",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 340,
+       "attributes": {
+           "DST_ID": 341.000000,
+           "DISTRICT": "Dhule",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 341,
+       "attributes": {
+           "DST_ID": 342.000000,
+           "DISTRICT": "Durg",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 342,
+       "attributes": {
+           "DST_ID": 343.000000,
+           "DISTRICT": "Baleshwar",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 343,
+       "attributes": {
+           "DST_ID": 344.000000,
+           "DISTRICT": "Raipur",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 344,
+       "attributes": {
+           "DST_ID": 345.000000,
+           "DISTRICT": "Amravati",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 345,
+       "attributes": {
+           "DST_ID": 346.000000,
+           "DISTRICT": "Nagpur",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 346,
+       "attributes": {
+           "DST_ID": 347.000000,
+           "DISTRICT": "Dhenkanal",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 347,
+       "attributes": {
+           "DST_ID": 348.000000,
+           "DISTRICT": "Bhandara",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 348,
+       "attributes": {
+           "DST_ID": 349.000000,
+           "DISTRICT": "Surat",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 349,
+       "attributes": {
+           "DST_ID": 350.000000,
+           "DISTRICT": "Jalgaon",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 350,
+       "attributes": {
+           "DST_ID": 351.000000,
+           "DISTRICT": "Wardha",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 351,
+       "attributes": {
+           "DST_ID": 352.000000,
+           "DISTRICT": "Buldana",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 352,
+       "attributes": {
+           "DST_ID": 353.000000,
+           "DISTRICT": "Akola",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 353,
+       "attributes": {
+           "DST_ID": 354.000000,
+           "DISTRICT": "Cuttack",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 354,
+       "attributes": {
+           "DST_ID": 355.000000,
+           "DISTRICT": "Balangir",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 355,
+       "attributes": {
+           "DST_ID": 356.000000,
+           "DISTRICT": "The Dangs",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 356,
+       "attributes": {
+           "DST_ID": 357.000000,
+           "DISTRICT": "Valsad",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 357,
+       "attributes": {
+           "DST_ID": 358.000000,
+           "DISTRICT": "Kalahandi",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 358,
+       "attributes": {
+           "DST_ID": 359.000000,
+           "DISTRICT": "Amreli",
+           "STATE": "GUJARAT"
+       }
+    },
+    {
+       "index": 359,
+       "attributes": {
+           "DST_ID": 360.000000,
+           "DISTRICT": "Phulabani",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 360,
+       "attributes": {
+           "DST_ID": 361.000000,
+           "DISTRICT": "Nashik",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 361,
+       "attributes": {
+           "DST_ID": 362.000000,
+           "DISTRICT": "Gadchiroli",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 362,
+       "attributes": {
+           "DST_ID": 363.000000,
+           "DISTRICT": "Diu",
+           "STATE": "DAMAN AND DIU"
+       }
+    },
+    {
+       "index": 363,
+       "attributes": {
+           "DST_ID": 364.000000,
+           "DISTRICT": "Yavatmal",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 364,
+       "attributes": {
+           "DST_ID": 365.000000,
+           "DISTRICT": "Chandrapur",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 365,
+       "attributes": {
+           "DST_ID": 366.000000,
+           "DISTRICT": "Aurangabad",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 366,
+       "attributes": {
+           "DST_ID": 367.000000,
+           "DISTRICT": "Jalna",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 367,
+       "attributes": {
+           "DST_ID": 368.000000,
+           "DISTRICT": "Puri",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 368,
+       "attributes": {
+           "DST_ID": 369.000000,
+           "DISTRICT": "Bastar",
+           "STATE": "MADHYA PRADESH"
+       }
+    },
+    {
+       "index": 369,
+       "attributes": {
+           "DST_ID": 370.000000,
+           "DISTRICT": "Daman",
+           "STATE": "DAMAN AND DIU"
+       }
+    },
+    {
+       "index": 370,
+       "attributes": {
+           "DST_ID": 371.000000,
+           "DISTRICT": "Dadra and Nagar Haveli",
+           "STATE": "DADRA AND NAGAR HAVELI"
+       }
+    },
+    {
+       "index": 371,
+       "attributes": {
+           "DST_ID": 372.000000,
+           "DISTRICT": "Thane",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 372,
+       "attributes": {
+           "DST_ID": 373.000000,
+           "DISTRICT": "Ganjam",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 373,
+       "attributes": {
+           "DST_ID": 374.000000,
+           "DISTRICT": "Koraput",
+           "STATE": "ORISSA"
+       }
+    },
+    {
+       "index": 374,
+       "attributes": {
+           "DST_ID": 375.000000,
+           "DISTRICT": "Ahmadnagar",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 375,
+       "attributes": {
+           "DST_ID": 376.000000,
+           "DISTRICT": "Parbhani",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 376,
+       "attributes": {
+           "DST_ID": 377.000000,
+           "DISTRICT": "Adilabad",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 377,
+       "attributes": {
+           "DST_ID": 378.000000,
+           "DISTRICT": "Nanded",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 378,
+       "attributes": {
+           "DST_ID": 379.000000,
+           "DISTRICT": "Pune",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 379,
+       "attributes": {
+           "DST_ID": 380.000000,
+           "DISTRICT": "Bid",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 380,
+       "attributes": {
+           "DST_ID": 381.000000,
+           "DISTRICT": "Greater Bombay",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 381,
+       "attributes": {
+           "DST_ID": 382.000000,
+           "DISTRICT": "Raigarh",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 382,
+       "attributes": {
+           "DST_ID": 383.000000,
+           "DISTRICT": "Vizianagaram",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 383,
+       "attributes": {
+           "DST_ID": 384.000000,
+           "DISTRICT": "Srikakulam",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 384,
+       "attributes": {
+           "DST_ID": 385.000000,
+           "DISTRICT": "Karimnagar",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 385,
+       "attributes": {
+           "DST_ID": 386.000000,
+           "DISTRICT": "Nizamabad",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 386,
+       "attributes": {
+           "DST_ID": 387.000000,
+           "DISTRICT": "Latur",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 387,
+       "attributes": {
+           "DST_ID": 388.000000,
+           "DISTRICT": "Osmanabad",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 388,
+       "attributes": {
+           "DST_ID": 389.000000,
+           "DISTRICT": "Khammam",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 389,
+       "attributes": {
+           "DST_ID": 390.000000,
+           "DISTRICT": "Warangal",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 390,
+       "attributes": {
+           "DST_ID": 391.000000,
+           "DISTRICT": "Solapur",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 391,
+       "attributes": {
+           "DST_ID": 392.000000,
+           "DISTRICT": "Visakhapatnam",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 392,
+       "attributes": {
+           "DST_ID": 393.000000,
+           "DISTRICT": "Bidar",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 393,
+       "attributes": {
+           "DST_ID": 394.000000,
+           "DISTRICT": "Medak",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 394,
+       "attributes": {
+           "DST_ID": 395.000000,
+           "DISTRICT": "Satara",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 395,
+       "attributes": {
+           "DST_ID": 396.000000,
+           "DISTRICT": "Ratnagiri",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 396,
+       "attributes": {
+           "DST_ID": 397.000000,
+           "DISTRICT": "East Godavari",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 397,
+       "attributes": {
+           "DST_ID": 398.000000,
+           "DISTRICT": "Nalgonda",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 398,
+       "attributes": {
+           "DST_ID": 399.000000,
+           "DISTRICT": "Gulbarga",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 399,
+       "attributes": {
+           "DST_ID": 400.000000,
+           "DISTRICT": "Rangareddi",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 400,
+       "attributes": {
+           "DST_ID": 401.000000,
+           "DISTRICT": "Sangli",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 401,
+       "attributes": {
+           "DST_ID": 402.000000,
+           "DISTRICT": "Hyderabad",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 402,
+       "attributes": {
+           "DST_ID": 403.000000,
+           "DISTRICT": "Bijapur",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 403,
+       "attributes": {
+           "DST_ID": 404.000000,
+           "DISTRICT": "West Godavari",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 404,
+       "attributes": {
+           "DST_ID": 405.000000,
+           "DISTRICT": "Kolhapur",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 405,
+       "attributes": {
+           "DST_ID": 406.000000,
+           "DISTRICT": "Mahbubnagar",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 406,
+       "attributes": {
+           "DST_ID": 407.000000,
+           "DISTRICT": "Krishna",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 407,
+       "attributes": {
+           "DST_ID": 408.000000,
+           "DISTRICT": "Belgaum",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 408,
+       "attributes": {
+           "DST_ID": 409.000000,
+           "DISTRICT": "Guntur",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 409,
+       "attributes": {
+           "DST_ID": 410.000000,
+           "DISTRICT": "Yanam",
+           "STATE": "PONDICHERRY"
+       }
+    },
+    {
+       "index": 410,
+       "attributes": {
+           "DST_ID": 411.000000,
+           "DISTRICT": "Sindhudurg",
+           "STATE": "MAHARASHTRA"
+       }
+    },
+    {
+       "index": 411,
+       "attributes": {
+           "DST_ID": 412.000000,
+           "DISTRICT": "Raichur",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 412,
+       "attributes": {
+           "DST_ID": 413.000000,
+           "DISTRICT": "Prakasam",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 413,
+       "attributes": {
+           "DST_ID": 414.000000,
+           "DISTRICT": "Kurnool",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 414,
+       "attributes": {
+           "DST_ID": 415.000000,
+           "DISTRICT": "Dharwad",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 415,
+       "attributes": {
+           "DST_ID": 416.000000,
+           "DISTRICT": "Bellary",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 416,
+       "attributes": {
+           "DST_ID": 417.000000,
+           "DISTRICT": "North Goa",
+           "STATE": "GOA"
+       }
+    },
+    {
+       "index": 417,
+       "attributes": {
+           "DST_ID": 418.000000,
+           "DISTRICT": "Uttar Kannad",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 418,
+       "attributes": {
+           "DST_ID": 419.000000,
+           "DISTRICT": "South Goa",
+           "STATE": "GOA"
+       }
+    },
+    {
+       "index": 419,
+       "attributes": {
+           "DST_ID": 420.000000,
+           "DISTRICT": "Anantapur",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 420,
+       "attributes": {
+           "DST_ID": 421.000000,
+           "DISTRICT": "Cuddapah",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 421,
+       "attributes": {
+           "DST_ID": 422.000000,
+           "DISTRICT": "Nellore",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 422,
+       "attributes": {
+           "DST_ID": 423.000000,
+           "DISTRICT": "Chitradurga",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 423,
+       "attributes": {
+           "DST_ID": 424.000000,
+           "DISTRICT": "Shimoga",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 424,
+       "attributes": {
+           "DST_ID": 425.000000,
+           "DISTRICT": "Tumkur",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 425,
+       "attributes": {
+           "DST_ID": 426.000000,
+           "DISTRICT": "Tumkur",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 426,
+       "attributes": {
+           "DST_ID": 427.000000,
+           "DISTRICT": "Chittoor",
+           "STATE": "ANDHRA PRADESH"
+       }
+    },
+    {
+       "index": 427,
+       "attributes": {
+           "DST_ID": 428.000000,
+           "DISTRICT": "Dakshin Kannad",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 428,
+       "attributes": {
+           "DST_ID": 429.000000,
+           "DISTRICT": "Kolar",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 429,
+       "attributes": {
+           "DST_ID": 430.000000,
+           "DISTRICT": "Chikmagalur",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 430,
+       "attributes": {
+           "DST_ID": 431.000000,
+           "DISTRICT": "Andamans",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 431,
+       "attributes": {
+           "DST_ID": 432.000000,
+           "DISTRICT": "Hassan",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 432,
+       "attributes": {
+           "DST_ID": 433.000000,
+           "DISTRICT": "Chengalpattu",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 433,
+       "attributes": {
+           "DST_ID": 434.000000,
+           "DISTRICT": "Bangalore Rural",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 434,
+       "attributes": {
+           "DST_ID": 435.000000,
+           "DISTRICT": "Bangalore",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 435,
+       "attributes": {
+           "DST_ID": 436.000000,
+           "DISTRICT": "North Arcot Ambedkar",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 436,
+       "attributes": {
+           "DST_ID": 437.000000,
+           "DISTRICT": "Madras",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 437,
+       "attributes": {
+           "DST_ID": 438.000000,
+           "DISTRICT": "Mandya",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 438,
+       "attributes": {
+           "DST_ID": 439.000000,
+           "DISTRICT": "Andamans",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 439,
+       "attributes": {
+           "DST_ID": 440.000000,
+           "DISTRICT": "Tiruvannamalai sambu",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 440,
+       "attributes": {
+           "DST_ID": 441.000000,
+           "DISTRICT": "Dharmapuri",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 441,
+       "attributes": {
+           "DST_ID": 442.000000,
+           "DISTRICT": "Kodagu",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 442,
+       "attributes": {
+           "DST_ID": 443.000000,
+           "DISTRICT": "Kasaragod",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 443,
+       "attributes": {
+           "DST_ID": 444.000000,
+           "DISTRICT": "Mysore",
+           "STATE": "KARNATAKA"
+       }
+    },
+    {
+       "index": 444,
+       "attributes": {
+           "DST_ID": 445.000000,
+           "DISTRICT": "South Arcot",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 445,
+       "attributes": {
+           "DST_ID": 446.000000,
+           "DISTRICT": "Lakshadweep",
+           "STATE": "LAKSHADWEEP"
+       }
+    },
+    {
+       "index": 446,
+       "attributes": {
+           "DST_ID": 447.000000,
+           "DISTRICT": "Kannur",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 447,
+       "attributes": {
+           "DST_ID": 448.000000,
+           "DISTRICT": "Andamans",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 448,
+       "attributes": {
+           "DST_ID": 449.000000,
+           "DISTRICT": "Pondicherry",
+           "STATE": "PONDICHERRY"
+       }
+    },
+    {
+       "index": 449,
+       "attributes": {
+           "DST_ID": 450.000000,
+           "DISTRICT": "Lakshadweep",
+           "STATE": "LAKSHADWEEP"
+       }
+    },
+    {
+       "index": 450,
+       "attributes": {
+           "DST_ID": 451.000000,
+           "DISTRICT": "Wayanad",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 451,
+       "attributes": {
+           "DST_ID": 452.000000,
+           "DISTRICT": "Salem",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 452,
+       "attributes": {
+           "DST_ID": 453.000000,
+           "DISTRICT": "Periyar",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 453,
+       "attributes": {
+           "DST_ID": 454.000000,
+           "DISTRICT": "Kozhikode",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 454,
+       "attributes": {
+           "DST_ID": 455.000000,
+           "DISTRICT": "Mahe",
+           "STATE": "PONDICHERRY"
+       }
+    },
+    {
+       "index": 455,
+       "attributes": {
+           "DST_ID": 456.000000,
+           "DISTRICT": "Nilgiri",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 456,
+       "attributes": {
+           "DST_ID": 457.000000,
+           "DISTRICT": "Malappuram",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 457,
+       "attributes": {
+           "DST_ID": 458.000000,
+           "DISTRICT": "Tiruchchirappalli",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 458,
+       "attributes": {
+           "DST_ID": 459.000000,
+           "DISTRICT": "Coimbatore",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 459,
+       "attributes": {
+           "DST_ID": 460.000000,
+           "DISTRICT": "Thanjavur",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 460,
+       "attributes": {
+           "DST_ID": 461.000000,
+           "DISTRICT": "Palakkad",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 461,
+       "attributes": {
+           "DST_ID": 462.000000,
+           "DISTRICT": "Karaikal",
+           "STATE": "PONDICHERRY"
+       }
+    },
+    {
+       "index": 462,
+       "attributes": {
+           "DST_ID": 463.000000,
+           "DISTRICT": "Andamans",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 463,
+       "attributes": {
+           "DST_ID": 464.000000,
+           "DISTRICT": "Thrissur",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 464,
+       "attributes": {
+           "DST_ID": 465.000000,
+           "DISTRICT": "Dindigul  Anna",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 465,
+       "attributes": {
+           "DST_ID": 466.000000,
+           "DISTRICT": "Pudukkottai",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 466,
+       "attributes": {
+           "DST_ID": 467.000000,
+           "DISTRICT": "Madurai",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 467,
+       "attributes": {
+           "DST_ID": 468.000000,
+           "DISTRICT": "Idukki",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 468,
+       "attributes": {
+           "DST_ID": 469.000000,
+           "DISTRICT": "Ernakulam",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 469,
+       "attributes": {
+           "DST_ID": 470.000000,
+           "DISTRICT": "Pasumpont Hevar-thir",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 470,
+       "attributes": {
+           "DST_ID": 471.000000,
+           "DISTRICT": "Ramanathapuram",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 471,
+       "attributes": {
+           "DST_ID": 472.000000,
+           "DISTRICT": "Alappuzha",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 472,
+       "attributes": {
+           "DST_ID": 473.000000,
+           "DISTRICT": "Kottayam",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 473,
+       "attributes": {
+           "DST_ID": 474.000000,
+           "DISTRICT": "Kamarajar",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 474,
+       "attributes": {
+           "DST_ID": 475.000000,
+           "DISTRICT": "Pathanamthitta",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 475,
+       "attributes": {
+           "DST_ID": 476.000000,
+           "DISTRICT": "Tirunelveli Kattabo",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 476,
+       "attributes": {
+           "DST_ID": 477.000000,
+           "DISTRICT": "Chidambaranar",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 477,
+       "attributes": {
+           "DST_ID": 478.000000,
+           "DISTRICT": "Nicobars",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    },
+    {
+       "index": 478,
+       "attributes": {
+           "DST_ID": 479.000000,
+           "DISTRICT": "Kollam",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 479,
+       "attributes": {
+           "DST_ID": 480.000000,
+           "DISTRICT": "Thiruvananthapuram",
+           "STATE": "KERALA"
+       }
+    },
+    {
+       "index": 480,
+       "attributes": {
+           "DST_ID": 481.000000,
+           "DISTRICT": "Kanniyakumari",
+           "STATE": "TAMIL NADU"
+       }
+    },
+    {
+       "index": 481,
+       "attributes": {
+           "DST_ID": 482.000000,
+           "DISTRICT": "Nicobars",
+           "STATE": "ANDAMAN AND NICOBAR ISLANDS"
+       }
+    }
+]

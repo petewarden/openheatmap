@@ -338,3 +338,45 @@ for line in input.readlines():
     if not 'id' in data:
         continue
 
+
+
+
+reader = csv.reader(open('/Users/petewarden/Projects/openheatmap/website/examples/unemployment_and_congress/county_percentages_small.csv', 'rb'))
+
+data = {}
+
+for row in reader:
+    try:
+        state = row[0]
+        county = row[1]
+        value = row[3]
+        key = str(state)+':'+str(county)
+        if not key in data:
+                data[key] = { 'total': 0, 'value_count': 0 }
+        data[key]['total'] += float(value)
+        data[key]['value_count'] += 1
+    except:
+        continue
+
+for key, info in data.items():
+    if info['value_count'] < 1:
+            continue
+    average = info['total']/info['value_count']
+    data[key]['average'] = average
+
+reader = csv.reader(open('/Users/petewarden/Projects/openheatmap/website/examples/unemployment_and_congress/county_percentages_small.csv', 'rb'))
+writer = csv.writer(open('/Users/petewarden/Projects/openheatmap/website/examples/unemployment_and_congress/county_percentages_average.csv', 'wb'))
+writer.writerow(["state_code","county_code","time","value"]);
+
+for row in reader:
+    state = row[0]
+    county = row[1]
+    time = row[2]
+    value = row[3]
+    key = str(state)+':'+str(county)
+    info = data[key]
+    if not 'average' in info:
+        continue
+    normalised_value = float(value)-info['average']
+    writer.writerow([state, county, time, '%.1f' % round(normalised_value, 1)])
+

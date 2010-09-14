@@ -73,7 +73,19 @@ function remap_single_tag($key, $value, $rules)
             }
         
         }
+    }
     
+    if (isset($rules['to_ucwords']))
+    {
+        foreach ($rules['to_ucwords'] as $match_key)
+        {
+            if (preg_match('/'.$match_key.'/i', $key))
+            {
+                $new_value = ucwords($value);
+                $new_value = str_replace(' And ', ' and ', $new_value);
+                $result[$key] = $new_value;
+            }
+        }
     }
     
     return $result;
