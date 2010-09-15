@@ -1,0 +1,60 @@
+{
+    "to_delete": {
+        "name_0": ".*",
+        "name_1": ".*",
+        "name_2": ".*"
+    },
+    "to_rename": {
+        "name_3": "name"
+    },
+    "to_add": {
+        "name_3": {
+            "new_key": "ire_constituency_2007_code",
+            "mapping": {
+                "Carlow-Kilkenny": "00",
+                "Cavan-Monaghan": "01",
+                "Clare": "02",
+                "Cork East": "03",
+                "Cork North-Central": "04",
+                "Cork North-West": "05",
+                "Cork South-Central": "06",
+                "Cork South-West": "07",
+                "Donegal North-East": "08",
+                "Donegal South-West": "09",
+                "Dublin Central": "10",
+                "Dublin Mid-West": "11",
+                "Dublin North": "12",
+                "Dublin North-Central": "13",
+                "Dublin North-East": "14",
+                "Dublin North-West": "15",
+                "Dublin South": "16",
+                "Dublin South-Central": "17",
+                "Dublin South-East": "18",
+                "Dublin South-West": "19",
+                "Dublin West": "20",
+                "Dun Laoghaire": "21",
+                "Galway East": "22",
+                "Galway West": "23",
+                "Kerry North": "24",
+                "Kerry South": "25",
+                "Kildare North": "26",
+                "Kildare South": "27",
+                "Laois-Offaly": "28",
+                "Limerick East": "29",
+                "Limerick West": "30",
+                "Longford-Westmeath": "31",
+                "Louth": "32",
+                "Mayo": "33",
+                "Meath East": "34",
+                "Meath West": "35",
+                "Roscommon-South Leitrim": "36",
+                "Sligo-North Leitrim": "37",
+                "Tipperary North": "38",
+                "Tipperary South": "39",
+                "Waterford": "40",
+                "Wexford": "41",
+                "Wicklow": "42"
+             }
+        }
+    }
+}
