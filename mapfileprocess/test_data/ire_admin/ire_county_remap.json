@@ -1,0 +1,43 @@
+{
+    "to_delete": {
+        "name_0": ".*",
+        "name_1": ".*",
+        "name_2": ".*"
+    },
+    "to_rename": {
+        "name_3": "name"
+    },
+    "to_add": {
+        "name_3": {
+            "new_key": "ire_county_code",
+            "mapping": {
+                "Carlow": "CW",
+                "Cavan": "CN",
+                "Clare": "CE",
+                "Cork": "C",
+                "Donegal": "DL",
+                "Dublin": "D",
+                "Galway": "G",
+                "Kerry": "KY",
+                "Kildare": "KE",
+                "Kilkenny": "KK",
+                "Laois": "LS",
+                "Leitrim": "LM",
+                "Limerick": "LK",
+                "Longford": "LD",
+                "Louth": "LH",
+                "Mayo": "MO",
+                "Meath": "MH",
+                "Monaghan": "MN",
+                "Offaly": "OY",
+                "Roscommon": "RN",
+                "Sligo": "SO",
+                "Tipperary": "TA",
+                "Waterford": "WD",
+                "Westmeath": "WH",
+                "Wexford": "WX",
+                "Wicklow": "WW"
+            }
+        }
+    }
+}

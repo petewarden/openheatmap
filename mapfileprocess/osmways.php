@@ -54,7 +54,8 @@ class OSMWays
         
         $this->nodes[$node_id] = $node_data;
         
-        $this->bucket_grid->insert_point($lat, $lon, array('id' => $node_id));
+        $point_data = array('id' => $node_id);
+        $this->bucket_grid->insert_point($lat, $lon, $point_data);
         
         return $node_id;
     }

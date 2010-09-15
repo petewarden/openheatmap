@@ -38,7 +38,7 @@ class BucketGrid
         return $rounded_coordinate;
     }
     
-    public function insert_point($x, $y, $data, $debug=false)
+    public function insert_point($x, $y, $point_data, $debug=false)
     {
         $x_index = $this->round_coordinate($x);
         $y_index = $this->round_coordinate($y);
@@ -52,7 +52,7 @@ class BucketGrid
         $this->buckets[$full_index][] = array(
             'x' => $x,
             'y' => $y,
-            'data' => $data,
+            'data' => $point_data,
         );
     }
     
