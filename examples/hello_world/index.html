@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://static.openheatmap.com/scripts/jquery.openheatmap.js"></script>
+<script type='text/javascript'>
+$(document).ready(function()
+{
+    $('#openheatmap_container').insertOpenHeatMap({
+        width: 1000, 
+        height: 800
+    });
+});
+
+function onMapCreated()
+{
+    var map = $.getOpenHeatMap();
+
+    map.loadWaysFromFile('http://static.openheatmap.com/world_countries.osm');
+    map.loadValuesFromFile('hello_data.csv');
+    
+    map.setSetting('show_map_tiles', true);
+}
+</script>
+</head>
+<body>
+<div id="openheatmap_container"></div>
+</body>
+</html>
