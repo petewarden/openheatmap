@@ -1,0 +1,46 @@
+{
+    "to_delete": {
+    },
+    "to_rename": {
+    },
+    "to_add": {
+        "name": {
+            "new_key": "ind_state_code",
+            "mapping": {
+                "ANDAMAN AND NICOBAR ISLANDS": "AN",
+                "ANDHRA PRADESH": "AP",
+                "ARUNACHAL PRADESH": "AR",
+                "ASSAM": "AS",
+                "BIHAR": "BR",
+                "CHANDIGARH": "CH",
+                "DADRA AND NAGAR HAVELI": "DN",
+                "DAMAN AND DIU": "DD",
+                "DELHI": "DL",
+                "GOA": "GA",
+                "GUJARAT": "GJ",
+                "HARYANA": "HR",
+                "HIMACHAL PRADESH": "HP",
+                "JAMMU AND KASHMIR": "JK",
+                "KARNATAKA": "KA",
+                "KERALA": "KL",
+                "LAKSHADWEEP": "LD",
+                "MADHYA PRADESH": "MP",
+                "MAHARASHTRA": "MH",
+                "MANIPUR": "MN",
+                "MEGHALAYA": "ML",
+                "MIZORAM": "MZ",
+                "NAGALAND": "NL",
+                "ORISSA": "OR",
+                "PONDICHERRY": "PY",
+                "PUNJAB": "PB",
+                "RAJASTHAN": "RJ",
+                "SIKKIM": "SK",
+                "TAMIL NADU": "TN",
+                "TRIPURA": "TR",
+                "UTTAR PRADESH": "UP",
+                "WEST BENGAL": "WB"
+            }
+        }
+    },
+    "to_ucwords": [ "name" ]
+}

@@ -81,7 +81,7 @@ function remap_single_tag($key, $value, $rules)
         {
             if (preg_match('/'.$match_key.'/i', $key))
             {
-                $new_value = ucwords($value);
+                $new_value = ucwords(strtolower($value));
                 $new_value = str_replace(' And ', ' and ', $new_value);
                 $result[$key] = $new_value;
             }
