@@ -137,6 +137,9 @@
 		59FE25FD123C55B4005C6314 /* remaptags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remaptags.php; path = mapfileprocess/remaptags.php; sourceTree = "<group>"; };
 		59FE25FE123DA4E2005C6314 /* createtagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createtagtables.php; path = mapfileprocess/createtagtables.php; sourceTree = "<group>"; };
 		59FE2652123EEC6E005C6314 /* average.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = average.html; sourceTree = "<group>"; };
+		59FE267712402525005C6314 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = embed.html; sourceTree = "<group>"; };
+		59FE267812403D22005C6314 /* fileuploader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = fileuploader.js; path = static/scripts/fileuploader.js; sourceTree = "<group>"; };
+		59FE269912404071005C6314 /* qquploader.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = qquploader.php; path = website/qquploader.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -264,6 +267,7 @@
 				59820B9A11A44B890047D5FC /* mapsettings.php */,
 				59E636181218B0A50076D3B4 /* parallelcurl.php */,
 				59820D9E11AC68570047D5FC /* placemaker.php */,
+				59FE269912404071005C6314 /* qquploader.php */,
 				59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */,
 				59820B9B11A44B890047D5FC /* S3.php */,
 				59820B9C11A44B890047D5FC /* savesettings.php */,
@@ -300,6 +304,7 @@
 				59820BB511A458E10047D5FC /* colorpicker.js */,
 				599DCD9C11F376840082DE3F /* common.js */,
 				59820BB611A458E10047D5FC /* cookie.js */,
+				59FE267812403D22005C6314 /* fileuploader.js */,
 				59820BB811A458E10047D5FC /* json.js */,
 				59F11CD411DFD99600DF3832 /* jquery.openheatmap.js */,
 				596DFE1711FE236400C62A97 /* jquery.slidefade.js */,
@@ -382,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				59FE2652123EEC6E005C6314 /* average.html */,
+				59FE267712402525005C6314 /* embed.html */,
 				599DCB0F11ED3A370082DE3F /* index.html */,
 			);
 			name = unemployment_and_congress;

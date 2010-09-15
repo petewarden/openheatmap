@@ -67,9 +67,9 @@ function onUploadComplete(responseString64)
     }
 
     // enable upload button
-    $('#upload_button')
-    .html('Upload');
-
+    $('#upload_button_message')
+    .text('Upload');
+    
     if ((messageHtml!=='')||g_hasSetResultMessage)
     {
         $('#result_message').html(messageHtml);
@@ -82,6 +82,7 @@ function onUploadComplete(responseString64)
         $.cookie('last_editing_password', response.editing_password);
 
         $('#next_button').show();
+        $('#upload_button').hide();
         $('#upload_button').hide();
         
         $('#guidance_message').html('Your data was uploaded successfully, you can move onto the next step.');
