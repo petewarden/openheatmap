@@ -1,0 +1,9 @@
+{
+    "to_delete": {
+        "STATE": ".*"
+    },
+    "to_rename": {
+        "DIST": "name",
+        "DST_ID": "ind_district_code"
+    }
+}

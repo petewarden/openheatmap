@@ -1,0 +1,495 @@
+ind_district,value
+gilgit,9
+kargil,5
+ladakh,7
+chilas,5
+kupwara,7
+baramula,6
+srinagar,1
+anantnag,5
+doda,2
+badgam,5
+punch,1
+pulwama,3
+mirpur,8
+udhampur,8
+rajauri,1
+lahul and spiti,1
+chamba,3
+jammu,5
+kathua,6
+gurdaspur,8
+kangra,9
+kullu,7
+hoshiarpur,4
+kinnaur,1
+amritsar,4
+mandi,5
+una,6
+hamirpur,8
+shimla,6
+kapurthala,8
+jalandhar,1
+bilaspur,3
+uttar kashi,1
+rupnagar,7
+solan,3
+firozpur,1
+chamoli,9
+ludhiana,6
+sirmaur,9
+dehradun,4
+ambala,1
+faridkot,8
+patiala,1
+tehri garhwal,4
+chandigarh,8
+pithoragarh,9
+sangrur,1
+bathinda,5
+yamunanagar,6
+saharanpur,9
+almora,3
+kurukshetra,3
+garhwal,8
+ganganagar,5
+hardwar,6
+kaithal,9
+sirsa,4
+karnal,3
+jind,5
+hissar,3
+bijnor,8
+muzaffarnagar,9
+panipat,9
+dibang valley,3
+nainital,7
+west siang,4
+siang west,2
+sonipat,1
+meerut,7
+moradabad,4
+bhiwani,2
+rampur,7
+rohtak,5
+bikaner,2
+churu,3
+east siang,7
+siang east,9
+ghaziabad,5
+delhi,3
+bareilly,6
+pilibhit,8
+upper subansiri,1
+bulandshahr,6
+kheri,3
+lohit,7
+jhunjhunun,5
+gurgaon,9
+faridabad,7
+shahjahanpur,1
+budaun,3
+lower subansiri,5
+rewari,4
+mahendragarh,3
+bahraich,6
+sikar,5
+alwar,4
+jaisalmer,2
+aligarh,2
+tinsukia,4
+north district,7
+district north,2
+west kameng,1
+kameng west,1
+dhemaji,9
+etah,8
+tawang,8
+mathura,6
+dibrugarh,6
+sitapur,5
+east kameng,8
+kameng east,6
+changlang,2
+jaipur,2
+gonda,4
+bharatpur,4
+hardoi,2
+lakhimpur,8
+nagaur,7
+farrukhabad,5
+jodhpur,7
+west district,5
+district west,2
+south district,2
+district south,1
+siddharthnagar,5
+pashchim champaran,9
+maharajganj,2
+firozabad,4
+east district,5
+district east,2
+mainpuri,7
+tirap,8
+sibsagar,4
+agra,6
+barabanki,4
+jorhat,2
+deoria,6
+gorakhpur,9
+darjiling,6
+sawai madhopur,7
+basti,1
+sonitpur,8
+mon,9
+lucknow,9
+unnao,4
+jalpaiguri,2
+golaghat,5
+darrang,1
+purbi champaran,3
+ajmer,8
+etawah,7
+kokrajhar,3
+kanpur dehat,4
+dholpur,5
+mokokchung,9
+nalbari,8
+bongaigaon,3
+barpeta,6
+kamrup,5
+sitamarhi,9
+morena,6
+nagaon,2
+faizabad,9
+bhind,1
+tuensang,9
+karbi anglong,4
+madhubani,3
+wokha,7
+gopalganj,7
+saharsa,6
+barmer,6
+kanpur nagar,8
+sultanpur,4
+kishanganj,7
+marigaon,2
+koch bihar,9
+rae bareli,3
+tonk,1
+araria,4
+west dinajpur,4
+dinajpur west,6
+pali,7
+zunheboto,2
+dhubri,9
+jalaun,8
+muzaffarpur,2
+darbhanga,4
+azamgarh,7
+saran,1
+siwan,2
+gwalior,4
+mau,6
+goalpara,3
+datia,1
+ballia,8
+jaunpur,7
+fatehpur,9
+east khasi hills,9
+khasi hills east,2
+kohima,9
+pratapgarh,5
+purnia,1
+madhepura,1
+phek,5
+east garo hills,6
+garo hills east,1
+samastipur,6
+udaipur,3
+vaishali,5
+west garo hills,3
+garo hills west,7
+bhilwara,7
+north cachar hills,2
+cachar hills north,2
+west khasi hills,4
+khasi hills west,3
+jhansi,8
+shivpuri,4
+katihar,3
+banda,5
+bundi,6
+ghazipur,9
+jalor,5
+jaintia hills,1
+ukhrul,2
+begusarai,2
+kota,3
+senapati,8
+allahabad,2
+bhojpur,7
+khagaria,8
+patna,6
+varanasi,3
+tikamgarh,6
+tamenglong,1
+maldah,8
+bhagalpur,3
+nalanda,5
+chhatapur,6
+rohtas,2
+munger,7
+sirohi,9
+godda,9
+sahibganj,7
+jehanabad,1
+mirzapur,3
+chittaurgarh,6
+cachar,2
+rewa,4
+lalitpur,7
+satna,4
+nawada,3
+guna,6
+imphal,1
+aurangabad,2
+mandsaur,4
+gaya,8
+panna,1
+karimganj,4
+hailakandi,6
+jhalawar,5
+hazaribag,8
+bishnupur,1
+thoubal,6
+murshidabad,8
+kachchh,9
+sonbhadra,1
+churachandpur,1
+banas kantha,3
+chandel,5
+giridih,6
+sidhi,6
+deoghar,8
+dumka,5
+palamu,4
+birbhum,1
+north tripura,6
+tripura north,4
+aizawl,6
+sabar kantha,4
+sagar,6
+damoh,9
+shajapur,6
+vidisha,2
+west tripura,8
+tripura west,2
+rajgarh,8
+shahdol,2
+mahesana,1
+nadia,4
+jabalpur,1
+dhanbad,7
+surguja,1
+dungarpur,4
+south tripura,6
+tripura south,6
+barddhaman,1
+banswara,8
+ratlam,3
+bhopal,1
+ujjain,5
+puruliya,8
+raisen,7
+ranchi,5
+bankura,2
+sehore,2
+gumla,8
+lohardaga,5
+surendranagar,1
+ahmedabad,9
+lunglei,3
+panch mahals,3
+gandhinagar,3
+mandla,3
+dewas,2
+north 24 parganas,2
+24 parganas north,8
+jhabua,3
+raigarh,2
+kheda,1
+narsimhapur,3
+rajkot,4
+hugli,9
+dhar,8
+pashchimi singhbhum,1
+indore,3
+purbi singhbhum,5
+jamnagar,6
+hoshangabad,2
+medinipur,3
+chhimtuipui,9
+vadodara,5
+seoni,7
+chhindwara,5
+haora,7
+calcutta,6
+west nimar,1
+nimar west,5
+south 24 parganas,2
+24 parganas south,5
+mayurbhanj,1
+sundargarh,3
+rajnandgaon,8
+east nimar,8
+nimar east,1
+bhavnagar,1
+betul,5
+balaghat,3
+bharuch,5
+kendujhar,6
+sambalpur,8
+junagarh,9
+dhule,4
+durg,1
+baleshwar,4
+raipur,5
+amravati,6
+nagpur,8
+dhenkanal,6
+bhandara,8
+surat,1
+jalgaon,3
+wardha,1
+buldana,7
+akola,3
+cuttack,1
+balangir,9
+the dangs,6
+valsad,9
+kalahandi,4
+amreli,1
+phulabani,8
+nashik,1
+gadchiroli,4
+diu,8
+yavatmal,9
+chandrapur,1
+jalna,5
+puri,6
+bastar,9
+daman,3
+dadra and nagar haveli,3
+thane,5
+ganjam,6
+koraput,9
+ahmadnagar,4
+parbhani,3
+adilabad,5
+nanded,3
+pune,8
+bid,9
+greater bombay,9
+vizianagaram,3
+srikakulam,7
+karimnagar,4
+nizamabad,2
+latur,1
+osmanabad,7
+khammam,4
+warangal,2
+solapur,7
+visakhapatnam,5
+bidar,2
+medak,3
+satara,7
+ratnagiri,9
+east godavari,5
+godavari east,3
+nalgonda,6
+gulbarga,8
+rangareddi,1
+sangli,6
+hyderabad,3
+bijapur,7
+west godavari,5
+godavari west,9
+kolhapur,7
+mahbubnagar,1
+krishna,3
+belgaum,5
+guntur,4
+yanam,3
+sindhudurg,6
+raichur,5
+prakasam,4
+kurnool,2
+dharwad,2
+bellary,4
+north goa,7
+goa north,2
+uttar kannad,1
+south goa,1
+goa south,9
+anantapur,8
+cuddapah,8
+nellore,6
+chitradurga,6
+shimoga,5
+tumkur,8
+chittoor,6
+dakshin kannad,2
+kolar,2
+chikmagalur,4
+andamans,4
+hassan,2
+chengalpattu,8
+bangalore rural,7
+bangalore,5
+north arcot ambedkar,7
+arcot ambedkar north,5
+madras,2
+mandya,2
+tiruvannamalai sambu,1
+dharmapuri,5
+kodagu,9
+kasaragod,2
+mysore,4
+south arcot,5
+arcot south,2
+lakshadweep,7
+kannur,8
+pondicherry,4
+wayanad,6
+salem,4
+periyar,2
+kozhikode,6
+mahe,9
+nilgiri,6
+malappuram,7
+tiruchchirappalli,1
+coimbatore,8
+thanjavur,9
+palakkad,9
+karaikal,4
+thrissur,2
+dindigul anna,5
+pudukkottai,1
+madurai,3
+idukki,8
+ernakulam,7
+pasumpont hevar-thir,3
+pasumpont hevar thir,4
+ramanathapuram,5
+alappuzha,9
+kottayam,8
+kamarajar,3
+pathanamthitta,6
+tirunelveli kattabo,5
+chidambaranar,9
+nicobars,6
+kollam,2
+thiruvananthapuram,9
+kanniyakumari,1
+nicobars,9
