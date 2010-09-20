@@ -141,13 +141,13 @@
 		59FE267812403D22005C6314 /* fileuploader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = fileuploader.js; path = static/scripts/fileuploader.js; sourceTree = "<group>"; };
 		59FE269912404071005C6314 /* qquploader.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = qquploader.php; path = website/qquploader.php; sourceTree = "<group>"; };
 		59FE28591242E7C3005C6314 /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = website/cliargs.php; sourceTree = "<group>"; };
-		59FE28951243050B005C6314 /* locationextractor.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = locationextractor.php; sourceTree = "<group>"; };
-		59FE28961243050B005C6314 /* locationextractortest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = locationextractortest.php; sourceTree = "<group>"; };
-		59FE28AA12430A66005C6314 /* simple_html_dom.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = simple_html_dom.php; sourceTree = "<group>"; };
-		59FE28AB12430ABC005C6314 /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = utils.php; sourceTree = "<group>"; };
-		59FE28DC1243F790005C6314 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = scratchpad.py; sourceTree = "<group>"; };
-		59FE294D1244292F005C6314 /* crawlvfyw.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = crawlvfyw.php; sourceTree = "<group>"; };
-		59FE29A512445EE6005C6314 /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = cliargs.php; sourceTree = "<group>"; };
+		59FE2A241247F1B6005C6314 /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = geocoder/cliargs.php; sourceTree = "<group>"; };
+		59FE2A251247F1B6005C6314 /* crawlvfyw.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = crawlvfyw.php; path = geocoder/crawlvfyw.php; sourceTree = "<group>"; };
+		59FE2A261247F1B6005C6314 /* locationextractor.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationextractor.php; path = geocoder/locationextractor.php; sourceTree = "<group>"; };
+		59FE2A271247F1B6005C6314 /* locationextractortest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = locationextractortest.php; path = geocoder/locationextractortest.php; sourceTree = "<group>"; };
+		59FE2A281247F1B6005C6314 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = scratchpad.py; path = geocoder/scratchpad.py; sourceTree = "<group>"; };
+		59FE2A291247F1B6005C6314 /* simple_html_dom.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = simple_html_dom.php; path = geocoder/simple_html_dom.php; sourceTree = "<group>"; };
+		59FE2A2A1247F1B6005C6314 /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = utils.php; path = geocoder/utils.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -189,6 +189,7 @@
 		594A3A8811A41DCB00E2F4CE = {
 			isa = PBXGroup;
 			children = (
+				59FE2A1D1247F197005C6314 /* geocoder */,
 				59820B7311A44A450047D5FC /* mapfileprocess */,
 				59820B7411A44A510047D5FC /* maprender */,
 				59820BB011A458A20047D5FC /* static */,
@@ -264,7 +265,6 @@
 				59F11FA911E5588A00DF3832 /* embedtest.html */,
 				59820B8D11A44B0C0047D5FC /* examples */,
 				59820D4911AB289F0047D5FC /* gallery.html */,
-				59FE28941243050B005C6314 /* geocoder */,
 				59FC5C4911F90D5600A4E6F1 /* geocoder.php */,
 				59820D4B11AB32AA0047D5FC /* geoip.php */,
 				59820B9411A44B890047D5FC /* geometryindex.php */,
@@ -467,19 +467,18 @@
 			path = "mapfileprocess/Geo-Coder-US-1.00/eg";
 			sourceTree = "<group>";
 		};
-		59FE28941243050B005C6314 /* geocoder */ = {
+		59FE2A1D1247F197005C6314 /* geocoder */ = {
 			isa = PBXGroup;
 			children = (
-				59FE29A512445EE6005C6314 /* cliargs.php */,
-				59FE294D1244292F005C6314 /* crawlvfyw.php */,
-				59FE28951243050B005C6314 /* locationextractor.php */,
-				59FE28961243050B005C6314 /* locationextractortest.php */,
-				59FE28DC1243F790005C6314 /* scratchpad.py */,
-				59FE28AA12430A66005C6314 /* simple_html_dom.php */,
-				59FE28AB12430ABC005C6314 /* utils.php */,
+				59FE2A241247F1B6005C6314 /* cliargs.php */,
+				59FE2A251247F1B6005C6314 /* crawlvfyw.php */,
+				59FE2A261247F1B6005C6314 /* locationextractor.php */,
+				59FE2A271247F1B6005C6314 /* locationextractortest.php */,
+				59FE2A281247F1B6005C6314 /* scratchpad.py */,
+				59FE2A291247F1B6005C6314 /* simple_html_dom.php */,
+				59FE2A2A1247F1B6005C6314 /* utils.php */,
 			);
 			name = geocoder;
-			path = website/geocoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
