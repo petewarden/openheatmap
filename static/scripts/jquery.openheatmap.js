@@ -2553,6 +2553,8 @@ function OpenHeatMap(canvas, width, height)
         }
 
         var tileSize = this._settings.point_blob_tile_size;	
+
+        var startTime = new Date().getTime();
         
         while (this._pointBlobTileY<this._pointBlobBitmapHeight)
         {
@@ -2568,8 +2570,14 @@ function OpenHeatMap(canvas, width, height)
                 
                 this._pointBlobTileX+=tileSize;
 
+                var currentTime = new Date().getTime();
+                var sinceStart = (currentTime-startTime);
+			
                 if ((this._timelineButton===null)||(!this._timelineButton.getIsOn()))
-                    return this._pointBlobCanvas;
+                {
+                    if (sinceStart>2000)
+                        return this._pointBlobCanvas;
+                }
             }
             
             this._pointBlobTileX = 0;

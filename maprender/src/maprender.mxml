@@ -1446,7 +1446,7 @@ private function getValueForWayId(wayId: String): String
 		{
 			if (i===_valueColumnIndex)
 			{
-				thisValue = values[i];
+				thisValue = values[i]; 
 			}
 			else if ((i!==_timeColumnIndex)&&(i!==_tabColumnIndex)&&(i!==_tooltipColumnIndex))
 			{
@@ -2029,6 +2029,8 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 
 	var tileSize: int = _settings.point_blob_tile_size;	
 	
+	var startTime: Number = new Date().getTime();
+	
 	while (_pointBlobTileY<_pointBlobBitmapHeight)
 	{
 		var distanceFromBottom: int = (_pointBlobBitmapHeight-_pointBlobTileY);
@@ -2043,8 +2045,14 @@ private function drawPointBlobBitmap(width: Number, height: Number, viewingArea:
 			
 			_pointBlobTileX+=tileSize;
 
+			var currentTime: Number = new Date().getTime();
+			var sinceStart: Number = (currentTime-startTime);
+			
 			if ((_timelineControls===null)||(!_timelineControls.isPlaying))
-				return _pointBlobBitmap;
+			{
+				if (sinceStart>2000)
+					return _pointBlobBitmap;
+			}
 		}
 		
 		_pointBlobTileX = 0;

@@ -763,7 +763,7 @@ function createGradientFromSettings()
 function niceNumberFormat(number)
 {
     if (number<100)
-        return parseInt(number).toPrecision(3);
+        return Number(number).toPrecision(3);
     else
         return parseInt(number).toFixed(0);    
 }
@@ -790,8 +790,8 @@ function createColorKeyHTML(mapSettings)
         result += niceNumberFormat(mapSettings.component.gradient_value_min);
         result += '</li>';
 
-        var midValue = (parseInt(mapSettings.component.gradient_value_min)+
-            parseInt(mapSettings.component.gradient_value_max))/2;
+        var midValue = (Number(mapSettings.component.gradient_value_min)+
+            Number(mapSettings.component.gradient_value_max))/2;
 
         result += '<li ';
         result += 'style="background-color: ';
@@ -1022,7 +1022,8 @@ $(function()
             $('<div>Background detail from <a href="http://openstreetmap.org">OpenStreetMap</a></div>'),
             $('<div>Country boundaries by <a href="http://thematicmapping.org/">Thematic Mapping</a></div>'),
             $('<div>Contains Ordnance Survey data <a href="http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/index.html">© Crown copyright and database right 2010</a></div>'),
-            $('<div>Irish boundaries by <a href="http://www.tallyroom.com.au/maps">Ben Raue</a></div>')
+            $('<div>Irish boundaries by <a href="http://www.tallyroom.com.au/maps">Ben Raue</a></div>'),
+            $('<div>New Zealand boundaries from <a href="http://www.stats.govt.nz/">Statistics NZ</a>, converted using <a href="http://www.koordinates.com">Koordinates</a></div>')
         ],
         {
             fadeTime: 1000,

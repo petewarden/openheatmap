@@ -1,0 +1,614 @@
+
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/01/the-view-from-your-window.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/01/the-view-from-your-window.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/02/the-view-from-your-window.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/02/the-view-from-your-window.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/03/the-view-from-your-window.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/03/the-view-from-your-window.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window.html
+canandaigua new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc54854970b-500wi,2009,4,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-2.html
+dupont circle district of columbia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc564dc970b-500wi,2009,4,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-3.html
+tirana albania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156ecdeb4b970c-500wi,2009,4,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-4.html
+oxford mississippi,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156ecdf00c970c-500wi,2009,4,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-5.html
+nairobi kenya,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc57ab0970b-500wi,2009,4,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-7.html
+copenhagen denmark,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156ece1452970c-500wi,2009,4,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-8.html
+austin texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc5851f970b-500wi,2009,4,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-9.html
+tinamaste costa rica,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156ece1b60970c-500wi,2009,4,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-10.html
+beijing china,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc59b59970b-500wi,2009,4,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-11.html
+brussels belgium,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fc59f1f970b-500wi,2009,4,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-14.html
+fairlee vermont,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f07dea0970c-500wi,2009,4,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-15.html
+cincinnati ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115700f78a3970b-500wi,2009,4,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-17.html
+antioch california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3b90fb970c-500wi,2009,4,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-19.html
+brisbane australia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3bcc37970c-500wi,2009,4,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-20.html
+paia hawaii,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3c694d970c-500wi,2009,4,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-21.html
+clonakilty ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3bea76970c-500wi,2009,4,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-22.html
+austin texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3bf5c6970c-500wi,2009,4,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-23.html
+shrewsbury england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3c045b970c-500wi,2009,4,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-24.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f60f164970c-500wi,2009,4,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-25.html
+wauwatosa wisconsin,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570578d80970b-500wi,2009,4,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-26.html
+fort lauderdale florida,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f6126c1970c-500wi,2009,4,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-27.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/04/the-view-from-your-window-27.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window.html
+butuan philippines,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201157032832d970b-500wi,2009,5,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-1.html
+wayne ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115703291da970b-500wi,2009,5,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-2.html
+brooklyn new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3c544d970c-500wi,2009,5,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-3.html
+positano italy,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201157070eef3970b-500wi,2009,5,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-4.html
+cambridge massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201157076059c970b-500wi,2009,5,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-5.html
+yokosuka japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201157076088a970b-500wi,2009,5,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-6.html
+west roxbury massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707609d0970b-500wi,2009,5,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-7.html
+bucharest romania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570760aff970b-500wi,2009,5,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-8.html
+mckenzie tennessee,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707f6558970b-500wi,2009,5,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-9.html
+indianapolis indiana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f89a2eb970c-500wi,2009,5,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-10.html
+eisenach germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707f68c6970b-500wi,2009,5,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-11.html
+oklahoma city oklahoma,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707f6a55970b-500wi,2009,5,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-12.html
+lahore pakistan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707f7116970b-500wi,2009,5,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-14.html
+auckland new zealand,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115707f73f5970b-500wi,2009,5,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-15.html
+eugene oregon,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fa588be970c-500wi,2009,5,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-16.html
+jerusalem israel,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115709ada7e970b-500wi,2009,5,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-17.html
+washington district of columbia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115709adc79970b-500wi,2009,5,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-18.html
+kyoto japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fa58d0d970c-500wi,2009,5,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-19.html
+las vegas nevada,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115709ade2b970b-500wi,2009,5,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-20.html
+kampala uganda,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fa58ef3970c-500wi,2009,5,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-21.html
+fishers indiana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570a85924970b-500wi,2009,5,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-22.html
+chengdu china,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570abd08b970b-500wi,2009,5,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-23.html
+crete illinois,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570ae4b73970b-500wi,2009,5,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-24.html
+portland oregon,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3c100a970c-500wi,2009,5,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-25.html
+athens greece,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156f3c17f8970c-500wi,2009,5,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-26.html
+clarkdale arizona,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570327a95970b-500wi,2009,5,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-27.html
+bradford england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fb91b20970c-500wi,2009,5,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-28.html
+nashville tennessee,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570ae564f970b-500wi,2009,5,28,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-29.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/05/the-view-from-your-window-29.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window.html
+tunis tunisia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fcba5c3970c-500wi,2009,6,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-1.html
+parsons kansas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fcba63c970c-500wi,2009,6,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-2.html
+gyeongju south korea,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570c0de90970b-500wi,2009,6,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-3.html
+0: Couldn't find file 'data/countries/je/cities.csv'
+in iran,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156fecf1a6970c-500wi,2009,6,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-4.html
+auckland new zealand,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570ed78ad970b-500wi,2009,6,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-5.html
+eisenach germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201156ffed9bd970c-500wi,2009,6,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-6.html
+oxford ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570f3bc24970b-500wi,2009,6,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-7.html
+fairfax virginia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570056110970c-500wi,2009,6,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-9.html
+washington district of columbia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011570fa567f970b-500wi,2009,6,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-10.html
+tehran iran,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115712dbad9970b-500wi,2009,6,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-11.html
+bugolobi uganda,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115712feab7970b-500wi,2009,6,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-12.html
+englewood colorado,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115712febca970b-500wi,2009,6,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-13.html
+juneau alaska,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201157155d18c970b-500wi,2009,6,13,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-14.html
+queretaro mexico,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115715b769d970b-500wi,2009,6,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-15.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/06/the-view-from-your-window-15.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window.html
+olympia washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011571c8c62d970b-500wi,2009,7,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-1.html
+izmir turkey,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011571cfec90970b-500wi,2009,7,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-2.html
+tokyo japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011571d57fd0970b-500wi,2009,7,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-3.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/07/the-view-from-your-window-3.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window.html
+cork ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20115724ddad5970b-500wi,2009,8,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-1.html
+rock creek california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2011571598f6e970c-500wi,2009,8,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-2.html
+port macquarie australia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5348d8f970c-500wi,2009,8,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-4.html
+seattle washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a50047e5970b-500wi,2009,8,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-7.html
+orlando florida,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a515783b970b-500wi,2009,8,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-9.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/08/the-view-from-your-window-9.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window.html
+siasconset massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a598014b970c-500wi,2009,9,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-1.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a562b57b970b-500wi,2009,9,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-2.html
+waterbury vermont,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a56933e2970b-500wi,2009,9,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-3.html
+san francisco california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5bfcf5c970c-500wi,2009,9,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-5.html
+chagrin falls ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5693a11970b-500wi,2009,9,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-6.html
+panjim india,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5bfd340970c-500wi,2009,9,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-7.html
+hacienda heights california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5693bb2970b-500wi,2009,9,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-8.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/09/the-view-from-your-window-8.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window.html
+brussels belgium,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5a335c7970b-500wi,2009,10,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-1.html
+split croatia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5a33c29970b-500wi,2009,10,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-2.html
+carlisle pennsylvania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a61a39e9970c-500wi,2009,10,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-3.html
+readfield maine,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a5cbe7e7970b-500wi,2009,10,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-4.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/10/the-view-from-your-window-4.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window.html
+ames iowa,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6a2bcd1970c-500wi,2009,11,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-1.html
+brookline massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6a0c5ff970c-500wi,2009,11,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-2.html
+phuket thailand,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a64d4788970b-500wi,2009,11,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-3.html
+nairobi kenya,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a64d72e0970b-500wi,2009,11,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-4.html
+huffs church pennsylvania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6a2ee40970c-500wi,2009,11,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-5.html
+stuttgart germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20128755ff2e0970c-500wi,2009,11,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-6.html
+fulton new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a65f12ce970b-500wi,2009,11,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-7.html
+bloomfield hills michigan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a65f1453970b-500wi,2009,11,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-8.html
+portrush northern ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a65f1958970b-500wi,2009,11,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-10.html
+new haven connecticut,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6773106970b-500wi,2009,11,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-11.html
+san jose costa rica,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6b3f78b970b-500wi,2009,11,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-12.html
+medford massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a6b3fc3d970b-500wi,2009,11,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-13.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/11/the-view-from-your-window-13.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/12/the-view-from-your-window.html
+grass valley california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2012875e67171970c-500wi,2009,12,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2009/12/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2009/12/the-view-from-your-window-1.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2009/12/the-view-from-your-window-1.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/01/the-view-from-your-window.html
+toronto canada,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201287676c865970c-500wi,2010,1,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/01/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/01/the-view-from-your-window-1.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/01/the-view-from-your-window-1.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window.html
+fayetteville north carolina,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20128773ddbcd970c-500wi,2010,2,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-2.html
+leiden netherlands,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201287746167f970c-500wi,2010,2,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-3.html
+wellington new zealand,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a8459a6e970b-500wi,2010,2,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-4.html
+ivins utah,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a8459d41970b-500wi,2010,2,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-5.html
+rothenburg germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2012877477d07970c-500wi,2010,2,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-6.html
+new haven connecticut,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a845a28a970b-500wi,2010,2,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-8.html
+berlin germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a845a9dc970b-500wi,2010,2,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-9.html
+ellicott city maryland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2012877761f98970c-500wi,2010,2,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-10.html
+philadelphia pennsylvania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a88a12b5970b-500wi,2010,2,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-12.html
+firenze italy,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2012877a0e06a970c-500wi,2010,2,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-13.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/02/the-view-from-your-window-13.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window.html
+corvallis montana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a8d1c170970b-500wi,2010,3,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-1.html
+los angeles california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a8d1c25e970b-500wi,2010,3,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-3.html
+portland oregon,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a8d1c54d970b-500wi,2010,3,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-5.html
+easthampton massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310f6d67e1970c-550wi,2010,3,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-6.html
+pondicherry india,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310f6d6c4e970c-550wi,2010,3,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-7.html
+goldens bridge new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310f6d76a1970c-550wi,2010,3,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-8.html
+barcelona spain,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310f7c8e20970c-550wi,2010,3,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-9.html
+san diego california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a91baad4970b-550wi,2010,3,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-10.html
+johannesburg south africa,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310f8a03c2970c-550wi,2010,3,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-11.html
+chisinau moldova,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a923518f970b-550wi,2010,3,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-13.html
+mountain view california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a939c9da970b-550wi,2010,3,13,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-14.html
+nowshera pakistan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a93ff981970b-550wi,2010,3,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-15.html
+seattle washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310fa6e825970c-550wi,2010,3,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-16.html
+pingdong china,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310fa6e9be970c-550wi,2010,3,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-17.html
+san francisco california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a93ffcb1970b-550wi,2010,3,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-18.html
+tokyo japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a93ffd86970b-550wi,2010,3,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-19.html
+taipei taiwan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a9565af0970b-550wi,2010,3,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-20.html
+west wardsboro vermont,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310fbd30f7970c-550wi,2010,3,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-21.html
+dallas texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a967dabd970b-550wi,2010,3,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-22.html
+hyderabad india,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a967e75c970b-550wi,2010,3,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-24.html
+torshavn faroe islands,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a971e72e970b-550wi,2010,3,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-25.html
+ivins utah,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201310fd8e2ed970c-550wi,2010,3,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-26.html
+bahia brazil,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a971f79b970b-550wi,2010,3,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-27.html
+panama city panama,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20120a971fc0f970b-550wi,2010,3,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-28.html
+butte montana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ec59c6df970b-550wi,2010,3,28,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-29.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/03/the-view-from-your-window-29.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window.html
+0: Couldn't find file 'data/countries/va/cities.csv'
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-5.html
+piermont new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201347fb17365970c-550wi,2010,4,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-6.html
+santiago chile,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ec8a4d81970b-550wi,2010,4,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-7.html
+madison wisconsin,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ec8d0173970b-550wi,2010,4,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-8.html
+madisonville kentucky,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ec90cdf1970b-550wi,2010,4,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-10.html
+nantucket massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ecac6311970b-550wi,2010,4,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-11.html
+cape maclear malawi,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133eca31e08970b-550wi,2010,4,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-14.html
+0: Couldn't find file 'data/countries/je/cities.csv'
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-16.html
+seattle washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201347fe31e75970c-550wi,2010,4,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-17.html
+rancho santa margarita california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ecc7c635970b-550wi,2010,4,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-20.html
+mount pleasant south carolina,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ecc7cc41970b-550wi,2010,4,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-21.html
+tokyo japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ecc7cd58970b-550wi,2010,4,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-22.html
+london england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201347ff7f19d970c-550wi,2010,4,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-23.html
+fayetteville arkansas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201347ff7f37d970c-550wi,2010,4,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-24.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/04/the-view-from-your-window-24.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window.html
+sydney australia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed15be0e970b-550wi,2010,5,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-1.html
+dallas texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed282138970b-550wi,2010,5,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-2.html
+gunnison colorado,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed290abc970b-550wi,2010,5,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-4.html
+bloomsburg pennsylvania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed3d8bc9970b-550wi,2010,5,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-5.html
+billings montana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134808c78dc970c-550wi,2010,5,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-6.html
+johannesburg south africa,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134808ccb89970c-550wi,2010,5,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-8.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed593107970b-550wi,2010,5,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-9.html
+istanbul turkey,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed595348970b-550wi,2010,5,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-10.html
+riverside california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed595941970b-550wi,2010,5,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-11.html
+warsaw poland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed595c46970b-550wi,2010,5,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-12.html
+newport oregon,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134808d3117970c-550wi,2010,5,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-13.html
+san diego california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed59815f970b-550wi,2010,5,13,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-14.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ed5991a4970b-550wi,2010,5,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-15.html
+kilcar ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134808d7e55970c-550wi,2010,5,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-16.html
+kent washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013480f1a12a970c-550wi,2010,5,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-17.html
+lander wyoming,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013480f1e36d970c-550wi,2010,5,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-18.html
+london england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133edbff8c4970b-550wi,2010,5,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-19.html
+seoul south korea,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013480f23628970c-550wi,2010,5,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-20.html
+san luis obispo california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013480f28eb2970c-550wi,2010,5,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-21.html
+grand gorge new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133edc094ce970b-550wi,2010,5,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-22.html
+xiamen china,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ee50698e970b-550wi,2010,5,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-23.html
+homer alaska,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ee696613970b-550wi,2010,5,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-24.html
+twentynine palms california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201347ff7f4fc970c-550wi,2010,5,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-25.html
+pau france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ee696bc6970b-550wi,2010,5,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-26.html
+morgantown west virginia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133eec7c385970b-550wi,2010,5,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-27.html
+duck north carolina,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201348214dd30970c-550wi,2010,5,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-28.html
+positano italy,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201348250ff7d970c-550wi,2010,5,28,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-29.html
+berlin germany,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013482510660970c-550wi,2010,5,29,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-29.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-30.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013482510a8e970c-550wi,2010,5,30,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-30.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-31.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/05/the-view-from-your-window-31.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window.html
+turku finland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ef224afc970b-550wi,2010,6,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-1.html
+gorgona panama,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133ef5e05eb970b-550wi,2010,6,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-3.html
+haifa israel,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013482ceb6f1970c-550wi,2010,6,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-6.html
+paris france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133efb94d1e970b-550wi,2010,6,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-7.html
+kingston oklahoma,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133efb94ee3970b-550wi,2010,6,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-8.html
+the hague netherlands,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133efb951b1970b-550wi,2010,6,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-9.html
+bethel alaska,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133efb95430970b-550wi,2010,6,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-10.html
+river falls wisconsin,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f08b2ed6970b-550wi,2010,6,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-11.html
+0: Couldn't find file 'data/countries/je/cities.csv'
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-12.html
+paulo brazil,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f08b35c8970b-550wi,2010,6,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-14.html
+austin texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013484416a3e970c-550wi,2010,6,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-15.html
+panama city panama,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f117393f970b-550wi,2010,6,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-16.html
+matsuyama japan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1173bdb970b-550wi,2010,6,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-17.html
+cusco peru,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1173f57970b-550wi,2010,6,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-18.html
+desloge missouri,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f11744e6970b-550wi,2010,6,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-19.html
+molde norway,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1174776970b-550wi,2010,6,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-21.html
+riviera beach florida,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1174ca5970b-550wi,2010,6,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-22.html
+union ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013484e078c6970c-550wi,2010,6,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-23.html
+bali indonesia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013484e3df8c970c-550wi,2010,6,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-24.html
+birmingham alabama,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013484ed68e9970c-550wi,2010,6,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-25.html
+sea ranch california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1c6d804970b-550wi,2010,6,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-26.html
+amsterdam netherlands,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485141e4e970c-550wi,2010,6,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-27.html
+bali indonesia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134850af9b2970c-550wi,2010,6,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-28.html
+dallas texas,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134850b0864970c-550wi,2010,6,28,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-29.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-30.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/06/the-view-from-your-window-30.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window.html
+galway ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f1e57d25970b-550wi,2010,7,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-2.html
+ventenac france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f213e5f0970b-550wi,2010,7,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-3.html
+ithaca new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134853967b7970c-550wi,2010,7,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-4.html
+clifden ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134853c4d87970c-550wi,2010,7,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-5.html
+summit missouri,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f220a363970b-550wi,2010,7,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-8.html
+dayton ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f220da04970b-550wi,2010,7,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-9.html
+koprivshtitsa bulgaria,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134856328d6970c-550wi,2010,7,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-10.html
+beziers france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f23dacce970b-550wi,2010,7,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-11.html
+los angeles california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f23db16e970b-550wi,2010,7,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-12.html
+bamiyan afghanistan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485634f49970c-550wi,2010,7,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-13.html
+london england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134857ed6ca970c-550wi,2010,7,13,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-14.html
+christchurch new zealand,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134857ee75c970c-550wi,2010,7,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-15.html
+doha qatar,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f26705a6970b-550wi,2010,7,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-16.html
+anchorage alaska,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134857ef965970c-550wi,2010,7,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-17.html
+sedona arizona,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f259cf0d970b-550wi,2010,7,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-18.html
+jacksonville florida,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2670766970b-550wi,2010,7,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-19.html
+towson maryland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134858c6a24970c-550wi,2010,7,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-20.html
+london england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2670fcd970b-550wi,2010,7,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-21.html
+oriental north carolina,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134858c7237970c-550wi,2010,7,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-22.html
+haifa israel,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f27fa0b6970b-550wi,2010,7,22,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-23.html
+massa martana italy,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485b85607970c-550wi,2010,7,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-24.html
+ambleside england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485b85efa970c-550wi,2010,7,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-25.html
+calama chile,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485b863fd970c-550wi,2010,7,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-26.html
+detroit michigan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013484edc94e970c-550wi,2010,7,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-27.html
+brooklyn new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2942d6f970b-550wi,2010,7,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-29.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/07/the-view-from-your-window-29.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window.html
+pittsburgh pennsylvania,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2942241970b-550wi,2010,8,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-2.html
+bourg bruche france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f294580f970b-550wi,2010,8,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-3.html
+maputo mozambique,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2945a44970b-550wi,2010,8,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-4.html
+budapest hungary,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485b89dfd970c-550wi,2010,8,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-5.html
+cincinnati ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f2945e0d970b-550wi,2010,8,5,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-7.html
+crescent washington,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f29462d7970b-550wi,2010,8,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-8.html
+vernou sur seine france,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013485b8a6be970c-550wi,2010,8,8,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-10.html
+henderson kentucky,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201348627f847970c-550wi,2010,8,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-11.html
+isola italy,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134862c8367970c-550wi,2010,8,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-14.html
+boulder colorado,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134863c9287970c-550wi,2010,8,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-15.html
+navarre florida,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f324a37d970b-550wi,2010,8,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-16.html
+salvador brazil,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134864cb87e970c-550wi,2010,8,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-16.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-17.html
+moscow russia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3296599970b-550wi,2010,8,17,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-17.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-18.html
+hills ohio,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201348656c888970c-550wi,2010,8,18,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-18.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-19.html
+krakow poland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134865c6609970c-550wi,2010,8,19,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-19.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-20.html
+churchville virginia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486664e10970c-550wi,2010,8,20,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-20.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-21.html
+suva fiji,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134866652e6970c-550wi,2010,8,21,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-21.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-22.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-23.html
+hongnong south korea,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3420a85970b-550wi,2010,8,23,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-23.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-24.html
+detroit michigan,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3420dd4970b-550wi,2010,8,24,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-24.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-25.html
+elland england,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134866666c6970c-550wi,2010,8,25,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-25.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-26.html
+montreal canada,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486666a74970c-550wi,2010,8,26,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-26.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-27.html
+hull massachusetts,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486666c55970c-550wi,2010,8,27,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-27.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-28.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-29.html
+Couldn't load from 'http://andrewsullivan.theatlantic.com/the_daily_dish/2010/08/the-view-from-your-window-29.html' - response was ''
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window.html
+san anselmo california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486993f73970c-550wi,2010,9,0,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-1.html
+hayden colorado,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3832c0a970b-550wi,2010,9,1,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-1.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-2.html
+dubai united arab emirates,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486a6cbc7970c-550wi,2010,9,2,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-2.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-3.html
+panjim india,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486a6cfe4970c-550wi,2010,9,3,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-3.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-4.html
+new orleans louisiana,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013486a6d519970c-550wi,2010,9,4,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-4.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-5.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-6.html
+goshen virginia,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3ea9608970b-550wi,2010,9,6,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-6.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-7.html
+southport connecticut,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f3fde68e970b-550wi,2010,9,7,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-7.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-8.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-9.html
+new york new york,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e2013487310407970c-550wi,2010,9,9,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-9.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-10.html
+cong ireland,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f4102c31970b-550wi,2010,9,10,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-10.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-11.html
+wickford rhode island,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f4102f1b970b-550wi,2010,9,11,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-11.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-12.html
+tucson arizona,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f428e143970b-550wi,2010,9,12,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-12.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-13.html
+buenos aires argentina,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f431622d970b-550wi,2010,9,13,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-13.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-14.html
+pasadena california,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20134875c09f2970c-550wi,2010,9,14,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-14.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-15.html
+puerto vallarta mexico,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e20133f446deee970b-550wi,2010,9,15,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-15.html
+Looking at http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-16.html
+crested butte colorado,http://andrewsullivan.theatlantic.com/.a/6a00d83451c45669e201348766372b970c-550wi,2010,9,16,http://andrewsullivan.theatlantic.com/the_daily_dish/2010/09/the-view-from-your-window-16.html

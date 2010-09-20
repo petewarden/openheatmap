@@ -1,0 +1,443 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "GED07": "001",
+           "NAME": "Auckland Central"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "GED07": "002",
+           "NAME": "Bay of Plenty"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "GED07": "003",
+           "NAME": "Botany"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "GED07": "004",
+           "NAME": "Christchurch Central"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "GED07": "005",
+           "NAME": "Christchurch East"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "GED07": "006",
+           "NAME": "Clutha-Southland"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "GED07": "007",
+           "NAME": "Coromandel"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "GED07": "008",
+           "NAME": "Dunedin North"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "GED07": "009",
+           "NAME": "Dunedin South"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "GED07": "010",
+           "NAME": "East Coast"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "GED07": "011",
+           "NAME": "East Coast Bays"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "GED07": "012",
+           "NAME": "Epsom"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "GED07": "013",
+           "NAME": "Hamilton East"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "GED07": "014",
+           "NAME": "Hamilton West"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "GED07": "015",
+           "NAME": "Helensville"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "GED07": "016",
+           "NAME": "Hunua"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "GED07": "017",
+           "NAME": "Hutt South"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "GED07": "018",
+           "NAME": "Ilam"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "GED07": "019",
+           "NAME": "Invercargill"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "GED07": "020",
+           "NAME": "Kaikoura"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "GED07": "021",
+           "NAME": "Mana"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "GED07": "022",
+           "NAME": "Mangere"
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "GED07": "023",
+           "NAME": "Manukau East"
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "GED07": "024",
+           "NAME": "Manurewa"
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "GED07": "025",
+           "NAME": "Maungakiekie"
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "GED07": "026",
+           "NAME": "Mt Albert"
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "GED07": "027",
+           "NAME": "Mt Roskill"
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "GED07": "028",
+           "NAME": "Napier"
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "GED07": "029",
+           "NAME": "Nelson"
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "GED07": "030",
+           "NAME": "New Lynn"
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "GED07": "031",
+           "NAME": "New Plymouth"
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "GED07": "032",
+           "NAME": "North Shore"
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "GED07": "033",
+           "NAME": "Northcote"
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "GED07": "034",
+           "NAME": "Northland"
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "GED07": "035",
+           "NAME": "Ohariu"
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "GED07": "036",
+           "NAME": "Otaki"
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "GED07": "037",
+           "NAME": "Pakuranga"
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "GED07": "038",
+           "NAME": "Palmerston North"
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "GED07": "039",
+           "NAME": "Papakura"
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "GED07": "040",
+           "NAME": "Port Hills"
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "GED07": "041",
+           "NAME": "Rangitata"
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "GED07": "042",
+           "NAME": "Rangitikei"
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "GED07": "043",
+           "NAME": "Rimutaka"
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "GED07": "044",
+           "NAME": "Rodney"
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "GED07": "045",
+           "NAME": "Rongotai"
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "GED07": "046",
+           "NAME": "Rotorua"
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "GED07": "047",
+           "NAME": "Selwyn"
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "GED07": "048",
+           "NAME": "Tamaki"
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "GED07": "049",
+           "NAME": "Taranaki-King Country"
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "GED07": "050",
+           "NAME": "Taupo"
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "GED07": "051",
+           "NAME": "Tauranga"
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "GED07": "052",
+           "NAME": "Te Atatu"
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "GED07": "053",
+           "NAME": "Tukituki"
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "GED07": "054",
+           "NAME": "Waikato"
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "GED07": "055",
+           "NAME": "Waimakariri"
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "GED07": "056",
+           "NAME": "Wairarapa"
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "GED07": "057",
+           "NAME": "Waitakere"
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "GED07": "058",
+           "NAME": "Waitaki"
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "GED07": "059",
+           "NAME": "Wellington Central"
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "GED07": "060",
+           "NAME": "West Coast-Tasman"
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "GED07": "061",
+           "NAME": "Whanganui"
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "GED07": "062",
+           "NAME": "Whangarei"
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "GED07": "063",
+           "NAME": "Wigram"
+       }
+    }
+]

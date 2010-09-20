@@ -1,0 +1,8 @@
+{
+    "to_delete": {
+    },
+    "to_rename": {
+        "GED07": "nzl_electoral_district_code",
+        "NAME": "name"
+    }
+}
