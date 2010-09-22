@@ -114,3 +114,12 @@ a:hover {color: #990000; text-decoration: underline;}
 
 .gallery_box1 { margin-top:10px; margin-right:15px; font-size: 150%; width:450px; height:470px; float:left; }
 .gallery_box2 { margin-top:10px; font-size: 150%; width:450px; height:470px; float:left; }
+
+.menu { }
+.menu li {	float: left; list-style: none; }
+.menu li a { display: block; background: #CCCCCC; padding: 5px 12px; text-decoration: none; width: 110px; color: #000000; white-space: nowrap; }
+.menu li a:hover { }		
+.menu li ul { margin: 0; padding: 0; position: absolute; visibility: hidden; }
+.menu li ul li { float: none; display: inline;}		
+.menu li ul li a { width: 110px; background: #CCCCCC; }
+.menu li ul li a:hover { color: #990000; }

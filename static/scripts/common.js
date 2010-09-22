@@ -667,7 +667,18 @@ function updateMapWithSettings(mapSettings)
     
     openHeatMap.setColorGradient(mapSettings.general.gradient_with_alpha);
     
-    openHeatMap.setWayDefault('color', 0xf0f0f0);
+    if (typeof mapSettings.way !== 'undefined')
+    {
+        for (var key in mapSettings.way)
+        {
+            var value = mapSettings.way[key];
+            openHeatMap.setWayDefault(key, value);
+        }
+    }
+    else
+    {    
+        openHeatMap.setWayDefault('color', 0xf0f0f0);
+    }
     
     openHeatMap.setSetting('show_tabs', false);
 }
@@ -768,6 +779,25 @@ function niceNumberFormat(number)
         return parseInt(number).toFixed(0);    
 }
 
+function oppositeForegroundColor(backgroundColor)
+{
+    var backgroundNumber = parseInt(backgroundColor.replace('#', ''), 16);
+
+    var red = ((backgroundNumber&0xff0000)>>16);
+    var green = ((backgroundNumber&0x00ff00)>>8);
+    var blue = ((backgroundNumber&0x0000ff)>>0);
+
+    var luminance = (0.59*green) + (0.30*red) + (0.11*blue);
+
+    var result;
+    if (luminance<64)
+        result = '#ffffff';
+    else
+        result = '#000000';
+        
+    return result;
+}
+
 function createColorKeyHTML(mapSettings)
 {
     var result = '';
@@ -785,7 +815,9 @@ function createColorKeyHTML(mapSettings)
     {
         result += '<li ';
         result += 'style="background-color: ';
-        result += mapSettings.general.gradient_start_color+';';
+        result += mapSettings.general.gradient_start_color+'; ';
+        result += 'color:';
+        result += oppositeForegroundColor(mapSettings.general.gradient_start_color)+'; ';
         result += '">';
         result += niceNumberFormat(mapSettings.component.gradient_value_min);
         result += '</li>';
@@ -795,14 +827,18 @@ function createColorKeyHTML(mapSettings)
 
         result += '<li ';
         result += 'style="background-color: ';
-        result += mapSettings.general.gradient_mid_color+';';
+        result += mapSettings.general.gradient_mid_color+'; ';
+        result += 'color:';
+        result += oppositeForegroundColor(mapSettings.general.gradient_mid_color)+'; ';
         result += '">';
         result += niceNumberFormat(midValue);
         result += '</li>';
 
         result += '<li ';
         result += 'style="background-color: ';
-        result += mapSettings.general.gradient_end_color+';';
+        result += mapSettings.general.gradient_end_color+'; ';
+        result += 'color:';
+        result += oppositeForegroundColor(mapSettings.general.gradient_end_color)+'; ';
         result += '">';
         result += niceNumberFormat(mapSettings.component.gradient_value_max);
         result += '</li>';
@@ -1031,3 +1067,44 @@ $(function()
         }
     );
 });
+
+var timeout    = 500;
+var closetimer = 0;
+var ddmenuitem = 0;
+
+function jsddm_open()
+{
+    jsddm_canceltimer();
+    jsddm_close();
+    ddmenuitem = $(this).find('ul').css('visibility', 'visible');
+}
+
+function jsddm_close()
+{  
+    if (ddmenuitem) 
+        ddmenuitem.css('visibility', 'hidden');
+}
+
+function jsddm_timer()
+{  
+    closetimer = window.setTimeout(jsddm_close, timeout);
+}
+
+function jsddm_canceltimer()
+{ 
+    if(closetimer)
+    {  
+        window.clearTimeout(closetimer);
+        closetimer = null;
+    }
+}
+
+$(document).ready(function()
+{  
+    $('.menu > li').bind('mouseover', jsddm_open)
+    $('.menu > li').bind('mouseout',  jsddm_timer)
+    $(document).bind('onclick', jsddm_close);
+});
+
+
+

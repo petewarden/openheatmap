@@ -148,6 +148,7 @@
 		59FE2A281247F1B6005C6314 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = scratchpad.py; path = geocoder/scratchpad.py; sourceTree = "<group>"; };
 		59FE2A291247F1B6005C6314 /* simple_html_dom.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = simple_html_dom.php; path = geocoder/simple_html_dom.php; sourceTree = "<group>"; };
 		59FE2A2A1247F1B6005C6314 /* utils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = utils.php; path = geocoder/utils.php; sourceTree = "<group>"; };
+		59FE2B7B12480D9E005C6314 /* PHPExcel.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = PHPExcel.php; path = website/PHPExcel.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -276,6 +277,7 @@
 				59820B9911A44B890047D5FC /* locationvalueshelp.php */,
 				59820B9A11A44B890047D5FC /* mapsettings.php */,
 				59E636181218B0A50076D3B4 /* parallelcurl.php */,
+				59FE2B7B12480D9E005C6314 /* PHPExcel.php */,
 				59820D9E11AC68570047D5FC /* placemaker.php */,
 				59FE269912404071005C6314 /* qquploader.php */,
 				59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */,
