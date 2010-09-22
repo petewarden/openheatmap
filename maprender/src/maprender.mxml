@@ -1605,8 +1605,24 @@ private function drawMapIntoMainBitmap(): void
 		
 		if (_settings.show_map_tiles)	
 			drawMapTiles(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+
+		if (_dirty||_pointBlobStillRendering)
+		{
+			inlay._informationLayerShape = new Shape();
+			var informationBitmapData:BitmapData = new BitmapData(inlayWidth, inlayHeight, true, _settings.ocean_color);
+			inlay._informationLayerBitmap = new Bitmap(informationBitmapData);
+			inlay._informationLayerBitmap.x = 0;
+			inlay._informationLayerBitmap.y = 0;
+			
+			inlay._informationLayerShape.graphics.clear();
+			drawInformationLayer(inlay._informationLayerShape.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+			inlay._informationLayerBitmap.bitmapData.fillRect(new Rectangle(0, 0, inlayWidth, inlayHeight), 0x00000000);
+			inlay._informationLayerBitmap.bitmapData.draw(inlay._informationLayerShape, new Matrix());
+		}
 		
-		drawInformationLayer(drawingSurface.graphics, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+		drawingSurface.graphics.beginBitmapFill(inlay._informationLayerBitmap.bitmapData, new Matrix(), false);
+		drawingSurface.graphics.drawRect(0, 0, inlayWidth, inlayHeight);
+		drawingSurface.graphics.endFill();
 		
 		var borderTopLeft: Point = screenTopLeft.subtract(croppedScreenTopLeft);
 		var borderBottomRight: Point = screenBottomRight.subtract(croppedScreenTopLeft).subtract(new Point(1, 1));

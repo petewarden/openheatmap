@@ -2155,7 +2155,13 @@ function OpenHeatMap(canvas, width, height)
             if (this._settings.show_map_tiles)	
                 this.drawMapTiles(drawingSurface, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
 
-            this.drawInformationLayer(drawingSurface, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+            if (this._dirty||this._pointBlobStillRendering)
+            {			
+                inlay._informationLayerCanvas = this.createCanvas(inlayWidth, inlayHeight);
+                this.drawInformationLayer(inlay._informationLayerCanvas, inlayWidth, inlayHeight, croppedLatLonToXYMatrix, croppedXYToLatLonMatrix);
+            }
+            
+            this.drawImage(drawingSurface, inlay._informationLayerCanvas.get(0), 0, 0, inlayWidth, inlayHeight);
             
             var borderTopLeft = screenTopLeft.subtract(croppedScreenTopLeft);
             var borderBottomRight = screenBottomRight.subtract(croppedScreenTopLeft).subtract(new Point(1, 1));
