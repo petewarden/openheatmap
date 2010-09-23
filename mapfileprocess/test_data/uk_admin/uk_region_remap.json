@@ -1,0 +1,25 @@
+{
+    "to_delete": {
+    },
+    "to_rename": {
+        "^NAME$": "name"
+    },
+    "to_add": {
+        "^NAME$": {
+            "new_key": "uk_region_code",
+            "mapping": {
+                "East Midlands": "UKF",
+                "Eastern": "UKH",
+                "London": "UKI",
+                "North East": "UKC",
+                "North West": "UKD",
+                "Scotland": "UKM",
+                "South East": "UKJ",
+                "South West": "UKK",
+                "Wales": "UKL",
+                "West Midlands": "UKG",
+                "Yorkshire and the Humber": "UKE"
+            }
+        }
+    }
+}

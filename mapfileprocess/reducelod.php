@@ -165,8 +165,64 @@ function sort_nodes_by_area(&$nodes, &$ways)
     uasort($nodes, $sortfunction);
 }
 
-function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer)
+function decimate_ways($input_osm_ways, $decimate)
 {
+    if ($decimate==0)
+        return $input_osm_ways;
+
+    $frequency = (100.0/$decimate);
+
+    $result = new OSMWays();
+
+    $input_ways = $input_osm_ways->ways;
+    $input_nodes = $input_osm_ways->nodes;
+    
+    foreach ($input_ways as $way)
+    {
+        $result->begin_way();
+     
+        foreach ($way['tags'] as $key => $value)
+        {
+            $result->add_tag($key, $value);
+        }
+
+        $nds_count = count($way['nds']);
+        $nd_index = 0;
+        foreach ($way['nds'] as $nd_ref)
+        {
+            $is_first = ($nd_index==0);
+            $is_last = ($nd_index==($nds_count-1));
+ 
+            $nd_index += 1;
+                                  
+            if (!isset($input_nodes[$nd_ref]))
+                continue;
+            
+            $mod = fmod($nd_index, $frequency);
+            $is_keeper = ($mod<0.998);
+            
+            $use_vertex = ($is_first||$is_last||$is_keeper);
+            
+            if ($use_vertex)
+            {
+                $node = $input_nodes[$nd_ref];
+                $result->add_vertex($node['lat'], $node['lon']);
+            }
+        }
+        
+        $result->end_way();
+    }
+    
+    return $result;
+}
+
+function reduce_lod(&$osm_ways, $vertex_target, $area_target, $area_transfer, $decimate)
+{
+    if ($decimate>0)
+    {
+        $osm_ways = decimate_ways($osm_ways, $decimate);
+    }
+
     $nodes = &$osm_ways->nodes;
     $ways = &$osm_ways->ways;
 
@@ -359,6 +415,12 @@ $cliargs = array(
 		'description' => 'How much of a bias to use towards detailed areas',
         'default' => '0.25',
 	),
+    'decimate' => array(
+        'short' => 'd',
+        'type' => 'optional',
+        'description' => 'Percentage of vertices to arbitrarily remove before in-depth processing',
+        'default' => '0',
+    ),
 );	
 
 $options = cliargs_get_options($cliargs);
@@ -369,6 +431,7 @@ $input_file = $options['inputfile'];
 $output_file = $options['outputfile'];
 $force_closed = $options['forceclosed'];
 $area_transfer = $options['areatransfer'];
+$decimate = $options['decimate'];
 
 if (($vertex_target===0)&&($area_target===0))
 {
@@ -380,7 +443,7 @@ $osm_ways = new OSMWays();
 $input_contents = file_get_contents($input_file) or die("Couldn't read file '$input_file'");
 $osm_ways->deserialize_from_xml($input_contents);
 
-reduce_lod($osm_ways, $vertex_target, $area_target, $area_transfer);
+reduce_lod($osm_ways, $vertex_target, $area_target, $area_transfer, $decimate);
 reclose_ways($osm_ways, $force_closed);
 
 $output_contents = $osm_ways->serialize_to_xml();

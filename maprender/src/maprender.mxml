@@ -179,7 +179,8 @@ public var _settings: Object =
 	point_blob_tile_size: 128,
 	show_tabs: true,
 	show_zoom: true,
-	allow_pan: true
+	allow_pan: true,
+	draw_circles: false
 };
 
 public var _lastSetWayIds: Object = {};
@@ -3170,9 +3171,9 @@ public function drawPointBlobTile(width: Number,
 	var bottomY: int = (topY+tileHeight);
 	
 	var blobRadius: Number;
+	var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
 	if (_settings.is_point_blob_radius_in_pixels)
 	{	
-		var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
 		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
 	}
 	else
@@ -3181,6 +3182,7 @@ public function drawPointBlobTile(width: Number,
 	}
 	var twoBlobRadius: Number = (2*blobRadius);
 	var blobRadiusSquared: Number = (blobRadius*blobRadius);
+	var blobRadiusInPixels: Number = Math.abs(blobRadius*pixelsPerDegreeLatitude)/2.0;
 	
 	if (_settings.is_gradient_value_range_set)
 	{
@@ -3199,6 +3201,8 @@ public function drawPointBlobTile(width: Number,
 	var hasValues: Boolean = (_valueColumnIndex!==-1);
 	
 	var isValueDistance: Boolean = (_settings.is_value_distance);
+	
+	var drawCircles: Boolean = (_settings.draw_circles);
 	
 	var leftLon: Number = viewingArea.left;
 	var rightLon: Number = viewingArea.right;
@@ -3234,48 +3238,130 @@ public function drawPointBlobTile(width: Number,
 				continue;
 			}
 			
-			var value: Number = 0;
-			var lerpTotal: Number = 0;
-			var minDistance: Number = blobRadius;
-			
-			for each (var point: Object in candidatePoints)
+			if (drawCircles)
 			{
-				var pos: Point = point.pos;
-				var delta: Point = worldPoint.subtract(pos);
-				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
-				if (distanceSquared>blobRadiusSquared)
-					continue;
+				var foundPoints: Array = [];
+				for each (var point: Object in candidatePoints)
+				{
+					var pos: Point = point.pos;
+					var delta: Point = worldPoint.subtract(pos);
+					var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
+					if (distanceSquared>blobRadiusSquared)
+						continue;
+
+					var value: Number = point.value;
+					var radiusScale: Number = ((value-minValue)*valueScale);						
+					radiusScale = 0.1+(radiusScale*0.9);
+					radiusScale = Math.min(1.0, radiusScale);
+					
+					var distance: Number = Math.sqrt(distanceSquared);
+					var lerp: Number = (radiusScale-(distance/blobRadius));
+					
+					if (lerp<0)
+						continue;
+					
+					point.sourceAlpha = Math.min(1.0, (lerp*blobRadiusInPixels));
+					
+					foundPoints.push(point);
+				}
 				
-				var distance: Number = Math.sqrt(distanceSquared);
-				var lerp: Number = (1-(distance/blobRadius));
-				
-				value += (point.value*lerp);
-				lerpTotal += lerp;
-				minDistance = Math.min(minDistance, distance);
-			}
-			
-			if (isValueDistance)
-			{
-				value = (minValue+((1-(minDistance/blobRadius))*valueScale));				
-			}
-			else if (lerpTotal>0)
-			{
-				if (hasValues)
-					value = (value/lerpTotal);	
+				if (foundPoints.length<1)
+				{
+					var color: uint = zeroColor;
+				}
+				else
+				{
+					foundPoints.sort(function (a: Object, b: Object): int { return a.value-b.value; });
+
+					var lastPoint: Object = foundPoints[foundPoints.length-1];
+					if (lastPoint.sourceAlpha>0.9999999)
+					{	
+						color = getColorForValue(lastPoint.value, minValue, maxValue, valueScale);	
+					}
+					else
+					{					
+						var destRed: Number = 0.0;
+						var destGreen: Number = 0.0;
+						var destBlue: Number = 0.0;
+						var destAlpha: Number = 0.0;
+						for (var pointIndex: int = 0; pointIndex<foundPoints.length; pointIndex+=1)
+						{
+							point = foundPoints[pointIndex];
+							pos = point.pos;
+							delta = worldPoint.subtract(pos);
+							distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
+		
+							var sourceAlpha: Number = point.sourceAlpha;
+							var sourceColor: uint = getColorForValue(point.value, minValue, maxValue, valueScale);
+		
+							var sourceRed: Number = ((sourceColor&0xff0000)>>16)/255.0;
+							var sourceGreen: Number = ((sourceColor&0x00ff00)>>8)/255.0;
+							var sourceBlue: Number = ((sourceColor&0x0000ff)>>0)/255.0;
+							
+							var oneMinusSourceAlpha: Number = (1.0-sourceAlpha);
+							
+							destRed = (sourceRed*sourceAlpha)+(destRed*oneMinusSourceAlpha);
+							destGreen = (sourceGreen*sourceAlpha)+(destGreen*oneMinusSourceAlpha);
+							destBlue = (sourceBlue*sourceAlpha)+(destBlue*oneMinusSourceAlpha);
+							destAlpha = (sourceAlpha)+(destAlpha*oneMinusSourceAlpha);		
+						}
+		
+						var colorRed: uint = (uint)(Math.min(255.0, (destRed/destAlpha)*255.0));
+						var colorGreen: uint = (uint)(Math.min(255.0, (destGreen/destAlpha)*255.0));
+						var colorBlue: uint = (uint)(Math.min(255.0, (destBlue/destAlpha)*255));
+						var colorAlpha: uint = (uint)(Math.min(255.0, destAlpha*255));
+						
+						color = (colorAlpha<<24)|(colorRed<<16)|(colorGreen<<8)|(colorBlue<<0);
+					}
+				}
 			}
 			else
 			{
 				value = 0;
+				var lerpTotal: Number = 0;
+				var minDistance: Number = blobRadius;
+				
+				for each (point in candidatePoints)
+				{
+					pos = point.pos;
+					delta = worldPoint.subtract(pos);
+					distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
+					if (distanceSquared>blobRadiusSquared)
+						continue;
+					
+					distance = Math.sqrt(distanceSquared);
+					lerp = (1-(distance/blobRadius));
+					
+					value += (point.value*lerp);
+					lerpTotal += lerp;
+					minDistance = Math.min(minDistance, distance);
+				}
+				
+				if (isValueDistance)
+				{
+					value = (minValue+((1-(minDistance/blobRadius))*valueScale));				
+				}
+				else if (lerpTotal>0)
+				{
+					if (hasValues)
+					{
+						value = (value/lerpTotal);
+					}
+				}
+				else
+				{
+					value = 0;
+				}
+				
+				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+				
+				color = getColorForValue(value, minValue, maxValue, valueScale);
+				
+				colorAlpha = (color>>24)&0xff;
+				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
+				
+				color = (color&0x00ffffff)|(outputAlpha<<24);
 			}
-			
-			var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-			
-			var color: uint = getColorForValue(value, minValue, maxValue, valueScale);
-			
-			var colorAlpha: uint = (color>>24)&0xff;
-			var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
-			
-			color = (color&0x00ffffff)|(outputAlpha<<24);
 			
 			pixelData.writeUnsignedInt(color);
 		}	
@@ -3285,7 +3371,7 @@ public function drawPointBlobTile(width: Number,
 	
 	_pointBlobBitmap.setPixels(new Rectangle(leftX, topY, tileWidth, tileHeight), pixelData);
 }
-	
+
 private function setAnimationTime(time: String): void
 {
 	for (var index: String in _frameTimes)
