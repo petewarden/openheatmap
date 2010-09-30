@@ -180,7 +180,10 @@ public var _settings: Object =
 	show_tabs: true,
 	show_zoom: true,
 	allow_pan: true,
-	draw_circles: false
+	point_drawing_shape: 'circle', // 'blob',
+	circle_line_color: 0x000000,
+	circle_line_alpha: 1.0,
+	circle_line_thickness: 1.0
 };
 
 public var _lastSetWayIds: Object = {};
@@ -991,7 +994,7 @@ private function drawInformationLayer(graphics: Graphics, width: Number, height:
 {    
     var viewingArea: Rectangle = calculateViewingArea(width, height, xYToLatLonMatrix);
 
-    var bitmapBackground: BitmapData = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+    var bitmapBackground: BitmapData = drawBackgroundBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 	
 	drawWays(graphics, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
 }
@@ -1000,7 +1003,8 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 {
 	var hasBitmap: Boolean = (bitmapBackground!==null);
 	var bitmapMatrix: Matrix = new Matrix();
-	bitmapMatrix.scale(_settings.point_bitmap_scale, _settings.point_bitmap_scale);
+	if (_settings.point_drawing_shape=='blob')
+		bitmapMatrix.scale(_settings.point_bitmap_scale, _settings.point_bitmap_scale);
 	
 	var waysEmpty: Boolean = true;
 	for (var wayId:String in _ways)
@@ -2022,13 +2026,7 @@ private function isPointOnWayLine(pos: Point, way: Object, thickness: Number): B
 }
 
 private function drawPointBlobBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
-{
-	if (!_hasPointValues)
-		return null;
-	
-	if ((_redrawCountdown>0)&&(!_dirty))
-		return null;
-		
+{		
 	if (_dirty)
 	{
 		createPointsGrid(viewingArea, latLonToXYMatrix);
@@ -3201,9 +3199,7 @@ public function drawPointBlobTile(width: Number,
 	var hasValues: Boolean = (_valueColumnIndex!==-1);
 	
 	var isValueDistance: Boolean = (_settings.is_value_distance);
-	
-	var drawCircles: Boolean = (_settings.draw_circles);
-	
+		
 	var leftLon: Number = viewingArea.left;
 	var rightLon: Number = viewingArea.right;
 	var widthLon: Number = (rightLon-leftLon);
@@ -3238,130 +3234,50 @@ public function drawPointBlobTile(width: Number,
 				continue;
 			}
 			
-			if (drawCircles)
+			var value: Number = 0;
+			var lerpTotal: Number = 0;
+			var minDistance: Number = blobRadius;
+			
+			for each (var point: Object in candidatePoints)
 			{
-				var foundPoints: Array = [];
-				for each (var point: Object in candidatePoints)
-				{
-					var pos: Point = point.pos;
-					var delta: Point = worldPoint.subtract(pos);
-					var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
-					if (distanceSquared>blobRadiusSquared)
-						continue;
-
-					var value: Number = point.value;
-					var radiusScale: Number = ((value-minValue)*valueScale);						
-					radiusScale = 0.1+(radiusScale*0.9);
-					radiusScale = Math.min(1.0, radiusScale);
-					
-					var distance: Number = Math.sqrt(distanceSquared);
-					var lerp: Number = (radiusScale-(distance/blobRadius));
-					
-					if (lerp<0)
-						continue;
-					
-					point.sourceAlpha = Math.min(1.0, (lerp*blobRadiusInPixels));
-					
-					foundPoints.push(point);
-				}
+				var pos: Point = point.pos;
+				var delta: Point = worldPoint.subtract(pos);
+				var distanceSquared: Number = ((delta.x*delta.x)+(delta.y*delta.y));
+				if (distanceSquared>blobRadiusSquared)
+					continue;
 				
-				if (foundPoints.length<1)
+				var distance: Number = Math.sqrt(distanceSquared);
+				var lerp: Number = (1-(distance/blobRadius));
+				
+				value += (point.value*lerp);
+				lerpTotal += lerp;
+				minDistance = Math.min(minDistance, distance);
+			}
+			
+			if (isValueDistance)
+			{
+				value = (minValue+((1-(minDistance/blobRadius))*valueScale));				
+			}
+			else if (lerpTotal>0)
+			{
+				if (hasValues)
 				{
-					var color: uint = zeroColor;
-				}
-				else
-				{
-					foundPoints.sort(function (a: Object, b: Object): int { return a.value-b.value; });
-
-					var lastPoint: Object = foundPoints[foundPoints.length-1];
-					if (lastPoint.sourceAlpha>0.9999999)
-					{	
-						color = getColorForValue(lastPoint.value, minValue, maxValue, valueScale);	
-					}
-					else
-					{					
-						var destRed: Number = 0.0;
-						var destGreen: Number = 0.0;
-						var destBlue: Number = 0.0;
-						var destAlpha: Number = 0.0;
-						for (var pointIndex: int = 0; pointIndex<foundPoints.length; pointIndex+=1)
-						{
-							point = foundPoints[pointIndex];
-							pos = point.pos;
-							delta = worldPoint.subtract(pos);
-							distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
-		
-							var sourceAlpha: Number = point.sourceAlpha;
-							var sourceColor: uint = getColorForValue(point.value, minValue, maxValue, valueScale);
-		
-							var sourceRed: Number = ((sourceColor&0xff0000)>>16)/255.0;
-							var sourceGreen: Number = ((sourceColor&0x00ff00)>>8)/255.0;
-							var sourceBlue: Number = ((sourceColor&0x0000ff)>>0)/255.0;
-							
-							var oneMinusSourceAlpha: Number = (1.0-sourceAlpha);
-							
-							destRed = (sourceRed*sourceAlpha)+(destRed*oneMinusSourceAlpha);
-							destGreen = (sourceGreen*sourceAlpha)+(destGreen*oneMinusSourceAlpha);
-							destBlue = (sourceBlue*sourceAlpha)+(destBlue*oneMinusSourceAlpha);
-							destAlpha = (sourceAlpha)+(destAlpha*oneMinusSourceAlpha);		
-						}
-		
-						var colorRed: uint = (uint)(Math.min(255.0, (destRed/destAlpha)*255.0));
-						var colorGreen: uint = (uint)(Math.min(255.0, (destGreen/destAlpha)*255.0));
-						var colorBlue: uint = (uint)(Math.min(255.0, (destBlue/destAlpha)*255));
-						var colorAlpha: uint = (uint)(Math.min(255.0, destAlpha*255));
-						
-						color = (colorAlpha<<24)|(colorRed<<16)|(colorGreen<<8)|(colorBlue<<0);
-					}
+					value = (value/lerpTotal);
 				}
 			}
 			else
 			{
 				value = 0;
-				var lerpTotal: Number = 0;
-				var minDistance: Number = blobRadius;
-				
-				for each (point in candidatePoints)
-				{
-					pos = point.pos;
-					delta = worldPoint.subtract(pos);
-					distanceSquared = ((delta.x*delta.x)+(delta.y*delta.y));
-					if (distanceSquared>blobRadiusSquared)
-						continue;
-					
-					distance = Math.sqrt(distanceSquared);
-					lerp = (1-(distance/blobRadius));
-					
-					value += (point.value*lerp);
-					lerpTotal += lerp;
-					minDistance = Math.min(minDistance, distance);
-				}
-				
-				if (isValueDistance)
-				{
-					value = (minValue+((1-(minDistance/blobRadius))*valueScale));				
-				}
-				else if (lerpTotal>0)
-				{
-					if (hasValues)
-					{
-						value = (value/lerpTotal);
-					}
-				}
-				else
-				{
-					value = 0;
-				}
-				
-				var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
-				
-				color = getColorForValue(value, minValue, maxValue, valueScale);
-				
-				colorAlpha = (color>>24)&0xff;
-				var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
-				
-				color = (color&0x00ffffff)|(outputAlpha<<24);
 			}
+			
+			var alpha: uint = Math.floor(255*(Math.min(lerpTotal, 1.0)));
+			
+			var color: uint = getColorForValue(value, minValue, maxValue, valueScale);
+			
+			var colorAlpha: uint = (color>>24)&0xff;
+			var outputAlpha: uint = ((colorAlpha*alpha)>>8)&0xff;
+			
+			color = (color&0x00ffffff)|(outputAlpha<<24);
 			
 			pixelData.writeUnsignedInt(color);
 		}	
@@ -3527,6 +3443,129 @@ private function destroyZoomSlider(): void
 	viewer.removeChild(_minusImage);
 }
 
+private function drawBackgroundBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+{
+	if (!_hasPointValues)
+		return null;
+	
+	if ((_redrawCountdown>0)&&(!_dirty))
+		return null;
+
+	var result: BitmapData = null;
+	
+	var pointDrawingShape: String = _settings.point_drawing_shape;
+	if (pointDrawingShape=='blob')
+		result = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+	else if (pointDrawingShape=='circle')
+		result = drawPointCircleBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+	else
+		logError('Unknown type in setting point_drawing_shape: "'+pointDrawingShape+'"');
+
+	return result;
+}
+
+private function drawPointCircleBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+{
+	var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
+	var blobRadius: Number;
+	if (_settings.is_point_blob_radius_in_pixels)
+	{	
+		blobRadius = Math.abs(_settings.point_blob_radius/pixelsPerDegreeLatitude);
+	}
+	else
+	{
+		blobRadius = _settings.point_blob_radius;	
+	}
+	var twoBlobRadius: Number = (2*blobRadius);
+	var pointBlobValue: Number = _settings.point_blob_value;
+	var radiusInPixels: Number = Math.abs(blobRadius*pixelsPerDegreeLatitude);
+	
+	if (_settings.is_gradient_value_range_set)
+	{
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
+	}
+	else
+	{
+		minValue = _smallestValue;
+		maxValue = _largestValue;
+	}
+	if (Math.abs(maxValue-minValue)<0.00001)	
+		minValue = (maxValue-1.0);
+	var valueScale: Number = (1/(maxValue-minValue));	
+	
+	var currentValues: Array = getCurrentValues();
+	
+	var hasValues: Boolean = (_valueColumnIndex!==-1);
+
+	var foundPoints: Array = [];	
+	for each (var values: Array in currentValues)
+	{
+		var lat: Number = values[_latitudeColumnIndex];
+		var lon: Number = values[_longitudeColumnIndex];
+		var pointValue: Number;
+		if (hasValues)
+			pointValue = values[_valueColumnIndex];
+		else
+			pointValue = pointBlobValue;
+		
+		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+		
+		if (!viewingArea.intersects(boundingBox))
+			continue;
+	
+		foundPoints.push({
+				"lat": lat,
+				"lon": lon,
+				"value": pointValue
+		});
+	}
+		
+	foundPoints.sort(function (a: Object, b: Object): int { return a.value-b.value; });	
+	
+	var shape: Shape = new Shape();
+	var graphics: Graphics = shape.graphics;
+	graphics.clear();	
+
+	var lineColor: Number = Number(_settings.circle_line_color)
+	var lineAlpha: Number = Number(_settings.circle_line_alpha)
+	var lineThickness: Number = Number(_settings.circle_line_thickness)
+
+	for (var index: int = 0; index<foundPoints.length; index += 1)
+	{
+		var point: Object = foundPoints[index];
+		
+		var center: Point = getXYFromLatLon(point, latLonToXYMatrix);
+		pointValue = point.value;
+		
+		var currentColorAndAlpha: uint = getColorForValue(pointValue, minValue, maxValue, valueScale);
+		var currentColor: uint = (currentColorAndAlpha & 0x00ffffff);
+		var currentAlpha: uint = ((currentColorAndAlpha & 0xff000000)>>24);
+
+		var normalizedValue: Number = (((pointValue-minValue)*valueScale));
+//		normalizedValue = Math.min(1.0, normalizedValue);
+		normalizedValue = Math.max(0.0, normalizedValue);
+		
+		var currentRadius: Number = (Math.sqrt(normalizedValue)*radiusInPixels);
+		
+		if (lineAlpha<0.01)
+			graphics.lineStyle();
+		else
+			graphics.lineStyle(lineThickness, lineColor, lineAlpha);
+		
+		graphics.beginFill(currentColor, currentAlpha);		
+		
+		graphics.drawCircle(center.x, center.y, currentRadius);
+	}		
+
+	shape.filters = [new DropShadowFilter(4.0, 45, 0x000000, 0.8, 12.0, 12.0)];
+	
+	var result: BitmapData = new BitmapData(width, height, true, 0x000000);
+	result.draw(shape, new Matrix());	
+
+	return result;
+}
+	
 ]]>
 </mx:Script>
 <mx:UIComponent id="viewer"></mx:UIComponent>
