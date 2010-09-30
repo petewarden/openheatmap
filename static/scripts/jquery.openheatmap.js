@@ -740,7 +740,11 @@ function OpenHeatMap(canvas, width, height)
             point_blob_tile_size: 128,
             show_tabs: true,
             show_zoom: true,
-            allow_pan: true
+            allow_pan: true,
+            point_drawing_shape: 'blob',
+            circle_line_color: 0x000000,
+            circle_line_alpha: 1.0,
+            circle_line_thickness: 1.0
         };
 
         this._lastSetWayIds = {};
@@ -1515,7 +1519,7 @@ function OpenHeatMap(canvas, width, height)
     {    
         var viewingArea = this.calculateViewingArea(width, height, xYToLatLonMatrix);
 
-        var bitmapBackground = this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+        var bitmapBackground = this.drawBackgroundBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
         
         this.drawWays(canvas, width, height, viewingArea, latLonToXYMatrix, bitmapBackground);
     };
@@ -1524,7 +1528,8 @@ function OpenHeatMap(canvas, width, height)
     {
         var hasBitmap = (bitmapBackground!==null);
         var bitmapMatrix = new Matrix();
-        bitmapMatrix.scale(this._settings.point_bitmap_scale, this._settings.point_bitmap_scale);
+        if (this._settings.point_drawing_shape=='blob')
+            bitmapMatrix.scale(this._settings.point_bitmap_scale, this._settings.point_bitmap_scale);
         
         var waysEmpty = true;
         for (var wayId in this._ways)
@@ -3810,6 +3815,148 @@ function OpenHeatMap(canvas, width, height)
         this._selectedTabIndex = tabIndex;
         this._valuesDirty = true;
         this._dirty = true;
+    };
+
+    this.drawBackgroundBitmap = function(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix) {
+        if (!this._hasPointValues)
+            return null;
+	
+        if ((this._redrawCountdown>0)&&(!this._dirty))
+            return null;
+
+        var result = null;
+	
+        var pointDrawingShape = this._settings.point_drawing_shape;
+        if (pointDrawingShape=='blob')
+            result = this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+        else if (pointDrawingShape=='circle')
+            result = this.drawPointCircleBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+        else
+            logError('Unknown type in setting point_drawing_shape: "'+pointDrawingShape+'"');
+
+        return result;
+    };
+
+    this.drawPointCircleBitmap = function(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix) {
+        var pixelsPerDegreeLatitude = latLonToXYMatrix.d;
+        var blobRadius;
+        if (this._settings.is_point_blob_radius_in_pixels)
+        {	
+            blobRadius = Math.abs(this._settings.point_blob_radius/pixelsPerDegreeLatitude);
+        }
+        else
+        {
+            blobRadius = this._settings.point_blob_radius;	
+        }
+        var twoBlobRadius = (2*blobRadius);
+        var pointBlobValue = this._settings.point_blob_value;
+        var radiusInPixels = Math.abs(blobRadius*pixelsPerDegreeLatitude);
+        
+        if (this._settings.is_gradient_value_range_set)
+        {
+            var minValue = this._settings.gradient_value_min;
+            var maxValue = this._settings.gradient_value_max;	
+        }
+        else
+        {
+            minValue = this._smallestValue;
+            maxValue = this._largestValue;
+        }
+        if (Math.abs(maxValue-minValue)<0.00001)	
+            minValue = (maxValue-1.0);
+        var valueScale = (1/(maxValue-minValue));	
+        
+        var currentValues = this.getCurrentValues();
+        
+        var hasValues = (this._valueColumnIndex!==-1);
+
+        var foundPoints = [];	
+        for (var index = 0; index<currentValues.length; index+=1)
+        {
+            values = currentValues[index];
+            var lat = values[this._latitudeColumnIndex];
+            var lon = values[this._longitudeColumnIndex];
+            var pointValue;
+            if (hasValues)
+                pointValue = values[this._valueColumnIndex];
+            else
+                pointValue = pointBlobValue;
+            
+            var boundingBox = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+
+            if (!viewingArea.intersects(boundingBox))
+                continue;
+        
+            if (isNaN(lat)||isNaN(lon)||isNaN(pointValue))
+                continue;
+        
+            foundPoints.push({
+                    "lat": lat,
+                    "lon": lon,
+                    "value": pointValue
+            });
+        }
+            
+        foundPoints.sort(function (a, b) { return a.value-b.value; });	
+        
+        var intermediate = this.createCanvas(width, height);
+        var context = this.beginDrawing(intermediate);
+
+        var lineColor = Number(this._settings.circle_line_color)
+        var lineAlpha = Number(this._settings.circle_line_alpha)
+        var lineThickness = Number(this._settings.circle_line_thickness)
+
+        for (var index = 0; index<foundPoints.length; index += 1)
+        {
+            var point = foundPoints[index];
+            
+            var center = this.getXYFromLatLon(point, latLonToXYMatrix);
+            pointValue = point.value;
+            
+            var currentColorAndAlpha = this.getColorForValue(pointValue, minValue, maxValue, valueScale);
+            var currentColor = (currentColorAndAlpha & 0x00ffffff);
+            var currentAlpha = ((currentColorAndAlpha>>24) & 0xff)/255.0;
+
+            var normalizedValue = (((pointValue-minValue)*valueScale));
+            normalizedValue = Math.max(0.0, normalizedValue);
+            
+            var currentRadius = (Math.sqrt(normalizedValue)*radiusInPixels);
+            
+            if (lineAlpha<0.01)
+            {
+                context.lineWidth = 0;
+            }
+            else
+            {
+                context.lineWidth = 1.0;
+                context.strokeStyle = this.colorStringFromNumber(lineColor, lineAlpha);
+            }
+
+            context.fillStyle = this.colorStringFromNumber(currentColor, currentAlpha);		
+            
+            context.beginPath();
+            context.arc(center.x, center.y, currentRadius, 0, Math.PI*2, true);
+            context.closePath();
+            context.fill();
+            if (lineAlpha>0.01)
+                context.stroke();
+        }		
+
+        this.endDrawing(context);
+
+        var result = this.createCanvas(width, height);
+        context = this.beginDrawing(result);
+
+        context.shadowColor = this.colorStringFromNumber(0x000000, 0.8);
+        context.shadowOffsetX = 4.0*Math.sqrt(2.0);
+        context.shadowOffsetY = 4.0*Math.sqrt(2.0);
+        context.shadowBlur = 12.0;
+
+        context.drawImage(intermediate.get(0), 0, 0, width, height);
+
+        this.endDrawing(context);
+
+        return result;
     };
 
     this.beginDrawing = function(canvas) {

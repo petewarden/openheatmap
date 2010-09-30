@@ -180,7 +180,7 @@ public var _settings: Object =
 	show_tabs: true,
 	show_zoom: true,
 	allow_pan: true,
-	point_drawing_shape: 'circle', // 'blob',
+	point_drawing_shape: 'blob',
 	circle_line_color: 0x000000,
 	circle_line_alpha: 1.0,
 	circle_line_thickness: 1.0
@@ -3540,10 +3540,9 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 		
 		var currentColorAndAlpha: uint = getColorForValue(pointValue, minValue, maxValue, valueScale);
 		var currentColor: uint = (currentColorAndAlpha & 0x00ffffff);
-		var currentAlpha: uint = ((currentColorAndAlpha & 0xff000000)>>24);
+		var currentAlpha: uint = ((currentColorAndAlpha>>24) & 0xff)/255.0;
 
 		var normalizedValue: Number = (((pointValue-minValue)*valueScale));
-//		normalizedValue = Math.min(1.0, normalizedValue);
 		normalizedValue = Math.max(0.0, normalizedValue);
 		
 		var currentRadius: Number = (Math.sqrt(normalizedValue)*radiusInPixels);
