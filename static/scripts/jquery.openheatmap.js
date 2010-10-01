@@ -744,7 +744,8 @@ function OpenHeatMap(canvas, width, height)
             point_drawing_shape: 'blob',
             circle_line_color: 0x000000,
             circle_line_alpha: 1.0,
-            circle_line_thickness: 1.0
+            circle_line_thickness: 1.0,
+            max_fps: 2.0
         };
 
         this._lastSetWayIds = {};
@@ -783,6 +784,8 @@ function OpenHeatMap(canvas, width, height)
         this._wayLayers = [];
 
         this._tooltipColumnIndex = -1;
+        
+        this._lastAnimationFrameTime = 0;
     };
 
     this.getXYFromLatLon = function(latLon, latLonToXYMatrix) {
@@ -1204,18 +1207,25 @@ function OpenHeatMap(canvas, width, height)
         {
             if (this._timelineButton.getIsOn()&&!this._pointBlobStillRendering)
             {
-                this._frameIndex += 1;
-                if (this._frameIndex>=this._frameTimes.length)
+                var currentTime = new Date().getTime();
+                var sinceLastFrame = (currentTime-this._lastAnimationFrameTime);
+                if ((this._settings.max_fps==0)||(sinceLastFrame>(1000/this._settings.max_fps)))
                 {
-                    this._frameIndex = (this._frameTimes.length-1);
-                    this._timelineButton.setIsOn(false);
+                    this._lastAnimationFrameTime = currentTime;
+
+                    this._frameIndex += 1;
+                    if (this._frameIndex>=this._frameTimes.length)
+                    {
+                        this._frameIndex = (this._frameTimes.length-1);
+                        this._timelineButton.setIsOn(false);
+                    }
+                    
+                    this.updateTimelineDisplay();
+                    
+                    this._dirty = true;
+                    this._valuesDirty = true;
+                    this.onDataChange();
                 }
-                
-                this.updateTimelineDisplay();
-                
-                this._dirty = true;
-                this._valuesDirty = true;
-                this.onDataChange();
             }
         }
 

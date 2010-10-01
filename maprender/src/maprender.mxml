@@ -183,7 +183,8 @@ public var _settings: Object =
 	point_drawing_shape: 'blob',
 	circle_line_color: 0x000000,
 	circle_line_alpha: 1.0,
-	circle_line_thickness: 1.0
+	circle_line_thickness: 1.0,
+	max_fps: 2.0
 };
 
 public var _lastSetWayIds: Object = {};
@@ -223,6 +224,8 @@ public var VThumbImage:Class;
 public var VTrackImage:Class;
 
 public var _tooltipColumnIndex: int;
+	
+public var _lastAnimationFrameTime: Number = 0;
 	
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -702,18 +705,25 @@ private function doEveryFrame(event: Event): void
 	{
 		if (_timelineControls.isPlaying&&!_pointBlobStillRendering)
 		{
-			_frameIndex += 1;
-			if (_frameIndex>=_frameTimes.length)
+			var currentTime: Number = new Date().getTime();
+			var sinceLastFrame: Number = (currentTime-_lastAnimationFrameTime);
+			if ((_settings.max_fps==0)||(sinceLastFrame>(1000/_settings.max_fps)))
 			{
-				_frameIndex = (_frameTimes.length-1);
-				_timelineControls.isPlaying = false;
+				_lastAnimationFrameTime = currentTime;
+
+				_frameIndex += 1;
+				if (_frameIndex>=_frameTimes.length)
+				{
+					_frameIndex = (_frameTimes.length-1);
+					_timelineControls.isPlaying = false;
+				}
+				
+				updateTimelineDisplay();
+				
+				_dirty = true;
+				_valuesDirty = true;
+				onDataChange();
 			}
-			
-			updateTimelineDisplay();
-			
-			_dirty = true;
-			_valuesDirty = true;
-			onDataChange();
 		}
 	}
 
