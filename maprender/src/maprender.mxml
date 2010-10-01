@@ -3540,7 +3540,7 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 		
 		var currentColorAndAlpha: uint = getColorForValue(pointValue, minValue, maxValue, valueScale);
 		var currentColor: uint = (currentColorAndAlpha & 0x00ffffff);
-		var currentAlpha: uint = ((currentColorAndAlpha>>24) & 0xff)/255.0;
+		var currentAlpha: Number = ((currentColorAndAlpha>>24) & 0xff)/255.0;
 
 		var normalizedValue: Number = (((pointValue-minValue)*valueScale));
 		normalizedValue = Math.max(0.0, normalizedValue);
@@ -3550,7 +3550,7 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 		if (lineAlpha<0.01)
 			graphics.lineStyle();
 		else
-			graphics.lineStyle(lineThickness, lineColor, lineAlpha);
+			graphics.lineStyle(lineThickness, lineColor, (lineAlpha*currentAlpha));
 		
 		graphics.beginFill(currentColor, currentAlpha);		
 		

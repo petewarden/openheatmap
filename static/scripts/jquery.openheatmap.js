@@ -3929,7 +3929,7 @@ function OpenHeatMap(canvas, width, height)
             else
             {
                 context.lineWidth = 1.0;
-                context.strokeStyle = this.colorStringFromNumber(lineColor, lineAlpha);
+                context.strokeStyle = this.colorStringFromNumber(lineColor, (lineAlpha*currentAlpha));
             }
 
             context.fillStyle = this.colorStringFromNumber(currentColor, currentAlpha);		
