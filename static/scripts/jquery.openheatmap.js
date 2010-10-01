@@ -2785,8 +2785,18 @@ function OpenHeatMap(canvas, width, height)
 
     this.getValuePointsNearLatLon = function(lat, lon, radius)
     {
-        if (radius===0)
-            radius = this._settings.point_blob_radius;
+        if (radius==0)
+        {
+            if (this._settings.is_point_blob_radius_in_pixels)
+            {
+                var pixelsPerDegreeLatitude = this.getPixelsPerDegreeLatitude();
+                radius = (this._settings.point_blob_radius/pixelsPerDegreeLatitude);
+            }
+            else
+            {
+                radius = this._settings.point_blob_radius;
+            }
+        }
         
         var radiusSquared = (radius*radius);
 

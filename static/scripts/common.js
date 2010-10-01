@@ -390,7 +390,7 @@ function updateOpenHeatMapMessage(event)
         }
         else
         {
-            var pickRadius = g_mapSettings.component.point_blob_radius;
+            var pickRadius = 0;//g_mapSettings.component.point_blob_radius;
         
             var points = map.getValuePointsNearLatLon(event.lat, event.lon, pickRadius);
             var pointsLength = points.length;

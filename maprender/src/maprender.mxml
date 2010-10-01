@@ -2265,8 +2265,18 @@ private function getColorForValue(thisValue: Number, minValue: Number, maxValue:
 private function getValuePointsNearLatLon(lat: Number, lon: Number, radius: Number = 0): Object
 {
 	if (radius===0)
-		radius = _settings.point_blob_radius;
-	
+	{
+		if (_settings.is_point_blob_radius_in_pixels)
+		{
+			var pixelsPerDegreeLatitude: Number = getPixelsPerDegreeLatitude();
+			radius = (_settings.point_blob_radius/pixelsPerDegreeLatitude);
+		}
+		else
+		{
+			radius = _settings.point_blob_radius;
+		}
+	}
+		
 	var radiusSquared: Number = (radius*radius);
 
 	var currentValues: Array = getCurrentValues();
