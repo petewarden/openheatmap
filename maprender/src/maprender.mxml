@@ -184,7 +184,8 @@ public var _settings: Object =
 	circle_line_color: 0x000000,
 	circle_line_alpha: 1.0,
 	circle_line_thickness: 1.0,
-	max_fps: 2.0
+	max_fps: 2.0,
+	circle_minimum_radius: 2.0
 };
 
 public var _lastSetWayIds: Object = {};
@@ -3566,6 +3567,8 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 		normalizedValue = Math.max(0.0, normalizedValue);
 		
 		var currentRadius: Number = (Math.sqrt(normalizedValue)*radiusInPixels);
+		
+		currentRadius = Math.max(_settings.circle_minimum_radius, currentRadius);
 		
 		if (lineAlpha<0.01)
 			graphics.lineStyle();

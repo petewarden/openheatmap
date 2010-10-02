@@ -745,7 +745,8 @@ function OpenHeatMap(canvas, width, height)
             circle_line_color: 0x000000,
             circle_line_alpha: 1.0,
             circle_line_thickness: 1.0,
-            max_fps: 2.0
+            max_fps: 2.0,
+            circle_minimum_radius: 2.0
         };
 
         this._lastSetWayIds = {};
@@ -3942,6 +3943,8 @@ function OpenHeatMap(canvas, width, height)
             
             var currentRadius = (Math.sqrt(normalizedValue)*radiusInPixels);
             
+            currentRadius = Math.max(this._settings.circle_minimum_radius, currentRadius);
+
             if (lineAlpha<0.01)
             {
                 context.lineWidth = 0;
