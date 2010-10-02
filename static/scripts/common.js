@@ -394,7 +394,7 @@ function updateOpenHeatMapMessage(event)
         
             var points = map.getValuePointsNearLatLon(event.lat, event.lon, pickRadius);
             var pointsLength = points.length;
-            if (pointsLength>=1)
+            if ((pointsLength>=1)&&(!g_isOnPhotoPopup))
             {
                 var pointNames = [];
                 var closestIndex;
@@ -425,7 +425,13 @@ function updateOpenHeatMapMessage(event)
                 var point = points[closestIndex];
 
                 var popupHTML = '';
-                if (typeof point.tooltip !== 'undefined')
+                if (typeof point.image_urls !== 'undefined')
+                {
+                    popupHTML = '';
+                    
+                    addPhotoPopup(point, event);                    
+                }
+                else if (typeof point.tooltip !== 'undefined')
                 {
                     popupHTML = htmlspecialchars(point.tooltip)
                 }
@@ -447,7 +453,16 @@ function updateOpenHeatMapMessage(event)
                     }
                 }
 
-                map.addPopup(point.lat, point.lon, popupHTML);        
+                if (popupHTML!=='')
+                    map.addPopup(point.lat, point.lon, popupHTML);        
+            }
+            else
+            {
+                if (!g_isOnPhotoPopup)
+                {
+                    $('.openheatmap_photo_popup').fadeOut();
+                    g_lastPhotoPopup = '';
+                }
             }
         }
     }
@@ -1106,5 +1121,52 @@ $(document).ready(function()
     $(document).bind('onclick', jsddm_close);
 });
 
+g_lastPhotoPopup = '';
+g_isOnPhotoPopup = false;
 
+function addPhotoPopup(point, event)
+{
+    var localX = event.x;
+    var localY = event.y;
+    
+    var imageUrls = point.image_urls.split(',');
+    var linkUrls = point.link_urls.split(',');
+
+    if (g_lastPhotoPopup==imageUrls[0])
+        return;
+    
+    g_lastPhotoPopup = imageUrls[0];
+    
+    $('.openheatmap_photo_popup').remove();
+
+    var popup = $('<center></center>')
+    .css({
+        position: 'absolute',
+        left: localX+'px',
+        top: localY+'px'
+    })
+    .addClass('openheatmap_photo_popup');
+    
+    for (var index=0; index<imageUrls.length; index+=1)
+    {
+        var image = $('<img src="'+imageUrls[index]+'"/>')
+        .hide()
+        .load(function () {
+            $(this).parent().css({ left: (localX-this.width/2), top: (localY-3) });
+            $(this).fadeIn(); 
+        })
+        .click(function () { var localLink = linkUrls[index]; return function() { 
+            window.open( localLink, '_blank'); 
+        }; }())
+        .attr('title', point.tooltip)
+        .css({ border: '2px solid #000000', margin: '0px', padding: '0px'})
+        .mouseover(function() { g_isOnPhotoPopup = true; })
+        .mouseout(function() { g_isOnPhotoPopup = false; });
+        
+        popup.append(image);
+        popup.append($('<div></div>').css({ margin: '0px', padding: '0px'}));
+    }
+    
+    $('#openheatmap_container').append(popup);
+}
 

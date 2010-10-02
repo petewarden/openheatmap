@@ -36,7 +36,7 @@ g_openHeatMapUserData = {};
             width: 800,
             height: 600,
             prefer: 'flash',
-            wmode: '',
+            wmode: 'opaque',
             userData: null
         };
  
