@@ -1,5 +1,7 @@
 <?php
 
+require_once('geoutils.php');
+
 $g_ending_locations = array(
     'possible_prefixes' => array(
         'get_world_country_matches',

@@ -3,7 +3,7 @@
  
 require_once('locationextractor.php'); 
 require_once('simple_html_dom.php'); 
-require_once('utils.php'); 
+require_once('geoutils.php'); 
 require_once('cliargs.php');
 
 $cliargs = array(
