@@ -16,6 +16,7 @@
 		5901C75F1258F1040071DBD2 /* geodict_config.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = geodict_config.py; sourceTree = "<group>"; };
 		5901C7601258F1040071DBD2 /* geodict_lib.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = geodict_lib.py; sourceTree = "<group>"; };
 		5901C7611258F1040071DBD2 /* populate_database.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = populate_database.py; sourceTree = "<group>"; };
+		5901C7B8125A852D0071DBD2 /* uploadblog.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = uploadblog.html; path = website/uploadblog.html; sourceTree = "<group>"; };
 		590D2C2911CAB31100954586 /* crawlelectiondata.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = crawlelectiondata.php; path = mapfileprocess/crawlelectiondata.php; sourceTree = "<group>"; };
 		590D2C3011CACE8B00954586 /* crawlallelectiondata.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = crawlallelectiondata.sh; path = mapfileprocess/crawlallelectiondata.sh; sourceTree = "<group>"; };
 		590D2C3211CAF3CF00954586 /* flickrfetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flickrfetch.php; path = mapfileprocess/flickrfetch.php; sourceTree = "<group>"; };
@@ -314,6 +315,7 @@
 				59DA390F122B177400B61ABD /* translatetest.php */,
 				59DA390E122B147F00B61ABD /* translateutils.php */,
 				59820BBD11A45C100047D5FC /* upload.html */,
+				5901C7B8125A852D0071DBD2 /* uploadblog.html */,
 				59820BA111A44B890047D5FC /* uploadcsv.php */,
 				599DCCD711F259E20082DE3F /* uploadgoogle.html */,
 				59820BA211A44B890047D5FC /* utils.php */,

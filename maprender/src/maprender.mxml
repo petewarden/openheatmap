@@ -2179,6 +2179,9 @@ private function loadPointValues(linesArray: Array, headerLine: String, columnSe
 		var thisLatitude: Number = (Number)(lineValues[_latitudeColumnIndex]);
 		var thisLongitude: Number = (Number)(lineValues[_longitudeColumnIndex]);
 
+		if (isNaN(thisLatitude)||isNaN(thisLongitude))
+			continue;
+		
 		lineValues[_latitudeColumnIndex] = thisLatitude;
 		lineValues[_longitudeColumnIndex] = thisLongitude;
 
