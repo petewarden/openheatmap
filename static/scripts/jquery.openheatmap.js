@@ -1539,7 +1539,7 @@ function OpenHeatMap(canvas, width, height)
     {
         var hasBitmap = (bitmapBackground!==null);
         var bitmapMatrix = new Matrix();
-        if (this._settings.point_drawing_shape=='blob')
+        if ((this._settings.point_drawing_shape=='blob')||(this._settings.is_value_distance))
             bitmapMatrix.scale(this._settings.point_bitmap_scale, this._settings.point_bitmap_scale);
         
         var waysEmpty = true;
@@ -2700,6 +2700,9 @@ function OpenHeatMap(canvas, width, height)
             var thisLatitude = (Number)(lineValues[this._latitudeColumnIndex]);
             var thisLongitude = (Number)(lineValues[this._longitudeColumnIndex]);
 
+            if (isNaN(thisLatitude)||isNaN(thisLongitude))
+                continue;
+
             lineValues[this._latitudeColumnIndex] = thisLatitude;
             lineValues[this._longitudeColumnIndex] = thisLongitude;
 
@@ -3848,7 +3851,7 @@ function OpenHeatMap(canvas, width, height)
         var result = null;
 	
         var pointDrawingShape = this._settings.point_drawing_shape;
-        if (pointDrawingShape=='blob')
+        if ((pointDrawingShape=='blob')||(this._settings.is_value_distance))
             result = this.drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
         else if (pointDrawingShape=='circle')
             result = this.drawPointCircleBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);

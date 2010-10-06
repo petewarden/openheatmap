@@ -1014,7 +1014,7 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 {
 	var hasBitmap: Boolean = (bitmapBackground!==null);
 	var bitmapMatrix: Matrix = new Matrix();
-	if (_settings.point_drawing_shape=='blob')
+	if ((_settings.point_drawing_shape=='blob')||(_settings.is_value_distance))
 		bitmapMatrix.scale(_settings.point_bitmap_scale, _settings.point_bitmap_scale);
 	
 	var waysEmpty: Boolean = true;
@@ -3478,7 +3478,7 @@ private function drawBackgroundBitmap(width: Number, height: Number, viewingArea
 	var result: BitmapData = null;
 	
 	var pointDrawingShape: String = _settings.point_drawing_shape;
-	if (pointDrawingShape=='blob')
+	if ((pointDrawingShape=='blob')||(_settings.is_value_distance))
 		result = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 	else if (pointDrawingShape=='circle')
 		result = drawPointCircleBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);

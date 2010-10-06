@@ -7,7 +7,7 @@ SERVER_PATH=/mnt/openheatmap.com/
 S3_BUCKET=s3://static.openheatmap.com/
 
 #SERVER_LIST=( ec2-204-236-225-17.compute-1.amazonaws.com ec2-75-101-175-72.compute-1.amazonaws.com ec2-184-72-137-100.compute-1.amazonaws.com)
-SERVER_LIST=( ec2-184-72-137-100.compute-1.amazonaws.com)
+SERVER_LIST=( ec2-174-129-38-60.compute-1.amazonaws.com )
 SERVER_COUNT=${#SERVER_LIST[@]}
 
 for ((i=0;i<$SERVER_COUNT;i++)); do
