@@ -58458,7 +58458,7 @@
     <tag k="FEATUREID" v="8"/>
     <tag k="CNTRLONG" v="-106466583"/>
     <tag k="CNTRLAT" v="28813375"/>
-    <tag k="name" v="Chihuhua"/>
+    <tag k="name" v="Chihuahua"/>
     <tag k="mex_state_code" v="MX06"/>
     <tag k="STFIPS" v=""/>
   </way>
@@ -87182,7 +87182,7 @@
     <tag k="FEATUREID" v="11"/>
     <tag k="CNTRLONG" v="-101011391"/>
     <tag k="CNTRLAT" v="20899094"/>
-    <tag k="name" v="Guanajaoto"/>
+    <tag k="name" v="Guanajuato"/>
     <tag k="mex_state_code" v="MX11"/>
     <tag k="STFIPS" v=""/>
   </way>
