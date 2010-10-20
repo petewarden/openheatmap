@@ -1,0 +1,20 @@
+{
+    "to_delete": {
+        "OID": ".*",
+        "TOTAL_POL": ".*"
+    },
+    "to_rename": {
+        "CLAVE": "mex_muni_code",
+       	"NOM_MUN": "mex_muni_name",
+	"NOM_ENT": "mex_state_name"
+    },
+    "to_join": {
+	"name": {
+	    "input_keys": [
+       		"NOM_MUN",
+		"NOM_ENT"
+	    ],
+	    "separator": ", "
+	}
+    }
+}

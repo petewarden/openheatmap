@@ -95,7 +95,7 @@ $php_output_handle = fopen($php_output, "w") or die("Couldn't open $php_output\n
 
 fwrite($php_output_handle, '$'.$code_key.'_accepted_values = array('."\n");
 foreach ($code_map as $code => $name)
-    fwrite($php_output_handle, '    "'.$code.'" => true,'."\n");
+    fwrite($php_output_handle, '    "'.$code.'",'."\n");
 fwrite($php_output_handle, ');'."\n\n");
 
 $code_key_prefix = str_replace('_code', '', $code_key);

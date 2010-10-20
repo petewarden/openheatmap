@@ -23,6 +23,7 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 require_once('cliargs.php');
 require_once('osmways.php');
 require_once('uktolatlon.php');
+require_once('projconvert.php');
 
 $cliargs = array(
 	'inputgeometry' => array(
@@ -46,6 +47,13 @@ $cliargs = array(
         'type' => 'switch',
         'description' => 'Convert from UK Ordnance Survey easting/northing coordinates to lat/lon',
     ),
+    'projection' => array(
+        'short' => 'p',
+        'type' => 'optional',
+        'description' => 'Convert from projection\'s easting/northing coordinates to lat/lon',
+        'default' => '',
+    ),
+    
 );	
 
 ini_set('memory_limit', '-1');
@@ -56,6 +64,31 @@ $input_geometry = $options['inputgeometry'];
 $input_attributes = $options['inputattributes'];
 $output_file = $options['outputfile'];
 $convert_from_uk = $options['convertfromuk'];
+$projection = $options['projection'];
+
+if (!empty($projection))
+{
+    if ($projection=='mex')
+    {
+        $projection_parameters = array(
+            'r_major' => 6378137.0,
+            'r_minor' => 6356752.314,
+            'false_easting' => 2500000.0,
+            'false_northing' => 0.0,
+            'center_lon' => -102.0,
+            'lat1' => 17.5,
+            'lat2' => 29.5,
+            'center_lat' => 12.0,
+        );
+    }
+    else
+    {
+        error_log("Unknown projection '$projection'");
+        cliargs_print_usage_and_exit(); 
+    }
+
+    $proj_convert = new ProjConvert($projection_parameters);
+}
 
 $osm_ways = new OSMWays();
 
@@ -63,7 +96,7 @@ $geometry_string = file_get_contents($input_geometry) or die("Couldn't open $inp
 $geometry = json_decode($geometry_string, true);
 
 $attributes_string = file_get_contents($input_attributes) or die("Couldn't open $input_attributes for reading");
-$attributes = json_decode($attributes_string, true);
+$attributes = json_decode($attributes_string, true) or die("Couldn't decode $attributes_string");
 
 $shapes = $geometry['shapes'];
 foreach ($shapes as $shape)
@@ -91,6 +124,10 @@ foreach ($shapes as $shape)
                 $lat = $geo['latitude'];
                 $lon = $geo['longitude'];
             }
+            else if (isset($proj_convert))
+            {
+                list($lon, $lat) = $proj_convert->lcc2ll(array($x, $y));
+            }
             else
             {
                 $lat = $y;
@@ -99,6 +136,9 @@ foreach ($shapes as $shape)
         
             $osm_ways->add_vertex($lat, $lon);
         }
+        
+        if (!is_array($current_attributes))
+            die("Bad attributes: ".error_log(print_r($current_attributes, true)));
         
         foreach ($current_attributes as $key => $value)
         {

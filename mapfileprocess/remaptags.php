@@ -94,6 +94,26 @@ function remap_single_tag($key, $value, $rules)
 function remap_way_tags($tags,$rules)
 {
     $new_tags = array();
+
+    if (isset($rules['to_join']))
+    {
+        foreach ($rules['to_join'] as $output_key => $join_info)
+        {
+            $values = array();
+            $input_keys = $join_info['input_keys'];
+            foreach ($input_keys as $input_key)
+            {
+                if (!isset($tags[$input_key]))
+                    continue;
+            
+                $values[] = $tags[$input_key];
+            }
+            
+            $separator = $join_info['separator'];
+            $new_tags[$output_key] = implode($separator, $values);
+        }
+    }
+
     foreach ($tags as $key=>$value)
     {
         $output_tags = remap_single_tag($key, $value, $rules);
@@ -169,12 +189,12 @@ $input_file = $options['inputfile'];
 $output_file = $options['outputfile'];
 $rules_file = $options['rules'];
 
+$rules_content = file_get_contents($rules_file) or die("Couldn't read file '$rules_file'");
+$rules = json_decode($rules_content, true) or die("Couldn't parse rules file containing '$rules_content'");
+
 $input_osm_ways = new OSMWays();
 $input_contents = file_get_contents($input_file) or die("Couldn't read file '$input_file'");
 $input_osm_ways->deserialize_from_xml($input_contents);
-
-$rules_content = file_get_contents($rules_file) or die("Couldn't read file '$rules_file'");
-$rules = json_decode($rules_content, true) or die("Couldn't parse rules file containing '$rules_content'");
 
 $output_osm_ways = remap_all_tags($input_osm_ways, $rules);
     
