@@ -484,6 +484,46 @@ class OSMWays
         $relation['tags'][$key] = $value;
     }
     
+    public function calculate_bounding_box()
+    {
+        if (empty($this->nodes))
+            return;
+    
+        $is_first = true;
+        
+        foreach ($this->nodes as $node)
+        {
+            $lat = $node['lat'];
+            $lon = $node['lon'];
+         
+            if ($is_first)
+            {
+                $top_lat = $lat;
+                $bottom_lat = $lat;
+                $left_lon = $lon;
+                $right_lon = $lon;
+            
+                $is_first = false;
+            }
+                  
+            $top_lat = max($lat, $top_lat);
+            $bottom_lat = min($lat, $bottom_lat);
+            $left_lon = min($lon, $left_lon);
+            $right_lon = max($lon, $right_lon);
+        }
+
+        $this->set_bounding_box($top_lat, $left_lon, $bottom_lat, $right_lon);
+
+        $result = array(
+            'top_lat' => $top_lat,
+            'left_lon' => $left_lon,
+            'bottom_lat' => $bottom_lat,
+            'right_lon' => $right_lon,
+        );
+        
+        return $result;
+    }
+    
 }
 
 ?>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="-12.17352" lon="96.914891"/>
+  <node id="3" lat="-12.16179" lon="96.916441"/>
+  <node id="4" lat="-12.173469" lon="96.921247"/>
+  <node id="5" lat="-12.184941" lon="96.920317"/>
+  <node id="6" lat="-12.194397" lon="96.914116"/>
+  <node id="7" lat="-12.199979" lon="96.902489"/>
+  <node id="8" lat="-12.195793" lon="96.892722"/>
+  <node id="9" lat="-12.192744" lon="96.889931"/>
+  <node id="10" lat="-12.187421" lon="96.888846"/>
+  <node id="11" lat="-12.186801" lon="96.900318"/>
+  <node id="12" lat="-12.181995" lon="96.90931"/>
+  <node id="14" lat="-12.187111" lon="96.847867"/>
+  <node id="15" lat="-12.181685" lon="96.86337"/>
+  <node id="16" lat="-12.187886" lon="96.869571"/>
+  <node id="17" lat="-12.197653" lon="96.845386"/>
+  <node id="18" lat="-12.17998" lon="96.830813"/>
+  <node id="19" lat="-12.150938" lon="96.823682"/>
+  <node id="20" lat="-12.126443" lon="96.821822"/>
+  <node id="21" lat="-12.126443" lon="96.828643"/>
+  <node id="22" lat="-12.13621" lon="96.828695"/>
+  <node id="23" lat="-12.144426" lon="96.830193"/>
+  <node id="24" lat="-12.160549" lon="96.835464"/>
+  <node id="25" lat="-12.171453" lon="96.831589"/>
+  <node id="26" lat="-12.181995" lon="96.836446"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="2"/>
+    <tag k="country_code" v="CCK"/>
+    <tag k="country_name" v="Cocos (Keeling) Islands"/>
+    <tag k="name" v="Zhejiang"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="CK00"/>
+  </way>
+  <way id="000000013">
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="14"/>
+    <tag k="country_code" v="CCK"/>
+    <tag k="country_name" v="Cocos (Keeling) Islands"/>
+    <tag k="name" v="Zhejiang"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="CK00"/>
+  </way>
+</osm>

@@ -93,9 +93,13 @@ if (!empty($projection))
 $osm_ways = new OSMWays();
 
 $geometry_string = file_get_contents($input_geometry) or die("Couldn't open $input_geometry for reading");
+$geometry_string = utf8_encode($geometry_string);
+$geometry_string = str_replace("\t", '\t', $geometry_string);
 $geometry = json_decode($geometry_string, true);
 
 $attributes_string = file_get_contents($input_attributes) or die("Couldn't open $input_attributes for reading");
+$attributes_string = utf8_encode($attributes_string);
+$attributes_string = str_replace("\t", '\t', $attributes_string);
 $attributes = json_decode($attributes_string, true) or die("Couldn't decode $attributes_string");
 
 $shapes = $geometry['shapes'];

@@ -35,6 +35,9 @@
 		590D907E11BB047B00D4F8C1 /* thanks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = thanks.html; path = website/thanks.html; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
 		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
+		59691A761270FE9B001FA47E /* createstatemaps.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatemaps.php; path = mapfileprocess/createstatemaps.php; sourceTree = "<group>"; };
+		59691A7712710BE7001FA47E /* remapstatetags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remapstatetags.php; path = mapfileprocess/remapstatetags.php; sourceTree = "<group>"; };
+		59691A78127114B2001FA47E /* createstatetagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatetagtables.php; path = mapfileprocess/createstatetagtables.php; sourceTree = "<group>"; };
 		596DFE1711FE236400C62A97 /* jquery.slidefade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.slidefade.js; path = static/scripts/jquery.slidefade.js; sourceTree = "<group>"; };
 		5979627C122062C0009518FD /* publishmaps.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = publishmaps.py; path = mapfileprocess/publishmaps.py; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
@@ -236,6 +239,8 @@
 				590D2C2911CAB31100954586 /* crawlelectiondata.php */,
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				59E63700121B433B0076D3B4 /* createcitytables.php */,
+				59691A761270FE9B001FA47E /* createstatemaps.php */,
+				59691A78127114B2001FA47E /* createstatetagtables.php */,
 				59FE25FE123DA4E2005C6314 /* createtagtables.php */,
 				59FE24B912392A6A005C6314 /* createukconstituencytables.php */,
 				59FE23B312381C9D005C6314 /* createukcountytables.php */,
@@ -255,6 +260,7 @@
 				5979627C122062C0009518FD /* publishmaps.py */,
 				59820B8211A44A9F0047D5FC /* README */,
 				59820B8311A44A9F0047D5FC /* reducelod.php */,
+				59691A7712710BE7001FA47E /* remapstatetags.php */,
 				59FE25FD123C55B4005C6314 /* remaptags.php */,
 				59820B8411A44A9F0047D5FC /* rules.txt */,
 				59E6374A121DE6BB0076D3B4 /* scratchpad.py */,
