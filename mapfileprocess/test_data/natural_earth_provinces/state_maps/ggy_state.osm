@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="49.731383" lon="-2.174461"/>
+  <node id="3" lat="49.730892" lon="-2.178544"/>
+  <node id="4" lat="49.724795" lon="-2.194822"/>
+  <node id="5" lat="49.724149" lon="-2.204692"/>
+  <node id="6" lat="49.718671" lon="-2.218541"/>
+  <node id="7" lat="49.707819" lon="-2.226293"/>
+  <node id="8" lat="49.703013" lon="-2.216939"/>
+  <node id="9" lat="49.7057" lon="-2.200842"/>
+  <node id="10" lat="49.710609" lon="-2.187897"/>
+  <node id="11" lat="49.723218" lon="-2.170224"/>
+  <node id="12" lat="49.728774" lon="-2.170353"/>
+  <node id="14" lat="49.440368" lon="-2.356285"/>
+  <node id="15" lat="49.427784" lon="-2.35445"/>
+  <node id="16" lat="49.417862" lon="-2.364527"/>
+  <node id="17" lat="49.411532" lon="-2.373519"/>
+  <node id="18" lat="49.412746" lon="-2.378118"/>
+  <node id="19" lat="49.41918" lon="-2.374811"/>
+  <node id="20" lat="49.424296" lon="-2.373105"/>
+  <node id="21" lat="49.43042" lon="-2.375844"/>
+  <node id="22" lat="49.435432" lon="-2.375483"/>
+  <node id="23" lat="49.438042" lon="-2.37264"/>
+  <node id="24" lat="49.442047" lon="-2.369876"/>
+  <node id="25" lat="49.445768" lon="-2.366129"/>
+  <node id="26" lat="49.446879" lon="-2.363752"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="127"/>
+    <tag k="VertexCou" v="24"/>
+    <tag k="ISO" v="GGY"/>
+    <tag k="NAME_0" v="Guernsey"/>
+    <tag k="NAME_1" v="Bournemouth"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GB.BM"/>
+    <tag k="TYPE_1" v="Unitary Authority"/>
+    <tag k="ENGTYPE_1" v="Unitary Authority"/>
+    <tag k="VALIDFR_1" v="19970401"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="England"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="United Kingdom"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GK00"/>
+    <tag k="gadm_level" v="2"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.225938"/>
+    <tag k="Shape_Area" v="-0.000336"/>
+  </way>
+  <way id="000000013">
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="14"/>
+    <tag k="OBJECTID" v="127"/>
+    <tag k="VertexCou" v="24"/>
+    <tag k="ISO" v="GGY"/>
+    <tag k="NAME_0" v="Guernsey"/>
+    <tag k="NAME_1" v="Bournemouth"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GB.BM"/>
+    <tag k="TYPE_1" v="Unitary Authority"/>
+    <tag k="ENGTYPE_1" v="Unitary Authority"/>
+    <tag k="VALIDFR_1" v="19970401"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="England"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="United Kingdom"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GK00"/>
+    <tag k="gadm_level" v="2"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.225938"/>
+    <tag k="Shape_Area" v="-0.000336"/>
+  </way>
+</osm>

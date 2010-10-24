@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="49.731383" lon="-2.174461"/>
+  <node id="3" lat="49.730892" lon="-2.178544"/>
+  <node id="4" lat="49.724795" lon="-2.194822"/>
+  <node id="5" lat="49.724149" lon="-2.204692"/>
+  <node id="6" lat="49.718671" lon="-2.218541"/>
+  <node id="7" lat="49.707819" lon="-2.226293"/>
+  <node id="8" lat="49.703013" lon="-2.216939"/>
+  <node id="9" lat="49.7057" lon="-2.200842"/>
+  <node id="10" lat="49.710609" lon="-2.187897"/>
+  <node id="11" lat="49.723218" lon="-2.170224"/>
+  <node id="12" lat="49.728774" lon="-2.170353"/>
+  <node id="14" lat="49.440368" lon="-2.356285"/>
+  <node id="15" lat="49.427784" lon="-2.35445"/>
+  <node id="16" lat="49.417862" lon="-2.364527"/>
+  <node id="17" lat="49.411532" lon="-2.373519"/>
+  <node id="18" lat="49.412746" lon="-2.378118"/>
+  <node id="19" lat="49.41918" lon="-2.374811"/>
+  <node id="20" lat="49.424296" lon="-2.373105"/>
+  <node id="21" lat="49.43042" lon="-2.375844"/>
+  <node id="22" lat="49.435432" lon="-2.375483"/>
+  <node id="23" lat="49.438042" lon="-2.37264"/>
+  <node id="24" lat="49.442047" lon="-2.369876"/>
+  <node id="25" lat="49.445768" lon="-2.366129"/>
+  <node id="26" lat="49.446879" lon="-2.363752"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="2"/>
+    <tag k="country_code" v="GGY"/>
+    <tag k="country_name" v="Guernsey"/>
+    <tag k="name" v="Bournemouth"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="GK00"/>
+  </way>
+  <way id="000000013">
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="14"/>
+    <tag k="country_code" v="GGY"/>
+    <tag k="country_name" v="Guernsey"/>
+    <tag k="name" v="Bournemouth"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="GK00"/>
+  </way>
+</osm>

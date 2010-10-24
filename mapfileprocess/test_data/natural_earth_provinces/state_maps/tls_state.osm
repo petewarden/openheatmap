@@ -1,0 +1,1655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="-8.490954" lon="125.828578"/>
+  <node id="3" lat="-8.521443" lon="125.733494"/>
+  <node id="4" lat="-8.530228" lon="125.67913"/>
+  <node id="5" lat="-8.529505" lon="125.649623"/>
+  <node id="6" lat="-8.521443" lon="125.631071"/>
+  <node id="7" lat="-8.54878" lon="125.603786"/>
+  <node id="8" lat="-8.549607" lon="125.592107"/>
+  <node id="9" lat="-8.541959" lon="125.566217"/>
+  <node id="10" lat="-8.544956" lon="125.541774"/>
+  <node id="11" lat="-8.568262" lon="125.489839"/>
+  <node id="12" lat="-8.577409" lon="125.491286"/>
+  <node id="13" lat="-8.609655" lon="125.497487"/>
+  <node id="14" lat="-8.620249" lon="125.511853"/>
+  <node id="15" lat="-8.627018" lon="125.521052"/>
+  <node id="16" lat="-8.621231" lon="125.560326"/>
+  <node id="17" lat="-8.610482" lon="125.592159"/>
+  <node id="18" lat="-8.605728" lon="125.616137"/>
+  <node id="19" lat="-8.587331" lon="125.650036"/>
+  <node id="20" lat="-8.565007" lon="125.695925"/>
+  <node id="21" lat="-8.567487" lon="125.734372"/>
+  <node id="22" lat="-8.583403" lon="125.761657"/>
+  <node id="23" lat="-8.582835" lon="125.763673"/>
+  <node id="24" lat="-8.575755" lon="125.788942"/>
+  <node id="25" lat="-8.548884" lon="125.810853"/>
+  <node id="26" lat="-8.534414" lon="125.830284"/>
+  <node id="27" lat="-8.513537" lon="125.845993"/>
+  <node id="29" lat="-8.280269" lon="125.507409"/>
+  <node id="30" lat="-8.270813" lon="125.503999"/>
+  <node id="31" lat="-8.260942" lon="125.506634"/>
+  <node id="32" lat="-8.247765" lon="125.514386"/>
+  <node id="33" lat="-8.235776" lon="125.526943"/>
+  <node id="34" lat="-8.209111" lon="125.562341"/>
+  <node id="35" lat="-8.196244" lon="125.569628"/>
+  <node id="36" lat="-8.178984" lon="125.58048"/>
+  <node id="37" lat="-8.152939" lon="125.605388"/>
+  <node id="38" lat="-8.13511" lon="125.632725"/>
+  <node id="39" lat="-8.142862" lon="125.650966"/>
+  <node id="40" lat="-8.174746" lon="125.642336"/>
+  <node id="41" lat="-8.268849" lon="125.603786"/>
+  <node id="42" lat="-8.299235" lon="125.596965"/>
+  <node id="43" lat="-8.307245" lon="125.592675"/>
+  <node id="44" lat="-8.314324" lon="125.58327"/>
+  <node id="45" lat="-8.31727" lon="125.573865"/>
+  <node id="46" lat="-8.312929" lon="125.569628"/>
+  <node id="47" lat="-8.309053" lon="125.563116"/>
+  <node id="48" lat="-8.299441" lon="125.530664"/>
+  <node id="49" lat="-8.292103" lon="125.517796"/>
+  <node id="51" lat="-8.638594" lon="125.501208"/>
+  <node id="52" lat="-8.649756" lon="125.494749"/>
+  <node id="53" lat="-8.648516" lon="125.468135"/>
+  <node id="54" lat="-8.660711" lon="125.432375"/>
+  <node id="55" lat="-8.681589" lon="125.405297"/>
+  <node id="56" lat="-8.695438" lon="125.38752"/>
+  <node id="57" lat="-8.703086" lon="125.347419"/>
+  <node id="58" lat="-8.712181" lon="125.29905"/>
+  <node id="59" lat="-8.726237" lon="125.273005"/>
+  <node id="60" lat="-8.74422" lon="125.22691"/>
+  <node id="61" lat="-8.754452" lon="125.179212"/>
+  <node id="62" lat="-8.756003" lon="125.172133"/>
+  <node id="63" lat="-8.756209" lon="125.142367"/>
+  <node id="64" lat="-8.747734" lon="125.122523"/>
+  <node id="65" lat="-8.740345" lon="125.103145"/>
+  <node id="66" lat="-8.68872" lon="125.106659"/>
+  <node id="67" lat="-8.665931" lon="125.115289"/>
+  <node id="68" lat="-8.645518" lon="125.128311"/>
+  <node id="69" lat="-8.631307" lon="125.144434"/>
+  <node id="70" lat="-8.624745" lon="125.164536"/>
+  <node id="71" lat="-8.617665" lon="125.210321"/>
+  <node id="72" lat="-8.607433" lon="125.229493"/>
+  <node id="73" lat="-8.605469" lon="125.237503"/>
+  <node id="74" lat="-8.610844" lon="125.274194"/>
+  <node id="75" lat="-8.607743" lon="125.285356"/>
+  <node id="76" lat="-8.59038" lon="125.315173"/>
+  <node id="77" lat="-8.571363" lon="125.381319"/>
+  <node id="78" lat="-8.569244" lon="125.401421"/>
+  <node id="79" lat="-8.573585" lon="125.467102"/>
+  <node id="80" lat="-8.569244" lon="125.487721"/>
+  <node id="82" lat="-9.421337" lon="124.090235"/>
+  <node id="83" lat="-9.397721" lon="124.062588"/>
+  <node id="84" lat="-9.341858" lon="124.030238"/>
+  <node id="85" lat="-9.336897" lon="124.048635"/>
+  <node id="86" lat="-9.30491" lon="124.129457"/>
+  <node id="87" lat="-9.302894" lon="124.146976"/>
+  <node id="88" lat="-9.296383" lon="124.159481"/>
+  <node id="89" lat="-9.265377" lon="124.181547"/>
+  <node id="90" lat="-9.255145" lon="124.191107"/>
+  <node id="91" lat="-9.241141" lon="124.221441"/>
+  <node id="92" lat="-9.220677" lon="124.288052"/>
+  <node id="93" lat="-9.202332" lon="124.386134"/>
+  <node id="94" lat="-9.196441" lon="124.397141"/>
+  <node id="95" lat="-9.185279" lon="124.405616"/>
+  <node id="96" lat="-9.181506" lon="124.425408"/>
+  <node id="97" lat="-9.180163" lon="124.450523"/>
+  <node id="98" lat="-9.20042" lon="124.451453"/>
+  <node id="99" lat="-9.255662" lon="124.43657"/>
+  <node id="100" lat="-9.290595" lon="124.431713"/>
+  <node id="101" lat="-9.299329" lon="124.427889"/>
+  <node id="102" lat="-9.303308" lon="124.424788"/>
+  <node id="103" lat="-9.306718" lon="124.420912"/>
+  <node id="104" lat="-9.331626" lon="124.40174"/>
+  <node id="105" lat="-9.356896" lon="124.371871"/>
+  <node id="106" lat="-9.361857" lon="124.36257"/>
+  <node id="107" lat="-9.362012" lon="124.358022"/>
+  <node id="108" lat="-9.364028" lon="124.354456"/>
+  <node id="109" lat="-9.374466" lon="124.347894"/>
+  <node id="110" lat="-9.404025" lon="124.345413"/>
+  <node id="111" lat="-9.411622" lon="124.341796"/>
+  <node id="112" lat="-9.425264" lon="124.332081"/>
+  <node id="113" lat="-9.432861" lon="124.328567"/>
+  <node id="114" lat="-9.439682" lon="124.328773"/>
+  <node id="115" lat="-9.456994" lon="124.333321"/>
+  <node id="116" lat="-9.46645" lon="124.332287"/>
+  <node id="117" lat="-9.480196" lon="124.323502"/>
+  <node id="118" lat="-9.488568" lon="124.310015"/>
+  <node id="119" lat="-9.492909" lon="124.293013"/>
+  <node id="120" lat="-9.494717" lon="124.27379"/>
+  <node id="121" lat="-9.497715" lon="124.261542"/>
+  <node id="122" lat="-9.501073" lon="124.257563"/>
+  <node id="123" lat="-9.49911" lon="124.256581"/>
+  <node id="124" lat="-9.486242" lon="124.253326"/>
+  <node id="125" lat="-9.480351" lon="124.253377"/>
+  <node id="126" lat="-9.46273" lon="124.256943"/>
+  <node id="127" lat="-9.455288" lon="124.257511"/>
+  <node id="128" lat="-9.438545" lon="124.253946"/>
+  <node id="129" lat="-9.421337" lon="124.246866"/>
+  <node id="130" lat="-9.40511" lon="124.237151"/>
+  <node id="131" lat="-9.391364" lon="124.225679"/>
+  <node id="132" lat="-9.378704" lon="124.210693"/>
+  <node id="133" lat="-9.372968" lon="124.197463"/>
+  <node id="134" lat="-9.373691" lon="124.183614"/>
+  <node id="135" lat="-9.380409" lon="124.167129"/>
+  <node id="136" lat="-9.391674" lon="124.1539"/>
+  <node id="137" lat="-9.419063" lon="124.133746"/>
+  <node id="138" lat="-9.426711" lon="124.120931"/>
+  <node id="140" lat="-8.705567" lon="125.801138"/>
+  <node id="141" lat="-8.75316" lon="125.805221"/>
+  <node id="142" lat="-8.751042" lon="125.779021"/>
+  <node id="143" lat="-8.756416" lon="125.762277"/>
+  <node id="144" lat="-8.774193" lon="125.744294"/>
+  <node id="145" lat="-8.79259" lon="125.707914"/>
+  <node id="146" lat="-8.794605" lon="125.688277"/>
+  <node id="147" lat="-8.770886" lon="125.691377"/>
+  <node id="148" lat="-8.767992" lon="125.674428"/>
+  <node id="149" lat="-8.772539" lon="125.645075"/>
+  <node id="150" lat="-8.780807" lon="125.632673"/>
+  <node id="151" lat="-8.789076" lon="125.620271"/>
+  <node id="152" lat="-8.79383" lon="125.598773"/>
+  <node id="153" lat="-8.812227" lon="125.592159"/>
+  <node id="154" lat="-8.836618" lon="125.571901"/>
+  <node id="155" lat="-8.848607" lon="125.539242"/>
+  <node id="156" lat="-8.855015" lon="125.49232"/>
+  <node id="157" lat="-8.855635" lon="125.487979"/>
+  <node id="158" lat="-8.840339" lon="125.479711"/>
+  <node id="159" lat="-8.822149" lon="125.475163"/>
+  <node id="160" lat="-8.808919" lon="125.448291"/>
+  <node id="161" lat="-8.794037" lon="125.433615"/>
+  <node id="162" lat="-8.774193" lon="125.449945"/>
+  <node id="163" lat="-8.752075" lon="125.457593"/>
+  <node id="164" lat="-8.736159" lon="125.441677"/>
+  <node id="165" lat="-8.723963" lon="125.444157"/>
+  <node id="166" lat="-8.713008" lon="125.476403"/>
+  <node id="167" lat="-8.700812" lon="125.497901"/>
+  <node id="168" lat="-8.670013" lon="125.509476"/>
+  <node id="169" lat="-8.649963" lon="125.499348"/>
+  <node id="170" lat="-8.617096" lon="125.757523"/>
+  <node id="171" lat="-8.649136" lon="125.771579"/>
+  <node id="172" lat="-8.670013" lon="125.785635"/>
+  <node id="174" lat="-8.79631" lon="125.68807"/>
+  <node id="175" lat="-8.835378" lon="125.679802"/>
+  <node id="176" lat="-8.859976" lon="125.675461"/>
+  <node id="177" lat="-8.878372" lon="125.674841"/>
+  <node id="178" lat="-8.906691" lon="125.671947"/>
+  <node id="179" lat="-8.916406" lon="125.656651"/>
+  <node id="180" lat="-8.915993" lon="125.623578"/>
+  <node id="181" lat="-8.927982" lon="125.600427"/>
+  <node id="182" lat="-8.946999" lon="125.59712"/>
+  <node id="183" lat="-8.966016" lon="125.588851"/>
+  <node id="184" lat="-8.980072" lon="125.58079"/>
+  <node id="185" lat="-8.999089" lon="125.578929"/>
+  <node id="186" lat="-9.032162" lon="125.581617"/>
+  <node id="187" lat="-9.055313" lon="125.595466"/>
+  <node id="188" lat="-9.068335" lon="125.625232"/>
+  <node id="189" lat="-9.080117" lon="125.650036"/>
+  <node id="190" lat="-9.093967" lon="125.664712"/>
+  <node id="191" lat="-9.116497" lon="125.673187"/>
+  <node id="192" lat="-9.131794" lon="125.667193"/>
+  <node id="193" lat="-9.14957" lon="125.659958"/>
+  <node id="194" lat="-9.186364" lon="125.6674"/>
+  <node id="195" lat="-9.193237" lon="125.670087"/>
+  <node id="196" lat="-9.193495" lon="125.660372"/>
+  <node id="197" lat="-9.186157" lon="125.609677"/>
+  <node id="198" lat="-9.18962" lon="125.593244"/>
+  <node id="199" lat="-9.205639" lon="125.572883"/>
+  <node id="200" lat="-9.217163" lon="125.552419"/>
+  <node id="201" lat="-9.240934" lon="125.487979"/>
+  <node id="202" lat="-9.213442" lon="125.495214"/>
+  <node id="203" lat="-9.164453" lon="125.51113"/>
+  <node id="204" lat="-9.155151" lon="125.495214"/>
+  <node id="205" lat="-9.14957" lon="125.473096"/>
+  <node id="206" lat="-9.134067" lon="125.459867"/>
+  <node id="207" lat="-9.095" lon="125.45656"/>
+  <node id="208" lat="-9.069989" lon="125.446018"/>
+  <node id="209" lat="-9.063581" lon="125.431755"/>
+  <node id="210" lat="-9.048698" lon="125.424934"/>
+  <node id="211" lat="-9.033815" lon="125.411911"/>
+  <node id="212" lat="-9.034125" lon="125.410619"/>
+  <node id="213" lat="-9.009217" lon="125.412325"/>
+  <node id="214" lat="-8.98219" lon="125.4131"/>
+  <node id="215" lat="-8.973664" lon="125.44271"/>
+  <node id="216" lat="-8.949479" lon="125.443331"/>
+  <node id="217" lat="-8.93625" lon="125.452839"/>
+  <node id="218" lat="-8.923021" lon="125.464828"/>
+  <node id="219" lat="-8.905864" lon="125.471649"/>
+  <node id="220" lat="-8.889948" lon="125.489633"/>
+  <node id="221" lat="-8.864523" lon="125.492733"/>
+  <node id="223" lat="-8.537515" lon="126.171348"/>
+  <node id="224" lat="-8.517878" lon="126.161013"/>
+  <node id="225" lat="-8.502788" lon="126.141789"/>
+  <node id="226" lat="-8.50098" lon="126.155277"/>
+  <node id="227" lat="-8.500359" lon="126.200339"/>
+  <node id="228" lat="-8.494778" lon="126.240595"/>
+  <node id="229" lat="-8.484443" lon="126.261058"/>
+  <node id="230" lat="-8.453489" lon="126.305397"/>
+  <node id="231" lat="-8.444342" lon="126.337178"/>
+  <node id="232" lat="-8.425894" lon="126.370302"/>
+  <node id="233" lat="-8.424085" lon="126.381568"/>
+  <node id="234" lat="-8.423723" lon="126.401515"/>
+  <node id="235" lat="-8.419072" lon="126.411902"/>
+  <node id="236" lat="-8.432095" lon="126.429885"/>
+  <node id="237" lat="-8.440725" lon="126.451176"/>
+  <node id="238" lat="-8.445479" lon="126.474172"/>
+  <node id="239" lat="-8.446978" lon="126.497581"/>
+  <node id="240" lat="-8.452094" lon="126.512309"/>
+  <node id="241" lat="-8.486717" lon="126.549103"/>
+  <node id="242" lat="-8.472868" lon="126.590289"/>
+  <node id="243" lat="-8.436952" lon="126.667183"/>
+  <node id="244" lat="-8.431216" lon="126.688216"/>
+  <node id="245" lat="-8.453386" lon="126.703409"/>
+  <node id="246" lat="-8.478397" lon="126.710643"/>
+  <node id="247" lat="-8.489766" lon="126.721599"/>
+  <node id="248" lat="-8.499274" lon="126.737515"/>
+  <node id="249" lat="-8.516224" lon="126.734828"/>
+  <node id="250" lat="-8.52966" lon="126.726353"/>
+  <node id="251" lat="-8.544336" lon="126.741442"/>
+  <node id="252" lat="-8.575962" lon="126.776582"/>
+  <node id="253" lat="-8.603867" lon="126.804281"/>
+  <node id="254" lat="-8.620197" lon="126.811722"/>
+  <node id="255" lat="-8.630326" lon="126.79932"/>
+  <node id="256" lat="-8.650169" lon="126.772242"/>
+  <node id="257" lat="-8.679935" lon="126.751364"/>
+  <node id="258" lat="-8.696471" lon="126.738962"/>
+  <node id="259" lat="-8.678281" lon="126.724906"/>
+  <node id="260" lat="-8.664639" lon="126.706716"/>
+  <node id="261" lat="-8.658438" lon="126.683565"/>
+  <node id="262" lat="-8.648722" lon="126.651112"/>
+  <node id="263" lat="-8.660091" lon="126.627341"/>
+  <node id="264" lat="-8.683656" lon="126.615559"/>
+  <node id="265" lat="-8.689857" lon="126.602536"/>
+  <node id="266" lat="-8.680142" lon="126.586"/>
+  <node id="267" lat="-8.676628" lon="126.559541"/>
+  <node id="268" lat="-8.683242" lon="126.51882"/>
+  <node id="269" lat="-8.670013" lon="126.491742"/>
+  <node id="270" lat="-8.626192" lon="126.474792"/>
+  <node id="271" lat="-8.607175" lon="126.455362"/>
+  <node id="272" lat="-8.633426" lon="126.44854"/>
+  <node id="273" lat="-8.663399" lon="126.44544"/>
+  <node id="274" lat="-8.693578" lon="126.449367"/>
+  <node id="275" lat="-8.706393" lon="126.432211"/>
+  <node id="276" lat="-8.696265" lon="126.406373"/>
+  <node id="277" lat="-8.684896" lon="126.374333"/>
+  <node id="278" lat="-8.675387" lon="126.331132"/>
+  <node id="279" lat="-8.678281" lon="126.281729"/>
+  <node id="280" lat="-8.695851" lon="126.234393"/>
+  <node id="281" lat="-8.694818" lon="126.180857"/>
+  <node id="282" lat="-8.681072" lon="126.140032"/>
+  <node id="283" lat="-8.661745" lon="126.161013"/>
+  <node id="284" lat="-8.645829" lon="126.172588"/>
+  <node id="285" lat="-8.623711" lon="126.179203"/>
+  <node id="286" lat="-8.591052" lon="126.177343"/>
+  <node id="287" lat="-8.560872" lon="126.174242"/>
+  <node id="289" lat="-9.182643" lon="125.191976"/>
+  <node id="290" lat="-9.172308" lon="125.158077"/>
+  <node id="291" lat="-9.170809" lon="125.152599"/>
+  <node id="292" lat="-9.164815" lon="125.151152"/>
+  <node id="293" lat="-9.154273" lon="125.146966"/>
+  <node id="294" lat="-9.145023" lon="125.144951"/>
+  <node id="295" lat="-9.082081" lon="125.162004"/>
+  <node id="296" lat="-9.060532" lon="125.162314"/>
+  <node id="297" lat="-9.040585" lon="125.153994"/>
+  <node id="298" lat="-9.024617" lon="125.139318"/>
+  <node id="299" lat="-9.011646" lon="125.12118"/>
+  <node id="300" lat="-9.001104" lon="125.102421"/>
+  <node id="301" lat="-8.994593" lon="125.09529"/>
+  <node id="302" lat="-8.988443" lon="125.091517"/>
+  <node id="303" lat="-8.986066" lon="125.086815"/>
+  <node id="304" lat="-8.990614" lon="125.07648"/>
+  <node id="305" lat="-8.996298" lon="125.073017"/>
+  <node id="306" lat="-9.015677" lon="125.068418"/>
+  <node id="307" lat="-9.023067" lon="125.065162"/>
+  <node id="308" lat="-9.034849" lon="125.05183"/>
+  <node id="309" lat="-9.055416" lon="125.004339"/>
+  <node id="310" lat="-9.071797" lon="124.978966"/>
+  <node id="311" lat="-9.07712" lon="124.96584"/>
+  <node id="312" lat="-9.078309" lon="124.947857"/>
+  <node id="313" lat="-9.074278" lon="124.932974"/>
+  <node id="314" lat="-9.065338" lon="124.921295"/>
+  <node id="315" lat="-9.052625" lon="124.912924"/>
+  <node id="316" lat="-9.037329" lon="124.907808"/>
+  <node id="317" lat="-9.020173" lon="124.909048"/>
+  <node id="318" lat="-8.986221" lon="124.922484"/>
+  <node id="319" lat="-8.962088" lon="124.919538"/>
+  <node id="320" lat="-8.942658" lon="124.953955"/>
+  <node id="321" lat="-8.922142" lon="124.974935"/>
+  <node id="322" lat="-8.84902" lon="125.023408"/>
+  <node id="323" lat="-8.833672" lon="125.027749"/>
+  <node id="324" lat="-8.824732" lon="125.037257"/>
+  <node id="325" lat="-8.808351" lon="125.081906"/>
+  <node id="326" lat="-8.795794" lon="125.096685"/>
+  <node id="327" lat="-8.778172" lon="125.100561"/>
+  <node id="328" lat="-8.771919" lon="125.186395"/>
+  <node id="329" lat="-8.779154" lon="125.223396"/>
+  <node id="330" lat="-8.787009" lon="125.239312"/>
+  <node id="331" lat="-8.807266" lon="125.251508"/>
+  <node id="332" lat="-8.861423" lon="125.27962"/>
+  <node id="333" lat="-8.91806" lon="125.307732"/>
+  <node id="334" lat="-8.937904" lon="125.313106"/>
+  <node id="335" lat="-8.967669" lon="125.316"/>
+  <node id="336" lat="-8.991441" lon="125.326335"/>
+  <node id="337" lat="-8.989167" lon="125.38876"/>
+  <node id="338" lat="-9.040223" lon="125.384419"/>
+  <node id="339" lat="-9.060274" lon="125.360648"/>
+  <node id="340" lat="-9.086112" lon="125.355894"/>
+  <node id="341" lat="-9.123112" lon="125.35238"/>
+  <node id="342" lat="-9.142749" lon="125.342045"/>
+  <node id="343" lat="-9.141302" lon="125.309385"/>
+  <node id="344" lat="-9.145436" lon="125.292022"/>
+  <node id="345" lat="-9.179336" lon="125.319307"/>
+  <node id="346" lat="-9.209515" lon="125.311246"/>
+  <node id="347" lat="-9.21737" lon="125.254815"/>
+  <node id="348" lat="-9.214063" lon="125.218021"/>
+  <node id="349" lat="-9.200833" lon="125.213474"/>
+  <node id="350" lat="-9.190498" lon="125.206446"/>
+  <node id="352" lat="-9.281035" lon="125.379148"/>
+  <node id="353" lat="-9.302894" lon="125.343078"/>
+  <node id="354" lat="-9.345527" lon="125.291505"/>
+  <node id="355" lat="-9.357361" lon="125.264013"/>
+  <node id="356" lat="-9.371521" lon="125.251663"/>
+  <node id="357" lat="-9.399116" lon="125.233214"/>
+  <node id="358" lat="-9.411053" lon="125.222259"/>
+  <node id="359" lat="-9.41958" lon="125.211407"/>
+  <node id="360" lat="-9.424747" lon="125.196886"/>
+  <node id="361" lat="-9.428055" lon="125.150222"/>
+  <node id="362" lat="-9.433739" lon="125.130791"/>
+  <node id="363" lat="-9.444333" lon="125.113893"/>
+  <node id="364" lat="-9.461179" lon="125.096685"/>
+  <node id="365" lat="-9.485932" lon="125.061545"/>
+  <node id="366" lat="-9.424851" lon="125.0509"/>
+  <node id="367" lat="-9.409658" lon="125.046249"/>
+  <node id="368" lat="-9.374518" lon="125.023718"/>
+  <node id="369" lat="-9.367542" lon="125.022788"/>
+  <node id="370" lat="-9.351884" lon="125.024803"/>
+  <node id="371" lat="-9.345372" lon="125.023408"/>
+  <node id="372" lat="-9.338758" lon="125.01793"/>
+  <node id="373" lat="-9.325735" lon="124.996588"/>
+  <node id="374" lat="-9.304445" lon="124.972817"/>
+  <node id="375" lat="-9.293128" lon="124.965995"/>
+  <node id="376" lat="-9.275816" lon="124.960104"/>
+  <node id="377" lat="-9.241296" lon="124.954058"/>
+  <node id="378" lat="-9.211737" lon="124.957779"/>
+  <node id="379" lat="-9.191738" lon="124.974367"/>
+  <node id="380" lat="-9.185899" lon="125.00713"/>
+  <node id="381" lat="-9.186157" lon="125.027594"/>
+  <node id="382" lat="-9.188018" lon="125.034467"/>
+  <node id="383" lat="-9.19303" lon="125.041495"/>
+  <node id="384" lat="-9.206466" lon="125.05338"/>
+  <node id="385" lat="-9.210342" lon="125.059581"/>
+  <node id="386" lat="-9.211117" lon="125.074102"/>
+  <node id="387" lat="-9.205381" lon="125.082629"/>
+  <node id="388" lat="-9.196648" lon="125.091466"/>
+  <node id="389" lat="-9.188224" lon="125.106917"/>
+  <node id="390" lat="-9.187294" lon="125.117872"/>
+  <node id="391" lat="-9.188844" lon="125.142419"/>
+  <node id="392" lat="-9.185227" lon="125.150635"/>
+  <node id="393" lat="-9.175615" lon="125.153787"/>
+  <node id="396" lat="-8.678075" lon="126.131247"/>
+  <node id="397" lat="-8.674974" lon="126.111403"/>
+  <node id="398" lat="-8.687997" lon="126.091973"/>
+  <node id="399" lat="-8.719622" lon="126.079984"/>
+  <node id="400" lat="-8.745461" lon="126.068822"/>
+  <node id="401" lat="-8.757656" lon="126.050219"/>
+  <node id="402" lat="-8.774606" lon="126.036989"/>
+  <node id="403" lat="-8.794037" lon="126.033682"/>
+  <node id="404" lat="-8.830003" lon="126.057247"/>
+  <node id="405" lat="-8.868451" lon="126.078331"/>
+  <node id="406" lat="-8.889948" lon="126.078951"/>
+  <node id="407" lat="-8.911445" lon="126.083291"/>
+  <node id="408" lat="-8.941211" lon="126.094247"/>
+  <node id="409" lat="-8.966016" lon="126.111403"/>
+  <node id="410" lat="-8.998675" lon="126.137655"/>
+  <node id="411" lat="-8.999915" lon="126.137965"/>
+  <node id="412" lat="-9.006478" lon="126.122204"/>
+  <node id="413" lat="-9.057431" lon="126.047531"/>
+  <node id="414" lat="-9.045391" lon="126.045258"/>
+  <node id="415" lat="-9.022653" lon="126.032028"/>
+  <node id="416" lat="-8.992474" lon="125.989034"/>
+  <node id="417" lat="-8.967049" lon="125.945005"/>
+  <node id="418" lat="-8.942865" lon="125.929502"/>
+  <node id="419" lat="-8.914959" lon="125.906145"/>
+  <node id="420" lat="-8.898216" lon="125.871625"/>
+  <node id="421" lat="-8.881886" lon="125.841032"/>
+  <node id="422" lat="-8.856875" lon="125.81044"/>
+  <node id="423" lat="-8.81202" lon="125.798658"/>
+  <node id="424" lat="-8.756003" lon="125.805479"/>
+  <node id="425" lat="-8.483823" lon="125.850799"/>
+  <node id="426" lat="-8.481136" lon="125.89798"/>
+  <node id="427" lat="-8.499429" lon="126.00247"/>
+  <node id="428" lat="-8.518756" lon="126.042519"/>
+  <node id="429" lat="-8.521443" lon="126.069287"/>
+  <node id="430" lat="-8.517103" lon="126.091405"/>
+  <node id="431" lat="-8.503873" lon="126.133676"/>
+  <node id="433" lat="-9.125696" lon="125.947486"/>
+  <node id="434" lat="-9.131587" lon="125.928676"/>
+  <node id="435" lat="-9.122595" lon="125.869971"/>
+  <node id="436" lat="-9.124146" lon="125.850179"/>
+  <node id="437" lat="-9.129985" lon="125.839017"/>
+  <node id="438" lat="-9.148227" lon="125.817158"/>
+  <node id="439" lat="-9.152103" lon="125.805479"/>
+  <node id="440" lat="-9.152103" lon="125.763931"/>
+  <node id="441" lat="-9.157219" lon="125.742899"/>
+  <node id="442" lat="-9.19303" lon="125.678872"/>
+  <node id="444" lat="-8.701226" lon="126.735448"/>
+  <node id="445" lat="-8.726237" lon="126.728213"/>
+  <node id="446" lat="-8.760964" lon="126.728368"/>
+  <node id="447" lat="-8.763392" lon="126.694469"/>
+  <node id="448" lat="-8.768508" lon="126.672609"/>
+  <node id="449" lat="-8.774141" lon="126.661034"/>
+  <node id="450" lat="-8.795794" lon="126.63163"/>
+  <node id="451" lat="-8.798894" lon="126.624344"/>
+  <node id="452" lat="-8.800754" lon="126.615714"/>
+  <node id="453" lat="-8.801995" lon="126.593751"/>
+  <node id="454" lat="-8.805819" lon="126.583468"/>
+  <node id="455" lat="-8.850261" lon="126.544349"/>
+  <node id="456" lat="-8.911859" lon="126.508123"/>
+  <node id="457" lat="-8.942813" lon="126.472725"/>
+  <node id="458" lat="-8.954647" lon="126.43035"/>
+  <node id="459" lat="-8.988237" lon="126.166129"/>
+  <node id="461" lat="-8.395146" lon="127.306318"/>
+  <node id="462" lat="-8.415197" lon="127.313449"/>
+  <node id="463" lat="-8.432302" lon="127.303475"/>
+  <node id="464" lat="-8.486562" lon="127.230353"/>
+  <node id="465" lat="-8.532192" lon="127.184568"/>
+  <node id="466" lat="-8.602989" lon="127.092946"/>
+  <node id="467" lat="-8.665466" lon="127.028247"/>
+  <node id="468" lat="-8.675698" lon="127.021425"/>
+  <node id="469" lat="-8.676576" lon="127.009643"/>
+  <node id="470" lat="-8.692182" lon="126.939518"/>
+  <node id="471" lat="-8.738381" lon="126.875181"/>
+  <node id="472" lat="-8.752437" lon="126.846397"/>
+  <node id="473" lat="-8.429821" lon="126.693332"/>
+  <node id="474" lat="-8.41654" lon="126.712297"/>
+  <node id="475" lat="-8.41282" lon="126.72041"/>
+  <node id="476" lat="-8.412768" lon="126.731624"/>
+  <node id="477" lat="-8.417987" lon="126.748574"/>
+  <node id="478" lat="-8.419072" lon="126.755757"/>
+  <node id="479" lat="-8.410029" lon="126.79963"/>
+  <node id="480" lat="-8.39096" lon="126.842522"/>
+  <node id="481" lat="-8.318562" lon="126.944944"/>
+  <node id="482" lat="-8.308898" lon="126.967372"/>
+  <node id="483" lat="-8.312929" lon="126.984115"/>
+  <node id="484" lat="-8.324143" lon="126.999566"/>
+  <node id="485" lat="-8.357629" lon="127.069846"/>
+  <node id="486" lat="-8.362642" lon="127.089122"/>
+  <node id="487" lat="-8.364967" lon="127.113926"/>
+  <node id="488" lat="-8.362745" lon="127.138214"/>
+  <node id="489" lat="-8.354167" lon="127.155784"/>
+  <node id="490" lat="-8.332463" lon="127.186532"/>
+  <node id="491" lat="-8.329672" lon="127.193353"/>
+  <node id="492" lat="-8.332514" lon="127.206324"/>
+  <node id="493" lat="-8.338974" lon="127.211181"/>
+  <node id="494" lat="-8.347759" lon="127.21392"/>
+  <node id="495" lat="-8.357629" lon="127.22069"/>
+  <node id="496" lat="-8.370083" lon="127.241825"/>
+  <node id="497" lat="-8.38233" lon="127.287249"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="610"/>
+    <tag k="VertexCou" v="47"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Dili"/>
+    <tag k="VARNAME_1" v="Dilli"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.DL"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.329786"/>
+    <tag k="Shape_Area" v="-0.008315"/>
+  </way>
+  <way id="000000028">
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="29"/>
+    <tag k="OBJECTID" v="610"/>
+    <tag k="VertexCou" v="47"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Dili"/>
+    <tag k="VARNAME_1" v="Dilli"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.DL"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.329786"/>
+    <tag k="Shape_Area" v="-0.008315"/>
+  </way>
+  <way id="000000050">
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <tag k="OBJECTID" v="611"/>
+    <tag k="VertexCou" v="34"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Liquica"/>
+    <tag k="VARNAME_1" v="Likisia"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.LQ"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="12"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.993146"/>
+    <tag k="Shape_Area" v="0.044203"/>
+  </way>
+  <way id="000000081">
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="82"/>
+    <tag k="OBJECTID" v="612"/>
+    <tag k="VertexCou" v="57"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Ambeno"/>
+    <tag k="VARNAME_1" v="Ambino|Oecussi"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.AM"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="13"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.266741"/>
+    <tag k="Shape_Area" v="0.06075"/>
+  </way>
+  <way id="000000139">
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="140"/>
+    <tag k="OBJECTID" v="613"/>
+    <tag k="VertexCou" v="45"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Aileu"/>
+    <tag k="VARNAME_1" v="Alieau"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.AL"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="9"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.166488"/>
+    <tag k="Shape_Area" v="0.063501"/>
+  </way>
+  <way id="000000173">
+    <nd ref="148"/>
+    <nd ref="147"/>
+    <nd ref="146"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="157"/>
+    <nd ref="156"/>
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="152"/>
+    <nd ref="151"/>
+    <nd ref="150"/>
+    <nd ref="149"/>
+    <nd ref="148"/>
+    <tag k="OBJECTID" v="614"/>
+    <tag k="VertexCou" v="60"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Ainaro"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.AN"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.447622"/>
+    <tag k="Shape_Area" v="0.069799"/>
+  </way>
+  <way id="000000222">
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="223"/>
+    <tag k="OBJECTID" v="615"/>
+    <tag k="VertexCou" v="65"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Baucau"/>
+    <tag k="VARNAME_1" v="Baukau"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.BC"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="8"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.929204"/>
+    <tag k="Shape_Area" v="0.12902"/>
+  </way>
+  <way id="000000288">
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="214"/>
+    <nd ref="213"/>
+    <nd ref="212"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="289"/>
+    <tag k="OBJECTID" v="616"/>
+    <tag k="VertexCou" v="70"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Bobonaro"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.BB"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="11"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.813527"/>
+    <tag k="Shape_Area" v="0.117724"/>
+  </way>
+  <way id="000000351">
+    <nd ref="204"/>
+    <nd ref="203"/>
+    <nd ref="202"/>
+    <nd ref="201"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="362"/>
+    <nd ref="363"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="291"/>
+    <nd ref="290"/>
+    <nd ref="289"/>
+    <nd ref="350"/>
+    <nd ref="349"/>
+    <nd ref="348"/>
+    <nd ref="347"/>
+    <nd ref="346"/>
+    <nd ref="345"/>
+    <nd ref="344"/>
+    <nd ref="343"/>
+    <nd ref="342"/>
+    <nd ref="341"/>
+    <nd ref="340"/>
+    <nd ref="339"/>
+    <nd ref="338"/>
+    <nd ref="212"/>
+    <nd ref="211"/>
+    <nd ref="210"/>
+    <nd ref="209"/>
+    <nd ref="208"/>
+    <nd ref="207"/>
+    <nd ref="206"/>
+    <nd ref="205"/>
+    <nd ref="204"/>
+    <tag k="OBJECTID" v="617"/>
+    <tag k="VertexCou" v="70"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Cova Lima"/>
+    <tag k="VARNAME_1" v="Covalima|Kova-Lima"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.CL"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.760536"/>
+    <tag k="Shape_Area" v="0.10417"/>
+  </way>
+  <way id="000000394">
+    <nd ref="166"/>
+    <nd ref="165"/>
+    <nd ref="164"/>
+    <nd ref="163"/>
+    <nd ref="162"/>
+    <nd ref="161"/>
+    <nd ref="160"/>
+    <nd ref="159"/>
+    <nd ref="158"/>
+    <nd ref="157"/>
+    <nd ref="221"/>
+    <nd ref="220"/>
+    <nd ref="219"/>
+    <nd ref="218"/>
+    <nd ref="217"/>
+    <nd ref="216"/>
+    <nd ref="215"/>
+    <nd ref="214"/>
+    <nd ref="337"/>
+    <nd ref="336"/>
+    <nd ref="335"/>
+    <nd ref="334"/>
+    <nd ref="333"/>
+    <nd ref="332"/>
+    <nd ref="331"/>
+    <nd ref="330"/>
+    <nd ref="329"/>
+    <nd ref="328"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <nd ref="169"/>
+    <nd ref="168"/>
+    <nd ref="167"/>
+    <nd ref="166"/>
+    <tag k="OBJECTID" v="618"/>
+    <tag k="VertexCou" v="41"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Ermera"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.ER"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="10"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.182563"/>
+    <tag k="Shape_Area" v="0.058224"/>
+  </way>
+  <way id="000000395">
+    <nd ref="286"/>
+    <nd ref="285"/>
+    <nd ref="284"/>
+    <nd ref="283"/>
+    <nd ref="282"/>
+    <nd ref="396"/>
+    <nd ref="397"/>
+    <nd ref="398"/>
+    <nd ref="399"/>
+    <nd ref="400"/>
+    <nd ref="401"/>
+    <nd ref="402"/>
+    <nd ref="403"/>
+    <nd ref="404"/>
+    <nd ref="405"/>
+    <nd ref="406"/>
+    <nd ref="407"/>
+    <nd ref="408"/>
+    <nd ref="409"/>
+    <nd ref="410"/>
+    <nd ref="411"/>
+    <nd ref="412"/>
+    <nd ref="413"/>
+    <nd ref="414"/>
+    <nd ref="415"/>
+    <nd ref="416"/>
+    <nd ref="417"/>
+    <nd ref="418"/>
+    <nd ref="419"/>
+    <nd ref="420"/>
+    <nd ref="421"/>
+    <nd ref="422"/>
+    <nd ref="423"/>
+    <nd ref="424"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="172"/>
+    <nd ref="171"/>
+    <nd ref="170"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="2"/>
+    <nd ref="425"/>
+    <nd ref="426"/>
+    <nd ref="427"/>
+    <nd ref="428"/>
+    <nd ref="429"/>
+    <nd ref="430"/>
+    <nd ref="431"/>
+    <nd ref="225"/>
+    <nd ref="224"/>
+    <nd ref="223"/>
+    <nd ref="287"/>
+    <nd ref="286"/>
+    <tag k="OBJECTID" v="619"/>
+    <tag k="VertexCou" v="56"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Manatuto"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.MT"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="6"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.795144"/>
+    <tag k="Shape_Area" v="0.144512"/>
+  </way>
+  <way id="000000432">
+    <nd ref="414"/>
+    <nd ref="413"/>
+    <nd ref="433"/>
+    <nd ref="434"/>
+    <nd ref="435"/>
+    <nd ref="436"/>
+    <nd ref="437"/>
+    <nd ref="438"/>
+    <nd ref="439"/>
+    <nd ref="440"/>
+    <nd ref="441"/>
+    <nd ref="442"/>
+    <nd ref="195"/>
+    <nd ref="194"/>
+    <nd ref="193"/>
+    <nd ref="192"/>
+    <nd ref="191"/>
+    <nd ref="190"/>
+    <nd ref="189"/>
+    <nd ref="188"/>
+    <nd ref="187"/>
+    <nd ref="186"/>
+    <nd ref="185"/>
+    <nd ref="184"/>
+    <nd ref="183"/>
+    <nd ref="182"/>
+    <nd ref="181"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="178"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="174"/>
+    <nd ref="146"/>
+    <nd ref="145"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="424"/>
+    <nd ref="423"/>
+    <nd ref="422"/>
+    <nd ref="421"/>
+    <nd ref="420"/>
+    <nd ref="419"/>
+    <nd ref="418"/>
+    <nd ref="417"/>
+    <nd ref="416"/>
+    <nd ref="415"/>
+    <nd ref="414"/>
+    <tag k="OBJECTID" v="620"/>
+    <tag k="VertexCou" v="50"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Manufahi"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.MF"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.484739"/>
+    <tag k="Shape_Area" v="0.10628"/>
+  </way>
+  <way id="000000443">
+    <nd ref="258"/>
+    <nd ref="444"/>
+    <nd ref="445"/>
+    <nd ref="446"/>
+    <nd ref="447"/>
+    <nd ref="448"/>
+    <nd ref="449"/>
+    <nd ref="450"/>
+    <nd ref="451"/>
+    <nd ref="452"/>
+    <nd ref="453"/>
+    <nd ref="454"/>
+    <nd ref="455"/>
+    <nd ref="456"/>
+    <nd ref="457"/>
+    <nd ref="458"/>
+    <nd ref="459"/>
+    <nd ref="411"/>
+    <nd ref="410"/>
+    <nd ref="409"/>
+    <nd ref="408"/>
+    <nd ref="407"/>
+    <nd ref="406"/>
+    <nd ref="405"/>
+    <nd ref="404"/>
+    <nd ref="403"/>
+    <nd ref="402"/>
+    <nd ref="401"/>
+    <nd ref="400"/>
+    <nd ref="399"/>
+    <nd ref="398"/>
+    <nd ref="397"/>
+    <nd ref="396"/>
+    <nd ref="282"/>
+    <nd ref="281"/>
+    <nd ref="280"/>
+    <nd ref="279"/>
+    <nd ref="278"/>
+    <nd ref="277"/>
+    <nd ref="276"/>
+    <nd ref="275"/>
+    <nd ref="274"/>
+    <nd ref="273"/>
+    <nd ref="272"/>
+    <nd ref="271"/>
+    <nd ref="270"/>
+    <nd ref="269"/>
+    <nd ref="268"/>
+    <nd ref="267"/>
+    <nd ref="266"/>
+    <nd ref="265"/>
+    <nd ref="264"/>
+    <nd ref="263"/>
+    <nd ref="262"/>
+    <nd ref="261"/>
+    <nd ref="260"/>
+    <nd ref="259"/>
+    <nd ref="258"/>
+    <tag k="OBJECTID" v="621"/>
+    <tag k="VertexCou" v="57"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Viqueque"/>
+    <tag k="VARNAME_1" v="Vikeke"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.VQ"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="7"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TT00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.928079"/>
+    <tag k="Shape_Area" v="0.155266"/>
+  </way>
+  <way id="000000460">
+    <nd ref="461"/>
+    <nd ref="462"/>
+    <nd ref="463"/>
+    <nd ref="464"/>
+    <nd ref="465"/>
+    <nd ref="466"/>
+    <nd ref="467"/>
+    <nd ref="468"/>
+    <nd ref="469"/>
+    <nd ref="470"/>
+    <nd ref="471"/>
+    <nd ref="472"/>
+    <nd ref="446"/>
+    <nd ref="445"/>
+    <nd ref="444"/>
+    <nd ref="258"/>
+    <nd ref="257"/>
+    <nd ref="256"/>
+    <nd ref="255"/>
+    <nd ref="254"/>
+    <nd ref="253"/>
+    <nd ref="252"/>
+    <nd ref="251"/>
+    <nd ref="250"/>
+    <nd ref="249"/>
+    <nd ref="248"/>
+    <nd ref="247"/>
+    <nd ref="246"/>
+    <nd ref="245"/>
+    <nd ref="244"/>
+    <nd ref="473"/>
+    <nd ref="474"/>
+    <nd ref="475"/>
+    <nd ref="476"/>
+    <nd ref="477"/>
+    <nd ref="478"/>
+    <nd ref="479"/>
+    <nd ref="480"/>
+    <nd ref="481"/>
+    <nd ref="482"/>
+    <nd ref="483"/>
+    <nd ref="484"/>
+    <nd ref="485"/>
+    <nd ref="486"/>
+    <nd ref="487"/>
+    <nd ref="488"/>
+    <nd ref="489"/>
+    <nd ref="490"/>
+    <nd ref="491"/>
+    <nd ref="492"/>
+    <nd ref="493"/>
+    <nd ref="494"/>
+    <nd ref="495"/>
+    <nd ref="496"/>
+    <nd ref="497"/>
+    <nd ref="461"/>
+    <tag k="OBJECTID" v="622"/>
+    <tag k="VertexCou" v="55"/>
+    <tag k="ISO" v="TLS"/>
+    <tag k="NAME_0" v="East Timor"/>
+    <tag k="NAME_1" v="Lautem"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TP.BT"/>
+    <tag k="TYPE_1" v="Distrik|Kabupaten"/>
+    <tag k="ENGTYPE_1" v="District|Regencies"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="5"/>
+    <tag k="NEV_Countr" v="Timor-Leste"/>
+    <tag k="FIRST_FIPS" v="CG02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="ID28"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.8474"/>
+    <tag k="Shape_Area" v="0.153294"/>
+  </way>
+</osm>

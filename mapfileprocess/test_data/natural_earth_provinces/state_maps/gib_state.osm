@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="36.120328" lon="-5.376385"/>
+  <node id="3" lat="36.141464" lon="-5.38548"/>
+  <node id="4" lat="36.141464" lon="-5.364964"/>
+  <node id="5" lat="36.130922" lon="-5.366024"/>
+  <node id="6" lat="36.130922" lon="-5.359176"/>
+  <node id="7" lat="36.111517" lon="-5.368142"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="129"/>
+    <tag k="VertexCou" v="6"/>
+    <tag k="ISO" v="GIB"/>
+    <tag k="NAME_0" v="Gibraltar"/>
+    <tag k="NAME_1" v="Gibraltar"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GH.WP"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v=""/>
+    <tag k="VALIDFR_1" v=""/>
+    <tag k="VALIDTO_1" v=""/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Spain"/>
+    <tag k="FIRST_FIPS" v="GH09"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GI00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.094408"/>
+    <tag k="Shape_Area" v="0.000422"/>
+  </way>
+</osm>

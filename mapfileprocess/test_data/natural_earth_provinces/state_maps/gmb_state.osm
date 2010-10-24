@@ -1,0 +1,1085 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="13.384196" lon="-14.525568"/>
+  <node id="3" lat="13.335905" lon="-14.547711"/>
+  <node id="4" lat="13.32296" lon="-14.552155"/>
+  <node id="5" lat="13.349418" lon="-14.581197"/>
+  <node id="6" lat="13.353397" lon="-14.592566"/>
+  <node id="7" lat="13.345439" lon="-14.625019"/>
+  <node id="8" lat="13.341201" lon="-14.662123"/>
+  <node id="9" lat="13.345439" lon="-14.698606"/>
+  <node id="10" lat="13.359288" lon="-14.732093"/>
+  <node id="11" lat="13.383576" lon="-14.759998"/>
+  <node id="12" lat="13.411171" lon="-14.780048"/>
+  <node id="13" lat="13.417579" lon="-14.790797"/>
+  <node id="14" lat="13.421403" lon="-14.811313"/>
+  <node id="15" lat="13.427294" lon="-14.829554"/>
+  <node id="16" lat="13.447293" lon="-14.863041"/>
+  <node id="17" lat="13.451634" lon="-14.878079"/>
+  <node id="18" lat="13.454683" lon="-14.916371"/>
+  <node id="19" lat="13.463365" lon="-14.950167"/>
+  <node id="20" lat="13.496024" lon="-15.015486"/>
+  <node id="21" lat="13.496076" lon="-15.015693"/>
+  <node id="22" lat="13.496231" lon="-15.0159"/>
+  <node id="23" lat="13.496334" lon="-15.016055"/>
+  <node id="24" lat="13.531474" lon="-15.065716"/>
+  <node id="25" lat="13.572712" lon="-15.110674"/>
+  <node id="26" lat="13.590179" lon="-15.138114"/>
+  <node id="27" lat="13.581239" lon="-15.161007"/>
+  <node id="28" lat="13.56018" lon="-15.181781"/>
+  <node id="29" lat="13.561731" lon="-15.183848"/>
+  <node id="30" lat="13.562687" lon="-15.189662"/>
+  <node id="31" lat="13.560904" lon="-15.197387"/>
+  <node id="32" lat="13.552145" lon="-15.209531"/>
+  <node id="33" lat="13.540879" lon="-15.234439"/>
+  <node id="34" lat="13.504783" lon="-15.297588"/>
+  <node id="35" lat="13.496231" lon="-15.299913"/>
+  <node id="36" lat="13.496231" lon="-15.302006"/>
+  <node id="37" lat="13.537985" lon="-15.360814"/>
+  <node id="38" lat="13.566071" lon="-15.37257"/>
+  <node id="39" lat="13.612296" lon="-15.370891"/>
+  <node id="40" lat="13.626352" lon="-15.367868"/>
+  <node id="41" lat="13.632605" lon="-15.379314"/>
+  <node id="42" lat="13.634491" lon="-15.413912"/>
+  <node id="43" lat="13.633768" lon="-15.421534"/>
+  <node id="44" lat="13.634259" lon="-15.438975"/>
+  <node id="45" lat="13.640925" lon="-15.484088"/>
+  <node id="46" lat="13.641545" lon="-15.498558"/>
+  <node id="47" lat="13.648573" lon="-15.497317"/>
+  <node id="48" lat="13.670587" lon="-15.489411"/>
+  <node id="49" lat="13.691464" lon="-15.479024"/>
+  <node id="50" lat="13.708518" lon="-15.467965"/>
+  <node id="51" lat="13.741435" lon="-15.436804"/>
+  <node id="52" lat="13.77177" lon="-15.394585"/>
+  <node id="53" lat="13.788823" lon="-15.348282"/>
+  <node id="54" lat="13.782156" lon="-15.304926"/>
+  <node id="55" lat="13.773423" lon="-15.295572"/>
+  <node id="56" lat="13.748308" lon="-15.276142"/>
+  <node id="57" lat="13.742004" lon="-15.267719"/>
+  <node id="58" lat="13.746965" lon="-15.24648"/>
+  <node id="59" lat="13.794042" lon="-15.171084"/>
+  <node id="60" lat="13.820242" lon="-15.098169"/>
+  <node id="61" lat="13.819208" lon="-15.076774"/>
+  <node id="62" lat="13.797091" lon="-15.017243"/>
+  <node id="63" lat="13.792698" lon="-14.916267"/>
+  <node id="64" lat="13.780813" lon="-14.879732"/>
+  <node id="65" lat="13.752959" lon="-14.844437"/>
+  <node id="66" lat="13.735854" lon="-14.831828"/>
+  <node id="67" lat="13.717509" lon="-14.822836"/>
+  <node id="68" lat="13.652604" lon="-14.803406"/>
+  <node id="69" lat="13.644956" lon="-14.796481"/>
+  <node id="70" lat="13.620668" lon="-14.755347"/>
+  <node id="71" lat="13.615707" lon="-14.741394"/>
+  <node id="72" lat="13.619531" lon="-14.729044"/>
+  <node id="73" lat="13.65312" lon="-14.667652"/>
+  <node id="74" lat="13.663766" lon="-14.627086"/>
+  <node id="75" lat="13.660717" lon="-14.586003"/>
+  <node id="76" lat="13.641028" lon="-14.54306"/>
+  <node id="77" lat="13.625887" lon="-14.523733"/>
+  <node id="78" lat="13.60935" lon="-14.510194"/>
+  <node id="79" lat="13.59023" lon="-14.500686"/>
+  <node id="80" lat="13.54677" lon="-14.487301"/>
+  <node id="81" lat="13.533438" lon="-14.480842"/>
+  <node id="82" lat="13.522586" lon="-14.470713"/>
+  <node id="83" lat="13.516591" lon="-14.462238"/>
+  <node id="84" lat="13.507031" lon="-14.477535"/>
+  <node id="85" lat="13.502871" lon="-14.481488"/>
+  <node id="86" lat="13.496696" lon="-14.486268"/>
+  <node id="87" lat="13.489254" lon="-14.488283"/>
+  <node id="88" lat="13.47587" lon="-14.493244"/>
+  <node id="89" lat="13.469385" lon="-14.497249"/>
+  <node id="90" lat="13.465044" lon="-14.501306"/>
+  <node id="91" lat="13.453443" lon="-14.518824"/>
+  <node id="92" lat="13.402386" lon="-14.494484"/>
+  <node id="93" lat="13.39864" lon="-14.488619"/>
+  <node id="94" lat="13.390552" lon="-14.502985"/>
+  <node id="95" lat="13.392904" lon="-14.50699"/>
+  <node id="96" lat="13.394635" lon="-14.511563"/>
+  <node id="97" lat="13.390217" lon="-14.518669"/>
+  <node id="99" lat="13.476904" lon="-13.843103"/>
+  <node id="100" lat="13.429568" lon="-13.819177"/>
+  <node id="101" lat="13.37846" lon="-13.823001"/>
+  <node id="102" lat="13.335982" lon="-13.851423"/>
+  <node id="103" lat="13.314795" lon="-13.901032"/>
+  <node id="104" lat="13.30849" lon="-13.976583"/>
+  <node id="105" lat="13.297897" lon="-14.016787"/>
+  <node id="106" lat="13.297432" lon="-14.056992"/>
+  <node id="107" lat="13.282187" lon="-14.099935"/>
+  <node id="108" lat="13.282394" lon="-14.117246"/>
+  <node id="109" lat="13.275831" lon="-14.132284"/>
+  <node id="110" lat="13.240432" lon="-14.180292"/>
+  <node id="111" lat="13.229787" lon="-14.202151"/>
+  <node id="112" lat="13.228857" lon="-14.23109"/>
+  <node id="113" lat="13.238779" lon="-14.285298"/>
+  <node id="114" lat="13.23387" lon="-14.342246"/>
+  <node id="115" lat="13.235937" lon="-14.369324"/>
+  <node id="116" lat="13.243223" lon="-14.395472"/>
+  <node id="117" lat="13.261723" lon="-14.431904"/>
+  <node id="118" lat="13.268803" lon="-14.442498"/>
+  <node id="119" lat="13.277123" lon="-14.451903"/>
+  <node id="120" lat="13.287148" lon="-14.459603"/>
+  <node id="121" lat="13.298517" lon="-14.470817"/>
+  <node id="122" lat="13.302134" lon="-14.484097"/>
+  <node id="123" lat="13.303374" lon="-14.515568"/>
+  <node id="124" lat="13.30756" lon="-14.529986"/>
+  <node id="125" lat="13.31495" lon="-14.543319"/>
+  <node id="126" lat="13.466155" lon="-14.390046"/>
+  <node id="127" lat="13.455096" lon="-14.366017"/>
+  <node id="128" lat="13.452616" lon="-14.347723"/>
+  <node id="129" lat="13.456647" lon="-14.330463"/>
+  <node id="130" lat="13.477214" lon="-14.271656"/>
+  <node id="131" lat="13.51101" lon="-14.216155"/>
+  <node id="132" lat="13.519072" lon="-14.197293"/>
+  <node id="133" lat="13.531784" lon="-14.139519"/>
+  <node id="134" lat="13.555039" lon="-14.09332"/>
+  <node id="135" lat="13.559948" lon="-14.073115"/>
+  <node id="136" lat="13.56031" lon="-14.062263"/>
+  <node id="137" lat="13.558863" lon="-14.044899"/>
+  <node id="138" lat="13.560516" lon="-14.034461"/>
+  <node id="139" lat="13.565581" lon="-14.02273"/>
+  <node id="140" lat="13.577259" lon="-14.002421"/>
+  <node id="141" lat="13.579378" lon="-13.988934"/>
+  <node id="142" lat="13.575812" lon="-13.967953"/>
+  <node id="143" lat="13.567131" lon="-13.942528"/>
+  <node id="144" lat="13.555245" lon="-13.918499"/>
+  <node id="145" lat="13.541913" lon="-13.901756"/>
+  <node id="146" lat="13.533179" lon="-13.89664"/>
+  <node id="147" lat="13.514214" lon="-13.89018"/>
+  <node id="148" lat="13.505791" lon="-13.885116"/>
+  <node id="149" lat="13.498194" lon="-13.875918"/>
+  <node id="150" lat="13.485069" lon="-13.853232"/>
+  <node id="152" lat="13.279784" lon="-15.978787"/>
+  <node id="153" lat="13.279422" lon="-15.970828"/>
+  <node id="154" lat="13.248623" lon="-15.824894"/>
+  <node id="155" lat="13.161988" lon="-15.827013"/>
+  <node id="156" lat="13.157078" lon="-15.833783"/>
+  <node id="157" lat="13.164571" lon="-16.67399"/>
+  <node id="158" lat="13.156923" lon="-16.708871"/>
+  <node id="159" lat="13.13248" lon="-16.723651"/>
+  <node id="160" lat="13.12292" lon="-16.726803"/>
+  <node id="161" lat="13.107624" lon="-16.742616"/>
+  <node id="162" lat="13.099459" lon="-16.749024"/>
+  <node id="163" lat="13.088297" lon="-16.752589"/>
+  <node id="164" lat="13.065094" lon="-16.75352"/>
+  <node id="165" lat="13.077884" lon="-16.768687"/>
+  <node id="166" lat="13.083104" lon="-16.784215"/>
+  <node id="167" lat="13.090157" lon="-16.786593"/>
+  <node id="168" lat="13.098374" lon="-16.782355"/>
+  <node id="169" lat="13.112817" lon="-16.775327"/>
+  <node id="170" lat="13.127855" lon="-16.777162"/>
+  <node id="171" lat="13.17731" lon="-16.79654"/>
+  <node id="172" lat="13.189195" lon="-16.797315"/>
+  <node id="173" lat="13.236014" lon="-16.794835"/>
+  <node id="174" lat="13.248959" lon="-16.79716"/>
+  <node id="175" lat="13.26224" lon="-16.802819"/>
+  <node id="176" lat="13.28136" lon="-16.819821"/>
+  <node id="177" lat="13.294589" lon="-16.824239"/>
+  <node id="178" lat="13.310661" lon="-16.816487"/>
+  <node id="179" lat="13.315854" lon="-16.820182"/>
+  <node id="180" lat="13.338592" lon="-16.82951"/>
+  <node id="181" lat="13.349185" lon="-16.82057"/>
+  <node id="182" lat="13.379933" lon="-16.809821"/>
+  <node id="183" lat="13.386367" lon="-16.799408"/>
+  <node id="184" lat="13.389261" lon="-16.787187"/>
+  <node id="185" lat="13.396263" lon="-16.77419"/>
+  <node id="186" lat="13.405022" lon="-16.76277"/>
+  <node id="187" lat="13.475457" lon="-16.704246"/>
+  <node id="188" lat="13.496231" lon="-16.678692"/>
+  <node id="189" lat="13.485999" lon="-16.676625"/>
+  <node id="190" lat="13.478712" lon="-16.670889"/>
+  <node id="191" lat="13.473183" lon="-16.662362"/>
+  <node id="192" lat="13.4683" lon="-16.652001"/>
+  <node id="193" lat="13.477472" lon="-16.634509"/>
+  <node id="194" lat="13.478247" lon="-16.616732"/>
+  <node id="195" lat="13.472305" lon="-16.601178"/>
+  <node id="196" lat="13.461478" lon="-16.590558"/>
+  <node id="197" lat="13.443443" lon="-16.585132"/>
+  <node id="198" lat="13.440291" lon="-16.596062"/>
+  <node id="199" lat="13.439258" lon="-16.612624"/>
+  <node id="200" lat="13.427346" lon="-16.62407"/>
+  <node id="201" lat="13.413807" lon="-16.60849"/>
+  <node id="202" lat="13.385126" lon="-16.595338"/>
+  <node id="203" lat="13.355335" lon="-16.588181"/>
+  <node id="204" lat="13.338592" lon="-16.590558"/>
+  <node id="205" lat="13.295881" lon="-16.553739"/>
+  <node id="206" lat="13.290171" lon="-16.545548"/>
+  <node id="207" lat="13.288001" lon="-16.495008"/>
+  <node id="208" lat="13.28397" lon="-16.480694"/>
+  <node id="209" lat="13.275934" lon="-16.46762"/>
+  <node id="210" lat="13.268958" lon="-16.459739"/>
+  <node id="211" lat="13.2641" lon="-16.449456"/>
+  <node id="212" lat="13.26224" lon="-16.429173"/>
+  <node id="213" lat="13.255651" lon="-16.419432"/>
+  <node id="214" lat="13.240097" lon="-16.413773"/>
+  <node id="215" lat="13.222139" lon="-16.413308"/>
+  <node id="216" lat="13.208238" lon="-16.419251"/>
+  <node id="217" lat="13.224335" lon="-16.399588"/>
+  <node id="218" lat="13.224878" lon="-16.390699"/>
+  <node id="219" lat="13.215059" lon="-16.377651"/>
+  <node id="220" lat="13.225188" lon="-16.383516"/>
+  <node id="221" lat="13.24343" lon="-16.401758"/>
+  <node id="222" lat="13.246091" lon="-16.405582"/>
+  <node id="223" lat="13.258778" lon="-16.408114"/>
+  <node id="224" lat="13.267097" lon="-16.415142"/>
+  <node id="225" lat="13.270818" lon="-16.425917"/>
+  <node id="226" lat="13.269681" lon="-16.43974"/>
+  <node id="227" lat="13.276503" lon="-16.43974"/>
+  <node id="228" lat="13.275986" lon="-16.410362"/>
+  <node id="229" lat="13.278001" lon="-16.396616"/>
+  <node id="230" lat="13.28397" lon="-16.384498"/>
+  <node id="231" lat="13.263945" lon="-16.374628"/>
+  <node id="232" lat="13.268415" lon="-16.363078"/>
+  <node id="233" lat="13.282213" lon="-16.349487"/>
+  <node id="234" lat="13.290171" lon="-16.333287"/>
+  <node id="235" lat="13.295597" lon="-16.314683"/>
+  <node id="236" lat="13.319497" lon="-16.277761"/>
+  <node id="237" lat="13.324923" lon="-16.257891"/>
+  <node id="238" lat="13.316474" lon="-16.229934"/>
+  <node id="239" lat="13.296656" lon="-16.225748"/>
+  <node id="240" lat="13.273712" lon="-16.230037"/>
+  <node id="241" lat="13.256039" lon="-16.227454"/>
+  <node id="242" lat="13.251233" lon="-16.209522"/>
+  <node id="243" lat="13.258364" lon="-16.185311"/>
+  <node id="244" lat="13.276503" lon="-16.151127"/>
+  <node id="245" lat="13.28397" lon="-16.151127"/>
+  <node id="246" lat="13.283892" lon="-16.152006"/>
+  <node id="247" lat="13.290714" lon="-16.137304"/>
+  <node id="248" lat="13.288802" lon="-16.11821"/>
+  <node id="249" lat="13.284383" lon="-16.11405"/>
+  <node id="250" lat="13.279345" lon="-16.11237"/>
+  <node id="251" lat="13.272859" lon="-16.111156"/>
+  <node id="252" lat="13.265651" lon="-16.107668"/>
+  <node id="253" lat="13.256426" lon="-16.097487"/>
+  <node id="254" lat="13.253352" lon="-16.090123"/>
+  <node id="255" lat="13.253558" lon="-16.083922"/>
+  <node id="256" lat="13.25715" lon="-16.080744"/>
+  <node id="257" lat="13.268364" lon="-16.07382"/>
+  <node id="258" lat="13.272859" lon="-16.063484"/>
+  <node id="259" lat="13.272162" lon="-16.056017"/>
+  <node id="260" lat="13.268803" lon="-16.046586"/>
+  <node id="261" lat="13.26826" lon="-16.04054"/>
+  <node id="262" lat="13.269113" lon="-16.033486"/>
+  <node id="263" lat="13.270999" lon="-16.0262"/>
+  <node id="264" lat="13.273247" lon="-16.005788"/>
+  <node id="266" lat="13.628212" lon="-15.500935"/>
+  <node id="267" lat="13.588525" lon="-15.50295"/>
+  <node id="268" lat="13.583357" lon="-15.518711"/>
+  <node id="269" lat="13.587181" lon="-16.561335"/>
+  <node id="270" lat="13.577079" lon="-16.554669"/>
+  <node id="271" lat="13.563901" lon="-16.548959"/>
+  <node id="272" lat="13.54814" lon="-16.547796"/>
+  <node id="273" lat="13.506178" lon="-16.556426"/>
+  <node id="274" lat="13.485689" lon="-16.556426"/>
+  <node id="275" lat="13.481891" lon="-16.554204"/>
+  <node id="276" lat="13.475999" lon="-16.544359"/>
+  <node id="277" lat="13.464941" lon="-16.538003"/>
+  <node id="278" lat="13.451401" lon="-16.519606"/>
+  <node id="279" lat="13.444399" lon="-16.515446"/>
+  <node id="280" lat="13.436855" lon="-16.513224"/>
+  <node id="281" lat="13.417011" lon="-16.503406"/>
+  <node id="282" lat="13.403136" lon="-16.501184"/>
+  <node id="283" lat="13.392671" lon="-16.503432"/>
+  <node id="284" lat="13.367944" lon="-16.515653"/>
+  <node id="285" lat="13.359056" lon="-16.521648"/>
+  <node id="286" lat="13.35717" lon="-16.48935"/>
+  <node id="287" lat="13.338592" lon="-16.411835"/>
+  <node id="288" lat="13.336964" lon="-16.390338"/>
+  <node id="289" lat="13.338049" lon="-16.355792"/>
+  <node id="290" lat="13.342933" lon="-16.321711"/>
+  <node id="291" lat="13.352855" lon="-16.301945"/>
+  <node id="292" lat="13.354637" lon="-16.306777"/>
+  <node id="293" lat="13.35766" lon="-16.311428"/>
+  <node id="294" lat="13.359056" lon="-16.316208"/>
+  <node id="295" lat="13.365903" lon="-16.316208"/>
+  <node id="296" lat="13.367014" lon="-16.311945"/>
+  <node id="297" lat="13.372104" lon="-16.301945"/>
+  <node id="298" lat="13.383473" lon="-16.30794"/>
+  <node id="299" lat="13.391741" lon="-16.305821"/>
+  <node id="300" lat="13.406856" lon="-16.288897"/>
+  <node id="301" lat="13.39541" lon="-16.284763"/>
+  <node id="302" lat="13.383705" lon="-16.286571"/>
+  <node id="303" lat="13.373344" lon="-16.289517"/>
+  <node id="304" lat="13.365903" lon="-16.288897"/>
+  <node id="305" lat="13.359805" lon="-16.280396"/>
+  <node id="306" lat="13.362699" lon="-16.2728"/>
+  <node id="307" lat="13.368771" lon="-16.265462"/>
+  <node id="308" lat="13.372104" lon="-16.257891"/>
+  <node id="309" lat="13.379003" lon="-16.248331"/>
+  <node id="310" lat="13.420525" lon="-16.206344"/>
+  <node id="311" lat="13.441066" lon="-16.178309"/>
+  <node id="312" lat="13.450626" lon="-16.160197"/>
+  <node id="313" lat="13.454657" lon="-16.141516"/>
+  <node id="314" lat="13.45166" lon="-16.121749"/>
+  <node id="315" lat="13.440575" lon="-16.090123"/>
+  <node id="316" lat="13.465122" lon="-15.769704"/>
+  <node id="317" lat="13.475767" lon="-15.733995"/>
+  <node id="318" lat="13.499073" lon="-15.690019"/>
+  <node id="319" lat="13.503052" lon="-15.671932"/>
+  <node id="320" lat="13.501037" lon="-15.654439"/>
+  <node id="321" lat="13.488583" lon="-15.627594"/>
+  <node id="322" lat="13.489409" lon="-15.610489"/>
+  <node id="323" lat="13.495585" lon="-15.600463"/>
+  <node id="324" lat="13.515093" lon="-15.585891"/>
+  <node id="325" lat="13.522922" lon="-15.575736"/>
+  <node id="326" lat="13.528399" lon="-15.555944"/>
+  <node id="327" lat="13.525557" lon="-15.542793"/>
+  <node id="328" lat="13.519821" lon="-15.531579"/>
+  <node id="329" lat="13.51672" lon="-15.517704"/>
+  <node id="330" lat="13.514576" lon="-15.51344"/>
+  <node id="331" lat="13.509899" lon="-15.50742"/>
+  <node id="332" lat="13.505197" lon="-15.499772"/>
+  <node id="333" lat="13.503052" lon="-15.490703"/>
+  <node id="334" lat="13.505042" lon="-15.482538"/>
+  <node id="335" lat="13.508607" lon="-15.473934"/>
+  <node id="336" lat="13.510209" lon="-15.465097"/>
+  <node id="337" lat="13.506178" lon="-15.456235"/>
+  <node id="338" lat="13.484784" lon="-15.432076"/>
+  <node id="339" lat="13.473312" lon="-15.415591"/>
+  <node id="340" lat="13.4683" lon="-15.401302"/>
+  <node id="341" lat="13.466181" lon="-15.385748"/>
+  <node id="342" lat="13.456776" lon="-15.351512"/>
+  <node id="343" lat="13.454657" lon="-15.332728"/>
+  <node id="344" lat="13.4583" lon="-15.321669"/>
+  <node id="345" lat="13.467886" lon="-15.311205"/>
+  <node id="346" lat="13.481219" lon="-15.303867"/>
+  <node id="348" lat="13.537159" lon="-15.204415"/>
+  <node id="349" lat="13.514938" lon="-15.218471"/>
+  <node id="350" lat="13.453029" lon="-15.222192"/>
+  <node id="351" lat="13.425434" lon="-15.22829"/>
+  <node id="352" lat="13.399182" lon="-15.248754"/>
+  <node id="353" lat="13.380579" lon="-15.277537"/>
+  <node id="354" lat="13.368693" lon="-15.3103"/>
+  <node id="355" lat="13.362802" lon="-15.342856"/>
+  <node id="356" lat="13.362802" lon="-15.379702"/>
+  <node id="357" lat="13.38554" lon="-15.488791"/>
+  <node id="358" lat="13.386832" lon="-15.520055"/>
+  <node id="359" lat="13.378202" lon="-15.543464"/>
+  <node id="360" lat="13.365903" lon="-15.56646"/>
+  <node id="361" lat="13.356084" lon="-15.596639"/>
+  <node id="362" lat="13.354431" lon="-15.612969"/>
+  <node id="363" lat="13.360942" lon="-15.680355"/>
+  <node id="364" lat="13.360632" lon="-15.692964"/>
+  <node id="365" lat="13.346679" lon="-15.737871"/>
+  <node id="366" lat="13.340013" lon="-15.807634"/>
+  <node id="367" lat="13.333812" lon="-15.819158"/>
+  <node id="368" lat="13.319704" lon="-15.823189"/>
+  <node id="369" lat="13.282807" lon="-16.162135"/>
+  <node id="370" lat="13.279396" lon="-16.172315"/>
+  <node id="371" lat="13.27379" lon="-16.181513"/>
+  <node id="372" lat="13.265961" lon="-16.189601"/>
+  <node id="373" lat="13.259165" lon="-16.199135"/>
+  <node id="374" lat="13.264979" lon="-16.203372"/>
+  <node id="375" lat="13.292419" lon="-16.207946"/>
+  <node id="376" lat="13.303581" lon="-16.208488"/>
+  <node id="377" lat="13.313322" lon="-16.210607"/>
+  <node id="378" lat="13.317482" lon="-16.216912"/>
+  <node id="379" lat="13.319859" lon="-16.221873"/>
+  <node id="380" lat="13.325854" lon="-16.225128"/>
+  <node id="381" lat="13.33376" lon="-16.226911"/>
+  <node id="382" lat="13.342002" lon="-16.227454"/>
+  <node id="383" lat="13.360373" lon="-16.224301"/>
+  <node id="384" lat="13.372827" lon="-16.216085"/>
+  <node id="385" lat="13.405461" lon="-16.17601"/>
+  <node id="386" lat="13.413368" lon="-16.168517"/>
+  <node id="387" lat="13.423935" lon="-16.16539"/>
+  <node id="388" lat="13.428767" lon="-16.161049"/>
+  <node id="389" lat="13.426984" lon="-16.151257"/>
+  <node id="390" lat="13.420525" lon="-16.134979"/>
+  <node id="391" lat="13.413058" lon="-15.994703"/>
+  <node id="392" lat="13.425486" lon="-15.941114"/>
+  <node id="393" lat="13.427346" lon="-15.922072"/>
+  <node id="394" lat="13.426752" lon="-15.91109"/>
+  <node id="395" lat="13.425822" lon="-15.905509"/>
+  <node id="396" lat="13.425641" lon="-15.900419"/>
+  <node id="397" lat="13.427346" lon="-15.89104"/>
+  <node id="398" lat="13.430498" lon="-15.883599"/>
+  <node id="399" lat="13.434917" lon="-15.878224"/>
+  <node id="400" lat="13.438947" lon="-15.874245"/>
+  <node id="401" lat="13.440989" lon="-15.871196"/>
+  <node id="402" lat="13.442281" lon="-15.849363"/>
+  <node id="403" lat="13.434788" lon="-15.784897"/>
+  <node id="404" lat="13.436958" lon="-15.764252"/>
+  <node id="405" lat="13.454657" lon="-15.706064"/>
+  <node id="406" lat="13.459928" lon="-15.696607"/>
+  <node id="407" lat="13.473131" lon="-15.677875"/>
+  <node id="408" lat="13.475767" lon="-15.668521"/>
+  <node id="409" lat="13.47246" lon="-15.658754"/>
+  <node id="410" lat="13.457939" lon="-15.644543"/>
+  <node id="411" lat="13.454657" lon="-15.634725"/>
+  <node id="412" lat="13.454915" lon="-15.620669"/>
+  <node id="413" lat="13.456466" lon="-15.610204"/>
+  <node id="414" lat="13.460548" lon="-15.600722"/>
+  <node id="415" lat="13.4683" lon="-15.589405"/>
+  <node id="416" lat="13.478196" lon="-15.580775"/>
+  <node id="417" lat="13.502561" lon="-15.564858"/>
+  <node id="418" lat="13.509279" lon="-15.555247"/>
+  <node id="419" lat="13.509692" lon="-15.543232"/>
+  <node id="420" lat="13.505894" lon="-15.530804"/>
+  <node id="421" lat="13.499693" lon="-15.519435"/>
+  <node id="422" lat="13.49282" lon="-15.510546"/>
+  <node id="423" lat="13.488247" lon="-15.500237"/>
+  <node id="424" lat="13.490004" lon="-15.489488"/>
+  <node id="425" lat="13.493983" lon="-15.479127"/>
+  <node id="426" lat="13.496231" lon="-15.469903"/>
+  <node id="427" lat="13.49096" lon="-15.450938"/>
+  <node id="428" lat="13.478661" lon="-15.438716"/>
+  <node id="429" lat="13.464786" lon="-15.429285"/>
+  <node id="430" lat="13.454657" lon="-15.418717"/>
+  <node id="431" lat="13.443547" lon="-15.384301"/>
+  <node id="432" lat="13.440834" lon="-15.340376"/>
+  <node id="433" lat="13.455432" lon="-15.304616"/>
+  <node id="434" lat="13.496231" lon="-15.294565"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="2331"/>
+    <tag k="VertexCou" v="97"/>
+    <tag k="ISO" v="GMB"/>
+    <tag k="NAME_0" v="Gambia"/>
+    <tag k="NAME_1" v="Maccarthy Island"/>
+    <tag k="VARNAME_1" v="Central River|Jangjangbureh|Janjanbureh|Janjangburreh"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GM.MC"/>
+    <tag k="TYPE_1" v="Division"/>
+    <tag k="ENGTYPE_1" v="Division"/>
+    <tag k="VALIDFR_1" v="1935"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="The Gambia"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GA03"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="2.755169"/>
+    <tag k="Shape_Area" v="0.253674"/>
+  </way>
+  <way id="000000098">
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="97"/>
+    <nd ref="96"/>
+    <nd ref="95"/>
+    <nd ref="94"/>
+    <nd ref="93"/>
+    <nd ref="92"/>
+    <nd ref="91"/>
+    <nd ref="90"/>
+    <nd ref="89"/>
+    <nd ref="88"/>
+    <nd ref="87"/>
+    <nd ref="86"/>
+    <nd ref="85"/>
+    <nd ref="84"/>
+    <nd ref="83"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="99"/>
+    <tag k="OBJECTID" v="2332"/>
+    <tag k="VertexCou" v="70"/>
+    <tag k="ISO" v="GMB"/>
+    <tag k="NAME_0" v="Gambia"/>
+    <tag k="NAME_1" v="Upper River"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GM.UR"/>
+    <tag k="TYPE_1" v="Division"/>
+    <tag k="ENGTYPE_1" v="Division"/>
+    <tag k="VALIDFR_1" v="1935"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="The Gambia"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GA04"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.876321"/>
+    <tag k="Shape_Area" v="0.164857"/>
+  </way>
+  <way id="000000151">
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="152"/>
+    <tag k="OBJECTID" v="2333"/>
+    <tag k="VertexCou" v="113"/>
+    <tag k="ISO" v="GMB"/>
+    <tag k="NAME_0" v="Gambia"/>
+    <tag k="NAME_1" v="Banjul"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GM.BJ"/>
+    <tag k="TYPE_1" v="Independent City"/>
+    <tag k="ENGTYPE_1" v="Independent City"/>
+    <tag k="VALIDFR_1" v="1935"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="The Gambia"/>
+    <tag k="FIRST_FIPS" v="GA01"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GA05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="3.043665"/>
+    <tag k="Shape_Area" v="0.155799"/>
+  </way>
+  <way id="000000265">
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <tag k="OBJECTID" v="2334"/>
+    <tag k="VertexCou" v="209"/>
+    <tag k="ISO" v="GMB"/>
+    <tag k="NAME_0" v="Gambia"/>
+    <tag k="NAME_1" v="Lower River"/>
+    <tag k="VARNAME_1" v="Central|South Bank"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GM.LR"/>
+    <tag k="TYPE_1" v="Division"/>
+    <tag k="ENGTYPE_1" v="Division"/>
+    <tag k="VALIDFR_1" v="19681030"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="The Gambia"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GA02"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="5.715336"/>
+    <tag k="Shape_Area" v="-0.056649"/>
+  </way>
+  <way id="000000347">
+    <nd ref="29"/>
+    <nd ref="28"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="362"/>
+    <nd ref="363"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="152"/>
+    <nd ref="264"/>
+    <nd ref="263"/>
+    <nd ref="262"/>
+    <nd ref="261"/>
+    <nd ref="260"/>
+    <nd ref="259"/>
+    <nd ref="258"/>
+    <nd ref="257"/>
+    <nd ref="256"/>
+    <nd ref="255"/>
+    <nd ref="254"/>
+    <nd ref="253"/>
+    <nd ref="252"/>
+    <nd ref="251"/>
+    <nd ref="250"/>
+    <nd ref="249"/>
+    <nd ref="248"/>
+    <nd ref="247"/>
+    <nd ref="246"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="394"/>
+    <nd ref="395"/>
+    <nd ref="396"/>
+    <nd ref="397"/>
+    <nd ref="398"/>
+    <nd ref="399"/>
+    <nd ref="400"/>
+    <nd ref="401"/>
+    <nd ref="402"/>
+    <nd ref="403"/>
+    <nd ref="404"/>
+    <nd ref="405"/>
+    <nd ref="406"/>
+    <nd ref="407"/>
+    <nd ref="408"/>
+    <nd ref="409"/>
+    <nd ref="410"/>
+    <nd ref="411"/>
+    <nd ref="412"/>
+    <nd ref="413"/>
+    <nd ref="414"/>
+    <nd ref="415"/>
+    <nd ref="416"/>
+    <nd ref="417"/>
+    <nd ref="418"/>
+    <nd ref="419"/>
+    <nd ref="420"/>
+    <nd ref="421"/>
+    <nd ref="422"/>
+    <nd ref="423"/>
+    <nd ref="424"/>
+    <nd ref="425"/>
+    <nd ref="426"/>
+    <nd ref="427"/>
+    <nd ref="428"/>
+    <nd ref="429"/>
+    <nd ref="430"/>
+    <nd ref="431"/>
+    <nd ref="432"/>
+    <nd ref="433"/>
+    <nd ref="434"/>
+    <nd ref="35"/>
+    <nd ref="34"/>
+    <nd ref="33"/>
+    <nd ref="32"/>
+    <nd ref="31"/>
+    <nd ref="30"/>
+    <nd ref="29"/>
+    <tag k="OBJECTID" v="2334"/>
+    <tag k="VertexCou" v="209"/>
+    <tag k="ISO" v="GMB"/>
+    <tag k="NAME_0" v="Gambia"/>
+    <tag k="NAME_1" v="Lower River"/>
+    <tag k="VARNAME_1" v="Central|South Bank"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GM.LR"/>
+    <tag k="TYPE_1" v="Division"/>
+    <tag k="ENGTYPE_1" v="Division"/>
+    <tag k="VALIDFR_1" v="19681030"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="The Gambia"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="GA02"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="5.715336"/>
+    <tag k="Shape_Area" v="-0.056649"/>
+  </way>
+</osm>

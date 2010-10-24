@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="13.094343" lon="-59.483211"/>
+  <node id="3" lat="13.093103" lon="-59.480653"/>
+  <node id="4" lat="13.086488" lon="-59.47577"/>
+  <node id="5" lat="13.07853" lon="-59.4875"/>
+  <node id="6" lat="13.057343" lon="-59.508817"/>
+  <node id="7" lat="13.056413" lon="-59.516672"/>
+  <node id="8" lat="13.056464" lon="-59.523105"/>
+  <node id="9" lat="13.055379" lon="-59.529229"/>
+  <node id="10" lat="13.051142" lon="-59.536128"/>
+  <node id="11" lat="13.067678" lon="-59.545921"/>
+  <node id="12" lat="13.078013" lon="-59.564447"/>
+  <node id="13" lat="13.083181" lon="-59.586848"/>
+  <node id="14" lat="13.084111" lon="-59.600284"/>
+  <node id="15" lat="13.100183" lon="-59.569278"/>
+  <node id="16" lat="13.100234" lon="-59.568839"/>
+  <node id="17" lat="13.101578" lon="-59.568968"/>
+  <node id="18" lat="13.108192" lon="-59.570467"/>
+  <node id="19" lat="13.129431" lon="-59.513106"/>
+  <node id="20" lat="13.126589" lon="-59.503753"/>
+  <node id="21" lat="13.125142" lon="-59.50228"/>
+  <node id="22" lat="13.122455" lon="-59.500575"/>
+  <node id="23" lat="13.111551" lon="-59.498947"/>
+  <node id="24" lat="13.110776" lon="-59.498662"/>
+  <node id="25" lat="13.100958" lon="-59.492797"/>
+  <node id="26" lat="13.098167" lon="-59.491531"/>
+  <node id="27" lat="13.097754" lon="-59.491557"/>
+  <node id="28" lat="13.09703" lon="-59.490601"/>
+  <node id="29" lat="13.096514" lon="-59.488921"/>
+  <node id="31" lat="13.288853" lon="-59.576487"/>
+  <node id="32" lat="13.28906" lon="-59.570674"/>
+  <node id="33" lat="13.28968" lon="-59.568942"/>
+  <node id="34" lat="13.249166" lon="-59.549796"/>
+  <node id="35" lat="13.243791" lon="-59.545843"/>
+  <node id="36" lat="13.243275" lon="-59.548169"/>
+  <node id="37" lat="13.237435" lon="-59.560803"/>
+  <node id="38" lat="13.23666" lon="-59.563826"/>
+  <node id="39" lat="13.237229" lon="-59.565067"/>
+  <node id="40" lat="13.237487" lon="-59.565351"/>
+  <node id="41" lat="13.238004" lon="-59.565687"/>
+  <node id="42" lat="13.23821" lon="-59.565945"/>
+  <node id="43" lat="13.238365" lon="-59.566204"/>
+  <node id="44" lat="13.238417" lon="-59.566565"/>
+  <node id="45" lat="13.238365" lon="-59.566979"/>
+  <node id="46" lat="13.23821" lon="-59.567547"/>
+  <node id="47" lat="13.233301" lon="-59.570674"/>
+  <node id="48" lat="13.20984" lon="-59.580983"/>
+  <node id="49" lat="13.215731" lon="-59.585556"/>
+  <node id="50" lat="13.217023" lon="-59.589122"/>
+  <node id="51" lat="13.216351" lon="-59.601033"/>
+  <node id="52" lat="13.242086" lon="-59.606046"/>
+  <node id="53" lat="13.275831" lon="-59.605452"/>
+  <node id="54" lat="13.278415" lon="-59.604134"/>
+  <node id="55" lat="13.282755" lon="-59.603178"/>
+  <node id="56" lat="13.282962" lon="-59.602584"/>
+  <node id="57" lat="13.283169" lon="-59.602248"/>
+  <node id="58" lat="13.283272" lon="-59.601964"/>
+  <node id="59" lat="13.283169" lon="-59.601705"/>
+  <node id="60" lat="13.283065" lon="-59.601395"/>
+  <node id="61" lat="13.282755" lon="-59.601085"/>
+  <node id="62" lat="13.282445" lon="-59.600465"/>
+  <node id="63" lat="13.282187" lon="-59.599767"/>
+  <node id="64" lat="13.281929" lon="-59.598941"/>
+  <node id="65" lat="13.281929" lon="-59.59845"/>
+  <node id="66" lat="13.282084" lon="-59.597933"/>
+  <node id="67" lat="13.282187" lon="-59.597519"/>
+  <node id="68" lat="13.282239" lon="-59.597054"/>
+  <node id="69" lat="13.282135" lon="-59.596279"/>
+  <node id="70" lat="13.282135" lon="-59.595995"/>
+  <node id="71" lat="13.282187" lon="-59.595659"/>
+  <node id="72" lat="13.282239" lon="-59.595401"/>
+  <node id="73" lat="13.282135" lon="-59.595039"/>
+  <node id="74" lat="13.281722" lon="-59.594471"/>
+  <node id="75" lat="13.281877" lon="-59.592972"/>
+  <node id="76" lat="13.282807" lon="-59.590595"/>
+  <node id="77" lat="13.286838" lon="-59.586332"/>
+  <node id="78" lat="13.28813" lon="-59.584058"/>
+  <node id="79" lat="13.288543" lon="-59.582611"/>
+  <node id="80" lat="13.288285" lon="-59.58212"/>
+  <node id="81" lat="13.28813" lon="-59.581603"/>
+  <node id="82" lat="13.288078" lon="-59.581241"/>
+  <node id="83" lat="13.28782" lon="-59.580906"/>
+  <node id="84" lat="13.287768" lon="-59.58044"/>
+  <node id="85" lat="13.28782" lon="-59.579846"/>
+  <node id="86" lat="13.289267" lon="-59.578193"/>
+  <node id="87" lat="13.289267" lon="-59.577986"/>
+  <node id="88" lat="13.289163" lon="-59.577882"/>
+  <node id="90" lat="13.16359" lon="-59.51923"/>
+  <node id="91" lat="13.161419" lon="-59.51724"/>
+  <node id="92" lat="13.145761" lon="-59.508714"/>
+  <node id="93" lat="13.161316" lon="-59.587107"/>
+  <node id="94" lat="13.170411" lon="-59.563516"/>
+  <node id="95" lat="13.171599" lon="-59.561501"/>
+  <node id="96" lat="13.180074" lon="-59.554292"/>
+  <node id="97" lat="13.182451" lon="-59.540882"/>
+  <node id="98" lat="13.182503" lon="-59.54021"/>
+  <node id="100" lat="13.137131" lon="-59.632659"/>
+  <node id="101" lat="13.141834" lon="-59.637775"/>
+  <node id="102" lat="13.141627" lon="-59.64054"/>
+  <node id="103" lat="13.160386" lon="-59.645992"/>
+  <node id="104" lat="13.23883" lon="-59.650772"/>
+  <node id="105" lat="13.237229" lon="-59.644493"/>
+  <node id="106" lat="13.244928" lon="-59.627724"/>
+  <node id="107" lat="13.209272" lon="-59.606434"/>
+  <node id="108" lat="13.207876" lon="-59.607906"/>
+  <node id="109" lat="13.20798" lon="-59.608061"/>
+  <node id="110" lat="13.208031" lon="-59.608268"/>
+  <node id="111" lat="13.20798" lon="-59.608372"/>
+  <node id="112" lat="13.207773" lon="-59.608578"/>
+  <node id="113" lat="13.207566" lon="-59.608837"/>
+  <node id="114" lat="13.207515" lon="-59.608992"/>
+  <node id="115" lat="13.207566" lon="-59.609302"/>
+  <node id="116" lat="13.207566" lon="-59.609457"/>
+  <node id="117" lat="13.207618" lon="-59.609715"/>
+  <node id="118" lat="13.207618" lon="-59.610077"/>
+  <node id="119" lat="13.207566" lon="-59.610309"/>
+  <node id="120" lat="13.207411" lon="-59.610542"/>
+  <node id="121" lat="13.206998" lon="-59.611214"/>
+  <node id="122" lat="13.206894" lon="-59.611369"/>
+  <node id="123" lat="13.206739" lon="-59.611705"/>
+  <node id="124" lat="13.206688" lon="-59.61186"/>
+  <node id="125" lat="13.206688" lon="-59.612015"/>
+  <node id="126" lat="13.205758" lon="-59.6131"/>
+  <node id="127" lat="13.205551" lon="-59.613462"/>
+  <node id="128" lat="13.205447" lon="-59.613694"/>
+  <node id="129" lat="13.205447" lon="-59.613875"/>
+  <node id="130" lat="13.205344" lon="-59.61403"/>
+  <node id="131" lat="13.205344" lon="-59.614418"/>
+  <node id="132" lat="13.205344" lon="-59.614624"/>
+  <node id="133" lat="13.205292" lon="-59.614805"/>
+  <node id="134" lat="13.204982" lon="-59.61527"/>
+  <node id="135" lat="13.204311" lon="-59.617131"/>
+  <node id="136" lat="13.202554" lon="-59.617725"/>
+  <node id="137" lat="13.191288" lon="-59.62036"/>
+  <node id="138" lat="13.187981" lon="-59.621756"/>
+  <node id="139" lat="13.186017" lon="-59.622789"/>
+  <node id="140" lat="13.185707" lon="-59.623823"/>
+  <node id="141" lat="13.185449" lon="-59.624185"/>
+  <node id="142" lat="13.185087" lon="-59.624443"/>
+  <node id="143" lat="13.184157" lon="-59.624805"/>
+  <node id="144" lat="13.18364" lon="-59.625011"/>
+  <node id="145" lat="13.183433" lon="-59.625296"/>
+  <node id="146" lat="13.182917" lon="-59.624805"/>
+  <node id="147" lat="13.182193" lon="-59.623513"/>
+  <node id="148" lat="13.174855" lon="-59.616898"/>
+  <node id="149" lat="13.150257" lon="-59.611085"/>
+  <node id="150" lat="13.142196" lon="-59.621704"/>
+  <node id="151" lat="13.141265" lon="-59.622583"/>
+  <node id="152" lat="13.139922" lon="-59.624391"/>
+  <node id="153" lat="13.137803" lon="-59.629326"/>
+  <node id="154" lat="13.136614" lon="-59.631368"/>
+  <node id="155" lat="13.136408" lon="-59.631419"/>
+  <node id="157" lat="13.201572" lon="-59.536826"/>
+  <node id="158" lat="13.216506" lon="-59.520418"/>
+  <node id="159" lat="13.21754" lon="-59.517989"/>
+  <node id="160" lat="13.197903" lon="-59.491764"/>
+  <node id="161" lat="13.189428" lon="-59.476622"/>
+  <node id="162" lat="13.186534" lon="-59.467682"/>
+  <node id="163" lat="13.184157" lon="-59.469207"/>
+  <node id="164" lat="13.171134" lon="-59.480162"/>
+  <node id="165" lat="13.169894" lon="-59.481454"/>
+  <node id="166" lat="13.16576" lon="-59.488198"/>
+  <node id="167" lat="13.162969" lon="-59.495355"/>
+  <node id="168" lat="13.198161" lon="-59.53928"/>
+  <node id="169" lat="13.199556" lon="-59.539048"/>
+  <node id="170" lat="13.201417" lon="-59.538557"/>
+  <node id="171" lat="13.201417" lon="-59.537678"/>
+  <node id="172" lat="13.201468" lon="-59.537265"/>
+  <node id="174" lat="13.231389" lon="-59.536567"/>
+  <node id="175" lat="13.196818" lon="-59.562793"/>
+  <node id="176" lat="13.19997" lon="-59.56548"/>
+  <node id="177" lat="13.20121" lon="-59.566875"/>
+  <node id="179" lat="13.286786" lon="-59.630489"/>
+  <node id="180" lat="13.274694" lon="-59.648989"/>
+  <node id="181" lat="13.273867" lon="-59.652891"/>
+  <node id="182" lat="13.295054" lon="-59.654183"/>
+  <node id="183" lat="13.310557" lon="-59.652193"/>
+  <node id="184" lat="13.323735" lon="-59.645113"/>
+  <node id="185" lat="13.337946" lon="-59.630877"/>
+  <node id="186" lat="13.34456" lon="-59.612842"/>
+  <node id="187" lat="13.334794" lon="-59.594471"/>
+  <node id="188" lat="13.314536" lon="-59.580673"/>
+  <node id="189" lat="13.304408" lon="-59.575893"/>
+  <node id="190" lat="13.303839" lon="-59.576823"/>
+  <node id="192" lat="13.084628" lon="-59.608139"/>
+  <node id="193" lat="13.094033" lon="-59.621549"/>
+  <node id="194" lat="13.115944" lon="-59.633073"/>
+  <node id="195" lat="13.153461" lon="-59.595065"/>
+  <node id="196" lat="13.154081" lon="-59.593644"/>
+  <node id="199" lat="13.174855" lon="-59.438614"/>
+  <node id="200" lat="13.160386" lon="-59.426884"/>
+  <node id="201" lat="13.125969" lon="-59.43001"/>
+  <node id="202" lat="13.100028" lon="-59.455719"/>
+  <node id="203" lat="13.183123" lon="-59.457037"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="2"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Christ Church"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB01"/>
+  </way>
+  <way id="000000030">
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="31"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Andrew"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB02"/>
+  </way>
+  <way id="000000089">
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="19"/>
+    <nd ref="18"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="90"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint George"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB03"/>
+  </way>
+  <way id="000000099">
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="100"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint James"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB04"/>
+  </way>
+  <way id="000000156">
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="92"/>
+    <nd ref="91"/>
+    <nd ref="90"/>
+    <nd ref="98"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="157"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint John"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB05"/>
+  </way>
+  <way id="000000173">
+    <nd ref="37"/>
+    <nd ref="36"/>
+    <nd ref="35"/>
+    <nd ref="174"/>
+    <nd ref="159"/>
+    <nd ref="158"/>
+    <nd ref="157"/>
+    <nd ref="172"/>
+    <nd ref="171"/>
+    <nd ref="170"/>
+    <nd ref="169"/>
+    <nd ref="168"/>
+    <nd ref="98"/>
+    <nd ref="97"/>
+    <nd ref="96"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="48"/>
+    <nd ref="47"/>
+    <nd ref="46"/>
+    <nd ref="45"/>
+    <nd ref="44"/>
+    <nd ref="43"/>
+    <nd ref="42"/>
+    <nd ref="41"/>
+    <nd ref="40"/>
+    <nd ref="39"/>
+    <nd ref="38"/>
+    <nd ref="37"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Joseph"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB06"/>
+  </way>
+  <way id="000000178">
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="179"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Lucy"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB07"/>
+  </way>
+  <way id="000000191">
+    <nd ref="16"/>
+    <nd ref="15"/>
+    <nd ref="14"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="102"/>
+    <nd ref="101"/>
+    <nd ref="100"/>
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="152"/>
+    <nd ref="151"/>
+    <nd ref="150"/>
+    <nd ref="149"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="93"/>
+    <nd ref="18"/>
+    <nd ref="17"/>
+    <nd ref="16"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Michael"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB08"/>
+  </way>
+  <way id="000000197">
+    <nd ref="106"/>
+    <nd ref="105"/>
+    <nd ref="104"/>
+    <nd ref="181"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="190"/>
+    <nd ref="189"/>
+    <nd ref="33"/>
+    <nd ref="32"/>
+    <nd ref="31"/>
+    <nd ref="88"/>
+    <nd ref="87"/>
+    <nd ref="86"/>
+    <nd ref="85"/>
+    <nd ref="84"/>
+    <nd ref="83"/>
+    <nd ref="82"/>
+    <nd ref="81"/>
+    <nd ref="80"/>
+    <nd ref="79"/>
+    <nd ref="78"/>
+    <nd ref="77"/>
+    <nd ref="76"/>
+    <nd ref="75"/>
+    <nd ref="74"/>
+    <nd ref="73"/>
+    <nd ref="72"/>
+    <nd ref="71"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="67"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <nd ref="106"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Peter"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB09"/>
+  </way>
+  <way id="000000198">
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="29"/>
+    <nd ref="28"/>
+    <nd ref="27"/>
+    <nd ref="26"/>
+    <nd ref="25"/>
+    <nd ref="24"/>
+    <nd ref="23"/>
+    <nd ref="22"/>
+    <nd ref="21"/>
+    <nd ref="20"/>
+    <nd ref="19"/>
+    <nd ref="92"/>
+    <nd ref="167"/>
+    <nd ref="166"/>
+    <nd ref="165"/>
+    <nd ref="164"/>
+    <nd ref="163"/>
+    <nd ref="162"/>
+    <nd ref="203"/>
+    <nd ref="199"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Philip"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB10"/>
+  </way>
+  <way id="000000204">
+    <nd ref="95"/>
+    <nd ref="94"/>
+    <nd ref="93"/>
+    <nd ref="196"/>
+    <nd ref="195"/>
+    <nd ref="149"/>
+    <nd ref="148"/>
+    <nd ref="147"/>
+    <nd ref="146"/>
+    <nd ref="145"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="137"/>
+    <nd ref="136"/>
+    <nd ref="135"/>
+    <nd ref="134"/>
+    <nd ref="133"/>
+    <nd ref="132"/>
+    <nd ref="131"/>
+    <nd ref="130"/>
+    <nd ref="129"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="125"/>
+    <nd ref="124"/>
+    <nd ref="123"/>
+    <nd ref="122"/>
+    <nd ref="121"/>
+    <nd ref="120"/>
+    <nd ref="119"/>
+    <nd ref="118"/>
+    <nd ref="117"/>
+    <nd ref="116"/>
+    <nd ref="115"/>
+    <nd ref="114"/>
+    <nd ref="113"/>
+    <nd ref="112"/>
+    <nd ref="111"/>
+    <nd ref="110"/>
+    <nd ref="109"/>
+    <nd ref="108"/>
+    <nd ref="107"/>
+    <nd ref="51"/>
+    <nd ref="50"/>
+    <nd ref="49"/>
+    <nd ref="48"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="96"/>
+    <nd ref="95"/>
+    <tag k="country_code" v="BRB"/>
+    <tag k="country_name" v="Barbados"/>
+    <tag k="name" v="Saint Thomas"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="BB11"/>
+  </way>
+</osm>

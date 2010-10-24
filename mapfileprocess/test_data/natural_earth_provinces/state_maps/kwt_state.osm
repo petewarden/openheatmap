@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="29.309968" lon="47.864862"/>
+  <node id="3" lat="29.319864" lon="47.859539"/>
+  <node id="4" lat="29.332835" lon="47.855457"/>
+  <node id="5" lat="29.333042" lon="47.862898"/>
+  <node id="6" lat="29.340561" lon="47.888013"/>
+  <node id="7" lat="29.379706" lon="47.951626"/>
+  <node id="8" lat="29.397276" lon="47.972142"/>
+  <node id="9" lat="29.397818" lon="47.981599"/>
+  <node id="10" lat="29.387922" lon="47.993071"/>
+  <node id="11" lat="29.36919" lon="48.008419"/>
+  <node id="12" lat="29.351284" lon="47.979687"/>
+  <node id="13" lat="29.330355" lon="47.991779"/>
+  <node id="14" lat="29.32082" lon="47.909097"/>
+  <node id="16" lat="29.264312" lon="48.023767"/>
+  <node id="17" lat="29.208734" lon="48.034567"/>
+  <node id="18" lat="29.185041" lon="47.877212"/>
+  <node id="19" lat="29.227544" lon="47.876075"/>
+  <node id="20" lat="29.249094" lon="47.861296"/>
+  <node id="21" lat="29.26625" lon="47.841659"/>
+  <node id="22" lat="29.30754" lon="47.845896"/>
+  <node id="24" lat="28.551591" lon="48.4209"/>
+  <node id="25" lat="28.540687" lon="48.432527"/>
+  <node id="26" lat="28.533763" lon="47.667664"/>
+  <node id="27" lat="28.560247" lon="47.659396"/>
+  <node id="28" lat="28.577481" lon="47.640689"/>
+  <node id="29" lat="28.591692" lon="47.617693"/>
+  <node id="30" lat="28.609055" lon="47.596454"/>
+  <node id="31" lat="28.631741" lon="47.581261"/>
+  <node id="32" lat="28.661222" lon="47.567567"/>
+  <node id="33" lat="28.691712" lon="47.557955"/>
+  <node id="34" lat="28.74561" lon="47.55408"/>
+  <node id="35" lat="28.770802" lon="47.549429"/>
+  <node id="36" lat="28.904231" lon="47.494032"/>
+  <node id="37" lat="28.976139" lon="47.446128"/>
+  <node id="38" lat="28.991125" lon="47.474291"/>
+  <node id="39" lat="29.02102" lon="47.523125"/>
+  <node id="40" lat="29.048977" lon="47.746781"/>
+  <node id="41" lat="29.055798" lon="47.769932"/>
+  <node id="42" lat="29.06913" lon="47.773808"/>
+  <node id="43" lat="29.20367" lon="47.784091"/>
+  <node id="44" lat="29.212507" lon="48.097406"/>
+  <node id="45" lat="29.212946" lon="48.10092"/>
+  <node id="46" lat="29.193903" lon="48.109085"/>
+  <node id="47" lat="29.178504" lon="48.109601"/>
+  <node id="48" lat="29.162045" lon="48.108154"/>
+  <node id="49" lat="29.017273" lon="48.158435"/>
+  <node id="50" lat="28.983761" lon="48.176005"/>
+  <node id="51" lat="28.918261" lon="48.225925"/>
+  <node id="52" lat="28.905626" lon="48.240911"/>
+  <node id="53" lat="28.894438" lon="48.279513"/>
+  <node id="54" lat="28.8794" lon="48.282407"/>
+  <node id="55" lat="28.85966" lon="48.278273"/>
+  <node id="56" lat="28.839584" lon="48.276878"/>
+  <node id="57" lat="28.819895" lon="48.285198"/>
+  <node id="58" lat="28.785944" lon="48.312586"/>
+  <node id="59" lat="28.7738" lon="48.318477"/>
+  <node id="60" lat="28.759924" lon="48.328761"/>
+  <node id="61" lat="28.751217" lon="48.352377"/>
+  <node id="62" lat="28.743388" lon="48.393563"/>
+  <node id="63" lat="28.728014" lon="48.383745"/>
+  <node id="64" lat="28.710341" lon="48.379611"/>
+  <node id="65" lat="28.692099" lon="48.380748"/>
+  <node id="66" lat="28.675123" lon="48.386742"/>
+  <node id="67" lat="28.684425" lon="48.371549"/>
+  <node id="68" lat="28.688766" lon="48.366278"/>
+  <node id="69" lat="28.680782" lon="48.364935"/>
+  <node id="70" lat="28.675744" lon="48.365968"/>
+  <node id="71" lat="28.671919" lon="48.370516"/>
+  <node id="72" lat="28.667656" lon="48.379921"/>
+  <node id="73" lat="28.659207" lon="48.372531"/>
+  <node id="74" lat="28.656727" lon="48.367673"/>
+  <node id="75" lat="28.658122" lon="48.363849"/>
+  <node id="76" lat="28.661455" lon="48.359457"/>
+  <node id="77" lat="28.661455" lon="48.352636"/>
+  <node id="78" lat="28.6405" lon="48.351809"/>
+  <node id="79" lat="28.635539" lon="48.361059"/>
+  <node id="80" lat="28.641663" lon="48.37465"/>
+  <node id="81" lat="28.654014" lon="48.386742"/>
+  <node id="82" lat="28.64373" lon="48.389533"/>
+  <node id="83" lat="28.595671" lon="48.393563"/>
+  <node id="84" lat="28.58332" lon="48.397129"/>
+  <node id="85" lat="28.56991" lon="48.405294"/>
+  <node id="87" lat="29.969876" lon="48.140349"/>
+  <node id="88" lat="29.962848" lon="48.13947"/>
+  <node id="89" lat="29.952229" lon="48.140349"/>
+  <node id="90" lat="29.941739" lon="48.142881"/>
+  <node id="91" lat="29.935098" lon="48.14717"/>
+  <node id="92" lat="29.931145" lon="48.156782"/>
+  <node id="93" lat="29.936442" lon="48.169908"/>
+  <node id="94" lat="29.935098" lon="48.181276"/>
+  <node id="95" lat="29.925331" lon="48.197451"/>
+  <node id="96" lat="29.916443" lon="48.193782"/>
+  <node id="97" lat="29.908511" lon="48.178796"/>
+  <node id="98" lat="29.901586" lon="48.160813"/>
+  <node id="99" lat="29.885928" lon="48.166549"/>
+  <node id="100" lat="29.879236" lon="48.158642"/>
+  <node id="101" lat="29.87828" lon="48.144896"/>
+  <node id="102" lat="29.879882" lon="48.133527"/>
+  <node id="103" lat="29.893602" lon="48.10924"/>
+  <node id="104" lat="29.894687" lon="48.09508"/>
+  <node id="105" lat="29.879882" lon="48.085107"/>
+  <node id="106" lat="29.880295" lon="48.094925"/>
+  <node id="107" lat="29.879158" lon="48.103348"/>
+  <node id="108" lat="29.873655" lon="48.119213"/>
+  <node id="109" lat="29.839135" lon="48.11327"/>
+  <node id="110" lat="29.833321" lon="48.109601"/>
+  <node id="111" lat="29.830712" lon="48.098491"/>
+  <node id="112" lat="29.81756" lon="48.076787"/>
+  <node id="113" lat="29.812212" lon="48.065211"/>
+  <node id="114" lat="29.800455" lon="48.045988"/>
+  <node id="115" lat="29.790068" lon="48.053739"/>
+  <node id="116" lat="29.779655" lon="48.07379"/>
+  <node id="117" lat="29.767847" lon="48.085107"/>
+  <node id="118" lat="29.702348" lon="48.126706"/>
+  <node id="119" lat="29.62969" lon="48.161691"/>
+  <node id="120" lat="29.60393" lon="48.185876"/>
+  <node id="121" lat="29.599951" lon="48.229077"/>
+  <node id="122" lat="29.615996" lon="48.266233"/>
+  <node id="123" lat="29.645219" lon="48.30313"/>
+  <node id="124" lat="29.679274" lon="48.333825"/>
+  <node id="125" lat="29.709789" lon="48.352636"/>
+  <node id="126" lat="29.754489" lon="48.359457"/>
+  <node id="127" lat="29.790611" lon="48.344522"/>
+  <node id="128" lat="29.983519" lon="48.188718"/>
+  <node id="129" lat="29.991891" lon="48.175799"/>
+  <node id="130" lat="29.995663" lon="48.162156"/>
+  <node id="131" lat="29.994939" lon="48.147945"/>
+  <node id="132" lat="29.98972" lon="48.133527"/>
+  <node id="133" lat="29.9814" lon="48.120918"/>
+  <node id="134" lat="29.974088" lon="48.116733"/>
+  <node id="135" lat="29.969644" lon="48.122727"/>
+  <node id="137" lat="29.980496" lon="48.010744"/>
+  <node id="138" lat="29.986904" lon="48.009297"/>
+  <node id="139" lat="29.995172" lon="48.023043"/>
+  <node id="140" lat="30.019047" lon="48.043662"/>
+  <node id="141" lat="30.024498" lon="48.054669"/>
+  <node id="142" lat="30.029304" lon="48.093788"/>
+  <node id="143" lat="30.027987" lon="48.109291"/>
+  <node id="144" lat="30.017651" lon="48.106191"/>
+  <node id="145" lat="30.004009" lon="48.078905"/>
+  <node id="146" lat="29.998738" lon="48.072446"/>
+  <node id="147" lat="29.987446" lon="48.062731"/>
+  <node id="148" lat="29.983519" lon="48.05839"/>
+  <node id="149" lat="29.970987" lon="48.031156"/>
+  <node id="150" lat="29.969876" lon="48.023663"/>
+  <node id="151" lat="29.973752" lon="48.016222"/>
+  <node id="153" lat="29.457453" lon="48.353927"/>
+  <node id="154" lat="29.443087" lon="48.373254"/>
+  <node id="155" lat="29.424897" lon="48.389016"/>
+  <node id="156" lat="29.408154" lon="48.393563"/>
+  <node id="157" lat="29.400609" lon="48.382866"/>
+  <node id="158" lat="29.40973" lon="48.364469"/>
+  <node id="159" lat="29.434844" lon="48.33212"/>
+  <node id="160" lat="29.438643" lon="48.312431"/>
+  <node id="161" lat="29.438643" lon="48.290055"/>
+  <node id="162" lat="29.441976" lon="48.273261"/>
+  <node id="163" lat="29.455928" lon="48.270057"/>
+  <node id="164" lat="29.471095" lon="48.281167"/>
+  <node id="165" lat="29.473137" lon="48.298479"/>
+  <node id="166" lat="29.462776" lon="48.338321"/>
+  <node id="168" lat="29.366554" lon="48.010589"/>
+  <node id="169" lat="29.354875" lon="48.025369"/>
+  <node id="170" lat="29.351826" lon="48.035446"/>
+  <node id="171" lat="29.35286" lon="48.077717"/>
+  <node id="172" lat="29.351826" lon="48.081593"/>
+  <node id="173" lat="29.29475" lon="48.077355"/>
+  <node id="174" lat="29.264157" lon="48.078905"/>
+  <node id="176" lat="28.994794" lon="47.433674"/>
+  <node id="177" lat="28.994871" lon="47.433519"/>
+  <node id="178" lat="28.994949" lon="47.433053"/>
+  <node id="179" lat="28.994949" lon="47.432898"/>
+  <node id="180" lat="29.047478" lon="46.978714"/>
+  <node id="181" lat="29.09595" lon="46.531971"/>
+  <node id="182" lat="29.271599" lon="46.71134"/>
+  <node id="183" lat="29.363764" lon="46.773972"/>
+  <node id="184" lat="29.425181" lon="46.838206"/>
+  <node id="185" lat="29.444818" lon="46.853037"/>
+  <node id="186" lat="29.512695" lon="46.882648"/>
+  <node id="187" lat="29.620647" lon="46.957372"/>
+  <node id="188" lat="29.658216" lon="46.976854"/>
+  <node id="189" lat="29.668241" lon="46.979386"/>
+  <node id="190" lat="29.698472" lon="46.98321"/>
+  <node id="191" lat="29.712864" lon="46.988481"/>
+  <node id="192" lat="29.772343" lon="47.024965"/>
+  <node id="193" lat="29.961143" lon="47.110076"/>
+  <node id="194" lat="30.003544" lon="47.144234"/>
+  <node id="195" lat="30.03442" lon="47.196582"/>
+  <node id="196" lat="30.092375" lon="47.357813"/>
+  <node id="197" lat="30.098422" lon="47.41538"/>
+  <node id="198" lat="30.098422" lon="47.673814"/>
+  <node id="199" lat="30.088758" lon="47.731071"/>
+  <node id="200" lat="29.994035" lon="47.948061"/>
+  <node id="201" lat="29.977318" lon="47.955037"/>
+  <node id="202" lat="29.962022" lon="47.965476"/>
+  <node id="203" lat="29.942565" lon="47.975243"/>
+  <node id="204" lat="29.921481" lon="47.97979"/>
+  <node id="205" lat="29.884378" lon="47.979583"/>
+  <node id="206" lat="29.860632" lon="47.982684"/>
+  <node id="207" lat="29.827689" lon="47.995706"/>
+  <node id="208" lat="29.779707" lon="48.021803"/>
+  <node id="209" lat="29.743017" lon="48.052447"/>
+  <node id="210" lat="29.743947" lon="48.078905"/>
+  <node id="211" lat="29.699144" lon="48.096165"/>
+  <node id="212" lat="29.654547" lon="48.119213"/>
+  <node id="213" lat="29.601656" lon="48.161278"/>
+  <node id="214" lat="29.579461" lon="48.168254"/>
+  <node id="215" lat="29.557886" lon="48.159882"/>
+  <node id="216" lat="29.550832" lon="48.138953"/>
+  <node id="217" lat="29.55463" lon="48.113632"/>
+  <node id="218" lat="29.565793" lon="48.092548"/>
+  <node id="219" lat="29.575043" lon="48.085882"/>
+  <node id="220" lat="29.584422" lon="48.083143"/>
+  <node id="221" lat="29.593026" lon="48.078285"/>
+  <node id="222" lat="29.599951" lon="48.065211"/>
+  <node id="223" lat="29.601578" lon="48.049657"/>
+  <node id="224" lat="29.600493" lon="48.035446"/>
+  <node id="225" lat="29.602586" lon="48.022423"/>
+  <node id="226" lat="29.613593" lon="48.010589"/>
+  <node id="227" lat="29.613593" lon="48.030485"/>
+  <node id="228" lat="29.627908" lon="48.017979"/>
+  <node id="229" lat="29.634574" lon="47.994725"/>
+  <node id="230" lat="29.635039" lon="47.972297"/>
+  <node id="231" lat="29.630672" lon="47.962168"/>
+  <node id="232" lat="29.599951" lon="47.940464"/>
+  <node id="233" lat="29.57202" lon="47.920621"/>
+  <node id="234" lat="29.55029" lon="47.893439"/>
+  <node id="235" lat="29.516416" lon="47.833391"/>
+  <node id="236" lat="29.493807" lon="47.807656"/>
+  <node id="237" lat="29.444327" lon="47.767142"/>
+  <node id="238" lat="29.428617" lon="47.749313"/>
+  <node id="239" lat="29.398904" lon="47.701874"/>
+  <node id="240" lat="29.393865" lon="47.69097"/>
+  <node id="241" lat="29.391746" lon="47.68818"/>
+  <node id="242" lat="29.387044" lon="47.695621"/>
+  <node id="243" lat="29.382341" lon="47.70761"/>
+  <node id="244" lat="29.380222" lon="47.718256"/>
+  <node id="245" lat="29.387664" lon="47.756755"/>
+  <node id="246" lat="29.389369" lon="47.794013"/>
+  <node id="247" lat="29.392832" lon="47.809206"/>
+  <node id="248" lat="29.400686" lon="47.825019"/>
+  <node id="249" lat="29.389653" lon="47.827655"/>
+  <node id="250" lat="29.366761" lon="47.814632"/>
+  <node id="251" lat="29.349501" lon="47.810756"/>
+  <node id="252" lat="29.336608" lon="47.816234"/>
+  <node id="253" lat="29.332112" lon="47.829928"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="1822"/>
+    <tag k="VertexCou" v="13"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Al Kuwayt"/>
+    <tag k="VARNAME_1" v="Al Asimah, Capital, Kuwait"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.KU"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="5"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU02"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.395842"/>
+    <tag k="Shape_Area" v="0.005783"/>
+  </way>
+  <way id="000000015">
+    <nd ref="13"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="2"/>
+    <nd ref="14"/>
+    <nd ref="13"/>
+    <tag k="OBJECTID" v="1823"/>
+    <tag k="VertexCou" v="10"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Al Farwaniyah"/>
+    <tag k="VARNAME_1" v="Farwaniya"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.FA"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="6"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU06"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.573256"/>
+    <tag k="Shape_Area" v="0.020211"/>
+  </way>
+  <way id="000000023">
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="21"/>
+    <nd ref="20"/>
+    <nd ref="19"/>
+    <nd ref="18"/>
+    <nd ref="17"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="24"/>
+    <tag k="OBJECTID" v="1824"/>
+    <tag k="VertexCou" v="67"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Al Ahmadi"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.AH"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1946"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v="KU01"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU04"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="3.123101"/>
+    <tag k="Shape_Area" v="0.44258"/>
+  </way>
+  <way id="000000086">
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="87"/>
+    <tag k="OBJECTID" v="1825"/>
+    <tag k="VertexCou" v="78"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Hawalli"/>
+    <tag k="VARNAME_1" v="Hawali, Howali"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.HW"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v="KU02|KU03"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.850864"/>
+    <tag k="Shape_Area" v="-0.059048"/>
+  </way>
+  <way id="000000136">
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="137"/>
+    <tag k="OBJECTID" v="1825"/>
+    <tag k="VertexCou" v="78"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Hawalli"/>
+    <tag k="VARNAME_1" v="Hawali, Howali"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.HW"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v="KU02|KU03"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.850864"/>
+    <tag k="Shape_Area" v="-0.059048"/>
+  </way>
+  <way id="000000152">
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="153"/>
+    <tag k="OBJECTID" v="1825"/>
+    <tag k="VertexCou" v="78"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Hawalli"/>
+    <tag k="VARNAME_1" v="Hawali, Howali"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.HW"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v="KU02|KU03"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.850864"/>
+    <tag k="Shape_Area" v="-0.059048"/>
+  </way>
+  <way id="000000167">
+    <nd ref="13"/>
+    <nd ref="12"/>
+    <nd ref="11"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="45"/>
+    <nd ref="44"/>
+    <nd ref="17"/>
+    <nd ref="16"/>
+    <nd ref="13"/>
+    <tag k="OBJECTID" v="1826"/>
+    <tag k="VertexCou" v="14"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Hawalli"/>
+    <tag k="VARNAME_1" v="Hawali, Howali"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.HW"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU03"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.4772"/>
+    <tag k="Shape_Area" v="0.010446"/>
+  </way>
+  <way id="000000175">
+    <nd ref="39"/>
+    <nd ref="38"/>
+    <nd ref="37"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="22"/>
+    <nd ref="21"/>
+    <nd ref="43"/>
+    <nd ref="42"/>
+    <nd ref="41"/>
+    <nd ref="40"/>
+    <nd ref="39"/>
+    <tag k="OBJECTID" v="1827"/>
+    <tag k="VertexCou" v="90"/>
+    <tag k="ISO" v="KWT"/>
+    <tag k="NAME_0" v="Kuwait"/>
+    <tag k="NAME_1" v="Al Jahrah"/>
+    <tag k="VARNAME_1" v="Jahra"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="KW.JA"/>
+    <tag k="TYPE_1" v="Muhafazah"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1979"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="Kuwait"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="KU05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="4.953584"/>
+    <tag k="Shape_Area" v="1.056996"/>
+  </way>
+</osm>

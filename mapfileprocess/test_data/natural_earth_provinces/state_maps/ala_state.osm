@@ -1,0 +1,1303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="60.28092" lon="20.815298"/>
+  <node id="3" lat="60.286114" lon="20.80517"/>
+  <node id="4" lat="60.286269" lon="20.78729"/>
+  <node id="5" lat="60.263609" lon="20.781088"/>
+  <node id="6" lat="60.238701" lon="20.790494"/>
+  <node id="7" lat="60.232112" lon="20.818812"/>
+  <node id="8" lat="60.24516" lon="20.811371"/>
+  <node id="9" lat="60.244385" lon="20.82398"/>
+  <node id="10" lat="60.246762" lon="20.838863"/>
+  <node id="11" lat="60.253532" lon="20.850542"/>
+  <node id="12" lat="60.265624" lon="20.853022"/>
+  <node id="13" lat="60.270275" lon="20.845891"/>
+  <node id="15" lat="60.258131" lon="20.438991"/>
+  <node id="16" lat="60.262317" lon="20.434856"/>
+  <node id="17" lat="60.265624" lon="20.427828"/>
+  <node id="18" lat="60.259475" lon="20.410982"/>
+  <node id="19" lat="60.269603" lon="20.379666"/>
+  <node id="20" lat="60.265624" lon="20.358892"/>
+  <node id="21" lat="60.252808" lon="20.347006"/>
+  <node id="22" lat="60.237615" lon="20.345353"/>
+  <node id="23" lat="60.228779" lon="20.353104"/>
+  <node id="24" lat="60.240664" lon="20.382663"/>
+  <node id="25" lat="60.232913" lon="20.387624"/>
+  <node id="26" lat="60.221802" lon="20.387727"/>
+  <node id="27" lat="60.217203" lon="20.386177"/>
+  <node id="28" lat="60.210692" lon="20.385454"/>
+  <node id="29" lat="60.203974" lon="20.380906"/>
+  <node id="30" lat="60.198806" lon="20.380803"/>
+  <node id="31" lat="60.196739" lon="20.392998"/>
+  <node id="32" lat="60.24516" lon="20.441471"/>
+  <node id="33" lat="60.252602" lon="20.440851"/>
+  <node id="35" lat="60.145296" lon="20.255746"/>
+  <node id="36" lat="60.1385" lon="20.253265"/>
+  <node id="37" lat="60.118191" lon="20.263911"/>
+  <node id="38" lat="60.107959" lon="20.25802"/>
+  <node id="39" lat="60.119586" lon="20.244584"/>
+  <node id="40" lat="60.149559" lon="20.222363"/>
+  <node id="41" lat="60.135658" lon="20.215335"/>
+  <node id="42" lat="60.12031" lon="20.205"/>
+  <node id="43" lat="60.104032" lon="20.198282"/>
+  <node id="44" lat="60.087495" lon="20.201899"/>
+  <node id="45" lat="60.083258" lon="20.20903"/>
+  <node id="46" lat="60.073853" lon="20.242827"/>
+  <node id="47" lat="60.068323" lon="20.252335"/>
+  <node id="48" lat="60.062484" lon="20.259053"/>
+  <node id="49" lat="60.060417" lon="20.266288"/>
+  <node id="50" lat="60.066386" lon="20.277553"/>
+  <node id="51" lat="60.085945" lon="20.268975"/>
+  <node id="52" lat="60.103567" lon="20.285201"/>
+  <node id="53" lat="60.121473" lon="20.297604"/>
+  <node id="54" lat="60.142117" lon="20.277553"/>
+  <node id="56" lat="60.200822" lon="20.209651"/>
+  <node id="57" lat="60.201235" lon="20.218849"/>
+  <node id="58" lat="60.204181" lon="20.229804"/>
+  <node id="59" lat="60.209865" lon="20.222053"/>
+  <node id="60" lat="60.224645" lon="20.20872"/>
+  <node id="61" lat="60.232112" lon="20.236005"/>
+  <node id="62" lat="60.24516" lon="20.242827"/>
+  <node id="63" lat="60.278647" lon="20.277553"/>
+  <node id="64" lat="60.281489" lon="20.238073"/>
+  <node id="65" lat="60.286191" lon="20.217609"/>
+  <node id="66" lat="60.292935" lon="20.201899"/>
+  <node id="67" lat="60.290222" lon="20.196318"/>
+  <node id="68" lat="60.286114" lon="20.181435"/>
+  <node id="69" lat="60.312236" lon="20.192081"/>
+  <node id="70" lat="60.322959" lon="20.178128"/>
+  <node id="71" lat="60.333889" lon="20.126141"/>
+  <node id="72" lat="60.349883" lon="20.104644"/>
+  <node id="73" lat="60.355076" lon="20.092965"/>
+  <node id="74" lat="60.351278" lon="20.082113"/>
+  <node id="75" lat="60.349883" lon="20.071984"/>
+  <node id="76" lat="60.35952" lon="20.038498"/>
+  <node id="77" lat="60.361225" lon="20.023719"/>
+  <node id="78" lat="60.354068" lon="20.028473"/>
+  <node id="79" lat="60.333889" lon="20.036741"/>
+  <node id="80" lat="60.346239" lon="20.019688"/>
+  <node id="81" lat="60.35642" lon="19.995607"/>
+  <node id="82" lat="60.361381" lon="19.969975"/>
+  <node id="83" lat="60.35642" lon="19.927497"/>
+  <node id="84" lat="60.370114" lon="19.918402"/>
+  <node id="85" lat="60.388821" lon="19.913648"/>
+  <node id="86" lat="60.402179" lon="19.906413"/>
+  <node id="87" lat="60.405616" lon="19.882332"/>
+  <node id="88" lat="60.405564" lon="19.859594"/>
+  <node id="89" lat="60.400396" lon="19.8382"/>
+  <node id="90" lat="60.388511" lon="19.817633"/>
+  <node id="91" lat="60.378511" lon="19.808331"/>
+  <node id="92" lat="60.36877" lon="19.801717"/>
+  <node id="93" lat="60.360502" lon="19.793035"/>
+  <node id="94" lat="60.355024" lon="19.777325"/>
+  <node id="95" lat="60.354146" lon="19.802027"/>
+  <node id="96" lat="60.346756" lon="19.819183"/>
+  <node id="97" lat="60.334018" lon="19.833343"/>
+  <node id="98" lat="60.317145" lon="19.848432"/>
+  <node id="99" lat="60.313192" lon="19.857631"/>
+  <node id="100" lat="60.319548" lon="19.865175"/>
+  <node id="101" lat="60.337609" lon="19.876027"/>
+  <node id="102" lat="60.345154" lon="19.885123"/>
+  <node id="103" lat="60.344586" lon="19.889567"/>
+  <node id="104" lat="60.339573" lon="19.893287"/>
+  <node id="105" lat="60.333889" lon="19.900212"/>
+  <node id="106" lat="60.325672" lon="19.913028"/>
+  <node id="107" lat="60.3142" lon="19.923983"/>
+  <node id="108" lat="60.299679" lon="19.931528"/>
+  <node id="109" lat="60.282367" lon="19.934318"/>
+  <node id="110" lat="60.277096" lon="19.929047"/>
+  <node id="111" lat="60.27291" lon="19.917265"/>
+  <node id="112" lat="60.271774" lon="19.905586"/>
+  <node id="113" lat="60.275546" lon="19.900212"/>
+  <node id="114" lat="60.284538" lon="19.899592"/>
+  <node id="115" lat="60.291927" lon="19.898042"/>
+  <node id="116" lat="60.306604" lon="19.892771"/>
+  <node id="117" lat="60.293581" lon="19.886363"/>
+  <node id="118" lat="60.272445" lon="19.884606"/>
+  <node id="119" lat="60.258803" lon="19.879748"/>
+  <node id="120" lat="60.24516" lon="19.858664"/>
+  <node id="121" lat="60.217203" lon="19.851843"/>
+  <node id="122" lat="60.22635" lon="19.83541"/>
+  <node id="123" lat="60.232112" lon="19.817633"/>
+  <node id="124" lat="60.222423" lon="19.821354"/>
+  <node id="125" lat="60.208444" lon="19.823524"/>
+  <node id="126" lat="60.195964" lon="19.821767"/>
+  <node id="127" lat="60.190538" lon="19.814222"/>
+  <node id="128" lat="60.193019" lon="19.798616"/>
+  <node id="129" lat="60.200073" lon="19.792002"/>
+  <node id="130" lat="60.224645" lon="19.784147"/>
+  <node id="131" lat="60.233352" lon="19.776395"/>
+  <node id="132" lat="60.240354" lon="19.768024"/>
+  <node id="133" lat="60.248933" lon="19.76513"/>
+  <node id="134" lat="60.270843" lon="19.780839"/>
+  <node id="135" lat="60.299782" lon="19.796549"/>
+  <node id="136" lat="60.303503" lon="19.786214"/>
+  <node id="137" lat="60.302986" lon="19.783423"/>
+  <node id="138" lat="60.299782" lon="19.777325"/>
+  <node id="139" lat="60.303245" lon="19.770091"/>
+  <node id="140" lat="60.306604" lon="19.74942"/>
+  <node id="141" lat="60.295416" lon="19.757792"/>
+  <node id="142" lat="60.29048" lon="19.762856"/>
+  <node id="143" lat="60.286114" lon="19.770504"/>
+  <node id="144" lat="60.273892" lon="19.732057"/>
+  <node id="145" lat="60.272445" lon="19.718931"/>
+  <node id="146" lat="60.268802" lon="19.709319"/>
+  <node id="147" lat="60.259966" lon="19.702498"/>
+  <node id="148" lat="60.248726" lon="19.696297"/>
+  <node id="149" lat="60.238313" lon="19.688545"/>
+  <node id="150" lat="60.256477" lon="19.691439"/>
+  <node id="151" lat="60.264332" lon="19.682861"/>
+  <node id="152" lat="60.266012" lon="19.666635"/>
+  <node id="153" lat="60.265624" lon="19.646998"/>
+  <node id="154" lat="60.224645" lon="19.668805"/>
+  <node id="155" lat="60.217203" lon="19.670872"/>
+  <node id="156" lat="60.211932" lon="19.682344"/>
+  <node id="157" lat="60.19922" lon="19.688029"/>
+  <node id="158" lat="60.170023" lon="19.694747"/>
+  <node id="159" lat="60.145115" lon="19.710353"/>
+  <node id="160" lat="60.101345" lon="19.74756"/>
+  <node id="161" lat="60.073853" lon="19.763063"/>
+  <node id="162" lat="60.086462" lon="19.773398"/>
+  <node id="163" lat="60.096177" lon="19.789004"/>
+  <node id="164" lat="60.09982" lon="19.806988"/>
+  <node id="165" lat="60.094317" lon="19.824454"/>
+  <node id="166" lat="60.08424" lon="19.823214"/>
+  <node id="167" lat="60.079434" lon="19.831689"/>
+  <node id="168" lat="60.078607" lon="19.845125"/>
+  <node id="169" lat="60.080674" lon="19.858664"/>
+  <node id="170" lat="60.08548" lon="19.868276"/>
+  <node id="171" lat="60.090958" lon="19.87024"/>
+  <node id="172" lat="60.096384" lon="19.87334"/>
+  <node id="173" lat="60.101138" lon="19.886569"/>
+  <node id="174" lat="60.10106" lon="19.910341"/>
+  <node id="175" lat="60.091526" lon="19.923983"/>
+  <node id="176" lat="60.060184" lon="19.94114"/>
+  <node id="177" lat="60.05034" lon="19.937729"/>
+  <node id="178" lat="60.047653" lon="19.948478"/>
+  <node id="179" lat="60.053751" lon="19.958193"/>
+  <node id="180" lat="60.07008" lon="19.951475"/>
+  <node id="181" lat="60.083826" lon="19.948995"/>
+  <node id="182" lat="60.091061" lon="19.965944"/>
+  <node id="183" lat="60.094317" lon="20.006355"/>
+  <node id="184" lat="60.08734" lon="20.031677"/>
+  <node id="185" lat="60.087444" lon="20.044803"/>
+  <node id="186" lat="60.097727" lon="20.050384"/>
+  <node id="187" lat="60.105375" lon="20.04749"/>
+  <node id="188" lat="60.109096" lon="20.040875"/>
+  <node id="189" lat="60.11137" lon="20.034157"/>
+  <node id="190" lat="60.114781" lon="20.03054"/>
+  <node id="191" lat="60.128914" lon="20.030127"/>
+  <node id="192" lat="60.14434" lon="20.03302"/>
+  <node id="193" lat="60.176276" lon="20.044183"/>
+  <node id="194" lat="60.169971" lon="20.034881"/>
+  <node id="195" lat="60.163305" lon="20.027439"/>
+  <node id="196" lat="60.158034" lon="20.019895"/>
+  <node id="197" lat="60.15576" lon="20.010076"/>
+  <node id="198" lat="60.158912" lon="20.003875"/>
+  <node id="199" lat="60.165966" lon="19.996537"/>
+  <node id="200" lat="60.17302" lon="19.987338"/>
+  <node id="201" lat="60.179014" lon="19.958916"/>
+  <node id="202" lat="60.186197" lon="19.94362"/>
+  <node id="203" lat="60.196274" lon="19.929668"/>
+  <node id="204" lat="60.207591" lon="19.917265"/>
+  <node id="205" lat="60.218185" lon="19.914578"/>
+  <node id="206" lat="60.222733" lon="19.927704"/>
+  <node id="207" lat="60.224645" lon="19.954886"/>
+  <node id="208" lat="60.212811" lon="19.955713"/>
+  <node id="209" lat="60.2094" lon="19.953852"/>
+  <node id="210" lat="60.204181" lon="19.948064"/>
+  <node id="211" lat="60.194776" lon="19.964187"/>
+  <node id="212" lat="60.183691" lon="20.016277"/>
+  <node id="213" lat="60.19338" lon="20.013177"/>
+  <node id="214" lat="60.20232" lon="20.014934"/>
+  <node id="215" lat="60.210304" lon="20.020825"/>
+  <node id="216" lat="60.217203" lon="20.03054"/>
+  <node id="217" lat="60.225084" lon="20.01297"/>
+  <node id="218" lat="60.241388" lon="19.994056"/>
+  <node id="219" lat="60.260973" lon="19.979794"/>
+  <node id="220" lat="60.278647" lon="19.97597"/>
+  <node id="221" lat="60.267019" lon="20.003358"/>
+  <node id="222" lat="60.276373" lon="20.024856"/>
+  <node id="223" lat="60.293865" lon="20.033847"/>
+  <node id="224" lat="60.306604" lon="20.023719"/>
+  <node id="225" lat="60.313425" lon="20.023719"/>
+  <node id="226" lat="60.310014" lon="20.061339"/>
+  <node id="227" lat="60.293116" lon="20.057205"/>
+  <node id="228" lat="60.271825" lon="20.036328"/>
+  <node id="229" lat="60.255082" lon="20.023719"/>
+  <node id="230" lat="60.236375" lon="20.031884"/>
+  <node id="231" lat="60.226453" lon="20.048213"/>
+  <node id="232" lat="60.214671" lon="20.060926"/>
+  <node id="233" lat="60.190538" lon="20.057825"/>
+  <node id="234" lat="60.190538" lon="20.06475"/>
+  <node id="235" lat="60.223353" lon="20.081906"/>
+  <node id="236" lat="60.239372" lon="20.110949"/>
+  <node id="237" lat="60.244695" lon="20.147742"/>
+  <node id="238" lat="60.24516" lon="20.188256"/>
+  <node id="239" lat="60.232732" lon="20.17234"/>
+  <node id="240" lat="60.230691" lon="20.122937"/>
+  <node id="241" lat="60.220924" lon="20.102267"/>
+  <node id="242" lat="60.210795" lon="20.095549"/>
+  <node id="243" lat="60.195809" lon="20.088831"/>
+  <node id="244" lat="60.182167" lon="20.087074"/>
+  <node id="245" lat="60.176276" lon="20.095446"/>
+  <node id="246" lat="60.176276" lon="20.136993"/>
+  <node id="247" lat="60.17395" lon="20.147845"/>
+  <node id="248" lat="60.169661" lon="20.154667"/>
+  <node id="249" lat="60.167077" lon="20.162005"/>
+  <node id="250" lat="60.170023" lon="20.174614"/>
+  <node id="251" lat="60.173485" lon="20.178025"/>
+  <node id="252" lat="60.187334" lon="20.186396"/>
+  <node id="253" lat="60.193639" lon="20.191667"/>
+  <node id="254" lat="60.199401" lon="20.200969"/>
+  <node id="256" lat="60.190487" lon="19.670975"/>
+  <node id="257" lat="60.196739" lon="19.667461"/>
+  <node id="258" lat="60.202786" lon="19.660537"/>
+  <node id="259" lat="60.213379" lon="19.64307"/>
+  <node id="260" lat="60.220924" lon="19.639556"/>
+  <node id="261" lat="60.231569" lon="19.638316"/>
+  <node id="262" lat="60.240044" lon="19.634388"/>
+  <node id="263" lat="60.246607" lon="19.628084"/>
+  <node id="264" lat="60.256865" lon="19.608447"/>
+  <node id="265" lat="60.260456" lon="19.593771"/>
+  <node id="266" lat="60.260431" lon="19.578888"/>
+  <node id="267" lat="60.255082" lon="19.567829"/>
+  <node id="268" lat="60.248881" lon="19.560388"/>
+  <node id="269" lat="60.236892" lon="19.542301"/>
+  <node id="270" lat="60.232112" lon="19.537133"/>
+  <node id="271" lat="60.221983" lon="19.53517"/>
+  <node id="272" lat="60.21108" lon="19.53703"/>
+  <node id="273" lat="60.20108" lon="19.537237"/>
+  <node id="274" lat="60.193639" lon="19.530312"/>
+  <node id="275" lat="60.187593" lon="19.5176"/>
+  <node id="276" lat="60.183769" lon="19.513156"/>
+  <node id="277" lat="60.179014" lon="19.513879"/>
+  <node id="278" lat="60.170023" lon="19.51667"/>
+  <node id="279" lat="60.148551" lon="19.527005"/>
+  <node id="280" lat="60.134728" lon="19.544575"/>
+  <node id="281" lat="60.129896" lon="19.565245"/>
+  <node id="282" lat="60.135296" lon="19.584882"/>
+  <node id="283" lat="60.149094" lon="19.599559"/>
+  <node id="284" lat="60.163951" lon="19.603279"/>
+  <node id="285" lat="60.179815" lon="19.599455"/>
+  <node id="286" lat="60.196739" lon="19.591704"/>
+  <node id="287" lat="60.187438" lon="19.60948"/>
+  <node id="288" lat="60.165372" lon="19.632425"/>
+  <node id="289" lat="60.15576" lon="19.646998"/>
+  <node id="290" lat="60.157465" lon="19.654336"/>
+  <node id="291" lat="60.156638" lon="19.663327"/>
+  <node id="292" lat="60.158034" lon="19.671079"/>
+  <node id="293" lat="60.166302" lon="19.674283"/>
+  <node id="294" lat="60.184156" lon="19.673042"/>
+  <node id="296" lat="60.326447" lon="20.777368"/>
+  <node id="297" lat="60.333475" lon="20.785326"/>
+  <node id="298" lat="60.342622" lon="20.78946"/>
+  <node id="299" lat="60.352751" lon="20.791941"/>
+  <node id="300" lat="60.361897" lon="20.787393"/>
+  <node id="301" lat="60.366316" lon="20.776128"/>
+  <node id="302" lat="60.367788" lon="20.764242"/>
+  <node id="303" lat="60.366031" lon="20.757214"/>
+  <node id="304" lat="60.360657" lon="20.75494"/>
+  <node id="305" lat="60.354818" lon="20.750599"/>
+  <node id="306" lat="60.35182" lon="20.746982"/>
+  <node id="307" lat="60.34841" lon="20.743571"/>
+  <node id="308" lat="60.337713" lon="20.735303"/>
+  <node id="309" lat="60.3327" lon="20.732719"/>
+  <node id="310" lat="60.324354" lon="20.731789"/>
+  <node id="311" lat="60.32097" lon="20.731479"/>
+  <node id="312" lat="60.314303" lon="20.732719"/>
+  <node id="313" lat="60.31234" lon="20.740057"/>
+  <node id="315" lat="60.229347" lon="20.68373"/>
+  <node id="316" lat="60.22666" lon="20.668434"/>
+  <node id="317" lat="60.216325" lon="20.663473"/>
+  <node id="318" lat="60.205008" lon="20.664093"/>
+  <node id="319" lat="60.199194" lon="20.670708"/>
+  <node id="320" lat="60.194517" lon="20.686831"/>
+  <node id="321" lat="60.199582" lon="20.707605"/>
+  <node id="322" lat="60.209245" lon="20.716286"/>
+  <node id="323" lat="60.218237" lon="20.705951"/>
+  <node id="325" lat="60.130439" lon="20.68342"/>
+  <node id="326" lat="60.136278" lon="20.679389"/>
+  <node id="327" lat="60.14496" lon="20.668537"/>
+  <node id="328" lat="60.149636" lon="20.659856"/>
+  <node id="329" lat="60.151316" lon="20.653551"/>
+  <node id="330" lat="60.1493" lon="20.644043"/>
+  <node id="331" lat="60.143874" lon="20.635464"/>
+  <node id="332" lat="60.131291" lon="20.638668"/>
+  <node id="333" lat="60.115866" lon="20.655721"/>
+  <node id="334" lat="60.109122" lon="20.671534"/>
+  <node id="335" lat="60.11013" lon="20.681973"/>
+  <node id="336" lat="60.116951" lon="20.688278"/>
+  <node id="337" lat="60.126459" lon="20.686521"/>
+  <node id="339" lat="60.047963" lon="20.521156"/>
+  <node id="340" lat="60.056774" lon="20.52622"/>
+  <node id="341" lat="60.064086" lon="20.535729"/>
+  <node id="342" lat="60.070959" lon="20.54193"/>
+  <node id="343" lat="60.073543" lon="20.533352"/>
+  <node id="344" lat="60.070339" lon="20.518469"/>
+  <node id="345" lat="60.066928" lon="20.516505"/>
+  <node id="346" lat="60.06543" lon="20.525394"/>
+  <node id="347" lat="60.06468" lon="20.52219"/>
+  <node id="348" lat="60.062329" lon="20.488083"/>
+  <node id="349" lat="60.057316" lon="20.46979"/>
+  <node id="350" lat="60.041245" lon="20.47134"/>
+  <node id="351" lat="60.03631" lon="20.500382"/>
+  <node id="352" lat="60.042925" lon="20.519399"/>
+  <node id="354" lat="60.055198" lon="20.424108"/>
+  <node id="355" lat="60.04047" lon="20.403437"/>
+  <node id="356" lat="60.028171" lon="20.390105"/>
+  <node id="357" lat="60.021246" lon="20.4023"/>
+  <node id="358" lat="60.025044" lon="20.432169"/>
+  <node id="359" lat="60.040031" lon="20.451083"/>
+  <node id="360" lat="60.066722" lon="20.462555"/>
+  <node id="361" lat="60.065042" lon="20.448912"/>
+  <node id="363" lat="60.044914" lon="20.610143"/>
+  <node id="364" lat="60.04755" lon="20.608696"/>
+  <node id="365" lat="60.051994" lon="20.604975"/>
+  <node id="366" lat="60.05264" lon="20.598671"/>
+  <node id="367" lat="60.050753" lon="20.591126"/>
+  <node id="368" lat="60.051916" lon="20.587922"/>
+  <node id="369" lat="60.055844" lon="20.587095"/>
+  <node id="370" lat="60.059125" lon="20.582858"/>
+  <node id="371" lat="60.059073" lon="20.576243"/>
+  <node id="372" lat="60.056903" lon="20.568285"/>
+  <node id="373" lat="60.057575" lon="20.558363"/>
+  <node id="374" lat="60.056024" lon="20.544927"/>
+  <node id="375" lat="60.048325" lon="20.530871"/>
+  <node id="376" lat="60.024192" lon="20.50555"/>
+  <node id="377" lat="60.012668" lon="20.500899"/>
+  <node id="378" lat="60.00626" lon="20.511854"/>
+  <node id="379" lat="60.005046" lon="20.526944"/>
+  <node id="380" lat="60.00949" lon="20.539966"/>
+  <node id="381" lat="60.01644" lon="20.546167"/>
+  <node id="382" lat="60.018843" lon="20.550405"/>
+  <node id="383" lat="60.006622" lon="20.577483"/>
+  <node id="384" lat="60.008069" lon="20.587199"/>
+  <node id="385" lat="60.015975" lon="20.596397"/>
+  <node id="386" lat="60.02259" lon="20.606319"/>
+  <node id="387" lat="60.029825" lon="20.609936"/>
+  <node id="388" lat="60.035897" lon="20.608283"/>
+  <node id="389" lat="60.039126" lon="20.600944"/>
+  <node id="390" lat="60.039746" lon="20.603425"/>
+  <node id="391" lat="60.041038" lon="20.61531"/>
+  <node id="392" lat="60.042201" lon="20.617894"/>
+  <node id="393" lat="60.043415" lon="20.612623"/>
+  <node id="395" lat="59.942698" lon="20.983557"/>
+  <node id="396" lat="59.944998" lon="20.996579"/>
+  <node id="397" lat="59.949829" lon="20.995856"/>
+  <node id="398" lat="59.951845" lon="20.989758"/>
+  <node id="399" lat="59.952" lon="20.978699"/>
+  <node id="400" lat="59.957943" lon="20.934671"/>
+  <node id="401" lat="59.95324" lon="20.919891"/>
+  <node id="402" lat="59.949261" lon="20.915137"/>
+  <node id="403" lat="59.948331" lon="20.913173"/>
+  <node id="404" lat="59.943008" lon="20.918444"/>
+  <node id="405" lat="59.935773" lon="20.932087"/>
+  <node id="406" lat="59.921459" lon="20.982833"/>
+  <node id="407" lat="59.92673" lon="20.991205"/>
+  <node id="408" lat="59.936239" lon="20.984177"/>
+  <node id="409" lat="59.942052" lon="20.969294"/>
+  <node id="410" lat="59.943783" lon="20.969397"/>
+  <node id="412" lat="59.914069" lon="20.875243"/>
+  <node id="413" lat="59.909057" lon="20.887749"/>
+  <node id="414" lat="59.904406" lon="20.912347"/>
+  <node id="415" lat="59.909212" lon="20.920201"/>
+  <node id="416" lat="59.920632" lon="20.912863"/>
+  <node id="417" lat="59.9335" lon="20.906662"/>
+  <node id="418" lat="59.940063" lon="20.897464"/>
+  <node id="419" lat="59.939727" lon="20.884545"/>
+  <node id="420" lat="59.936729" lon="20.870799"/>
+  <node id="421" lat="59.928125" lon="20.862117"/>
+  <node id="422" lat="59.917842" lon="20.867905"/>
+  <node id="424" lat="60.480055" lon="21.088667"/>
+  <node id="425" lat="60.480701" lon="21.084636"/>
+  <node id="426" lat="60.480366" lon="21.076471"/>
+  <node id="427" lat="60.474319" lon="21.064379"/>
+  <node id="428" lat="60.466671" lon="21.059211"/>
+  <node id="429" lat="60.454708" lon="21.064895"/>
+  <node id="430" lat="60.44892" lon="21.078331"/>
+  <node id="431" lat="60.452176" lon="21.088253"/>
+  <node id="432" lat="60.46339" lon="21.096625"/>
+  <node id="433" lat="60.475534" lon="21.094764"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000014">
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="15"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000034">
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="35"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000055">
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="56"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000255">
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="256"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000295">
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="296"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000314">
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="315"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000324">
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="325"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000338">
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="339"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000353">
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="354"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000362">
+    <nd ref="363"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="363"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000394">
+    <nd ref="395"/>
+    <nd ref="396"/>
+    <nd ref="397"/>
+    <nd ref="398"/>
+    <nd ref="399"/>
+    <nd ref="400"/>
+    <nd ref="401"/>
+    <nd ref="402"/>
+    <nd ref="403"/>
+    <nd ref="404"/>
+    <nd ref="405"/>
+    <nd ref="406"/>
+    <nd ref="407"/>
+    <nd ref="408"/>
+    <nd ref="409"/>
+    <nd ref="410"/>
+    <nd ref="395"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000411">
+    <nd ref="412"/>
+    <nd ref="413"/>
+    <nd ref="414"/>
+    <nd ref="415"/>
+    <nd ref="416"/>
+    <nd ref="417"/>
+    <nd ref="418"/>
+    <nd ref="419"/>
+    <nd ref="420"/>
+    <nd ref="421"/>
+    <nd ref="422"/>
+    <nd ref="412"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+  <way id="000000423">
+    <nd ref="424"/>
+    <nd ref="425"/>
+    <nd ref="426"/>
+    <nd ref="427"/>
+    <nd ref="428"/>
+    <nd ref="429"/>
+    <nd ref="430"/>
+    <nd ref="431"/>
+    <nd ref="432"/>
+    <nd ref="433"/>
+    <nd ref="424"/>
+    <tag k="OBJECTID" v="3431"/>
+    <tag k="VertexCou" v="419"/>
+    <tag k="ISO" v="ALA"/>
+    <tag k="NAME_0" v="Åland"/>
+    <tag k="NAME_1" v="Finström"/>
+    <tag k="VARNAME_1" v="Eckeroe"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="AX.EC"/>
+    <tag k="TYPE_1" v="Municipality"/>
+    <tag k="ENGTYPE_1" v="Municipality"/>
+    <tag k="VALIDFR_1" v="1988"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v="Eckerö"/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2000"/>
+    <tag k="NEV_Countr" v="Finland"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v="AX.FN|FIN-AHR"/>
+    <tag k="FIPS_1" v="FI01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="6.584782"/>
+    <tag k="Shape_Area" v="-0.134633"/>
+  </way>
+</osm>

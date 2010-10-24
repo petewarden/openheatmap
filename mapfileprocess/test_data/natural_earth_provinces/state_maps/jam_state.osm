@@ -1,0 +1,1895 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="17.932937" lon="-77.139291"/>
+  <node id="3" lat="17.881803" lon="-77.134279"/>
+  <node id="4" lat="17.875369" lon="-77.131566"/>
+  <node id="5" lat="17.865887" lon="-77.145105"/>
+  <node id="6" lat="17.840798" lon="-77.161925"/>
+  <node id="7" lat="17.813073" lon="-77.154381"/>
+  <node id="8" lat="17.810309" lon="-77.161641"/>
+  <node id="9" lat="17.802893" lon="-77.174354"/>
+  <node id="10" lat="17.800025" lon="-77.181692"/>
+  <node id="11" lat="17.794754" lon="-77.179082"/>
+  <node id="12" lat="17.784625" lon="-77.177325"/>
+  <node id="13" lat="17.778295" lon="-77.17487"/>
+  <node id="14" lat="17.78292" lon="-77.185542"/>
+  <node id="15" lat="17.783411" lon="-77.196316"/>
+  <node id="16" lat="17.779819" lon="-77.206781"/>
+  <node id="17" lat="17.772094" lon="-77.216444"/>
+  <node id="18" lat="17.76181" lon="-77.198874"/>
+  <node id="19" lat="17.757909" lon="-77.180296"/>
+  <node id="20" lat="17.759381" lon="-77.160866"/>
+  <node id="21" lat="17.765273" lon="-77.140738"/>
+  <node id="22" lat="17.727678" lon="-77.130558"/>
+  <node id="23" lat="17.710444" lon="-77.133633"/>
+  <node id="24" lat="17.703209" lon="-77.158101"/>
+  <node id="25" lat="17.704217" lon="-77.178927"/>
+  <node id="26" lat="17.70817" lon="-77.197556"/>
+  <node id="27" lat="17.716671" lon="-77.215979"/>
+  <node id="28" lat="17.790827" lon="-77.302847"/>
+  <node id="29" lat="17.812479" lon="-77.320805"/>
+  <node id="30" lat="17.853381" lon="-77.394573"/>
+  <node id="31" lat="17.855939" lon="-77.391731"/>
+  <node id="32" lat="17.857205" lon="-77.389715"/>
+  <node id="33" lat="17.858058" lon="-77.386795"/>
+  <node id="34" lat="17.857024" lon="-77.377907"/>
+  <node id="35" lat="17.857179" lon="-77.374806"/>
+  <node id="36" lat="17.857722" lon="-77.372171"/>
+  <node id="37" lat="17.859117" lon="-77.370104"/>
+  <node id="38" lat="17.860977" lon="-77.36845"/>
+  <node id="39" lat="17.863561" lon="-77.367339"/>
+  <node id="40" lat="17.875783" lon="-77.365324"/>
+  <node id="41" lat="17.894412" lon="-77.359381"/>
+  <node id="42" lat="17.897564" lon="-77.358968"/>
+  <node id="43" lat="17.900897" lon="-77.35995"/>
+  <node id="44" lat="17.904411" lon="-77.362172"/>
+  <node id="45" lat="17.913842" lon="-77.373592"/>
+  <node id="46" lat="17.919708" lon="-77.378243"/>
+  <node id="47" lat="17.924023" lon="-77.379948"/>
+  <node id="48" lat="17.930069" lon="-77.381705"/>
+  <node id="49" lat="17.943634" lon="-77.383927"/>
+  <node id="50" lat="17.950378" lon="-77.384418"/>
+  <node id="51" lat="17.955235" lon="-77.384108"/>
+  <node id="52" lat="17.963116" lon="-77.381318"/>
+  <node id="53" lat="17.968774" lon="-77.379922"/>
+  <node id="54" lat="18.181216" lon="-77.488779"/>
+  <node id="55" lat="18.196099" lon="-77.491156"/>
+  <node id="56" lat="18.188709" lon="-77.467643"/>
+  <node id="57" lat="18.184549" lon="-77.442218"/>
+  <node id="58" lat="18.18473" lon="-77.437878"/>
+  <node id="59" lat="18.185557" lon="-77.433149"/>
+  <node id="60" lat="18.188347" lon="-77.426018"/>
+  <node id="61" lat="18.190363" lon="-77.422271"/>
+  <node id="62" lat="18.195608" lon="-77.415295"/>
+  <node id="63" lat="18.196719" lon="-77.412866"/>
+  <node id="64" lat="18.204057" lon="-77.378966"/>
+  <node id="65" lat="18.20398" lon="-77.374832"/>
+  <node id="66" lat="18.203179" lon="-77.369691"/>
+  <node id="67" lat="18.195841" lon="-77.350441"/>
+  <node id="68" lat="18.187262" lon="-77.301374"/>
+  <node id="69" lat="18.1861" lon="-77.210863"/>
+  <node id="70" lat="18.117551" lon="-77.182467"/>
+  <node id="71" lat="18.099748" lon="-77.178514"/>
+  <node id="72" lat="18.092643" lon="-77.182234"/>
+  <node id="73" lat="18.083289" lon="-77.185102"/>
+  <node id="74" lat="18.06882" lon="-77.187428"/>
+  <node id="75" lat="18.063911" lon="-77.187118"/>
+  <node id="76" lat="18.060319" lon="-77.186265"/>
+  <node id="77" lat="18.054247" lon="-77.182234"/>
+  <node id="78" lat="18.052413" lon="-77.180606"/>
+  <node id="79" lat="18.044351" lon="-77.174948"/>
+  <node id="80" lat="18.034507" lon="-77.169393"/>
+  <node id="81" lat="18.027892" lon="-77.16699"/>
+  <node id="82" lat="18.022854" lon="-77.165672"/>
+  <node id="83" lat="17.987946" lon="-77.165388"/>
+  <node id="84" lat="17.980298" lon="-77.164587"/>
+  <node id="85" lat="17.974485" lon="-77.163424"/>
+  <node id="86" lat="17.97172" lon="-77.162235"/>
+  <node id="87" lat="17.969394" lon="-77.160944"/>
+  <node id="88" lat="17.944848" lon="-77.141565"/>
+  <node id="89" lat="17.940378" lon="-77.139834"/>
+  <node id="90" lat="17.936192" lon="-77.138929"/>
+  <node id="92" lat="18.28984" lon="-78.28302"/>
+  <node id="93" lat="18.297281" lon="-78.336996"/>
+  <node id="94" lat="18.297953" lon="-78.346039"/>
+  <node id="95" lat="18.305395" lon="-78.34436"/>
+  <node id="96" lat="18.335522" lon="-78.345755"/>
+  <node id="97" lat="18.344049" lon="-78.34392"/>
+  <node id="98" lat="18.355934" lon="-78.336247"/>
+  <node id="99" lat="18.363453" lon="-78.335446"/>
+  <node id="100" lat="18.367406" lon="-78.331932"/>
+  <node id="101" lat="18.368569" lon="-78.316325"/>
+  <node id="102" lat="18.374641" lon="-78.30661"/>
+  <node id="103" lat="18.386346" lon="-78.298652"/>
+  <node id="104" lat="18.39433" lon="-78.288368"/>
+  <node id="105" lat="18.389059" lon="-78.271625"/>
+  <node id="106" lat="18.417352" lon="-78.261238"/>
+  <node id="107" lat="18.444223" lon="-78.23062"/>
+  <node id="108" lat="18.455437" lon="-78.194937"/>
+  <node id="109" lat="18.436859" lon="-78.169202"/>
+  <node id="110" lat="18.453499" lon="-78.154397"/>
+  <node id="111" lat="18.453887" lon="-78.138507"/>
+  <node id="112" lat="18.447324" lon="-78.119981"/>
+  <node id="113" lat="18.443061" lon="-78.097217"/>
+  <node id="114" lat="18.450631" lon="-78.032518"/>
+  <node id="115" lat="18.450502" lon="-78.010918"/>
+  <node id="116" lat="18.446704" lon="-78.000169"/>
+  <node id="117" lat="18.43717" lon="-78.000298"/>
+  <node id="118" lat="18.434146" lon="-78.000841"/>
+  <node id="119" lat="18.411719" lon="-78.007455"/>
+  <node id="120" lat="18.408179" lon="-78.005647"/>
+  <node id="121" lat="18.4042" lon="-78.002236"/>
+  <node id="122" lat="18.391384" lon="-77.985958"/>
+  <node id="123" lat="18.388671" lon="-77.984278"/>
+  <node id="124" lat="18.383788" lon="-77.981824"/>
+  <node id="125" lat="18.376579" lon="-77.980273"/>
+  <node id="126" lat="18.370326" lon="-77.977483"/>
+  <node id="127" lat="18.350508" lon="-77.966166"/>
+  <node id="128" lat="18.339708" lon="-77.961205"/>
+  <node id="129" lat="18.337615" lon="-77.959138"/>
+  <node id="130" lat="18.335134" lon="-77.95552"/>
+  <node id="131" lat="18.328158" lon="-77.941568"/>
+  <node id="132" lat="18.323662" lon="-77.936607"/>
+  <node id="133" lat="18.320484" lon="-77.934126"/>
+  <node id="134" lat="18.296119" lon="-77.921414"/>
+  <node id="135" lat="18.300847" lon="-78.005233"/>
+  <node id="136" lat="18.304645" lon="-78.027144"/>
+  <node id="137" lat="18.335031" lon="-78.082179"/>
+  <node id="138" lat="18.337382" lon="-78.090913"/>
+  <node id="139" lat="18.338597" lon="-78.100189"/>
+  <node id="140" lat="18.338054" lon="-78.224341"/>
+  <node id="141" lat="18.336607" lon="-78.230026"/>
+  <node id="142" lat="18.294491" lon="-78.267543"/>
+  <node id="143" lat="18.29077" lon="-78.272478"/>
+  <node id="144" lat="18.289788" lon="-78.27762"/>
+  <node id="146" lat="17.853949" lon="-77.395606"/>
+  <node id="147" lat="17.861701" lon="-77.417672"/>
+  <node id="148" lat="17.864646" lon="-77.440978"/>
+  <node id="149" lat="17.857437" lon="-77.459452"/>
+  <node id="150" lat="17.843743" lon="-77.48064"/>
+  <node id="151" lat="17.841935" lon="-77.501775"/>
+  <node id="152" lat="17.854027" lon="-77.545416"/>
+  <node id="153" lat="17.857127" lon="-77.564562"/>
+  <node id="154" lat="17.861623" lon="-77.567017"/>
+  <node id="155" lat="18.131193" lon="-77.635256"/>
+  <node id="156" lat="18.220852" lon="-77.640294"/>
+  <node id="157" lat="18.223927" lon="-77.627427"/>
+  <node id="158" lat="18.226097" lon="-77.621303"/>
+  <node id="159" lat="18.232531" lon="-77.610218"/>
+  <node id="160" lat="18.235786" lon="-77.602906"/>
+  <node id="161" lat="18.237233" lon="-77.597325"/>
+  <node id="162" lat="18.237078" lon="-77.591563"/>
+  <node id="163" lat="18.231601" lon="-77.553323"/>
+  <node id="164" lat="18.231704" lon="-77.550145"/>
+  <node id="165" lat="18.22571" lon="-77.53583"/>
+  <node id="167" lat="17.860977" lon="-77.588359"/>
+  <node id="168" lat="17.853562" lon="-77.723855"/>
+  <node id="169" lat="17.854802" lon="-77.730676"/>
+  <node id="170" lat="17.868315" lon="-77.751502"/>
+  <node id="171" lat="17.884981" lon="-77.786693"/>
+  <node id="172" lat="17.89157" lon="-77.795556"/>
+  <node id="173" lat="17.89914" lon="-77.799871"/>
+  <node id="174" lat="17.92472" lon="-77.810258"/>
+  <node id="175" lat="17.932859" lon="-77.812325"/>
+  <node id="176" lat="17.939215" lon="-77.816097"/>
+  <node id="177" lat="17.945339" lon="-77.834003"/>
+  <node id="178" lat="17.949602" lon="-77.83961"/>
+  <node id="179" lat="17.970609" lon="-77.841109"/>
+  <node id="180" lat="17.995853" lon="-77.839352"/>
+  <node id="181" lat="18.01704" lon="-77.845553"/>
+  <node id="182" lat="18.025954" lon="-77.870978"/>
+  <node id="183" lat="18.026471" lon="-77.940328"/>
+  <node id="184" lat="18.032155" lon="-77.956296"/>
+  <node id="185" lat="18.050578" lon="-77.964615"/>
+  <node id="186" lat="18.063497" lon="-77.957639"/>
+  <node id="187" lat="18.117602" lon="-77.93795"/>
+  <node id="188" lat="18.132434" lon="-77.935677"/>
+  <node id="189" lat="18.134811" lon="-77.936607"/>
+  <node id="190" lat="18.140082" lon="-77.938002"/>
+  <node id="191" lat="18.142872" lon="-77.938235"/>
+  <node id="192" lat="18.145869" lon="-77.937899"/>
+  <node id="193" lat="18.152071" lon="-77.936219"/>
+  <node id="194" lat="18.164757" lon="-77.929863"/>
+  <node id="195" lat="18.181449" lon="-77.918882"/>
+  <node id="196" lat="18.185712" lon="-77.914412"/>
+  <node id="197" lat="18.188399" lon="-77.911001"/>
+  <node id="198" lat="18.195556" lon="-77.895886"/>
+  <node id="199" lat="18.234443" lon="-77.781397"/>
+  <node id="201" lat="18.443965" lon="-77.992366"/>
+  <node id="202" lat="18.441355" lon="-77.981333"/>
+  <node id="203" lat="18.443061" lon="-77.969964"/>
+  <node id="204" lat="18.449882" lon="-77.959835"/>
+  <node id="205" lat="18.456445" lon="-77.958828"/>
+  <node id="206" lat="18.464119" lon="-77.959112"/>
+  <node id="207" lat="18.474402" lon="-77.952885"/>
+  <node id="208" lat="18.501998" lon="-77.930276"/>
+  <node id="209" lat="18.511144" lon="-77.919967"/>
+  <node id="210" lat="18.518792" lon="-77.90232"/>
+  <node id="211" lat="18.525123" lon="-77.861857"/>
+  <node id="212" lat="18.523469" lon="-77.816046"/>
+  <node id="213" lat="18.506726" lon="-77.735534"/>
+  <node id="214" lat="18.504943" lon="-77.735896"/>
+  <node id="215" lat="18.221989" lon="-77.886377"/>
+  <node id="216" lat="18.231497" lon="-77.885912"/>
+  <node id="217" lat="18.255656" lon="-77.893922"/>
+  <node id="218" lat="18.260643" lon="-77.896868"/>
+  <node id="219" lat="18.262555" lon="-77.898366"/>
+  <node id="220" lat="18.264415" lon="-77.900175"/>
+  <node id="221" lat="18.265888" lon="-77.902242"/>
+  <node id="222" lat="18.267102" lon="-77.904722"/>
+  <node id="223" lat="18.273691" lon="-77.910459"/>
+  <node id="225" lat="18.491947" lon="-77.664505"/>
+  <node id="226" lat="18.490164" lon="-77.56725"/>
+  <node id="227" lat="18.480216" lon="-77.524229"/>
+  <node id="228" lat="18.476056" lon="-77.465292"/>
+  <node id="229" lat="18.473989" lon="-77.465654"/>
+  <node id="230" lat="18.454119" lon="-77.467824"/>
+  <node id="231" lat="18.445929" lon="-77.467023"/>
+  <node id="232" lat="18.41761" lon="-77.455551"/>
+  <node id="233" lat="18.410401" lon="-77.45475"/>
+  <node id="234" lat="18.404588" lon="-77.455551"/>
+  <node id="235" lat="18.398309" lon="-77.458238"/>
+  <node id="236" lat="18.394717" lon="-77.458212"/>
+  <node id="237" lat="18.391901" lon="-77.456817"/>
+  <node id="238" lat="18.385596" lon="-77.451494"/>
+  <node id="239" lat="18.381023" lon="-77.451158"/>
+  <node id="240" lat="18.376114" lon="-77.451468"/>
+  <node id="242" lat="18.084504" lon="-77.979963"/>
+  <node id="243" lat="18.095356" lon="-77.987844"/>
+  <node id="244" lat="18.101014" lon="-77.996396"/>
+  <node id="245" lat="18.10582" lon="-78.006396"/>
+  <node id="246" lat="18.107887" lon="-78.014354"/>
+  <node id="247" lat="18.113081" lon="-78.020555"/>
+  <node id="248" lat="18.125199" lon="-78.025361"/>
+  <node id="249" lat="18.148867" lon="-78.031433"/>
+  <node id="250" lat="18.185092" lon="-78.050243"/>
+  <node id="251" lat="18.198399" lon="-78.075177"/>
+  <node id="252" lat="18.196642" lon="-78.148739"/>
+  <node id="253" lat="18.203902" lon="-78.193749"/>
+  <node id="254" lat="18.204109" lon="-78.210182"/>
+  <node id="255" lat="18.195866" lon="-78.219535"/>
+  <node id="256" lat="18.19181" lon="-78.227287"/>
+  <node id="257" lat="18.193231" lon="-78.234056"/>
+  <node id="258" lat="18.202662" lon="-78.258654"/>
+  <node id="259" lat="18.204109" lon="-78.261083"/>
+  <node id="260" lat="18.206228" lon="-78.275087"/>
+  <node id="261" lat="18.215607" lon="-78.305887"/>
+  <node id="262" lat="18.217751" lon="-78.323147"/>
+  <node id="263" lat="18.221911" lon="-78.340717"/>
+  <node id="264" lat="18.232763" lon="-78.357666"/>
+  <node id="265" lat="18.248085" lon="-78.370275"/>
+  <node id="266" lat="18.265552" lon="-78.374668"/>
+  <node id="267" lat="18.273846" lon="-78.369087"/>
+  <node id="268" lat="18.28382" lon="-78.354256"/>
+  <node id="269" lat="18.292243" lon="-78.347331"/>
+  <node id="271" lat="17.969756" lon="-76.72234"/>
+  <node id="272" lat="17.95676" lon="-76.721436"/>
+  <node id="273" lat="17.955959" lon="-76.729342"/>
+  <node id="274" lat="17.960558" lon="-76.734355"/>
+  <node id="275" lat="17.963452" lon="-76.74748"/>
+  <node id="276" lat="17.963891" lon="-76.777608"/>
+  <node id="277" lat="17.969679" lon="-76.792336"/>
+  <node id="278" lat="17.980867" lon="-76.809156"/>
+  <node id="279" lat="17.984536" lon="-76.807425"/>
+  <node id="280" lat="17.989367" lon="-76.799674"/>
+  <node id="281" lat="17.993269" lon="-76.789726"/>
+  <node id="282" lat="17.995388" lon="-76.781225"/>
+  <node id="283" lat="17.996602" lon="-76.755439"/>
+  <node id="284" lat="17.993321" lon="-76.740582"/>
+  <node id="285" lat="17.988334" lon="-76.730686"/>
+  <node id="287" lat="18.138609" lon="-76.751434"/>
+  <node id="288" lat="18.263537" lon="-76.704434"/>
+  <node id="289" lat="18.266766" lon="-76.701463"/>
+  <node id="290" lat="18.265552" lon="-76.695701"/>
+  <node id="291" lat="18.258137" lon="-76.680999"/>
+  <node id="292" lat="18.239791" lon="-76.661982"/>
+  <node id="293" lat="18.230774" lon="-76.64728"/>
+  <node id="294" lat="18.22571" lon="-76.63033"/>
+  <node id="295" lat="18.217751" lon="-76.579015"/>
+  <node id="296" lat="18.214677" lon="-76.574158"/>
+  <node id="297" lat="18.210103" lon="-76.569145"/>
+  <node id="298" lat="18.205917" lon="-76.563021"/>
+  <node id="299" lat="18.204109" lon="-76.554805"/>
+  <node id="300" lat="18.204109" lon="-76.479693"/>
+  <node id="301" lat="18.201034" lon="-76.474474"/>
+  <node id="302" lat="18.186797" lon="-76.466567"/>
+  <node id="303" lat="18.182379" lon="-76.46295"/>
+  <node id="304" lat="18.169176" lon="-76.389363"/>
+  <node id="305" lat="18.156024" lon="-76.351096"/>
+  <node id="306" lat="18.135198" lon="-76.346239"/>
+  <node id="307" lat="18.109257" lon="-76.317894"/>
+  <node id="308" lat="18.079181" lon="-76.295777"/>
+  <node id="309" lat="18.012312" lon="-76.263686"/>
+  <node id="310" lat="17.996344" lon="-76.256761"/>
+  <node id="311" lat="17.996163" lon="-76.257381"/>
+  <node id="312" lat="17.987895" lon="-76.285261"/>
+  <node id="313" lat="17.986732" lon="-76.295777"/>
+  <node id="314" lat="17.99146" lon="-76.332234"/>
+  <node id="315" lat="17.99469" lon="-76.345774"/>
+  <node id="316" lat="17.997868" lon="-76.349675"/>
+  <node id="317" lat="18.000659" lon="-76.352466"/>
+  <node id="318" lat="18.009702" lon="-76.359003"/>
+  <node id="319" lat="18.011614" lon="-76.360682"/>
+  <node id="320" lat="18.013035" lon="-76.362543"/>
+  <node id="321" lat="18.01518" lon="-76.367891"/>
+  <node id="322" lat="18.023551" lon="-76.397476"/>
+  <node id="323" lat="18.028409" lon="-76.430187"/>
+  <node id="324" lat="18.040579" lon="-76.45215"/>
+  <node id="325" lat="18.041793" lon="-76.457111"/>
+  <node id="326" lat="18.041974" lon="-76.461193"/>
+  <node id="327" lat="18.039933" lon="-76.466257"/>
+  <node id="328" lat="18.036419" lon="-76.472949"/>
+  <node id="329" lat="18.035489" lon="-76.476541"/>
+  <node id="330" lat="18.034843" lon="-76.481554"/>
+  <node id="331" lat="18.034765" lon="-76.495661"/>
+  <node id="332" lat="18.0343" lon="-76.499718"/>
+  <node id="333" lat="18.033163" lon="-76.502069"/>
+  <node id="334" lat="18.031613" lon="-76.504084"/>
+  <node id="335" lat="18.027479" lon="-76.508554"/>
+  <node id="336" lat="18.025076" lon="-76.51243"/>
+  <node id="337" lat="18.022208" lon="-76.520543"/>
+  <node id="338" lat="18.021769" lon="-76.525194"/>
+  <node id="339" lat="18.022156" lon="-76.528992"/>
+  <node id="340" lat="18.026032" lon="-76.53602"/>
+  <node id="341" lat="18.04032" lon="-76.583382"/>
+  <node id="342" lat="18.043731" lon="-76.590901"/>
+  <node id="343" lat="18.048046" lon="-76.597541"/>
+  <node id="344" lat="18.049751" lon="-76.599608"/>
+  <node id="345" lat="18.051534" lon="-76.601443"/>
+  <node id="346" lat="18.061378" lon="-76.609039"/>
+  <node id="347" lat="18.073626" lon="-76.627798"/>
+  <node id="348" lat="18.091454" lon="-76.672963"/>
+  <node id="349" lat="18.09334" lon="-76.685934"/>
+  <node id="350" lat="18.09179" lon="-76.687846"/>
+  <node id="351" lat="18.08962" lon="-76.689344"/>
+  <node id="352" lat="18.084659" lon="-76.691567"/>
+  <node id="353" lat="18.081713" lon="-76.693582"/>
+  <node id="354" lat="18.079801" lon="-76.698414"/>
+  <node id="355" lat="18.07807" lon="-76.708465"/>
+  <node id="356" lat="18.080628" lon="-76.72141"/>
+  <node id="357" lat="18.082514" lon="-76.727895"/>
+  <node id="358" lat="18.084685" lon="-76.731616"/>
+  <node id="359" lat="18.08856" lon="-76.734665"/>
+  <node id="360" lat="18.090705" lon="-76.735905"/>
+  <node id="361" lat="18.115794" lon="-76.744845"/>
+  <node id="362" lat="18.118326" lon="-76.745207"/>
+  <node id="364" lat="18.475333" lon="-77.454982"/>
+  <node id="365" lat="18.469261" lon="-77.428834"/>
+  <node id="366" lat="18.457323" lon="-77.408241"/>
+  <node id="367" lat="18.465178" lon="-77.376486"/>
+  <node id="368" lat="18.465049" lon="-77.3253"/>
+  <node id="369" lat="18.459365" lon="-77.272616"/>
+  <node id="370" lat="18.450502" lon="-77.236314"/>
+  <node id="371" lat="18.446058" lon="-77.231818"/>
+  <node id="372" lat="18.43363" lon="-77.228123"/>
+  <node id="373" lat="18.429418" lon="-77.223265"/>
+  <node id="374" lat="18.429315" lon="-77.217426"/>
+  <node id="375" lat="18.431821" lon="-77.212026"/>
+  <node id="376" lat="18.434922" lon="-77.208848"/>
+  <node id="377" lat="18.436859" lon="-77.209623"/>
+  <node id="378" lat="18.429418" lon="-77.164923"/>
+  <node id="379" lat="18.426214" lon="-77.159419"/>
+  <node id="380" lat="18.412106" lon="-77.142547"/>
+  <node id="381" lat="18.408928" lon="-77.137327"/>
+  <node id="382" lat="18.407869" lon="-77.104694"/>
+  <node id="383" lat="18.413398" lon="-77.070355"/>
+  <node id="384" lat="18.408851" lon="-77.069528"/>
+  <node id="385" lat="18.372264" lon="-77.060898"/>
+  <node id="386" lat="18.36707" lon="-77.060278"/>
+  <node id="387" lat="18.359887" lon="-77.058314"/>
+  <node id="388" lat="18.356348" lon="-77.056247"/>
+  <node id="389" lat="18.351542" lon="-77.051002"/>
+  <node id="390" lat="18.347898" lon="-77.048289"/>
+  <node id="391" lat="18.344152" lon="-77.046454"/>
+  <node id="392" lat="18.321724" lon="-77.048599"/>
+  <node id="393" lat="18.318701" lon="-77.048237"/>
+  <node id="394" lat="18.315006" lon="-77.046144"/>
+  <node id="395" lat="18.301002" lon="-77.033742"/>
+  <node id="396" lat="18.294646" lon="-77.029505"/>
+  <node id="397" lat="18.285447" lon="-77.02643"/>
+  <node id="398" lat="18.276947" lon="-77.025035"/>
+  <node id="399" lat="18.271469" lon="-77.023433"/>
+  <node id="400" lat="18.268834" lon="-77.022218"/>
+  <node id="401" lat="18.260333" lon="-77.015578"/>
+  <node id="402" lat="18.241962" lon="-76.996406"/>
+  <node id="403" lat="18.209767" lon="-77.056428"/>
+  <node id="404" lat="18.2023" lon="-77.076763"/>
+  <node id="406" lat="18.012854" lon="-76.860032"/>
+  <node id="407" lat="18.003837" lon="-76.85321"/>
+  <node id="408" lat="17.985492" lon="-76.847578"/>
+  <node id="409" lat="17.982753" lon="-76.854192"/>
+  <node id="410" lat="17.957767" lon="-76.870186"/>
+  <node id="411" lat="17.862321" lon="-76.913207"/>
+  <node id="412" lat="17.843356" lon="-76.926048"/>
+  <node id="413" lat="17.833537" lon="-76.942094"/>
+  <node id="414" lat="17.833434" lon="-76.955271"/>
+  <node id="415" lat="17.837206" lon="-76.964031"/>
+  <node id="416" lat="17.8424" lon="-76.972092"/>
+  <node id="417" lat="17.846585" lon="-76.983073"/>
+  <node id="418" lat="17.846585" lon="-77.038315"/>
+  <node id="419" lat="17.854027" lon="-77.038315"/>
+  <node id="420" lat="17.860848" lon="-77.017206"/>
+  <node id="421" lat="17.869788" lon="-77.027954"/>
+  <node id="422" lat="17.887203" lon="-77.041416"/>
+  <node id="423" lat="17.89498" lon="-77.051958"/>
+  <node id="424" lat="17.89945" lon="-77.064154"/>
+  <node id="425" lat="17.902448" lon="-77.092937"/>
+  <node id="426" lat="18.24638" lon="-76.981058"/>
+  <node id="427" lat="18.246923" lon="-76.97819"/>
+  <node id="428" lat="18.247078" lon="-76.975089"/>
+  <node id="429" lat="18.245088" lon="-76.955917"/>
+  <node id="430" lat="18.242814" lon="-76.952636"/>
+  <node id="431" lat="18.239197" lon="-76.949639"/>
+  <node id="432" lat="18.225477" lon="-76.943618"/>
+  <node id="433" lat="18.221084" lon="-76.940234"/>
+  <node id="434" lat="18.215581" lon="-76.932327"/>
+  <node id="435" lat="18.211163" lon="-76.928064"/>
+  <node id="436" lat="18.203385" lon="-76.924214"/>
+  <node id="437" lat="18.195298" lon="-76.922095"/>
+  <node id="438" lat="18.186797" lon="-76.920855"/>
+  <node id="439" lat="18.182534" lon="-76.918684"/>
+  <node id="440" lat="18.167238" lon="-76.907006"/>
+  <node id="441" lat="18.157393" lon="-76.896412"/>
+  <node id="442" lat="18.148298" lon="-76.872822"/>
+  <node id="443" lat="18.122098" lon="-76.875173"/>
+  <node id="444" lat="18.118223" lon="-76.874682"/>
+  <node id="445" lat="18.111918" lon="-76.873106"/>
+  <node id="446" lat="18.098818" lon="-76.866491"/>
+  <node id="447" lat="18.093883" lon="-76.865535"/>
+  <node id="448" lat="18.090085" lon="-76.86569"/>
+  <node id="449" lat="18.082876" lon="-76.869075"/>
+  <node id="450" lat="18.080705" lon="-76.870367"/>
+  <node id="451" lat="18.078793" lon="-76.872046"/>
+  <node id="452" lat="18.07714" lon="-76.873933"/>
+  <node id="453" lat="18.075693" lon="-76.875922"/>
+  <node id="454" lat="18.070422" lon="-76.878997"/>
+  <node id="455" lat="18.062076" lon="-76.882459"/>
+  <node id="456" lat="18.041871" lon="-76.888402"/>
+  <node id="457" lat="18.033163" lon="-76.889771"/>
+  <node id="458" lat="18.027505" lon="-76.889642"/>
+  <node id="459" lat="18.021303" lon="-76.882408"/>
+  <node id="460" lat="18.020244" lon="-76.881529"/>
+  <node id="461" lat="18.018668" lon="-76.880496"/>
+  <node id="462" lat="18.01412" lon="-76.878635"/>
+  <node id="463" lat="18.012002" lon="-76.877292"/>
+  <node id="464" lat="18.010451" lon="-76.875457"/>
+  <node id="465" lat="18.009599" lon="-76.873106"/>
+  <node id="466" lat="18.009599" lon="-76.870341"/>
+  <node id="467" lat="18.010141" lon="-76.867835"/>
+  <node id="468" lat="18.012312" lon="-76.862693"/>
+  <node id="470" lat="18.41637" lon="-77.051958"/>
+  <node id="471" lat="18.41345" lon="-77.039969"/>
+  <node id="472" lat="18.404122" lon="-77.019118"/>
+  <node id="473" lat="18.402107" lon="-77.007284"/>
+  <node id="474" lat="18.40451" lon="-76.948166"/>
+  <node id="475" lat="18.402107" lon="-76.928451"/>
+  <node id="476" lat="18.394795" lon="-76.910029"/>
+  <node id="477" lat="18.382237" lon="-76.891063"/>
+  <node id="478" lat="18.338468" lon="-76.841015"/>
+  <node id="479" lat="18.321647" lon="-76.816365"/>
+  <node id="480" lat="18.306506" lon="-76.805565"/>
+  <node id="481" lat="18.292088" lon="-76.798278"/>
+  <node id="482" lat="18.28338" lon="-76.792361"/>
+  <node id="483" lat="18.277877" lon="-76.782827"/>
+  <node id="484" lat="18.272993" lon="-76.764585"/>
+  <node id="485" lat="18.269195" lon="-76.712857"/>
+  <node id="486" lat="18.163801" lon="-76.806986"/>
+  <node id="487" lat="18.166928" lon="-76.823703"/>
+  <node id="488" lat="18.165765" lon="-76.829439"/>
+  <node id="489" lat="18.165687" lon="-76.842203"/>
+  <node id="490" lat="18.16468" lon="-76.848301"/>
+  <node id="491" lat="18.163026" lon="-76.852177"/>
+  <node id="492" lat="18.160649" lon="-76.85352"/>
+  <node id="493" lat="18.158039" lon="-76.854554"/>
+  <node id="494" lat="18.155378" lon="-76.856983"/>
+  <node id="495" lat="18.153621" lon="-76.859257"/>
+  <node id="497" lat="17.945649" lon="-76.644851"/>
+  <node id="498" lat="17.93875" lon="-76.651156"/>
+  <node id="499" lat="17.929707" lon="-76.65715"/>
+  <node id="500" lat="17.936063" lon="-76.684745"/>
+  <node id="501" lat="17.939991" lon="-76.69229"/>
+  <node id="502" lat="17.945933" lon="-76.707638"/>
+  <node id="503" lat="17.944771" lon="-76.728438"/>
+  <node id="504" lat="17.93658" lon="-76.764585"/>
+  <node id="505" lat="17.934797" lon="-76.780037"/>
+  <node id="506" lat="17.93658" lon="-76.83223"/>
+  <node id="507" lat="17.943401" lon="-76.83223"/>
+  <node id="508" lat="17.949602" lon="-76.722392"/>
+  <node id="509" lat="17.987326" lon="-76.818897"/>
+  <node id="510" lat="17.991822" lon="-76.83223"/>
+  <node id="511" lat="18.065538" lon="-76.636996"/>
+  <node id="512" lat="18.059208" lon="-76.638702"/>
+  <node id="513" lat="18.051095" lon="-76.639993"/>
+  <node id="514" lat="18.036057" lon="-76.640407"/>
+  <node id="515" lat="18.029882" lon="-76.639063"/>
+  <node id="516" lat="18.024223" lon="-76.636738"/>
+  <node id="517" lat="18.019779" lon="-76.633973"/>
+  <node id="518" lat="18.00102" lon="-76.62847"/>
+  <node id="519" lat="17.997713" lon="-76.626713"/>
+  <node id="520" lat="17.987946" lon="-76.619478"/>
+  <node id="521" lat="17.982288" lon="-76.616248"/>
+  <node id="522" lat="17.978851" lon="-76.616248"/>
+  <node id="523" lat="17.976913" lon="-76.617824"/>
+  <node id="524" lat="17.976422" lon="-76.620589"/>
+  <node id="525" lat="17.977249" lon="-76.630537"/>
+  <node id="526" lat="17.976422" lon="-76.634567"/>
+  <node id="527" lat="17.974665" lon="-76.638443"/>
+  <node id="528" lat="17.968309" lon="-76.642861"/>
+  <node id="529" lat="17.962521" lon="-76.643869"/>
+  <node id="530" lat="17.953194" lon="-76.643301"/>
+  <node id="531" lat="17.948827" lon="-76.643792"/>
+  <node id="533" lat="17.934952" lon="-76.215239"/>
+  <node id="534" lat="17.91547" lon="-76.18798"/>
+  <node id="535" lat="17.907434" lon="-76.198367"/>
+  <node id="536" lat="17.89498" lon="-76.250043"/>
+  <node id="537" lat="17.875834" lon="-76.286475"/>
+  <node id="538" lat="17.870098" lon="-76.307352"/>
+  <node id="539" lat="17.874517" lon="-76.325129"/>
+  <node id="540" lat="17.879271" lon="-76.318204"/>
+  <node id="541" lat="17.882656" lon="-76.315362"/>
+  <node id="542" lat="17.89498" lon="-76.311486"/>
+  <node id="543" lat="17.888676" lon="-76.329573"/>
+  <node id="544" lat="17.865861" lon="-76.345593"/>
+  <node id="545" lat="17.860848" lon="-76.363008"/>
+  <node id="546" lat="17.865086" lon="-76.378511"/>
+  <node id="547" lat="17.873044" lon="-76.396494"/>
+  <node id="548" lat="17.87754" lon="-76.414865"/>
+  <node id="549" lat="17.866765" lon="-76.444941"/>
+  <node id="550" lat="17.86028" lon="-76.523489"/>
+  <node id="551" lat="17.868315" lon="-76.579015"/>
+  <node id="552" lat="17.867954" lon="-76.587077"/>
+  <node id="553" lat="17.86661" lon="-76.59457"/>
+  <node id="554" lat="17.867592" lon="-76.602735"/>
+  <node id="555" lat="17.874517" lon="-76.613148"/>
+  <node id="556" lat="17.883586" lon="-76.617669"/>
+  <node id="557" lat="17.89511" lon="-76.619633"/>
+  <node id="558" lat="17.905031" lon="-76.622682"/>
+  <node id="559" lat="17.909269" lon="-76.630537"/>
+  <node id="560" lat="17.911646" lon="-76.638598"/>
+  <node id="561" lat="17.917253" lon="-76.643921"/>
+  <node id="562" lat="17.923867" lon="-76.648572"/>
+  <node id="563" lat="17.929138" lon="-76.654721"/>
+  <node id="564" lat="17.977818" lon="-76.248751"/>
+  <node id="565" lat="17.953892" lon="-76.234049"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="1471"/>
+    <tag k="VertexCou" v="89"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Clarendon"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.CL"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM01"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.64504"/>
+    <tag k="Shape_Area" v="0.102759"/>
+  </way>
+  <way id="000000091">
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="92"/>
+    <tag k="OBJECTID" v="1472"/>
+    <tag k="VertexCou" v="53"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Hanover"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.HA"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="12"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM02"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.103376"/>
+    <tag k="Shape_Area" v="0.041844"/>
+  </way>
+  <way id="000000145">
+    <nd ref="32"/>
+    <nd ref="31"/>
+    <nd ref="30"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="50"/>
+    <nd ref="49"/>
+    <nd ref="48"/>
+    <nd ref="47"/>
+    <nd ref="46"/>
+    <nd ref="45"/>
+    <nd ref="44"/>
+    <nd ref="43"/>
+    <nd ref="42"/>
+    <nd ref="41"/>
+    <nd ref="40"/>
+    <nd ref="39"/>
+    <nd ref="38"/>
+    <nd ref="37"/>
+    <nd ref="36"/>
+    <nd ref="35"/>
+    <nd ref="34"/>
+    <nd ref="33"/>
+    <nd ref="32"/>
+    <tag k="OBJECTID" v="1473"/>
+    <tag k="VertexCou" v="46"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Manchester"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.MA"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM04"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.116121"/>
+    <tag k="Shape_Area" v="0.069697"/>
+  </way>
+  <way id="000000166">
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="156"/>
+    <nd ref="155"/>
+    <tag k="OBJECTID" v="1474"/>
+    <tag k="VertexCou" v="37"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Elizabeth"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SE"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="7"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM11"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.326109"/>
+    <tag k="Shape_Area" v="0.098515"/>
+  </way>
+  <way id="000000200">
+    <nd ref="118"/>
+    <nd ref="117"/>
+    <nd ref="116"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="199"/>
+    <nd ref="198"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="134"/>
+    <nd ref="133"/>
+    <nd ref="132"/>
+    <nd ref="131"/>
+    <nd ref="130"/>
+    <nd ref="129"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="125"/>
+    <nd ref="124"/>
+    <nd ref="123"/>
+    <nd ref="122"/>
+    <nd ref="121"/>
+    <nd ref="120"/>
+    <nd ref="119"/>
+    <nd ref="118"/>
+    <tag k="OBJECTID" v="1475"/>
+    <tag k="VertexCou" v="44"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint James"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SJ"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="14"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM12"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.001925"/>
+    <tag k="Shape_Area" v="0.056708"/>
+  </way>
+  <way id="000000224">
+    <nd ref="199"/>
+    <nd ref="214"/>
+    <nd ref="213"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="55"/>
+    <nd ref="165"/>
+    <nd ref="164"/>
+    <nd ref="163"/>
+    <nd ref="162"/>
+    <nd ref="161"/>
+    <nd ref="160"/>
+    <nd ref="159"/>
+    <nd ref="158"/>
+    <nd ref="157"/>
+    <nd ref="156"/>
+    <nd ref="199"/>
+    <tag k="OBJECTID" v="1476"/>
+    <tag k="VertexCou" v="30"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Trelawny"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.TR"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="11"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM15"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.143589"/>
+    <tag k="Shape_Area" v="0.077934"/>
+  </way>
+  <way id="000000241">
+    <nd ref="187"/>
+    <nd ref="186"/>
+    <nd ref="185"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="94"/>
+    <nd ref="93"/>
+    <nd ref="92"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="137"/>
+    <nd ref="136"/>
+    <nd ref="135"/>
+    <nd ref="134"/>
+    <nd ref="223"/>
+    <nd ref="222"/>
+    <nd ref="221"/>
+    <nd ref="220"/>
+    <nd ref="219"/>
+    <nd ref="218"/>
+    <nd ref="217"/>
+    <nd ref="216"/>
+    <nd ref="215"/>
+    <nd ref="198"/>
+    <nd ref="197"/>
+    <nd ref="196"/>
+    <nd ref="195"/>
+    <nd ref="194"/>
+    <nd ref="193"/>
+    <nd ref="192"/>
+    <nd ref="191"/>
+    <nd ref="190"/>
+    <nd ref="189"/>
+    <nd ref="188"/>
+    <nd ref="187"/>
+    <tag k="OBJECTID" v="1477"/>
+    <tag k="VertexCou" v="65"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Westmoreland"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.WE"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="13"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM16"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.308232"/>
+    <tag k="Shape_Area" v="0.063427"/>
+  </way>
+  <way id="000000270">
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="271"/>
+    <tag k="OBJECTID" v="1478"/>
+    <tag k="VertexCou" v="15"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Kingston"/>
+    <tag k="VARNAME_1" v="Kingston and Port Royal"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.KI"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="6"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM17"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.21249"/>
+    <tag k="Shape_Area" v="0.00231"/>
+  </way>
+  <way id="000000286">
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="362"/>
+    <nd ref="287"/>
+    <tag k="OBJECTID" v="1479"/>
+    <tag k="VertexCou" v="76"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Portland"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.PO"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="1930"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="9"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM07"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.28873"/>
+    <tag k="Shape_Area" v="0.070597"/>
+  </way>
+  <way id="000000363">
+    <nd ref="230"/>
+    <nd ref="229"/>
+    <nd ref="228"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="394"/>
+    <nd ref="395"/>
+    <nd ref="396"/>
+    <nd ref="397"/>
+    <nd ref="398"/>
+    <nd ref="399"/>
+    <nd ref="400"/>
+    <nd ref="401"/>
+    <nd ref="402"/>
+    <nd ref="403"/>
+    <nd ref="404"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="67"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <nd ref="240"/>
+    <nd ref="239"/>
+    <nd ref="238"/>
+    <nd ref="237"/>
+    <nd ref="236"/>
+    <nd ref="235"/>
+    <nd ref="234"/>
+    <nd ref="233"/>
+    <nd ref="232"/>
+    <nd ref="231"/>
+    <nd ref="230"/>
+    <tag k="OBJECTID" v="1480"/>
+    <tag k="VertexCou" v="69"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Ann"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SN"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="10"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM09"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.424059"/>
+    <tag k="Shape_Area" v="0.106921"/>
+  </way>
+  <way id="000000405">
+    <nd ref="406"/>
+    <nd ref="407"/>
+    <nd ref="408"/>
+    <nd ref="409"/>
+    <nd ref="410"/>
+    <nd ref="411"/>
+    <nd ref="412"/>
+    <nd ref="413"/>
+    <nd ref="414"/>
+    <nd ref="415"/>
+    <nd ref="416"/>
+    <nd ref="417"/>
+    <nd ref="418"/>
+    <nd ref="419"/>
+    <nd ref="420"/>
+    <nd ref="421"/>
+    <nd ref="422"/>
+    <nd ref="423"/>
+    <nd ref="424"/>
+    <nd ref="425"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="90"/>
+    <nd ref="89"/>
+    <nd ref="88"/>
+    <nd ref="87"/>
+    <nd ref="86"/>
+    <nd ref="85"/>
+    <nd ref="84"/>
+    <nd ref="83"/>
+    <nd ref="82"/>
+    <nd ref="81"/>
+    <nd ref="80"/>
+    <nd ref="79"/>
+    <nd ref="78"/>
+    <nd ref="77"/>
+    <nd ref="76"/>
+    <nd ref="75"/>
+    <nd ref="74"/>
+    <nd ref="73"/>
+    <nd ref="72"/>
+    <nd ref="71"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="404"/>
+    <nd ref="403"/>
+    <nd ref="402"/>
+    <nd ref="426"/>
+    <nd ref="427"/>
+    <nd ref="428"/>
+    <nd ref="429"/>
+    <nd ref="430"/>
+    <nd ref="431"/>
+    <nd ref="432"/>
+    <nd ref="433"/>
+    <nd ref="434"/>
+    <nd ref="435"/>
+    <nd ref="436"/>
+    <nd ref="437"/>
+    <nd ref="438"/>
+    <nd ref="439"/>
+    <nd ref="440"/>
+    <nd ref="441"/>
+    <nd ref="442"/>
+    <nd ref="443"/>
+    <nd ref="444"/>
+    <nd ref="445"/>
+    <nd ref="446"/>
+    <nd ref="447"/>
+    <nd ref="448"/>
+    <nd ref="449"/>
+    <nd ref="450"/>
+    <nd ref="451"/>
+    <nd ref="452"/>
+    <nd ref="453"/>
+    <nd ref="454"/>
+    <nd ref="455"/>
+    <nd ref="456"/>
+    <nd ref="457"/>
+    <nd ref="458"/>
+    <nd ref="459"/>
+    <nd ref="460"/>
+    <nd ref="461"/>
+    <nd ref="462"/>
+    <nd ref="463"/>
+    <nd ref="464"/>
+    <nd ref="465"/>
+    <nd ref="466"/>
+    <nd ref="467"/>
+    <nd ref="468"/>
+    <nd ref="406"/>
+    <tag k="OBJECTID" v="1481"/>
+    <tag k="VertexCou" v="91"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Catherine"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SC"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM10"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.38182"/>
+    <tag k="Shape_Area" v="0.099377"/>
+  </way>
+  <way id="000000469">
+    <nd ref="385"/>
+    <nd ref="384"/>
+    <nd ref="383"/>
+    <nd ref="470"/>
+    <nd ref="471"/>
+    <nd ref="472"/>
+    <nd ref="473"/>
+    <nd ref="474"/>
+    <nd ref="475"/>
+    <nd ref="476"/>
+    <nd ref="477"/>
+    <nd ref="478"/>
+    <nd ref="479"/>
+    <nd ref="480"/>
+    <nd ref="481"/>
+    <nd ref="482"/>
+    <nd ref="483"/>
+    <nd ref="484"/>
+    <nd ref="485"/>
+    <nd ref="289"/>
+    <nd ref="288"/>
+    <nd ref="287"/>
+    <nd ref="486"/>
+    <nd ref="487"/>
+    <nd ref="488"/>
+    <nd ref="489"/>
+    <nd ref="490"/>
+    <nd ref="491"/>
+    <nd ref="492"/>
+    <nd ref="493"/>
+    <nd ref="494"/>
+    <nd ref="495"/>
+    <nd ref="442"/>
+    <nd ref="441"/>
+    <nd ref="440"/>
+    <nd ref="439"/>
+    <nd ref="438"/>
+    <nd ref="437"/>
+    <nd ref="436"/>
+    <nd ref="435"/>
+    <nd ref="434"/>
+    <nd ref="433"/>
+    <nd ref="432"/>
+    <nd ref="431"/>
+    <nd ref="430"/>
+    <nd ref="429"/>
+    <nd ref="428"/>
+    <nd ref="427"/>
+    <nd ref="426"/>
+    <nd ref="402"/>
+    <nd ref="401"/>
+    <nd ref="400"/>
+    <nd ref="399"/>
+    <nd ref="398"/>
+    <nd ref="397"/>
+    <nd ref="396"/>
+    <nd ref="395"/>
+    <nd ref="394"/>
+    <nd ref="393"/>
+    <nd ref="392"/>
+    <nd ref="391"/>
+    <nd ref="390"/>
+    <nd ref="389"/>
+    <nd ref="388"/>
+    <nd ref="387"/>
+    <nd ref="386"/>
+    <nd ref="385"/>
+    <tag k="OBJECTID" v="1482"/>
+    <tag k="VertexCou" v="66"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Mary"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SM"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="1930"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="8"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM13"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.064813"/>
+    <tag k="Shape_Area" v="0.053269"/>
+  </way>
+  <way id="000000496">
+    <nd ref="497"/>
+    <nd ref="498"/>
+    <nd ref="499"/>
+    <nd ref="500"/>
+    <nd ref="501"/>
+    <nd ref="502"/>
+    <nd ref="503"/>
+    <nd ref="504"/>
+    <nd ref="505"/>
+    <nd ref="506"/>
+    <nd ref="507"/>
+    <nd ref="508"/>
+    <nd ref="273"/>
+    <nd ref="272"/>
+    <nd ref="271"/>
+    <nd ref="285"/>
+    <nd ref="284"/>
+    <nd ref="283"/>
+    <nd ref="282"/>
+    <nd ref="281"/>
+    <nd ref="280"/>
+    <nd ref="279"/>
+    <nd ref="278"/>
+    <nd ref="509"/>
+    <nd ref="510"/>
+    <nd ref="408"/>
+    <nd ref="407"/>
+    <nd ref="406"/>
+    <nd ref="468"/>
+    <nd ref="467"/>
+    <nd ref="466"/>
+    <nd ref="465"/>
+    <nd ref="464"/>
+    <nd ref="463"/>
+    <nd ref="462"/>
+    <nd ref="461"/>
+    <nd ref="460"/>
+    <nd ref="459"/>
+    <nd ref="458"/>
+    <nd ref="457"/>
+    <nd ref="456"/>
+    <nd ref="455"/>
+    <nd ref="454"/>
+    <nd ref="453"/>
+    <nd ref="452"/>
+    <nd ref="451"/>
+    <nd ref="450"/>
+    <nd ref="449"/>
+    <nd ref="448"/>
+    <nd ref="447"/>
+    <nd ref="446"/>
+    <nd ref="445"/>
+    <nd ref="444"/>
+    <nd ref="443"/>
+    <nd ref="442"/>
+    <nd ref="495"/>
+    <nd ref="494"/>
+    <nd ref="493"/>
+    <nd ref="492"/>
+    <nd ref="491"/>
+    <nd ref="490"/>
+    <nd ref="489"/>
+    <nd ref="488"/>
+    <nd ref="487"/>
+    <nd ref="486"/>
+    <nd ref="287"/>
+    <nd ref="362"/>
+    <nd ref="361"/>
+    <nd ref="360"/>
+    <nd ref="359"/>
+    <nd ref="358"/>
+    <nd ref="357"/>
+    <nd ref="356"/>
+    <nd ref="355"/>
+    <nd ref="354"/>
+    <nd ref="353"/>
+    <nd ref="352"/>
+    <nd ref="351"/>
+    <nd ref="350"/>
+    <nd ref="349"/>
+    <nd ref="348"/>
+    <nd ref="347"/>
+    <nd ref="511"/>
+    <nd ref="512"/>
+    <nd ref="513"/>
+    <nd ref="514"/>
+    <nd ref="515"/>
+    <nd ref="516"/>
+    <nd ref="517"/>
+    <nd ref="518"/>
+    <nd ref="519"/>
+    <nd ref="520"/>
+    <nd ref="521"/>
+    <nd ref="522"/>
+    <nd ref="523"/>
+    <nd ref="524"/>
+    <nd ref="525"/>
+    <nd ref="526"/>
+    <nd ref="527"/>
+    <nd ref="528"/>
+    <nd ref="529"/>
+    <nd ref="530"/>
+    <nd ref="531"/>
+    <nd ref="497"/>
+    <tag k="OBJECTID" v="1483"/>
+    <tag k="VertexCou" v="103"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Andrew"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.SD"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM08"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.158321"/>
+    <tag k="Shape_Area" v="0.037224"/>
+  </way>
+  <way id="000000532">
+    <nd ref="533"/>
+    <nd ref="534"/>
+    <nd ref="535"/>
+    <nd ref="536"/>
+    <nd ref="537"/>
+    <nd ref="538"/>
+    <nd ref="539"/>
+    <nd ref="540"/>
+    <nd ref="541"/>
+    <nd ref="542"/>
+    <nd ref="543"/>
+    <nd ref="544"/>
+    <nd ref="545"/>
+    <nd ref="546"/>
+    <nd ref="547"/>
+    <nd ref="548"/>
+    <nd ref="549"/>
+    <nd ref="550"/>
+    <nd ref="551"/>
+    <nd ref="552"/>
+    <nd ref="553"/>
+    <nd ref="554"/>
+    <nd ref="555"/>
+    <nd ref="556"/>
+    <nd ref="557"/>
+    <nd ref="558"/>
+    <nd ref="559"/>
+    <nd ref="560"/>
+    <nd ref="561"/>
+    <nd ref="562"/>
+    <nd ref="563"/>
+    <nd ref="499"/>
+    <nd ref="498"/>
+    <nd ref="497"/>
+    <nd ref="531"/>
+    <nd ref="530"/>
+    <nd ref="529"/>
+    <nd ref="528"/>
+    <nd ref="527"/>
+    <nd ref="526"/>
+    <nd ref="525"/>
+    <nd ref="524"/>
+    <nd ref="523"/>
+    <nd ref="522"/>
+    <nd ref="521"/>
+    <nd ref="520"/>
+    <nd ref="519"/>
+    <nd ref="518"/>
+    <nd ref="517"/>
+    <nd ref="516"/>
+    <nd ref="515"/>
+    <nd ref="514"/>
+    <nd ref="513"/>
+    <nd ref="512"/>
+    <nd ref="511"/>
+    <nd ref="347"/>
+    <nd ref="346"/>
+    <nd ref="345"/>
+    <nd ref="344"/>
+    <nd ref="343"/>
+    <nd ref="342"/>
+    <nd ref="341"/>
+    <nd ref="340"/>
+    <nd ref="339"/>
+    <nd ref="338"/>
+    <nd ref="337"/>
+    <nd ref="336"/>
+    <nd ref="335"/>
+    <nd ref="334"/>
+    <nd ref="333"/>
+    <nd ref="332"/>
+    <nd ref="331"/>
+    <nd ref="330"/>
+    <nd ref="329"/>
+    <nd ref="328"/>
+    <nd ref="327"/>
+    <nd ref="326"/>
+    <nd ref="325"/>
+    <nd ref="324"/>
+    <nd ref="323"/>
+    <nd ref="322"/>
+    <nd ref="321"/>
+    <nd ref="320"/>
+    <nd ref="319"/>
+    <nd ref="318"/>
+    <nd ref="317"/>
+    <nd ref="316"/>
+    <nd ref="315"/>
+    <nd ref="314"/>
+    <nd ref="313"/>
+    <nd ref="312"/>
+    <nd ref="311"/>
+    <nd ref="310"/>
+    <nd ref="564"/>
+    <nd ref="565"/>
+    <nd ref="533"/>
+    <tag k="OBJECTID" v="1484"/>
+    <tag k="VertexCou" v="95"/>
+    <tag k="ISO" v="JAM"/>
+    <tag k="NAME_0" v="Jamaica"/>
+    <tag k="NAME_1" v="Saint Thomas"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="JM.ST"/>
+    <tag k="TYPE_1" v="Parish"/>
+    <tag k="ENGTYPE_1" v="Parish"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Unknown"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="5"/>
+    <tag k="NEV_Countr" v="Jamaica"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="JM14"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.266848"/>
+    <tag k="Shape_Area" v="0.0609"/>
+  </way>
+</osm>

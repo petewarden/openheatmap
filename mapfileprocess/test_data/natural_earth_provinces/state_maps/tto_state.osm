@@ -1,0 +1,1440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="11.343649" lon="-60.523044"/>
+  <node id="3" lat="11.318844" lon="-60.522063"/>
+  <node id="4" lat="11.288149" lon="-60.525525"/>
+  <node id="5" lat="11.266496" lon="-60.532992"/>
+  <node id="6" lat="11.269132" lon="-60.544128"/>
+  <node id="7" lat="11.269132" lon="-60.55033"/>
+  <node id="8" lat="11.254094" lon="-60.556505"/>
+  <node id="9" lat="11.252492" lon="-60.565264"/>
+  <node id="10" lat="11.255696" lon="-60.575238"/>
+  <node id="11" lat="11.255489" lon="-60.585108"/>
+  <node id="12" lat="11.251097" lon="-60.587071"/>
+  <node id="13" lat="11.231408" lon="-60.60198"/>
+  <node id="14" lat="11.230684" lon="-60.605572"/>
+  <node id="15" lat="11.216577" lon="-60.628774"/>
+  <node id="16" lat="11.210789" lon="-60.636009"/>
+  <node id="17" lat="11.204174" lon="-60.647094"/>
+  <node id="18" lat="11.204278" lon="-60.65978"/>
+  <node id="19" lat="11.206706" lon="-60.671873"/>
+  <node id="20" lat="11.207068" lon="-60.681303"/>
+  <node id="21" lat="11.177096" lon="-60.741713"/>
+  <node id="22" lat="11.17291" lon="-60.759516"/>
+  <node id="23" lat="11.149966" lon="-60.786387"/>
+  <node id="24" lat="11.143248" lon="-60.803337"/>
+  <node id="25" lat="11.159267" lon="-60.810417"/>
+  <node id="26" lat="11.151826" lon="-60.825377"/>
+  <node id="27" lat="11.154152" lon="-60.839304"/>
+  <node id="28" lat="11.16397" lon="-60.847495"/>
+  <node id="29" lat="11.179111" lon="-60.845169"/>
+  <node id="30" lat="11.183349" lon="-60.836669"/>
+  <node id="31" lat="11.185519" lon="-60.822819"/>
+  <node id="32" lat="11.190687" lon="-60.8099"/>
+  <node id="33" lat="11.203658" lon="-60.804216"/>
+  <node id="34" lat="11.216628" lon="-60.794346"/>
+  <node id="35" lat="11.271302" lon="-60.709674"/>
+  <node id="36" lat="11.288872" lon="-60.691587"/>
+  <node id="37" lat="11.296417" lon="-60.681303"/>
+  <node id="38" lat="11.302928" lon="-60.668591"/>
+  <node id="39" lat="11.314814" lon="-60.635777"/>
+  <node id="40" lat="11.320705" lon="-60.607561"/>
+  <node id="41" lat="11.327319" lon="-60.595779"/>
+  <node id="42" lat="11.329541" lon="-60.583635"/>
+  <node id="43" lat="11.320343" lon="-60.567719"/>
+  <node id="44" lat="11.321221" lon="-60.560303"/>
+  <node id="45" lat="11.343339" lon="-60.54126"/>
+  <node id="46" lat="11.35109" lon="-60.530486"/>
+  <node id="48" lat="10.677385" lon="-61.534378"/>
+  <node id="49" lat="10.668858" lon="-61.545049"/>
+  <node id="50" lat="10.667049" lon="-61.549106"/>
+  <node id="51" lat="10.679917" lon="-61.577631"/>
+  <node id="52" lat="10.684413" lon="-61.598999"/>
+  <node id="53" lat="10.687823" lon="-61.650004"/>
+  <node id="54" lat="10.689735" lon="-61.656334"/>
+  <node id="55" lat="10.69511" lon="-61.661269"/>
+  <node id="56" lat="10.706789" lon="-61.667574"/>
+  <node id="57" lat="10.742187" lon="-61.615639"/>
+  <node id="58" lat="10.747768" lon="-61.6021"/>
+  <node id="59" lat="10.744306" lon="-61.561095"/>
+  <node id="60" lat="10.754951" lon="-61.515077"/>
+  <node id="61" lat="10.754641" lon="-61.490091"/>
+  <node id="62" lat="10.750507" lon="-61.489704"/>
+  <node id="63" lat="10.72963" lon="-61.487998"/>
+  <node id="64" lat="10.706479" lon="-61.493683"/>
+  <node id="65" lat="10.675834" lon="-61.511408"/>
+  <node id="66" lat="10.678005" lon="-61.52611"/>
+  <node id="68" lat="10.117574" lon="-61.495569"/>
+  <node id="69" lat="10.10667" lon="-61.499186"/>
+  <node id="70" lat="10.069515" lon="-61.504147"/>
+  <node id="71" lat="10.076181" lon="-61.544067"/>
+  <node id="72" lat="10.073856" lon="-61.553447"/>
+  <node id="73" lat="10.062539" lon="-61.58192"/>
+  <node id="74" lat="10.061453" lon="-61.593134"/>
+  <node id="75" lat="10.056802" lon="-61.612771"/>
+  <node id="76" lat="10.055666" lon="-61.6229"/>
+  <node id="77" lat="10.057784" lon="-61.636982"/>
+  <node id="78" lat="10.063004" lon="-61.646903"/>
+  <node id="79" lat="10.06967" lon="-61.656024"/>
+  <node id="80" lat="10.076181" lon="-61.667574"/>
+  <node id="81" lat="10.081607" lon="-61.686178"/>
+  <node id="82" lat="10.083984" lon="-61.706693"/>
+  <node id="83" lat="10.084088" lon="-61.793303"/>
+  <node id="84" lat="10.081349" lon="-61.817022"/>
+  <node id="85" lat="10.07277" lon="-61.835161"/>
+  <node id="86" lat="10.061453" lon="-61.849785"/>
+  <node id="87" lat="10.050033" lon="-61.869267"/>
+  <node id="88" lat="10.042281" lon="-61.889705"/>
+  <node id="89" lat="10.042023" lon="-61.907172"/>
+  <node id="90" lat="10.056492" lon="-61.928695"/>
+  <node id="91" lat="10.070032" lon="-61.918928"/>
+  <node id="92" lat="10.086723" lon="-61.886682"/>
+  <node id="93" lat="10.090444" lon="-61.881954"/>
+  <node id="94" lat="10.093803" lon="-61.870947"/>
+  <node id="95" lat="10.099901" lon="-61.838545"/>
+  <node id="96" lat="10.106153" lon="-61.831957"/>
+  <node id="97" lat="10.121191" lon="-61.821518"/>
+  <node id="98" lat="10.13287" lon="-61.805886"/>
+  <node id="99" lat="10.140932" lon="-61.789169"/>
+  <node id="100" lat="10.163669" lon="-61.712067"/>
+  <node id="101" lat="10.165891" lon="-61.707391"/>
+  <node id="102" lat="10.161499" lon="-61.704135"/>
+  <node id="103" lat="10.142379" lon="-61.692017"/>
+  <node id="104" lat="10.143205" lon="-61.682483"/>
+  <node id="105" lat="10.14703" lon="-61.671114"/>
+  <node id="106" lat="10.164703" lon="-61.649823"/>
+  <node id="107" lat="10.173074" lon="-61.643751"/>
+  <node id="108" lat="10.179844" lon="-61.63972"/>
+  <node id="109" lat="10.192246" lon="-61.630729"/>
+  <node id="110" lat="10.197569" lon="-61.629566"/>
+  <node id="111" lat="10.202427" lon="-61.632253"/>
+  <node id="112" lat="10.207801" lon="-61.63755"/>
+  <node id="113" lat="10.210075" lon="-61.639307"/>
+  <node id="114" lat="10.210488" lon="-61.63879"/>
+  <node id="115" lat="10.240667" lon="-61.639643"/>
+  <node id="116" lat="10.247282" lon="-61.626931"/>
+  <node id="117" lat="10.247489" lon="-61.611763"/>
+  <node id="118" lat="10.238704" lon="-61.560087"/>
+  <node id="119" lat="10.24015" lon="-61.520787"/>
+  <node id="120" lat="10.233536" lon="-61.516446"/>
+  <node id="121" lat="10.209868" lon="-61.489187"/>
+  <node id="122" lat="10.202117" lon="-61.476681"/>
+  <node id="123" lat="10.192867" lon="-61.471565"/>
+  <node id="124" lat="10.185735" lon="-61.468801"/>
+  <node id="125" lat="10.168527" lon="-61.46924"/>
+  <node id="126" lat="10.150233" lon="-61.473296"/>
+  <node id="127" lat="10.14057" lon="-61.477973"/>
+  <node id="128" lat="10.126049" lon="-61.490479"/>
+  <node id="130" lat="10.610515" lon="-61.292532"/>
+  <node id="131" lat="10.612117" lon="-61.294987"/>
+  <node id="132" lat="10.613874" lon="-61.295555"/>
+  <node id="133" lat="10.615786" lon="-61.295219"/>
+  <node id="134" lat="10.617595" lon="-61.294057"/>
+  <node id="135" lat="10.621109" lon="-61.290284"/>
+  <node id="136" lat="10.62328" lon="-61.288682"/>
+  <node id="137" lat="10.628912" lon="-61.287571"/>
+  <node id="138" lat="10.630721" lon="-61.287726"/>
+  <node id="139" lat="10.632581" lon="-61.287985"/>
+  <node id="140" lat="10.634442" lon="-61.287881"/>
+  <node id="141" lat="10.636044" lon="-61.28752"/>
+  <node id="142" lat="10.637542" lon="-61.286719"/>
+  <node id="143" lat="10.638576" lon="-61.285814"/>
+  <node id="144" lat="10.639764" lon="-61.285246"/>
+  <node id="145" lat="10.641005" lon="-61.285556"/>
+  <node id="146" lat="10.642607" lon="-61.286409"/>
+  <node id="147" lat="10.645035" lon="-61.286564"/>
+  <node id="148" lat="10.653975" lon="-61.285427"/>
+  <node id="149" lat="10.640643" lon="-61.271267"/>
+  <node id="150" lat="10.633718" lon="-61.269846"/>
+  <node id="151" lat="10.619662" lon="-61.26548"/>
+  <node id="152" lat="10.613616" lon="-61.265221"/>
+  <node id="153" lat="10.60974" lon="-61.266772"/>
+  <node id="154" lat="10.6085" lon="-61.269795"/>
+  <node id="155" lat="10.607363" lon="-61.274523"/>
+  <node id="156" lat="10.60757" lon="-61.283334"/>
+  <node id="158" lat="10.830915" lon="-61.07854"/>
+  <node id="159" lat="10.845281" lon="-60.948832"/>
+  <node id="160" lat="10.837117" lon="-60.907233"/>
+  <node id="161" lat="10.763529" lon="-60.949711"/>
+  <node id="162" lat="10.699347" lon="-61.002214"/>
+  <node id="163" lat="10.702758" lon="-61.020818"/>
+  <node id="164" lat="10.683534" lon="-61.032703"/>
+  <node id="165" lat="10.653614" lon="-61.038052"/>
+  <node id="166" lat="10.624881" lon="-61.036967"/>
+  <node id="167" lat="10.56411" lon="-61.017536"/>
+  <node id="168" lat="10.534499" lon="-61.013505"/>
+  <node id="169" lat="10.509953" lon="-61.04247"/>
+  <node id="170" lat="10.481893" lon="-61.04185"/>
+  <node id="171" lat="10.463651" lon="-61.038439"/>
+  <node id="172" lat="10.469542" lon="-61.095309"/>
+  <node id="173" lat="10.456365" lon="-61.197138"/>
+  <node id="174" lat="10.461791" lon="-61.216568"/>
+  <node id="175" lat="10.466183" lon="-61.218041"/>
+  <node id="176" lat="10.474813" lon="-61.218635"/>
+  <node id="177" lat="10.497292" lon="-61.210393"/>
+  <node id="178" lat="10.513157" lon="-61.210186"/>
+  <node id="179" lat="10.521219" lon="-61.217937"/>
+  <node id="180" lat="10.529332" lon="-61.221064"/>
+  <node id="181" lat="10.5715" lon="-61.223984"/>
+  <node id="182" lat="10.582197" lon="-61.228092"/>
+  <node id="183" lat="10.591447" lon="-61.239151"/>
+  <node id="184" lat="10.603539" lon="-61.21339"/>
+  <node id="185" lat="10.609844" lon="-61.209204"/>
+  <node id="186" lat="10.617647" lon="-61.202925"/>
+  <node id="187" lat="10.624933" lon="-61.201298"/>
+  <node id="188" lat="10.632065" lon="-61.201323"/>
+  <node id="189" lat="10.638214" lon="-61.203416"/>
+  <node id="190" lat="10.647878" lon="-61.210909"/>
+  <node id="191" lat="10.655009" lon="-61.214708"/>
+  <node id="192" lat="10.671494" lon="-61.217963"/>
+  <node id="193" lat="10.686635" lon="-61.2137"/>
+  <node id="194" lat="10.704308" lon="-61.213312"/>
+  <node id="195" lat="10.71268" lon="-61.214294"/>
+  <node id="196" lat="10.717227" lon="-61.219591"/>
+  <node id="197" lat="10.719294" lon="-61.22388"/>
+  <node id="198" lat="10.719708" lon="-61.230159"/>
+  <node id="199" lat="10.721361" lon="-61.235301"/>
+  <node id="200" lat="10.723222" lon="-61.239538"/>
+  <node id="201" lat="10.727149" lon="-61.237626"/>
+  <node id="202" lat="10.72994" lon="-61.209307"/>
+  <node id="203" lat="10.73273" lon="-61.200212"/>
+  <node id="204" lat="10.736916" lon="-61.194528"/>
+  <node id="205" lat="10.755054" lon="-61.178198"/>
+  <node id="206" lat="10.75955" lon="-61.171661"/>
+  <node id="207" lat="10.763736" lon="-61.163109"/>
+  <node id="208" lat="10.769214" lon="-61.157192"/>
+  <node id="209" lat="10.778102" lon="-61.156959"/>
+  <node id="210" lat="10.78699" lon="-61.157967"/>
+  <node id="211" lat="10.80084" lon="-61.167605"/>
+  <node id="212" lat="10.80394" lon="-61.171584"/>
+  <node id="213" lat="10.816446" lon="-61.154815"/>
+  <node id="214" lat="10.823422" lon="-61.096549"/>
+  <node id="216" lat="10.408512" lon="-61.028078"/>
+  <node id="217" lat="10.394818" lon="-61.022962"/>
+  <node id="218" lat="10.382157" lon="-61.016296"/>
+  <node id="219" lat="10.355957" lon="-60.998442"/>
+  <node id="220" lat="10.330067" lon="-60.961235"/>
+  <node id="221" lat="10.299268" lon="-60.990225"/>
+  <node id="222" lat="10.24754" lon="-61.002783"/>
+  <node id="223" lat="10.189094" lon="-61.003299"/>
+  <node id="224" lat="10.138245" lon="-60.995987"/>
+  <node id="225" lat="10.142895" lon="-61.017459"/>
+  <node id="226" lat="10.135609" lon="-61.041514"/>
+  <node id="227" lat="10.121811" lon="-61.064303"/>
+  <node id="228" lat="10.106929" lon="-61.081977"/>
+  <node id="229" lat="10.095198" lon="-61.099624"/>
+  <node id="230" lat="10.086775" lon="-61.122336"/>
+  <node id="231" lat="10.076181" lon="-61.167294"/>
+  <node id="232" lat="10.075148" lon="-61.177656"/>
+  <node id="233" lat="10.230125" lon="-61.19197"/>
+  <node id="234" lat="10.258651" lon="-61.208481"/>
+  <node id="235" lat="10.270019" lon="-61.217808"/>
+  <node id="236" lat="10.271776" lon="-61.226231"/>
+  <node id="237" lat="10.280251" lon="-61.229926"/>
+  <node id="238" lat="10.284696" lon="-61.23636"/>
+  <node id="239" lat="10.307123" lon="-61.243569"/>
+  <node id="240" lat="10.32769" lon="-61.229229"/>
+  <node id="241" lat="10.354975" lon="-61.221141"/>
+  <node id="242" lat="10.412233" lon="-61.215147"/>
+  <node id="243" lat="10.432077" lon="-61.210522"/>
+  <node id="245" lat="10.564989" lon="-61.441025"/>
+  <node id="246" lat="10.538117" lon="-61.46061"/>
+  <node id="247" lat="10.538117" lon="-61.462212"/>
+  <node id="248" lat="10.558167" lon="-61.462134"/>
+  <node id="249" lat="10.594857" lon="-61.472263"/>
+  <node id="250" lat="10.624881" lon="-61.496267"/>
+  <node id="251" lat="10.631083" lon="-61.488825"/>
+  <node id="252" lat="10.635682" lon="-61.495698"/>
+  <node id="253" lat="10.656611" lon="-61.491616"/>
+  <node id="254" lat="10.660952" lon="-61.493244"/>
+  <node id="255" lat="10.668393" lon="-61.497171"/>
+  <node id="256" lat="10.754589" lon="-61.485725"/>
+  <node id="257" lat="10.760222" lon="-61.473193"/>
+  <node id="258" lat="10.770247" lon="-61.465545"/>
+  <node id="259" lat="10.77433" lon="-61.460403"/>
+  <node id="260" lat="10.762031" lon="-61.455313"/>
+  <node id="261" lat="10.762031" lon="-61.447846"/>
+  <node id="262" lat="10.76539" lon="-61.447536"/>
+  <node id="263" lat="10.775725" lon="-61.447846"/>
+  <node id="264" lat="10.775725" lon="-61.441645"/>
+  <node id="265" lat="10.770661" lon="-61.440999"/>
+  <node id="266" lat="10.768077" lon="-61.439319"/>
+  <node id="267" lat="10.765855" lon="-61.436968"/>
+  <node id="268" lat="10.762031" lon="-61.434203"/>
+  <node id="269" lat="10.754589" lon="-61.441645"/>
+  <node id="270" lat="10.756605" lon="-61.433376"/>
+  <node id="271" lat="10.761152" lon="-61.427485"/>
+  <node id="272" lat="10.765906" lon="-61.423584"/>
+  <node id="273" lat="10.768284" lon="-61.421181"/>
+  <node id="274" lat="10.768904" lon="-61.40188"/>
+  <node id="275" lat="10.768284" lon="-61.400071"/>
+  <node id="276" lat="10.775622" lon="-61.391803"/>
+  <node id="277" lat="10.797532" lon="-61.372915"/>
+  <node id="278" lat="10.80301" lon="-61.366559"/>
+  <node id="279" lat="10.804147" lon="-61.352632"/>
+  <node id="280" lat="10.797739" lon="-61.349402"/>
+  <node id="281" lat="10.772728" lon="-61.341883"/>
+  <node id="282" lat="10.756191" lon="-61.333744"/>
+  <node id="283" lat="10.745029" lon="-61.334855"/>
+  <node id="284" lat="10.737536" lon="-61.341186"/>
+  <node id="285" lat="10.735676" lon="-61.347232"/>
+  <node id="286" lat="10.739758" lon="-61.364569"/>
+  <node id="287" lat="10.740172" lon="-61.371856"/>
+  <node id="288" lat="10.738156" lon="-61.37922"/>
+  <node id="289" lat="10.737536" lon="-61.385627"/>
+  <node id="290" lat="10.741308" lon="-61.412318"/>
+  <node id="291" lat="10.738776" lon="-61.420871"/>
+  <node id="292" lat="10.728803" lon="-61.426452"/>
+  <node id="293" lat="10.71144" lon="-61.428545"/>
+  <node id="294" lat="10.667515" lon="-61.421413"/>
+  <node id="295" lat="10.642607" lon="-61.421749"/>
+  <node id="296" lat="10.56628" lon="-61.40976"/>
+  <node id="298" lat="10.073752" lon="-61.191582"/>
+  <node id="299" lat="10.083623" lon="-61.252974"/>
+  <node id="300" lat="10.081762" lon="-61.274962"/>
+  <node id="301" lat="10.06936" lon="-61.338628"/>
+  <node id="302" lat="10.072874" lon="-61.37909"/>
+  <node id="303" lat="10.217413" lon="-61.372837"/>
+  <node id="304" lat="10.227748" lon="-61.380666"/>
+  <node id="305" lat="10.23767" lon="-61.391648"/>
+  <node id="306" lat="10.259064" lon="-61.44149"/>
+  <node id="307" lat="10.310017" lon="-61.427847"/>
+  <node id="308" lat="10.312084" lon="-61.407822"/>
+  <node id="309" lat="10.326243" lon="-61.373638"/>
+  <node id="310" lat="10.332548" lon="-61.340126"/>
+  <node id="311" lat="10.333065" lon="-61.311498"/>
+  <node id="312" lat="10.330171" lon="-61.294057"/>
+  <node id="313" lat="10.326864" lon="-61.281293"/>
+  <node id="314" lat="10.322936" lon="-61.27274"/>
+  <node id="315" lat="10.320507" lon="-61.264653"/>
+  <node id="316" lat="10.315391" lon="-61.252457"/>
+  <node id="318" lat="10.308312" lon="-61.454383"/>
+  <node id="319" lat="10.309707" lon="-61.459654"/>
+  <node id="320" lat="10.318957" lon="-61.46123"/>
+  <node id="321" lat="10.335235" lon="-61.466294"/>
+  <node id="322" lat="10.353942" lon="-61.468956"/>
+  <node id="323" lat="10.359368" lon="-61.47079"/>
+  <node id="324" lat="10.366551" lon="-61.479472"/>
+  <node id="325" lat="10.370995" lon="-61.482624"/>
+  <node id="326" lat="10.376473" lon="-61.483037"/>
+  <node id="327" lat="10.37792" lon="-61.480324"/>
+  <node id="328" lat="10.378643" lon="-61.476888"/>
+  <node id="329" lat="10.381537" lon="-61.475183"/>
+  <node id="330" lat="10.389289" lon="-61.476139"/>
+  <node id="331" lat="10.408926" lon="-61.481952"/>
+  <node id="332" lat="10.415695" lon="-61.485725"/>
+  <node id="333" lat="10.430113" lon="-61.487921"/>
+  <node id="334" lat="10.449853" lon="-61.482185"/>
+  <node id="335" lat="10.480859" lon="-61.468956"/>
+  <node id="336" lat="10.518893" lon="-61.462264"/>
+  <node id="337" lat="10.522614" lon="-61.462264"/>
+  <node id="338" lat="10.521167" lon="-61.448259"/>
+  <node id="339" lat="10.519513" lon="-61.441696"/>
+  <node id="340" lat="10.514862" lon="-61.434281"/>
+  <node id="341" lat="10.513054" lon="-61.424772"/>
+  <node id="342" lat="10.506853" lon="-61.417202"/>
+  <node id="343" lat="10.503132" lon="-61.405058"/>
+  <node id="344" lat="10.50494" lon="-61.379504"/>
+  <node id="345" lat="10.511193" lon="-61.372527"/>
+  <node id="346" lat="10.521167" lon="-61.371313"/>
+  <node id="347" lat="10.544266" lon="-61.364492"/>
+  <node id="348" lat="10.565505" lon="-61.368962"/>
+  <node id="349" lat="10.57336" lon="-61.364595"/>
+  <node id="350" lat="10.57336" lon="-61.359712"/>
+  <node id="351" lat="10.571345" lon="-61.349971"/>
+  <node id="352" lat="10.572017" lon="-61.337413"/>
+  <node id="353" lat="10.577546" lon="-61.325037"/>
+  <node id="354" lat="10.580698" lon="-61.310955"/>
+  <node id="355" lat="10.582507" lon="-61.267779"/>
+  <node id="357" lat="10.076181" lon="-61.417434"/>
+  <node id="358" lat="10.06936" lon="-61.503088"/>
+  <node id="359" lat="10.240667" lon="-61.506524"/>
+  <node id="360" lat="10.245008" lon="-61.495259"/>
+  <node id="361" lat="10.249297" lon="-61.48991"/>
+  <node id="362" lat="10.248005" lon="-61.488877"/>
+  <node id="364" lat="10.18403" lon="-61.669047"/>
+  <node id="366" lat="10.804405" lon="-61.349144"/>
+  <node id="367" lat="10.798049" lon="-61.296072"/>
+  <node id="368" lat="10.797584" lon="-61.180059"/>
+  <node id="371" lat="10.255705" lon="-61.481926"/>
+  <node id="372" lat="10.269296" lon="-61.469808"/>
+  <node id="373" lat="10.282215" lon="-61.462134"/>
+  <node id="374" lat="10.302214" lon="-61.458362"/>
+  <node id="377" lat="10.657903" lon="-61.528745"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="95"/>
+    <tag k="VertexCou" v="45"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Tobago"/>
+    <tag k="VARNAME_1" v="Tabago"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v=""/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="194506"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="15"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD11"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.86382"/>
+    <tag k="Shape_Area" v="0.024074"/>
+  </way>
+  <way id="000000047">
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="48"/>
+    <tag k="OBJECTID" v="96"/>
+    <tag k="VertexCou" v="19"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Diego Martin"/>
+    <tag k="VARNAME_1" v="Petit Valley"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.DM"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="11"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.447889"/>
+    <tag k="Shape_Area" v="0.010453"/>
+  </way>
+  <way id="000000067">
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="68"/>
+    <tag k="OBJECTID" v="97"/>
+    <tag k="VertexCou" v="61"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Siparia"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.SI"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD09"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.189913"/>
+    <tag k="Shape_Area" v="0.042671"/>
+  </way>
+  <way id="000000129">
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="130"/>
+    <tag k="OBJECTID" v="98"/>
+    <tag k="VertexCou" v="27"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Tunapuna/Piarco"/>
+    <tag k="VARNAME_1" v="Tunapuna"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.TP"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="8"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD08"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="12"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.126656"/>
+    <tag k="Shape_Area" v="0.000829"/>
+  </way>
+  <way id="000000157">
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="158"/>
+    <tag k="OBJECTID" v="99"/>
+    <tag k="VertexCou" v="57"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Sangre Grande"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.SN"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD06"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.353191"/>
+    <tag k="Shape_Area" v="0.07428"/>
+  </way>
+  <way id="000000215">
+    <nd ref="173"/>
+    <nd ref="172"/>
+    <nd ref="171"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="173"/>
+    <tag k="OBJECTID" v="100"/>
+    <tag k="VertexCou" v="31"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Mayaro/Rio Claro"/>
+    <tag k="VARNAME_1" v="Mayaro|Rio Claro"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.MR"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="194506"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="7"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD03"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.137869"/>
+    <tag k="Shape_Area" v="0.072673"/>
+  </way>
+  <way id="000000244">
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="245"/>
+    <tag k="OBJECTID" v="101"/>
+    <tag k="VertexCou" v="57"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="San Juan/Laventille"/>
+    <tag k="VARNAME_1" v="Laventille"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.SL"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="14"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.858846"/>
+    <tag k="Shape_Area" v="0.017722"/>
+  </way>
+  <way id="000000297">
+    <nd ref="234"/>
+    <nd ref="233"/>
+    <nd ref="232"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="239"/>
+    <nd ref="238"/>
+    <nd ref="237"/>
+    <nd ref="236"/>
+    <nd ref="235"/>
+    <nd ref="234"/>
+    <tag k="OBJECTID" v="102"/>
+    <tag k="VertexCou" v="27"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Princes Town"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.PT"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="5"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD12"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.929626"/>
+    <tag k="Shape_Area" v="0.048383"/>
+  </way>
+  <way id="000000317">
+    <nd ref="307"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="183"/>
+    <nd ref="182"/>
+    <nd ref="181"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="178"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="174"/>
+    <nd ref="173"/>
+    <nd ref="243"/>
+    <nd ref="242"/>
+    <nd ref="241"/>
+    <nd ref="240"/>
+    <nd ref="239"/>
+    <nd ref="316"/>
+    <nd ref="315"/>
+    <nd ref="314"/>
+    <nd ref="313"/>
+    <nd ref="312"/>
+    <nd ref="311"/>
+    <nd ref="310"/>
+    <nd ref="309"/>
+    <nd ref="308"/>
+    <nd ref="307"/>
+    <tag k="OBJECTID" v="103"/>
+    <tag k="VertexCou" v="65"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Couva/Tabaquite/Talparo"/>
+    <tag k="VARNAME_1" v="Couva"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.CT"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="9"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.067104"/>
+    <tag k="Shape_Area" v="0.059342"/>
+  </way>
+  <way id="000000356">
+    <nd ref="304"/>
+    <nd ref="303"/>
+    <nd ref="302"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="125"/>
+    <nd ref="124"/>
+    <nd ref="123"/>
+    <nd ref="122"/>
+    <nd ref="121"/>
+    <nd ref="120"/>
+    <nd ref="119"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="362"/>
+    <nd ref="306"/>
+    <nd ref="305"/>
+    <nd ref="304"/>
+    <tag k="OBJECTID" v="104"/>
+    <tag k="VertexCou" v="24"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Penal/Debe"/>
+    <tag k="VARNAME_1" v="Penal"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.PD"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.637332"/>
+    <tag k="Shape_Area" v="0.019716"/>
+  </way>
+  <way id="000000363">
+    <nd ref="103"/>
+    <nd ref="102"/>
+    <nd ref="101"/>
+    <nd ref="364"/>
+    <nd ref="113"/>
+    <nd ref="112"/>
+    <nd ref="111"/>
+    <nd ref="110"/>
+    <nd ref="109"/>
+    <nd ref="108"/>
+    <nd ref="107"/>
+    <nd ref="106"/>
+    <nd ref="105"/>
+    <nd ref="104"/>
+    <nd ref="103"/>
+    <tag k="OBJECTID" v="105"/>
+    <tag k="VertexCou" v="14"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Point Fortin"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.PF"/>
+    <tag k="TYPE_1" v="Borough"/>
+    <tag k="ENGTYPE_1" v="Borough"/>
+    <tag k="VALIDFR_1" v="19800430"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.214248"/>
+    <tag k="Shape_Area" v="0.00222"/>
+  </way>
+  <way id="000000365">
+    <nd ref="281"/>
+    <nd ref="280"/>
+    <nd ref="279"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="212"/>
+    <nd ref="211"/>
+    <nd ref="210"/>
+    <nd ref="209"/>
+    <nd ref="208"/>
+    <nd ref="207"/>
+    <nd ref="206"/>
+    <nd ref="205"/>
+    <nd ref="204"/>
+    <nd ref="203"/>
+    <nd ref="202"/>
+    <nd ref="201"/>
+    <nd ref="200"/>
+    <nd ref="199"/>
+    <nd ref="198"/>
+    <nd ref="197"/>
+    <nd ref="196"/>
+    <nd ref="195"/>
+    <nd ref="194"/>
+    <nd ref="193"/>
+    <nd ref="192"/>
+    <nd ref="191"/>
+    <nd ref="190"/>
+    <nd ref="189"/>
+    <nd ref="188"/>
+    <nd ref="187"/>
+    <nd ref="186"/>
+    <nd ref="185"/>
+    <nd ref="184"/>
+    <nd ref="183"/>
+    <nd ref="355"/>
+    <nd ref="354"/>
+    <nd ref="353"/>
+    <nd ref="352"/>
+    <nd ref="351"/>
+    <nd ref="350"/>
+    <nd ref="349"/>
+    <nd ref="348"/>
+    <nd ref="296"/>
+    <nd ref="295"/>
+    <nd ref="294"/>
+    <nd ref="293"/>
+    <nd ref="292"/>
+    <nd ref="291"/>
+    <nd ref="290"/>
+    <nd ref="289"/>
+    <nd ref="288"/>
+    <nd ref="287"/>
+    <nd ref="286"/>
+    <nd ref="285"/>
+    <nd ref="284"/>
+    <nd ref="283"/>
+    <nd ref="282"/>
+    <nd ref="281"/>
+    <tag k="OBJECTID" v="106"/>
+    <tag k="VertexCou" v="86"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Tunapuna/Piarco"/>
+    <tag k="VARNAME_1" v="Tunapuna"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.TP"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="10"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD08"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="12"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.131549"/>
+    <tag k="Shape_Area" v="0.042983"/>
+  </way>
+  <way id="000000369">
+    <nd ref="133"/>
+    <nd ref="132"/>
+    <nd ref="131"/>
+    <nd ref="130"/>
+    <nd ref="156"/>
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="152"/>
+    <nd ref="151"/>
+    <nd ref="150"/>
+    <nd ref="149"/>
+    <nd ref="148"/>
+    <nd ref="147"/>
+    <nd ref="146"/>
+    <nd ref="145"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="137"/>
+    <nd ref="136"/>
+    <nd ref="135"/>
+    <nd ref="134"/>
+    <nd ref="133"/>
+    <tag k="OBJECTID" v="106"/>
+    <tag k="VertexCou" v="86"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Tunapuna/Piarco"/>
+    <tag k="VARNAME_1" v="Tunapuna"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.TP"/>
+    <tag k="TYPE_1" v="Region"/>
+    <tag k="ENGTYPE_1" v="Region"/>
+    <tag k="VALIDFR_1" v="Unknown"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="10"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD08"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="12"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.131549"/>
+    <tag k="Shape_Area" v="0.042983"/>
+  </way>
+  <way id="000000370">
+    <nd ref="306"/>
+    <nd ref="362"/>
+    <nd ref="361"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="319"/>
+    <nd ref="318"/>
+    <nd ref="307"/>
+    <nd ref="306"/>
+    <tag k="OBJECTID" v="107"/>
+    <tag k="VertexCou" v="10"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="San Fernando"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.SF"/>
+    <tag k="TYPE_1" v="City"/>
+    <tag k="ENGTYPE_1" v="City"/>
+    <tag k="VALIDFR_1" v="194506"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="6"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD10"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.206534"/>
+    <tag k="Shape_Area" v="0.0017"/>
+  </way>
+  <way id="000000375">
+    <nd ref="338"/>
+    <nd ref="337"/>
+    <nd ref="247"/>
+    <nd ref="246"/>
+    <nd ref="245"/>
+    <nd ref="296"/>
+    <nd ref="348"/>
+    <nd ref="347"/>
+    <nd ref="346"/>
+    <nd ref="345"/>
+    <nd ref="344"/>
+    <nd ref="343"/>
+    <nd ref="342"/>
+    <nd ref="341"/>
+    <nd ref="340"/>
+    <nd ref="339"/>
+    <nd ref="338"/>
+    <tag k="OBJECTID" v="108"/>
+    <tag k="VertexCou" v="17"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Chaguanas"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.CH"/>
+    <tag k="TYPE_1" v="Borough"/>
+    <tag k="ENGTYPE_1" v="Borough"/>
+    <tag k="VALIDFR_1" v="19911001"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="12"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD02"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.275044"/>
+    <tag k="Shape_Area" v="0.00482"/>
+  </way>
+  <way id="000000376">
+    <nd ref="254"/>
+    <nd ref="253"/>
+    <nd ref="252"/>
+    <nd ref="377"/>
+    <nd ref="50"/>
+    <nd ref="49"/>
+    <nd ref="48"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="255"/>
+    <nd ref="254"/>
+    <tag k="OBJECTID" v="109"/>
+    <tag k="VertexCou" v="10"/>
+    <tag k="ISO" v="TTO"/>
+    <tag k="NAME_0" v="Trinidad and Tobago"/>
+    <tag k="NAME_1" v="Port of Spain"/>
+    <tag k="VARNAME_1" v="Port-of-Spain|Puer"/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="TT.PS"/>
+    <tag k="TYPE_1" v="City"/>
+    <tag k="ENGTYPE_1" v="City"/>
+    <tag k="VALIDFR_1" v="194506"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="13"/>
+    <tag k="NEV_Countr" v="Trinidad and Tobago"/>
+    <tag k="FIRST_FIPS" v="TD05"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="TD00"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.153835"/>
+    <tag k="Shape_Area" v="0.001199"/>
+  </way>
+</osm>

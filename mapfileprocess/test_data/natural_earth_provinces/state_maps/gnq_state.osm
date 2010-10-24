@@ -1,0 +1,1347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="-1.422859" lon="5.622996"/>
+  <node id="3" lat="-1.415831" lon="5.633279"/>
+  <node id="4" lat="-1.43831" lon="5.646508"/>
+  <node id="5" lat="-1.462753" lon="5.642891"/>
+  <node id="6" lat="-1.47562" lon="5.629145"/>
+  <node id="7" lat="-1.463631" lon="5.612144"/>
+  <node id="8" lat="-1.462081" lon="5.61726"/>
+  <node id="9" lat="-1.458309" lon="5.6216"/>
+  <node id="10" lat="-1.456138" lon="5.626406"/>
+  <node id="11" lat="-1.444614" lon="5.620205"/>
+  <node id="12" lat="-1.432987" lon="5.618913"/>
+  <node id="14" lat="1.0234" lon="10.979723"/>
+  <node id="15" lat="1.003247" lon="10.96577"/>
+  <node id="16" lat="1.000611" lon="10.963962"/>
+  <node id="17" lat="1.003712" lon="10.029032"/>
+  <node id="18" lat="0.999991" lon="10.000351"/>
+  <node id="19" lat="1.001955" lon="10.000093"/>
+  <node id="20" lat="1.022625" lon="10.006656"/>
+  <node id="21" lat="1.042262" lon="10.016113"/>
+  <node id="22" lat="1.050272" lon="10.021694"/>
+  <node id="23" lat="1.056422" lon="10.027275"/>
+  <node id="24" lat="1.060814" lon="10.032546"/>
+  <node id="25" lat="1.073578" lon="10.0558"/>
+  <node id="26" lat="1.082983" lon="10.080036"/>
+  <node id="27" lat="1.085567" lon="10.084687"/>
+  <node id="28" lat="1.090218" lon="10.096779"/>
+  <node id="29" lat="1.091458" lon="10.106081"/>
+  <node id="30" lat="1.090528" lon="10.115228"/>
+  <node id="31" lat="1.08474" lon="10.135743"/>
+  <node id="32" lat="1.082363" lon="10.147991"/>
+  <node id="33" lat="1.08164" lon="10.163339"/>
+  <node id="34" lat="1.083242" lon="10.182459"/>
+  <node id="35" lat="1.090838" lon="10.219821"/>
+  <node id="36" lat="1.096264" lon="10.235531"/>
+  <node id="37" lat="1.104016" lon="10.250879"/>
+  <node id="38" lat="1.114299" lon="10.264056"/>
+  <node id="39" lat="1.127115" lon="10.272893"/>
+  <node id="40" lat="1.139621" lon="10.276303"/>
+  <node id="41" lat="1.152436" lon="10.275373"/>
+  <node id="42" lat="1.164219" lon="10.271497"/>
+  <node id="43" lat="1.173417" lon="10.266071"/>
+  <node id="44" lat="1.17843" lon="10.25739"/>
+  <node id="45" lat="1.177551" lon="10.251344"/>
+  <node id="46" lat="1.172073" lon="10.245142"/>
+  <node id="47" lat="1.164529" lon="10.238166"/>
+  <node id="48" lat="1.160808" lon="10.22964"/>
+  <node id="49" lat="1.161997" lon="10.219201"/>
+  <node id="50" lat="1.167836" lon="10.208349"/>
+  <node id="51" lat="1.175277" lon="10.203078"/>
+  <node id="52" lat="1.200496" lon="10.197962"/>
+  <node id="53" lat="1.208557" lon="10.194551"/>
+  <node id="54" lat="1.215275" lon="10.18897"/>
+  <node id="55" lat="1.223595" lon="10.18587"/>
+  <node id="56" lat="1.237289" lon="10.185094"/>
+  <node id="57" lat="1.248813" lon="10.185404"/>
+  <node id="58" lat="1.25827" lon="10.183544"/>
+  <node id="59" lat="1.264264" lon="10.177963"/>
+  <node id="60" lat="1.264574" lon="10.166749"/>
+  <node id="61" lat="1.267572" lon="10.157603"/>
+  <node id="62" lat="1.274858" lon="10.149386"/>
+  <node id="63" lat="1.294495" lon="10.14365"/>
+  <node id="64" lat="1.310153" lon="10.140859"/>
+  <node id="65" lat="1.375575" lon="10.138069"/>
+  <node id="66" lat="1.386531" lon="10.134193"/>
+  <node id="67" lat="1.397228" lon="10.114298"/>
+  <node id="68" lat="1.405367" lon="10.105461"/>
+  <node id="69" lat="1.421128" lon="10.098175"/>
+  <node id="70" lat="1.434616" lon="10.096469"/>
+  <node id="71" lat="1.446501" lon="10.098175"/>
+  <node id="72" lat="1.469135" lon="10.108562"/>
+  <node id="73" lat="1.481719" lon="10.115693"/>
+  <node id="74" lat="1.48637" lon="10.114763"/>
+  <node id="75" lat="1.491563" lon="10.111352"/>
+  <node id="76" lat="1.506549" lon="10.093679"/>
+  <node id="77" lat="1.520269" lon="10.064068"/>
+  <node id="78" lat="1.538976" lon="10.000093"/>
+  <node id="79" lat="1.557993" lon="9.929813"/>
+  <node id="80" lat="1.562256" lon="9.922682"/>
+  <node id="81" lat="1.56838" lon="9.918806"/>
+  <node id="82" lat="1.577062" lon="9.917876"/>
+  <node id="83" lat="1.588172" lon="9.923302"/>
+  <node id="84" lat="1.596001" lon="9.932293"/>
+  <node id="85" lat="1.601815" lon="9.949088"/>
+  <node id="86" lat="1.605923" lon="9.968467"/>
+  <node id="87" lat="1.61463" lon="9.981644"/>
+  <node id="88" lat="1.64083" lon="10.000093"/>
+  <node id="89" lat="1.749919" lon="10.061743"/>
+  <node id="90" lat="1.797487" lon="10.097555"/>
+  <node id="91" lat="1.817357" lon="10.106081"/>
+  <node id="92" lat="1.925361" lon="10.111507"/>
+  <node id="93" lat="1.943422" lon="10.115228"/>
+  <node id="94" lat="1.959183" lon="10.121171"/>
+  <node id="95" lat="1.978433" lon="10.132798"/>
+  <node id="96" lat="1.988975" lon="10.141945"/>
+  <node id="97" lat="2.022564" lon="10.180133"/>
+  <node id="98" lat="2.032434" lon="10.18742"/>
+  <node id="99" lat="2.044992" lon="10.192536"/>
+  <node id="100" lat="2.062458" lon="10.196567"/>
+  <node id="101" lat="2.110311" lon="10.197652"/>
+  <node id="102" lat="2.165837" lon="10.189952"/>
+  <node id="103" lat="2.165837" lon="10.40968"/>
+  <node id="104" lat="2.115892" lon="10.411179"/>
+  <node id="105" lat="2.083542" lon="10.419705"/>
+  <node id="106" lat="2.040883" lon="10.435053"/>
+  <node id="107" lat="2.026517" lon="10.437224"/>
+  <node id="108" lat="2.01427" lon="10.435673"/>
+  <node id="109" lat="1.994401" lon="10.427457"/>
+  <node id="110" lat="1.979518" lon="10.423581"/>
+  <node id="111" lat="1.956237" lon="10.421101"/>
+  <node id="112" lat="1.943499" lon="10.422961"/>
+  <node id="113" lat="1.934585" lon="10.427457"/>
+  <node id="114" lat="1.933629" lon="10.429317"/>
+  <node id="115" lat="1.923578" lon="10.440479"/>
+  <node id="116" lat="1.922105" lon="10.451435"/>
+  <node id="117" lat="1.925748" lon="10.493861"/>
+  <node id="118" lat="1.921485" lon="10.511948"/>
+  <node id="119" lat="1.914948" lon="10.517374"/>
+  <node id="120" lat="1.883839" lon="10.54316"/>
+  <node id="121" lat="1.830225" lon="10.610391"/>
+  <node id="122" lat="1.813791" lon="10.615766"/>
+  <node id="123" lat="1.790589" lon="10.614112"/>
+  <node id="124" lat="1.766766" lon="10.608531"/>
+  <node id="125" lat="1.748447" lon="10.601968"/>
+  <node id="126" lat="1.710128" lon="10.576285"/>
+  <node id="127" lat="1.695762" lon="10.572151"/>
+  <node id="128" lat="1.682585" lon="10.574166"/>
+  <node id="129" lat="1.663413" lon="10.586517"/>
+  <node id="130" lat="1.652328" lon="10.590393"/>
+  <node id="131" lat="1.624242" lon="10.585018"/>
+  <node id="132" lat="1.603675" lon="10.573546"/>
+  <node id="133" lat="1.587242" lon="10.57489"/>
+  <node id="134" lat="1.571248" lon="10.607859"/>
+  <node id="135" lat="1.563187" lon="10.638865"/>
+  <node id="136" lat="1.560086" lon="10.666254"/>
+  <node id="137" lat="1.562644" lon="10.692815"/>
+  <node id="138" lat="1.571713" lon="10.721444"/>
+  <node id="139" lat="1.588172" lon="10.754465"/>
+  <node id="140" lat="1.59073" lon="10.766144"/>
+  <node id="141" lat="1.589877" lon="10.775601"/>
+  <node id="142" lat="1.584296" lon="10.792964"/>
+  <node id="143" lat="1.582901" lon="10.802835"/>
+  <node id="144" lat="1.587319" lon="10.812601"/>
+  <node id="145" lat="1.594838" lon="10.820611"/>
+  <node id="146" lat="1.596854" lon="10.827432"/>
+  <node id="147" lat="1.572953" lon="10.840662"/>
+  <node id="148" lat="1.575976" lon="10.848516"/>
+  <node id="149" lat="1.589877" lon="10.860712"/>
+  <node id="150" lat="1.593056" lon="10.868154"/>
+  <node id="151" lat="1.597784" lon="10.875337"/>
+  <node id="152" lat="1.600342" lon="10.882416"/>
+  <node id="153" lat="1.597086" lon="10.889082"/>
+  <node id="154" lat="1.592513" lon="10.891098"/>
+  <node id="155" lat="1.581868" lon="10.892803"/>
+  <node id="156" lat="1.578689" lon="10.896007"/>
+  <node id="157" lat="1.573961" lon="10.911923"/>
+  <node id="158" lat="1.565512" lon="10.96267"/>
+  <node id="159" lat="1.566132" lon="10.967631"/>
+  <node id="160" lat="1.568458" lon="10.971506"/>
+  <node id="161" lat="1.573031" lon="10.980963"/>
+  <node id="162" lat="1.56714" lon="10.980963"/>
+  <node id="163" lat="1.556339" lon="10.974762"/>
+  <node id="164" lat="1.551146" lon="10.96484"/>
+  <node id="165" lat="1.537503" lon="10.929287"/>
+  <node id="166" lat="1.529364" lon="10.91797"/>
+  <node id="167" lat="1.480478" lon="10.872804"/>
+  <node id="168" lat="1.46867" lon="10.865053"/>
+  <node id="169" lat="1.440584" lon="10.850325"/>
+  <node id="170" lat="1.384955" lon="10.809036"/>
+  <node id="171" lat="1.35369" lon="10.790122"/>
+  <node id="172" lat="1.322194" lon="10.777203"/>
+  <node id="173" lat="1.31129" lon="10.775498"/>
+  <node id="174" lat="1.297596" lon="10.777668"/>
+  <node id="175" lat="1.281834" lon="10.785265"/>
+  <node id="176" lat="1.209797" lon="10.85017"/>
+  <node id="177" lat="1.201322" lon="10.862417"/>
+  <node id="178" lat="1.182409" lon="10.903965"/>
+  <node id="179" lat="1.168456" lon="10.915489"/>
+  <node id="180" lat="1.148096" lon="10.925566"/>
+  <node id="181" lat="1.082622" lon="10.941999"/>
+  <node id="182" lat="1.06531" lon="10.950991"/>
+  <node id="183" lat="1.059832" lon="10.958949"/>
+  <node id="184" lat="1.055698" lon="10.967166"/>
+  <node id="185" lat="1.050169" lon="10.974142"/>
+  <node id="186" lat="1.043089" lon="10.979878"/>
+  <node id="187" lat="1.03234" lon="10.980653"/>
+  <node id="189" lat="2.165966" lon="11.321718"/>
+  <node id="190" lat="2.127648" lon="11.329314"/>
+  <node id="191" lat="1.732659" lon="11.331639"/>
+  <node id="192" lat="1.746509" lon="11.227666"/>
+  <node id="193" lat="1.739997" lon="11.184258"/>
+  <node id="194" lat="1.734649" lon="11.172889"/>
+  <node id="195" lat="1.732789" lon="11.160797"/>
+  <node id="196" lat="1.73961" lon="11.097028"/>
+  <node id="197" lat="1.738525" lon="11.075014"/>
+  <node id="198" lat="1.734261" lon="11.054964"/>
+  <node id="199" lat="1.732013" lon="11.035275"/>
+  <node id="200" lat="1.732944" lon="11.018687"/>
+  <node id="201" lat="1.74147" lon="11.001892"/>
+  <node id="202" lat="1.750229" lon="10.993521"/>
+  <node id="203" lat="1.762425" lon="10.988405"/>
+  <node id="204" lat="1.949494" lon="10.959052"/>
+  <node id="205" lat="1.962981" lon="10.954712"/>
+  <node id="206" lat="1.970965" lon="10.94789"/>
+  <node id="207" lat="1.974453" lon="10.939209"/>
+  <node id="208" lat="1.969105" lon="10.925566"/>
+  <node id="209" lat="1.961431" lon="10.915644"/>
+  <node id="210" lat="1.944584" lon="10.899831"/>
+  <node id="211" lat="1.936678" lon="10.890013"/>
+  <node id="212" lat="1.931717" lon="10.87637"/>
+  <node id="213" lat="1.930167" lon="10.860092"/>
+  <node id="214" lat="1.934895" lon="10.834616"/>
+  <node id="215" lat="1.940399" lon="10.817097"/>
+  <node id="216" lat="1.989207" lon="10.702427"/>
+  <node id="217" lat="1.994866" lon="10.674935"/>
+  <node id="218" lat="1.995563" lon="10.665168"/>
+  <node id="219" lat="1.981456" lon="10.629047"/>
+  <node id="221" lat="0.997407" lon="9.980404"/>
+  <node id="222" lat="0.982783" lon="9.97503"/>
+  <node id="223" lat="0.953172" lon="9.974978"/>
+  <node id="224" lat="0.939995" lon="9.971412"/>
+  <node id="225" lat="0.928574" lon="9.95963"/>
+  <node id="226" lat="0.92506" lon="9.943714"/>
+  <node id="227" lat="0.927747" lon="9.925885"/>
+  <node id="228" lat="0.935292" lon="9.908264"/>
+  <node id="229" lat="0.948108" lon="9.891831"/>
+  <node id="230" lat="0.97777" lon="9.865734"/>
+  <node id="231" lat="0.989449" lon="9.849301"/>
+  <node id="232" lat="0.995082" lon="9.833746"/>
+  <node id="233" lat="0.998441" lon="9.804498"/>
+  <node id="234" lat="1.003608" lon="9.806151"/>
+  <node id="235" lat="1.020817" lon="9.804808"/>
+  <node id="236" lat="1.046345" lon="9.797004"/>
+  <node id="237" lat="1.058282" lon="9.79933"/>
+  <node id="238" lat="1.064483" lon="9.806978"/>
+  <node id="239" lat="1.068927" lon="9.820104"/>
+  <node id="240" lat="1.071614" lon="9.834935"/>
+  <node id="241" lat="1.072545" lon="9.847751"/>
+  <node id="242" lat="1.077764" lon="9.841601"/>
+  <node id="243" lat="1.081846" lon="9.829354"/>
+  <node id="244" lat="1.084585" lon="9.815091"/>
+  <node id="245" lat="1.085567" lon="9.802741"/>
+  <node id="246" lat="1.088771" lon="9.792509"/>
+  <node id="247" lat="1.102827" lon="9.767342"/>
+  <node id="248" lat="1.106031" lon="9.75525"/>
+  <node id="249" lat="1.097194" lon="9.714374"/>
+  <node id="250" lat="1.09983" lon="9.703728"/>
+  <node id="251" lat="1.109855" lon="9.699543"/>
+  <node id="252" lat="1.120604" lon="9.703883"/>
+  <node id="253" lat="1.129389" lon="9.711738"/>
+  <node id="254" lat="1.133316" lon="9.717991"/>
+  <node id="255" lat="1.125565" lon="9.699388"/>
+  <node id="256" lat="1.105514" lon="9.676598"/>
+  <node id="257" lat="1.083242" lon="9.657271"/>
+  <node id="258" lat="1.068824" lon="9.649106"/>
+  <node id="259" lat="1.061693" lon="9.642285"/>
+  <node id="260" lat="1.053528" lon="9.609316"/>
+  <node id="261" lat="1.043037" lon="9.584563"/>
+  <node id="262" lat="1.054768" lon="9.575571"/>
+  <node id="263" lat="1.102827" lon="9.55981"/>
+  <node id="264" lat="1.115436" lon="9.551903"/>
+  <node id="265" lat="1.125151" lon="9.540896"/>
+  <node id="266" lat="1.133316" lon="9.52498"/>
+  <node id="267" lat="1.137554" lon="9.506686"/>
+  <node id="268" lat="1.13466" lon="9.493715"/>
+  <node id="269" lat="1.129389" lon="9.481985"/>
+  <node id="270" lat="1.123343" lon="9.450204"/>
+  <node id="271" lat="1.109235" lon="9.420645"/>
+  <node id="272" lat="1.106031" lon="9.405504"/>
+  <node id="273" lat="1.111509" lon="9.396667"/>
+  <node id="274" lat="1.13776" lon="9.373154"/>
+  <node id="275" lat="1.14701" lon="9.360494"/>
+  <node id="276" lat="1.157087" lon="9.362354"/>
+  <node id="277" lat="1.164942" lon="9.359873"/>
+  <node id="278" lat="1.181789" lon="9.346851"/>
+  <node id="279" lat="1.188197" lon="9.362509"/>
+  <node id="280" lat="1.199927" lon="9.37424"/>
+  <node id="281" lat="1.214551" lon="9.382611"/>
+  <node id="282" lat="1.265815" lon="9.399044"/>
+  <node id="283" lat="1.283901" lon="9.407829"/>
+  <node id="284" lat="1.291653" lon="9.419146"/>
+  <node id="285" lat="1.299818" lon="9.434339"/>
+  <node id="286" lat="1.319145" lon="9.448499"/>
+  <node id="287" lat="1.341779" lon="9.459196"/>
+  <node id="288" lat="1.359917" lon="9.464157"/>
+  <node id="289" lat="1.398184" lon="9.461676"/>
+  <node id="290" lat="1.414591" lon="9.465552"/>
+  <node id="291" lat="1.426632" lon="9.49294"/>
+  <node id="292" lat="1.462314" lon="9.532421"/>
+  <node id="293" lat="1.484871" lon="9.549733"/>
+  <node id="294" lat="1.486525" lon="9.552885"/>
+  <node id="295" lat="1.491873" lon="9.555107"/>
+  <node id="296" lat="1.496756" lon="9.559758"/>
+  <node id="297" lat="1.503474" lon="9.564409"/>
+  <node id="298" lat="1.514146" lon="9.566579"/>
+  <node id="299" lat="1.542774" lon="9.578361"/>
+  <node id="300" lat="1.572178" lon="9.594484"/>
+  <node id="301" lat="1.588095" lon="9.615"/>
+  <node id="302" lat="1.583831" lon="9.628022"/>
+  <node id="303" lat="1.572075" lon="9.640425"/>
+  <node id="304" lat="1.565357" lon="9.659338"/>
+  <node id="305" lat="1.568923" lon="9.686107"/>
+  <node id="306" lat="1.577733" lon="9.704969"/>
+  <node id="307" lat="1.589051" lon="9.722332"/>
+  <node id="308" lat="1.600109" lon="9.744708"/>
+  <node id="309" lat="1.599102" lon="9.724451"/>
+  <node id="310" lat="1.571429" lon="9.683626"/>
+  <node id="311" lat="1.575589" lon="9.66585"/>
+  <node id="312" lat="1.616801" lon="9.622441"/>
+  <node id="313" lat="1.644448" lon="9.607507"/>
+  <node id="314" lat="1.6715" lon="9.617791"/>
+  <node id="315" lat="1.729843" lon="9.676443"/>
+  <node id="316" lat="1.733512" lon="9.679234"/>
+  <node id="317" lat="1.7447" lon="9.685022"/>
+  <node id="318" lat="1.750307" lon="9.690086"/>
+  <node id="319" lat="1.763975" lon="9.71055"/>
+  <node id="320" lat="1.771856" lon="9.718405"/>
+  <node id="321" lat="1.77891" lon="9.722642"/>
+  <node id="322" lat="1.798728" lon="9.731065"/>
+  <node id="323" lat="1.804826" lon="9.735458"/>
+  <node id="324" lat="1.809141" lon="9.739902"/>
+  <node id="325" lat="1.815807" lon="9.743313"/>
+  <node id="326" lat="1.83994" lon="9.746878"/>
+  <node id="327" lat="1.846632" lon="9.751529"/>
+  <node id="328" lat="1.851515" lon="9.75618"/>
+  <node id="329" lat="1.85676" lon="9.75835"/>
+  <node id="330" lat="1.86614" lon="9.76388"/>
+  <node id="331" lat="1.90115" lon="9.79933"/>
+  <node id="332" lat="1.934973" lon="9.809872"/>
+  <node id="333" lat="1.976417" lon="9.806048"/>
+  <node id="334" lat="2.058169" lon="9.778194"/>
+  <node id="335" lat="2.076928" lon="9.768737"/>
+  <node id="336" lat="2.085454" lon="9.76574"/>
+  <node id="337" lat="2.096358" lon="9.764552"/>
+  <node id="338" lat="2.1069" lon="9.766722"/>
+  <node id="339" lat="2.113618" lon="9.771373"/>
+  <node id="340" lat="2.118631" lon="9.776024"/>
+  <node id="341" lat="2.123979" lon="9.778194"/>
+  <node id="342" lat="2.248158" lon="9.786617"/>
+  <node id="343" lat="2.270714" lon="9.783724"/>
+  <node id="344" lat="2.288155" lon="9.775094"/>
+  <node id="345" lat="2.310531" lon="9.767135"/>
+  <node id="346" lat="2.327946" lon="9.780003"/>
+  <node id="347" lat="2.34177" lon="9.799692"/>
+  <node id="348" lat="2.325078" lon="9.81075"/>
+  <node id="349" lat="2.306423" lon="9.811526"/>
+  <node id="350" lat="2.285701" lon="9.808322"/>
+  <node id="351" lat="2.265082" lon="9.810492"/>
+  <node id="352" lat="2.249165" lon="9.823204"/>
+  <node id="353" lat="2.228805" lon="9.84651"/>
+  <node id="354" lat="2.211442" lon="9.871729"/>
+  <node id="355" lat="2.204827" lon="9.889764"/>
+  <node id="356" lat="2.200693" lon="9.907075"/>
+  <node id="357" lat="2.169067" lon="9.970327"/>
+  <node id="358" lat="2.16576" lon="9.990636"/>
+  <node id="360" lat="0.999371" lon="11.33598"/>
+  <node id="362" lat="3.71799" lon="8.949459"/>
+  <node id="363" lat="3.70086" lon="8.959278"/>
+  <node id="364" lat="3.679724" lon="8.963257"/>
+  <node id="365" lat="3.660552" lon="8.961758"/>
+  <node id="366" lat="3.643034" lon="8.957676"/>
+  <node id="367" lat="3.627479" lon="8.951371"/>
+  <node id="368" lat="3.61425" lon="8.943413"/>
+  <node id="369" lat="3.582159" lon="8.907136"/>
+  <node id="370" lat="3.554512" lon="8.896904"/>
+  <node id="371" lat="3.515057" lon="8.863573"/>
+  <node id="372" lat="3.554202" lon="8.847657"/>
+  <node id="373" lat="3.558543" lon="8.845021"/>
+  <node id="374" lat="3.562341" lon="8.842076"/>
+  <node id="375" lat="3.568542" lon="8.832774"/>
+  <node id="376" lat="3.573426" lon="8.8197"/>
+  <node id="377" lat="3.578877" lon="8.79257"/>
+  <node id="378" lat="3.580118" lon="8.767248"/>
+  <node id="379" lat="3.579188" lon="8.759652"/>
+  <node id="380" lat="3.578955" lon="8.751125"/>
+  <node id="381" lat="3.58128" lon="8.739188"/>
+  <node id="382" lat="3.586706" lon="8.725545"/>
+  <node id="383" lat="3.617506" lon="8.681775"/>
+  <node id="384" lat="3.625025" lon="8.668598"/>
+  <node id="385" lat="3.633887" lon="8.641571"/>
+  <node id="386" lat="3.633112" lon="8.626895"/>
+  <node id="387" lat="3.648382" lon="8.628084"/>
+  <node id="388" lat="3.6836" lon="8.641106"/>
+  <node id="389" lat="3.726284" lon="8.667254"/>
+  <node id="390" lat="3.761037" lon="8.702653"/>
+  <node id="391" lat="3.772535" lon="8.743529"/>
+  <node id="392" lat="3.768633" lon="8.741358"/>
+  <node id="393" lat="3.758246" lon="8.737328"/>
+  <node id="394" lat="3.751761" lon="8.768333"/>
+  <node id="395" lat="3.751038" lon="8.782028"/>
+  <node id="396" lat="3.758246" lon="8.791949"/>
+  <node id="397" lat="3.751348" lon="8.814532"/>
+  <node id="398" lat="3.746412" lon="8.846882"/>
+  <node id="399" lat="3.747394" lon="8.880833"/>
+  <node id="400" lat="3.758246" lon="8.908635"/>
+  <node id="401" lat="3.753828" lon="8.911735"/>
+  <node id="402" lat="3.752226" lon="8.914836"/>
+  <node id="403" lat="3.750805" lon="8.922898"/>
+  <node id="405" lat="3.511827" lon="8.860834"/>
+  <node id="406" lat="3.458135" lon="8.840887"/>
+  <node id="407" lat="3.444415" lon="8.823575"/>
+  <node id="408" lat="3.42098" lon="8.818925"/>
+  <node id="409" lat="3.415632" lon="8.816134"/>
+  <node id="410" lat="3.412221" lon="8.813809"/>
+  <node id="411" lat="3.395142" lon="8.785128"/>
+  <node id="412" lat="3.379045" lon="8.781563"/>
+  <node id="413" lat="3.332923" lon="8.781097"/>
+  <node id="414" lat="3.31662" lon="8.774896"/>
+  <node id="415" lat="3.264814" lon="8.729886"/>
+  <node id="416" lat="3.20859" lon="8.695573"/>
+  <node id="417" lat="3.197376" lon="8.686271"/>
+  <node id="418" lat="3.20381" lon="8.676814"/>
+  <node id="419" lat="3.213603" lon="8.653818"/>
+  <node id="420" lat="3.220114" lon="8.648547"/>
+  <node id="421" lat="3.217427" lon="8.642295"/>
+  <node id="422" lat="3.222672" lon="8.627773"/>
+  <node id="423" lat="3.238097" lon="8.600127"/>
+  <node id="424" lat="3.235617" lon="8.59284"/>
+  <node id="425" lat="3.230475" lon="8.569948"/>
+  <node id="426" lat="3.230656" lon="8.559819"/>
+  <node id="427" lat="3.235384" lon="8.549122"/>
+  <node id="428" lat="3.248923" lon="8.527831"/>
+  <node id="429" lat="3.251766" lon="8.514809"/>
+  <node id="430" lat="3.252515" lon="8.493311"/>
+  <node id="431" lat="3.258019" lon="8.469592"/>
+  <node id="432" lat="3.273031" lon="8.45042"/>
+  <node id="433" lat="3.302357" lon="8.442513"/>
+  <node id="434" lat="3.313209" lon="8.437863"/>
+  <node id="435" lat="3.326257" lon="8.428768"/>
+  <node id="436" lat="3.339357" lon="8.422256"/>
+  <node id="437" lat="3.350442" lon="8.425409"/>
+  <node id="438" lat="3.359718" lon="8.429388"/>
+  <node id="439" lat="3.401963" lon="8.435692"/>
+  <node id="440" lat="3.421368" lon="8.44241"/>
+  <node id="441" lat="3.446612" lon="8.455381"/>
+  <node id="442" lat="3.4632" lon="8.473984"/>
+  <node id="443" lat="3.456585" lon="8.497756"/>
+  <node id="444" lat="3.463846" lon="8.51052"/>
+  <node id="445" lat="3.463045" lon="8.527366"/>
+  <node id="446" lat="3.456585" lon="8.56292"/>
+  <node id="447" lat="3.463406" lon="8.579766"/>
+  <node id="448" lat="3.4794" lon="8.585347"/>
+  <node id="449" lat="3.497797" lon="8.582402"/>
+  <node id="450" lat="3.511827" lon="8.573462"/>
+  <node id="451" lat="3.518494" lon="8.585812"/>
+  <node id="452" lat="3.529837" lon="8.601729"/>
+  <node id="453" lat="3.543169" lon="8.615423"/>
+  <node id="454" lat="3.555907" lon="8.621262"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="2"/>
+    <tag k="OBJECTID" v="1573"/>
+    <tag k="VertexCou" v="11"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Annobón"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.AN"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="1"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK03"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.154956"/>
+    <tag k="Shape_Area" v="0.001151"/>
+  </way>
+  <way id="000000013">
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="14"/>
+    <tag k="OBJECTID" v="1574"/>
+    <tag k="VertexCou" v="174"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Centro Sur"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.CS"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="7"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK06"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="4.856777"/>
+    <tag k="Shape_Area" v="0.677004"/>
+  </way>
+  <way id="000000188">
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="119"/>
+    <nd ref="118"/>
+    <nd ref="117"/>
+    <nd ref="116"/>
+    <nd ref="115"/>
+    <nd ref="114"/>
+    <nd ref="113"/>
+    <nd ref="112"/>
+    <nd ref="111"/>
+    <nd ref="110"/>
+    <nd ref="109"/>
+    <nd ref="108"/>
+    <nd ref="107"/>
+    <nd ref="106"/>
+    <nd ref="105"/>
+    <nd ref="104"/>
+    <nd ref="103"/>
+    <nd ref="189"/>
+    <tag k="OBJECTID" v="1575"/>
+    <tag k="VertexCou" v="48"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Kié-Ntem"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.KN"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="5"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK07"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="2.736219"/>
+    <tag k="Shape_Area" v="0.269311"/>
+  </way>
+  <way id="000000220">
+    <nd ref="20"/>
+    <nd ref="19"/>
+    <nd ref="18"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="280"/>
+    <nd ref="281"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="336"/>
+    <nd ref="337"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="349"/>
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="102"/>
+    <nd ref="101"/>
+    <nd ref="100"/>
+    <nd ref="99"/>
+    <nd ref="98"/>
+    <nd ref="97"/>
+    <nd ref="96"/>
+    <nd ref="95"/>
+    <nd ref="94"/>
+    <nd ref="93"/>
+    <nd ref="92"/>
+    <nd ref="91"/>
+    <nd ref="90"/>
+    <nd ref="89"/>
+    <nd ref="88"/>
+    <nd ref="87"/>
+    <nd ref="86"/>
+    <nd ref="85"/>
+    <nd ref="84"/>
+    <nd ref="83"/>
+    <nd ref="82"/>
+    <nd ref="81"/>
+    <nd ref="80"/>
+    <nd ref="79"/>
+    <nd ref="78"/>
+    <nd ref="77"/>
+    <nd ref="76"/>
+    <nd ref="75"/>
+    <nd ref="74"/>
+    <nd ref="73"/>
+    <nd ref="72"/>
+    <nd ref="71"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="67"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="50"/>
+    <nd ref="49"/>
+    <nd ref="48"/>
+    <nd ref="47"/>
+    <nd ref="46"/>
+    <nd ref="45"/>
+    <nd ref="44"/>
+    <nd ref="43"/>
+    <nd ref="42"/>
+    <nd ref="41"/>
+    <nd ref="40"/>
+    <nd ref="39"/>
+    <nd ref="38"/>
+    <nd ref="37"/>
+    <nd ref="36"/>
+    <nd ref="35"/>
+    <nd ref="34"/>
+    <nd ref="33"/>
+    <nd ref="32"/>
+    <nd ref="31"/>
+    <nd ref="30"/>
+    <nd ref="29"/>
+    <nd ref="28"/>
+    <nd ref="27"/>
+    <nd ref="26"/>
+    <nd ref="25"/>
+    <nd ref="24"/>
+    <nd ref="23"/>
+    <nd ref="22"/>
+    <nd ref="21"/>
+    <nd ref="20"/>
+    <tag k="OBJECTID" v="1576"/>
+    <tag k="VertexCou" v="223"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Litoral"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.LI"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="6"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK08"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="4.959059"/>
+    <tag k="Shape_Area" v="0.584296"/>
+  </way>
+  <way id="000000359">
+    <nd ref="193"/>
+    <nd ref="192"/>
+    <nd ref="191"/>
+    <nd ref="360"/>
+    <nd ref="16"/>
+    <nd ref="15"/>
+    <nd ref="14"/>
+    <nd ref="187"/>
+    <nd ref="186"/>
+    <nd ref="185"/>
+    <nd ref="184"/>
+    <nd ref="183"/>
+    <nd ref="182"/>
+    <nd ref="181"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="178"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="174"/>
+    <nd ref="173"/>
+    <nd ref="172"/>
+    <nd ref="171"/>
+    <nd ref="170"/>
+    <nd ref="169"/>
+    <nd ref="168"/>
+    <nd ref="167"/>
+    <nd ref="166"/>
+    <nd ref="165"/>
+    <nd ref="164"/>
+    <nd ref="163"/>
+    <nd ref="162"/>
+    <nd ref="161"/>
+    <nd ref="160"/>
+    <nd ref="159"/>
+    <nd ref="158"/>
+    <nd ref="157"/>
+    <nd ref="156"/>
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="152"/>
+    <nd ref="151"/>
+    <nd ref="150"/>
+    <nd ref="149"/>
+    <nd ref="148"/>
+    <nd ref="147"/>
+    <nd ref="146"/>
+    <nd ref="145"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="137"/>
+    <nd ref="136"/>
+    <nd ref="135"/>
+    <nd ref="134"/>
+    <nd ref="133"/>
+    <nd ref="132"/>
+    <nd ref="131"/>
+    <nd ref="130"/>
+    <nd ref="129"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="125"/>
+    <nd ref="124"/>
+    <nd ref="123"/>
+    <nd ref="122"/>
+    <nd ref="121"/>
+    <nd ref="120"/>
+    <nd ref="119"/>
+    <nd ref="219"/>
+    <nd ref="218"/>
+    <nd ref="217"/>
+    <nd ref="216"/>
+    <nd ref="215"/>
+    <nd ref="214"/>
+    <nd ref="213"/>
+    <nd ref="212"/>
+    <nd ref="211"/>
+    <nd ref="210"/>
+    <nd ref="209"/>
+    <nd ref="208"/>
+    <nd ref="207"/>
+    <nd ref="206"/>
+    <nd ref="205"/>
+    <nd ref="204"/>
+    <nd ref="203"/>
+    <nd ref="202"/>
+    <nd ref="201"/>
+    <nd ref="200"/>
+    <nd ref="199"/>
+    <nd ref="198"/>
+    <nd ref="197"/>
+    <nd ref="196"/>
+    <nd ref="195"/>
+    <nd ref="194"/>
+    <nd ref="193"/>
+    <tag k="OBJECTID" v="1577"/>
+    <tag k="VertexCou" v="102"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Wele-Nzás"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.WN"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="4"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v=""/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK09"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="0"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="3.755789"/>
+    <tag k="Shape_Area" v="0.473761"/>
+  </way>
+  <way id="000000361">
+    <nd ref="362"/>
+    <nd ref="363"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="394"/>
+    <nd ref="395"/>
+    <nd ref="396"/>
+    <nd ref="397"/>
+    <nd ref="398"/>
+    <nd ref="399"/>
+    <nd ref="400"/>
+    <nd ref="401"/>
+    <nd ref="402"/>
+    <nd ref="403"/>
+    <nd ref="362"/>
+    <tag k="OBJECTID" v="1584"/>
+    <tag k="VertexCou" v="42"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Bioko Norte"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.BN"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="2"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v="EK04"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK05"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="0.973104"/>
+    <tag k="Shape_Area" v="0.051796"/>
+  </way>
+  <way id="000000404">
+    <nd ref="373"/>
+    <nd ref="372"/>
+    <nd ref="371"/>
+    <nd ref="405"/>
+    <nd ref="406"/>
+    <nd ref="407"/>
+    <nd ref="408"/>
+    <nd ref="409"/>
+    <nd ref="410"/>
+    <nd ref="411"/>
+    <nd ref="412"/>
+    <nd ref="413"/>
+    <nd ref="414"/>
+    <nd ref="415"/>
+    <nd ref="416"/>
+    <nd ref="417"/>
+    <nd ref="418"/>
+    <nd ref="419"/>
+    <nd ref="420"/>
+    <nd ref="421"/>
+    <nd ref="422"/>
+    <nd ref="423"/>
+    <nd ref="424"/>
+    <nd ref="425"/>
+    <nd ref="426"/>
+    <nd ref="427"/>
+    <nd ref="428"/>
+    <nd ref="429"/>
+    <nd ref="430"/>
+    <nd ref="431"/>
+    <nd ref="432"/>
+    <nd ref="433"/>
+    <nd ref="434"/>
+    <nd ref="435"/>
+    <nd ref="436"/>
+    <nd ref="437"/>
+    <nd ref="438"/>
+    <nd ref="439"/>
+    <nd ref="440"/>
+    <nd ref="441"/>
+    <nd ref="442"/>
+    <nd ref="443"/>
+    <nd ref="444"/>
+    <nd ref="445"/>
+    <nd ref="446"/>
+    <nd ref="447"/>
+    <nd ref="448"/>
+    <nd ref="449"/>
+    <nd ref="450"/>
+    <nd ref="451"/>
+    <nd ref="452"/>
+    <nd ref="453"/>
+    <nd ref="454"/>
+    <nd ref="386"/>
+    <nd ref="385"/>
+    <nd ref="384"/>
+    <nd ref="383"/>
+    <nd ref="382"/>
+    <nd ref="381"/>
+    <nd ref="380"/>
+    <nd ref="379"/>
+    <nd ref="378"/>
+    <nd ref="377"/>
+    <nd ref="376"/>
+    <nd ref="375"/>
+    <nd ref="374"/>
+    <nd ref="373"/>
+    <tag k="OBJECTID" v="1585"/>
+    <tag k="VertexCou" v="66"/>
+    <tag k="ISO" v="GNQ"/>
+    <tag k="NAME_0" v="Equatorial Guinea"/>
+    <tag k="NAME_1" v="Bioko Sur"/>
+    <tag k="VARNAME_1" v=""/>
+    <tag k="NL_NAME_1" v=""/>
+    <tag k="HASC_1" v="GQ.BS"/>
+    <tag k="TYPE_1" v="Provincia"/>
+    <tag k="ENGTYPE_1" v="Province"/>
+    <tag k="VALIDFR_1" v="1990"/>
+    <tag k="VALIDTO_1" v="Present"/>
+    <tag k="REMARKS_1" v=""/>
+    <tag k="Region" v=""/>
+    <tag k="RegionVar" v=""/>
+    <tag k="ProvNumber" v="3"/>
+    <tag k="NEV_Countr" v="Equatorial Guinea"/>
+    <tag k="FIRST_FIPS" v="EK05"/>
+    <tag k="FIRST_HASC" v=""/>
+    <tag k="FIPS_1" v="EK04"/>
+    <tag k="gadm_level" v="1"/>
+    <tag k="CheckMe" v="10"/>
+    <tag k="Region_Cod" v=""/>
+    <tag k="Region_C_1" v=""/>
+    <tag k="ScaleRank" v="8"/>
+    <tag k="Region_C_2" v=""/>
+    <tag k="Region_C_3" v=""/>
+    <tag k="Country_Pr" v=""/>
+    <tag k="Shape_Leng" v="1.443525"/>
+    <tag k="Shape_Area" v="0.109807"/>
+  </way>
+</osm>

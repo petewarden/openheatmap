@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="36.120328" lon="-5.376385"/>
+  <node id="3" lat="36.141464" lon="-5.38548"/>
+  <node id="4" lat="36.141464" lon="-5.364964"/>
+  <node id="5" lat="36.130922" lon="-5.366024"/>
+  <node id="6" lat="36.130922" lon="-5.359176"/>
+  <node id="7" lat="36.111517" lon="-5.368142"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="2"/>
+    <tag k="country_code" v="GIB"/>
+    <tag k="country_name" v="Gibraltar"/>
+    <tag k="name" v="Gibraltar"/>
+    <tag k="name_variants" v=""/>
+    <tag k="province_code" v="GI00"/>
+  </way>
+</osm>
