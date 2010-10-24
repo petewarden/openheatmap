@@ -1074,7 +1074,8 @@ $(function()
             $('<div>Country boundaries by <a href="http://thematicmapping.org/">Thematic Mapping</a></div>'),
             $('<div>Contains Ordnance Survey data <a href="http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/index.html">© Crown copyright and database right 2010</a></div>'),
             $('<div>Irish boundaries by <a href="http://www.tallyroom.com.au/maps">Ben Raue</a></div>'),
-            $('<div>New Zealand boundaries from <a href="http://www.stats.govt.nz/">Statistics NZ</a>, converted using <a href="http://www.koordinates.com">Koordinates</a></div>')
+            $('<div>New Zealand boundaries from <a href="http://www.stats.govt.nz/">Statistics NZ</a>, converted using <a href="http://www.koordinates.com">Koordinates</a></div>'),
+            $('<div>Worldwide states and provinces from <a href="http://naturalearthdata.com">Natural Earth</a></div>')
         ],
         {
             fadeTime: 1000,
