@@ -4952,18 +4952,34 @@ function UIText(text, font, x, y, clickCallback, alignment)
     {
         context.font = this._font;
         
-        var metrics = context.measureText(this._text);
-        this._width = metrics.width;
-        this._height = 16;
+        var textLines = this._text.split('&lt;br/&gt;');
+        
+        var lineHeight = 22;
+        
+        var linesCount = textLines.length;
+        
+        var maxTextWidth = 0;
+        for (var lineIndex in textLines)
+        {
+            var line = textLines[lineIndex];
+            var metrics = context.measureText(line);
+            var textWidth = (metrics.width+10);
+            maxTextWidth = Math.max(textWidth, maxTextWidth);
+        }
+                
+        this._width = maxTextWidth;
+        this._height = (linesCount*lineHeight);
 
         if (this._backgroundWidth>0)
         {
             var backgroundWidth = Math.max(this._backgroundWidth, this._width);
+            var backgroundHeight = Math.max(this._backgroundHeight, this._height); 
             var x = (this._x-((backgroundWidth-this._backgroundWidth)/2));
         
             context.fillStyle = this._backgroundColor;
-            context.fillRect(x, this._y, backgroundWidth, this._backgroundHeight);
+            context.fillRect(x, this._y, backgroundWidth, backgroundHeight);
             context.fillStyle = '#000000';
+            context.strokeRect(x, this._y, backgroundWidth, backgroundHeight);
         }
                     
         var x;
@@ -4980,7 +4996,15 @@ function UIText(text, font, x, y, clickCallback, alignment)
             x = this._x+(this._backgroundWidth-this._width);        
         }
         
-        context.fillText(this._text, x, this._y+this._height);    
+        x += 5;
+        
+        for (var lineIndex in textLines)
+        {
+            var line = textLines[lineIndex];
+            var currentY = (this._y+(lineHeight*((Number)(lineIndex)+1)));
+            currentY -= 5;
+            context.fillText(line, x, currentY);
+        }
     };
     
     this.setText = function(text)

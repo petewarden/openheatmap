@@ -3336,48 +3336,75 @@ private function drawPopupsIntoViewer(): void
 		
 		var newFormat:TextFormat = new TextFormat();
 		newFormat.font = 'Baskerville';
-
-		var textfield:TextField = new TextField;
-		textfield.setTextFormat(newFormat);
-		textfield.text = popup.text;
-		var popupWidth: int = (textfield.textWidth+5);
-		textfield.width = popupWidth;
+		newFormat.size = 16;
 		
-		var popupHeight: int = 15;
+		var popupLineHeight: int = 22;
 		
 		var popupLeftX: Number = Math.max(0, (screenPos.x-popupWidth));
 		var popupRightX: Number = (popupLeftX+popupWidth);
-		var popupTopY: Number = Math.max(0, (screenPos.y-popupHeight));
-		var popupBottomY: Number = (popupTopY+popupHeight);
 				
 		var fillColor: uint = 0xffffff;
+
+		var popupLines: Array = popup.text.split('&lt;br/&gt;');
+
+		var maxPopupWidth: Number = 0;
+		
+		for (var lineIndex: String in popupLines)
+		{
+			var line: String = popupLines[lineIndex];
+			var textfield:TextField = new TextField;
+			textfield.text = line;
+			textfield.setTextFormat(newFormat);
+			var currentPopupWidth: int = (textfield.textWidth+5);
+			maxPopupWidth = Math.max(maxPopupWidth, currentPopupWidth);
+		}
+		
+		var linesCount: int = popupLines.length;
+		
+		var boxTopY: Number = (screenPos.y-popupLineHeight);
+		var boxBottomY: Number = (boxTopY+(linesCount*popupLineHeight));
+		var boxLeftX: Number = popupLeftX;
+		var boxRightX: Number = (boxLeftX+maxPopupWidth);
 		
 		graphics.lineStyle();
 		
 		graphics.beginFill(fillColor, 1.0);	
-		graphics.moveTo(popupLeftX, popupTopY);
-		graphics.lineTo(popupRightX, popupTopY);
-		graphics.lineTo(popupRightX, popupBottomY);
-		graphics.lineTo(popupLeftX, popupBottomY);
-		graphics.lineTo(popupLeftX, popupTopY);
+		graphics.moveTo(boxLeftX, boxTopY);
+		graphics.lineTo(boxRightX, boxTopY);
+		graphics.lineTo(boxRightX, boxBottomY);
+		graphics.lineTo(boxLeftX, boxBottomY);
+		graphics.lineTo(boxLeftX, boxTopY);
 		graphics.endFill();
 		
-		var bitmapdata:BitmapData = new BitmapData(popupWidth, popupHeight, true, 0x00000000);
-		bitmapdata.draw(textfield);
-		
-		var textMatrix: Matrix = new Matrix();
-		textMatrix.translate(popupLeftX, popupTopY);
-		
-		graphics.beginBitmapFill(bitmapdata, textMatrix);
-		graphics.drawRect(popupLeftX, popupTopY, popupWidth, popupHeight);
-		graphics.endFill();
+		for (lineIndex in popupLines)
+		{
+			var popupTopY: Number = Math.max(0, (screenPos.y-popupLineHeight)+(popupLineHeight*(int)(lineIndex)));
+			var popupBottomY: Number = (popupTopY+popupLineHeight);
+
+			line = popupLines[lineIndex];
+			textfield = new TextField;
+			textfield.text = line;
+			textfield.setTextFormat(newFormat);
+			var popupWidth: int = (textfield.textWidth+5);
+			textfield.width = popupWidth;
+						
+			var bitmapdata:BitmapData = new BitmapData(popupWidth, popupLineHeight, true, 0x00000000);
+			bitmapdata.draw(textfield);
+			
+			var textMatrix: Matrix = new Matrix();
+			textMatrix.translate(popupLeftX, popupTopY);
+			
+			graphics.beginBitmapFill(bitmapdata, textMatrix);
+			graphics.drawRect(popupLeftX, popupTopY, popupWidth, popupLineHeight);
+			graphics.endFill();			
+		}
 		
 		graphics.lineStyle(0, 0x000000, 1.0);
-		graphics.moveTo(popupLeftX, popupBottomY);
-		graphics.lineTo(popupLeftX, popupTopY);
-		graphics.lineTo(popupRightX, popupTopY);
-		graphics.lineTo(popupRightX, popupBottomY);
-		graphics.lineTo(popupLeftX, popupBottomY);
+		graphics.moveTo(boxLeftX, boxTopY);
+		graphics.lineTo(boxRightX, boxTopY);
+		graphics.lineTo(boxRightX, boxBottomY);
+		graphics.lineTo(boxLeftX, boxBottomY);
+		graphics.lineTo(boxLeftX, boxTopY);
 	}
 }
 
