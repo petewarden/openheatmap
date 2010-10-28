@@ -1783,6 +1783,8 @@ private function createViewerElements(): void
 	
     _credit.addEventListener( MouseEvent.CLICK, function(): void {
     	var url:String = "http://"+_credit.text;
+		if (_credit.text=='OpenHeatMap')
+			url = 'http://www.openheatmap.com/';
         var request:URLRequest = new URLRequest(url);
 		navigateToURL(request); 	  	
  	});
