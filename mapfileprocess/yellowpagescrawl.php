@@ -203,7 +203,8 @@ $agent .= ' - contact '.$email;
 $agent .= ' to report any problems with my crawling. Based on code from http://petewarden.typepad.com';
 
 $curloptions = array(
-	CURLOPT_FOLLOWLOCATION => TRUE,
+// Disabled as part of security audit, see http://www.php.net/manual/en/function.curl-setopt.php#71313
+//	CURLOPT_FOLLOWLOCATION => TRUE,
 	CURLOPT_USERAGENT => $agent,
 	CURLOPT_TIMEOUT => FETCH_TIMEOUT,
 );
