@@ -38,6 +38,10 @@
 		59691A761270FE9B001FA47E /* createstatemaps.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatemaps.php; path = mapfileprocess/createstatemaps.php; sourceTree = "<group>"; };
 		59691A7712710BE7001FA47E /* remapstatetags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remapstatetags.php; path = mapfileprocess/remapstatetags.php; sourceTree = "<group>"; };
 		59691A78127114B2001FA47E /* createstatetagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatetagtables.php; path = mapfileprocess/createstatetagtables.php; sourceTree = "<group>"; };
+		59691ADD127B8BA7001FA47E /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		59691ADE127B9486001FA47E /* salesforce.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = salesforce.php; sourceTree = "<group>"; };
+		59691ADF127BCF83001FA47E /* welcome.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = welcome.php; sourceTree = "<group>"; };
+		59691AE0127BCFE7001FA47E /* map.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = map.php; sourceTree = "<group>"; };
 		596DFE1711FE236400C62A97 /* jquery.slidefade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.slidefade.js; path = static/scripts/jquery.slidefade.js; sourceTree = "<group>"; };
 		5979627C122062C0009518FD /* publishmaps.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = publishmaps.py; path = mapfileprocess/publishmaps.py; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
@@ -225,6 +229,18 @@
 			);
 			sourceTree = "<group>";
 		};
+		59691ADC127B8BA7001FA47E /* salesforce */ = {
+			isa = PBXGroup;
+			children = (
+				59691ADD127B8BA7001FA47E /* index.php */,
+				59691AE0127BCFE7001FA47E /* map.php */,
+				59691ADE127B9486001FA47E /* salesforce.php */,
+				59691ADF127BCF83001FA47E /* welcome.php */,
+			);
+			name = salesforce;
+			path = website/salesforce;
+			sourceTree = "<group>";
+		};
 		59820B7311A44A450047D5FC /* mapfileprocess */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +331,7 @@
 				59FE269912404071005C6314 /* qquploader.php */,
 				59FC5C4A11FA140F00A4E6F1 /* retrieveonlinedata.php */,
 				59820B9B11A44B890047D5FC /* S3.php */,
+				59691ADC127B8BA7001FA47E /* salesforce */,
 				59820B9C11A44B890047D5FC /* savesettings.php */,
 				59820B9D11A44B890047D5FC /* settingshelp.php */,
 				5901C6EF1257D4200071DBD2 /* simple_html_dom.php */,
