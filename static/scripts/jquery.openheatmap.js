@@ -31,7 +31,6 @@ g_openHeatMapUserData = {};
  
     $.fn.insertOpenHeatMap = function(settings) {
         var defaults = {
-            source: 'http://static.openheatmap.com.s3.amazonaws.com/openheatmap.swf',
             mapName: 'openheatmap',
             width: 800,
             height: 600,
@@ -39,6 +38,11 @@ g_openHeatMapUserData = {};
             wmode: 'opaque',
             userData: null
         };
+
+        if (document.location.protocol == 'https:')
+            defaults['source'] = 'https://s3.amazonaws.com/static.openheatmap.com/openheatmap.swf';
+        else
+            defaults['source'] = 'http://static.openheatmap.com.s3.amazonaws.com/openheatmap.swf';
  
         if (settings) 
             settings = $.extend(defaults, settings);
