@@ -1912,14 +1912,17 @@ function OpenHeatMap(canvas, width, height)
                 wayResult.id = wayId;
                 wayResult.tags = {};
 
-                var valueIndex = way.tags['valueIndex'];
-                var valuesRow = currentValues[valueIndex];
+                if (typeof way.tags['valueIndex'] != 'undefined')
+                {			
+                    var valueIndex = way.tags['valueIndex'];
+                    var valuesRow = currentValues[valueIndex];
 
-                for (var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++)
-                {
-                    var header = this._valueHeaders[headerIndex].toLowerCase();
+                    for (var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++)
+                    {
+                        var header = this._valueHeaders[headerIndex].toLowerCase();
 
-                    wayResult.tags[header] = valuesRow[headerIndex];
+                        wayResult.tags[header] = valuesRow[headerIndex];
+                    }
                 }
 
                 for (var key in way.tags)

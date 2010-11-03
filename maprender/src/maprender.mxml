@@ -1372,16 +1372,19 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 			wayResult.id = wayId;
 			wayResult.tags = {};
 
-			var valueIndex: int = way.tags['valueIndex'];
-			var valuesRow: Array = currentValues[valueIndex];
-
-			for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
-			{
-				var header: String = '"'+_valueHeaders[headerIndex].toLowerCase()+'"';
-				
-				wayResult.tags[header] = valuesRow[headerIndex];
+			if (typeof way.tags['valueIndex'] != 'undefined')
+			{			
+				var valueIndex: int = way.tags['valueIndex'];
+				var valuesRow: Array = currentValues[valueIndex];
+	
+				for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
+				{
+					var header: String = '"'+_valueHeaders[headerIndex].toLowerCase()+'"';
+					
+					wayResult.tags[header] = valuesRow[headerIndex];
+				}
 			}
-			
+				
 			for (var key: String in way.tags)
 			{
 				// Pete - Safari really doesn't like colons in member names! 
