@@ -1705,7 +1705,7 @@ function OpenHeatMap(canvas, width, height)
             
             var setColor = this.getColorForValue(thisValue, minValue, maxValue, valueScale);
             
-            this.setAttributeForMatchingWays(matchKeys, 'color', setColor, thisSetWayIds);
+            this.setAttributeForMatchingWays(matchKeys, 'color', setColor, thisSetWayIds, valuesIndex);
         }
         
         if (this._settings.clear_ways)
@@ -1761,7 +1761,7 @@ function OpenHeatMap(canvas, width, height)
         this._redrawCountdown = 5;
     }
 
-    this.setAttributeForMatchingWays = function(matchKeys, attributeName, attributeValue, setWays)
+    this.setAttributeForMatchingWays = function(matchKeys, attributeName, attributeValue, setWays, valueIndex)
     {
         var matchingWayIds = null;
         for (var key in matchKeys)
@@ -1799,7 +1799,9 @@ function OpenHeatMap(canvas, width, height)
         var foundCount = 0;
         for (wayId in matchingWayIds)
         {
-            this._ways[wayId]['tags'][attributeName] = attributeValue;
+            var wayTags = this._ways[wayId]['tags'];
+            wayTags[attributeName] = attributeValue;
+            wayTags['valueIndex'] = valueIndex;
             foundCount += 1;
             setWays[wayId] = true;
         }
@@ -1873,6 +1875,8 @@ function OpenHeatMap(canvas, width, height)
         var pixelsPerDegree = this.getPixelsPerDegreeLatitude();
         var pixelsToDegreeScale = (1.0/pixelsPerDegree);
         var ways = this._waysGrid.getContentsAtPoint(pos);
+
+        var currentValues = this.getCurrentValues();
         
         for (var wayIdIndex in ways)
         {
@@ -1907,7 +1911,17 @@ function OpenHeatMap(canvas, width, height)
                 var wayResult = {};
                 wayResult.id = wayId;
                 wayResult.tags = {};
-                
+
+                var valueIndex = way.tags['valueIndex'];
+                var valuesRow = currentValues[valueIndex];
+
+                for (var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++)
+                {
+                    var header = this._valueHeaders[headerIndex].toLowerCase();
+
+                    wayResult.tags[header] = valuesRow[headerIndex];
+                }
+
                 for (var key in way.tags)
                 {
                     // Pete - Safari really doesn't like colons in member names! 

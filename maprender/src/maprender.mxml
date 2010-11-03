@@ -1143,8 +1143,10 @@ private function setWaysFromValues(): void
 	if (_hasTime)
 		var currentTime: String = _frameTimes[_frameIndex];
 	
-	for each (var values: Array in currentValues)
+	for (var valuesIndex: * in currentValues)
 	{
+		var values: Array = currentValues[valuesIndex];
+		
 		if (_hasTime)
 		{
 			var thisTime: String = values[_timeColumnIndex];
@@ -1170,7 +1172,7 @@ private function setWaysFromValues(): void
 		var setColor: uint = getColorForValue(thisValue, minValue, maxValue, valueScale);
 		setColor = (setColor & 0x00ffffff);
 		
-		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds);
+		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds, valuesIndex);
 	}
 
 	if (_settings.clear_ways)
@@ -1225,7 +1227,7 @@ private function setColorGradient(colorList: Array) : void
 	_redrawCountdown = 5;
 }
 
-private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String, setWays: Object) : void
+private function setAttributeForMatchingWays(matchKeys: Object, attributeName: String, attributeValue: String, setWays: Object, valueIndex: int) : void
 {
 	var matchingWayIds: Object = null;
 	for (var key:String in matchKeys)
@@ -1259,7 +1261,9 @@ private function setAttributeForMatchingWays(matchKeys: Object, attributeName: S
 	var foundCount: Number = 0;
 	for (wayId in matchingWayIds)
 	{
-		_ways[wayId]['tags'][attributeName] = attributeValue;
+		var wayTags: Object = _ways[wayId]['tags'];
+		wayTags[attributeName] = attributeValue;
+		wayTags['valueIndex'] = valueIndex;
 		foundCount += 1;
 		setWays[wayId] = true;
 	}
@@ -1333,6 +1337,8 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 	var pixelsPerDegree: Number = getPixelsPerDegreeLatitude();
 	var pixelsToDegreeScale: Number = (1.0/pixelsPerDegree);
 	var ways: Array = _waysGrid.getContentsAtPoint(pos);
+
+	var currentValues: Array = getCurrentValues();
 	
 	for each (var wayId: String in ways)
 	{
@@ -1365,6 +1371,16 @@ private function getWaysContainingLatLon(lat: Number, lon: Number): Array
 			var wayResult: Object = {};
 			wayResult.id = wayId;
 			wayResult.tags = {};
+
+			var valueIndex: int = way.tags['valueIndex'];
+			var valuesRow: Array = currentValues[valueIndex];
+
+			for(var headerIndex:int = 0; headerIndex < _valueHeaders.length; headerIndex++ )
+			{
+				var header: String = '"'+_valueHeaders[headerIndex].toLowerCase()+'"';
+				
+				wayResult.tags[header] = valuesRow[headerIndex];
+			}
 			
 			for (var key: String in way.tags)
 			{
