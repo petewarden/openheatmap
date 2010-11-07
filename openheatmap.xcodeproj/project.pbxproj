@@ -388,6 +388,9 @@
 		59820BBB11A458E10047D5FC /* watermarkinput.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = watermarkinput.js; path = static/scripts/watermarkinput.js; sourceTree = "<group>"; };
 		59820CE511A8789A0047D5FC /* cleanmesh.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cleanmesh.php; path = mapfileprocess/cleanmesh.php; sourceTree = "<group>"; };
 		59820CE611A87B390047D5FC /* geomutils.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = geomutils.php; path = mapfileprocess/geomutils.php; sourceTree = "<group>"; };
+		5984752F1284D1F500D91AAE /* search.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = search.php; sourceTree = "<group>"; };
+		598475581284E12600D91AAE /* searchvalues.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = searchvalues.php; sourceTree = "<group>"; };
+		598475591284E15400D91AAE /* searchdata.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = searchdata.php; sourceTree = "<group>"; };
 		599DCC1311EF973F0082DE3F /* twitterlocations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterlocations.php; path = mapfileprocess/twitterlocations.php; sourceTree = "<group>"; };
 		599DCC1411EFAD500082DE3F /* twitterquantize.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterquantize.php; path = mapfileprocess/twitterquantize.php; sourceTree = "<group>"; };
 		599DCC1511EFAF330082DE3F /* twittercount.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twittercount.php; path = mapfileprocess/twittercount.php; sourceTree = "<group>"; };
@@ -1168,6 +1171,8 @@
 				597B3975127F9EF70010CA82 /* salesforceapi.php */,
 				597B388C127E1C990010CA82 /* salesforcelocations.php */,
 				597B3889127CE8670010CA82 /* salesforceutils.php */,
+				5984752F1284D1F500D91AAE /* search.php */,
+				598475591284E15400D91AAE /* searchdata.php */,
 				597B3380127CCF3C0010CA82 /* welcome.php */,
 			);
 			path = salesforce;
@@ -1339,6 +1344,7 @@
 			children = (
 				597B387F127CCF510010CA82 /* index.php */,
 				597B388B127CF7150010CA82 /* mapvalues.php */,
+				598475581284E12600D91AAE /* searchvalues.php */,
 			);
 			path = salesforce;
 			sourceTree = "<group>";
