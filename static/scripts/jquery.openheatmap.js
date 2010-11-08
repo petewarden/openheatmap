@@ -4003,6 +4003,8 @@ function OpenHeatMap(canvas, width, height)
 
         this.endDrawing(context);
 
+        this._pointBlobStillRendering = false;
+
         return result;
     };
 

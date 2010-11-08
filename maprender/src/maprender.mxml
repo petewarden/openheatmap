@@ -3636,6 +3636,8 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 	var result: BitmapData = new BitmapData(width, height, true, 0x000000);
 	result.draw(shape, new Matrix());	
 
+	_pointBlobStillRendering = false;
+	
 	return result;
 }
 	
