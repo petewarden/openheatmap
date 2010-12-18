@@ -1,0 +1,14 @@
+{
+    "to_delete": {
+        "AREA": ".*",
+        "PERIMETER": ".*",
+        "NOMOI_EU_": ".*",
+        "NOMOI_EU_I": ".*",
+	"CD_PERIF_E": ".*",
+	"NAME_NOM_P": ".*"
+    },
+    "to_rename": {
+        "CD_NOM_EU": "grc_department_code",
+       	"NAME_NOM": "grc_department_name"
+    }
+}

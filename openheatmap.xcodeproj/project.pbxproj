@@ -19,6 +19,19 @@
 		590D2C3211CAF3CF00954586 /* flickrfetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flickrfetch.php; path = mapfileprocess/flickrfetch.php; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
 		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
+		59655BAB12A703620049CCAB /* enterprise.wsdl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = enterprise.wsdl.xml; sourceTree = "<group>"; };
+		59655BAC12A703620049CCAB /* metadata.wsdl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = metadata.wsdl.xml; sourceTree = "<group>"; };
+		59655BAD12A703620049CCAB /* partner.wsdl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = partner.wsdl.xml; sourceTree = "<group>"; };
+		59655BAE12A703620049CCAB /* ProxySettings.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = ProxySettings.php; sourceTree = "<group>"; };
+		59655BAF12A703620049CCAB /* SforceBaseClient.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceBaseClient.php; sourceTree = "<group>"; };
+		59655BB012A703620049CCAB /* SforceEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceEmail.php; sourceTree = "<group>"; };
+		59655BB112A703620049CCAB /* SforceEnterpriseClient.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceEnterpriseClient.php; sourceTree = "<group>"; };
+		59655BB212A703620049CCAB /* SforceFieldTypes.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceFieldTypes.php; sourceTree = "<group>"; };
+		59655BB312A703620049CCAB /* SforceHeaderOptions.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceHeaderOptions.php; sourceTree = "<group>"; };
+		59655BB412A703620049CCAB /* SforceMetadataClient.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceMetadataClient.php; sourceTree = "<group>"; };
+		59655BB512A703620049CCAB /* SforceMetaObject.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceMetaObject.php; sourceTree = "<group>"; };
+		59655BB612A703620049CCAB /* SforcePartnerClient.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforcePartnerClient.php; sourceTree = "<group>"; };
+		59655BB712A703620049CCAB /* SforceProcessRequest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SforceProcessRequest.php; sourceTree = "<group>"; };
 		59691A761270FE9B001FA47E /* createstatemaps.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatemaps.php; path = mapfileprocess/createstatemaps.php; sourceTree = "<group>"; };
 		59691A7712710BE7001FA47E /* remapstatetags.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = remapstatetags.php; path = mapfileprocess/remapstatetags.php; sourceTree = "<group>"; };
 		59691A78127114B2001FA47E /* createstatetagtables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createstatetagtables.php; path = mapfileprocess/createstatetagtables.php; sourceTree = "<group>"; };
@@ -451,6 +464,26 @@
 				59820BB011A458A20047D5FC /* static */,
 				59820B7611A44A6B0047D5FC /* website */,
 			);
+			sourceTree = "<group>";
+		};
+		59655BAA12A703620049CCAB /* soapclient */ = {
+			isa = PBXGroup;
+			children = (
+				59655BAB12A703620049CCAB /* enterprise.wsdl.xml */,
+				59655BAC12A703620049CCAB /* metadata.wsdl.xml */,
+				59655BAD12A703620049CCAB /* partner.wsdl.xml */,
+				59655BAE12A703620049CCAB /* ProxySettings.php */,
+				59655BAF12A703620049CCAB /* SforceBaseClient.php */,
+				59655BB012A703620049CCAB /* SforceEmail.php */,
+				59655BB112A703620049CCAB /* SforceEnterpriseClient.php */,
+				59655BB212A703620049CCAB /* SforceFieldTypes.php */,
+				59655BB312A703620049CCAB /* SforceHeaderOptions.php */,
+				59655BB412A703620049CCAB /* SforceMetadataClient.php */,
+				59655BB512A703620049CCAB /* SforceMetaObject.php */,
+				59655BB612A703620049CCAB /* SforcePartnerClient.php */,
+				59655BB712A703620049CCAB /* SforceProcessRequest.php */,
+			);
+			path = soapclient;
 			sourceTree = "<group>";
 		};
 		597B323F127CCF3C0010CA82 /* phplib */ = {
@@ -1173,6 +1206,7 @@
 				597B3889127CE8670010CA82 /* salesforceutils.php */,
 				5984752F1284D1F500D91AAE /* search.php */,
 				598475591284E15400D91AAE /* searchdata.php */,
+				59655BAA12A703620049CCAB /* soapclient */,
 				597B3380127CCF3C0010CA82 /* welcome.php */,
 			);
 			path = salesforce;
@@ -1511,7 +1545,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 594A3A8D11A41DCB00E2F4CE /* Build configuration list for PBXProject "openheatmap" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 594A3A8811A41DCB00E2F4CE;
 			projectDirPath = "";
 			projectRoot = "";

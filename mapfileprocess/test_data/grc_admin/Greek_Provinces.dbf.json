@@ -1,0 +1,665 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "AREA": 3468810000.000000,
+           "PERIMETER": 375619.000000,
+           "NOMOI_EU_": 1,
+           "NOMOI_EU_I": 1,
+           "CD_NOM_EU": "GR114",
+           "NAME_NOM": "молос  дяалас",
+           "NAME_NOM_P": "дЯэЛАР",
+           "CD_PERIF_E": "GR11"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "AREA": 2550230000.000000,
+           "PERIMETER": 282360.000000,
+           "NOMOI_EU_": 2,
+           "NOMOI_EU_I": 2,
+           "CD_NOM_EU": "GR113",
+           "NAME_NOM": "молос  яодопгс",
+           "NAME_NOM_P": "яОДЭПГР",
+           "CD_PERIF_E": "GR11"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "AREA": 1795690000.000000,
+           "PERIMETER": 282329.000000,
+           "NOMOI_EU_": 3,
+           "NOMOI_EU_I": 3,
+           "CD_NOM_EU": "GR112",
+           "NAME_NOM": "молос  намхгс",
+           "NAME_NOM_P": "нэМХГР",
+           "CD_PERIF_E": "GR11"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "AREA": 2524390000.000000,
+           "PERIMETER": 317523.000000,
+           "NOMOI_EU_": 4,
+           "NOMOI_EU_I": 4,
+           "CD_NOM_EU": "GR123",
+           "NAME_NOM": "молос  йикйис",
+           "NAME_NOM_P": "йИКЙъР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "AREA": 3971820000.000000,
+           "PERIMETER": 367721.000000,
+           "NOMOI_EU_": 5,
+           "NOMOI_EU_I": 5,
+           "CD_NOM_EU": "GR126",
+           "NAME_NOM": "молос  сеяяым",
+           "NAME_NOM_P": "сЕЯЯЧМ",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "AREA": 2505840000.000000,
+           "PERIMETER": 327302.000000,
+           "NOMOI_EU_": 6,
+           "NOMOI_EU_I": 6,
+           "CD_NOM_EU": "GR124",
+           "NAME_NOM": "молос  пеккгс",
+           "NAME_NOM_P": "пщККГР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "AREA": 1926860000.000000,
+           "PERIMETER": 287821.000000,
+           "NOMOI_EU_": 7,
+           "NOMOI_EU_I": 7,
+           "CD_NOM_EU": "GR134",
+           "NAME_NOM": "молос  жкыяимгс",
+           "NAME_NOM_P": "жКЫЯъМГР",
+           "CD_PERIF_E": "GR13"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "AREA": 2120340000.000000,
+           "PERIMETER": 441281.000000,
+           "NOMOI_EU_": 8,
+           "NOMOI_EU_I": 8,
+           "CD_NOM_EU": "GR115",
+           "NAME_NOM": "молос  йабакас",
+           "NAME_NOM_P": "йАБэКАР",
+           "CD_PERIF_E": "GR11"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "AREA": 4248600000.000000,
+           "PERIMETER": 534251.000000,
+           "NOMOI_EU_": 9,
+           "NOMOI_EU_I": 9,
+           "CD_NOM_EU": "GR111",
+           "NAME_NOM": "молос  ебяоу",
+           "NAME_NOM_P": "╦БЯОУ",
+           "CD_PERIF_E": "GR11"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "AREA": 3681120000.000000,
+           "PERIMETER": 538916.000000,
+           "NOMOI_EU_": 10,
+           "NOMOI_EU_I": 10,
+           "CD_NOM_EU": "GR122",
+           "NAME_NOM": "молос  хессакомийгс",
+           "NAME_NOM_P": "хЕССАКОМъЙГР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "AREA": 1703530000.000000,
+           "PERIMETER": 252415.000000,
+           "NOMOI_EU_": 11,
+           "NOMOI_EU_I": 11,
+           "CD_NOM_EU": "GR121",
+           "NAME_NOM": "молос  глахиас",
+           "NAME_NOM_P": "гЛАХъАР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "AREA": 1724300000.000000,
+           "PERIMETER": 284447.000000,
+           "NOMOI_EU_": 12,
+           "NOMOI_EU_I": 12,
+           "CD_NOM_EU": "GR132",
+           "NAME_NOM": "молос  йастояиас",
+           "NAME_NOM_P": "йАСТОЯъАР",
+           "CD_PERIF_E": "GR13"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "AREA": 3517050000.000000,
+           "PERIMETER": 420819.000000,
+           "NOMOI_EU_": 13,
+           "NOMOI_EU_I": 13,
+           "CD_NOM_EU": "GR133",
+           "NAME_NOM": "молос  йофамгс",
+           "NAME_NOM_P": "йОФэМГР",
+           "CD_PERIF_E": "GR13"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "AREA": 1523990000.000000,
+           "PERIMETER": 285809.000000,
+           "NOMOI_EU_": 14,
+           "NOMOI_EU_I": 14,
+           "CD_NOM_EU": "GR125",
+           "NAME_NOM": "молос  пиеяиас",
+           "NAME_NOM_P": "пИЕЯъАР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "AREA": 3257630000.000000,
+           "PERIMETER": 829342.000000,
+           "NOMOI_EU_": 15,
+           "NOMOI_EU_I": 15,
+           "CD_NOM_EU": "GR127",
+           "NAME_NOM": "молос  вакйидийгс",
+           "NAME_NOM_P": "вАКЙИДИЙчР",
+           "CD_PERIF_E": "GR12"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "AREA": 2296450000.000000,
+           "PERIMETER": 314689.000000,
+           "NOMOI_EU_": 16,
+           "NOMOI_EU_I": 16,
+           "CD_NOM_EU": "GR131",
+           "NAME_NOM": "молос  цяебемым",
+           "NAME_NOM_P": "цЯЕБЕМЧМ",
+           "CD_PERIF_E": "GR13"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "AREA": 3386120000.000000,
+           "PERIMETER": 372697.000000,
+           "NOMOI_EU_": 17,
+           "NOMOI_EU_I": 17,
+           "CD_NOM_EU": "GR144",
+           "NAME_NOM": "молос  тяийакым",
+           "NAME_NOM_P": "тЯИЙэКЫМ",
+           "CD_PERIF_E": "GR14"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "AREA": 1517880000.000000,
+           "PERIMETER": 371218.000000,
+           "NOMOI_EU_": 18,
+           "NOMOI_EU_I": 18,
+           "CD_NOM_EU": "GR212",
+           "NAME_NOM": "молос  хеспяытиас",
+           "NAME_NOM_P": "хЕСПЯЫТъАР",
+           "CD_PERIF_E": "GR21"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "AREA": 4999010000.000000,
+           "PERIMETER": 466019.000000,
+           "NOMOI_EU_": 19,
+           "NOMOI_EU_I": 19,
+           "CD_NOM_EU": "GR213",
+           "NAME_NOM": "молос  иыаммимым",
+           "NAME_NOM_P": "иЫАММъМЫМ",
+           "CD_PERIF_E": "GR21"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "AREA": 5385610000.000000,
+           "PERIMETER": 483990.000000,
+           "NOMOI_EU_": 20,
+           "NOMOI_EU_I": 20,
+           "CD_NOM_EU": "GR142",
+           "NAME_NOM": "молос  каяисгс",
+           "NAME_NOM_P": "кАЯъСГР",
+           "CD_PERIF_E": "GR14"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "AREA": 639944000.000000,
+           "PERIMETER": 352659.000000,
+           "NOMOI_EU_": 21,
+           "NOMOI_EU_I": 21,
+           "CD_NOM_EU": "GR222",
+           "NAME_NOM": "молос  йеяйуяас",
+           "NAME_NOM_P": "йЕЯЙЩЯАР",
+           "CD_PERIF_E": "GR22"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "AREA": 2637990000.000000,
+           "PERIMETER": 342592.000000,
+           "NOMOI_EU_": 22,
+           "NOMOI_EU_I": 22,
+           "CD_NOM_EU": "GR141",
+           "NAME_NOM": "молос  йаядитсгс",
+           "NAME_NOM_P": "йАЯДъТСГР",
+           "CD_PERIF_E": "GR14"
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "AREA": 1609830000.000000,
+           "PERIMETER": 431131.000000,
+           "NOMOI_EU_": 23,
+           "NOMOI_EU_I": 23,
+           "CD_NOM_EU": "GR211",
+           "NAME_NOM": "молос  аятгс",
+           "NAME_NOM_P": "аЯТГР",
+           "CD_PERIF_E": "GR21"
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "AREA": 1036370000.000000,
+           "PERIMETER": 287093.000000,
+           "NOMOI_EU_": 24,
+           "NOMOI_EU_I": 24,
+           "CD_NOM_EU": "GR214",
+           "NAME_NOM": "молос  пяебефгс",
+           "NAME_NOM_P": "пЯЕБщФГР",
+           "CD_PERIF_E": "GR21"
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "AREA": 2639120000.000000,
+           "PERIMETER": 974054.000000,
+           "NOMOI_EU_": 25,
+           "NOMOI_EU_I": 25,
+           "CD_NOM_EU": "GR143",
+           "NAME_NOM": "молос  лацмгсиас",
+           "NAME_NOM_P": "лАЦМГСъАР",
+           "CD_PERIF_E": "GR14"
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "AREA": 2159760000.000000,
+           "PERIMETER": 732121.000000,
+           "NOMOI_EU_": 26,
+           "NOMOI_EU_I": 26,
+           "CD_NOM_EU": "GR411",
+           "NAME_NOM": "молос  кесбоу",
+           "NAME_NOM_P": "кщСБОУ",
+           "CD_PERIF_E": "GR41"
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "AREA": 1870610000.000000,
+           "PERIMETER": 269226.000000,
+           "NOMOI_EU_": 27,
+           "NOMOI_EU_I": 27,
+           "CD_NOM_EU": "GR243",
+           "NAME_NOM": "молос  еуяутамиас",
+           "NAME_NOM_P": "еУЯУТАМъАР",
+           "CD_PERIF_E": "GR24"
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "AREA": 354924000.000000,
+           "PERIMETER": 281239.000000,
+           "NOMOI_EU_": 28,
+           "NOMOI_EU_I": 28,
+           "CD_NOM_EU": "GR224",
+           "NAME_NOM": "молос  кеуйадос",
+           "NAME_NOM_P": "кЕУЙэДОР",
+           "CD_PERIF_E": "GR22"
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "AREA": 4440010000.000000,
+           "PERIMETER": 657812.000000,
+           "NOMOI_EU_": 29,
+           "NOMOI_EU_I": 29,
+           "CD_NOM_EU": "GR244",
+           "NAME_NOM": "молос  жхиытидос",
+           "NAME_NOM_P": "жХИЧТИДОР",
+           "CD_PERIF_E": "GR24"
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "AREA": 5423230000.000000,
+           "PERIMETER": 959101.000000,
+           "NOMOI_EU_": 30,
+           "NOMOI_EU_I": 30,
+           "CD_NOM_EU": "GR231",
+           "NAME_NOM": "молос  аитыкоайаямамиас",
+           "NAME_NOM_P": "аИТЫКъАР ЙАИ аЙАЯМАМъАР",
+           "CD_PERIF_E": "GR23"
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "AREA": 2125710000.000000,
+           "PERIMETER": 375240.000000,
+           "NOMOI_EU_": 31,
+           "NOMOI_EU_I": 31,
+           "CD_NOM_EU": "GR245",
+           "NAME_NOM": "молос  жыйидос",
+           "NAME_NOM_P": "жЫЙъДОР",
+           "CD_PERIF_E": "GR24"
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "AREA": 2953280000.000000,
+           "PERIMETER": 456450.000000,
+           "NOMOI_EU_": 32,
+           "NOMOI_EU_I": 32,
+           "CD_NOM_EU": "GR241",
+           "NAME_NOM": "молос  боиытиас",
+           "NAME_NOM_P": "бОИЫТъАР",
+           "CD_PERIF_E": "GR24"
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "AREA": 907231000.000000,
+           "PERIMETER": 365819.000000,
+           "NOMOI_EU_": 33,
+           "NOMOI_EU_I": 33,
+           "CD_NOM_EU": "GR413",
+           "NAME_NOM": "молос  виоу",
+           "NAME_NOM_P": "въОУ",
+           "CD_PERIF_E": "GR41"
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "AREA": 904742000.000000,
+           "PERIMETER": 483479.000000,
+           "NOMOI_EU_": 34,
+           "NOMOI_EU_I": 34,
+           "CD_NOM_EU": "GR223",
+           "NAME_NOM": "молос  йежаккгмиас",
+           "NAME_NOM_P": "йЕЖАККГМъАР",
+           "CD_PERIF_E": "GR22"
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "AREA": 4163500000.000000,
+           "PERIMETER": 1157780.000000,
+           "NOMOI_EU_": 35,
+           "NOMOI_EU_I": 35,
+           "CD_NOM_EU": "GR242",
+           "NAME_NOM": "молос  еубоиас",
+           "NAME_NOM_P": "еУБОъАР",
+           "CD_PERIF_E": "GR24"
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "AREA": 3272720000.000000,
+           "PERIMETER": 330696.000000,
+           "NOMOI_EU_": 36,
+           "NOMOI_EU_I": 36,
+           "CD_NOM_EU": "GR232",
+           "NAME_NOM": "молос  аваиас",
+           "NAME_NOM_P": "аВАЗАР",
+           "CD_PERIF_E": "GR23"
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "AREA": 2296170000.000000,
+           "PERIMETER": 400143.000000,
+           "NOMOI_EU_": 37,
+           "NOMOI_EU_I": 37,
+           "CD_NOM_EU": "GR253",
+           "NAME_NOM": "молос  йояимхиас",
+           "NAME_NOM_P": "йОЯИМХъАР",
+           "CD_PERIF_E": "GR25"
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "AREA": 780622000.000000,
+           "PERIMETER": 421830.000000,
+           "NOMOI_EU_": 38,
+           "NOMOI_EU_I": 38,
+           "CD_NOM_EU": "GR412",
+           "NAME_NOM": "молос  салоу",
+           "NAME_NOM_P": "сэЛОУ",
+           "CD_PERIF_E": "GR41"
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "AREA": 2622480000.000000,
+           "PERIMETER": 341401.000000,
+           "NOMOI_EU_": 39,
+           "NOMOI_EU_I": 39,
+           "CD_NOM_EU": "GR233",
+           "NAME_NOM": "молос  гкеиас",
+           "NAME_NOM_P": "гКЕъАР",
+           "CD_PERIF_E": "GR23"
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "AREA": 2154600000.000000,
+           "PERIMETER": 489082.000000,
+           "NOMOI_EU_": 40,
+           "NOMOI_EU_I": 40,
+           "CD_NOM_EU": "GR251",
+           "NAME_NOM": "молос  аяцокидос",
+           "NAME_NOM_P": "аЯЦОКъДОР",
+           "CD_PERIF_E": "GR25"
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "AREA": 407313000.000000,
+           "PERIMETER": 168951.000000,
+           "NOMOI_EU_": 41,
+           "NOMOI_EU_I": 41,
+           "CD_NOM_EU": "GR221",
+           "NAME_NOM": "молос  файумхоу",
+           "NAME_NOM_P": "фАЙЩМХОУ",
+           "CD_PERIF_E": "GR22"
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "AREA": 4418390000.000000,
+           "PERIMETER": 522022.000000,
+           "NOMOI_EU_": 42,
+           "NOMOI_EU_I": 42,
+           "CD_NOM_EU": "GR252",
+           "NAME_NOM": "молос  аяйадиас",
+           "NAME_NOM_P": "аЯЙАДъАР",
+           "CD_PERIF_E": "GR25"
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "AREA": 2996940000.000000,
+           "PERIMETER": 496922.000000,
+           "NOMOI_EU_": 43,
+           "NOMOI_EU_I": 43,
+           "CD_NOM_EU": "GR255",
+           "NAME_NOM": "молос  лессгмиас",
+           "NAME_NOM_P": "лЕССГМъАР",
+           "CD_PERIF_E": "GR25"
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "AREA": 3639450000.000000,
+           "PERIMETER": 668898.000000,
+           "NOMOI_EU_": 44,
+           "NOMOI_EU_I": 44,
+           "CD_NOM_EU": "GR254",
+           "NAME_NOM": "молос  кайымиас",
+           "NAME_NOM_P": "кАЙЫМъАР",
+           "CD_PERIF_E": "GR25"
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "AREA": 2599370000.000000,
+           "PERIMETER": 2297180.000000,
+           "NOMOI_EU_": 45,
+           "NOMOI_EU_I": 45,
+           "CD_NOM_EU": "GR422",
+           "NAME_NOM": "молос  йуйкадым",
+           "NAME_NOM_P": "йУЙКэДЫМ",
+           "CD_PERIF_E": "GR42"
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "AREA": 3810840000.000000,
+           "PERIMETER": 1388350.000000,
+           "NOMOI_EU_": 46,
+           "NOMOI_EU_I": 46,
+           "CD_NOM_EU": "GR3",
+           "NAME_NOM": "аттийгс",
+           "NAME_NOM_P": "аТТИЙчР",
+           "CD_PERIF_E": "GR3"
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "AREA": 2717060000.000000,
+           "PERIMETER": 1925460.000000,
+           "NOMOI_EU_": 47,
+           "NOMOI_EU_I": 47,
+           "CD_NOM_EU": "GR421",
+           "NAME_NOM": "молос  дыдейамгсоу",
+           "NAME_NOM_P": "дЫДЕЙАМчСОУ",
+           "CD_PERIF_E": "GR42"
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "AREA": 1496110000.000000,
+           "PERIMETER": 246688.000000,
+           "NOMOI_EU_": 48,
+           "NOMOI_EU_I": 48,
+           "CD_NOM_EU": "GR433",
+           "NAME_NOM": "молос  яехулмгс",
+           "NAME_NOM_P": "яЕХЩЛМГР",
+           "CD_PERIF_E": "GR43"
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "AREA": 2640830000.000000,
+           "PERIMETER": 382845.000000,
+           "NOMOI_EU_": 49,
+           "NOMOI_EU_I": 49,
+           "CD_NOM_EU": "GR431",
+           "NAME_NOM": "молос  гяайкеиоу",
+           "NAME_NOM_P": "гЯАЙКЕъОУ",
+           "CD_PERIF_E": "GR43"
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "AREA": 1827680000.000000,
+           "PERIMETER": 502116.000000,
+           "NOMOI_EU_": 50,
+           "NOMOI_EU_I": 50,
+           "CD_NOM_EU": "GR432",
+           "NAME_NOM": "молос  касихиоу",
+           "NAME_NOM_P": "кАСИХъОУ",
+           "CD_PERIF_E": "GR43"
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "AREA": 2376890000.000000,
+           "PERIMETER": 488789.000000,
+           "NOMOI_EU_": 51,
+           "NOMOI_EU_I": 51,
+           "CD_NOM_EU": "GR434",
+           "NAME_NOM": "молос  вамиым",
+           "NAME_NOM_P": "вАМъЫМ",
+           "CD_PERIF_E": "GR43"
+       }
+    }
+]

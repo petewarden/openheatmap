@@ -70,6 +70,8 @@ foreach ($input_osm_ways->ways as &$way)
         }
         if (!isset($code_key))
             die("Code key not found in ".print_r($tags, true)."\n");
+            
+        print "Found $code_key\n";
     }
 
     if (!isset($tags[$code_key]))
