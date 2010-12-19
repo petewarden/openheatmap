@@ -3087,13 +3087,25 @@ function OpenHeatMap(canvas, width, height)
 
     this.createURLForTile = function(latIndex, lonIndex, zoomIndex)
     {
+        var zoomTileCount = (1<<zoomIndex);
+       
+        var trueLonIndex;
+        if (lonIndex<0)
+            trueLonIndex = (zoomTileCount-((-lonIndex)%zoomTileCount));
+        else if (lonIndex>=zoomTileCount)
+            trueLonIndex = (lonIndex%zoomTileCount);
+        else
+            trueLonIndex = lonIndex;
+       
         var result = this._settings.map_server_root;
         result += zoomIndex;
         result += '/';
-        result += lonIndex;
+        result += trueLonIndex;
         result += '/';
         result += latIndex;
         result += '.png';
+        result += '#';
+        result += lonIndex;
 
         return result;	
     };
@@ -3164,12 +3176,8 @@ function OpenHeatMap(canvas, width, height)
         var tileHeightInDegrees = (this._settings.map_tile_height/zoomPixelsPerDegreeLatitude);
 
         var latIndex = ((this.latitudeToMercatorLatitude(lat)-mercatorLatitudeOrigin)/tileHeightInDegrees);
-        latIndex = Math.max(latIndex, 0);
-        latIndex = Math.min(latIndex, (zoomTileCount-1));
         
         var lonIndex = ((lon-this._settings.map_tile_origin_lon)/tileWidthInDegrees);
-        lonIndex = Math.max(lonIndex, 0);
-        lonIndex = Math.min(lonIndex, (zoomTileCount-1));
         
         var result = {
             latIndex: latIndex,

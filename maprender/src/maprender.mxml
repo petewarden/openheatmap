@@ -2585,13 +2585,25 @@ private function removeAllPopups(): void
 
 private function createURLForTile(latIndex: Number, lonIndex: Number, zoomIndex: Number): String
 {
+	var zoomTileCount: Number = (1<<zoomIndex);
+	
+	var trueLonIndex: Number;
+	if (lonIndex<0)
+		trueLonIndex = (zoomTileCount-((-lonIndex)%zoomTileCount));
+	else if (lonIndex>=zoomTileCount)
+		trueLonIndex = (lonIndex%zoomTileCount);
+	else
+		trueLonIndex = lonIndex;
+	
 	var result: String = _settings.map_server_root;
 	result += zoomIndex;
 	result += '/';
-	result += lonIndex;
+	result += trueLonIndex;
 	result += '/';
 	result += latIndex;
 	result += '.png';
+	result += '#';
+	result += lonIndex;
 
 	return result;	
 }
@@ -2663,12 +2675,7 @@ private function getTileIndicesFromLatLon(lat: Number, lon: Number, zoomLevel: i
 	var tileHeightInDegrees: Number = (_settings.map_tile_height/zoomPixelsPerDegreeLatitude);
 
 	var latIndex: Number = ((latitudeToMercatorLatitude(lat)-mercatorLatitudeOrigin)/tileHeightInDegrees);
-	latIndex = Math.max(latIndex, 0);
-	latIndex = Math.min(latIndex, (zoomTileCount-1));
-	
 	var lonIndex: Number = ((lon-_settings.map_tile_origin_lon)/tileWidthInDegrees);
-	lonIndex = Math.max(lonIndex, 0);
-	lonIndex = Math.min(lonIndex, (zoomTileCount-1));
 	
 	var result: Object = {
 		latIndex: latIndex,
