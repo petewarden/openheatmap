@@ -185,7 +185,8 @@ public var _settings: Object =
 	circle_line_alpha: 1.0,
 	circle_line_thickness: 1.0,
 	max_fps: 2.0,
-	circle_minimum_radius: 2.0
+	circle_minimum_radius: 2.0,
+	default_pin_image: '/static/images/map_pin.png'
 };
 
 public var _lastSetWayIds: Object = {};
@@ -227,6 +228,8 @@ public var VTrackImage:Class;
 public var _tooltipColumnIndex: int;
 	
 public var _lastAnimationFrameTime: Number = 0;
+	
+public var _externalImages: Object = {};
 	
 private function getURLInput(name: String, defaultValue: String = null): String
 {
@@ -3537,6 +3540,8 @@ private function drawBackgroundBitmap(width: Number, height: Number, viewingArea
 		result = drawPointBlobBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 	else if (pointDrawingShape=='circle')
 		result = drawPointCircleBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
+	else if (pointDrawingShape=='sprite')
+		result = drawPointSpriteBitmap(width, height, viewingArea, latLonToXYMatrix, xYToLatLonMatrix);
 	else
 		logError('Unknown type in setting point_drawing_shape: "'+pointDrawingShape+'"');
 
@@ -3645,6 +3650,123 @@ private function drawPointCircleBitmap(width: Number, height: Number, viewingAre
 
 	_pointBlobStillRendering = false;
 	
+	return result;
+}
+
+private function drawPointSpriteBitmap(width: Number, height: Number, viewingArea: Rectangle, latLonToXYMatrix: Matrix, xYToLatLonMatrix: Matrix): BitmapData
+{
+	var pixelsPerDegreeLatitude: Number = latLonToXYMatrix.d;
+	var blobRadius: Number = Math.abs(64/pixelsPerDegreeLatitude);
+	var twoBlobRadius: Number = (2*blobRadius);
+	var pointBlobValue: Number = _settings.point_blob_value;
+	var radiusInPixels: Number = Math.abs(blobRadius*pixelsPerDegreeLatitude);
+	
+	if (_settings.is_gradient_value_range_set)
+	{
+		var minValue: Number = _settings.gradient_value_min;
+		var maxValue: Number = _settings.gradient_value_max;	
+	}
+	else
+	{
+		minValue = _smallestValue;
+		maxValue = _largestValue;
+	}
+	if (Math.abs(maxValue-minValue)<0.00001)	
+		minValue = (maxValue-1.0);
+	var valueScale: Number = (1/(maxValue-minValue));	
+	
+	var currentValues: Array = getCurrentValues();
+	
+	var hasValues: Boolean = (_valueColumnIndex!==-1);
+	
+	var foundPoints: Array = [];	
+	for each (var values: Array in currentValues)
+	{
+		var lat: Number = values[_latitudeColumnIndex];
+		var lon: Number = values[_longitudeColumnIndex];
+		var pointValue: Number;
+		if (hasValues)
+			pointValue = values[_valueColumnIndex];
+		else
+			pointValue = pointBlobValue;
+		
+		var boundingBox: Rectangle = new Rectangle(lon-blobRadius, lat-blobRadius, twoBlobRadius, twoBlobRadius);
+		
+		if (!viewingArea.intersects(boundingBox))
+			continue;
+		
+		foundPoints.push({
+			"lat": lat,
+			"lon": lon,
+			"value": pointValue
+		});
+	}
+	
+	foundPoints.sort(function (a: Object, b: Object): int { return b.lat-a.lat; });	
+
+	var defaultImage: BitmapData = getExternalImageAsBitmapData(_settings.default_pin_image);
+	
+	var defaultImageWidth: int = defaultImage.width;
+	var defaultImageHeight: int = defaultImage.height;
+	
+	var defaultHalfWidth: Number = (defaultImageWidth/2.0);
+	var defaultHalfHeight: Number = (defaultImageHeight/2.0);
+
+	var shape: Shape = new Shape();
+	var graphics: Graphics = shape.graphics;
+	graphics.clear();	
+		
+	for (var index: int = 0; index<foundPoints.length; index += 1)
+	{
+		var point: Object = foundPoints[index];
+		
+		var center: Point = getXYFromLatLon(point, latLonToXYMatrix);
+		pointValue = point.value;
+				
+		var normalizedValue: Number = (((pointValue-minValue)*valueScale));
+		normalizedValue = Math.max(0.0, normalizedValue);
+
+		var leftX: Number = (center.x-defaultHalfWidth);
+		var topY: Number = (center.y-defaultHalfHeight);
+
+		if (defaultImage == null)
+			continue;
+		
+		var imageMatrix: Matrix = new Matrix();
+		imageMatrix.translate(leftX, topY);
+		
+		graphics.beginBitmapFill(defaultImage, imageMatrix);
+		graphics.drawRect(leftX, topY, defaultImageWidth, defaultImageHeight);
+		graphics.endFill();			
+	}		
+	
+//	shape.filters = [new DropShadowFilter(4.0, 45, 0x000000, 0.8, 12.0, 12.0)];
+	
+	var result: BitmapData = new BitmapData(width, height, true, 0x000000);
+	result.draw(shape, new Matrix());	
+	
+	_pointBlobStillRendering = false;
+	
+	return result;
+}
+	
+private function getExternalImageAsBitmapData(url: String): BitmapData
+{
+	if (typeof _externalImages[url] === 'undefined')
+	{
+		_externalImages[url] = {
+			loader: new Loader()
+		};
+		_externalImages[url].loader.load(new URLRequest(url));
+	}
+
+	if (_externalImages[url].loader.content == null)
+		return null;
+
+	var bitmap: Bitmap = _externalImages[url].loader.content as Bitmap;
+	
+	var result: BitmapData = bitmap.bitmapData;
+
 	return result;
 }
 	
