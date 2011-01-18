@@ -433,7 +433,8 @@ function updateOpenHeatMapMessage(event)
                 }
                 else if (typeof point.tooltip !== 'undefined')
                 {
-                    popupHTML = htmlspecialchars(point.tooltip)
+                    addHtmlPopup(point, event);                    
+                    popupHTML = '';
                 }
                 else
                 {
@@ -1171,3 +1172,34 @@ function addPhotoPopup(point, event)
     $('#openheatmap_container').append(popup);
 }
 
+function addHtmlPopup(point, event)
+{
+    var localX = event.x;
+    var localY = event.y;
+    
+    var displayHtml = point.tooltip;
+
+    if (g_lastPhotoPopup==displayHtml)
+        return;
+    
+    g_lastPhotoPopup = displayHtml;
+    
+    $('.openheatmap_photo_popup').remove();
+
+    var popup = $('<div>'+displayHtml+'</div>')
+    .css({
+        position: 'absolute',
+        left: localX+'px',
+        top: localY+'px',
+        border: '2px solid #000000',
+        backgroundColor: '#ffffff'
+    })
+    .addClass('openheatmap_photo_popup');
+    
+    $('#openheatmap_container').append(popup);
+    
+    popup.css({
+        left: (localX-(popup.width()/2))+'px',
+        top: (localY-(popup.height()/2))+'px'
+    });
+}

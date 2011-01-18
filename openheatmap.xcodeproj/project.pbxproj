@@ -409,6 +409,7 @@
 		599DCC1511EFAF330082DE3F /* twittercount.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twittercount.php; path = mapfileprocess/twittercount.php; sourceTree = "<group>"; };
 		599DCD9C11F376840082DE3F /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = common.js; path = static/scripts/common.js; sourceTree = "<group>"; };
 		599DCE2611F396BF0082DE3F /* jqueryui.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = jqueryui.css; path = static/css/jqueryui.css; sourceTree = "<group>"; };
+		59BB12EA12C2FDF3006AAD2F /* htmlawed.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = htmlawed.php; sourceTree = "<group>"; };
 		59DA3921122B258700B61ABD /* testtranslate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = testtranslate.py; path = mapfileprocess/testtranslate.py; sourceTree = "<group>"; };
 		59E63700121B433B0076D3B4 /* createcitytables.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = createcitytables.php; path = mapfileprocess/createcitytables.php; sourceTree = "<group>"; };
 		59E6374A121DE6BB0076D3B4 /* scratchpad.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = scratchpad.py; path = mapfileprocess/scratchpad.py; sourceTree = "<group>"; };
@@ -497,6 +498,7 @@
 				597B3245127CCF3C0010CA82 /* geocoder.php */,
 				597B3246127CCF3C0010CA82 /* geoip.php */,
 				597B3247127CCF3C0010CA82 /* geometryindex.php */,
+				59BB12EA12C2FDF3006AAD2F /* htmlawed.php */,
 				597B3248127CCF3C0010CA82 /* location.php */,
 				597B3249127CCF3C0010CA82 /* locationheaders.php */,
 				597B324A127CCF3C0010CA82 /* locationtables.php */,
