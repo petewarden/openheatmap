@@ -41,7 +41,7 @@ $output_file = $options['outputfile'];
 if (empty($input_files))
 {
     print "You need to supply at least one file to merge\n";
-    cliargs_print_options_and_exit($cliargs);
+    cliargs_print_usage_and_exit($cliargs);
 }
 
 $output_osm_ways = null;

@@ -1,0 +1,3526 @@
+<kml>
+  <Document>
+    <name>油尖旺民 YAU TSIM MONG DISTRICT</name>
+    <LookAt>
+      <longitude>114.168658970314</longitude>
+      <latitude>22.3098155842252</latitude>
+      <altitude>0</altitude>
+      <tilt>15</tilt>
+      <range>5263.80271911345</range>
+      <altitudeMode>absolute</altitudeMode>
+    </LookAt>
+    <StyleMap id="c-2701">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2701-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2701-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2702">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2702-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2702-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2703">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2703-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2703-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2704">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2704-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2704-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2705">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2705-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2705-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2706">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2706-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2706-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2707">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2707-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2707-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2708">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2708-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2708-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2709">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2709-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2709-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2710">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2710-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2710-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2711">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2711-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2711-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2712">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2712-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2712-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2713">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2713-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2713-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2714">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2714-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2714-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2715">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2715-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2715-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="c-2716">
+      <Pair>
+        <key>highlight</key>
+        <Style id="c-2716-on">
+          <IconStyle>
+            <scale>0</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>2</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>2</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>00000000</color>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>normal</key>
+        <Style id="c-2716-off">
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+          <LineStyle>
+            <colorMode>random</colorMode>
+            <width>4</width>
+          </LineStyle>
+          <PolyStyle>
+            <colorMode>random</colorMode>
+          </PolyStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h1>$[name]</h1><h2>$[Snippet]</h2>$[description]]]></text>
+          </BalloonStyle>
+          <ListStyle/>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>尖沙咀西 Tsim Sha Tsui West</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>13</td><td>0.53%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>436</td><td>17.88%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>1</td><td>0.04%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>368</td><td>15.09%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>331</td><td>13.57%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>6</td><td>0.25%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>214</td><td>8.77%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>393</td><td>16.11%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>387</td><td>15.87%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>128</td><td>5.25%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>136</td><td>5.58%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>2</td><td>0.08%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>24</td><td>0.98%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>2439</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2701</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.165424137548,22.3006471373245,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.172985056685,22.3061245027504,0
+                114.17315005242,22.3057480430424,0
+                114.173387838862,22.3052045184312,0
+                114.1734060384,22.3050938938373,0
+                114.173470961686,22.3042060732666,0
+                114.173480063171,22.3040751295917,0
+                114.173527997391,22.3033842887728,0
+                114.171759290321,22.3032730537365,0
+                114.171802378351,22.3026375257097,0
+                114.171819977337,22.3023846690814,0
+                114.171897047862,22.3012812433097,0
+                114.171960765672,22.3003979381963,0
+                114.1720250892,22.2995151974086,0
+                114.17208455745,22.2986973639105,0
+                114.172124607073,22.2981476262232,0
+                114.172159194959,22.2976780350702,0
+                114.172210773127,22.2969725194536,0
+                114.172244753849,22.2965051858502,0
+                114.172310894013,22.2956021256738,0
+                114.172384309446,22.2947645375703,0
+                114.17249833429,22.2947741356956,0
+                114.172951401229,22.2948113984653,0
+                114.172988398771,22.2948108349285,0
+                114.173321983196,22.2948051983391,0
+                114.173438470551,22.2933072463004,0
+                114.173496262341,22.293203383378,0
+                114.173419671712,22.2931977494866,0
+                114.173371743183,22.2937881252463,0
+                114.173220720685,22.2937762691586,0
+                114.173225574902,22.2937299873964,0
+                114.172864104279,22.2933360183967,0
+                114.173250459015,22.2930318077746,0
+                114.17325834419,22.2930267288365,0
+                114.173274113197,22.2930205207372,0
+                114.17329534131,22.2930165702667,0
+                114.173329306117,22.2930171350914,0
+                114.17358971036,22.2930354393805,0
+                114.173649890655,22.2929272838577,0
+                114.173309294534,22.2929025587281,0
+                114.173276542059,22.2929025580146,0
+                114.173246216591,22.292907072371,0
+                114.173222562526,22.2929144096264,0
+                114.173198908358,22.2929256978124,0
+                114.173172221984,22.2929431932162,0
+                114.172783441373,22.2932496611062,0
+                114.171015469684,22.2931164061499,0
+                114.170925709811,22.2930210164064,0
+                114.169573199923,22.2929193666305,0
+                114.169513759618,22.2929560517022,0
+                114.169348760937,22.2934990097644,0
+                114.169319647598,22.2935023952649,0
+                114.169248078839,22.293514808828,0
+                114.169131020691,22.2935481042104,0
+                114.169056424121,22.2934606160244,0
+                114.168950892991,22.2934273111998,0
+                114.168866590556,22.2933838468145,0
+                114.168524543376,22.292976322863,0
+                114.168505741985,22.2929639050092,0
+                114.168482694594,22.2929582594691,0
+                114.168457222063,22.2929610797576,0
+                114.168446910905,22.2929650301594,0
+                114.168435386084,22.2929706739203,0
+                114.168418403942,22.292987040866,0
+                114.168408091699,22.2930090525126,0
+                114.168406877562,22.2930186477401,0
+                114.168407482403,22.2930406599526,0
+                114.168411727432,22.2930502554633,0
+                114.168422644717,22.2930677520314,0
+                114.168756201077,22.2934668098146,0
+                114.168779243778,22.2935559890122,0
+                114.168439574517,22.2939284842794,0
+                114.168361943228,22.2938889720687,0
+                114.168017470712,22.2934763666801,0
+                114.168008979904,22.2934695936851,0
+                114.1679871463,22.2934594331183,0
+                114.167974409594,22.2934571737568,0
+                114.167938624618,22.2934622520679,0
+                114.167918609317,22.2934746678604,0
+                114.167910117511,22.293483698595,0
+                114.167899199241,22.2935017592408,0
+                114.167896165266,22.2935124825415,0
+                114.167899196408,22.2935463476892,0
+                114.167911324499,22.2935677964469,0
+                114.168241850119,22.2939612107402,0
+                114.168303099708,22.294088770862,0
+                114.168362535878,22.2941339276634,0
+                114.168451082293,22.2942101281705,0
+                114.168507485419,22.2942524620057,0
+                114.168353996788,22.2949269285269,0
+                114.164761654662,22.2942240060964,0
+                114.164751343598,22.2942245694182,0
+                114.164742851981,22.2942285197194,0
+                114.16473375342,22.2942415000191,0
+                114.164590561986,22.2948674243684,0
+                114.164591167072,22.2948798424578,0
+                114.164595411994,22.2948883087326,0
+                114.164611180071,22.2948995974748,0
+                114.166995367154,22.2953665301555,0
+                114.168037354106,22.2955726013838,0
+                114.168034321692,22.2955776803296,0
+                114.168010060237,22.2955731639916,0
+                114.167985193607,22.2955725985498,0
+                114.167960325592,22.2955742894588,0
+                114.167933638743,22.2955810616863,0
+                114.16791059005,22.2955895263754,0
+                114.167889360895,22.2956013780055,0
+                114.167869951347,22.295615487244,0
+                114.167854787441,22.2956301608036,0
+                114.167840230692,22.295648786484,0
+                114.167828098515,22.2956691045637,0
+                114.16782081954,22.2956877294898,0
+                114.167814752653,22.2957103054156,0
+                114.167812325277,22.2957328815433,0
+                114.167813536135,22.2957560231177,0
+                114.167817780373,22.2957785996158,0
+                114.167825664163,22.2958006122271,0
+                114.167836580166,22.295820931584,0
+                114.16785113576,22.2958401229641,0
+                114.167867510017,22.2958570557768,0
+                114.167886917767,22.2958717324003,0
+                114.167907539287,22.2958835863329,0
+                114.167930585642,22.2958931817294,0
+                114.167954239628,22.2958993914678,0
+                114.167979107416,22.295902215581,0
+                114.168003367968,22.2959022169022,0
+                114.168028236147,22.2958988314088,0
+                114.168051890949,22.295892060158,0
+                114.168074332338,22.2958824660831,0
+                114.168095561556,22.2958700503405,0
+                114.168114364979,22.2958553757984,0
+                114.168130741401,22.2958378806806,0
+                114.168144085823,22.2958186908209,0
+                114.168152576709,22.2958265931403,0
+                114.167828602209,22.2972692171379,0
+                114.166138842175,22.296943448247,0
+                114.166109121997,22.2969451397082,0
+                114.166092138207,22.2969569913814,0
+                114.166085465457,22.2969711012462,0
+                114.166072117492,22.2970314925192,0
+                114.166072116412,22.2970456028254,0
+                114.166080606738,22.2970602777828,0
+                114.166090916029,22.2970693085064,0
+                114.166108505745,22.2970772115333,0
+                114.167478024926,22.2973459572864,0
+                114.167479843461,22.2973459573912,0
+                114.167433127636,22.2975553529226,0
+                114.167749732056,22.2976140696769,0
+                114.167627783454,22.2981592867439,0
+                114.165550446938,22.297749955666,0
+                114.165500693348,22.2979762811656,0
+                114.167569541721,22.2983827907876,0
+                114.167575606868,22.2983889995749,0
+                114.167393593373,22.2991972296221,0
+                114.167317776345,22.2991825496488,0
+                114.167306254314,22.2991571511219,0
+                114.167138246091,22.2991244043944,0
+                114.167120655353,22.2991447232422,0
+                114.167094574792,22.2991396414159,0
+                114.164888642163,22.2987015094493,0
+                114.164848004119,22.2987026346309,0
+                114.164808578526,22.2987173072628,0
+                114.164777036032,22.2987438321083,0
+                114.164757017759,22.2987788237561,0
+                114.16475155643,22.2988014007594,0
+                114.164751554781,22.2988205901705,0
+                114.164755798619,22.29884316674,0
+                114.164763682295,22.2988629219819,0
+                114.164775204519,22.2988804199838,0
+                114.164792186188,22.2988973531456,0
+                114.16481220156,22.2989109008437,0
+                114.164843132998,22.2989272709441,0
+                114.166425558429,22.2992468391256,0
+                114.166879240535,22.299336608501,0
+                114.166899861122,22.2993676531226,0
+                114.166857996748,22.2995454401306,0
+                114.167081806264,22.2995889139678,0
+                114.167049043769,22.2997283215927,0
+                114.166696649579,22.2996566202849,0
+                114.166682093441,22.2996588768849,0
+                114.166669961689,22.2996662127429,0
+                114.166662075413,22.2996780650411,0
+                114.166660254952,22.2996870961212,0
+                114.166665106921,22.2997045935691,0
+                114.166674810173,22.2997147535476,0
+                114.166683907686,22.2997187050474,0
+                114.167034482335,22.2997887140073,0
+                114.167012033586,22.2998936932008,0
+                114.167094521456,22.2999095018929,0
+                114.16707813085,22.3001047876152,0
+                114.167041132358,22.3001013985455,0
+                114.167044774893,22.3000596331064,0
+                114.166811865251,22.300038170821,0
+                114.166801547002,22.3001335554485,0
+                114.166995032173,22.3001533219429,0
+                114.167034456682,22.3001567111696,0
+                114.167036277715,22.3001392141365,0
+                114.167073882408,22.3001426032438,0
+                114.167041716295,22.3004208575455,0
+                114.167006537538,22.3004174685777,0
+                114.167008965125,22.3003948924751,0
+                114.166995015345,22.3003937622976,0
+                114.166774235278,22.3003711725168,0
+                114.166765131899,22.3004484959827,0
+                114.167036254506,22.3004722181545,0
+                114.167079318584,22.3004778650992,0
+                114.167035013024,22.3008718226537,0
+                114.167039865867,22.3008780313859,0
+                114.167000437742,22.3009056855132,0
+                114.166648038757,22.3008768790962,0
+                114.166333850469,22.3008582326034,0
+                114.166301097763,22.3008531513747,0
+                114.166239231698,22.3008305711004,0
+                114.165826803522,22.3005669618228,0
+                114.165821345219,22.3005680907852,0
+                114.165771602438,22.3006341238847,0
+                114.165772815621,22.3006397683185,0
+                114.165965079555,22.3007650805838,0
+                114.166226486557,22.3009315998744,0
+                114.16583951872,22.3008519914356,0
+                114.165810404127,22.3008508612844,0
+                114.165781896571,22.3008548102761,0
+                114.16576491268,22.3008615816465,0
+                114.165756420467,22.3008683547508,0
+                114.165752781752,22.3008723054325,0
+                114.165289993472,22.3008169601583,0
+                114.165288172351,22.3008327637493,0
+                114.165265731003,22.3008299393981,0
+                114.165267552126,22.3008141369632,0
+                114.164861779349,22.3007655670477,0
+                114.164855102311,22.3008118483843,0
+                114.164890888502,22.3008158019515,0
+                114.164871468469,22.3009411009524,0
+                114.164835055864,22.3011736367359,0
+                114.16487751397,22.3011781548872,0
+                114.164913926889,22.3009411040759,0
+                114.164916354343,22.3009241712012,0
+                114.16504979259,22.3009411139964,0
+                114.165581725286,22.3010032372905,0
+                114.165582331593,22.3010173476318,0
+                114.165588396223,22.3010303290189,0
+                114.165598705819,22.3010387956812,0
+                114.165618114543,22.3010472641277,0
+                114.166392664284,22.3011342351017,0
+                114.166413893482,22.3011348005542,0
+                114.16644179484,22.301131416657,0
+                114.166467270468,22.3011240805143,0
+                114.166496386244,22.3011099720718,0
+                114.166506091074,22.3010998133204,0
+                114.166527322418,22.301071029983,0
+                114.166549767258,22.3010270070877,0
+                114.166562507266,22.3009931429446,0
+                114.166567361613,22.3009615358111,0
+                114.166703226439,22.3009739612255,0
+                114.166982841895,22.3009954265061,0
+                114.167018625986,22.3010309870443,0
+                114.166994955494,22.3012488485381,0
+                114.166976138882,22.3014396190527,0
+                114.166993723369,22.3015129943658,0
+                114.166920936729,22.3015248427267,0
+                114.166926393996,22.3015564493425,0
+                114.166997966977,22.3015451661499,0
+                114.167071332926,22.3019205054342,0
+                114.167059807969,22.3019346150385,0
+                114.16699490682,22.3019442063976,0
+                114.167071303133,22.3023494598621,0
+                114.167135598303,22.3023393043486,0
+                114.167147121808,22.3023466416514,0
+                114.167193203613,22.302590471527,0
+                114.167122842556,22.3026011907885,0
+                114.167131936957,22.3026531175012,0
+                114.167145883732,22.3027191547993,0
+                114.16714102891,22.3027586626458,0
+                114.167084604862,22.3029567686576,0
+                114.167077325254,22.3029776521981,0
+                114.166995420966,22.3032592890812,0
+                114.164083970318,22.303200951884,0
+                114.16408949744,22.3024559270641,0
+                114.164082858064,22.3020834133121,0
+                114.163291354316,22.3016510090753,0
+                114.163265295825,22.3014139534245,0
+                114.163257423927,22.3012858307458,0
+                114.163272600197,22.3011543231505,0
+                114.163238643456,22.3010504679537,0
+                114.163210146784,22.3009409700119,0
+                114.163198626794,22.3008879135327,0
+                114.163183477782,22.300738343315,0
+                114.16316470122,22.3004775826522,0
+                114.16293603703,22.3004589379153,0
+                114.16252298613,22.30041713521,0
+                114.162063233891,22.3003634744189,0
+                114.161652004629,22.3003098168709,0
+                114.161636841703,22.3003047363449,0
+                114.161621072342,22.300301912114,0
+                114.161605302738,22.3003013465468,0
+                114.161589531646,22.3003030384873,0
+                114.161573761551,22.3003069879357,0
+                114.161559203654,22.3003126309176,0
+                114.161545253004,22.3003199662205,0
+                114.161533120682,22.3003295603589,0
+                114.161523415361,22.3003414122347,0
+                114.161516740811,22.3003549578169,0
+                114.161513706951,22.3003701971634,0
+                114.16123470233,22.3003368697247,0
+                114.161142509032,22.3003261373795,0
+                114.160224825334,22.3002171134362,0
+                114.159029995554,22.2997885974801,0
+                114.159042737048,22.2997564273444,0
+                114.159050020139,22.2997259500307,0
+                114.159043350195,22.2997112737542,0
+                114.159031826731,22.2996988556105,0
+                114.159017270655,22.2996898239753,0
+                114.159000895514,22.2996847419136,0
+                114.158981486302,22.2996847397798,0
+                114.158823196758,22.2995475702082,0
+                114.158771038195,22.2995210372299,0
+                114.158629125082,22.2993912059053,0
+                114.158563020012,22.2993404016218,0
+                114.158520569799,22.2992811328759,0
+                114.158338032528,22.299049137746,0
+                114.158281024432,22.2990062362439,0
+                114.15823130142,22.2989097159446,0
+                114.158153683456,22.2987708615125,0
+                114.15807606218,22.298657968981,0
+                114.158065146389,22.2986449867489,0
+                114.15805301684,22.2986331325525,0
+                114.158039068514,22.298622971566,0
+                114.158024512538,22.2986145039291,0
+                114.158008136543,22.2986077283452,0
+                114.157991761565,22.2986026473371,0
+                114.157970533239,22.2985986939402,0
+                114.157481667502,22.2985958147898,0
+                114.156998866794,22.298596884683,0
+                114.156700452217,22.2986019282039,0
+                114.156494835935,22.2986154476262,0
+                114.155730604634,22.2986063200185,0
+                114.155343636135,22.2986119135942,0
+                114.15532604652,22.298614168774,0
+                114.155309062829,22.2986181174536,0
+                114.155292684975,22.2986243237215,0
+                114.155230206544,22.2986598737965,0
+                114.155036705241,22.2987761171888,0
+                114.154885054863,22.2988788197996,0
+                114.154749779257,22.299001843239,0
+                114.154517436158,22.299252975295,0
+                114.154296609579,22.2995441820038,0
+                114.154303203619,22.3000369164267,0
+                114.154303752078,22.3003970117766,0
+                114.154306134837,22.300666802375,0
+                114.154293368909,22.300844026052,0
+                114.154314582727,22.3009399794919,0
+                114.154303636702,22.301116639328,0
+                114.154311511165,22.3011854984925,0
+                114.154312684116,22.3014315833188,0
+                114.154309033508,22.3014998767927,0
+                114.154297501601,22.3015495438561,0
+                114.154294465484,22.3015738131003,0
+                114.154293246416,22.3016076778766,0
+                114.154301113932,22.3017199972614,0
+                114.154303527385,22.3017984509424,0
+                114.154307160088,22.3018419105151,0
+                114.154315641424,22.301906819984,0
+                114.154322912746,22.3019491518841,0
+                114.154337459989,22.3020129317041,0
+                114.154348977198,22.302055265347,0
+                114.154367163802,22.3021134024738,0
+                114.154390808769,22.3021788769676,0
+                114.15441809362,22.3022432237838,0
+                114.154449017116,22.3023064429205,0
+                114.154496922281,22.3023894178794,0
+                114.154510261296,22.3024198978162,0
+                114.154533909605,22.3024650547091,0
+                114.1545539203,22.3024972289792,0
+                114.154583028707,22.3025389997732,0
+                114.154597582032,22.3025576270814,0
+                114.154620021648,22.3025796423089,0
+                114.154642458961,22.3026084300589,0
+                114.154663682276,22.3026473781626,0
+                114.154772842362,22.3027715629487,0
+                114.1547928559,22.302786241208,0
+                114.154809836836,22.302803175406,0
+                114.154824997397,22.302823496196,0
+                114.154839550259,22.3028534121807,0
+                114.154843186771,22.3028658295486,0
+                114.154848034457,22.3028940519524,0
+                114.154848031631,22.3029121131764,0
+                114.154846210904,22.3029256579811,0
+                114.154850450801,22.3029640385127,0
+                114.154851655877,22.3030108857349,0
+                114.154849829757,22.3030509588647,0
+                114.154845578022,22.303088208913,0
+                114.154835865585,22.3031406978481,0
+                114.154831007551,22.3031785130575,0
+                114.154829183456,22.3032056052238,0
+                114.154829781881,22.3032552739591,0
+                114.154835839252,22.303308893207,0
+                114.154870951329,22.3033996312467,0
+                114.155042660897,22.3033959071997,0
+                114.155042660631,22.3033958415449,0
+                114.155048034333,22.3033958381163,0
+                114.155773557864,22.3033948087164,0
+                114.156014757814,22.3033952213163,0
+                114.156513553904,22.3033949030687,0
+                114.15719774605,22.3033972448104,0
+                114.157197763439,22.3033972681159,0
+                114.15763377894,22.3039780783234,0
+                114.158046769428,22.3045346380512,0
+                114.158276614584,22.3048422696746,0
+                114.166133994442,22.3048463644397,0
+                114.166778768106,22.3048435835998,0
+                114.166821229217,22.3048170588078,0
+                114.166886739696,22.304788842184,0
+                114.166962560722,22.304774172065,0
+                114.167028675549,22.304776998139,0
+                114.167108133598,22.3047956285534,0
+                114.167170607329,22.3048238529494,0
+                114.167233687185,22.3048588503091,0
+                114.167299800526,22.3048842527914,0
+                114.167358634601,22.3049181210338,0
+                114.167376828838,22.3049565021804,0
+                114.167384103233,22.3050208457028,0
+                114.167357412036,22.3050580954127,0
+                114.167313735596,22.3051179206534,0
+                114.167268239528,22.3051760525274,0
+                114.167220923793,22.3052336198772,0
+                114.167180280038,22.3052934452603,0
+                114.167148127693,22.3053594796754,0
+                114.167119614619,22.305426643133,0
+                114.167094134256,22.305494935586,0
+                114.167072293158,22.3055643570974,0
+                114.167054091399,22.3056343432152,0
+                114.167038922349,22.3057054583574,0
+                114.167027392673,22.305776573705,0
+                114.167018895729,22.3058488180661,0
+                114.167014037814,22.3059261423752,0
+                114.167021316664,22.305925013984,0
+                114.167636379876,22.3058262777168,0
+                114.167951189968,22.3057760624893,0
+                114.168050060923,22.3057602642923,0
+                114.168393987484,22.3056818291291,0
+                114.169260171254,22.3054837628569,0
+                114.169721164423,22.305378238453,0
+                114.170145156202,22.3052811774162,0
+                114.170237354244,22.3052681996888,0
+                114.170314388047,22.3052591721859,0
+                114.170391421775,22.3052512734781,0
+                114.170469061957,22.3052456324205,0
+                114.170546095517,22.3052411201087,0
+                114.170623735587,22.3052377366276,0
+                114.170701375555,22.3052366107473,0
+                114.170779015474,22.3052366136615,0
+                114.17085665532,22.3052383097732,0
+                114.170934295097,22.3052416990951,0
+                114.171011934821,22.3052467816147,0
+                114.171088967926,22.3052529929071,0
+                114.171162968091,22.3052625905266,0
+                114.171239394458,22.3052738814433,0
+                114.171315820758,22.3052868655588,0
+                114.171391640433,22.3053021072684,0
+                114.171467460046,22.3053190421898,0
+                114.171542066497,22.305337670271,0
+                114.17161849258,22.3053585560269,0
+                114.171712508882,22.3053822643813,0
+                114.171870213388,22.3054319376275,0
+                114.17207704852,22.3055132193113,0
+                114.172269325672,22.3056159480075,0
+                114.1724403735,22.3057147250292,0
+                114.17263022391,22.3058518824263,0
+                114.172745468363,22.3059484000065,0
+                114.172806730136,22.3059929901787,0
+                114.17286799196,22.306037580315,0
+                114.17292864724,22.306082734829,0
+                114.172985056685,22.3061245027504,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.165866295101,22.2997118781828,0
+                114.165786190542,22.3002424221546,0
+                114.16585958113,22.3002520212588,0
+                114.165939685417,22.2997214784071,0
+                114.165866295101,22.2997118781828,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>渡船角 Ferry Point</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>15</td><td>0.47%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>923</td><td>28.99%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>57</td><td>1.79%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>537</td><td>16.87%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>263</td><td>8.26%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>22</td><td>0.69%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>129</td><td>4.05%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>657</td><td>20.63%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>187</td><td>5.87%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>216</td><td>6.78%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>146</td><td>4.59%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>6</td><td>0.19%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>26</td><td>0.82%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3184</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2702</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.162464206413,22.3078053279488,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.159918264692,22.3174751342391,0
+                114.159918443853,22.3159879077987,0
+                114.15991866474,22.314154131829,0
+                114.159918733469,22.3135835107853,0
+                114.15991881212,22.3129304854601,0
+                114.159918367394,22.3123328965048,0
+                114.159918499293,22.3155250892677,0
+                114.159376637428,22.3168333397652,0
+                114.155038149224,22.3168350722765,0
+                114.155032701842,22.3167532326639,0
+                114.155027853117,22.3167283971482,0
+                114.155023008952,22.3166742129154,0
+                114.155027258513,22.3166533307009,0
+                114.155030898553,22.3166454293457,0
+                114.155038790794,22.316607614601,0
+                114.155045485294,22.3164665127821,0
+                114.155043699604,22.3162452620415,0
+                114.155044928431,22.3161481837172,0
+                114.155042512661,22.316080453622,0
+                114.155038273196,22.3160364288167,0
+                114.155038279941,22.3159929698249,0
+                114.1550407113,22.3159602334402,0
+                114.155044353773,22.3159365295496,0
+                114.155044359204,22.3159015353338,0
+                114.155063783432,22.315819133809,0
+                114.155063177962,22.3158140546305,0
+                114.15506075335,22.3158033297115,0
+                114.155055902289,22.315793733797,0
+                114.155046197613,22.315783009056,0
+                114.155028607595,22.3157739766722,0
+                114.155004345016,22.3157649422326,0
+                114.154967950005,22.3157547779798,0
+                114.154944899069,22.3157513880351,0
+                114.154927307653,22.3157513856601,0
+                114.154907289347,22.3157553338778,0
+                114.154899402585,22.3157581555596,0
+                114.1548854482,22.3157773430423,0
+                114.1548787729,22.3157948392474,0
+                114.154876949883,22.3158140295269,0
+                114.154879373245,22.315832655138,0
+                114.154878763192,22.3158569246788,0
+                114.154860553752,22.3159240867422,0
+                114.154866616092,22.3159494865169,0
+                114.154868433196,22.3159681120457,0
+                114.154868430194,22.3159873025711,0
+                114.154861144643,22.3160222946446,0
+                114.154861725206,22.3161944407421,0
+                114.154870206423,22.3162672507574,0
+                114.154871407908,22.3163378034372,0
+                114.154868974914,22.3163806980114,0
+                114.154861079283,22.316439960778,0
+                114.154867714271,22.3166883022289,0
+                114.154860428064,22.3167272463773,0
+                114.154857382702,22.3168090848454,0
+                114.154863444107,22.3168406930443,0
+                114.154873752009,22.3168632706431,0
+                114.15487678413,22.3168739956458,0
+                114.154884666977,22.3168886710713,0
+                114.154893765455,22.3168993957385,0
+                114.154907109103,22.316909558048,0
+                114.154920453371,22.3169157682784,0
+                114.154935618023,22.3169197212488,0
+                114.154935691933,22.3174519950328,0
+                114.159918264692,22.3174751342391,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.159920039878,22.3084140549501,0
+                114.165439193185,22.3084207448577,0
+                114.165559903456,22.3083993056008,0
+                114.166518309465,22.3081719109464,0
+                114.166994478385,22.3080590579382,0
+                114.167492483557,22.3079405606475,0
+                114.168015357384,22.307822063179,0
+                114.168454522212,22.3077221853605,0
+                114.168291998943,22.3070939852405,0
+                114.168134328475,22.3064849752119,0
+                114.168102188198,22.3063596737967,0
+                114.167951189976,22.3057760624826,0
+                114.167636379872,22.3058262777136,0
+                114.167021316668,22.3059250139815,0
+                114.167014037804,22.3059261423715,0
+                114.167018895732,22.3058488180722,0
+                114.167027392669,22.3057765737058,0
+                114.167038922344,22.3057054583608,0
+                114.167054091393,22.3056343432247,0
+                114.167072293161,22.3055643570903,0
+                114.167094134253,22.3054949355914,0
+                114.167119614616,22.3054266431281,0
+                114.167148127694,22.3053594796717,0
+                114.167180280034,22.3052934452567,0
+                114.167220923787,22.3052336198736,0
+                114.16726823953,22.3051760525341,0
+                114.167313735586,22.3051179206538,0
+                114.167357412043,22.3050580954221,0
+                114.167384103237,22.3050208457089,0
+                114.167376828828,22.304956502184,0
+                114.167358634597,22.3049181210316,0
+                114.167299800529,22.3048842527986,0
+                114.167233687191,22.3048588503108,0
+                114.167170607333,22.3048238529491,0
+                114.167108133596,22.3047956285549,0
+                114.167028675544,22.3047769981389,0
+                114.166962560719,22.3047741720687,0
+                114.166886739695,22.3047888421817,0
+                114.166821229213,22.3048170588163,0
+                114.16677876811,22.3048435836036,0
+                114.166133994448,22.3048463644487,0
+                114.158276614587,22.3048422696709,0
+                114.158046769429,22.3045346380552,0
+                114.157633778937,22.3039780783279,0
+                114.157197763731,22.3033972685071,0
+                114.157419703753,22.3036947170335,0
+                114.157633778663,22.3039780788723,0
+                114.158036459782,22.3045210908451,0
+                114.15843368586,22.3050528136256,0
+                114.159410087964,22.3063544584758,0
+                114.159479831758,22.3064430786155,0
+                114.159920735522,22.3070340650515,0
+                114.159920039878,22.3084140549501,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.156014757489,22.3033952213165,0
+                114.155773557873,22.303394808717,0
+                114.155048038131,22.3033958381139,0
+                114.156014757489,22.3033952213165,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.155042660897,22.3033959072026,0
+                114.15487095133,22.3033996312497,0
+                114.154871004763,22.3033997693314,0
+                114.154873419443,22.3034725786393,0
+                114.154877050249,22.3035295843964,0
+                114.154877045574,22.3035594984047,0
+                114.154873401712,22.30358602508,0
+                114.154870367679,22.3035973133671,0
+                114.154873332815,22.3040268321775,0
+                114.15487211449,22.3040646478765,0
+                114.154863003341,22.3041402783705,0
+                114.154849043131,22.3042040542654,0
+                114.154833264897,22.3042559782831,0
+                114.154815667668,22.3043022577037,0
+                114.154810203023,22.3043344284764,0
+                114.154802921608,22.3043547462173,0
+                114.154792606751,22.3043744994578,0
+                114.154772586518,22.3044010239028,0
+                114.154726479058,22.3044535090264,0
+                114.154676126856,22.3045059924011,0
+                114.154648221337,22.3045296941572,0
+                114.154627595387,22.3045449298045,0
+                114.154568753984,22.3045799160065,0
+                114.154535391224,22.3045962792258,0
+                114.154497781442,22.3046115125216,0
+                114.154454107158,22.3046261820402,0
+                114.154412253278,22.3046374638026,0
+                114.154358266497,22.30464874503,0
+                114.154303675283,22.3046566393154,0
+                114.154248478397,22.304661146658,0
+                114.15420177272,22.3046622694823,0
+                114.154179934646,22.3046752473953,0
+                114.154159307986,22.3046944350666,0
+                114.154141107278,22.3047220878628,0
+                114.154135038987,22.3047373266382,0
+                114.154130790021,22.3047559513521,0
+                114.154130180254,22.304777963415,0
+                114.154136242711,22.3047988482353,0
+                114.154144731107,22.3048129597146,0
+                114.154154435048,22.3048231204352,0
+                114.154170203308,22.3048349754225,0
+                114.154180514191,22.3048406212103,0
+                114.154196283275,22.3048473959351,0
+                114.154218119618,22.3048530433281,0
+                114.154241774533,22.3048513532034,0
+                114.154258758917,22.3048479687273,0
+                114.154296368336,22.3048355570834,0
+                114.154327303649,22.3048282236092,0
+                114.154355812332,22.304824276633,0
+                114.154390994029,22.3048220239949,0
+                114.154426781143,22.3048169498367,0
+                114.154483801804,22.3047960737286,0
+                114.154547494233,22.3047689912368,0
+                114.154629386356,22.3047277997631,0
+                114.154700360617,22.304685478583,0
+                114.154737971996,22.3046600858763,0
+                114.154779222659,22.3046296122394,0
+                114.154826540631,22.3045895452945,0
+                114.154848380046,22.3045675361062,0
+                114.154875679322,22.3045359335333,0
+                114.154899947892,22.3045020718821,0
+                114.154925429035,22.3044591792023,0
+                114.154955766736,22.3044038714564,0
+                114.15498974377,22.3043350179894,0
+                114.155001879692,22.3043073631247,0
+                114.155012802476,22.3042763212557,0
+                114.15502312115,22.3042317342554,0
+                114.155031625206,22.3041532820754,0
+                114.155046803187,22.3040624139172,0
+                114.155048630665,22.3040133096013,0
+                114.155044997502,22.3039709782328,0
+                114.155042660897,22.3033959072026,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.155697961214,22.3059493328451,0
+                114.155660353406,22.3059498920298,0
+                114.155614254428,22.3059532728471,0
+                114.155571187426,22.3059589115565,0
+                114.155519627748,22.3059690641544,0
+                114.155477773553,22.3059803461896,0
+                114.155434097703,22.3059950159691,0
+                114.155383143823,22.3060158920541,0
+                114.155352205853,22.306031127583,0
+                114.155307317228,22.3060559553744,0
+                114.15523512991,22.3060909400401,0
+                114.155150205629,22.3061270511478,0
+                114.155121087152,22.3061445432272,0
+                114.155102282412,22.3061580869116,0
+                114.155076803006,22.3061800956416,0
+                114.155045255599,22.3062156497546,0
+                114.155024020599,22.3062478184083,0
+                114.154991255464,22.3063172361171,0
+                114.154982155043,22.3063313451812,0
+                114.154960314585,22.3063584346415,0
+                114.1549584939,22.3063635134992,0
+                114.154941505655,22.3063906036109,0
+                114.154917842379,22.3064363181238,0
+                114.15490327891,22.3064718733453,0
+                114.154888107187,22.3065204117523,0
+                114.15487778875,22.3065700778343,0
+                114.154871105586,22.3066327276766,0
+                114.154862000543,22.3066761854866,0
+                114.154854718395,22.3067004541509,0
+                114.154848039373,22.3067444775321,0
+                114.154848034426,22.3067760849482,0
+                114.154849851411,22.3067947104981,0
+                114.154857124381,22.3068291404952,0
+                114.154864901282,22.3075256270771,0
+                114.15487397841,22.307661087989,0
+                114.154870329234,22.3077209154825,0
+                114.154866645103,22.3080042500525,0
+                114.154883013221,22.3080674659355,0
+                114.154879962508,22.3081848639841,0
+                114.15486599501,22.3082847634284,0
+                114.154862908613,22.3086301835473,0
+                114.154875026219,22.3087142828129,0
+                114.154856814004,22.3088130523439,0
+                114.154865897915,22.3089056171371,0
+                114.154864648118,22.3091443636348,0
+                114.15488100507,22.3092719236533,0
+                114.154871867029,22.3095253434444,0
+                114.154876106866,22.3095654173634,0
+                114.154876055161,22.3098961634679,0
+                114.154872402309,22.3099791312541,0
+                114.15488573842,22.3100333166849,0
+                114.154865699741,22.3101727245394,0
+                114.154862633516,22.3103888933772,0
+                114.154865050692,22.3104464641654,0
+                114.154872929479,22.3104927470045,0
+                114.154872920742,22.3105486240447,0
+                114.15486744642,22.3106411868467,0
+                114.154865616495,22.3107049654897,0
+                114.154892884612,22.310888402843,0
+                114.154881827989,22.3117722722526,0
+                114.154881084818,22.3126403381085,0
+                114.154867590348,22.3135970158873,0
+                114.15486334121,22.3136156405999,0
+                114.154859697,22.3136506343327,0
+                114.154859693644,22.3136720812132,0
+                114.154868774602,22.3137855299,0
+                114.154868164468,22.3138103635342,0
+                114.154864520778,22.3138340685828,0
+                114.154863911085,22.313856080624,0
+                114.154862089416,22.3138668038175,0
+                114.154848132823,22.313893330217,0
+                114.154846311595,22.3139012306615,0
+                114.154846309032,22.3139175995989,0
+                114.154843274507,22.3139305801332,0
+                114.154829318616,22.3139604922113,0
+                114.154827493936,22.3139904059344,0
+                114.154825066454,22.3139983074522,0
+                114.154818998367,22.3140101593995,0
+                114.154802616128,22.3140327333859,0
+                114.154795335093,22.3140474067603,0
+                114.154768032616,22.3140795745242,0
+                114.154750437504,22.3141044070016,0
+                114.154731020615,22.3141405267559,0
+                114.154598766056,22.3142421022041,0
+                114.154464696163,22.3143132003921,0
+                114.154367028262,22.3143397140266,0
+                114.154177766907,22.3143566195697,0
+                114.154123766512,22.3144288568135,0
+                114.154144383208,22.3144802217022,0
+                114.154184412821,22.314521429948,0
+                114.1542559898,22.3145327274537,0
+                114.154476799641,22.3144876056208,0
+                114.154691552343,22.3143916847436,0
+                114.154826839741,22.3142884150592,0
+                114.154849288512,22.3142641484754,0
+                114.154888724625,22.31421674389,0
+                114.154933623514,22.314151277677,0
+                114.154990669124,22.3139859129793,0
+                114.155007056152,22.3139322956729,0
+                114.155016767171,22.3138933529864,0
+                114.155025874318,22.3138470713021,0
+                114.155033768139,22.3137900671696,0
+                114.155037415741,22.3137409643132,0
+                114.155038637541,22.3136890383816,0
+                114.155032178082,22.3123169502469,0
+                114.155035336601,22.3115047605587,0
+                114.15503361108,22.3108963236655,0
+                114.155056083935,22.3107049911705,0
+                114.155046991203,22.3106677382041,0
+                114.155042145662,22.3106237132883,0
+                114.155042149602,22.3105983154746,0
+                114.155045186838,22.3105672725683,0
+                114.155051257822,22.3105356659815,0
+                114.155043383718,22.3104668069314,0
+                114.155040359867,22.3104035928761,0
+                114.155040366698,22.3103595686107,0
+                114.155044624645,22.3102833734253,0
+                114.155053127134,22.3102173381665,0
+                114.155038590105,22.3100801831545,0
+                114.155033816681,22.3095716470647,0
+                114.155049619687,22.3093633806083,0
+                114.155041142644,22.3092657368107,0
+                114.155045440917,22.3089293469054,0
+                114.155042421842,22.3088435554579,0
+                114.155044252099,22.3087769552037,0
+                114.155035170181,22.3086708442215,0
+                114.155034570595,22.3086200473442,0
+                114.155041865874,22.3085195829056,0
+                114.155043698579,22.3084371789439,0
+                114.155040069508,22.3083677552023,0
+                114.155032800442,22.3083073621552,0
+                114.15503342007,22.3082210071021,0
+                114.155036457518,22.3081882719235,0
+                114.155030399162,22.3081391665732,0
+                114.155032242467,22.3079884686834,0
+                114.155031055686,22.3078230960089,0
+                114.155042593629,22.3077361771738,0
+                114.155040172047,22.3077068280986,0
+                114.155041393862,22.3076464361873,0
+                114.155038371752,22.3075803993594,0
+                114.155036570408,22.3074607431399,0
+                114.155045067913,22.3074257511842,0
+                114.15504264371,22.3074133328345,0
+                114.155037800295,22.3073563269453,0
+                114.15504144272,22.307331493698,0
+                114.155051153201,22.307301016919,0
+                114.155056615177,22.3072784402669,0
+                114.155052383671,22.3071847479416,0
+                114.15505179119,22.3070961340505,0
+                114.155046335523,22.3070780721028,0
+                114.155041485885,22.3070532377141,0
+                114.155038458445,22.3070216298917,0
+                114.155039069569,22.3069900237139,0
+                114.155046357757,22.3069347117148,0
+                114.155044555801,22.3068190064129,0
+                114.155036069542,22.3067817546657,0
+                114.15503486173,22.3067439386521,0
+                114.15503668846,22.3066999146113,0
+                114.155042762166,22.3066496827061,0
+                114.155051260933,22.3066062236486,0
+                114.155062792028,22.3065627661532,0
+                114.155079783504,22.3065147932178,0
+                114.155110730075,22.3064448100056,0
+                114.155134392048,22.3063990954644,0
+                114.155161088035,22.3063584615838,0
+                114.155181108039,22.3063347586929,0
+                114.155202947669,22.3063127494618,0
+                114.15525815309,22.3062647815962,0
+                114.155316389676,22.3062241518804,0
+                114.155376444999,22.3061908589949,0
+                114.155426186683,22.3061688534208,0
+                114.155458942895,22.3061564408691,0
+                114.155503223594,22.3061429004946,0
+                114.155542652629,22.3061338756425,0
+                114.155582686205,22.3061276724557,0
+                114.155632425109,22.3061237280352,0
+                114.155673065202,22.3061237333404,0
+                114.155724016674,22.3061271268168,0
+                114.155747068167,22.3061164052078,0
+                114.155758593757,22.3061079407625,0
+                114.155770119853,22.3060960894769,0
+                114.155782254421,22.3060774657463,0
+                114.15578650194,22.3060673069348,0
+                114.15579014451,22.3060486809459,0
+                114.155789540349,22.3060266687225,0
+                114.155786509973,22.3060136873712,0
+                114.155779840156,22.3059984468839,0
+                114.155764679029,22.3059786914344,0
+                114.155754368507,22.3059696589084,0
+                114.155742237928,22.305961755477,0
+                114.155723436494,22.305953851177,0
+                114.155697961214,22.3059493328451,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>佐敦 Jordan</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>24</td><td>0.68%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>913</td><td>25.75%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>232</td><td>6.54%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>528</td><td>14.89%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>300</td><td>8.46%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>42</td><td>1.18%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>193</td><td>5.44%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>656</td><td>18.5%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>210</td><td>5.92%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>290</td><td>8.18%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>140</td><td>3.95%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>2</td><td>0.06%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>15</td><td>0.42%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3545</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2703</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.167230686978,22.3078964465166,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.171319943624,22.3084244376828,0
+                114.171618492579,22.3053585560329,0
+                114.171542066504,22.3053376702754,0
+                114.17146746005,22.3053190421904,0
+                114.171391640432,22.3053021072736,0
+                114.171315820759,22.3052868655589,0
+                114.171239394454,22.3052738814419,0
+                114.171162968094,22.305262590532,0
+                114.171088967921,22.305252992904,0
+                114.171011934815,22.3052467816145,0
+                114.170934295104,22.3052416990933,0
+                114.170856655326,22.3052383097781,0
+                114.170779015479,22.3052366136579,0
+                114.17070137556,22.3052366107438,0
+                114.170623735591,22.3052377366195,0
+                114.17054609552,22.3052411201119,0
+                114.17046906196,22.3052456324123,0
+                114.170391421777,22.3052512734846,0
+                114.170314388043,22.3052591721925,0
+                114.170237354253,22.3052681996907,0
+                114.170145156208,22.3052811774198,0
+                114.169721164422,22.3053782384527,0
+                114.169260171249,22.3054837628531,0
+                114.168393987491,22.3056818291239,0
+                114.168050060922,22.3057602642974,0
+                114.167951189973,22.3057760624818,0
+                114.168102188196,22.3063596737908,0
+                114.168134328475,22.3064849752183,0
+                114.168291998939,22.3070939852391,0
+                114.168454522215,22.307722185359,0
+                114.168015357384,22.3078220631814,0
+                114.167492483555,22.3079405606469,0
+                114.166994478381,22.3080590579346,0
+                114.166518309468,22.3081719109482,0
+                114.165559903453,22.3083993055973,0
+                114.165439193186,22.3084207448585,0
+                114.159920039878,22.3084140549501,0
+                114.159919498157,22.3094886968839,0
+                114.167441427854,22.3094893066639,0
+                114.167494811939,22.3094136784225,0
+                114.167593083749,22.3093245068197,0
+                114.167772639691,22.3091941375766,0
+                114.168778360117,22.3089757628375,0
+                114.169239971384,22.3088758840107,0
+                114.16965912116,22.3087844681986,0
+                114.170092221764,22.3086907942238,0
+                114.170519256385,22.3085892170755,0
+                114.170697591675,22.3085468929519,0
+                114.17085651624,22.3085090832133,0
+                114.170956602247,22.3084859459383,0
+                114.171220465173,22.3084255631,0
+                114.171319943624,22.3084244376828,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>油麻地 Yau Ma Tei</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>22</td><td>0.64%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>886</td><td>25.61%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>60</td><td>1.73%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>429</td><td>12.4%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>293</td><td>8.47%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>11</td><td>0.32%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>189</td><td>5.46%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>651</td><td>18.82%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>166</td><td>4.8%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>568</td><td>16.42%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>148</td><td>4.28%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>4</td><td>0.12%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>33</td><td>0.95%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3460</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2704</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.165912993058,22.3112053140504,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.170487474574,22.3138997750743,0
+                114.170525698692,22.3137135204312,0
+                114.170668887682,22.3129899490202,0
+                114.170850907505,22.3120219881739,0
+                114.170904906071,22.311738654996,0
+                114.171046881751,22.3109219549257,0
+                114.171103912291,22.3106420082243,0
+                114.17113728825,22.3103022329148,0
+                114.171155493379,22.3101137196823,0
+                114.171167023254,22.3099946289851,0
+                114.171193723868,22.3097208897015,0
+                114.171255620353,22.3090859273884,0
+                114.171319943624,22.3084244376793,0
+                114.171220465173,22.3084255631001,0
+                114.170956602245,22.3084859459403,0
+                114.17085651624,22.3085090832166,0
+                114.170697591676,22.3085468929494,0
+                114.170519256383,22.3085892170765,0
+                114.170092221764,22.3086907942264,0
+                114.169659121158,22.308784468199,0
+                114.169239971383,22.3088758840126,0
+                114.168778360119,22.3089757628382,0
+                114.16777263969,22.3091941375781,0
+                114.167593083747,22.3093245068206,0
+                114.167494811942,22.309413678423,0
+                114.167441427855,22.3094893066637,0
+                114.159919498157,22.3094886968837,0
+                114.159918344441,22.311777390622,0
+                114.159918367394,22.3123328920917,0
+                114.159918812119,22.3129304854617,0
+                114.164602944086,22.3128761582206,0
+                114.165117936333,22.3129574716372,0
+                114.167885799269,22.3134441715376,0
+                114.168305560155,22.3135175677801,0
+                114.168767782916,22.3135983024106,0
+                114.169123852488,22.3136609695139,0
+                114.169196643602,22.313673390031,0
+                114.169822040989,22.3137829142946,0
+                114.170114419142,22.3138342882068,0
+                114.170487474574,22.3138997750743,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>富榮 Charming</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>17</td><td>0.35%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>1403</td><td>29.14%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>3</td><td>0.06%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>1181</td><td>24.53%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>366</td><td>7.6%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>15</td><td>0.31%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>178</td><td>3.7%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>871</td><td>18.09%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>206</td><td>4.28%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>314</td><td>6.52%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>210</td><td>4.36%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>7</td><td>0.15%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>43</td><td>0.89%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>4814</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2705</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.163864542899,22.3142969721941,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.166356307497,22.3169287623637,0
+                114.166738629401,22.314756927722,0
+                114.168001562789,22.3149799443149,0
+                114.168305560153,22.3135175677798,0
+                114.167885799269,22.3134441715398,0
+                114.165117936332,22.3129574716392,0
+                114.164602944083,22.3128761582173,0
+                114.159918812117,22.3129304854606,0
+                114.159918733466,22.3135835107824,0
+                114.159918664737,22.314154131831,0
+                114.15991844385,22.3159879077977,0
+                114.1610964765,22.3159936704982,0
+                114.161711120729,22.3146007591125,0
+                114.162428103682,22.314805141681,0
+                114.162550027416,22.3148395816201,0
+                114.162650114119,22.3148678110273,0
+                114.16572673747,22.3157451477654,0
+                114.165538000131,22.3167706719951,0
+                114.166356307497,22.3169287623637,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>旺角西 Mong Kok West</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>16</td><td>0.7%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>504</td><td>21.92%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>10</td><td>0.43%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>358</td><td>15.57%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>179</td><td>7.79%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>16</td><td>0.7%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>213</td><td>9.26%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>495</td><td>21.53%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>111</td><td>4.83%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>268</td><td>11.66%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>109</td><td>4.74%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>3</td><td>0.13%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>17</td><td>0.74%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>2299</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2706</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.168511501929,22.31533102413,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.169949289068,22.3165920004624,0
+                114.170047585449,22.3160659722813,0
+                114.170188956767,22.3153999714963,0
+                114.170330938309,22.3146267321869,0
+                114.170468665827,22.3139917735826,0
+                114.170487474573,22.3138997750762,0
+                114.170114419145,22.3138342882038,0
+                114.16982204099,22.3137829142924,0
+                114.169196643602,22.3136733900309,0
+                114.169123852489,22.3136609695117,0
+                114.168767782912,22.3135983024093,0
+                114.168305560153,22.3135175677788,0
+                114.16800156279,22.3149799443137,0
+                114.1667386294,22.3147569277209,0
+                114.166356307496,22.3169287623619,0
+                114.167032065358,22.3170478955977,0
+                114.167291692527,22.3170941928876,0
+                114.167551926517,22.3171399253824,0
+                114.167746709964,22.3162035763456,0
+                114.168221679839,22.3162876996966,0
+                114.168650548418,22.3163633531523,0
+                114.169266858264,22.3164717502394,0
+                114.169949289068,22.3165920004624,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>旺角中 Mong Kok Central</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>21</td><td>0.51%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>965</td><td>23.28%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>4</td><td>0.1%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>642</td><td>15.49%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>380</td><td>9.17%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>19</td><td>0.46%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>438</td><td>10.57%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>764</td><td>18.43%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>306</td><td>7.38%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>394</td><td>9.51%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>176</td><td>4.25%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>3</td><td>0.07%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>33</td><td>0.8%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>4145</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2707</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.165019007701,22.3173521896437,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.169161707042,22.3202724971861,0
+                114.169351628359,22.3193880722683,0
+                114.169581592799,22.3183360183974,0
+                114.169736925767,22.3175712466704,0
+                114.169839466043,22.3171231077632,0
+                114.169949289067,22.316592000463,0
+                114.169266858265,22.3164717502405,0
+                114.168650548415,22.3163633531506,0
+                114.16822167984,22.3162876996972,0
+                114.167746709966,22.3162035763433,0
+                114.167551926517,22.3171399253819,0
+                114.167291692527,22.3170941928853,0
+                114.167032065359,22.3170478956003,0
+                114.166356307493,22.316928762363,0
+                114.165538000132,22.3167706719934,0
+                114.165726737469,22.3157451477646,0
+                114.162650114118,22.3148678110264,0
+                114.162550027418,22.3148395816192,0
+                114.162428103681,22.3148051416791,0
+                114.161711120729,22.3146007591127,0
+                114.161096476505,22.3159936704947,0
+                114.15991844385,22.3159879078005,0
+                114.159918264688,22.3174751342359,0
+                114.162808682654,22.3184879654789,0
+                114.1632448278,22.3186324921292,0
+                114.163385563033,22.3186381479827,0
+                114.163751959989,22.3186528526663,0
+                114.165536022995,22.3187257959183,0
+                114.166067420239,22.3187517950205,0
+                114.16677655057,22.3188737535701,0
+                114.166993718155,22.3189115825072,0
+                114.167195720527,22.3189465881889,0
+                114.167000323398,22.3198767276759,0
+                114.167474091887,22.3199625463483,0
+                114.167819257798,22.320024651231,0
+                114.16790479106,22.3200398950892,0
+                114.168200214532,22.3200935302287,0
+                114.168509590504,22.320149423198,0
+                114.169161707042,22.3202724971861,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>櫻桃 Cherry</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>21</td><td>0.58%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>504</td><td>13.85%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>2</td><td>0.05%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>983</td><td>27.01%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>330</td><td>9.07%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>10</td><td>0.27%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>440</td><td>12.09%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>634</td><td>17.42%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>289</td><td>7.94%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>242</td><td>6.65%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>137</td><td>3.76%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>6</td><td>0.16%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>41</td><td>1.13%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3639</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2708</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.159713735038,22.319112868432,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.165783409452,22.320181431871,0
+                114.165958185973,22.3193020896007,0
+                114.166067420239,22.3187517950239,0
+                114.165536023001,22.3187257959153,0
+                114.163751959992,22.3186528526618,0
+                114.163385563032,22.3186381479859,0
+                114.163244827797,22.3186324921317,0
+                114.162808682657,22.3184879654778,0
+                114.15991826469,22.3174751342342,0
+                114.154935691933,22.3174519950327,0
+                114.154936095074,22.320355245845,0
+                114.159809937905,22.3203564470084,0
+                114.16036560838,22.320356504387,0
+                114.160363118701,22.3208949532269,0
+                114.161980392385,22.3209001891247,0
+                114.161988929959,22.3204768808738,0
+                114.16252762507,22.3203815436471,0
+                114.163092404898,22.320281127134,0
+                114.163543742858,22.3202010182337,0
+                114.164043611159,22.3201124457259,0
+                114.164601109166,22.3200137166172,0
+                114.164725469337,22.3199917138719,0
+                114.16521015599,22.320078668794,0
+                114.165783409452,22.320181431871,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>大角咀 Tai Kok Tsui</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>37</td><td>0.66%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>988</td><td>17.75%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>6</td><td>0.11%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>1004</td><td>18.04%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>617</td><td>11.09%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>10</td><td>0.18%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>496</td><td>8.91%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>1043</td><td>18.74%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>277</td><td>4.98%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>817</td><td>14.68%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>211</td><td>3.79%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>7</td><td>0.13%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>53</td><td>0.95%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>5566</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2709</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.158584704212,22.3218222212919,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.152718742885,22.3226378651434,0
+                114.154969742468,22.3250411518981,0
+                114.154978635343,22.3250506455635,0
+                114.155189174017,22.3248390200389,0
+                114.155400926456,22.324622878156,0
+                114.155442105388,22.3245798354625,0
+                114.155464634815,22.3245562860609,0
+                114.155523488914,22.3244936441019,0
+                114.155609646165,22.3244033495179,0
+                114.155880860808,22.3241053753676,0
+                114.155893132585,22.324091983808,0
+                114.156034972832,22.3239372000866,0
+                114.156211535552,22.3237362921769,0
+                114.156479713872,22.3234394453664,0
+                114.156738186421,22.3231358243891,0
+                114.156889271211,22.3229129004612,0
+                114.157053094702,22.3226922354437,0
+                114.157349188602,22.3222943612204,0
+                114.157625261484,22.3219021272458,0
+                114.157674408648,22.3218321458331,0
+                114.157953443374,22.3219597360233,0
+                114.158094895767,22.3219733553783,0
+                114.158188207035,22.3219823395216,0
+                114.158366037029,22.3219803961556,0
+                114.158392643554,22.3219801053741,0
+                114.158509719746,22.3220122901253,0
+                114.158606167132,22.3220698710126,0
+                114.15867106819,22.3221381721433,0
+                114.158766933433,22.3222891919241,0
+                114.158896084897,22.322492647469,0
+                114.158896085065,22.3224926478922,0
+                114.160355648739,22.3225170724795,0
+                114.16067291904,22.3225221841163,0
+                114.161012028289,22.3225272972646,0
+                114.161946247012,22.3225420604288,0
+                114.161945026075,22.3226143050448,0
+                114.161939538077,22.3228807069607,0
+                114.161953490759,22.3228807082417,0
+                114.162089377391,22.3228835427118,0
+                114.162173701142,22.3228733909426,0
+                114.162250748101,22.3228355822898,0
+                114.162535283808,22.322614358164,0
+                114.162731849478,22.3224619841539,0
+                114.163183827582,22.32211152302,0
+                114.163440453037,22.3219128714061,0
+                114.163621849743,22.321772912115,0
+                114.163831759977,22.3216098140166,0
+                114.164274025779,22.3212672507919,0
+                114.164506381308,22.3210872211874,0
+                114.164865470859,22.3215049129686,0
+                114.165215463923,22.3219118794583,0
+                114.165434438094,22.3221664447948,0
+                114.165521226691,22.3216725903932,0
+                114.16555764134,22.3214648893223,0
+                114.165660815315,22.3208801656053,0
+                114.165765809187,22.3202841536694,0
+                114.165783409453,22.3201814318662,0
+                114.165210155992,22.3200786687997,0
+                114.164725469332,22.3199917138775,0
+                114.164601109173,22.3200137166155,0
+                114.164043611162,22.3201124457223,0
+                114.163543742851,22.3202010182332,0
+                114.163092404894,22.320281127137,0
+                114.162527625066,22.3203815436435,0
+                114.161988929959,22.3204768808699,0
+                114.161980392387,22.3209001891246,0
+                114.160363118699,22.3208949532255,0
+                114.160365608382,22.3203565043855,0
+                114.159809937906,22.320356447007,0
+                114.154936095074,22.3203552458426,0
+                114.154936189678,22.3210365430333,0
+                114.154658282698,22.3214806971063,0
+                114.154158286602,22.3222916888995,0
+                114.153669275034,22.3226731620794,0
+                114.15262606225,22.3215007251449,0
+                114.152596337883,22.3214956416111,0
+                114.152434345265,22.3216220455966,0
+                114.152086697018,22.3218940399773,0
+                114.152080018888,22.3219239517431,0
+                114.152434224001,22.3223196591616,0
+                114.152718742885,22.3226378651434,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>詩歌舞 Sycamore</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>9</td><td>0.97%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>169</td><td>18.19%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>2</td><td>0.22%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>158</td><td>17.01%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>79</td><td>8.5%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>4</td><td>0.43%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>107</td><td>11.52%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>172</td><td>18.51%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>31</td><td>3.34%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>129</td><td>13.89%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>52</td><td>5.6%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>2</td><td>0.22%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>15</td><td>1.61%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>929</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2710</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.162070320496,22.3236282390376,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.165131011809,22.3234713435053,0
+                114.165310647768,22.3226145791198,0
+                114.165369511923,22.3223651132195,0
+                114.165401062364,22.3222990792492,0
+                114.165422906843,22.3222302225305,0
+                114.16543443809,22.3221664447908,0
+                114.165215463921,22.3219118794584,0
+                114.164865470855,22.3215049129699,0
+                114.164506381303,22.3210872211851,0
+                114.16427402578,22.3212672507879,0
+                114.163831759974,22.3216098140195,0
+                114.163621849745,22.3217729121145,0
+                114.163440453036,22.3219128714037,0
+                114.163183827582,22.3221115230168,0
+                114.162731849481,22.322461984158,0
+                114.162535283808,22.3226143581632,0
+                114.162250748103,22.3228355822918,0
+                114.162173701144,22.3228733909422,0
+                114.162089377389,22.3228835427102,0
+                114.161953490757,22.322880708239,0
+                114.161939538079,22.3228807069581,0
+                114.161945026077,22.322614305044,0
+                114.161946247015,22.3225420604324,0
+                114.161012028285,22.3225272972614,0
+                114.160672919045,22.3225221841138,0
+                114.160355648738,22.3225170724775,0
+                114.158896085064,22.3224926478908,0
+                114.159012521822,22.3227861553652,0
+                114.159055568186,22.322983139659,0
+                114.159058548218,22.3232967377261,0
+                114.15905856099,22.3232980815342,0
+                114.159058560988,22.3232980815797,0
+                114.159058560991,22.3232980818835,0
+                114.159056126438,22.3233624244962,0
+                114.159048827698,22.3235165083838,0
+                114.1590207648,22.3236013258861,0
+                114.159005132161,22.3236485754269,0
+                114.158963607744,22.3237107216615,0
+                114.158924433641,22.3237693511949,0
+                114.158079286519,22.3244798497625,0
+                114.158179562748,22.3245761148234,0
+                114.158367406726,22.3247564438905,0
+                114.158730159501,22.324922422215,0
+                114.159098991683,22.3249947076801,0
+                114.159459010228,22.3249987871163,0
+                114.159601901329,22.325000406179,0
+                114.160411774724,22.3250061343458,0
+                114.160538624927,22.3249980595796,0
+                114.160650795156,22.3249909190681,0
+                114.160947448262,22.3249728872284,0
+                114.161328452138,22.3249649855824,0
+                114.161651766787,22.324958280195,0
+                114.161763396651,22.3248950760796,0
+                114.161922974474,22.3246157072614,0
+                114.161922974458,22.3246157075748,0
+                114.161922974549,22.3246157074166,0
+                114.161908385045,22.3248979119572,0
+                114.161891363662,22.3252292200845,0
+                114.161887080402,22.3255740752497,0
+                114.163234444785,22.3256221688475,0
+                114.163678544275,22.3252835584563,0
+                114.164131741938,22.3249381746013,0
+                114.16437571376,22.3238144496444,0
+                114.164399989296,22.3237032623747,0
+                114.164381796152,22.3236344027337,0
+                114.164404248329,22.3235615953263,0
+                114.164442471596,22.3235062858909,0
+                114.164502536671,22.3234193710417,0
+                114.164583828753,22.3233934142569,0
+                114.164717895526,22.3234018905084,0
+                114.165131011809,22.3234713435053,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>大南 Tai Nan</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>128</td><td>3.69%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>417</td><td>12.01%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>2</td><td>0.06%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>678</td><td>19.53%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>281</td><td>8.1%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>15</td><td>0.43%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>453</td><td>13.05%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>711</td><td>20.48%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>192</td><td>5.53%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>404</td><td>11.64%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>148</td><td>4.26%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>7</td><td>0.2%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>35</td><td>1.01%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3471</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2711</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.16546289916,22.3253323407604,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.167849779308,22.3265328859803,0
+                114.168135598908,22.3251500932017,0
+                114.168365586316,22.3240252326824,0
+                114.16838075681,22.3239518599349,0
+                114.168277021972,22.323934357728,0
+                114.168025874607,22.3238914489837,0
+                114.167891200126,22.323889183965,0
+                114.167805663067,22.3238965165795,0
+                114.167704959572,22.3239094924157,0
+                114.167383442824,22.3238530328152,0
+                114.166993376619,22.3237847157843,0
+                114.166773774965,22.3237463223046,0
+                114.166062748432,22.3242977069883,0
+                114.165921391819,22.3244071934274,0
+                114.165036846188,22.3250934562068,0
+                114.164742602384,22.325322021286,0
+                114.16501327633,22.3240317959257,0
+                114.165131011808,22.3234713435037,0
+                114.164717895528,22.323401890508,0
+                114.164583828753,22.3233934142558,0
+                114.164502536669,22.3234193710429,0
+                114.164442471599,22.3235062858888,0
+                114.164404248332,22.3235615953269,0
+                114.164381796155,22.3236344027311,0
+                114.164399989293,22.3237032623743,0
+                114.16437571376,22.3238144496421,0
+                114.16413174194,22.3249381746009,0
+                114.163678544274,22.3252835584564,0
+                114.163234444785,22.325622168848,0
+                114.1618870804,22.3255740752514,0
+                114.161891363662,22.3252292200824,0
+                114.161530055374,22.3255008058848,0
+                114.160961900108,22.3259278734106,0
+                114.160722697973,22.3261075279084,0
+                114.160586957061,22.3262094773134,0
+                114.161025030877,22.3262312027991,0
+                114.161487830519,22.3262541540321,0
+                114.161698015651,22.3262614839816,0
+                114.161877300128,22.3262677359005,0
+                114.16231786181,22.3262833299583,0
+                114.16242085895,22.3262869755348,0
+                114.16270713635,22.3262971958414,0
+                114.163450952503,22.3263237503586,0
+                114.164332414729,22.3263655873952,0
+                114.164332414852,22.3263655874011,0
+                114.164332414956,22.326365587406,0
+                114.164660612938,22.3263814159025,0
+                114.165135013918,22.326403462878,0
+                114.165972192394,22.3264435943479,0
+                114.166308883894,22.326459420076,0
+                114.166953313603,22.3264902889533,0
+                114.166993187136,22.3264921989149,0
+                114.167212187767,22.3265023713948,0
+                114.167849779308,22.3265328859803,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>旺角北 Mong Kok North</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>13</td><td>0.7%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>270</td><td>14.48%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>6</td><td>0.32%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>367</td><td>19.68%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>116</td><td>6.22%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>10</td><td>0.54%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>348</td><td>18.66%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>385</td><td>20.64%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>105</td><td>5.63%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>130</td><td>6.97%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>96</td><td>5.15%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>5</td><td>0.27%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>14</td><td>0.75%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>1865</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2712</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.166931116943,22.3219076375162,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.168380756811,22.3239518599335,0
+                114.1685755451,22.3230002715669,0
+                114.168637439929,22.3226971855097,0
+                114.168654430576,22.3226147822289,0
+                114.168733922481,22.3222253419785,0
+                114.168771544497,22.322040216732,0
+                114.169048237063,22.3208273088456,0
+                114.169161707041,22.3202724971883,0
+                114.168509590505,22.3201494231988,0
+                114.168200214532,22.3200935302284,0
+                114.167904791059,22.3200398950866,0
+                114.167819257798,22.3200246512294,0
+                114.167474091888,22.3199625463492,0
+                114.1670003234,22.319876727677,0
+                114.167195720526,22.3189465881896,0
+                114.166993718157,22.3189115825064,0
+                114.16677655057,22.31887375357,0
+                114.166067420238,22.3187517950206,0
+                114.165958185973,22.3193020895983,0
+                114.165783409452,22.3201814318673,0
+                114.165765809188,22.3202841536675,0
+                114.165660815313,22.3208801656066,0
+                114.165557641345,22.3214648893196,0
+                114.165521226692,22.321672590397,0
+                114.165434438091,22.3221664447916,0
+                114.16542290684,22.3222302225297,0
+                114.165401062363,22.3222990792503,0
+                114.165369511923,22.3223651132209,0
+                114.165310647768,22.322614579121,0
+                114.165131011809,22.3234713435044,0
+                114.16501327633,22.3240317959254,0
+                114.164742602386,22.3253220212874,0
+                114.165036846185,22.325093456205,0
+                114.165921391818,22.3244071934273,0
+                114.166062748431,22.3242977069916,0
+                114.166773774966,22.3237463223055,0
+                114.166993376619,22.3237847157842,0
+                114.167383442825,22.3238530328157,0
+                114.16770495957,22.3239094924161,0
+                114.167805663068,22.3238965165805,0
+                114.167891200126,22.3238891839671,0
+                114.168025874607,22.3238914489833,0
+                114.168277021973,22.3239343577285,0
+                114.168380756811,22.3239518599335,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>旺角東 Mong Kok East</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>26</td><td>0.98%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>318</td><td>12.03%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>6</td><td>0.23%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>544</td><td>20.57%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>247</td><td>9.34%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>11</td><td>0.42%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>359</td><td>13.58%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>587</td><td>22.2%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>197</td><td>7.45%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>196</td><td>7.41%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>125</td><td>4.73%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>4</td><td>0.15%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>24</td><td>0.91%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>2644</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2713</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.171042029791,22.3240534902224,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.173618302116,22.3249938773614,0
+                114.173235710802,22.3242545650205,0
+                114.172959706942,22.3235592032793,0
+                114.172929378594,22.3234260013531,0
+                114.172880245896,22.3232420018895,0
+                114.172817164765,22.3229135126164,0
+                114.172797759963,22.3226482385325,0
+                114.172737728386,22.3217739629081,0
+                114.172763226349,22.3211056997294,0
+                114.172857561114,22.3206913796161,0
+                114.172889420783,22.3205514507008,0
+                114.172898809519,22.3205210380943,0
+                114.172939775685,22.3203883363344,0
+                114.173027033201,22.3200506029544,0
+                114.173038059451,22.3200079252206,0
+                114.173038059533,22.3200079249009,0
+                114.172597045138,22.3199277674763,0
+                114.172274928989,22.3198690598872,0
+                114.171633730585,22.3197527717084,0
+                114.171446248065,22.320678965839,0
+                114.171327932633,22.3212619995063,0
+                114.170764983463,22.3211581276112,0
+                114.170195968876,22.3210531246892,0
+                114.169949011664,22.3222507966453,0
+                114.169412751067,22.3221548229646,0
+                114.1687715445,22.3220402167313,0
+                114.168733922484,22.3222253419795,0
+                114.168654430574,22.3226147822285,0
+                114.168637439929,22.3226971855102,0
+                114.168575545097,22.3230002715673,0
+                114.168380756812,22.323951859935,0
+                114.168365586317,22.3240252326814,0
+                114.168135598909,22.3251500932011,0
+                114.167849779308,22.3265328859803,0
+                114.167849779409,22.3265328859851,0
+                114.168122260668,22.3265433941425,0
+                114.168494650843,22.3265577548398,0
+                114.169055197909,22.3265797947516,0
+                114.169380879395,22.3265924211684,0
+                114.169609071376,22.3266012676807,0
+                114.170190134156,22.3266237969985,0
+                114.170264863963,22.3266266944276,0
+                114.170402574231,22.3266323440653,0
+                114.172146703108,22.3267006976516,0
+                114.173966058817,22.3267729847037,0
+                114.174053417126,22.3267729862239,0
+                114.174100717677,22.3267668322304,0
+                114.174140168818,22.3267616992641,0
+                114.174223887833,22.3267396885418,0
+                114.174303966688,22.3267075183821,0
+                114.174367857065,22.3266853084556,0
+                114.174474437435,22.3266482580229,0
+                114.173618302116,22.3249938773614,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>旺角南 Mong Kok South</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>21</td><td>0.5%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>534</td><td>12.71%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>8</td><td>0.19%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>719</td><td>17.12%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>413</td><td>9.83%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>17</td><td>0.4%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>535</td><td>12.74%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>894</td><td>21.29%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>333</td><td>7.93%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>458</td><td>10.9%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>214</td><td>5.1%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>8</td><td>0.19%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>46</td><td>1.1%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>4200</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2714</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.171137193737,22.3190237774715,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.168771544498,22.3220402167319,0
+                114.169412751068,22.3221548229623,0
+                114.169949011664,22.3222507966436,0
+                114.170195968876,22.321053124688,0
+                114.170764983462,22.3211581276111,0
+                114.171327932634,22.3212619995036,0
+                114.171446248065,22.320678965837,0
+                114.171633730586,22.3197527717086,0
+                114.17227492899,22.3198690598873,0
+                114.172597045139,22.3199277674784,0
+                114.173038059533,22.3200079249017,0
+                114.173048962917,22.3199655372076,0
+                114.173129669458,22.3196517829798,0
+                114.173799530136,22.3179872916989,0
+                114.173857656634,22.3178428570278,0
+                114.174097280085,22.3173230375702,0
+                114.174097280186,22.317323037351,0
+                114.17337905234,22.3171965953228,0
+                114.17279973935,22.3170944233294,0
+                114.172199195891,22.3169882977787,0
+                114.171602292972,22.3168832989418,0
+                114.171075757397,22.3167907174892,0
+                114.170517072392,22.3166919245438,0
+                114.169949289067,22.3165920004622,0
+                114.169839466045,22.317123107764,0
+                114.169736925769,22.3175712466703,0
+                114.169581592802,22.3183360183986,0
+                114.169351628359,22.3193880722693,0
+                114.16916170704,22.3202724971873,0
+                114.169048237064,22.320827308846,0
+                114.168771544498,22.3220402167319,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[京士柏 King's Park]]></name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>25</td><td>0.72%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>499</td><td>14.33%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>18</td><td>0.52%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>552</td><td>15.85%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>375</td><td>10.77%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>13</td><td>0.37%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>433</td><td>12.43%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>747</td><td>21.45%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>320</td><td>9.19%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>273</td><td>7.84%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>195</td><td>5.6%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>6</td><td>0.17%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>27</td><td>0.78%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>3483</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2715</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.174616059714,22.3107789001656,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.174256219515,22.3169781840544,0
+                114.174433200833,22.3165942818965,0
+                114.174578341749,22.3162794465948,0
+                114.175346327441,22.3145709782569,0
+                114.175470763318,22.3142637846244,0
+                114.175603532643,22.3139360168611,0
+                114.17583950299,22.3134878749082,0
+                114.17593108327,22.3133395529523,0
+                114.176099128542,22.3130673886754,0
+                114.176288938127,22.3127966893702,0
+                114.176524960404,22.3124600822987,0
+                114.176702085788,22.3122360107175,0
+                114.176760103305,22.312169489386,0
+                114.176890129186,22.3120204045564,0
+                114.176979782371,22.3119190097681,0
+                114.177070286473,22.3118166519797,0
+                114.177166512266,22.3117123902953,0
+                114.177254689219,22.3116168490528,0
+                114.177330398052,22.3115331779193,0
+                114.177403303052,22.3114526049538,0
+                114.177503808653,22.3113494378341,0
+                114.177632591875,22.3112172435693,0
+                114.177763318316,22.3110819600845,0
+                114.177821846219,22.3110213916208,0
+                114.178006853684,22.3108390850643,0
+                114.178073156282,22.3107750429153,0
+                114.178182155291,22.3106697593419,0
+                114.178480087419,22.3103743042129,0
+                114.178495756352,22.3103587655165,0
+                114.178817241062,22.3100189853975,0
+                114.180638151115,22.3081501818459,0
+                114.181269574935,22.3075118147408,0
+                114.18132962376,22.3074565006119,0
+                114.18115128635,22.3072809730255,0
+                114.180972949253,22.3071009299326,0
+                114.180693918956,22.3068051843954,0
+                114.180360903854,22.3064507405984,0
+                114.180284474361,22.3063677735284,0
+                114.180209258203,22.3062898861083,0
+                114.18016073173,22.3062407831763,0
+                114.180112205325,22.3061933734688,0
+                114.180063678965,22.3061465281577,0
+                114.180014546099,22.3061008116719,0
+                114.179946002931,22.3060443716975,0
+                114.179876853401,22.3059947046567,0
+                114.179805884351,22.3059506817552,0
+                114.179734915468,22.3059128673629,0
+                114.179669405854,22.305882390219,0
+                114.179595404328,22.3058502199479,0
+                114.179514730664,22.3058197429992,0
+                114.179432237415,22.3057932169295,0
+                114.179349744306,22.3057723349473,0
+                114.179266038172,22.3057565326598,0
+                114.179179299306,22.3057446812632,0
+                114.179101658983,22.3057373450003,0
+                114.179022199035,22.3057333952038,0
+                114.178938493207,22.3057339607249,0
+                114.178857213704,22.3057390414799,0
+                114.178780180197,22.3057480730332,0
+                114.178668572705,22.3057706508615,0
+                114.178623080509,22.3057802463906,0
+                114.178578801452,22.305790406311,0
+                114.178453849551,22.3058197570928,0
+                114.178330110753,22.3058513654175,0
+                114.178206978479,22.3058841024709,0
+                114.178082633035,22.3059196615018,0
+                114.177738711497,22.306029724346,0
+                114.177063604674,22.3062408172165,0
+                114.176692386044,22.3063599084829,0
+                114.175285146294,22.306810867217,0
+                114.174693132386,22.3070005032722,0
+                114.174288548194,22.3071303124296,0
+                114.174217582174,22.3069863859879,0
+                114.174177549692,22.3069282507996,0
+                114.174132664526,22.3068785817106,0
+                114.174026516948,22.3067786788073,0
+                114.173951303111,22.3067465059502,0
+                114.173880335224,22.3067171551968,0
+                114.173810580542,22.3066861111956,0
+                114.173724448803,22.3066437785937,0
+                114.173657120576,22.3066076548547,0
+                114.173591612139,22.3065692734736,0
+                114.173527316928,22.3065286344401,0
+                114.173464234918,22.3064868665779,0
+                114.173372644912,22.306419699502,0
+                114.173305317294,22.3063672076397,0
+                114.173230711057,22.3063096358698,0
+                114.173170662164,22.3062639170636,0
+                114.173110006746,22.3062181982272,0
+                114.173049957931,22.3061724793819,0
+                114.172985056689,22.3061245027488,0
+                114.172928647239,22.3060827348343,0
+                114.172867991963,22.3060375803175,0
+                114.172806730139,22.3059929901738,0
+                114.172745468361,22.3059484000129,0
+                114.172630223904,22.3058518824283,0
+                114.172440373494,22.3057147250241,0
+                114.172269325673,22.3056159480105,0
+                114.172077048513,22.3055132193108,0
+                114.17187021338,22.3054319376284,0
+                114.171712508885,22.305382264379,0
+                114.171618492578,22.3053585560326,0
+                114.171319943623,22.308424437684,0
+                114.171255620355,22.3090859273871,0
+                114.171193723868,22.3097208896999,0
+                114.171167023258,22.3099946289854,0
+                114.171155493374,22.3101137196817,0
+                114.17113728825,22.3103022329153,0
+                114.171103912289,22.3106420082243,0
+                114.171046881754,22.3109219549283,0
+                114.170904906071,22.3117386549912,0
+                114.170850907501,22.3120219881754,0
+                114.170668887679,22.3129899490188,0
+                114.170525698691,22.3137135204279,0
+                114.170487474576,22.3138997750771,0
+                114.17046866583,22.3139917735845,0
+                114.170330938307,22.3146267321856,0
+                114.170188956769,22.3153999714966,0
+                114.170047585447,22.3160659722797,0
+                114.169949289068,22.3165920004651,0
+                114.170517072389,22.316691924546,0
+                114.171075757395,22.3167907174884,0
+                114.171602292974,22.3168832989395,0
+                114.172199195893,22.3169882977752,0
+                114.172799739352,22.3170944233298,0
+                114.173379052338,22.3171965953241,0
+                114.174097280186,22.3173230373511,0
+                114.174163385688,22.3171796073066,0
+                114.174256219515,22.3169781840544,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>尖沙咀東 Tsim Sha Tsui East</name>
+      <Snippet>
+      </Snippet>
+      <description><![CDATA[<strong>油尖旺民 YAU TSIM MONG DISTRICT (九龍西 Kowloon West)</strong><table border="1" width="500"><thead><tr><th>list #</th><th>affiliation</th><th>candidates</th><th># votes</th><th>&nbsp;</th></tr></thead><tbdody><tr><td>01</td><td>獨立 Independent</td><td><div>莊永燦 CHONG Wing-charn Francis</div>
+</td><td>18</td><td>0.84%</td></tr><tr><td>02</td><td>民主建港協進聯盟 Democratic Alliance for the Betterment and Progress of Hong Kong</td><td><div>李慧琼 LEE Wai-king Starry <strong>當選 Elected</strong></div>
+<div>鍾港武 CHUNG Kong-mo</div>
+<div>陳偉明 CHAN Wai-ming</div>
+<div>鄭泳舜 CHENG Wing-shun Vincent</div>
+</td><td>496</td><td>23.08%</td></tr><tr><td>03</td><td>南方民主同盟 Southern Democratic Alliance</td><td><div>龍緯汶 LUNG Wai-man James</div>
+<div>韋世民 BANTAWA Sukra</div>
+</td><td>11</td><td>0.51%</td></tr><tr><td>04</td><td>民主黨 Democratic Party</td><td><div>涂謹申 TO Kun-sun James <strong>當選 Elected</strong></div>
+<div>林浩揚 LAM Ho-yeung</div>
+</td><td>346</td><td>16.1%</td></tr><tr><td>05</td><td>公民黨 Civic Party</td><td><div>毛孟靜 MO Man-ching Claudia</div>
+<div>伍月蘭 NG Yuet-lan</div>
+<div>鄧志盈 TANG Chi-ying</div>
+</td><td>239</td><td>11.12%</td></tr><tr><td>06</td><td>獨立 Independent</td><td><div>林依麗 LAM Yi-lai </div>
+</td><td>6</td><td>0.28%</td></tr><tr><td>07</td><td>獨立 Independent</td><td><div>梁美芬 LEUNG Mei-fun <strong>當選 Elected</strong></div>
+<div>梁偉權 LEUNG Wai-kuen Edward</div>
+<div>林家輝 LAM Ka-fai Aaron</div>
+</td><td>191</td><td>8.89%</td></tr><tr><td>08</td><td>社會民主連線 League of Social Democrats</td><td><div>黃毓民 WONG Yuk-man <strong>當選 Elected</strong></div>
+<div>李偉儀 LEE Wai-yee</div>
+</td><td>464</td><td>21.59%</td></tr><tr><td>09</td><td>自由黨 Liberal Party</td><td><div>田北辰 TIEN Michael Puk-sun</div>
+<div>何顯明 HO Hin-ming</div>
+</td><td>177</td><td>8.24%</td></tr><tr><td>10</td><td>香港民主民生協進會 Association for Democracy and People's Livelihood</td><td><div>馮檢基 FUNG Kin-kee Frederick <strong>當選 Elected</strong></div>
+<div>莫嘉嫻 MOK Ka-han Rosanda</div>
+<div>秦寳山 TSUNG Po-shan</div>
+<div>黃志勇 WONG Chi-yung</div>
+<div>楊振宇 YEUNG Chun-yu</div>
+</td><td>97</td><td>4.51%</td></tr><tr><td>11</td><td>獨立 Independent</td><td><div>劉千石 LAU Chin-shek</div>
+</td><td>81</td><td>3.77%</td></tr><tr><td>12</td><td>獨立 Independent</td><td><div>柳玉成 LAU Yuk-shing</div>
+<div>蔣潔鳳 CHEUNG Kit-fung Nandeed</div>
+<div>徐達偉 TSUI David</div>
+</td><td>4</td><td>0.19%</td></tr><tr><td>13</td><td>獨立 Independent</td><td><div>譚凱邦 TAM Hoi-pong</div>
+</td><td>19</td><td>0.88%</td></tr></tbody><tfoot><tr><th>Total votes</th><th>&nbsp;</th><th>&nbsp;</th><th>2149</th></tr></tfoot></table>]]></description>
+      <styleUrl>#c-2716</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>
+            114.177857308833,22.3010300889612,0
+          </coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.181329623767,22.3074565006132,0
+                114.181431139111,22.3073623915696,0
+                114.181490360199,22.3073074909823,0
+                114.181529407184,22.3072658482316,0
+                114.181598325951,22.3071923476577,0
+                114.181734192298,22.3070376944459,0
+                114.181750085286,22.3070118987015,0
+                114.18183851564,22.306868367068,0
+                114.181893687364,22.3067583000139,0
+                114.181927068887,22.3066917033149,0
+                114.181970129715,22.3065410036757,0
+                114.182001058663,22.3063784517305,0
+                114.182022078319,22.3062240187668,0
+                114.182029559461,22.3061690538326,0
+                114.182032225315,22.3061490828849,0
+                114.182054421827,22.3059827964618,0
+                114.182067393286,22.3058851587776,0
+                114.182068368815,22.3058778155784,0
+                114.182094445709,22.3057372759092,0
+                114.182221807826,22.3053139618164,0
+                114.182339523854,22.3050353291625,0
+                114.182417102756,22.3048517004751,0
+                114.182429424266,22.3048307420814,0
+                114.182508686719,22.304695919589,0
+                114.182607552008,22.3045960147125,0
+                114.182660579981,22.304549426508,0
+                114.183171629726,22.3041004387796,0
+                114.183497342536,22.3039260220256,0
+                114.183716306146,22.3038611053592,0
+                114.183835726812,22.3038565875648,0
+                114.183955288671,22.3038520641437,0
+                114.184233699165,22.3038797081765,0
+                114.184233699207,22.303879708193,0
+                114.184233699332,22.3038797082054,0
+                114.184233911259,22.3038797922897,0
+                114.184607952711,22.3040281312525,0
+                114.185185957916,22.3033022671947,0
+                114.185267940625,22.3031050162968,0
+                114.185374568246,22.3028484688802,0
+                114.185407592288,22.3026986885394,0
+                114.185474621529,22.3023946754853,0
+                114.185544333341,22.3017275351715,0
+                114.18556085242,22.3016528511843,0
+                114.185603757548,22.3014588714908,0
+                114.185661133072,22.3013617858429,0
+                114.185697156179,22.3013008303646,0
+                114.186241214525,22.3011156721239,0
+                114.186589368905,22.3010879952877,0
+                114.186699400848,22.3007077207347,0
+                114.186728839802,22.3006059780217,0
+                114.186858007551,22.3002447454707,0
+                114.186857976649,22.299811839998,0
+                114.184205525954,22.2987079895107,0
+                114.183810107321,22.2995303578138,0
+                114.183034345554,22.2995236156526,0
+                114.183044003532,22.298455744956,0
+                114.183044575433,22.2976808051977,0
+                114.182233022972,22.2972462363768,0
+                114.18199103195,22.2976373818859,0
+                114.182579984466,22.2979528702144,0
+                114.182578186223,22.2984489896001,0
+                114.182570340313,22.2994141371594,0
+                114.182503014073,22.2993909980308,0
+                114.182225823281,22.2993136834462,0
+                114.182131809998,22.2992899809603,0
+                114.182031729952,22.2992674079473,0
+                114.181914668038,22.2992453994942,0
+                114.181796998871,22.2992273419061,0
+                114.181662954102,22.2992121063196,0
+                114.181586530878,22.2992047708049,0
+                114.181551958318,22.2992030795496,0
+                114.180865964687,22.29914270477,0
+                114.180851407442,22.2991398835333,0
+                114.18085868414,22.2990958590228,0
+                114.180879909703,22.298979025139,0
+                114.180864139618,22.2989592708764,0
+                114.180624557525,22.2989231541892,0
+                114.180604541324,22.2989355715381,0
+                114.180587561931,22.2990287008577,0
+                114.180530546728,22.2990208003063,0
+                114.179744464382,22.2983672250375,0
+                114.180035592836,22.2980601785339,0
+                114.179943398167,22.2979851137858,0
+                114.179652269644,22.2982910307938,0
+                114.177873906693,22.2968122880367,0
+                114.177093307117,22.2961660374885,0
+                114.177072078595,22.2961468481039,0
+                114.177058129111,22.2961191915968,0
+                114.176631744135,22.2956208135089,0
+                114.176609909601,22.295592592863,0
+                114.176583223247,22.2955525194085,0
+                114.176553503549,22.2955231705653,0
+                114.176245394689,22.2946979969364,0
+                114.176209003894,22.2946201074709,0
+                114.176176858705,22.2945602792577,0
+                114.176144713521,22.2945049660597,0
+                114.176104078354,22.2944417521066,0
+                114.176071325772,22.2943949060019,0
+                114.176035542388,22.2943474946309,0
+                114.176002791054,22.2943074210451,0
+                114.17487347753,22.2930696513565,0
+                114.174856495335,22.2930538474151,0
+                114.174834055228,22.2930374793161,0
+                114.174806155922,22.2930239327464,0
+                114.174783714461,22.2930160317531,0
+                114.174743078281,22.2930075641233,0
+                114.174695770581,22.2930019203079,0
+                114.174273641744,22.2929725642516,0
+                114.173649890656,22.2929272838577,0
+                114.173589710361,22.2930354393806,0
+                114.174654526445,22.2931102872448,0
+                114.174639968388,22.2932875126744,0
+                114.173496262342,22.2932033833781,0
+                114.173438470553,22.2933072462986,0
+                114.173321983191,22.2948051983447,0
+                114.172988398781,22.2948108349346,0
+                114.172951401234,22.2948113984603,0
+                114.172498334285,22.2947741356906,0
+                114.172384309444,22.2947645375723,0
+                114.17231089401,22.2956021256699,0
+                114.172244753845,22.2965051858461,0
+                114.172210773138,22.2969725194523,0
+                114.172159194967,22.2976780350703,0
+                114.172124607072,22.2981476262232,0
+                114.17208455745,22.2986973639111,0
+                114.172025089197,22.2995151974062,0
+                114.171960765677,22.3003979381981,0
+                114.171897047864,22.3012812433112,0
+                114.171819977333,22.3023846690796,0
+                114.171802378355,22.3026375257079,0
+                114.171759290319,22.3032730537269,0
+                114.173527997388,22.3033842887744,0
+                114.173480063168,22.3040751295967,0
+                114.173470961688,22.3042060732703,0
+                114.173406038401,22.3050938938442,0
+                114.173387838858,22.3052045184288,0
+                114.173150052426,22.3057480430416,0
+                114.17298505669,22.3061245027492,0
+                114.173049957927,22.3061724793866,0
+                114.173110006749,22.3062181982298,0
+                114.173170662169,22.3062639170641,0
+                114.17323071106,22.3063096358716,0
+                114.173305317292,22.3063672076334,0
+                114.173372644912,22.306419699497,0
+                114.173464234916,22.3064868665776,0
+                114.173527316924,22.3065286344377,0
+                114.173591612144,22.3065692734784,0
+                114.173657120579,22.3066076548605,0
+                114.173724448808,22.3066437785941,0
+                114.173810580546,22.306686111197,0
+                114.173880335226,22.3067171551927,0
+                114.173951303111,22.3067465059469,0
+                114.174026516947,22.3067786788046,0
+                114.17413266452,22.3068785817103,0
+                114.174177549694,22.3069282508007,0
+                114.174217582177,22.306986385984,0
+                114.174288548196,22.3071303124323,0
+                114.174693132388,22.3070005032686,0
+                114.175285146296,22.3068108672184,0
+                114.176692386044,22.3063599084858,0
+                114.177063604679,22.3062408172164,0
+                114.177738711498,22.3060297243503,0
+                114.178082633034,22.3059196615034,0
+                114.178206978478,22.3058841024654,0
+                114.178330110758,22.3058513654143,0
+                114.178453849549,22.3058197570919,0
+                114.178578801453,22.3057904063095,0
+                114.178623080511,22.3057802463887,0
+                114.178668572702,22.3057706508563,0
+                114.178780180196,22.3057480730306,0
+                114.178857213705,22.3057390414771,0
+                114.17893849321,22.305733960722,0
+                114.17902219903,22.3057333951978,0
+                114.179101658987,22.3057373450038,0
+                114.179179299309,22.3057446812637,0
+                114.179266038176,22.3057565326543,0
+                114.179349744302,22.3057723349453,0
+                114.179432237421,22.3057932169312,0
+                114.179514730671,22.3058197429983,0
+                114.179595404334,22.3058502199541,0
+                114.179669405851,22.3058823902197,0
+                114.179734915464,22.3059128673611,0
+                114.179805884345,22.3059506817512,0
+                114.1798768534,22.305994704657,0
+                114.179946002935,22.3060443716991,0
+                114.180014546095,22.3061008116748,0
+                114.180063678968,22.3061465281585,0
+                114.180112205323,22.3061933734677,0
+                114.180160731733,22.3062407831763,0
+                114.180209258207,22.3062898861127,0
+                114.180284474356,22.3063677735252,0
+                114.180360903854,22.3064507406035,0
+                114.180693918958,22.3068051843997,0
+                114.180972949258,22.3071009299284,0
+                114.181151286357,22.3072809730225,0
+                114.181329623767,22.3074565006132,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <innerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.174726095476,22.2931170607219,0
+                114.174742470446,22.2931204477782,0
+                114.174759452745,22.2931289139524,0
+                114.174767337689,22.2931362506758,0
+                114.175338663215,22.2937616280185,0
+                114.174679990881,22.2937119519207,0
+                114.174712748615,22.2932925927511,0
+                114.174726095476,22.2931170607219,0
+              </coordinates>
+            </LinearRing>
+          </innerBoundaryIs>
+          <innerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.181588359877,22.2994762544971,0
+                114.181679946849,22.2994897968426,0
+                114.181775173549,22.2995061629353,0
+                114.181878285824,22.2995264785019,0
+                114.18197775862,22.2995496157165,0
+                114.182093002614,22.2995817835535,0
+                114.181585329817,22.2995755907896,0
+                114.181588359877,22.2994762544971,0
+              </coordinates>
+            </LinearRing>
+          </innerBoundaryIs>
+          <innerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                114.180996983306,22.2994079767646,0
+                114.181132241859,22.2994249051341,0
+                114.18136575888,22.2994469109367,0
+                114.181479182247,22.2994610180279,0
+                114.181244452188,22.2994587670759,0
+                114.181240816106,22.299571085504,0
+                114.181191080116,22.2995710868488,0
+                114.180996983306,22.2994079767646,0
+              </coordinates>
+            </LinearRing>
+          </innerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</kml>
+

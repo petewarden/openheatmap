@@ -1,0 +1,178 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "DN": "00",
+           "DN_ENG": "Hong Kong Island & Kowloon",
+           "DN_CHIN": "香港島及九龍"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "DN": "11",
+           "DN_ENG": "Sai Kung (Tseung Kwan O)",
+           "DN_CHIN": "西貢區(將軍澳)"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "DN": "12",
+           "DN_ENG": "Sai Kung (Others)",
+           "DN_CHIN": "西貢區(其他)"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "DN": "13",
+           "DN_ENG": "Tsuen Wan (NT)",
+           "DN_CHIN": "荃灣區(新市鎮)"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "DN": "14",
+           "DN_ENG": "Tsuen Wan (Others)",
+           "DN_CHIN": "荃灣區(其他)"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "DN": "15",
+           "DN_ENG": "Tuen Mun (NT)",
+           "DN_CHIN": "屯門區(新市鎮)"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "DN": "16",
+           "DN_ENG": "Tuen Mun (Others)",
+           "DN_CHIN": "屯門區(其他)"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "DN": "17",
+           "DN_ENG": "Yuen Long (NT)",
+           "DN_CHIN": "元朗區(新市鎮)"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "DN": "18",
+           "DN_ENG": "Yuen Long (Tin Shui Wai)",
+           "DN_CHIN": "元朗區(天水圍)"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "DN": "19",
+           "DN_ENG": "Yuen Long (Others)",
+           "DN_CHIN": "元朗區(其他)"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "DN": "20",
+           "DN_ENG": "North (NT)",
+           "DN_CHIN": "北區(新市鎮)"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "DN": "21",
+           "DN_ENG": "North (Others)",
+           "DN_CHIN": "北區(其他)"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "DN": "22",
+           "DN_ENG": "Tai Po (NT)",
+           "DN_CHIN": "大埔區(新市鎮)"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "DN": "23",
+           "DN_ENG": "Tai Po (Others)",
+           "DN_CHIN": "大埔區(其他)"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "DN": "24",
+           "DN_ENG": "Sha Tin (NT)",
+           "DN_CHIN": "沙田區(新市鎮)"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "DN": "25",
+           "DN_ENG": "Sha Tin (Ma On Shan)",
+           "DN_CHIN": "沙田區(馬鞍山)"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "DN": "26",
+           "DN_ENG": "Sha Tin (Others)",
+           "DN_CHIN": "沙田區(其他)"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "DN": "27",
+           "DN_ENG": "Kwai Tsing (Kwai Chung)",
+           "DN_CHIN": "葵青區(葵涌)"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "DN": "28",
+           "DN_ENG": "Kwai Tsing (Tsing Yi)",
+           "DN_CHIN": "葵青區(青衣)"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "DN": "29",
+           "DN_ENG": "Kwai Tsing (Others)",
+           "DN_CHIN": "葵青區(其他)"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "DN": "30",
+           "DN_ENG": "Islands (North Lantau)",
+           "DN_CHIN": "離島區(北大嶼山)"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "DN": "31",
+           "DN_ENG": "Islands (Others)",
+           "DN_CHIN": "離島區(其他)"
+       }
+    }
+]
