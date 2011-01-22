@@ -308,9 +308,9 @@ function updateOpenHeatMapMessage(event)
                 {
                     areaName = wayTags.name;
                 }
-                else if (typeof wayTags.zip_code !== 'undefined')
+                else if (typeof wayTags.zip_code_area !== 'undefined')
                 {
-                    areaName = wayTags.zip_code;
+                    areaName = wayTags.zip_code_area;
                 }
                 
                 var description = areaName;

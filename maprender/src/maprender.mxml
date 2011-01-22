@@ -1098,7 +1098,9 @@ private function drawWays(graphics: Graphics, width: Number, height: Number, vie
 				
 				var firstPos: Point = getXYFromLatLon(firstNode, latLonToXYMatrix);
 	
-				graphics.lineStyle(0, wayColor,wayAlpha);
+				lineThickness = Number(getWayProperty('line_thickness', way.tags))
+
+				graphics.lineStyle(lineThickness, wayColor,wayAlpha);
 	
 				graphics.moveTo(firstPos.x, firstPos.y);
 			}
@@ -1173,14 +1175,17 @@ private function setWaysFromValues(): void
 		}
 		
 		var setColor: uint = getColorForValue(thisValue, minValue, maxValue, valueScale);
-		setColor = (setColor & 0x00ffffff);
+		var colorPart: uint = (setColor&0x00ffffff);
+		var alphaPart: Number = ((setColor>>24)&0xff)/255.0;
 		
-		setAttributeForMatchingWays(matchKeys, 'color', (String)(setColor), thisSetWayIds, valuesIndex);
+		setAttributeForMatchingWays(matchKeys, 'color', (String)(colorPart), thisSetWayIds, valuesIndex);
+		setAttributeForMatchingWays(matchKeys, 'alpha', (String)(alphaPart), thisSetWayIds, valuesIndex);
 	}
 
 	if (_settings.clear_ways)
 	{		
 		var defaultColor: String = (String)(getWayProperty('color'));
+		var defaultAlpha: String = (String)(getWayProperty('alpha'));
 		
 		for (var lastWayId: String in _lastSetWayIds)
 		{
@@ -1188,6 +1193,7 @@ private function setWaysFromValues(): void
 				continue;
 				
 			_ways[lastWayId]['tags']['color'] = defaultColor;
+			_ways[lastWayId]['tags']['alpha'] = defaultAlpha;
 		}
 	}
 	

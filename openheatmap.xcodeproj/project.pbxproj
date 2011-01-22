@@ -18,6 +18,7 @@
 		590D2C3011CACE8B00954586 /* crawlallelectiondata.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = crawlallelectiondata.sh; path = mapfileprocess/crawlallelectiondata.sh; sourceTree = "<group>"; };
 		590D2C3211CAF3CF00954586 /* flickrfetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = flickrfetch.php; path = mapfileprocess/flickrfetch.php; sourceTree = "<group>"; };
 		590D907F11BC2B5E00D4F8C1 /* cropways.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cropways.php; path = mapfileprocess/cropways.php; sourceTree = "<group>"; };
+		5928DEFA12E92E6200E4261F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		5959068F11D7F0EA000715A7 /* ecoprocess.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ecoprocess.py; path = mapfileprocess/ecoprocess.py; sourceTree = "<group>"; };
 		59655BAB12A703620049CCAB /* enterprise.wsdl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = enterprise.wsdl.xml; sourceTree = "<group>"; };
 		59655BAC12A703620049CCAB /* metadata.wsdl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = metadata.wsdl.xml; sourceTree = "<group>"; };
@@ -455,6 +456,14 @@
 			name = geodict;
 			path = ../geodict;
 			sourceTree = SOURCE_ROOT;
+		};
+		5928DEF912E92E6200E4261F /* freckle */ = {
+			isa = PBXGroup;
+			children = (
+				5928DEFA12E92E6200E4261F /* index.html */,
+			);
+			path = freckle;
+			sourceTree = "<group>";
 		};
 		594A3A8811A41DCB00E2F4CE = {
 			isa = PBXGroup;
@@ -1248,6 +1257,7 @@
 			isa = PBXGroup;
 			children = (
 				597B3393127CCF4D0010CA82 /* facebook */,
+				5928DEF912E92E6200E4261F /* freckle */,
 				597B339E127CCF4D0010CA82 /* hello_world */,
 				597B33A1127CCF4D0010CA82 /* map_data_viewer */,
 				597B33B5127CCF4D0010CA82 /* twitter */,

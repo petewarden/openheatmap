@@ -1623,7 +1623,10 @@ function OpenHeatMap(canvas, width, height)
                     
                     var firstPos = this.getXYFromLatLon(firstNode, latLonToXYMatrix);
 
+                    var lineThickness = Number(this.getWayProperty('line_thickness', way.tags))
+
                     context.strokeStyle = this.colorStringFromNumber(wayColor,wayAlpha);
+                    context.lineWidth = lineThickness;
 
                     context.moveTo(firstPos.x, firstPos.y);
                 }
@@ -1707,13 +1710,17 @@ function OpenHeatMap(canvas, width, height)
             }
             
             var setColor = this.getColorForValue(thisValue, minValue, maxValue, valueScale);
+            var colorPart = (setColor&0x00ffffff);
+            var alphaPart = ((setColor>>24)&0xff)/255.0;
             
-            this.setAttributeForMatchingWays(matchKeys, 'color', setColor, thisSetWayIds, valuesIndex);
+            this.setAttributeForMatchingWays(matchKeys, 'color', colorPart, thisSetWayIds, valuesIndex);
+            this.setAttributeForMatchingWays(matchKeys, 'alpha', alphaPart, thisSetWayIds, valuesIndex);
         }
         
         if (this._settings.clear_ways)
         {
             var defaultColor = this.getWayProperty('color');
+            var defaultAlpha = this.getWayProperty('alpha');
             
             for (var lastWayId in this._lastSetWayIds)
             {
@@ -1721,6 +1728,7 @@ function OpenHeatMap(canvas, width, height)
                     continue;
                     
                 this._ways[lastWayId]['tags']['color'] = defaultColor;
+                this._ways[lastWayId]['tags']['alpha'] = defaultAlpha;
             }
         }
         
@@ -1743,7 +1751,7 @@ function OpenHeatMap(canvas, width, height)
                 alpha = (colorNumber>>24)&0xff;
             else
                 alpha = 0x7f;		
-            
+                
             var red = (colorNumber>>16)&0xff;
             var green = (colorNumber>>8)&0xff;
             var blue = (colorNumber>>0)&0xff;
@@ -1896,7 +1904,7 @@ function OpenHeatMap(canvas, width, height)
             }
             else
             {
-                var lineThickness = (Number)(this.getWayProperty('line_thickness', way));
+                var lineThickness = (Number)(this.getWayProperty('line_thickness', way.tags));
                 
                 var thicknessInDegrees = Math.abs((lineThickness+1)*pixelsToDegreeScale);
                 
@@ -4512,7 +4520,7 @@ function Rectangle(x, y, width, height)
     };
 
     this.clone = function() {
-        return new Rectangle(this.x, this.y, this.width, this,height);
+        return new Rectangle(this.x, this.y, this.width, this.height);
     };
     
     this.contains = function(x, y) {
