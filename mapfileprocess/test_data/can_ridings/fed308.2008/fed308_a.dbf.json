@@ -1,0 +1,5340 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "AREA": 719947231.578350,
+           "PERIMETER": 133725.919790,
+           "FED_NUM": 59021,
+           "FED_TYPE": null,
+           "ED_ID": 1311,
+           "ED_NAMEE": "Port Moody--Westwood--Port Coquitlam",
+           "ED_NAMEF": "Port Moody--Westwood--Port Coquitlam",
+           "ELCT_CNT": 0,
+           "OBJECTID": 53,
+           "SHAPE_AREA": 719947231.578000,
+           "SHAPE_LEN": 133725.919791,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "AREA": 441584840.925220,
+           "PERIMETER": 94617.657120,
+           "FED_NUM": 59035,
+           "FED_TYPE": null,
+           "ED_ID": 1325,
+           "ED_NAMEE": "Victoria",
+           "ED_NAMEF": "Victoria",
+           "ELCT_CNT": 0,
+           "OBJECTID": 80,
+           "SHAPE_AREA": 441584840.925000,
+           "SHAPE_LEN": 94617.657125,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "AREA": 109477069.799950,
+           "PERIMETER": 64763.502790,
+           "FED_NUM": 35042,
+           "FED_TYPE": null,
+           "ED_ID": 1381,
+           "ED_NAMEE": "London--Fanshawe",
+           "ED_NAMEF": "London--Fanshawe",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1724,
+           "SHAPE_AREA": 109477069.683000,
+           "SHAPE_LEN": 64763.503329,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "AREA": 174939350.360140,
+           "PERIMETER": 56164.076640,
+           "FED_NUM": 48011,
+           "FED_TYPE": null,
+           "ED_ID": 1250,
+           "ED_NAMEE": "Edmonton--Mill Woods--Beaumont",
+           "ED_NAMEF": "Edmonton--Mill Woods--Beaumont",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18597,
+           "SHAPE_AREA": 174939350.324000,
+           "SHAPE_LEN": 56164.076685,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "AREA": 21082486.952490,
+           "PERIMETER": 22936.878760,
+           "FED_NUM": 59032,
+           "FED_TYPE": null,
+           "ED_ID": 1322,
+           "ED_NAMEE": "Vancouver Kingsway",
+           "ED_NAMEF": "Vancouver Kingsway",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17018,
+           "SHAPE_AREA": 21082486.958600,
+           "SHAPE_LEN": 22936.878659,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "AREA": 2484312740117.370117,
+           "PERIMETER": 10174701.616050,
+           "FED_NUM": 61001,
+           "FED_TYPE": null,
+           "ED_ID": 1541,
+           "ED_NAMEE": "Western Arctic",
+           "ED_NAMEF": "Western Arctic",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18555,
+           "SHAPE_AREA": 2484312740790.000000,
+           "SHAPE_LEN": 10174701.611900,
+           "PARTY_WIN": "L"
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "AREA": 63969251.096120,
+           "PERIMETER": 36013.643670,
+           "FED_NUM": 35043,
+           "FED_TYPE": null,
+           "ED_ID": 1382,
+           "ED_NAMEE": "London North Centre",
+           "ED_NAMEF": "London-Centre-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 20247,
+           "SHAPE_AREA": 63969250.894100,
+           "SHAPE_LEN": 36013.643579,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "AREA": 6038230347.342180,
+           "PERIMETER": 576001.768540,
+           "FED_NUM": 35046,
+           "FED_TYPE": null,
+           "ED_ID": 1385,
+           "ED_NAMEE": "Lambton--Kent--Middlesex",
+           "ED_NAMEF": "Lambton--Kent--Middlesex",
+           "ELCT_CNT": 0,
+           "OBJECTID": 20248,
+           "SHAPE_AREA": 6038230346.650000,
+           "SHAPE_LEN": 576001.767121,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "AREA": 4129167647.453280,
+           "PERIMETER": 280646.844230,
+           "FED_NUM": 11001,
+           "FED_TYPE": null,
+           "ED_ID": 1187,
+           "ED_NAMEE": "Cardigan",
+           "ED_NAMEF": "Cardigan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18609,
+           "SHAPE_AREA": 4129167650.260000,
+           "SHAPE_LEN": 280646.843861,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "AREA": 302847223.863090,
+           "PERIMETER": 123825.091500,
+           "FED_NUM": 48016,
+           "FED_TYPE": null,
+           "ED_ID": 1255,
+           "ED_NAMEE": "Edmonton--Sherwood Park",
+           "ED_NAMEF": "Edmonton--Sherwood Park",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18598,
+           "SHAPE_AREA": 302847223.441000,
+           "SHAPE_LEN": 123825.091597,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "AREA": 30240349642.688301,
+           "PERIMETER": 979971.541930,
+           "FED_NUM": 48024,
+           "FED_TYPE": null,
+           "ED_ID": 1263,
+           "ED_NAMEE": "Vegreville--Wainwright",
+           "ED_NAMEF": "Vegreville--Wainwright",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18492,
+           "SHAPE_AREA": 30240349604.299999,
+           "SHAPE_LEN": 979971.554153,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "AREA": 10250472583.275700,
+           "PERIMETER": 522179.707920,
+           "FED_NUM": 35026,
+           "FED_TYPE": null,
+           "ED_ID": 1365,
+           "ED_NAMEE": "Bruce--Grey--Owen Sound",
+           "ED_NAMEF": "Bruce--Grey--Owen Sound",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19613,
+           "SHAPE_AREA": 10250472579.600000,
+           "SHAPE_LEN": 522179.708245,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "AREA": 49179313.763000,
+           "PERIMETER": 34509.887130,
+           "FED_NUM": 35049,
+           "FED_TYPE": null,
+           "ED_ID": 1388,
+           "ED_NAMEE": "Mississauga--Erindale",
+           "ED_NAMEF": "Mississauga--Erindale",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1738,
+           "SHAPE_AREA": 49179313.809100,
+           "SHAPE_LEN": 34509.886925,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "AREA": 11638063692.242001,
+           "PERIMETER": 703160.638040,
+           "FED_NUM": 12002,
+           "FED_TYPE": null,
+           "ED_ID": 1281,
+           "ED_NAMEE": "Central Nova",
+           "ED_NAMEF": "Nova-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17026,
+           "SHAPE_AREA": 11638063676.100000,
+           "SHAPE_LEN": 703160.637164,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "AREA": 28214957.092630,
+           "PERIMETER": 29837.455060,
+           "FED_NUM": 35095,
+           "FED_TYPE": null,
+           "ED_ID": 1434,
+           "ED_NAMEE": "Trinity--Spadina",
+           "ED_NAMEF": "Trinity--Spadina",
+           "ELCT_CNT": 0,
+           "OBJECTID": 4953,
+           "SHAPE_AREA": 28214957.123300,
+           "SHAPE_LEN": 29837.455072,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "AREA": 64797635.834470,
+           "PERIMETER": 41606.776260,
+           "FED_NUM": 59033,
+           "FED_TYPE": null,
+           "ED_ID": 1323,
+           "ED_NAMEE": "Vancouver Quadra",
+           "ED_NAMEF": "Vancouver Quadra",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17019,
+           "SHAPE_AREA": 64797635.790800,
+           "SHAPE_LEN": 41606.776292,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "AREA": 11176351437.519501,
+           "PERIMETER": 830006.931970,
+           "FED_NUM": 48019,
+           "FED_TYPE": null,
+           "ED_ID": 1258,
+           "ED_NAMEE": "Lethbridge",
+           "ED_NAMEF": "Lethbridge",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18713,
+           "SHAPE_AREA": 11176351432.000000,
+           "SHAPE_LEN": 830006.925086,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "AREA": 46175611.011710,
+           "PERIMETER": 32479.642880,
+           "FED_NUM": 35051,
+           "FED_TYPE": null,
+           "ED_ID": 1390,
+           "ED_NAMEE": "Mississauga--Streetsville",
+           "ED_NAMEF": "Mississauga--Streetsville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1730,
+           "SHAPE_AREA": 46175610.960200,
+           "SHAPE_LEN": 32479.642965,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "AREA": 15867033470.940399,
+           "PERIMETER": 707754.988080,
+           "FED_NUM": 13006,
+           "FED_TYPE": null,
+           "ED_ID": 1196,
+           "ED_NAMEE": "Miramichi",
+           "ED_NAMEF": "Miramichi",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17061,
+           "SHAPE_AREA": 15867033483.000000,
+           "SHAPE_LEN": 707754.987895,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "AREA": 85786843.916830,
+           "PERIMETER": 52726.845430,
+           "FED_NUM": 35044,
+           "FED_TYPE": null,
+           "ED_ID": 1383,
+           "ED_NAMEE": "London West",
+           "ED_NAMEF": "London-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1725,
+           "SHAPE_AREA": 85786844.029300,
+           "SHAPE_LEN": 52726.844818,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "AREA": 414772897.602010,
+           "PERIMETER": 126131.612980,
+           "FED_NUM": 48014,
+           "FED_TYPE": null,
+           "ED_ID": 1253,
+           "ED_NAMEE": "Edmonton--Leduc",
+           "ED_NAMEF": "Edmonton--Leduc",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18592,
+           "SHAPE_AREA": 414772897.824000,
+           "SHAPE_LEN": 126131.612018,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "AREA": 13971750776.471001,
+           "PERIMETER": 566627.943450,
+           "FED_NUM": 10001,
+           "FED_TYPE": null,
+           "ED_ID": 1180,
+           "ED_NAMEE": "Avalon",
+           "ED_NAMEF": "Avalon",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17020,
+           "SHAPE_AREA": 13971750750.799999,
+           "SHAPE_LEN": 566627.944861,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "AREA": 6267938011.469510,
+           "PERIMETER": 419174.562600,
+           "FED_NUM": 35034,
+           "FED_TYPE": null,
+           "ED_ID": 1373,
+           "ED_NAMEE": "Huron--Bruce",
+           "ED_NAMEF": "Huron--Bruce",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19614,
+           "SHAPE_AREA": 6267938018.340000,
+           "SHAPE_LEN": 419174.564998,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "AREA": 108997920.472600,
+           "PERIMETER": 46024.189070,
+           "FED_NUM": 35008,
+           "FED_TYPE": null,
+           "ED_ID": 1347,
+           "ED_NAMEE": "Brampton West",
+           "ED_NAMEF": "Brampton-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1557,
+           "SHAPE_AREA": 108997920.608000,
+           "SHAPE_LEN": 46024.188782,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "AREA": 81913899.753320,
+           "PERIMETER": 52221.535660,
+           "FED_NUM": 35047,
+           "FED_TYPE": null,
+           "ED_ID": 1386,
+           "ED_NAMEE": "Mississauga--Brampton South",
+           "ED_NAMEF": "Mississauga--Brampton-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1735,
+           "SHAPE_AREA": 81913899.796000,
+           "SHAPE_LEN": 52221.535836,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "AREA": 105253191.951560,
+           "PERIMETER": 49861.656810,
+           "FED_NUM": 48015,
+           "FED_TYPE": null,
+           "ED_ID": 1254,
+           "ED_NAMEE": "Edmonton--St. Albert",
+           "ED_NAMEF": "Edmonton--St. Albert",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18603,
+           "SHAPE_AREA": 105253191.760000,
+           "SHAPE_LEN": 49861.657084,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "AREA": 934680218.263940,
+           "PERIMETER": 181662.554630,
+           "FED_NUM": 24043,
+           "FED_TYPE": null,
+           "ED_ID": 1502,
+           "ED_NAMEE": "Montcalm",
+           "ED_NAMEF": "Montcalm",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18986,
+           "SHAPE_AREA": 934680218.569000,
+           "SHAPE_LEN": 181662.555381,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "AREA": 322646385.871340,
+           "PERIMETER": 90638.655310,
+           "FED_NUM": 35011,
+           "FED_TYPE": null,
+           "ED_ID": 1350,
+           "ED_NAMEE": "Cambridge",
+           "ED_NAMEF": "Cambridge",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1564,
+           "SHAPE_AREA": 322646385.698000,
+           "SHAPE_LEN": 90638.655043,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "AREA": 54459610673.371498,
+           "PERIMETER": 1319334.271180,
+           "FED_NUM": 10005,
+           "FED_TYPE": null,
+           "ED_ID": 1184,
+           "ED_NAMEE": "Random--Burin--St. George's",
+           "ED_NAMEF": "Random--Burin--St. George's",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17021,
+           "SHAPE_AREA": 54459610616.699997,
+           "SHAPE_LEN": 1319334.268840,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "AREA": 25121441.505590,
+           "PERIMETER": 20851.729820,
+           "FED_NUM": 35080,
+           "FED_TYPE": null,
+           "ED_ID": 1419,
+           "ED_NAMEE": "Scarborough--Agincourt",
+           "ED_NAMEF": "Scarborough--Agincourt",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15086,
+           "SHAPE_AREA": 25121441.546600,
+           "SHAPE_LEN": 20851.729834,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "AREA": 61737418.949280,
+           "PERIMETER": 49393.686470,
+           "FED_NUM": 24040,
+           "FED_TYPE": null,
+           "ED_ID": 1499,
+           "ED_NAMEE": "Marc-Aurèle-Fortin",
+           "ED_NAMEF": "Marc-Aurèle-Fortin",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18994,
+           "SHAPE_AREA": 61737418.927700,
+           "SHAPE_LEN": 49393.686695,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "AREA": 29411510.834430,
+           "PERIMETER": 27011.700280,
+           "FED_NUM": 35048,
+           "FED_TYPE": null,
+           "ED_ID": 1387,
+           "ED_NAMEE": "Mississauga East--Cooksville",
+           "ED_NAMEF": "Mississauga-Est--Cooksville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1736,
+           "SHAPE_AREA": 29411510.862100,
+           "SHAPE_LEN": 27011.700300,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "AREA": 28343802590.602402,
+           "PERIMETER": 1210386.223140,
+           "FED_NUM": 48020,
+           "FED_TYPE": null,
+           "ED_ID": 1259,
+           "ED_NAMEE": "Macleod",
+           "ED_NAMEF": "Macleod",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18711,
+           "SHAPE_AREA": 28343802600.000000,
+           "SHAPE_LEN": 1210386.234230,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "AREA": 33301854400.140598,
+           "PERIMETER": 1010802.389310,
+           "FED_NUM": 48021,
+           "FED_TYPE": null,
+           "ED_ID": 1260,
+           "ED_NAMEE": "Medicine Hat",
+           "ED_NAMEF": "Medicine Hat",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18688,
+           "SHAPE_AREA": 33301854403.400002,
+           "SHAPE_LEN": 1010802.387730,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "AREA": 89405416.014810,
+           "PERIMETER": 42914.261720,
+           "FED_NUM": 35050,
+           "FED_TYPE": null,
+           "ED_ID": 1389,
+           "ED_NAMEE": "Mississauga South",
+           "ED_NAMEF": "Mississauga-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1741,
+           "SHAPE_AREA": 89405416.078500,
+           "SHAPE_LEN": 42914.261852,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "AREA": 22916885317.469700,
+           "PERIMETER": 756702.039490,
+           "FED_NUM": 46008,
+           "FED_TYPE": null,
+           "ED_ID": 1227,
+           "ED_NAMEE": "Provencher",
+           "ED_NAMEF": "Provencher",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17135,
+           "SHAPE_AREA": 22916885297.599998,
+           "SHAPE_LEN": 756702.036599,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "AREA": 12896091301.926600,
+           "PERIMETER": 658634.440450,
+           "FED_NUM": 12007,
+           "FED_TYPE": null,
+           "ED_ID": 1286,
+           "ED_NAMEE": "Cumberland--Colchester--Musquodoboit Valley",
+           "ED_NAMEF": "Cumberland--Colchester--Musquodoboit Valley",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17027,
+           "SHAPE_AREA": 12896091312.799999,
+           "SHAPE_LEN": 658634.446100,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "AREA": 31174178042.615299,
+           "PERIMETER": 1337001.822040,
+           "FED_NUM": 24050,
+           "FED_TYPE": null,
+           "ED_ID": 1509,
+           "ED_NAMEE": "Pontiac",
+           "ED_NAMEF": "Pontiac",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18968,
+           "SHAPE_AREA": 31174178046.400002,
+           "SHAPE_LEN": 1337001.825410,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "AREA": 61522818.584070,
+           "PERIMETER": 34422.394980,
+           "FED_NUM": 59002,
+           "FED_TYPE": null,
+           "ED_ID": 1292,
+           "ED_NAMEE": "Burnaby--Douglas",
+           "ED_NAMEF": "Burnaby--Douglas",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2954,
+           "SHAPE_AREA": 61522818.604500,
+           "SHAPE_LEN": 34422.394956,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "AREA": 98236098.900050,
+           "PERIMETER": 45971.376610,
+           "FED_NUM": 35060,
+           "FED_TYPE": null,
+           "ED_ID": 1399,
+           "ED_NAMEE": "Oakville",
+           "ED_NAMEF": "Oakville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1742,
+           "SHAPE_AREA": 98236098.737800,
+           "SHAPE_LEN": 45971.376516,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "AREA": 78689407.995970,
+           "PERIMETER": 48689.591700,
+           "FED_NUM": 48018,
+           "FED_TYPE": null,
+           "ED_ID": 1257,
+           "ED_NAMEE": "Edmonton--Strathcona",
+           "ED_NAMEF": "Edmonton--Strathcona",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18599,
+           "SHAPE_AREA": 78689408.043300,
+           "SHAPE_LEN": 48689.591698,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "AREA": 12341728593.432501,
+           "PERIMETER": 734049.003150,
+           "FED_NUM": 12001,
+           "FED_TYPE": null,
+           "ED_ID": 1280,
+           "ED_NAMEE": "Cape Breton--Canso",
+           "ED_NAMEF": "Cape Breton--Canso",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17024,
+           "SHAPE_AREA": 12341728600.900000,
+           "SHAPE_LEN": 734049.004494,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "AREA": 125855170.331060,
+           "PERIMETER": 68641.496340,
+           "FED_NUM": 24057,
+           "FED_TYPE": null,
+           "ED_ID": 1516,
+           "ED_NAMEE": "Rivière-des-Mille-Îles",
+           "ED_NAMEF": "Rivière-des-Mille-Îles",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18995,
+           "SHAPE_AREA": 125855170.496000,
+           "SHAPE_LEN": 68641.496399,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "AREA": 42671404.479610,
+           "PERIMETER": 35202.565260,
+           "FED_NUM": 59003,
+           "FED_TYPE": null,
+           "ED_ID": 1293,
+           "ED_NAMEE": "Burnaby--New Westminster",
+           "ED_NAMEF": "Burnaby--New Westminster",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2956,
+           "SHAPE_AREA": 42671404.476700,
+           "SHAPE_LEN": 35202.565233,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "AREA": 3816245235.577970,
+           "PERIMETER": 428281.496030,
+           "FED_NUM": 35020,
+           "FED_TYPE": null,
+           "ED_ID": 1359,
+           "ED_NAMEE": "Elgin--Middlesex--London",
+           "ED_NAMEF": "Elgin--Middlesex--London",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19927,
+           "SHAPE_AREA": 3816245236.910000,
+           "SHAPE_LEN": 428281.495539,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "AREA": 56298248065.164398,
+           "PERIMETER": 1654767.961090,
+           "FED_NUM": 46010,
+           "FED_TYPE": null,
+           "ED_ID": 1229,
+           "ED_NAMEE": "Selkirk--Interlake",
+           "ED_NAMEF": "Selkirk--Interlake",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17136,
+           "SHAPE_AREA": 56298248073.400002,
+           "SHAPE_LEN": 1654767.952260,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "AREA": 63831332941.773300,
+           "PERIMETER": 1977982.852170,
+           "FED_NUM": 59012,
+           "FED_TYPE": null,
+           "ED_ID": 1302,
+           "ED_NAMEE": "Kootenay--Columbia",
+           "ED_NAMEF": "Kootenay--Columbia",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18677,
+           "SHAPE_AREA": 63831332933.300003,
+           "SHAPE_LEN": 1977982.840370,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "AREA": 54051990.771290,
+           "PERIMETER": 35659.085530,
+           "FED_NUM": 59016,
+           "FED_TYPE": null,
+           "ED_ID": 1306,
+           "ED_NAMEE": "Newton--North Delta",
+           "ED_NAMEF": "Newton--Delta-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2960,
+           "SHAPE_AREA": 54051990.673900,
+           "SHAPE_LEN": 35659.085346,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "AREA": 57094821.469790,
+           "PERIMETER": 37753.101010,
+           "FED_NUM": 59017,
+           "FED_TYPE": null,
+           "ED_ID": 1307,
+           "ED_NAMEE": "New Westminster--Coquitlam",
+           "ED_NAMEF": "New Westminster--Coquitlam",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2957,
+           "SHAPE_AREA": 57094821.459500,
+           "SHAPE_LEN": 37753.100890,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "AREA": 617716327.033260,
+           "PERIMETER": 121792.109030,
+           "FED_NUM": 59006,
+           "FED_TYPE": null,
+           "ED_ID": 1296,
+           "ED_NAMEE": "Delta--Richmond East",
+           "ED_NAMEF": "Delta--Richmond-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2958,
+           "SHAPE_AREA": 617716326.863000,
+           "SHAPE_LEN": 121792.109054,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "AREA": 1026779080.359030,
+           "PERIMETER": 150499.676780,
+           "FED_NUM": 10006,
+           "FED_TYPE": null,
+           "ED_ID": 1185,
+           "ED_NAMEE": "St. John's East",
+           "ED_NAMEF": "St. John's-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 11754,
+           "SHAPE_AREA": 1026779080.070000,
+           "SHAPE_LEN": 150499.676581,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "AREA": 330651303.734790,
+           "PERIMETER": 74874.775430,
+           "FED_NUM": 59013,
+           "FED_TYPE": null,
+           "ED_ID": 1303,
+           "ED_NAMEE": "Langley",
+           "ED_NAMEF": "Langley",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2963,
+           "SHAPE_AREA": 330651303.447000,
+           "SHAPE_LEN": 74874.775288,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "AREA": 14222765792.915001,
+           "PERIMETER": 763977.490970,
+           "FED_NUM": 59018,
+           "FED_TYPE": null,
+           "ED_ID": 1308,
+           "ED_NAMEE": "Okanagan--Shuswap",
+           "ED_NAMEF": "Okanagan--Shuswap",
+           "ELCT_CNT": 0,
+           "OBJECTID": 9524,
+           "SHAPE_AREA": 14222765801.000000,
+           "SHAPE_LEN": 763977.492773,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "AREA": 40319063768.930702,
+           "PERIMETER": 1624863.398540,
+           "FED_NUM": 35090,
+           "FED_TYPE": null,
+           "ED_ID": 1429,
+           "ED_NAMEE": "Thunder Bay--Rainy River",
+           "ED_NAMEF": "Thunder Bay--Rainy River",
+           "ELCT_CNT": 0,
+           "OBJECTID": 5288,
+           "SHAPE_AREA": 40319063753.900002,
+           "SHAPE_LEN": 1624863.401060,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "AREA": 1052902284.673080,
+           "PERIMETER": 157800.579220,
+           "FED_NUM": 24073,
+           "FED_TYPE": null,
+           "ED_ID": 1532,
+           "ED_NAMEE": "Vaudreuil-Soulanges",
+           "ED_NAMEF": "Vaudreuil-Soulanges",
+           "ELCT_CNT": 0,
+           "OBJECTID": 207,
+           "SHAPE_AREA": 1052902284.670000,
+           "SHAPE_LEN": 157800.579219,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "AREA": 567886808.426800,
+           "PERIMETER": 122913.058020,
+           "FED_NUM": 35030,
+           "FED_TYPE": null,
+           "ED_ID": 1369,
+           "ED_NAMEE": "Halton",
+           "ED_NAMEF": "Halton",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15106,
+           "SHAPE_AREA": 567886809.438000,
+           "SHAPE_LEN": 122913.057976,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "AREA": 203423027.228460,
+           "PERIMETER": 69198.324960,
+           "FED_NUM": 59027,
+           "FED_TYPE": null,
+           "ED_ID": 1317,
+           "ED_NAMEE": "South Surrey--White Rock--Cloverdale",
+           "ED_NAMEF": "Surrey-Sud--White Rock--Cloverdale",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2964,
+           "SHAPE_AREA": 203423027.329000,
+           "SHAPE_LEN": 69198.324769,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "AREA": 7550396014.755710,
+           "PERIMETER": 589784.928740,
+           "FED_NUM": 13002,
+           "FED_TYPE": null,
+           "ED_ID": 1192,
+           "ED_NAMEE": "Beauséjour",
+           "ED_NAMEF": "Beauséjour",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17074,
+           "SHAPE_AREA": 7550396016.790000,
+           "SHAPE_LEN": 589784.924359,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "AREA": 125526491760.682007,
+           "PERIMETER": 2290798.894740,
+           "FED_NUM": 35002,
+           "FED_TYPE": null,
+           "ED_ID": 1341,
+           "ED_NAMEE": "Algoma--Manitoulin--Kapuskasing",
+           "ED_NAMEF": "Algoma--Manitoulin--Kapuskasing",
+           "ELCT_CNT": 0,
+           "OBJECTID": 5289,
+           "SHAPE_AREA": 125526491732.000000,
+           "SHAPE_LEN": 2290798.885960,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "AREA": 200028303.731850,
+           "PERIMETER": 83691.027040,
+           "FED_NUM": 13007,
+           "FED_TYPE": null,
+           "ED_ID": 1197,
+           "ED_NAMEE": "Moncton--Riverview--Dieppe",
+           "ED_NAMEF": "Moncton--Riverview--Dieppe",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1314,
+           "SHAPE_AREA": 200028304.356000,
+           "SHAPE_LEN": 83691.029570,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "AREA": 27006573.948980,
+           "PERIMETER": 24605.929140,
+           "FED_NUM": 59034,
+           "FED_TYPE": null,
+           "ED_ID": 1324,
+           "ED_NAMEE": "Vancouver South",
+           "ED_NAMEF": "Vancouver-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2968,
+           "SHAPE_AREA": 27006573.954000,
+           "SHAPE_LEN": 24605.929089,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "AREA": 95137442.725610,
+           "PERIMETER": 48942.750960,
+           "FED_NUM": 35061,
+           "FED_TYPE": null,
+           "ED_ID": 1400,
+           "ED_NAMEE": "Oshawa",
+           "ED_NAMEF": "Oshawa",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15128,
+           "SHAPE_AREA": 95137442.653700,
+           "SHAPE_LEN": 48942.751018,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "AREA": 163101216.548160,
+           "PERIMETER": 58190.965690,
+           "FED_NUM": 24020,
+           "FED_TYPE": null,
+           "ED_ID": 1479,
+           "ED_NAMEE": "Gatineau",
+           "ED_NAMEF": "Gatineau",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15312,
+           "SHAPE_AREA": 163101216.508000,
+           "SHAPE_LEN": 58190.965604,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "AREA": 14419497185.381800,
+           "PERIMETER": 648611.476090,
+           "FED_NUM": 46007,
+           "FED_TYPE": null,
+           "ED_ID": 1226,
+           "ED_NAMEE": "Portage--Lisgar",
+           "ED_NAMEF": "Portage--Lisgar",
+           "ELCT_CNT": 0,
+           "OBJECTID": 14308,
+           "SHAPE_AREA": 14419497174.100000,
+           "SHAPE_LEN": 648611.465964,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "AREA": 34638860496.425499,
+           "PERIMETER": 1293921.532860,
+           "FED_NUM": 35056,
+           "FED_TYPE": null,
+           "ED_ID": 1395,
+           "ED_NAMEE": "Nickel Belt",
+           "ED_NAMEF": "Nickel Belt",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15115,
+           "SHAPE_AREA": 34638860489.099998,
+           "SHAPE_LEN": 1293921.525960,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "AREA": 11088320388.785801,
+           "PERIMETER": 532412.712980,
+           "FED_NUM": 47010,
+           "FED_TYPE": null,
+           "ED_ID": 1210,
+           "ED_NAMEE": "Saskatoon--Rosetown--Biggar",
+           "ED_NAMEF": "Saskatoon--Rosetown--Biggar",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17416,
+           "SHAPE_AREA": 11088320390.799999,
+           "SHAPE_LEN": 532412.707868,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "AREA": 26154071.144460,
+           "PERIMETER": 25804.428990,
+           "FED_NUM": 35105,
+           "FED_TYPE": null,
+           "ED_ID": 1444,
+           "ED_NAMEE": "York South--Weston",
+           "ED_NAMEF": "York-Sud--Weston",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15096,
+           "SHAPE_AREA": 26154071.137500,
+           "SHAPE_LEN": 25804.426363,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "AREA": 9415676397.932920,
+           "PERIMETER": 602874.995620,
+           "FED_NUM": 24056,
+           "FED_TYPE": null,
+           "ED_ID": 1515,
+           "ED_NAMEE": "Rimouski-Neigette--Témiscouata--Les Basques",
+           "ED_NAMEF": "Rimouski-Neigette--Témiscouata--Les Basques",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15239,
+           "SHAPE_AREA": 9415676396.129999,
+           "SHAPE_LEN": 602874.997712,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "AREA": 714702931.966010,
+           "PERIMETER": 153514.756480,
+           "FED_NUM": 35054,
+           "FED_TYPE": null,
+           "ED_ID": 1393,
+           "ED_NAMEE": "Niagara Falls",
+           "ED_NAMEF": "Niagara Falls",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15116,
+           "SHAPE_AREA": 714702933.056000,
+           "SHAPE_LEN": 153514.758380,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "AREA": 19758057921.822201,
+           "PERIMETER": 739978.326190,
+           "FED_NUM": 24041,
+           "FED_TYPE": null,
+           "ED_ID": 1500,
+           "ED_NAMEE": "Haute-Gaspésie--La Mitis--Matane--Matapédia",
+           "ED_NAMEF": "Haute-Gaspésie--La Mitis--Matane--Matapédia",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15660,
+           "SHAPE_AREA": 19758057926.900002,
+           "SHAPE_LEN": 739978.325461,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "AREA": 4562698191.493760,
+           "PERIMETER": 362687.714320,
+           "FED_NUM": 35028,
+           "FED_TYPE": null,
+           "ED_ID": 1367,
+           "ED_NAMEE": "Haldimand--Norfolk",
+           "ED_NAMEF": "Haldimand--Norfolk",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15129,
+           "SHAPE_AREA": 4562698193.120000,
+           "SHAPE_LEN": 362687.714469,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "AREA": 2873927348.965130,
+           "PERIMETER": 261331.137010,
+           "FED_NUM": 35058,
+           "FED_TYPE": null,
+           "ED_ID": 1397,
+           "ED_NAMEE": "Northumberland--Quinte West",
+           "ED_NAMEF": "Northumberland--Quinte West",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15114,
+           "SHAPE_AREA": 2873927348.050000,
+           "SHAPE_LEN": 261331.137093,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "AREA": 2164479101.311570,
+           "PERIMETER": 229179.391020,
+           "FED_NUM": 35067,
+           "FED_TYPE": null,
+           "ED_ID": 1406,
+           "ED_NAMEE": "Oxford",
+           "ED_NAMEF": "Oxford",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15130,
+           "SHAPE_AREA": 2164479100.890000,
+           "SHAPE_LEN": 229179.391285,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "AREA": 12229506377.414000,
+           "PERIMETER": 589678.529610,
+           "FED_NUM": 47009,
+           "FED_TYPE": null,
+           "ED_ID": 1209,
+           "ED_NAMEE": "Saskatoon--Humboldt",
+           "ED_NAMEF": "Saskatoon--Humboldt",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16367,
+           "SHAPE_AREA": 12229506376.299999,
+           "SHAPE_LEN": 589678.528877,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "AREA": 14600450.184520,
+           "PERIMETER": 17656.622940,
+           "FED_NUM": 24047,
+           "FED_TYPE": null,
+           "ED_ID": 1506,
+           "ED_NAMEE": "Outremont",
+           "ED_NAMEF": "Outremont",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15135,
+           "SHAPE_AREA": 14600450.442800,
+           "SHAPE_LEN": 17656.626971,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "AREA": 234123742.523430,
+           "PERIMETER": 74630.601170,
+           "FED_NUM": 35099,
+           "FED_TYPE": null,
+           "ED_ID": 1438,
+           "ED_NAMEE": "Whitby--Oshawa",
+           "ED_NAMEF": "Whitby--Oshawa",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15136,
+           "SHAPE_AREA": 234123741.934000,
+           "SHAPE_LEN": 74630.600966,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "AREA": 65730157.359380,
+           "PERIMETER": 43915.526550,
+           "FED_NUM": 24049,
+           "FED_TYPE": null,
+           "ED_ID": 1508,
+           "ED_NAMEE": "Pierrefonds--Dollard",
+           "ED_NAMEF": "Pierrefonds--Dollard",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15138,
+           "SHAPE_AREA": 65730157.404200,
+           "SHAPE_LEN": 43915.526594,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "AREA": 1845064319.937340,
+           "PERIMETER": 190684.917410,
+           "FED_NUM": 35078,
+           "FED_TYPE": null,
+           "ED_ID": 1417,
+           "ED_NAMEE": "Sarnia--Lambton",
+           "ED_NAMEF": "Sarnia--Lambton",
+           "ELCT_CNT": 0,
+           "OBJECTID": 301,
+           "SHAPE_AREA": 1845064319.940000,
+           "SHAPE_LEN": 190684.917414,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "AREA": 42633205391.422699,
+           "PERIMETER": 999301.334690,
+           "FED_NUM": 10002,
+           "FED_TYPE": null,
+           "ED_ID": 1181,
+           "ED_NAMEE": "Bonavista--Gander--Grand Falls--Windsor",
+           "ED_NAMEF": "Bonavista--Gander--Grand Falls--Windsor",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8863,
+           "SHAPE_AREA": 42633205369.800003,
+           "SHAPE_LEN": 999301.331847,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "AREA": 718375464.798390,
+           "PERIMETER": 167032.446330,
+           "FED_NUM": 35059,
+           "FED_TYPE": null,
+           "ED_ID": 1398,
+           "ED_NAMEE": "Oak Ridges--Markham",
+           "ED_NAMEF": "Oak Ridges--Markham",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19632,
+           "SHAPE_AREA": 718375465.076000,
+           "SHAPE_LEN": 167032.446408,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "AREA": 456670867227.929993,
+           "PERIMETER": 4127816.661280,
+           "FED_NUM": 60001,
+           "FED_TYPE": null,
+           "ED_ID": 1540,
+           "ED_NAMEE": "Yukon",
+           "ED_NAMEF": "Yukon",
+           "ELCT_CNT": 0,
+           "OBJECTID": 14994,
+           "SHAPE_AREA": 456670867420.000000,
+           "SHAPE_LEN": 4127816.681800,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "AREA": 7778422598.498550,
+           "PERIMETER": 377872.837680,
+           "FED_NUM": 47005,
+           "FED_TYPE": null,
+           "ED_ID": 1205,
+           "ED_NAMEE": "Palliser",
+           "ED_NAMEF": "Palliser",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17729,
+           "SHAPE_AREA": 7778422599.950000,
+           "SHAPE_LEN": 377872.838659,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "AREA": 91979102.182690,
+           "PERIMETER": 52562.324170,
+           "FED_NUM": 35027,
+           "FED_TYPE": null,
+           "ED_ID": 1366,
+           "ED_NAMEE": "Guelph",
+           "ED_NAMEF": "Guelph",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1659,
+           "SHAPE_AREA": 91979102.213600,
+           "SHAPE_LEN": 52562.324209,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "AREA": 49687590.423950,
+           "PERIMETER": 38972.713410,
+           "FED_NUM": 48013,
+           "FED_TYPE": null,
+           "ED_ID": 1252,
+           "ED_NAMEE": "Edmonton East",
+           "ED_NAMEF": "Edmonton-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18567,
+           "SHAPE_AREA": 49687590.406500,
+           "SHAPE_LEN": 38972.713278,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "AREA": 8568820229.760870,
+           "PERIMETER": 587868.557150,
+           "FED_NUM": 35073,
+           "FED_TYPE": null,
+           "ED_ID": 1412,
+           "ED_NAMEE": "Prince Edward--Hastings",
+           "ED_NAMEF": "Prince Edward--Hastings",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17125,
+           "SHAPE_AREA": 8568820241.630000,
+           "SHAPE_LEN": 587868.552444,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "AREA": 48738839.890970,
+           "PERIMETER": 38538.333980,
+           "FED_NUM": 24032,
+           "FED_TYPE": null,
+           "ED_ID": 1491,
+           "ED_NAMEE": "Laval",
+           "ED_NAMEF": "Laval",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16724,
+           "SHAPE_AREA": 48738839.872100,
+           "SHAPE_LEN": 38538.333970,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "AREA": 18510719.930700,
+           "PERIMETER": 28096.565400,
+           "FED_NUM": 24075,
+           "FED_TYPE": null,
+           "ED_ID": 1534,
+           "ED_NAMEE": "Westmount--Ville-Marie",
+           "ED_NAMEF": "Westmount--Ville-Marie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16719,
+           "SHAPE_AREA": 18510719.929400,
+           "SHAPE_LEN": 28096.565575,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "AREA": 20478320.086900,
+           "PERIMETER": 22896.008480,
+           "FED_NUM": 24021,
+           "FED_TYPE": null,
+           "ED_ID": 1480,
+           "ED_NAMEE": "Hochelaga",
+           "ED_NAMEF": "Hochelaga",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16713,
+           "SHAPE_AREA": 20478320.098500,
+           "SHAPE_LEN": 22896.008495,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "AREA": 23128077.809550,
+           "PERIMETER": 21318.436620,
+           "FED_NUM": 59029,
+           "FED_TYPE": null,
+           "ED_ID": 1319,
+           "ED_NAMEE": "Vancouver Centre",
+           "ED_NAMEF": "Vancouver-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 9496,
+           "SHAPE_AREA": 23128077.795700,
+           "SHAPE_LEN": 21318.436672,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "AREA": 3899533184.476010,
+           "PERIMETER": 325074.511130,
+           "FED_NUM": 35041,
+           "FED_TYPE": null,
+           "ED_ID": 1380,
+           "ED_NAMEE": "Leeds--Grenville",
+           "ED_NAMEF": "Leeds--Grenville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17115,
+           "SHAPE_AREA": 3899533186.850000,
+           "SHAPE_LEN": 325074.513106,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "AREA": 84757974.652470,
+           "PERIMETER": 51835.437930,
+           "FED_NUM": 35010,
+           "FED_TYPE": null,
+           "ED_ID": 1349,
+           "ED_NAMEE": "Burlington",
+           "ED_NAMEF": "Burlington",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15061,
+           "SHAPE_AREA": 84757975.017800,
+           "SHAPE_LEN": 51835.437722,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "AREA": 83954551.860520,
+           "PERIMETER": 53667.783260,
+           "FED_NUM": 24035,
+           "FED_TYPE": null,
+           "ED_ID": 1494,
+           "ED_NAMEE": "Longueuil--Pierre-Boucher",
+           "ED_NAMEF": "Longueuil--Pierre-Boucher",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1396,
+           "SHAPE_AREA": 83954551.805000,
+           "SHAPE_LEN": 53667.783242,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "AREA": 744563264.269040,
+           "PERIMETER": 169556.843530,
+           "FED_NUM": 24074,
+           "FED_TYPE": null,
+           "ED_ID": 1533,
+           "ED_NAMEE": "Verchères--Les Patriotes",
+           "ED_NAMEF": "Verchères--Les Patriotes",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1393,
+           "SHAPE_AREA": 744563263.566000,
+           "SHAPE_LEN": 169556.842737,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "AREA": 119088474.501750,
+           "PERIMETER": 53351.116660,
+           "FED_NUM": 48007,
+           "FED_TYPE": null,
+           "ED_ID": 1246,
+           "ED_NAMEE": "Calgary Southeast",
+           "ED_NAMEF": "Calgary-Sud-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18639,
+           "SHAPE_AREA": 119088474.447000,
+           "SHAPE_LEN": 53351.115768,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "AREA": 1584394604.343880,
+           "PERIMETER": 282593.641060,
+           "FED_NUM": 35098,
+           "FED_TYPE": null,
+           "ED_ID": 1437,
+           "ED_NAMEE": "Wellington--Halton Hills",
+           "ED_NAMEF": "Wellington--Halton Hills",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1658,
+           "SHAPE_AREA": 1584394605.290000,
+           "SHAPE_LEN": 282593.640519,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "AREA": 981172156.707370,
+           "PERIMETER": 163442.523910,
+           "FED_NUM": 35036,
+           "FED_TYPE": null,
+           "ED_ID": 1375,
+           "ED_NAMEE": "Kingston and the Islands",
+           "ED_NAMEF": "Kingston et les Îles",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15260,
+           "SHAPE_AREA": 981172155.295000,
+           "SHAPE_LEN": 163442.523651,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "AREA": 49256999789.787300,
+           "PERIMETER": 1098272.142990,
+           "FED_NUM": 10003,
+           "FED_TYPE": null,
+           "ED_ID": 1182,
+           "ED_NAMEE": "Humber--St. Barbe--Baie Verte",
+           "ED_NAMEF": "Humber--St. Barbe--Baie Verte",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8864,
+           "SHAPE_AREA": 49256999765.500000,
+           "SHAPE_LEN": 1098272.139920,
+           "PARTY_WIN": "C"
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "AREA": 995844569.364770,
+           "PERIMETER": 211207.427250,
+           "FED_NUM": 35038,
+           "FED_TYPE": null,
+           "ED_ID": 1377,
+           "ED_NAMEE": "Kitchener--Conestoga",
+           "ED_NAMEF": "Kitchener--Conestoga",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1712,
+           "SHAPE_AREA": 995844569.232000,
+           "SHAPE_LEN": 211207.427662,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "AREA": 286639373.066390,
+           "PERIMETER": 73286.553510,
+           "FED_NUM": 35001,
+           "FED_TYPE": null,
+           "ED_ID": 1340,
+           "ED_NAMEE": "Ajax--Pickering",
+           "ED_NAMEF": "Ajax--Pickering",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16730,
+           "SHAPE_AREA": 286639372.823000,
+           "SHAPE_LEN": 73286.552133,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "AREA": 2914895234.964730,
+           "PERIMETER": 294046.136300,
+           "FED_NUM": 35087,
+           "FED_TYPE": null,
+           "ED_ID": 1426,
+           "ED_NAMEE": "Stormont--Dundas--South Glengarry",
+           "ED_NAMEF": "Stormont--Dundas--South Glengarry",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17116,
+           "SHAPE_AREA": 2914895234.570000,
+           "SHAPE_LEN": 294046.137275,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "AREA": 370921515679.424988,
+           "PERIMETER": 5181691.435240,
+           "FED_NUM": 59025,
+           "FED_TYPE": null,
+           "ED_ID": 1315,
+           "ED_NAMEE": "Skeena--Bulkley Valley",
+           "ED_NAMEF": "Skeena--Bulkley Valley",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17774,
+           "SHAPE_AREA": 370921515669.000000,
+           "SHAPE_LEN": 5181691.431800,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "AREA": 4033192292.257150,
+           "PERIMETER": 444121.338930,
+           "FED_NUM": 24008,
+           "FED_TYPE": null,
+           "ED_ID": 1467,
+           "ED_NAMEE": "Berthier--Maskinongé",
+           "ED_NAMEF": "Berthier--Maskinongé",
+           "ELCT_CNT": 0,
+           "OBJECTID": 6269,
+           "SHAPE_AREA": 4033192293.420000,
+           "SHAPE_LEN": 444121.335500,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "AREA": 44043111.745540,
+           "PERIMETER": 41565.409300,
+           "FED_NUM": 24022,
+           "FED_TYPE": null,
+           "ED_ID": 1481,
+           "ED_NAMEE": "Honoré-Mercier",
+           "ED_NAMEF": "Honoré-Mercier",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16714,
+           "SHAPE_AREA": 44043111.748200,
+           "SHAPE_LEN": 41565.407076,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "AREA": 1204753272.119310,
+           "PERIMETER": 166691.821650,
+           "FED_NUM": 35009,
+           "FED_TYPE": null,
+           "ED_ID": 1348,
+           "ED_NAMEE": "Brant",
+           "ED_NAMEF": "Brant",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15057,
+           "SHAPE_AREA": 1204753272.300000,
+           "SHAPE_LEN": 166691.821376,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "AREA": 52028123.684350,
+           "PERIMETER": 42638.297610,
+           "FED_NUM": 24028,
+           "FED_TYPE": null,
+           "ED_ID": 1487,
+           "ED_NAMEE": "La Pointe-de-l'Île",
+           "ED_NAMEF": "La Pointe-de-l'Île",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16715,
+           "SHAPE_AREA": 52028123.620000,
+           "SHAPE_LEN": 42638.296932,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "AREA": 16221472961.179800,
+           "PERIMETER": 784568.159790,
+           "FED_NUM": 35057,
+           "FED_TYPE": null,
+           "ED_ID": 1396,
+           "ED_NAMEE": "Nipissing--Timiskaming",
+           "ED_NAMEF": "Nipissing--Timiskaming",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17117,
+           "SHAPE_AREA": 16221472931.900000,
+           "SHAPE_LEN": 784568.167034,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "AREA": 114741944.125680,
+           "PERIMETER": 72237.093090,
+           "FED_NUM": 24013,
+           "FED_TYPE": null,
+           "ED_ID": 1472,
+           "ED_NAMEE": "Charlesbourg--Haute-Saint-Charles",
+           "ED_NAMEF": "Charlesbourg--Haute-Saint-Charles",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18119,
+           "SHAPE_AREA": 114741944.284000,
+           "SHAPE_LEN": 72237.093222,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "AREA": 80045758.309810,
+           "PERIMETER": 52782.086220,
+           "FED_NUM": 48008,
+           "FED_TYPE": null,
+           "ED_ID": 1247,
+           "ED_NAMEE": "Calgary Southwest",
+           "ED_NAMEF": "Calgary-Sud-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18640,
+           "SHAPE_AREA": 80045758.755700,
+           "SHAPE_LEN": 52782.085227,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "AREA": 32846856.002970,
+           "PERIMETER": 29743.847530,
+           "FED_NUM": 24029,
+           "FED_TYPE": null,
+           "ED_ID": 1488,
+           "ED_NAMEE": "LaSalle--Émard",
+           "ED_NAMEF": "LaSalle--Émard",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1450,
+           "SHAPE_AREA": 32846856.068600,
+           "SHAPE_LEN": 29743.847487,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "AREA": 347278849955.307983,
+           "PERIMETER": 2824105.204060,
+           "FED_NUM": 47003,
+           "FED_TYPE": null,
+           "ED_ID": 1203,
+           "ED_NAMEE": "Desnethé--Missinippi--Churchill River",
+           "ED_NAMEF": "Desnethé--Missinippi--Rivière Churchill",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18641,
+           "SHAPE_AREA": 347278849911.000000,
+           "SHAPE_LEN": 2824105.181580,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "AREA": 143187423.487760,
+           "PERIMETER": 60496.318330,
+           "FED_NUM": 35063,
+           "FED_TYPE": null,
+           "ED_ID": 1402,
+           "ED_NAMEE": "Ottawa--Orléans",
+           "ED_NAMEF": "Ottawa--Orléans",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17119,
+           "SHAPE_AREA": 143187424.797000,
+           "SHAPE_LEN": 60496.318431,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "AREA": 29999442774.279800,
+           "PERIMETER": 1397894.587810,
+           "FED_NUM": 59005,
+           "FED_TYPE": null,
+           "ED_ID": 1295,
+           "ED_NAMEE": "Chilliwack--Fraser Canyon",
+           "ED_NAMEF": "Chilliwack--Fraser Canyon",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17775,
+           "SHAPE_AREA": 29999442738.599998,
+           "SHAPE_LEN": 1397894.597730,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "AREA": 44415732.833780,
+           "PERIMETER": 35327.040270,
+           "FED_NUM": 35065,
+           "FED_TYPE": null,
+           "ED_ID": 1404,
+           "ED_NAMEE": "Ottawa--Vanier",
+           "ED_NAMEF": "Ottawa--Vanier",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17120,
+           "SHAPE_AREA": 44415732.836700,
+           "SHAPE_LEN": 35327.040229,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "AREA": 12777519362.414000,
+           "PERIMETER": 632712.350380,
+           "FED_NUM": 35074,
+           "FED_TYPE": null,
+           "ED_ID": 1413,
+           "ED_NAMEE": "Renfrew--Nipissing--Pembroke",
+           "ED_NAMEF": "Renfrew--Nipissing--Pembroke",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17126,
+           "SHAPE_AREA": 12777519357.900000,
+           "SHAPE_LEN": 632712.352846,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "AREA": 64677642.414860,
+           "PERIMETER": 36185.415670,
+           "FED_NUM": 24033,
+           "FED_TYPE": null,
+           "ED_ID": 1492,
+           "ED_NAMEE": "Laval--Les Îles",
+           "ED_NAMEF": "Laval--Les Îles",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16725,
+           "SHAPE_AREA": 64677642.457200,
+           "SHAPE_LEN": 36185.415681,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "AREA": 296460053.918310,
+           "PERIMETER": 96373.462410,
+           "FED_NUM": 24053,
+           "FED_TYPE": null,
+           "ED_ID": 1512,
+           "ED_NAMEE": "Repentigny",
+           "ED_NAMEF": "Repentigny",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18993,
+           "SHAPE_AREA": 296460051.674000,
+           "SHAPE_LEN": 96373.462435,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "AREA": 126554619.376120,
+           "PERIMETER": 53092.773090,
+           "FED_NUM": 24027,
+           "FED_TYPE": null,
+           "ED_ID": 1486,
+           "ED_NAMEE": "Lac-Saint-Louis",
+           "ED_NAMEF": "Lac-Saint-Louis",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16720,
+           "SHAPE_AREA": 126554619.280000,
+           "SHAPE_LEN": 53092.773192,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "AREA": 19836582912.701599,
+           "PERIMETER": 599966.112430,
+           "FED_NUM": 46001,
+           "FED_TYPE": null,
+           "ED_ID": 1220,
+           "ED_NAMEE": "Brandon--Souris",
+           "ED_NAMEF": "Brandon--Souris",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17127,
+           "SHAPE_AREA": 19836582945.200001,
+           "SHAPE_LEN": 599966.101146,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "AREA": 92642761.381440,
+           "PERIMETER": 46000.317990,
+           "FED_NUM": 48005,
+           "FED_TYPE": null,
+           "ED_ID": 1244,
+           "ED_NAMEE": "Calgary--Nose Hill",
+           "ED_NAMEF": "Calgary--Nose Hill",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2006,
+           "SHAPE_AREA": 92642761.315100,
+           "SHAPE_LEN": 46000.318095,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "AREA": 63369669.920880,
+           "PERIMETER": 49628.559020,
+           "FED_NUM": 24045,
+           "FED_TYPE": null,
+           "ED_ID": 1504,
+           "ED_NAMEE": "Notre-Dame-de-Grâce--Lachine",
+           "ED_NAMEF": "Notre-Dame-de-Grâce--Lachine",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16721,
+           "SHAPE_AREA": 63369670.168800,
+           "SHAPE_LEN": 49628.559447,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "AREA": 48516823.584020,
+           "PERIMETER": 31206.538370,
+           "FED_NUM": 59028,
+           "FED_TYPE": null,
+           "ED_ID": 1318,
+           "ED_NAMEE": "Surrey North",
+           "ED_NAMEF": "Surrey-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2003,
+           "SHAPE_AREA": 48516823.365400,
+           "SHAPE_LEN": 31206.538057,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "AREA": 2174824234.806340,
+           "PERIMETER": 254876.099970,
+           "FED_NUM": 35071,
+           "FED_TYPE": null,
+           "ED_ID": 1410,
+           "ED_NAMEE": "Peterborough",
+           "ED_NAMEF": "Peterborough",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19617,
+           "SHAPE_AREA": 2174824235.980000,
+           "SHAPE_LEN": 254876.099719,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "AREA": 4740613079429.660156,
+           "PERIMETER": 14453000.169580,
+           "FED_NUM": 62001,
+           "FED_TYPE": null,
+           "ED_ID": 1542,
+           "ED_NAMEE": "Nunavut",
+           "ED_NAMEF": "Nunavut",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18172,
+           "SHAPE_AREA": 4740613079620.000000,
+           "SHAPE_LEN": 14453000.170600,
+           "PARTY_WIN": "C"
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "AREA": 91786442246.048401,
+           "PERIMETER": 1616525.037000,
+           "FED_NUM": 35091,
+           "FED_TYPE": null,
+           "ED_ID": 1430,
+           "ED_NAMEE": "Thunder Bay--Superior North",
+           "ED_NAMEF": "Thunder Bay--Superior-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 4585,
+           "SHAPE_AREA": 91786442113.600006,
+           "SHAPE_LEN": 1616525.004310,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "AREA": 52558075252.693398,
+           "PERIMETER": 1310170.438200,
+           "FED_NUM": 46004,
+           "FED_TYPE": null,
+           "ED_ID": 1223,
+           "ED_NAMEE": "Dauphin--Swan River--Marquette",
+           "ED_NAMEF": "Dauphin--Swan River--Marquette",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17128,
+           "SHAPE_AREA": 52558075273.400002,
+           "SHAPE_LEN": 1310170.436480,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "AREA": 10637993496.331499,
+           "PERIMETER": 861491.319660,
+           "FED_NUM": 59020,
+           "FED_TYPE": null,
+           "ED_ID": 1310,
+           "ED_NAMEE": "Okanagan--Coquihalla",
+           "ED_NAMEF": "Okanagan--Coquihalla",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18717,
+           "SHAPE_AREA": 10637993508.900000,
+           "SHAPE_LEN": 861491.318649,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "AREA": 6303635499.281840,
+           "PERIMETER": 444019.917890,
+           "FED_NUM": 12010,
+           "FED_TYPE": null,
+           "ED_ID": 1289,
+           "ED_NAMEE": "Sydney--Victoria",
+           "ED_NAMEF": "Sydney--Victoria",
+           "ELCT_CNT": 0,
+           "OBJECTID": 3956,
+           "SHAPE_AREA": 6303635498.010000,
+           "SHAPE_LEN": 444019.915901,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "AREA": 26701809111.329300,
+           "PERIMETER": 1331862.882340,
+           "FED_NUM": 59026,
+           "FED_TYPE": null,
+           "ED_ID": 1316,
+           "ED_NAMEE": "British Columbia Southern Interior",
+           "ED_NAMEF": "Colombie-Britannique-Southern Interior",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18718,
+           "SHAPE_AREA": 26701809110.700001,
+           "SHAPE_LEN": 1331862.880500,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "AREA": 14850061660.631599,
+           "PERIMETER": 840818.394820,
+           "FED_NUM": 47006,
+           "FED_TYPE": null,
+           "ED_ID": 1206,
+           "ED_NAMEE": "Prince Albert",
+           "ED_NAMEF": "Prince Albert",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17733,
+           "SHAPE_AREA": 14850061674.400000,
+           "SHAPE_LEN": 840818.392064,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "AREA": 5912439448.206250,
+           "PERIMETER": 575390.500650,
+           "FED_NUM": 24042,
+           "FED_TYPE": null,
+           "ED_ID": 1501,
+           "ED_NAMEE": "Mégantic--L'Érable",
+           "ED_NAMEF": "Mégantic--L'Érable",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18996,
+           "SHAPE_AREA": 5912439449.010000,
+           "SHAPE_LEN": 575390.500428,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "AREA": 10466225499.996099,
+           "PERIMETER": 497476.872960,
+           "FED_NUM": 47011,
+           "FED_TYPE": null,
+           "ED_ID": 1211,
+           "ED_NAMEE": "Saskatoon--Wanuskewin",
+           "ED_NAMEF": "Saskatoon--Wanuskewin",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17734,
+           "SHAPE_AREA": 10466225498.200001,
+           "SHAPE_LEN": 497476.875453,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "AREA": 180322545634.014008,
+           "PERIMETER": 2251084.283660,
+           "FED_NUM": 48001,
+           "FED_TYPE": null,
+           "ED_ID": 1240,
+           "ED_NAMEE": "Fort McMurray--Athabasca",
+           "ED_NAMEF": "Fort McMurray--Athabasca",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18698,
+           "SHAPE_AREA": 180322545586.000000,
+           "SHAPE_LEN": 2251084.285330,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "AREA": 5800961210.764650,
+           "PERIMETER": 595730.335480,
+           "FED_NUM": 24004,
+           "FED_TYPE": null,
+           "ED_ID": 1463,
+           "ED_NAMEE": "Argenteuil--Papineau--Mirabel",
+           "ED_NAMEF": "Argenteuil--Papineau--Mirabel",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18988,
+           "SHAPE_AREA": 5800961210.510000,
+           "SHAPE_LEN": 595730.335699,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "AREA": 144146900.842220,
+           "PERIMETER": 76103.252600,
+           "FED_NUM": 24038,
+           "FED_TYPE": null,
+           "ED_ID": 1497,
+           "ED_NAMEE": "Louis-Saint-Laurent",
+           "ED_NAMEF": "Louis-Saint-Laurent",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16727,
+           "SHAPE_AREA": 144146901.285000,
+           "SHAPE_LEN": 76103.252897,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "AREA": 113347935.615080,
+           "PERIMETER": 63320.214460,
+           "FED_NUM": 24062,
+           "FED_TYPE": null,
+           "ED_ID": 1521,
+           "ED_NAMEE": "Saint-Bruno--Saint-Hubert",
+           "ED_NAMEF": "Saint-Bruno--Saint-Hubert",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19293,
+           "SHAPE_AREA": 113347935.612000,
+           "SHAPE_LEN": 63320.214327,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "AREA": 55226327.447680,
+           "PERIMETER": 37337.546700,
+           "FED_NUM": 35072,
+           "FED_TYPE": null,
+           "ED_ID": 1411,
+           "ED_NAMEE": "Pickering--Scarborough East",
+           "ED_NAMEF": "Pickering--Scarborough-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16731,
+           "SHAPE_AREA": 55226327.489200,
+           "SHAPE_LEN": 37337.545708,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "AREA": 1090612175.520400,
+           "PERIMETER": 178426.392230,
+           "FED_NUM": 35055,
+           "FED_TYPE": null,
+           "ED_ID": 1394,
+           "ED_NAMEE": "Niagara West--Glanbrook",
+           "ED_NAMEF": "Niagara-Ouest--Glanbrook",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19635,
+           "SHAPE_AREA": 1090612175.950000,
+           "SHAPE_LEN": 178426.393241,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "AREA": 230335607.845150,
+           "PERIMETER": 67558.473440,
+           "FED_NUM": 35096,
+           "FED_TYPE": null,
+           "ED_ID": 1435,
+           "ED_NAMEE": "Vaughan",
+           "ED_NAMEF": "Vaughan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18991,
+           "SHAPE_AREA": 230335607.330000,
+           "SHAPE_LEN": 67558.473409,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "AREA": 44345061097.598396,
+           "PERIMETER": 1459996.007180,
+           "FED_NUM": 59010,
+           "FED_TYPE": null,
+           "ED_ID": 1300,
+           "ED_NAMEE": "Kamloops--Thompson--Cariboo",
+           "ED_NAMEF": "Kamloops--Thompson--Cariboo",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17777,
+           "SHAPE_AREA": 44345061063.699997,
+           "SHAPE_LEN": 1459996.008240,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "AREA": 11246855837.184299,
+           "PERIMETER": 811199.559360,
+           "FED_NUM": 24025,
+           "FED_TYPE": null,
+           "ED_ID": 1484,
+           "ED_NAMEE": "Joliette",
+           "ED_NAMEF": "Joliette",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18992,
+           "SHAPE_AREA": 11246855830.600000,
+           "SHAPE_LEN": 811199.562534,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "AREA": 87126016926.337494,
+           "PERIMETER": 1895192.672510,
+           "FED_NUM": 59004,
+           "FED_TYPE": null,
+           "ED_ID": 1294,
+           "ED_NAMEE": "Cariboo--Prince George",
+           "ED_NAMEF": "Cariboo--Prince George",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17773,
+           "SHAPE_AREA": 87126016916.000000,
+           "SHAPE_LEN": 1895192.642540,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "AREA": 3569021980.608940,
+           "PERIMETER": 429680.824690,
+           "FED_NUM": 24055,
+           "FED_TYPE": null,
+           "ED_ID": 1514,
+           "ED_NAMEE": "Richmond--Arthabaska",
+           "ED_NAMEF": "Richmond--Arthabaska",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18997,
+           "SHAPE_AREA": 3569021979.540000,
+           "SHAPE_LEN": 429680.822840,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "AREA": 334544991680.442017,
+           "PERIMETER": 5762462.459690,
+           "FED_NUM": 10004,
+           "FED_TYPE": null,
+           "ED_ID": 1183,
+           "ED_NAMEE": "Labrador",
+           "ED_NAMEF": "Labrador",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18998,
+           "SHAPE_AREA": 334544991898.000000,
+           "SHAPE_LEN": 5762462.465600,
+           "PARTY_WIN": "L"
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "AREA": 294233184724.456970,
+           "PERIMETER": 4192872.610860,
+           "FED_NUM": 24039,
+           "FED_TYPE": null,
+           "ED_ID": 1498,
+           "ED_NAMEE": "Manicouagan",
+           "ED_NAMEF": "Manicouagan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19287,
+           "SHAPE_AREA": 294233184935.000000,
+           "SHAPE_LEN": 4192872.590960,
+           "PARTY_WIN": "B"
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "AREA": 581093035.916350,
+           "PERIMETER": 136359.274010,
+           "FED_NUM": 24039,
+           "FED_TYPE": null,
+           "ED_ID": 1498,
+           "ED_NAMEE": "Manicouagan",
+           "ED_NAMEF": "Manicouagan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19288,
+           "SHAPE_AREA": 581093024.530000,
+           "SHAPE_LEN": 136359.272944,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "AREA": 3414232993.227560,
+           "PERIMETER": 580595.849660,
+           "FED_NUM": 24039,
+           "FED_TYPE": null,
+           "ED_ID": 1498,
+           "ED_NAMEE": "Manicouagan",
+           "ED_NAMEF": "Manicouagan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19289,
+           "SHAPE_AREA": 3414232970.190000,
+           "SHAPE_LEN": 580595.855685,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "AREA": 3.773180,
+           "PERIMETER": 1263.547150,
+           "FED_NUM": 24046,
+           "FED_TYPE": null,
+           "ED_ID": 1505,
+           "ED_NAMEE": "Abitibi--Baie-James--Nunavik--Eeyou",
+           "ED_NAMEF": "Abitibi--Baie-James--Nunavik--Eeyou",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19290,
+           "SHAPE_AREA": 4.584710,
+           "SHAPE_LEN": 1263.552338,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "AREA": 853662670020.734009,
+           "PERIMETER": 8070922.917980,
+           "FED_NUM": 24046,
+           "FED_TYPE": null,
+           "ED_ID": 1505,
+           "ED_NAMEE": "Abitibi--Baie-James--Nunavik--Eeyou",
+           "ED_NAMEF": "Abitibi--Baie-James--Nunavik--Eeyou",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19291,
+           "SHAPE_AREA": 853662669811.000000,
+           "SHAPE_LEN": 8070922.930160,
+           "PARTY_WIN": "B"
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "AREA": 481116345.596100,
+           "PERIMETER": 122501.096580,
+           "FED_NUM": 24012,
+           "FED_TYPE": null,
+           "ED_ID": 1471,
+           "ED_NAMEE": "Chambly--Borduas",
+           "ED_NAMEF": "Chambly--Borduas",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19292,
+           "SHAPE_AREA": 481116345.726000,
+           "SHAPE_LEN": 122501.096231,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "AREA": 92173962.853960,
+           "PERIMETER": 40174.097130,
+           "FED_NUM": 35053,
+           "FED_TYPE": null,
+           "ED_ID": 1392,
+           "ED_NAMEE": "Newmarket--Aurora",
+           "ED_NAMEF": "Newmarket--Aurora",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19631,
+           "SHAPE_AREA": 92173962.891400,
+           "SHAPE_LEN": 40174.097296,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "AREA": 874164441.821420,
+           "PERIMETER": 184611.022470,
+           "FED_NUM": 35097,
+           "FED_TYPE": null,
+           "ED_ID": 1436,
+           "ED_NAMEE": "Welland",
+           "ED_NAMEF": "Welland",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19636,
+           "SHAPE_AREA": 874164442.371000,
+           "SHAPE_LEN": 184611.023861,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "AREA": 10877197337.711201,
+           "PERIMETER": 588453.509880,
+           "FED_NUM": 35029,
+           "FED_TYPE": null,
+           "ED_ID": 1368,
+           "ED_NAMEE": "Haliburton--Kawartha Lakes--Brock",
+           "ED_NAMEF": "Haliburton--Kawartha Lakes--Brock",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19618,
+           "SHAPE_AREA": 10877197337.600000,
+           "SHAPE_LEN": 588453.510494,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "AREA": 19892712099.758701,
+           "PERIMETER": 686751.930340,
+           "FED_NUM": 35069,
+           "FED_TYPE": null,
+           "ED_ID": 1408,
+           "ED_NAMEE": "Parry Sound--Muskoka",
+           "ED_NAMEF": "Parry Sound--Muskoka",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19619,
+           "SHAPE_AREA": 19892712115.099998,
+           "SHAPE_LEN": 686751.925766,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "AREA": 3751701358.560700,
+           "PERIMETER": 345911.406640,
+           "FED_NUM": 35086,
+           "FED_TYPE": null,
+           "ED_ID": 1425,
+           "ED_NAMEE": "Simcoe North",
+           "ED_NAMEF": "Simcoe-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19620,
+           "SHAPE_AREA": 3751701355.330000,
+           "SHAPE_LEN": 345911.406390,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "AREA": 110962695.863740,
+           "PERIMETER": 58842.701050,
+           "FED_NUM": 59009,
+           "FED_TYPE": null,
+           "ED_ID": 1299,
+           "ED_NAMEE": "Fleetwood--Port Kells",
+           "ED_NAMEF": "Fleetwood--Port Kells",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8857,
+           "SHAPE_AREA": 110962695.873000,
+           "SHAPE_LEN": 58842.700990,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "AREA": 2619275834.723400,
+           "PERIMETER": 258338.548430,
+           "FED_NUM": 11004,
+           "FED_TYPE": null,
+           "ED_ID": 1190,
+           "ED_NAMEE": "Malpeque",
+           "ED_NAMEF": "Malpeque",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18664,
+           "SHAPE_AREA": 2619275832.620000,
+           "SHAPE_LEN": 258338.548531,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "AREA": 12749921312.841700,
+           "PERIMETER": 546793.459280,
+           "FED_NUM": 47008,
+           "FED_TYPE": null,
+           "ED_ID": 1208,
+           "ED_NAMEE": "Regina--Qu'Appelle",
+           "ED_NAMEF": "Regina--Qu'Appelle",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17739,
+           "SHAPE_AREA": 12749921313.799999,
+           "SHAPE_LEN": 546793.461074,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "AREA": 7720825471.896940,
+           "PERIMETER": 520043.083620,
+           "FED_NUM": 24051,
+           "FED_TYPE": null,
+           "ED_ID": 1510,
+           "ED_NAMEE": "Portneuf--Jacques-Cartier",
+           "ED_NAMEF": "Portneuf--Jacques-Cartier",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16710,
+           "SHAPE_AREA": 7720825470.010000,
+           "SHAPE_LEN": 520043.081373,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "AREA": 131715926.130340,
+           "PERIMETER": 56349.177610,
+           "FED_NUM": 24003,
+           "FED_TYPE": null,
+           "ED_ID": 1462,
+           "ED_NAMEE": "Alfred-Pellan",
+           "ED_NAMEF": "Alfred-Pellan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16705,
+           "SHAPE_AREA": 131715926.197000,
+           "SHAPE_LEN": 56349.177648,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "AREA": 443246743.541770,
+           "PERIMETER": 95373.139180,
+           "FED_NUM": 59019,
+           "FED_TYPE": null,
+           "ED_ID": 1309,
+           "ED_NAMEE": "North Vancouver",
+           "ED_NAMEF": "North Vancouver",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15700,
+           "SHAPE_AREA": 443246742.411000,
+           "SHAPE_LEN": 95373.139079,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "AREA": 46389140.785460,
+           "PERIMETER": 35511.067630,
+           "FED_NUM": 46005,
+           "FED_TYPE": null,
+           "ED_ID": 1224,
+           "ED_NAMEE": "Elmwood--Transcona",
+           "ED_NAMEF": "Elmwood--Transcona",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16750,
+           "SHAPE_AREA": 46389140.835000,
+           "SHAPE_LEN": 35511.067689,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "AREA": 11973900488.559999,
+           "PERIMETER": 573036.850660,
+           "FED_NUM": 12009,
+           "FED_TYPE": null,
+           "ED_ID": 1288,
+           "ED_NAMEE": "South Shore--St. Margaret's",
+           "ED_NAMEF": "South Shore--St. Margaret's",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19929,
+           "SHAPE_AREA": 11973900473.299999,
+           "SHAPE_LEN": 573036.850101,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "AREA": 121959423.304110,
+           "PERIMETER": 49780.058710,
+           "FED_NUM": 35076,
+           "FED_TYPE": null,
+           "ED_ID": 1415,
+           "ED_NAMEE": "St. Catharines",
+           "ED_NAMEF": "St. Catharines",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15311,
+           "SHAPE_AREA": 121959423.258000,
+           "SHAPE_LEN": 49780.058719,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "AREA": 146056688.287910,
+           "PERIMETER": 61979.797840,
+           "FED_NUM": 24023,
+           "FED_TYPE": null,
+           "ED_ID": 1482,
+           "ED_NAMEE": "Hull--Aylmer",
+           "ED_NAMEF": "Hull--Aylmer",
+           "ELCT_CNT": 0,
+           "OBJECTID": 2311,
+           "SHAPE_AREA": 146056688.402000,
+           "SHAPE_LEN": 61979.797632,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "AREA": 15676829611.608500,
+           "PERIMETER": 812135.125560,
+           "FED_NUM": 59036,
+           "FED_TYPE": null,
+           "ED_ID": 1326,
+           "ED_NAMEE": "West Vancouver--Sunshine Coast--Sea to Sky Country",
+           "ED_NAMEF": "West Vancouver--Sunshine Coast--Sea to Sky Country",
+           "ELCT_CNT": 0,
+           "OBJECTID": 9819,
+           "SHAPE_AREA": 15676829604.100000,
+           "SHAPE_LEN": 812135.123906,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "AREA": 12712373701.689199,
+           "PERIMETER": 592376.247860,
+           "FED_NUM": 12011,
+           "FED_TYPE": null,
+           "ED_ID": 1290,
+           "ED_NAMEE": "West Nova",
+           "ED_NAMEF": "Nova-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19930,
+           "SHAPE_AREA": 12712373702.200001,
+           "SHAPE_LEN": 592376.247761,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "AREA": 126902954.829080,
+           "PERIMETER": 46692.723840,
+           "FED_NUM": 48004,
+           "FED_TYPE": null,
+           "ED_ID": 1243,
+           "ED_NAMEE": "Calgary Northeast",
+           "ED_NAMEF": "Calgary-Nord-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18618,
+           "SHAPE_AREA": 126902956.240000,
+           "SHAPE_LEN": 46692.724024,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "AREA": 66433550.084310,
+           "PERIMETER": 51748.376690,
+           "FED_NUM": 46009,
+           "FED_TYPE": null,
+           "ED_ID": 1228,
+           "ED_NAMEE": "Saint Boniface",
+           "ED_NAMEF": "Saint-Boniface",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16751,
+           "SHAPE_AREA": 66433550.007400,
+           "SHAPE_LEN": 51748.376846,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "AREA": 20490486.050950,
+           "PERIMETER": 22471.063720,
+           "FED_NUM": 24002,
+           "FED_TYPE": null,
+           "ED_ID": 1461,
+           "ED_NAMEE": "Ahuntsic",
+           "ED_NAMEF": "Ahuntsic",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16701,
+           "SHAPE_AREA": 20490486.058800,
+           "SHAPE_LEN": 22471.063731,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "AREA": 34405620.266050,
+           "PERIMETER": 27050.208270,
+           "FED_NUM": 35082,
+           "FED_TYPE": null,
+           "ED_ID": 1421,
+           "ED_NAMEE": "Scarborough--Guildwood",
+           "ED_NAMEF": "Scarborough--Guildwood",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1857,
+           "SHAPE_AREA": 34405620.269500,
+           "SHAPE_LEN": 27050.208290,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "AREA": 49171113.057520,
+           "PERIMETER": 31142.372250,
+           "FED_NUM": 35075,
+           "FED_TYPE": null,
+           "ED_ID": 1414,
+           "ED_NAMEE": "Richmond Hill",
+           "ED_NAMEF": "Richmond Hill",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1805,
+           "SHAPE_AREA": 49171113.057900,
+           "SHAPE_LEN": 31142.372276,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "AREA": 28749581.230400,
+           "PERIMETER": 29332.174820,
+           "FED_NUM": 46011,
+           "FED_TYPE": null,
+           "ED_ID": 1230,
+           "ED_NAMEE": "Winnipeg Centre",
+           "ED_NAMEF": "Winnipeg-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16753,
+           "SHAPE_AREA": 28749581.028800,
+           "SHAPE_LEN": 29332.175749,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "AREA": 27975834498.396301,
+           "PERIMETER": 1155745.524650,
+           "FED_NUM": 24014,
+           "FED_TYPE": null,
+           "ED_ID": 1473,
+           "ED_NAMEE": "Montmorency--Charlevoix--Haute-Côte-Nord",
+           "ED_NAMEF": "Montmorency--Charlevoix--Haute-Côte-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 5941,
+           "SHAPE_AREA": 27975834509.900002,
+           "SHAPE_LEN": 1155745.521900,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "AREA": 49306841.256600,
+           "PERIMETER": 37013.881410,
+           "FED_NUM": 35024,
+           "FED_TYPE": null,
+           "ED_ID": 1363,
+           "ED_NAMEE": "Etobicoke North",
+           "ED_NAMEF": "Etobicoke-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1654,
+           "SHAPE_AREA": 49306841.257200,
+           "SHAPE_LEN": 37013.881465,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "AREA": 44534610.273550,
+           "PERIMETER": 30494.447220,
+           "FED_NUM": 35033,
+           "FED_TYPE": null,
+           "ED_ID": 1372,
+           "ED_NAMEE": "Hamilton Mountain",
+           "ED_NAMEF": "Hamilton Mountain",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15223,
+           "SHAPE_AREA": 44534610.272800,
+           "SHAPE_LEN": 30494.443931,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "AREA": 51378295.495650,
+           "PERIMETER": 37135.584820,
+           "FED_NUM": 24066,
+           "FED_TYPE": null,
+           "ED_ID": 1525,
+           "ED_NAMEE": "Saint-Laurent--Cartierville",
+           "ED_NAMEF": "Saint-Laurent--Cartierville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16698,
+           "SHAPE_AREA": 51378295.526900,
+           "SHAPE_LEN": 37135.584717,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "AREA": 38297812.564660,
+           "PERIMETER": 32392.426330,
+           "FED_NUM": 35022,
+           "FED_TYPE": null,
+           "ED_ID": 1361,
+           "ED_NAMEE": "Etobicoke Centre",
+           "ED_NAMEF": "Etobicoke-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1887,
+           "SHAPE_AREA": 38297812.601600,
+           "SHAPE_LEN": 32392.426390,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "AREA": 206653405.482940,
+           "PERIMETER": 61698.140840,
+           "FED_NUM": 46002,
+           "FED_TYPE": null,
+           "ED_ID": 1221,
+           "ED_NAMEE": "Charleswood--St. James--Assiniboia",
+           "ED_NAMEF": "Charleswood--St. James--Assiniboia",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16752,
+           "SHAPE_AREA": 206653405.741000,
+           "SHAPE_LEN": 61698.143046,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "AREA": 98090141.883240,
+           "PERIMETER": 53556.158250,
+           "FED_NUM": 12003,
+           "FED_TYPE": null,
+           "ED_ID": 1282,
+           "ED_NAMEE": "Dartmouth--Cole Harbour",
+           "ED_NAMEF": "Dartmouth--Cole Harbour",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17799,
+           "SHAPE_AREA": 98090141.910600,
+           "SHAPE_LEN": 53556.158291,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "AREA": 43434766770.661201,
+           "PERIMETER": 1411070.262820,
+           "FED_NUM": 24016,
+           "FED_TYPE": null,
+           "ED_ID": 1475,
+           "ED_NAMEE": "Chicoutimi--Le Fjord",
+           "ED_NAMEF": "Chicoutimi--Le Fjord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15146,
+           "SHAPE_AREA": 43434766725.099998,
+           "SHAPE_LEN": 1411070.256840,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "AREA": 16896230.442550,
+           "PERIMETER": 21447.068850,
+           "FED_NUM": 35068,
+           "FED_TYPE": null,
+           "ED_ID": 1407,
+           "ED_NAMEE": "Parkdale--High Park",
+           "ED_NAMEF": "Parkdale--High Park",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15085,
+           "SHAPE_AREA": 16896230.340200,
+           "SHAPE_LEN": 21447.067854,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "AREA": 92394899.604930,
+           "PERIMETER": 59419.171360,
+           "FED_NUM": 35066,
+           "FED_TYPE": null,
+           "ED_ID": 1405,
+           "ED_NAMEE": "Ottawa West--Nepean",
+           "ED_NAMEF": "Ottawa-Ouest--Nepean",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1787,
+           "SHAPE_AREA": 92394899.489200,
+           "SHAPE_LEN": 59419.171077,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "AREA": 63622768.947370,
+           "PERIMETER": 35387.901950,
+           "FED_NUM": 35045,
+           "FED_TYPE": null,
+           "ED_ID": 1384,
+           "ED_NAMEE": "Markham--Unionville",
+           "ED_NAMEF": "Markham--Unionville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1871,
+           "SHAPE_AREA": 63622768.911500,
+           "SHAPE_LEN": 35387.901856,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "AREA": 12683249.989090,
+           "PERIMETER": 17811.959450,
+           "FED_NUM": 35015,
+           "FED_TYPE": null,
+           "ED_ID": 1354,
+           "ED_NAMEE": "Davenport",
+           "ED_NAMEF": "Davenport",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1889,
+           "SHAPE_AREA": 12683249.990600,
+           "SHAPE_LEN": 17811.959409,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "AREA": 28812029.780060,
+           "PERIMETER": 24209.597030,
+           "FED_NUM": 35081,
+           "FED_TYPE": null,
+           "ED_ID": 1420,
+           "ED_NAMEE": "Scarborough Centre",
+           "ED_NAMEF": "Scarborough-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1854,
+           "SHAPE_AREA": 28812029.720300,
+           "SHAPE_LEN": 24209.597088,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "AREA": 32031312.428910,
+           "PERIMETER": 28517.797530,
+           "FED_NUM": 35100,
+           "FED_TYPE": null,
+           "ED_ID": 1439,
+           "ED_NAMEE": "Willowdale",
+           "ED_NAMEF": "Willowdale",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1879,
+           "SHAPE_AREA": 32031312.466300,
+           "SHAPE_LEN": 28517.797522,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "AREA": 321714151992.573975,
+           "PERIMETER": 2692771.589350,
+           "FED_NUM": 35035,
+           "FED_TYPE": null,
+           "ED_ID": 1374,
+           "ED_NAMEE": "Kenora",
+           "ED_NAMEF": "Kenora",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15262,
+           "SHAPE_AREA": 321714152141.000000,
+           "SHAPE_LEN": 2692771.589350,
+           "PARTY_WIN": "I"
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "AREA": 79371224.080510,
+           "PERIMETER": 43277.901810,
+           "FED_NUM": 35089,
+           "FED_TYPE": null,
+           "ED_ID": 1428,
+           "ED_NAMEE": "Thornhill",
+           "ED_NAMEF": "Thornhill",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1872,
+           "SHAPE_AREA": 79371223.976200,
+           "SHAPE_LEN": 43277.901684,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "AREA": 11156608205.655600,
+           "PERIMETER": 571617.823290,
+           "FED_NUM": 47002,
+           "FED_TYPE": null,
+           "ED_ID": 1202,
+           "ED_NAMEE": "Blackstrap",
+           "ED_NAMEF": "Blackstrap",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17735,
+           "SHAPE_AREA": 11156608201.400000,
+           "SHAPE_LEN": 571617.818930,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "AREA": 336766289.019480,
+           "PERIMETER": 116479.885170,
+           "FED_NUM": 12004,
+           "FED_TYPE": null,
+           "ED_ID": 1283,
+           "ED_NAMEE": "Halifax",
+           "ED_NAMEF": "Halifax",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17801,
+           "SHAPE_AREA": 336766287.707000,
+           "SHAPE_LEN": 116479.884469,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "AREA": 115537953.330980,
+           "PERIMETER": 62475.396340,
+           "FED_NUM": 46013,
+           "FED_TYPE": null,
+           "ED_ID": 1232,
+           "ED_NAMEE": "Winnipeg South",
+           "ED_NAMEF": "Winnipeg-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16754,
+           "SHAPE_AREA": 115537953.302000,
+           "SHAPE_LEN": 62475.395515,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "AREA": 34401550.159880,
+           "PERIMETER": 36500.203610,
+           "FED_NUM": 46014,
+           "FED_TYPE": null,
+           "ED_ID": 1233,
+           "ED_NAMEE": "Winnipeg South Centre",
+           "ED_NAMEF": "Winnipeg-Centre-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16755,
+           "SHAPE_AREA": 34401550.494400,
+           "SHAPE_LEN": 36500.203592,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "AREA": 38029698263.263000,
+           "PERIMETER": 1035019.418650,
+           "FED_NUM": 47014,
+           "FED_TYPE": null,
+           "ED_ID": 1214,
+           "ED_NAMEE": "Yorkton--Melville",
+           "ED_NAMEF": "Yorkton--Melville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17740,
+           "SHAPE_AREA": 38029698267.500000,
+           "SHAPE_LEN": 1035019.416700,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "AREA": 10851112429.932699,
+           "PERIMETER": 703409.086030,
+           "FED_NUM": 13005,
+           "FED_TYPE": null,
+           "ED_ID": 1195,
+           "ED_NAMEE": "Madawaska--Restigouche",
+           "ED_NAMEF": "Madawaska--Restigouche",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18972,
+           "SHAPE_AREA": 10851112443.000000,
+           "SHAPE_LEN": 703409.086231,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "AREA": 2746440194.625880,
+           "PERIMETER": 289721.671540,
+           "FED_NUM": 59008,
+           "FED_TYPE": null,
+           "ED_ID": 1298,
+           "ED_NAMEE": "Esquimalt--Juan de Fuca",
+           "ED_NAMEF": "Esquimalt--Juan de Fuca",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15207,
+           "SHAPE_AREA": 2746440195.150000,
+           "SHAPE_LEN": 289721.671191,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "AREA": 1373832908.932280,
+           "PERIMETER": 228135.493220,
+           "FED_NUM": 24019,
+           "FED_TYPE": null,
+           "ED_ID": 1478,
+           "ED_NAMEE": "Gaspésie--Îles-de-la-Madeleine",
+           "ED_NAMEF": "Gaspésie--Îles-de-la-Madeleine",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18973,
+           "SHAPE_AREA": 1373832910.400000,
+           "SHAPE_LEN": 228135.494409,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "AREA": 972467766.118990,
+           "PERIMETER": 208441.439610,
+           "FED_NUM": 35088,
+           "FED_TYPE": null,
+           "ED_ID": 1427,
+           "ED_NAMEE": "Sudbury",
+           "ED_NAMEF": "Sudbury",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1868,
+           "SHAPE_AREA": 972467762.231000,
+           "SHAPE_LEN": 208441.437197,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "AREA": 14364496172.670401,
+           "PERIMETER": 535215.871940,
+           "FED_NUM": 47007,
+           "FED_TYPE": null,
+           "ED_ID": 1207,
+           "ED_NAMEE": "Regina--Lumsden--Lake Centre",
+           "ED_NAMEF": "Regina--Lumsden--Lake Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17737,
+           "SHAPE_AREA": 14364496178.500000,
+           "SHAPE_LEN": 535215.873674,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "AREA": 27689286.304710,
+           "PERIMETER": 27261.816870,
+           "FED_NUM": 35094,
+           "FED_TYPE": null,
+           "ED_ID": 1433,
+           "ED_NAMEE": "Toronto--Danforth",
+           "ED_NAMEF": "Toronto--Danforth",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1876,
+           "SHAPE_AREA": 27689286.293200,
+           "SHAPE_LEN": 27261.816901,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "AREA": 177586911.127790,
+           "PERIMETER": 63463.361380,
+           "FED_NUM": 46006,
+           "FED_TYPE": null,
+           "ED_ID": 1225,
+           "ED_NAMEE": "Kildonan--St. Paul",
+           "ED_NAMEF": "Kildonan--St. Paul",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16360,
+           "SHAPE_AREA": 177586910.684000,
+           "SHAPE_LEN": 63463.364134,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "AREA": 114119311.218290,
+           "PERIMETER": 47446.805630,
+           "FED_NUM": 48002,
+           "FED_TYPE": null,
+           "ED_ID": 1241,
+           "ED_NAMEE": "Calgary East",
+           "ED_NAMEF": "Calgary-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18538,
+           "SHAPE_AREA": 114119311.314000,
+           "SHAPE_LEN": 47446.805583,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "AREA": 74844233021.489197,
+           "PERIMETER": 1231194.559550,
+           "FED_NUM": 47004,
+           "FED_TYPE": null,
+           "ED_ID": 1204,
+           "ED_NAMEE": "Cypress Hills--Grasslands",
+           "ED_NAMEF": "Cypress Hills--Grasslands",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17743,
+           "SHAPE_AREA": 74844233052.699997,
+           "SHAPE_LEN": 1231194.564140,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "AREA": 54812559.412810,
+           "PERIMETER": 39208.076130,
+           "FED_NUM": 11002,
+           "FED_TYPE": null,
+           "ED_ID": 1188,
+           "ED_NAMEE": "Charlottetown",
+           "ED_NAMEF": "Charlottetown",
+           "ELCT_CNT": 0,
+           "OBJECTID": 13335,
+           "SHAPE_AREA": 54812559.375800,
+           "SHAPE_LEN": 39208.076052,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "AREA": 315584265.610660,
+           "PERIMETER": 90680.397230,
+           "FED_NUM": 12004,
+           "FED_TYPE": null,
+           "ED_ID": 1283,
+           "ED_NAMEE": "Halifax",
+           "ED_NAMEF": "Halifax",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17800,
+           "SHAPE_AREA": 315584265.692000,
+           "SHAPE_LEN": 90680.398243,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "AREA": 32211255.370330,
+           "PERIMETER": 32572.675170,
+           "FED_NUM": 35106,
+           "FED_TYPE": null,
+           "ED_ID": 1445,
+           "ED_NAMEE": "York West",
+           "ED_NAMEF": "York-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1886,
+           "SHAPE_AREA": 32211255.414100,
+           "SHAPE_LEN": 32572.675031,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "AREA": 612960807.325990,
+           "PERIMETER": 137709.050100,
+           "FED_NUM": 12005,
+           "FED_TYPE": null,
+           "ED_ID": 1284,
+           "ED_NAMEE": "Halifax West",
+           "ED_NAMEF": "Halifax-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17803,
+           "SHAPE_AREA": 612960807.281000,
+           "SHAPE_LEN": 137709.050015,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "AREA": 1551548624.281230,
+           "PERIMETER": 189961.123970,
+           "FED_NUM": 59024,
+           "FED_TYPE": null,
+           "ED_ID": 1314,
+           "ED_NAMEE": "Saanich--Gulf Islands",
+           "ED_NAMEF": "Saanich--Gulf Islands",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15208,
+           "SHAPE_AREA": 1551548624.550000,
+           "SHAPE_LEN": 189961.123554,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "AREA": 88296234.420880,
+           "PERIMETER": 46087.637270,
+           "FED_NUM": 35004,
+           "FED_TYPE": null,
+           "ED_ID": 1343,
+           "ED_NAMEE": "Barrie",
+           "ED_NAMEF": "Barrie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 3272,
+           "SHAPE_AREA": 88296234.432700,
+           "SHAPE_LEN": 46087.637198,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "AREA": 34981530.784690,
+           "PERIMETER": 31759.125680,
+           "FED_NUM": 46012,
+           "FED_TYPE": null,
+           "ED_ID": 1231,
+           "ED_NAMEE": "Winnipeg North",
+           "ED_NAMEF": "Winnipeg-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16361,
+           "SHAPE_AREA": 34981532.118200,
+           "SHAPE_LEN": 31759.124427,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "AREA": 18312165.140060,
+           "PERIMETER": 20030.293770,
+           "FED_NUM": 24009,
+           "FED_TYPE": null,
+           "ED_ID": 1468,
+           "ED_NAMEE": "Bourassa",
+           "ED_NAMEF": "Bourassa",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16700,
+           "SHAPE_AREA": 18312165.147500,
+           "SHAPE_LEN": 20030.293807,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "AREA": 20613752.265110,
+           "PERIMETER": 20827.149650,
+           "FED_NUM": 24067,
+           "FED_TYPE": null,
+           "ED_ID": 1526,
+           "ED_NAMEE": "Saint-Léonard--Saint-Michel",
+           "ED_NAMEF": "Saint-Léonard--Saint-Michel",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16702,
+           "SHAPE_AREA": 20613752.236000,
+           "SHAPE_LEN": 20827.151225,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "AREA": 80999084.156740,
+           "PERIMETER": 50279.517430,
+           "FED_NUM": 24007,
+           "FED_TYPE": null,
+           "ED_ID": 1466,
+           "ED_NAMEE": "Beauport--Limoilou",
+           "ED_NAMEF": "Beauport--Limoilou",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16711,
+           "SHAPE_AREA": 80999084.115400,
+           "SHAPE_LEN": 50279.517280,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "AREA": 5372035755.125760,
+           "PERIMETER": 329771.366120,
+           "FED_NUM": 12006,
+           "FED_TYPE": null,
+           "ED_ID": 1285,
+           "ED_NAMEE": "Kings--Hants",
+           "ED_NAMEF": "Kings--Hants",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17804,
+           "SHAPE_AREA": 5372035755.320000,
+           "SHAPE_LEN": 329771.366040,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "AREA": 5824466383.211860,
+           "PERIMETER": 427009.343340,
+           "FED_NUM": 13001,
+           "FED_TYPE": null,
+           "ED_ID": 1191,
+           "ED_NAMEE": "Acadie--Bathurst",
+           "ED_NAMEF": "Acadie--Bathurst",
+           "ELCT_CNT": 0,
+           "OBJECTID": 14992,
+           "SHAPE_AREA": 5824466372.510000,
+           "SHAPE_LEN": 427009.342189,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "AREA": 2144793059.588550,
+           "PERIMETER": 256735.457710,
+           "FED_NUM": 11003,
+           "FED_TYPE": null,
+           "ED_ID": 1189,
+           "ED_NAMEE": "Egmont",
+           "ED_NAMEF": "Egmont",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18663,
+           "SHAPE_AREA": 2144793061.640000,
+           "SHAPE_LEN": 256735.457594,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "AREA": 40626508635.836304,
+           "PERIMETER": 1112275.566680,
+           "FED_NUM": 47012,
+           "FED_TYPE": null,
+           "ED_ID": 1212,
+           "ED_NAMEE": "Souris--Moose Mountain",
+           "ED_NAMEF": "Souris--Moose Mountain",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17744,
+           "SHAPE_AREA": 40626508573.000000,
+           "SHAPE_LEN": 1112275.570740,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "AREA": 18822051.577030,
+           "PERIMETER": 21419.288560,
+           "FED_NUM": 35005,
+           "FED_TYPE": null,
+           "ED_ID": 1344,
+           "ED_NAMEE": "Beaches--East York",
+           "ED_NAMEF": "Beaches--East York",
+           "ELCT_CNT": 0,
+           "OBJECTID": 3273,
+           "SHAPE_AREA": 18822051.589500,
+           "SHAPE_LEN": 21419.288524,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "AREA": 417273080.083370,
+           "PERIMETER": 95943.187360,
+           "FED_NUM": 59001,
+           "FED_TYPE": null,
+           "ED_ID": 1291,
+           "ED_NAMEE": "Abbotsford",
+           "ED_NAMEF": "Abbotsford",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17751,
+           "SHAPE_AREA": 417273080.723000,
+           "SHAPE_LEN": 95943.191275,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "AREA": 1607926273.566820,
+           "PERIMETER": 257373.467200,
+           "FED_NUM": 12008,
+           "FED_TYPE": null,
+           "ED_ID": 1287,
+           "ED_NAMEE": "Sackville--Eastern Shore",
+           "ED_NAMEF": "Sackville--Eastern Shore",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17805,
+           "SHAPE_AREA": 1607926272.850000,
+           "SHAPE_LEN": 257373.467036,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "AREA": 1689235055.538860,
+           "PERIMETER": 227967.764450,
+           "FED_NUM": 59011,
+           "FED_TYPE": null,
+           "ED_ID": 1301,
+           "ED_NAMEE": "Kelowna--Lake Country",
+           "ED_NAMEF": "Kelowna--Lake Country",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17753,
+           "SHAPE_AREA": 1689235055.140000,
+           "SHAPE_LEN": 227967.764825,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "AREA": 3132965861.434830,
+           "PERIMETER": 389891.015050,
+           "FED_NUM": 24054,
+           "FED_TYPE": null,
+           "ED_ID": 1513,
+           "ED_NAMEE": "Bas-Richelieu--Nicolet--Bécancour",
+           "ED_NAMEF": "Bas-Richelieu--Nicolet--Bécancour",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17806,
+           "SHAPE_AREA": 3132965860.790000,
+           "SHAPE_LEN": 389891.018132,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "AREA": 37224292.525060,
+           "PERIMETER": 37092.881550,
+           "FED_NUM": 24052,
+           "FED_TYPE": null,
+           "ED_ID": 1511,
+           "ED_NAMEE": "Québec",
+           "ED_NAMEF": "Québec",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16712,
+           "SHAPE_AREA": 37224292.508400,
+           "SHAPE_LEN": 37092.882839,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "AREA": 2758460151.446120,
+           "PERIMETER": 381598.378670,
+           "FED_NUM": 59007,
+           "FED_TYPE": null,
+           "ED_ID": 1297,
+           "ED_NAMEE": "Pitt Meadows--Maple Ridge--Mission",
+           "ED_NAMEF": "Pitt Meadows--Maple Ridge--Mission",
+           "ELCT_CNT": 0,
+           "OBJECTID": 9198,
+           "SHAPE_AREA": 2758460149.780000,
+           "SHAPE_LEN": 381598.379257,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "AREA": 4618836797.147390,
+           "PERIMETER": 430154.430850,
+           "FED_NUM": 24005,
+           "FED_TYPE": null,
+           "ED_ID": 1464,
+           "ED_NAMEE": "Beauce",
+           "ED_NAMEF": "Beauce",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16707,
+           "SHAPE_AREA": 4618836796.580000,
+           "SHAPE_LEN": 430154.430118,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "AREA": 91141982.077270,
+           "PERIMETER": 53410.581140,
+           "FED_NUM": 35039,
+           "FED_TYPE": null,
+           "ED_ID": 1378,
+           "ED_NAMEE": "Kitchener--Waterloo",
+           "ED_NAMEF": "Kitchener--Waterloo",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17808,
+           "SHAPE_AREA": 91141982.088300,
+           "SHAPE_LEN": 53410.581145,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "AREA": 9731954674.024811,
+           "PERIMETER": 503125.793530,
+           "FED_NUM": 35079,
+           "FED_TYPE": null,
+           "ED_ID": 1418,
+           "ED_NAMEE": "Sault Ste. Marie",
+           "ED_NAMEF": "Sault Ste. Marie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17810,
+           "SHAPE_AREA": 9731954687.270000,
+           "SHAPE_LEN": 503125.793558,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "AREA": 48222328.710300,
+           "PERIMETER": 39615.880310,
+           "FED_NUM": 48003,
+           "FED_TYPE": null,
+           "ED_ID": 1242,
+           "ED_NAMEE": "Calgary Centre-North",
+           "ED_NAMEF": "Calgary-Centre-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18539,
+           "SHAPE_AREA": 48222328.644300,
+           "SHAPE_LEN": 39615.880276,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "AREA": 43773958546.166801,
+           "PERIMETER": 1415250.168970,
+           "FED_NUM": 48010,
+           "FED_TYPE": null,
+           "ED_ID": 1249,
+           "ED_NAMEE": "Crowfoot",
+           "ED_NAMEF": "Crowfoot",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18562,
+           "SHAPE_AREA": 43773958545.500000,
+           "SHAPE_LEN": 1415250.175130,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "AREA": 17521779201.383900,
+           "PERIMETER": 828814.630790,
+           "FED_NUM": 24019,
+           "FED_TYPE": null,
+           "ED_ID": 1478,
+           "ED_NAMEE": "Gaspésie--Îles-de-la-Madeleine",
+           "ED_NAMEF": "Gaspésie--Îles-de-la-Madeleine",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18974,
+           "SHAPE_AREA": 17521779205.200001,
+           "SHAPE_LEN": 828814.635734,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "AREA": 15132985841.124001,
+           "PERIMETER": 707965.842520,
+           "FED_NUM": 48026,
+           "FED_TYPE": null,
+           "ED_ID": 1265,
+           "ED_NAMEE": "Wetaskiwin",
+           "ED_NAMEF": "Wetaskiwin",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18580,
+           "SHAPE_AREA": 15132985843.400000,
+           "SHAPE_LEN": 707965.846011,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "AREA": 109212368.676300,
+           "PERIMETER": 65480.706750,
+           "FED_NUM": 24037,
+           "FED_TYPE": null,
+           "ED_ID": 1496,
+           "ED_NAMEE": "Louis-Hébert",
+           "ED_NAMEF": "Louis-Hébert",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15199,
+           "SHAPE_AREA": 109212369.977000,
+           "SHAPE_LEN": 65480.708798,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "AREA": 3857602622.693520,
+           "PERIMETER": 288694.848470,
+           "FED_NUM": 47013,
+           "FED_TYPE": null,
+           "ED_ID": 1213,
+           "ED_NAMEE": "Wascana",
+           "ED_NAMEF": "Wascana",
+           "ELCT_CNT": 0,
+           "OBJECTID": 13656,
+           "SHAPE_AREA": 3857602622.640000,
+           "SHAPE_LEN": 288694.847773,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "AREA": 41605032.547770,
+           "PERIMETER": 29446.531350,
+           "FED_NUM": 48006,
+           "FED_TYPE": null,
+           "ED_ID": 1245,
+           "ED_NAMEE": "Calgary Centre",
+           "ED_NAMEF": "Calgary-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18493,
+           "SHAPE_AREA": 41605032.608200,
+           "SHAPE_LEN": 29446.531310,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "AREA": 89070302.949610,
+           "PERIMETER": 48300.707140,
+           "FED_NUM": 48009,
+           "FED_TYPE": null,
+           "ED_ID": 1248,
+           "ED_NAMEE": "Calgary West",
+           "ED_NAMEF": "Calgary-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18537,
+           "SHAPE_AREA": 89070302.979400,
+           "SHAPE_LEN": 48300.707188,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "AREA": 4139300680.668020,
+           "PERIMETER": 353408.587000,
+           "FED_NUM": 48023,
+           "FED_TYPE": null,
+           "ED_ID": 1262,
+           "ED_NAMEE": "Red Deer",
+           "ED_NAMEF": "Red Deer",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18616,
+           "SHAPE_AREA": 4139300679.270000,
+           "SHAPE_LEN": 353408.587298,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "AREA": 27806640438.946201,
+           "PERIMETER": 1051829.141010,
+           "FED_NUM": 48027,
+           "FED_TYPE": null,
+           "ED_ID": 1266,
+           "ED_NAMEE": "Wild Rose",
+           "ED_NAMEF": "Wild Rose",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18624,
+           "SHAPE_AREA": 27806640431.799999,
+           "SHAPE_LEN": 1051829.157610,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "AREA": 66633028223.347603,
+           "PERIMETER": 1442213.836850,
+           "FED_NUM": 59031,
+           "FED_TYPE": null,
+           "ED_ID": 1321,
+           "ED_NAMEE": "Vancouver Island North",
+           "ED_NAMEF": "Île de Vancouver-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 10466,
+           "SHAPE_AREA": 66633028217.000000,
+           "SHAPE_LEN": 1442213.842240,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "AREA": 19693614845.819199,
+           "PERIMETER": 1024922.723710,
+           "FED_NUM": 24030,
+           "FED_TYPE": null,
+           "ED_ID": 1489,
+           "ED_NAMEE": "Laurentides--Labelle",
+           "ED_NAMEF": "Laurentides--Labelle",
+           "ELCT_CNT": 0,
+           "OBJECTID": 10468,
+           "SHAPE_AREA": 19693614850.599998,
+           "SHAPE_LEN": 1024922.722550,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "AREA": 150718180.253230,
+           "PERIMETER": 57467.235940,
+           "FED_NUM": 35006,
+           "FED_TYPE": null,
+           "ED_ID": 1345,
+           "ED_NAMEE": "Bramalea--Gore--Malton",
+           "ED_NAMEF": "Bramalea--Gore--Malton",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16732,
+           "SHAPE_AREA": 150718179.787000,
+           "SHAPE_LEN": 57467.236114,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "AREA": 58775662.624810,
+           "PERIMETER": 41815.461490,
+           "FED_NUM": 35007,
+           "FED_TYPE": null,
+           "ED_ID": 1346,
+           "ED_NAMEE": "Brampton--Springdale",
+           "ED_NAMEF": "Brampton--Springdale",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16733,
+           "SHAPE_AREA": 58775662.536300,
+           "SHAPE_LEN": 41815.461331,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "AREA": 5133266742.576070,
+           "PERIMETER": 559906.506020,
+           "FED_NUM": 59015,
+           "FED_TYPE": null,
+           "ED_ID": 1305,
+           "ED_NAMEE": "Nanaimo--Cowichan",
+           "ED_NAMEF": "Nanaimo--Cowichan",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17784,
+           "SHAPE_AREA": 5133266743.190000,
+           "SHAPE_LEN": 559906.496575,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "AREA": 1653906991.308050,
+           "PERIMETER": 183879.327560,
+           "FED_NUM": 35012,
+           "FED_TYPE": null,
+           "ED_ID": 1351,
+           "ED_NAMEE": "Carleton--Mississippi Mills",
+           "ED_NAMEF": "Carleton--Mississippi Mills",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16734,
+           "SHAPE_AREA": 1653906990.460000,
+           "SHAPE_LEN": 183879.326067,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "AREA": 25931160.997440,
+           "PERIMETER": 21661.124540,
+           "FED_NUM": 59030,
+           "FED_TYPE": null,
+           "ED_ID": 1320,
+           "ED_NAMEE": "Vancouver East",
+           "ED_NAMEF": "Vancouver-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16007,
+           "SHAPE_AREA": 25931161.030300,
+           "SHAPE_LEN": 21661.124604,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "AREA": 9193643.206450,
+           "PERIMETER": 14988.258020,
+           "FED_NUM": 24048,
+           "FED_TYPE": null,
+           "ED_ID": 1507,
+           "ED_NAMEE": "Papineau",
+           "ED_NAMEF": "Papineau",
+           "ELCT_CNT": 0,
+           "OBJECTID": 4949,
+           "SHAPE_AREA": 9193643.209760,
+           "SHAPE_LEN": 14988.258013,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "AREA": 28359225.714930,
+           "PERIMETER": 34585.190220,
+           "FED_NUM": 24065,
+           "FED_TYPE": null,
+           "ED_ID": 1524,
+           "ED_NAMEE": "Saint-Lambert",
+           "ED_NAMEF": "Saint-Lambert",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1482,
+           "SHAPE_AREA": 28359225.596600,
+           "SHAPE_LEN": 34585.190421,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "AREA": 162864761531.128998,
+           "PERIMETER": 1951721.460410,
+           "FED_NUM": 48022,
+           "FED_TYPE": null,
+           "ED_ID": 1261,
+           "ED_NAMEE": "Peace River",
+           "ED_NAMEF": "Peace River",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18705,
+           "SHAPE_AREA": 162864761501.000000,
+           "SHAPE_LEN": 1951721.459060,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "AREA": 745441759.706950,
+           "PERIMETER": 121980.425860,
+           "FED_NUM": 35003,
+           "FED_TYPE": null,
+           "ED_ID": 1342,
+           "ED_NAMEE": "Ancaster--Dundas--Flamborough--Westdale",
+           "ED_NAMEF": "Ancaster--Dundas--Flamborough--Westdale",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16736,
+           "SHAPE_AREA": 745441759.538000,
+           "SHAPE_LEN": 121980.427189,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "AREA": 55416979.574040,
+           "PERIMETER": 34465.860190,
+           "FED_NUM": 48012,
+           "FED_TYPE": null,
+           "ED_ID": 1251,
+           "ED_NAMEE": "Edmonton Centre",
+           "ED_NAMEF": "Edmonton-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18631,
+           "SHAPE_AREA": 55416979.688800,
+           "SHAPE_LEN": 34465.859732,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "AREA": 237174405915.074005,
+           "PERIMETER": 3246824.734240,
+           "FED_NUM": 59022,
+           "FED_TYPE": null,
+           "ED_ID": 1312,
+           "ED_NAMEE": "Prince George--Peace River",
+           "ED_NAMEF": "Prince George--Peace River",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18706,
+           "SHAPE_AREA": 237174405970.000000,
+           "SHAPE_LEN": 3246824.702400,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "AREA": 3040019933.186610,
+           "PERIMETER": 344664.756530,
+           "FED_NUM": 24010,
+           "FED_TYPE": null,
+           "ED_ID": 1469,
+           "ED_NAMEE": "Brome--Missisquoi",
+           "ED_NAMEF": "Brome--Missisquoi",
+           "ELCT_CNT": 0,
+           "OBJECTID": 5934,
+           "SHAPE_AREA": 3040019933.430000,
+           "SHAPE_LEN": 344664.757643,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "AREA": 37602499.091850,
+           "PERIMETER": 27973.186920,
+           "FED_NUM": 24024,
+           "FED_TYPE": null,
+           "ED_ID": 1483,
+           "ED_NAMEE": "Jeanne-Le Ber",
+           "ED_NAMEF": "Jeanne-Le Ber",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1519,
+           "SHAPE_AREA": 37602499.150100,
+           "SHAPE_LEN": 27973.187006,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "AREA": 1428428418.165020,
+           "PERIMETER": 276884.569490,
+           "FED_NUM": 24069,
+           "FED_TYPE": null,
+           "ED_ID": 1528,
+           "ED_NAMEE": "Shefford",
+           "ED_NAMEF": "Shefford",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17067,
+           "SHAPE_AREA": 1428428418.090000,
+           "SHAPE_LEN": 276884.568554,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "AREA": 32892109944.266102,
+           "PERIMETER": 885066.933680,
+           "FED_NUM": 47001,
+           "FED_TYPE": null,
+           "ED_ID": 1201,
+           "ED_NAMEE": "Battlefords--Lloydminster",
+           "ED_NAMEF": "Battlefords--Lloydminster",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18487,
+           "SHAPE_AREA": 32892109929.500000,
+           "SHAPE_LEN": 885066.936146,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "AREA": 8034890797.713290,
+           "PERIMETER": 623621.288960,
+           "FED_NUM": 13004,
+           "FED_TYPE": null,
+           "ED_ID": 1194,
+           "ED_NAMEE": "Fundy Royal",
+           "ED_NAMEF": "Fundy Royal",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17087,
+           "SHAPE_AREA": 8034890796.270000,
+           "SHAPE_LEN": 623621.284988,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "AREA": 734180532.670430,
+           "PERIMETER": 195435.279310,
+           "FED_NUM": 24064,
+           "FED_TYPE": null,
+           "ED_ID": 1523,
+           "ED_NAMEE": "Saint-Jean",
+           "ED_NAMEF": "Saint-Jean",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17041,
+           "SHAPE_AREA": 734180532.448000,
+           "SHAPE_LEN": 195435.279826,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "AREA": 1019571666.091520,
+           "PERIMETER": 160604.946360,
+           "FED_NUM": 48017,
+           "FED_TYPE": null,
+           "ED_ID": 1256,
+           "ED_NAMEE": "Edmonton--Spruce Grove",
+           "ED_NAMEF": "Edmonton--Spruce Grove",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18635,
+           "SHAPE_AREA": 1019571668.570000,
+           "SHAPE_LEN": 160604.954673,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "AREA": 2720516742.287330,
+           "PERIMETER": 376636.754200,
+           "FED_NUM": 35013,
+           "FED_TYPE": null,
+           "ED_ID": 1352,
+           "ED_NAMEE": "Chatham-Kent--Essex",
+           "ED_NAMEF": "Chatham-Kent--Essex",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19607,
+           "SHAPE_AREA": 2720516744.010000,
+           "SHAPE_LEN": 376636.752844,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "AREA": 38649057.680220,
+           "PERIMETER": 34449.089100,
+           "FED_NUM": 35062,
+           "FED_TYPE": null,
+           "ED_ID": 1401,
+           "ED_NAMEE": "Ottawa Centre",
+           "ED_NAMEF": "Ottawa-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1773,
+           "SHAPE_AREA": 38649057.677400,
+           "SHAPE_LEN": 34449.089002,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "AREA": 2859305932.378860,
+           "PERIMETER": 290399.257930,
+           "FED_NUM": 35021,
+           "FED_TYPE": null,
+           "ED_ID": 1360,
+           "ED_NAMEE": "Essex",
+           "ED_NAMEF": "Essex",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19608,
+           "SHAPE_AREA": 2859305933.830000,
+           "SHAPE_LEN": 290399.255257,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "AREA": 1177929638.011560,
+           "PERIMETER": 182204.427470,
+           "FED_NUM": 35052,
+           "FED_TYPE": null,
+           "ED_ID": 1391,
+           "ED_NAMEE": "Nepean--Carleton",
+           "ED_NAMEF": "Nepean--Carleton",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16744,
+           "SHAPE_AREA": 1177929638.040000,
+           "SHAPE_LEN": 182204.428523,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "AREA": 22920459970.899200,
+           "PERIMETER": 987649.066780,
+           "FED_NUM": 48025,
+           "FED_TYPE": null,
+           "ED_ID": 1264,
+           "ED_NAMEE": "Westlock--St. Paul",
+           "ED_NAMEF": "Westlock--St. Paul",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18636,
+           "SHAPE_AREA": 22920459963.000000,
+           "SHAPE_LEN": 987649.063645,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "AREA": 12329446513.121300,
+           "PERIMETER": 780902.497940,
+           "FED_NUM": 59014,
+           "FED_TYPE": null,
+           "ED_ID": 1304,
+           "ED_NAMEE": "Nanaimo--Alberni",
+           "ED_NAMEF": "Nanaimo--Alberni",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17783,
+           "SHAPE_AREA": 12329446516.200001,
+           "SHAPE_LEN": 780902.495728,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "AREA": 76946581906.941803,
+           "PERIMETER": 1568253.525110,
+           "FED_NUM": 48028,
+           "FED_TYPE": null,
+           "ED_ID": 1267,
+           "ED_NAMEE": "Yellowhead",
+           "ED_NAMEF": "Yellowhead",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18637,
+           "SHAPE_AREA": 76946581895.199997,
+           "SHAPE_LEN": 1568253.536870,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "AREA": 41782250982.220100,
+           "PERIMETER": 1532709.618250,
+           "FED_NUM": 24001,
+           "FED_TYPE": null,
+           "ED_ID": 1460,
+           "ED_NAMEE": "Abitibi--Témiscamingue",
+           "ED_NAMEF": "Abitibi--Témiscamingue",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17787,
+           "SHAPE_AREA": 41782250991.599998,
+           "SHAPE_LEN": 1532709.563130,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "AREA": 5.630440,
+           "PERIMETER": 6490.988240,
+           "FED_NUM": 48022,
+           "FED_TYPE": null,
+           "ED_ID": 1261,
+           "ED_NAMEE": "Peace River",
+           "ED_NAMEF": "Peace River",
+           "ELCT_CNT": 0,
+           "OBJECTID": 18704,
+           "SHAPE_AREA": 4.256188,
+           "SHAPE_LEN": 6490.987101,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "AREA": 55717299.502020,
+           "PERIMETER": 35704.481130,
+           "FED_NUM": 35023,
+           "FED_TYPE": null,
+           "ED_ID": 1362,
+           "ED_NAMEE": "Etobicoke--Lakeshore",
+           "ED_NAMEF": "Etobicoke--Lakeshore",
+           "ELCT_CNT": 0,
+           "OBJECTID": 1649,
+           "SHAPE_AREA": 55717299.469100,
+           "SHAPE_LEN": 35704.481006,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "AREA": 1624979454.604610,
+           "PERIMETER": 243813.415340,
+           "FED_NUM": 35014,
+           "FED_TYPE": null,
+           "ED_ID": 1353,
+           "ED_NAMEE": "Durham",
+           "ED_NAMEF": "Durham",
+           "ELCT_CNT": 0,
+           "OBJECTID": 19627,
+           "SHAPE_AREA": 1624979458.600000,
+           "SHAPE_LEN": 243813.416021,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "AREA": 54865953.619200,
+           "PERIMETER": 39545.634670,
+           "FED_NUM": 35031,
+           "FED_TYPE": null,
+           "ED_ID": 1370,
+           "ED_NAMEE": "Hamilton Centre",
+           "ED_NAMEF": "Hamilton-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16738,
+           "SHAPE_AREA": 54865953.501800,
+           "SHAPE_LEN": 39545.634357,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "AREA": 34004312.090500,
+           "PERIMETER": 26096.250300,
+           "FED_NUM": 35084,
+           "FED_TYPE": null,
+           "ED_ID": 1423,
+           "ED_NAMEE": "Scarborough Southwest",
+           "ED_NAMEF": "Scarborough-Sud-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 3610,
+           "SHAPE_AREA": 34004312.082300,
+           "SHAPE_LEN": 26096.250223,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "AREA": 222483332.364020,
+           "PERIMETER": 76216.977840,
+           "FED_NUM": 24072,
+           "FED_TYPE": null,
+           "ED_ID": 1531,
+           "ED_NAMEE": "Trois-Rivières",
+           "ED_NAMEF": "Trois-Rivières",
+           "ELCT_CNT": 0,
+           "OBJECTID": 5932,
+           "SHAPE_AREA": 222483332.160000,
+           "SHAPE_LEN": 76216.978566,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "AREA": 80481953.614670,
+           "PERIMETER": 52854.488740,
+           "FED_NUM": 35032,
+           "FED_TYPE": null,
+           "ED_ID": 1371,
+           "ED_NAMEE": "Hamilton East--Stoney Creek",
+           "ED_NAMEF": "Hamilton-Est--Stoney Creek",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16739,
+           "SHAPE_AREA": 80481953.489500,
+           "SHAPE_LEN": 52854.488963,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "AREA": 249649962516.750000,
+           "PERIMETER": 3181050.525090,
+           "FED_NUM": 35092,
+           "FED_TYPE": null,
+           "ED_ID": 1431,
+           "ED_NAMEE": "Timmins--James Bay",
+           "ED_NAMEF": "Timmins--Baie James",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17788,
+           "SHAPE_AREA": 249649962403.000000,
+           "SHAPE_LEN": 3181050.540630,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "AREA": 26831349.345010,
+           "PERIMETER": 28300.537700,
+           "FED_NUM": 35016,
+           "FED_TYPE": null,
+           "ED_ID": 1355,
+           "ED_NAMEE": "Don Valley East",
+           "ED_NAMEF": "Don Valley-Est",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17789,
+           "SHAPE_AREA": 26831349.211000,
+           "SHAPE_LEN": 28300.538859,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "AREA": 3397001142.073740,
+           "PERIMETER": 369581.524020,
+           "FED_NUM": 35085,
+           "FED_TYPE": null,
+           "ED_ID": 1424,
+           "ED_NAMEE": "Simcoe--Grey",
+           "ED_NAMEF": "Simcoe--Grey",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17102,
+           "SHAPE_AREA": 3397001152.700000,
+           "SHAPE_LEN": 369581.522286,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "AREA": 53921535.733960,
+           "PERIMETER": 33627.170040,
+           "FED_NUM": 35083,
+           "FED_TYPE": null,
+           "ED_ID": 1422,
+           "ED_NAMEE": "Scarborough--Rouge River",
+           "ED_NAMEF": "Scarborough--Rouge River",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15095,
+           "SHAPE_AREA": 53921535.755600,
+           "SHAPE_LEN": 33627.170090,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "AREA": 228857645.374540,
+           "PERIMETER": 88386.671840,
+           "FED_NUM": 24071,
+           "FED_TYPE": null,
+           "ED_ID": 1530,
+           "ED_NAMEE": "Terrebonne--Blainville",
+           "ED_NAMEF": "Terrebonne--Blainville",
+           "ELCT_CNT": 0,
+           "OBJECTID": 4951,
+           "SHAPE_AREA": 228857645.324000,
+           "SHAPE_LEN": 88386.672049,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "AREA": 23692969.330770,
+           "PERIMETER": 21276.280560,
+           "FED_NUM": 35019,
+           "FED_TYPE": null,
+           "ED_ID": 1358,
+           "ED_NAMEE": "Eglinton--Lawrence",
+           "ED_NAMEF": "Eglinton--Lawrence",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15255,
+           "SHAPE_AREA": 23692969.325600,
+           "SHAPE_LEN": 21276.280568,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "AREA": 37163337.580900,
+           "PERIMETER": 33558.259170,
+           "FED_NUM": 35017,
+           "FED_TYPE": null,
+           "ED_ID": 1356,
+           "ED_NAMEE": "Don Valley West",
+           "ED_NAMEF": "Don Valley-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17790,
+           "SHAPE_AREA": 37163337.752900,
+           "SHAPE_LEN": 33558.260438,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "AREA": 46348201.586990,
+           "PERIMETER": 39679.033000,
+           "FED_NUM": 35037,
+           "FED_TYPE": null,
+           "ED_ID": 1376,
+           "ED_NAMEE": "Kitchener Centre",
+           "ED_NAMEF": "Kitchener-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16740,
+           "SHAPE_AREA": 46348201.690700,
+           "SHAPE_LEN": 39679.032171,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "AREA": 23359734.916630,
+           "PERIMETER": 26364.076870,
+           "FED_NUM": 24044,
+           "FED_TYPE": null,
+           "ED_ID": 1503,
+           "ED_NAMEE": "Mount Royal",
+           "ED_NAMEF": "Mont-Royal",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8172,
+           "SHAPE_AREA": 23359734.916800,
+           "SHAPE_LEN": 26364.076840,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "AREA": 76445530.372160,
+           "PERIMETER": 42522.198350,
+           "FED_NUM": 35064,
+           "FED_TYPE": null,
+           "ED_ID": 1403,
+           "ED_NAMEE": "Ottawa South",
+           "ED_NAMEF": "Ottawa-Sud",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16745,
+           "SHAPE_AREA": 76445530.552000,
+           "SHAPE_LEN": 42522.198742,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "AREA": 401576375.287620,
+           "PERIMETER": 101479.878660,
+           "FED_NUM": 59023,
+           "FED_TYPE": null,
+           "ED_ID": 1313,
+           "ED_NAMEE": "Richmond",
+           "ED_NAMEF": "Richmond",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15194,
+           "SHAPE_AREA": 401576375.570000,
+           "SHAPE_LEN": 101479.878575,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "AREA": 15910089.205460,
+           "PERIMETER": 19924.768850,
+           "FED_NUM": 35077,
+           "FED_TYPE": null,
+           "ED_ID": 1416,
+           "ED_NAMEE": "St. Paul's",
+           "ED_NAMEF": "St. Paul's",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16746,
+           "SHAPE_AREA": 15910089.219400,
+           "SHAPE_LEN": 19924.768914,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "AREA": 527743577.503870,
+           "PERIMETER": 109947.058580,
+           "FED_NUM": 10007,
+           "FED_TYPE": null,
+           "ED_ID": 1186,
+           "ED_NAMEE": "St. John's South--Mount Pearl",
+           "ED_NAMEF": "St. John's-Sud--Mount Pearl",
+           "ELCT_CNT": 0,
+           "OBJECTID": 12394,
+           "SHAPE_AREA": 527743577.667000,
+           "SHAPE_LEN": 109947.057974,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "AREA": 14154367.514840,
+           "PERIMETER": 19464.210560,
+           "FED_NUM": 35093,
+           "FED_TYPE": null,
+           "ED_ID": 1432,
+           "ED_NAMEE": "Toronto Centre",
+           "ED_NAMEF": "Toronto-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16747,
+           "SHAPE_AREA": 14154367.495800,
+           "SHAPE_LEN": 19464.210628,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "AREA": 9373850875.796089,
+           "PERIMETER": 612975.345140,
+           "FED_NUM": 24058,
+           "FED_TYPE": null,
+           "ED_ID": 1517,
+           "ED_NAMEE": "Montmagny--L'Islet--Kamouraska--Rivière-du-Loup",
+           "ED_NAMEF": "Montmagny--L'Islet--Kamouraska--Rivière-du-Loup",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8523,
+           "SHAPE_AREA": 9373850883.629999,
+           "SHAPE_LEN": 612975.348609,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "AREA": 199237168.450750,
+           "PERIMETER": 75615.797670,
+           "FED_NUM": 35101,
+           "FED_TYPE": null,
+           "ED_ID": 1440,
+           "ED_NAMEE": "Windsor--Tecumseh",
+           "ED_NAMEF": "Windsor--Tecumseh",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16748,
+           "SHAPE_AREA": 199237168.493000,
+           "SHAPE_LEN": 75615.797942,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "AREA": 1667320828.360440,
+           "PERIMETER": 296350.565170,
+           "FED_NUM": 24026,
+           "FED_TYPE": null,
+           "ED_ID": 1485,
+           "ED_NAMEE": "Jonquière--Alma",
+           "ED_NAMEF": "Jonquière--Alma",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17050,
+           "SHAPE_AREA": 1667320825.820000,
+           "SHAPE_LEN": 296350.558733,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "AREA": 87734986.828500,
+           "PERIMETER": 43453.710770,
+           "FED_NUM": 35102,
+           "FED_TYPE": null,
+           "ED_ID": 1441,
+           "ED_NAMEE": "Windsor West",
+           "ED_NAMEF": "Windsor-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 16749,
+           "SHAPE_AREA": 87734987.353200,
+           "SHAPE_LEN": 43453.710998,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "AREA": 41037116.382260,
+           "PERIMETER": 35054.870130,
+           "FED_NUM": 35103,
+           "FED_TYPE": null,
+           "ED_ID": 1442,
+           "ED_NAMEE": "York Centre",
+           "ED_NAMEF": "York-Centre",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15272,
+           "SHAPE_AREA": 41037116.398000,
+           "SHAPE_LEN": 35054.870129,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "AREA": 191035520.339330,
+           "PERIMETER": 76362.751170,
+           "FED_NUM": 24011,
+           "FED_TYPE": null,
+           "ED_ID": 1470,
+           "ED_NAMEE": "Brossard--La Prairie",
+           "ED_NAMEF": "Brossard--La Prairie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 8544,
+           "SHAPE_AREA": 191035520.103000,
+           "SHAPE_LEN": 76362.751245,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "AREA": 2734646985.165260,
+           "PERIMETER": 299367.179820,
+           "FED_NUM": 24006,
+           "FED_TYPE": null,
+           "ED_ID": 1465,
+           "ED_NAMEE": "Beauharnois--Salaberry",
+           "ED_NAMEF": "Beauharnois--Salaberry",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17038,
+           "SHAPE_AREA": 2734646986.260000,
+           "SHAPE_LEN": 299367.175994,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "AREA": 364227527.404010,
+           "PERIMETER": 102046.244950,
+           "FED_NUM": 24015,
+           "FED_TYPE": null,
+           "ED_ID": 1474,
+           "ED_NAMEE": "Châteauguay--Saint-Constant",
+           "ED_NAMEF": "Châteauguay--Saint-Constant",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17039,
+           "SHAPE_AREA": 364227526.699000,
+           "SHAPE_LEN": 102046.244314,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "AREA": 15950671846.128099,
+           "PERIMETER": 650160.407270,
+           "FED_NUM": 13010,
+           "FED_TYPE": null,
+           "ED_ID": 1200,
+           "ED_NAMEE": "Tobique--Mactaquac",
+           "ED_NAMEF": "Tobique--Mactaquac",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17043,
+           "SHAPE_AREA": 15950671844.400000,
+           "SHAPE_LEN": 650160.410265,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "AREA": 461057410122.318970,
+           "PERIMETER": 3861021.508340,
+           "FED_NUM": 46003,
+           "FED_TYPE": null,
+           "ED_ID": 1222,
+           "ED_NAMEE": "Churchill",
+           "ED_NAMEF": "Churchill",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15027,
+           "SHAPE_AREA": 461057410048.000000,
+           "SHAPE_LEN": 3861021.509830,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "AREA": 37352171537.752197,
+           "PERIMETER": 1172271.544370,
+           "FED_NUM": 24068,
+           "FED_TYPE": null,
+           "ED_ID": 1527,
+           "ED_NAMEE": "Saint-Maurice--Champlain",
+           "ED_NAMEF": "Saint-Maurice--Champlain",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17069,
+           "SHAPE_AREA": 37352171486.800003,
+           "SHAPE_LEN": 1172271.527610,
+           "PARTY_WIN": "L"
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "AREA": 3077308783.306810,
+           "PERIMETER": 321610.467910,
+           "FED_NUM": 13003,
+           "FED_TYPE": null,
+           "ED_ID": 1193,
+           "ED_NAMEE": "Fredericton",
+           "ED_NAMEF": "Fredericton",
+           "ELCT_CNT": 0,
+           "OBJECTID": 15035,
+           "SHAPE_AREA": 3077308778.840000,
+           "SHAPE_LEN": 321610.466774,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "AREA": 2228183930.240500,
+           "PERIMETER": 267789.428110,
+           "FED_NUM": 24036,
+           "FED_TYPE": null,
+           "ED_ID": 1495,
+           "ED_NAMEE": "Lotbinière--Chutes-de-la-Chaudière",
+           "ED_NAMEF": "Lotbinière--Chutes-de-la-Chaudière",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17056,
+           "SHAPE_AREA": 2228183931.300000,
+           "SHAPE_LEN": 267789.430888,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "AREA": 4746569076.211010,
+           "PERIMETER": 407469.203350,
+           "FED_NUM": 24017,
+           "FED_TYPE": null,
+           "ED_ID": 1476,
+           "ED_NAMEE": "Compton--Stanstead",
+           "ED_NAMEF": "Compton--Stanstead",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17044,
+           "SHAPE_AREA": 4746569075.790000,
+           "SHAPE_LEN": 407469.205201,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "AREA": 173358247.864390,
+           "PERIMETER": 73461.410410,
+           "FED_NUM": 24070,
+           "FED_TYPE": null,
+           "ED_ID": 1529,
+           "ED_NAMEE": "Sherbrooke",
+           "ED_NAMEF": "Sherbrooke",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17045,
+           "SHAPE_AREA": 173358248.085000,
+           "SHAPE_LEN": 73461.410309,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "AREA": 1670216351.886090,
+           "PERIMETER": 252242.210150,
+           "FED_NUM": 24018,
+           "FED_TYPE": null,
+           "ED_ID": 1477,
+           "ED_NAMEE": "Drummond",
+           "ED_NAMEF": "Drummond",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17046,
+           "SHAPE_AREA": 1670216353.170000,
+           "SHAPE_LEN": 252242.212086,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "AREA": 60574325944.749001,
+           "PERIMETER": 1618531.653960,
+           "FED_NUM": 24060,
+           "FED_TYPE": null,
+           "ED_ID": 1519,
+           "ED_NAMEE": "Roberval--Lac-Saint-Jean",
+           "ED_NAMEF": "Roberval--Lac-Saint-Jean",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17051,
+           "SHAPE_AREA": 60574325955.599998,
+           "SHAPE_LEN": 1618531.638280,
+           "PARTY_WIN": "N"
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "AREA": 15893046.587430,
+           "PERIMETER": 22990.927650,
+           "FED_NUM": 24031,
+           "FED_TYPE": null,
+           "ED_ID": 1490,
+           "ED_NAMEE": "Laurier--Sainte-Marie",
+           "ED_NAMEF": "Laurier--Sainte-Marie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17052,
+           "SHAPE_AREA": 15893046.807800,
+           "SHAPE_LEN": 22990.927637,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "AREA": 10729651.886270,
+           "PERIMETER": 15179.614980,
+           "FED_NUM": 24061,
+           "FED_TYPE": null,
+           "ED_ID": 1520,
+           "ED_NAMEE": "Rosemont--La Petite-Patrie",
+           "ED_NAMEF": "Rosemont--La Petite-Patrie",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17053,
+           "SHAPE_AREA": 10729651.671600,
+           "SHAPE_LEN": 15179.615017,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "AREA": 3355820351.134000,
+           "PERIMETER": 351629.818710,
+           "FED_NUM": 24034,
+           "FED_TYPE": null,
+           "ED_ID": 1493,
+           "ED_NAMEE": "Lévis--Bellechasse",
+           "ED_NAMEF": "Lévis--Bellechasse",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17054,
+           "SHAPE_AREA": 3355820351.000000,
+           "SHAPE_LEN": 351629.818018,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "AREA": 478797463.300420,
+           "PERIMETER": 148853.650530,
+           "FED_NUM": 24059,
+           "FED_TYPE": null,
+           "ED_ID": 1518,
+           "ED_NAMEE": "Rivière-du-Nord",
+           "ED_NAMEF": "Rivière-du-Nord",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17065,
+           "SHAPE_AREA": 478797463.144000,
+           "SHAPE_LEN": 148853.649094,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "AREA": 1948134185.059830,
+           "PERIMETER": 268291.204660,
+           "FED_NUM": 24063,
+           "FED_TYPE": null,
+           "ED_ID": 1522,
+           "ED_NAMEE": "Saint-Hyacinthe--Bagot",
+           "ED_NAMEF": "Saint-Hyacinthe--Bagot",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17066,
+           "SHAPE_AREA": 1948134186.680000,
+           "SHAPE_LEN": 268291.203415,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "AREA": 12180147849.785900,
+           "PERIMETER": 764524.258090,
+           "FED_NUM": 13008,
+           "FED_TYPE": null,
+           "ED_ID": 1198,
+           "ED_NAMEE": "New Brunswick Southwest",
+           "ED_NAMEF": "Nouveau-Brunswick-Sud-Ouest",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17088,
+           "SHAPE_AREA": 12180147858.900000,
+           "SHAPE_LEN": 764524.267870,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "AREA": 486422746.913180,
+           "PERIMETER": 120854.001750,
+           "FED_NUM": 13009,
+           "FED_TYPE": null,
+           "ED_ID": 1199,
+           "ED_NAMEE": "Saint John",
+           "ED_NAMEF": "Saint John",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17084,
+           "SHAPE_AREA": 486422747.565000,
+           "SHAPE_LEN": 120854.000097,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "AREA": 1523895590.949090,
+           "PERIMETER": 186060.926880,
+           "FED_NUM": 35104,
+           "FED_TYPE": null,
+           "ED_ID": 1443,
+           "ED_NAMEE": "York--Simcoe",
+           "ED_NAMEF": "York--Simcoe",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17090,
+           "SHAPE_AREA": 1523895589.990000,
+           "SHAPE_LEN": 186060.925886,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "AREA": 2292627080.121940,
+           "PERIMETER": 241548.255850,
+           "FED_NUM": 35018,
+           "FED_TYPE": null,
+           "ED_ID": 1357,
+           "ED_NAMEE": "Dufferin--Caledon",
+           "ED_NAMEF": "Dufferin--Caledon",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17097,
+           "SHAPE_AREA": 2292627078.760000,
+           "SHAPE_LEN": 241548.254725,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "AREA": 3781747535.423510,
+           "PERIMETER": 358281.732730,
+           "FED_NUM": 35070,
+           "FED_TYPE": null,
+           "ED_ID": 1409,
+           "ED_NAMEE": "Perth--Wellington",
+           "ED_NAMEF": "Perth--Wellington",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17104,
+           "SHAPE_AREA": 3781747536.460000,
+           "SHAPE_LEN": 358281.736610,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "AREA": 3109106509.675230,
+           "PERIMETER": 265164.073440,
+           "FED_NUM": 35025,
+           "FED_TYPE": null,
+           "ED_ID": 1364,
+           "ED_NAMEE": "Glengarry--Prescott--Russell",
+           "ED_NAMEF": "Glengarry--Prescott--Russell",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17099,
+           "SHAPE_AREA": 3109106512.450000,
+           "SHAPE_LEN": 265164.072414,
+           "PARTY_WIN": "A"
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "AREA": 9956531976.767521,
+           "PERIMETER": 627952.362510,
+           "FED_NUM": 35040,
+           "FED_TYPE": null,
+           "ED_ID": 1379,
+           "ED_NAMEE": "Lanark--Frontenac--Lennox and Addington",
+           "ED_NAMEF": "Lanark--Frontenac--Lennox and Addington",
+           "ELCT_CNT": 0,
+           "OBJECTID": 17109,
+           "SHAPE_AREA": 9956531978.070000,
+           "SHAPE_LEN": 627952.362929,
+           "PARTY_WIN": "A"
+       }
+    }
+]

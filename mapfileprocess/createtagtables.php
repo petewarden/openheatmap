@@ -166,6 +166,10 @@ foreach ($code_map as $code => $name)
 }
 fwrite($php_output_handle, ');'."\n\n");
 
+
+foreach ($code_map as $code => $name)
+    fputcsv($php_output_handle, array($name, rand(0,100)));
+
 fclose($php_output_handle);
 
 ?>

@@ -81,6 +81,19 @@ if (!empty($projection))
             'center_lat' => 12.0,
         );
     }
+    else if ($projection=='can')
+    {
+        $projection_parameters = array(
+            'r_major' => 6378137.0,
+            'r_minor' => 6356752.314,
+            'false_easting' => 6200000.0,
+            'false_northing' => 3000000.0,
+            'center_lon' => -91.87,
+            'lat1' => 49.0,
+            'lat2' => 77.0,
+            'center_lat' => 63.39,
+        );
+    }
     else
     {
         error_log("Unknown projection '$projection'");

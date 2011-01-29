@@ -1,0 +1,179 @@
+
+
+LICENCE AGREEMENT FOR UNRESTRICTED USE OF THE ELECTORAL 
+DISTRICT BOUNDARIES (2003 REPRESENTATION ORDER) AND POLLING 
+DIVISION BOUNDARIES (39TH GENERAL ELECTION) (THE "WORK")
+
+This is a legal agreement between you ("Licensee") and Her Majesty the Queen in Right 
+of Canada ("Her Majesty"), acting through and as represented by the Office of the Chief 
+Electoral Officer of Canada ("Elections Canada").  BY ACCESSING, 
+DOWNLOADING, REPRODUCING AND/OR USING THE WORK, INFORMATION 
+AND MATERIALS BEING PROVIDED WITH, OR ACCESSIBLE PURSUANT TO 
+THIS AGREEMENT, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF 
+THIS AGREEMENT.  IF YOU DO NOT AGREE TO THE TERMS OF THIS 
+AGREEMENT, YOU MUST IMMEDIATELY DISPOSE OF THE WORK AND OF 
+ANY SUCH INFORMATION AND MATERIALS.
+
+	WHEREAS Her Majesty holds sole and exclusive worldwide copyright to the 
+Work accessible pursuant to the terms and conditions of this Agreement;
+
+AND WHEREAS the Licensee wishes to obtain certain rights to the Work, on the 
+terms and conditions herein contained;
+
+ 	AND WHEREAS Her Majesty has agreed to grant to the Licensee the right to 
+access, download, reproduce and/or use the Work subject to the terms and conditions of 
+this Agreement;
+
+AND WHEREAS the parties hereto are desirous of entering into the Agreement 
+on the basis herein set forth;
+
+NOW, THEREFORE, in consideration of the terms and conditions contained 
+herein, the parties agree as follows:
+
+ARTICLE 1 – DEFINITIONS 
+
+1.1		The following definitions apply in this Agreement:
+
+(a)	"Agreement" means these Articles of Agreement; 
+(b) 	"End-User" means an individual or corporate body having access to the 
+Licensee's Product; 
+(c)	"Licence" means the authority granted to access, download, reproduce 
+and/or use the Work in accordance with this Agreement; 
+(d) 	"Licensee" means the Party accessing, downloading, reproducing and/or 
+using the Work in accordance with this Agreement;  
+(e)	"Elections Canada" means the Office of the Chief Electoral Officer of 
+Canada; 
+(f)	"Product" means the Licensee's product, system, sub-system, device, 
+component, material or software application incorporating or using the 
+Work or any part of the Work;
+(g)	"Work" means the Electoral District Boundaries (2003 Representation 
+Order) and Polling Division Boundaries (39th General Election).  The 
+Parties acknowledge the Work hereto as a "literary work" for the purposes 
+of the Copyright Act, including section 12 thereof.
+
+ARTICLE 2 – LICENCE
+
+2.1	Elections Canada hereby grants to the Licensee, subject to all the terms and 
+conditions set out in this Agreement, a non-restrictive and royalty-free Licence to 
+access, download, reproduce and/or use the Work.  Such access, downloading, 
+reproduction and/or use must not: 
+
+(a)	be in an undignified context;
+(b)	be considered unfair, misleading or inaccurate;
+(c)	be used for advertising purposes in an undesirable manner;
+(d)	be used in a context that may prejudice or harm a third party;
+(e)	be considered inappropriate by Elections Canada;
+(f)	be considered out-of-date;
+(g)	infringe on the proprietary rights of third parties; or
+(h)	suggest an official endorsement by Her Majesty or Elections Canada 
+where none exists.
+
+The violation of any of the above criteria renders this Agreement null and void.
+
+2.2	The Licence includes the right to incorporate, modify, improve and further 
+develop the Work or any part of the Work, and to sell the Licensee's Product 
+incorporating or using the Work or any part of the Work for the purpose of 
+providing End-users with client-specific information.  
+
+2.3	The Licensee understands that no change to the terms and conditions of this 
+Agreement is binding on Her Majesty without the written consent of Elections 
+Canada.
+
+ARTICLE 3 –ASSIGNMENTS
+
+3.1	This Agreement shall not be assigned or otherwise encumbered by the Licensee or 
+by operation of law, in whole or in part, without the prior written consent of 
+Elections Canada.  Any assignment or other encumbrance made without that 
+consent shall be void and of no effect and shall constitute a default of a material 
+obligation on behalf of the Licensee.
+
+
+
+ARTICLE 4 – INSPECTION
+
+4.1	The Licensee agrees that Elections Canada may at any reasonable time, upon 
+notice to the Licensee, have access to the Work being used by the Licensee in 
+order to permit Elections Canada to inspect the Work as transmitted by the 
+Licensee and to verify its conformity with the terms and conditions of this 
+Agreement.
+
+ARTICLE 5 – COPYRIGHT
+
+5.1	Her Majesty is the sole proprietor of the Work and shall retain all copyright and 
+other rights pertaining in any way to the Work being used by the Licensee as used 
+or incorporated in its Product.   
+
+5.2	The Licensee shall ensure that the following copyright notice appears in an 
+appropriate and visible location in the Licensee's Product, where any of the Work 
+is contained within the Product:  
+
+	"© The federal Electoral Districts Boundaries (Representation Order 2003) and Polling Division 
+Boundaries (39th General Election), Elections Canada.  All rights reserved. Reproduced with the 
+permission of Elections Canada, Ottawa, Ontario K1A 0M6 Canada (2007)." 
+
+5.3	Copyright and other intellectual property rights pertaining to the Product shall 
+vest in the Licensee.
+
+ARTICLE 6 – LIABILITY, INDEMNITY
+
+6.1	Her Majesty and Elections Canada shall not be liable for any loss or damages 
+suffered by the Licensee as a result of the Licensee's use of the Work or the 
+Licensee's exploitation of the rights granted under this Licence.  
+
+6.2	The Licensee shall be responsible for, and shall at all times indemnify and hold 
+harmless Her Majesty and Elections Canada, their officers, employees, agents and 
+contractors from and against any and all claims, demands, losses, costs, damages, 
+injuries, causes of action, actions, suits or other proceedings whatsoever by reason 
+of or arising out of the Licensee's use of the Work or the Licensee's exploitation 
+of the rights granted under this Licence.
+
+ARTICLE 7 – WARRANTY, DISCLAIMER
+
+7.1	Her Majesty and Elections Canada make no representation or warranty of any 
+kind with respect to the accuracy, usefulness, novelty, validity, scope, 
+completeness or currency of the Work and expressly disclaim any implied 
+warranty of merchantability or fitness for a particular purpose of the Work.  Her 
+Majesty and Elections Canada do not ensure or warrant compatibility with past, 
+current or future versions of any web Site browser to access the Work.
+
+7.2	The Licensee shall include a disclaimer in its Product, to the effect that the End-
+user is put on notice that any of the Licensee's interpretations and/or commentary 
+which are added to the Work are the sole responsibility and choice of the Licensee 
+and as such, Her Majesty and Elections Canada do not endorse such 
+interpretations and/or commentary and disclaim any responsibility relative to such 
+interpretations and/or commentary.   
+
+ARTICLE 8 – TERMINATION 
+
+8.1    	This Agreement shall terminate:
+
+(a)	automatically and without notice, if the Licensee commits or permits a 
+breach of any of its covenants or obligations under this Agreement; or
+         	(b) 	upon written notice of termination by the Licensee at any time, and such 
+termination shall take effect thirty (30) days after the receipt by Elections 
+Canada of such notice.
+
+8.2  	Upon the termination of this Agreement, the Licensee's obligations under sections 
+6 and 7 shall survive; and the Licensee's rights under section 2 shall immediately 
+cease.
+
+ARTICLE 9 – GENERAL
+
+9.1	Interpretation
+
+This Agreement, including all matters relating to its validity and performance, 
+shall be interpreted, construed and governed by, and all relations between the 
+parties shall be fully determined in accordance with the laws of the Province of 
+Ontario and Canada as applicable.  The parties hereto attorn to the jurisdiction of 
+the Superior Court of the Province of Ontario.
+
+9.2	Severability
+
+If any provision of the Agreement is declared by a court of competent jurisdiction 
+to be invalid, illegal or unenforceable, such provision shall be severed from the 
+Agreement and all other provisions of the Agreement shall remain in full force 
+and effect.
+
+
+
+

@@ -1,0 +1,18 @@
+{
+    "to_delete": {
+	"AREA": ".*",
+	"PERIMETER": ".*",
+	"FED_TYPE": ".*",
+	"ED_ID": ".*",
+	"ED_NAMEF": ".*",
+	"ELCT_CNT": ".*",
+	"OBJECTID": ".*",
+	"SHAPE_AREA": ".*",
+	"SHAPE_LEN": ".*",
+	"PARTY_WIN": ".*"
+    },
+    "to_rename": {
+	"FED_NUM": "can_constituency_code",
+	"ED_NAMEE": "name"
+    }
+}
