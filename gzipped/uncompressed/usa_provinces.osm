@@ -43080,7 +43080,7 @@
     <tag k="country_name" v="United States"/>
     <tag k="name" v="Minnesota"/>
     <tag k="name_variants" v="MN|Minn."/>
-    <tag k="province_code" v="US32"/>
+    <tag k="province_code" v="US27"/>
   </way>
   <way id="000000607">
     <nd ref="608"/>

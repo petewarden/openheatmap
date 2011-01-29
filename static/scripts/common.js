@@ -681,7 +681,7 @@ function updateMapWithSettings(mapSettings)
         openHeatMap.setSetting(key, value);
     }
     
-    openHeatMap.setColorGradient(mapSettings.general.gradient_with_alpha);
+    openHeatMap.setColorGradient(mapSettings.general.gradient_with_alpha_new);
     
     if (typeof mapSettings.way !== 'undefined')
     {
@@ -758,8 +758,11 @@ function setMapSize(width, height)
 
 function createGradientFromSettings()
 {
-    if (typeof g_mapSettings.general.gradient_with_alpha!== 'undefined')
+    if (typeof g_mapSettings.general.gradient_with_alpha_new!== 'undefined')
         return;
+
+    if (typeof g_mapSettings.component.information_alpha === 'undefined')
+        g_mapSettings.component.information_alpha = 1.0;
 
     var gradient = [];
     gradient.push(g_mapSettings.general.gradient_start_color);
@@ -778,13 +781,13 @@ function createGradientFromSettings()
         var color = gradient[gradientIndex];
         color = color.replace('#', '');
         
-        var alpha = 255;        
+        var alpha = Math.floor(g_mapSettings.component.information_alpha*255);
         var colorString = '#'+alpha.toString(16)+color;
         
         gradientWithAlpha.push(colorString);
     }
     
-    g_mapSettings.general.gradient_with_alpha = gradientWithAlpha;
+    g_mapSettings.general.gradient_with_alpha_new = gradientWithAlpha;
 }
 
 function niceNumberFormat(number)
