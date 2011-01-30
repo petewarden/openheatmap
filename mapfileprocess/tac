@@ -1,0 +1,36 @@
+#!/usr/bin/python
+#
+# Eric Nodwell
+# February 2006
+#
+# Simple scripty to imitate GNU tac, which concantenates and prints
+# files in reverse.
+
+
+import sys
+import os
+from os import path
+from glob import glob
+from optparse import OptionParser
+
+
+usage="""usage: %prog [options] file ...
+        concatenate and print files in reverse"""
+parser = OptionParser (usage=usage)
+(options, args) = parser.parse_args ()
+
+
+if not args:
+    lines = sys.stdin.readlines ()
+else:
+    lines = []
+    for A in args:
+        files = glob (path.expanduser (A))
+        if not files:
+            sys.stderr.write (A + ' not found.\n')
+        for F in files:
+            fi = open (F)
+            lines.extend (fi.readlines())
+            fi.close ()
+for l in lines[::-1]:
+    sys.stdout.write (l)

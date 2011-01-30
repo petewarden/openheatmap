@@ -34,7 +34,7 @@ g_openHeatMapUserData = {};
             mapName: 'openheatmap',
             width: 800,
             height: 600,
-            prefer: 'flash',
+            prefer: 'canvas',
             wmode: 'opaque',
             userData: null
         };
@@ -48,6 +48,9 @@ g_openHeatMapUserData = {};
             settings = $.extend(defaults, settings);
         else
             settings = defaults;
+
+        if ((typeof settings.prefer==='undefined') || (settings.prefer===null) || (settings.prefer===''))
+            settings.prefer = 'canvas';
  
         g_openHeatMapUserData[settings.mapName] = settings.userData;
  
