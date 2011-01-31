@@ -4316,95 +4316,97 @@ function Matrix(a, b, c, d, tx, ty)
     this.tx = tx;
     this.ty = ty;
     
-    this.transformPoint = function (p) {
-        var result = new Point(
-            (p.x*this.a)+(p.y*this.c)+this.tx,
-            (p.x*this.b)+(p.y*this.d)+this.ty
-        );
+    return this;
+}
     
-        return result;
-    };
-    
-    this.translate = function (x, y) {
-        this.tx += x;
-        this.ty += y;
-        
-        return this;
-    };
-    
-    this.scale = function (x, y) {
-    
-        var scaleMatrix = new Matrix(x, 0, 0, y, 0, 0);
-        this.concat(scaleMatrix);
-        
-        return this;
-    };
-    
-    this.concat = function (m) {
-    
-        this.copy( new Matrix(
-            (this.a*m.a)+(this.b*m.c), (this.a*m.b)+(this.b*m.d),
-            (this.c*m.a)+(this.d*m.c), (this.c*m.b)+(this.d*m.d),
-            (this.tx*m.a)+(this.ty*m.c)+m.tx, (this.tx*m.b)+(this.ty*m.d)+m.ty
-        ));
-        
-        return this;
-    };
+Matrix.prototype.transformPoint = function (p) {
+    var result = new Point(
+        (p.x*this.a)+(p.y*this.c)+this.tx,
+        (p.x*this.b)+(p.y*this.d)+this.ty
+    );
 
-    this.invert = function () {
-    
-        var adbc = ((this.a*this.d)-(this.b*this.c));
-    
-        this.copy(new Matrix(
-            (this.d/adbc), (-this.b/adbc),
-            (-this.c/adbc), (this.a/adbc),
-            (((this.c*this.ty)-(this.d*this.tx))/adbc),
-            -(((this.a*this.ty)-(this.b*this.tx))/adbc)
-        ));
-        
-        return this;
-    };
+    return result;
+};
 
-    this.clone = function () {
+Matrix.prototype.translate = function (x, y) {
+    this.tx += x;
+    this.ty += y;
     
-        var result = new Matrix(
-            this.a, this.b,
-            this.c, this.d,
-            this.tx, this.ty
-        );
-        
-        return result;
-    };
+    return this;
+};
 
-    this.zoomAroundPoint = function (center, zoomFactor) {
-        var translateToOrigin = new Matrix();
-        translateToOrigin.translate(-center.x, -center.y);
-        
-        var scale = new Matrix();
-        scale.scale(zoomFactor, zoomFactor);
-        
-        var translateFromOrigin = new Matrix();
-        translateFromOrigin.translate(center.x, center.y);
+Matrix.prototype.scale = function (x, y) {
 
-        var zoom = new Matrix();
-        zoom.concat(translateToOrigin);
-        zoom.concat(scale);
-        zoom.concat(translateFromOrigin);
-        
-        this.concat(zoom);
-        return this;
-    }
+    var scaleMatrix = new Matrix(x, 0, 0, y, 0, 0);
+    this.concat(scaleMatrix);
     
-    this.copy = function(m) {
-        this.a = m.a;
-        this.b = m.b;
-        this.c = m.c;
-        this.d = m.d;
-        this.tx = m.tx;
-        this.ty = m.ty;
-        
-        return this;
-    }
+    return this;
+};
+
+Matrix.prototype.concat = function (m) {
+
+    this.copy( new Matrix(
+        (this.a*m.a)+(this.b*m.c), (this.a*m.b)+(this.b*m.d),
+        (this.c*m.a)+(this.d*m.c), (this.c*m.b)+(this.d*m.d),
+        (this.tx*m.a)+(this.ty*m.c)+m.tx, (this.tx*m.b)+(this.ty*m.d)+m.ty
+    ));
+    
+    return this;
+};
+
+Matrix.prototype.invert = function () {
+
+    var adbc = ((this.a*this.d)-(this.b*this.c));
+
+    this.copy(new Matrix(
+        (this.d/adbc), (-this.b/adbc),
+        (-this.c/adbc), (this.a/adbc),
+        (((this.c*this.ty)-(this.d*this.tx))/adbc),
+        -(((this.a*this.ty)-(this.b*this.tx))/adbc)
+    ));
+    
+    return this;
+};
+
+Matrix.prototype.clone = function () {
+
+    var result = new Matrix(
+        this.a, this.b,
+        this.c, this.d,
+        this.tx, this.ty
+    );
+    
+    return result;
+};
+
+Matrix.prototype.zoomAroundPoint = function (center, zoomFactor) {
+    var translateToOrigin = new Matrix();
+    translateToOrigin.translate(-center.x, -center.y);
+    
+    var scale = new Matrix();
+    scale.scale(zoomFactor, zoomFactor);
+    
+    var translateFromOrigin = new Matrix();
+    translateFromOrigin.translate(center.x, center.y);
+
+    var zoom = new Matrix();
+    zoom.concat(translateToOrigin);
+    zoom.concat(scale);
+    zoom.concat(translateFromOrigin);
+    
+    this.concat(zoom);
+    return this;
+}
+
+Matrix.prototype.copy = function(m) {
+    this.a = m.a;
+    this.b = m.b;
+    this.c = m.c;
+    this.d = m.d;
+    this.tx = m.tx;
+    this.ty = m.ty;
+    
+    return this;
 }
 
 function Point(x, y)
@@ -4418,31 +4420,32 @@ function Point(x, y)
     this.x = (Number)(x);
     this.y = (Number)(y);
     
-    this.add = function (p) {
-        var result = new Point((this.x+p.x), (this.y+p.y));
-        return result;
-    };
-
-    this.subtract = function (p) {
-        var result = new Point((this.x-p.x), (this.y-p.y));
-        return result;
-    };
-    
-    this.dot = function (p) {
-        var result = ((this.x*p.x)+(this.y*p.y));
-        return result;
-    };
-
-    this.cross = function (p) {
-        var result = ((this.x*p.y)-(this.y*p.x));
-        return result;
-    };
-    
-    this.clone = function () {
-        return new Point(this.x, this.y);
-    };
-
+    return this;
 }
+    
+Point.prototype.add = function (p) {
+    var result = new Point((this.x+p.x), (this.y+p.y));
+    return result;
+};
+
+Point.prototype.subtract = function (p) {
+    var result = new Point((this.x-p.x), (this.y-p.y));
+    return result;
+};
+
+Point.prototype.dot = function (p) {
+    var result = ((this.x*p.x)+(this.y*p.y));
+    return result;
+};
+
+Point.prototype.cross = function (p) {
+    var result = ((this.x*p.y)-(this.y*p.x));
+    return result;
+};
+
+Point.prototype.clone = function () {
+    return new Point(this.x, this.y);
+};
 
 jQuery.fn.elementLocation = function() 
 {
@@ -4479,783 +4482,754 @@ function Rectangle(x, y, width, height)
     this.y = y;
     this.width = width;
     this.height = height;
-
-    this.bottom = function(newY) {
-        if (typeof newY !== 'undefined')
-            this.height = (newY-this.y);
-        return (this.y+this.height);
-    };
-    
-    this.bottomRight = function() {
-        return new Point(this.right(), this.bottom());
-    };
-
-    this.left = function(newX) {
-        if (typeof newX !== 'undefined')
-        {
-            this.width += (this.x-newX);
-            this.x = newX;
-        }
-        return this.x;
-    };
-    
-    this.right = function(newX) {
-        if (typeof newX !== 'undefined')
-            this.width = (newX-this.x);
-        return (this.x+this.width);
-    };
-    
-    this.size = function() {
-        return new Point(this.width, this.height);
-    };
-    
-    this.top = function(newY) {
-        if (typeof newY !== 'undefined')
-        {
-            this.height += (this.y-newY);
-            this.y = newY;
-        }
-        return this.y;
-    };
-
-    this.topLeft = function() {
-        return new Point(this.x, this.y);
-    };
-
-    this.clone = function() {
-        return new Rectangle(this.x, this.y, this.width, this.height);
-    };
-    
-    this.contains = function(x, y) {
-        var isInside = 
-            (x>=this.x)&&
-            (y>=this.y)&&
-            (x<this.right())&&
-            (y<this.bottom());
-        return isInside;
-    };
-    
-    this.containsPoint = function(point) {
-        return this.contains(point.x, point.y);
-    };
-    
-    this.containsRect = function(rect) {
-        var isInside = 
-            (rect.x>=this.x)&&
-            (rect.y>=this.y)&&
-            (rect.right()<=this.right())&&
-            (rect.bottom()<=this.bottom());
-        return isInside;    
-    };
-    
-    this.equals = function(toCompare) {
-        var isIdentical =
-            (toCompare.x===this.x)&&
-            (toCompare.y===this.y)&&
-            (toCompare.width===this.width)&&
-            (toCompare.height===this.height);
-        return isIdentical;
-    };
-    
-    this.inflate = function(dx, dy) {
-        this.x -= dx;
-        this.y -= dy;
-        this.width += (2*dx);
-        this.height += (2*dy);
-    };
-    
-    this.inflatePoint = function(point) {
-        this.inflate(point.x, point.y);
-    };
-    
-    this.inclusiveRangeContains = function(value, min, max) {
-        var isInside =
-            (value>=min)&&
-            (value<=max);
-            
-        return isInside;
-    };
-    
-    this.intersectRange = function(aMin, aMax, bMin, bMax) {
-
-        var maxMin = Math.max(aMin, bMin);
-        if (!this.inclusiveRangeContains(maxMin, aMin, aMax)||
-            !this.inclusiveRangeContains(maxMin, bMin, bMax))
-            return null;
-            
-        var minMax = Math.min(aMax, bMax);
-        
-        if (!this.inclusiveRangeContains(minMax, aMin, aMax)||
-            !this.inclusiveRangeContains(minMax, bMin, bMax))
-            return null;
-    
-        return { min: maxMin, max: minMax };
-    };
-    
-    this.intersection = function(toIntersect) {
-        var xSpan = this.intersectRange(
-            this.x, this.right(),
-            toIntersect.x, toIntersect.right());
-        
-        if (!xSpan)
-            return null;
-            
-        var ySpan = this.intersectRange(
-            this.y, this.bottom(),
-            toIntersect.y, toIntersect.bottom());
-        
-        if (!ySpan)
-            return null;
-            
-        var result = new Rectangle(
-            xSpan.min,
-            ySpan.min,
-            (xSpan.max-xSpan.min),
-            (ySpan.max-ySpan.min));
-        
-        return result;
-    };
-    
-    this.intersects = function(toIntersect) {
-        var intersection = this.intersection(toIntersect);
-        
-        return (typeof intersection !== 'undefined');
-    };
-    
-    this.isEmpty = function() {
-        return ((this.width<=0)||(this.height<=0));
-    };
-    
-    this.offset = function(dx, dy) {
-        this.x += dx;
-        this.y += dy;
-    };
-    
-    this.offsetPoint = function(point) {
-        this.offset(point.x, point.y);
-    };
-    
-    this.setEmpty = function() {
-        this.x = 0;
-        this.y = 0;
-        this.width = 0;
-        this.height = 0;
-    };
-    
-    this.toString = function() {
-        var result = '{';
-        result += '"x":'+this.x+',';
-        result += '"y":'+this.y+',';
-        result += '"width":'+this.width+',';
-        result += '"height":'+this.height+'}';
-        
-        return result;
-    };
-    
-    this.union = function(toUnion) {
-        var minX = Math.min(toUnion.x, this.x);
-        var maxX = Math.max(toUnion.right(), this.right());
-        var minY = Math.min(toUnion.y, this.y);
-        var maxY = Math.max(toUnion.bottom(), this.bottom());
-
-        var result = new Rectangle(
-            minX,
-            minY,
-            (maxX-minX),
-            (maxY-minY));
-        
-        return result;
-    };
     
     return this;
 }
+
+Rectangle.prototype.bottom = function(newY) {
+    if (typeof newY !== 'undefined')
+        this.height = (newY-this.y);
+    return (this.y+this.height);
+};
+
+Rectangle.prototype.bottomRight = function() {
+    return new Point(this.right(), this.bottom());
+};
+
+Rectangle.prototype.left = function(newX) {
+    if (typeof newX !== 'undefined')
+    {
+        this.width += (this.x-newX);
+        this.x = newX;
+    }
+    return this.x;
+};
+
+Rectangle.prototype.right = function(newX) {
+    if (typeof newX !== 'undefined')
+        this.width = (newX-this.x);
+    return (this.x+this.width);
+};
+
+Rectangle.prototype.size = function() {
+    return new Point(this.width, this.height);
+};
+
+Rectangle.prototype.top = function(newY) {
+    if (typeof newY !== 'undefined')
+    {
+        this.height += (this.y-newY);
+        this.y = newY;
+    }
+    return this.y;
+};
+
+Rectangle.prototype.topLeft = function() {
+    return new Point(this.x, this.y);
+};
+
+Rectangle.prototype.clone = function() {
+    return new Rectangle(this.x, this.y, this.width, this.height);
+};
+
+Rectangle.prototype.contains = function(x, y) {
+    var isInside = 
+        (x>=this.x)&&
+        (y>=this.y)&&
+        (x<this.right())&&
+        (y<this.bottom());
+    return isInside;
+};
+
+Rectangle.prototype.containsPoint = function(point) {
+    return this.contains(point.x, point.y);
+};
+
+Rectangle.prototype.containsRect = function(rect) {
+    var isInside = 
+        (rect.x>=this.x)&&
+        (rect.y>=this.y)&&
+        (rect.right()<=this.right())&&
+        (rect.bottom()<=this.bottom());
+    return isInside;    
+};
+
+Rectangle.prototype.equals = function(toCompare) {
+    var isIdentical =
+        (toCompare.x===this.x)&&
+        (toCompare.y===this.y)&&
+        (toCompare.width===this.width)&&
+        (toCompare.height===this.height);
+    return isIdentical;
+};
+
+Rectangle.prototype.inflate = function(dx, dy) {
+    this.x -= dx;
+    this.y -= dy;
+    this.width += (2*dx);
+    this.height += (2*dy);
+};
+
+Rectangle.prototype.inflatePoint = function(point) {
+    this.inflate(point.x, point.y);
+};
+
+Rectangle.prototype.inclusiveRangeContains = function(value, min, max) {
+    var isInside =
+        (value>=min)&&
+        (value<=max);
+        
+    return isInside;
+};
+
+Rectangle.prototype.intersectRange = function(aMin, aMax, bMin, bMax) {
+
+    var maxMin = Math.max(aMin, bMin);
+    if (!this.inclusiveRangeContains(maxMin, aMin, aMax)||
+        !this.inclusiveRangeContains(maxMin, bMin, bMax))
+        return null;
+        
+    var minMax = Math.min(aMax, bMax);
+    
+    if (!this.inclusiveRangeContains(minMax, aMin, aMax)||
+        !this.inclusiveRangeContains(minMax, bMin, bMax))
+        return null;
+
+    return { min: maxMin, max: minMax };
+};
+
+Rectangle.prototype.intersection = function(toIntersect) {
+    var xSpan = this.intersectRange(
+        this.x, this.right(),
+        toIntersect.x, toIntersect.right());
+    
+    if (!xSpan)
+        return null;
+        
+    var ySpan = this.intersectRange(
+        this.y, this.bottom(),
+        toIntersect.y, toIntersect.bottom());
+    
+    if (!ySpan)
+        return null;
+        
+    var result = new Rectangle(
+        xSpan.min,
+        ySpan.min,
+        (xSpan.max-xSpan.min),
+        (ySpan.max-ySpan.min));
+    
+    return result;
+};
+
+Rectangle.prototype.intersects = function(toIntersect) {
+    var intersection = this.intersection(toIntersect);
+    
+    return (typeof intersection !== 'undefined');
+};
+
+Rectangle.prototype.isEmpty = function() {
+    return ((this.width<=0)||(this.height<=0));
+};
+
+Rectangle.prototype.offset = function(dx, dy) {
+    this.x += dx;
+    this.y += dy;
+};
+
+Rectangle.prototype.offsetPoint = function(point) {
+    this.offset(point.x, point.y);
+};
+
+Rectangle.prototype.setEmpty = function() {
+    this.x = 0;
+    this.y = 0;
+    this.width = 0;
+    this.height = 0;
+};
+
+Rectangle.prototype.toString = function() {
+    var result = '{';
+    result += '"x":'+this.x+',';
+    result += '"y":'+this.y+',';
+    result += '"width":'+this.width+',';
+    result += '"height":'+this.height+'}';
+    
+    return result;
+};
+
+Rectangle.prototype.union = function(toUnion) {
+    var minX = Math.min(toUnion.x, this.x);
+    var maxX = Math.max(toUnion.right(), this.right());
+    var minY = Math.min(toUnion.y, this.y);
+    var maxY = Math.max(toUnion.bottom(), this.bottom());
+
+    var result = new Rectangle(
+        minX,
+        minY,
+        (maxX-minX),
+        (maxY-minY));
+    
+    return result;
+};
 
 function BucketGrid(boundingBox, rows, columns)
 {
-    this.__constructor = function(boundingBox, rows, columns)
-    {
-        this._boundingBox = boundingBox;
-        this._rows = rows;
-        this._columns = columns;
-        
-        this._grid = [];
-        
-        this._originLeft = boundingBox.left();
-        this._originTop = boundingBox.top();
-        
-        this._columnWidth = this._boundingBox.width/this._columns;
-        this._rowHeight = this._boundingBox.height/this._rows;
-        
-        for (var rowIndex = 0; rowIndex<this._rows; rowIndex+=1)
-        {
-            this._grid[rowIndex] = [];
-            
-            var rowTop = (this._originTop+(this._rowHeight*rowIndex));
-            
-            for (var columnIndex = 0; columnIndex<this._columns; columnIndex+=1)
-            {
-                var columnLeft = (this._originLeft+(this._columnWidth*columnIndex));
-                this._grid[rowIndex][columnIndex] = {
-                    head_index: 0,
-                    contents: { }
-                };
-            }
-        }			
-
-    };
+    this._boundingBox = boundingBox;
+    this._rows = rows;
+    this._columns = columns;
     
-    this.insertObjectAtPoint = function(point, object)
+    this._grid = [];
+    
+    this._originLeft = boundingBox.left();
+    this._originTop = boundingBox.top();
+    
+    this._columnWidth = this._boundingBox.width/this._columns;
+    this._rowHeight = this._boundingBox.height/this._rows;
+    
+    for (var rowIndex = 0; rowIndex<this._rows; rowIndex+=1)
     {
-        this.insertObjectAt(new Rectangle(point.x, point.y, 0, 0), object);
+        this._grid[rowIndex] = [];
+        
+        var rowTop = (this._originTop+(this._rowHeight*rowIndex));
+        
+        for (var columnIndex = 0; columnIndex<this._columns; columnIndex+=1)
+        {
+            var columnLeft = (this._originLeft+(this._columnWidth*columnIndex));
+            this._grid[rowIndex][columnIndex] = {
+                head_index: 0,
+                contents: { }
+            };
+        }
     }
     
-    this.insertObjectAt = function(boundingBox, object)
+    return this;
+}
+
+BucketGrid.prototype.insertObjectAtPoint = function(point, object)
+{
+    this.insertObjectAt(new Rectangle(point.x, point.y, 0, 0), object);
+}
+
+BucketGrid.prototype.insertObjectAt = function(boundingBox, object)
+{
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
     {
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
         {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
-            {
-                var bucket = this._grid[rowIndex][columnIndex];
-                bucket.contents[bucket.head_index] = object;
-                bucket.head_index += 1;
-            }
+            var bucket = this._grid[rowIndex][columnIndex];
+            bucket.contents[bucket.head_index] = object;
+            bucket.head_index += 1;
         }
-        
-    };
+    }
+    
+};
 
-    this.removeObjectAt = function(boundingBox, object)
+BucketGrid.prototype.removeObjectAt = function(boundingBox, object)
+{
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
     {
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
         {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
+            var bucket = this._grid[rowIndex][columnIndex];
+            for (var index=0; index<bucket.contents.length; index+=1)
             {
-                var bucket = this._grid[rowIndex][columnIndex];
-                for (var index=0; index<bucket.contents.length; index+=1)
+                if (bucket.contents[index]==object)
                 {
-                    if (bucket.contents[index]==object)
-                    {
-                        delete bucket.contents[index];
-                        break;
-                    }
+                    delete bucket.contents[index];
+                    break;
                 }
             }
         }
-        
-    };
+    }
     
-    this.getContentsAtPoint = function(point)
+};
+
+BucketGrid.prototype.getContentsAtPoint = function(point)
+{
+    return this.getContentsAt(new Rectangle(point.x, point.y, 0, 0));
+};
+
+BucketGrid.prototype.getContentsAt = function(boundingBox)
+{
+    var result = [];
+
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
     {
-        return this.getContentsAt(new Rectangle(point.x, point.y, 0, 0));
-    };
-    
-    this.getContentsAt = function(boundingBox)
-    {
-        var result = [];
-
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
-        {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
-            { 
-                var bucket = this._grid[rowIndex][columnIndex];
-                for (var objectIndex in bucket.contents)
-                    result.push(bucket.contents[objectIndex]);
-            }
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
+        { 
+            var bucket = this._grid[rowIndex][columnIndex];
+            for (var objectIndex in bucket.contents)
+                result.push(bucket.contents[objectIndex]);
         }
-        
-        return result;
-    };
-
-    this.__constructor(boundingBox, rows, columns);
+    }
     
-    return this;
-}
+    return result;
+};
 
 function ExternalImageView(imagePath, width, height, myParent)
 {
-    this.__constructor = function(imagePath, width, height, myParent)
-    {
-        this._myParent = myParent;
-		this._isLoaded = false;
-        this._image = new Image();
-        
-        var instance = this;
-        this._image.onload = function() { instance.onComplete(); };
-        this._image.src = imagePath;
-    };
-
-    this.onComplete = function() 
-    {
-        this._isLoaded = true;
-        
-        // I know, I know, I should really be sending up an event or something less hacky
-        this._myParent._mapTilesDirty = true;
-    };
+    this._myParent = myParent;
+    this._isLoaded = false;
+    this._image = new Image();
     
-    this.__constructor(imagePath, width, height, myParent);
+    var instance = this;
+    this._image.onload = function() { instance.onComplete(); };
+    this._image.src = imagePath;
+
+    return this;
 }
+
+ExternalImageView.prototype.onComplete = function() 
+{
+    this._isLoaded = true;
+    
+    // I know, I know, I should really be sending up an event or something less hacky
+    this._myParent._mapTilesDirty = true;
+};
 
 function UIImage(imagePath, x, y)
 {
-    this.__constructor = function(imagePath, x, y)
-    {
-        this._x = x;
-        this._y = y;
-        this._isVisible = true;
-    
-		this._isLoaded = false;
-        this._image = new Image();
-        
-        var instance = this;
-        this._image.onload = function() { instance.onComplete(); };
-        this._image.src = imagePath;
-    };
+    this._x = x;
+    this._y = y;
+    this._isVisible = true;
 
-    this.onComplete = function() 
-    {
-        this._isLoaded = true;
-        this._width = this._image.width;
-        this._height = this._image.height;
-    };
+    this._isLoaded = false;
+    this._image = new Image();
     
-    this.draw = function(context)
-    {
-        if (!this._isLoaded || !this._isVisible)
-            return;
-            
-        context.drawImage(this._image, this._x, this._y);    
-    };
+    var instance = this;
+    this._image.onload = function() { instance.onComplete(); };
+    this._image.src = imagePath;
     
-    this.__constructor(imagePath, x, y);
+    return this;
 }
+
+UIImage.prototype.onComplete = function() 
+{
+    this._isLoaded = true;
+    this._width = this._image.width;
+    this._height = this._image.height;
+};
+
+UIImage.prototype.draw = function(context)
+{
+    if (!this._isLoaded || !this._isVisible)
+        return;
+        
+    context.drawImage(this._image, this._x, this._y);    
+};
 
 function Slider(x, y, width, height, changeCallback)
 {
-    this.__constructor = function(x, y, width, height, changeCallback)
+    this._isVertical = (width<height);
+
+    this._x = x;
+    this._y = y;
+    this._width = width;
+    this._height = height;
+    this._isVisible = true;
+    
+    this._value = 0;
+
+    this._trackBreadth = 6;
+    this._capLength = 3;
+
+    if (this._isVertical)
     {
-        this._isVertical = (width<height);
-
-        this._x = x;
-        this._y = y;
-        this._width = width;
-        this._height = height;
-        this._isVisible = true;
-        
-        this._value = 0;
-
-        this._trackBreadth = 6;
-        this._capLength = 3;
-
-        if (this._isVertical)
-        {
-            this._trackStart = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
-            this._trackMid = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
-            this._trackEnd = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
-            this._thumb = new UIImage('http://static.openheatmap.com/images/vthumb.png', 0, 0);        
-        }
-        else
-        {
-            this._trackStart = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);
-            this._trackMid = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);
-            this._trackEnd = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);        
-            this._thumb = new UIImage('http://static.openheatmap.com/images/thumb.png', 0, 0);        
-        }
-
-        this._isDragging = false;
-        this._changeCallback = changeCallback;
-    };
-    
-    this.click = function(event)
+        this._trackStart = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
+        this._trackMid = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
+        this._trackEnd = new UIImage('http://static.openheatmap.com/images/vtrack.png', 0, 0);
+        this._thumb = new UIImage('http://static.openheatmap.com/images/vthumb.png', 0, 0);        
+    }
+    else
     {
-        var result = this.handleMouseEvent(event);
+        this._trackStart = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);
+        this._trackMid = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);
+        this._trackEnd = new UIImage('http://static.openheatmap.com/images/track.png', 0, 0);        
+        this._thumb = new UIImage('http://static.openheatmap.com/images/thumb.png', 0, 0);        
+    }
 
-        return result;
-    };
-
-    this.mousedown = function(event)
-    {
-        var result = this.handleMouseEvent(event);
-        
-        if (!result)
-            this._isDragging = true;
-        
-        return result;
-    };
-
-    this.mousemove = function(event)
-    {
-        if (!this._isDragging)
-            return true;
-
-        var mouseX = event.localX;
-        var mouseY = event.localY;
-            
-        this.setSliderFromMousePosition(mouseX, mouseY);
-    
-        return false;
-    };
-    
-    this.mouseup = function(event)
-    {
-        if (!this._isDragging)
-            return true;
-
-        this._isDragging = false;
-
-        var mouseX = event.localX;
-        var mouseY = event.localY;
-            
-        this.setSliderFromMousePosition(mouseX, mouseY);
-    
-        return false;
-    };
-    
-    this.handleMouseEvent = function(event)
-    {
-        if (!this._trackStart._isLoaded ||
-            !this._trackMid._isLoaded ||
-            !this._trackEnd._isLoaded ||
-            !this._thumb._isLoaded ||
-            !this._isVisible)
-            return true;
-
-        var mouseX = event.localX;
-        var mouseY = event.localY;
-            
-        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
-                
-        if (!trackBox.contains(mouseX, mouseY))
-            return true;
-            
-        this.setSliderFromMousePosition(mouseX, mouseY);
-        
-        return false;    
-    };
-
-    this.setSliderFromMousePosition = function(mouseX, mouseY)
-    {
-        if (this._isVertical)
-        {
-            var minValue = (this._y+this._height);
-            var maxValue = this._y;
-            var currentValue = mouseY;
-        }
-        else
-        {
-            var minValue = this._x;
-            var maxValue = (this._x+this._width);
-            var currentValue = mouseX;        
-        }
-        var normalizedValue = ((currentValue-minValue)/(maxValue-minValue));
-        normalizedValue = Math.max(0, normalizedValue);
-        normalizedValue = Math.min(1, normalizedValue);        
-    
-        this.setSliderValue(normalizedValue);
-        
-        if (typeof this._changeCallback !== 'undefined')
-            this._changeCallback(this._isDragging);
-    };
-    
-    this.setSliderValue = function(value)
-    {
-        var normalizedValue = Math.max(0, value);
-        normalizedValue = Math.min(1, normalizedValue);        
-
-        this._value = normalizedValue;
-                
-    };
-    
-    this.getSliderValue = function()
-    {
-        return this._value;
-    };
-    
-    this.draw = function(context)
-    {
-        if (!this._trackStart._isLoaded ||
-            !this._trackMid._isLoaded ||
-            !this._trackEnd._isLoaded ||
-            !this._thumb._isLoaded ||
-            !this._isVisible)
-            return;
-            
-        var x = this._x;
-        var y = this._y;
-
-        var width;
-        var height;
-        if (this._isVertical)
-        {
-            width = this._trackBreadth;
-            height = this._capLength;
-        }
-        else
-        {
-            width = this._capLength;        
-            height = this._trackBreadth;
-        }
-    
-        context.drawImage(this._trackStart._image, x, y, width, height);    
-
-        if (this._isVertical)
-        {
-            y += height;
-            height = (this._height-(this._capLength*2));
-        }
-        else
-        {
-            x += width;
-            width = (this._width-(this._capLength*2));
-        }
-
-        context.drawImage(this._trackMid._image, x, y, width, height);    
-
-        if (this._isVertical)
-        {
-            y += height;
-            height = this._capLength;
-        }
-        else
-        {
-            x += width;
-            width = this._capLength;
-        }
-
-        context.drawImage(this._trackEnd._image, x, y, width, height);    
-
-        if (this._isVertical)
-        {
-            var minValue = (this._y+this._height);
-            var maxValue = this._y;
-        }
-        else
-        {
-            var minValue = this._x;
-            var maxValue = (this._x+this._width);
-        }
-    
-        var pixelValue = (minValue+(this._value*(maxValue-minValue)));
-        
-        if (this._isVertical)
-        {
-            x = (this._x-2);
-            y = (pixelValue-3);
-        }
-        else
-        {
-            x = (pixelValue-3);
-            y = (this._y-2);
-        }
-
-        context.drawImage(this._thumb._image, x, y);    
-    };
-    
-    this.__constructor(x, y, width, height, changeCallback);
+    this._isDragging = false;
+    this._changeCallback = changeCallback;
     
     return this;
 }
+
+Slider.prototype.click = function(event)
+{
+    var result = this.handleMouseEvent(event);
+
+    return result;
+};
+
+Slider.prototype.mousedown = function(event)
+{
+    var result = this.handleMouseEvent(event);
+    
+    if (!result)
+        this._isDragging = true;
+    
+    return result;
+};
+
+Slider.prototype.mousemove = function(event)
+{
+    if (!this._isDragging)
+        return true;
+
+    var mouseX = event.localX;
+    var mouseY = event.localY;
+        
+    this.setSliderFromMousePosition(mouseX, mouseY);
+
+    return false;
+};
+
+Slider.prototype.mouseup = function(event)
+{
+    if (!this._isDragging)
+        return true;
+
+    this._isDragging = false;
+
+    var mouseX = event.localX;
+    var mouseY = event.localY;
+        
+    this.setSliderFromMousePosition(mouseX, mouseY);
+
+    return false;
+};
+
+Slider.prototype.handleMouseEvent = function(event)
+{
+    if (!this._trackStart._isLoaded ||
+        !this._trackMid._isLoaded ||
+        !this._trackEnd._isLoaded ||
+        !this._thumb._isLoaded ||
+        !this._isVisible)
+        return true;
+
+    var mouseX = event.localX;
+    var mouseY = event.localY;
+        
+    var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
+            
+    if (!trackBox.contains(mouseX, mouseY))
+        return true;
+        
+    this.setSliderFromMousePosition(mouseX, mouseY);
+    
+    return false;    
+};
+
+Slider.prototype.setSliderFromMousePosition = function(mouseX, mouseY)
+{
+    if (this._isVertical)
+    {
+        var minValue = (this._y+this._height);
+        var maxValue = this._y;
+        var currentValue = mouseY;
+    }
+    else
+    {
+        var minValue = this._x;
+        var maxValue = (this._x+this._width);
+        var currentValue = mouseX;        
+    }
+    var normalizedValue = ((currentValue-minValue)/(maxValue-minValue));
+    normalizedValue = Math.max(0, normalizedValue);
+    normalizedValue = Math.min(1, normalizedValue);        
+
+    this.setSliderValue(normalizedValue);
+    
+    if (typeof this._changeCallback !== 'undefined')
+        this._changeCallback(this._isDragging);
+};
+
+Slider.prototype.setSliderValue = function(value)
+{
+    var normalizedValue = Math.max(0, value);
+    normalizedValue = Math.min(1, normalizedValue);        
+
+    this._value = normalizedValue;
+            
+};
+
+Slider.prototype.getSliderValue = function()
+{
+    return this._value;
+};
+
+Slider.prototype.draw = function(context)
+{
+    if (!this._trackStart._isLoaded ||
+        !this._trackMid._isLoaded ||
+        !this._trackEnd._isLoaded ||
+        !this._thumb._isLoaded ||
+        !this._isVisible)
+        return;
+        
+    var x = this._x;
+    var y = this._y;
+
+    var width;
+    var height;
+    if (this._isVertical)
+    {
+        width = this._trackBreadth;
+        height = this._capLength;
+    }
+    else
+    {
+        width = this._capLength;        
+        height = this._trackBreadth;
+    }
+
+    context.drawImage(this._trackStart._image, x, y, width, height);    
+
+    if (this._isVertical)
+    {
+        y += height;
+        height = (this._height-(this._capLength*2));
+    }
+    else
+    {
+        x += width;
+        width = (this._width-(this._capLength*2));
+    }
+
+    context.drawImage(this._trackMid._image, x, y, width, height);    
+
+    if (this._isVertical)
+    {
+        y += height;
+        height = this._capLength;
+    }
+    else
+    {
+        x += width;
+        width = this._capLength;
+    }
+
+    context.drawImage(this._trackEnd._image, x, y, width, height);    
+
+    if (this._isVertical)
+    {
+        var minValue = (this._y+this._height);
+        var maxValue = this._y;
+    }
+    else
+    {
+        var minValue = this._x;
+        var maxValue = (this._x+this._width);
+    }
+
+    var pixelValue = (minValue+(this._value*(maxValue-minValue)));
+    
+    if (this._isVertical)
+    {
+        x = (this._x-2);
+        y = (pixelValue-3);
+    }
+    else
+    {
+        x = (pixelValue-3);
+        y = (this._y-2);
+    }
+
+    context.drawImage(this._thumb._image, x, y);    
+};
 
 function UIText(text, font, x, y, clickCallback, alignment)
 {
-    this.__constructor = function(text, font, x, y, clickCallback, alignment)
-    {
-        this._text = text;
-        this._font = font;
-        this._x = x;
-        this._y = y;
-        this._clickCallback = clickCallback;
-        
-        if (typeof alignment === 'undefined')
-            alignment = 'left';
-        this._alignment = alignment;
-        
-        this._backgroundWidth = 0;
-        this._backgroundHeight = 0;
-        this._backgroundColor = '';        
-    };
+    this._text = text;
+    this._font = font;
+    this._x = x;
+    this._y = y;
+    this._clickCallback = clickCallback;
     
-    this.draw = function(context)
-    {
-        context.font = this._font;
-        
-        var textLines = this._text.split('&lt;br/&gt;');
-        
-        var lineHeight = 22;
-        
-        var linesCount = textLines.length;
-        
-        var maxTextWidth = 0;
-        for (var lineIndex in textLines)
-        {
-            var line = textLines[lineIndex];
-            var metrics = context.measureText(line);
-            var textWidth = (metrics.width+10);
-            maxTextWidth = Math.max(textWidth, maxTextWidth);
-        }
-                
-        this._width = maxTextWidth;
-        this._height = (linesCount*lineHeight);
-
-        if (this._backgroundWidth>0)
-        {
-            var backgroundWidth = Math.max(this._backgroundWidth, this._width);
-            var backgroundHeight = Math.max(this._backgroundHeight, this._height); 
-            var x = (this._x-((backgroundWidth-this._backgroundWidth)/2));
-        
-            context.fillStyle = this._backgroundColor;
-            context.fillRect(x, this._y, backgroundWidth, backgroundHeight);
-            context.fillStyle = '#000000';
-            context.strokeRect(x, this._y, backgroundWidth, backgroundHeight);
-        }
-                    
-        var x;
-        if ((this._backgroundWidth<1)||(this._alignment==='left'))
-        {
-            x = this._x;
-        }
-        else if (this._alignment==='center')
-        {
-            x = this._x+((this._backgroundWidth-this._width)/2);
-        }
-        else
-        {
-            x = this._x+(this._backgroundWidth-this._width);        
-        }
-        
-        x += 5;
-        
-        for (var lineIndex in textLines)
-        {
-            var line = textLines[lineIndex];
-            var currentY = (this._y+(lineHeight*((Number)(lineIndex)+1)));
-            currentY -= 5;
-            context.fillText(line, x, currentY);
-        }
-    };
+    if (typeof alignment === 'undefined')
+        alignment = 'left';
+    this._alignment = alignment;
     
-    this.setText = function(text)
-    {
-        this._text = text;
-    };
-    
-    this.setBackground = function(w, h, color)
-    {
-        this._backgroundWidth = w;
-        this._backgroundHeight = h;
-        this._backgroundColor = color;
-    };
-    
-    this.click = function(event)
-    {
-        var mouseX = event.localX;
-        var mouseY = event.localY;
-            
-        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
-                
-        if (!trackBox.contains(mouseX, mouseY))
-            return true;
-
-        if (typeof this._clickCallback !== 'undefined')
-            this._clickCallback();
-
-        return false;
-    
-    };
-    
-    this.__constructor(text, font, x, y, clickCallback, alignment);
+    this._backgroundWidth = 0;
+    this._backgroundHeight = 0;
+    this._backgroundColor = '';
     
     return this;
 }
+
+UIText.prototype.draw = function(context)
+{
+    context.font = this._font;
+    
+    var textLines = this._text.split('&lt;br/&gt;');
+    
+    var lineHeight = 22;
+    
+    var linesCount = textLines.length;
+    
+    var maxTextWidth = 0;
+    for (var lineIndex in textLines)
+    {
+        var line = textLines[lineIndex];
+        var metrics = context.measureText(line);
+        var textWidth = (metrics.width+10);
+        maxTextWidth = Math.max(textWidth, maxTextWidth);
+    }
+            
+    this._width = maxTextWidth;
+    this._height = (linesCount*lineHeight);
+
+    if (this._backgroundWidth>0)
+    {
+        var backgroundWidth = Math.max(this._backgroundWidth, this._width);
+        var backgroundHeight = Math.max(this._backgroundHeight, this._height); 
+        var x = (this._x-((backgroundWidth-this._backgroundWidth)/2));
+    
+        context.fillStyle = this._backgroundColor;
+        context.fillRect(x, this._y, backgroundWidth, backgroundHeight);
+        context.fillStyle = '#000000';
+        context.strokeRect(x, this._y, backgroundWidth, backgroundHeight);
+    }
+                
+    var x;
+    if ((this._backgroundWidth<1)||(this._alignment==='left'))
+    {
+        x = this._x;
+    }
+    else if (this._alignment==='center')
+    {
+        x = this._x+((this._backgroundWidth-this._width)/2);
+    }
+    else
+    {
+        x = this._x+(this._backgroundWidth-this._width);        
+    }
+    
+    x += 5;
+    
+    for (var lineIndex in textLines)
+    {
+        var line = textLines[lineIndex];
+        var currentY = (this._y+(lineHeight*((Number)(lineIndex)+1)));
+        currentY -= 5;
+        context.fillText(line, x, currentY);
+    }
+};
+
+UIText.prototype.setText = function(text)
+{
+    this._text = text;
+};
+
+UIText.prototype.setBackground = function(w, h, color)
+{
+    this._backgroundWidth = w;
+    this._backgroundHeight = h;
+    this._backgroundColor = color;
+};
+
+UIText.prototype.click = function(event)
+{
+    var mouseX = event.localX;
+    var mouseY = event.localY;
+        
+    var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
+            
+    if (!trackBox.contains(mouseX, mouseY))
+        return true;
+
+    if (typeof this._clickCallback !== 'undefined')
+        this._clickCallback();
+
+    return false;
+
+};
 
 function UIButton(x, y, width, height, onImage, offImage, changeCallback)
 {
-    this.__constructor = function(x, y, width, height, onImage, offImage, changeCallback)
-    {
-        this._x = x;
-        this._y = y;
-        this._width = width;
-        this._height = height;
-        this._onImage = new UIImage(onImage, 0, 0);
-        this._offImage = new UIImage(offImage, 0, 0);        
-        this._changeCallback = changeCallback;
+    this._x = x;
+    this._y = y;
+    this._width = width;
+    this._height = height;
+    this._onImage = new UIImage(onImage, 0, 0);
+    this._offImage = new UIImage(offImage, 0, 0);        
+    this._changeCallback = changeCallback;
 
-        this._isOn = false;
-    };
-    
-    this.getIsOn = function()
-    {
-        return this._isOn;
-    };
-    
-    this.setIsOn = function(isOn)
-    {
-        this._isOn = isOn;
-    };
-    
-    this.draw = function(context)
-    {
-        if (!this._onImage._isLoaded ||
-            !this._offImage._isLoaded)
-            return;
-
-        if (this._isOn)
-            context.drawImage(this._onImage._image, this._x, this._y);
-        else
-            context.drawImage(this._offImage._image, this._x, this._y);
-    }
-
-    this.click = function(event)
-    {
-        if (!this._onImage._isLoaded ||
-            !this._offImage._isLoaded)
-            return true;
-
-        var mouseX = event.localX;
-        var mouseY = event.localY;
-            
-        var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
-                
-        if (!trackBox.contains(mouseX, mouseY))
-            return true;
-
-        this._isOn = !this._isOn;
-
-        if (typeof this._changeCallback !== 'undefined')
-            this._changeCallback(this);
-
-        return false;
-    };
-
-    this.__constructor(x, y, width, height, onImage, offImage, changeCallback);
-    
-    return this;
+    this._isOn = false;
 }
+
+UIButton.prototype.getIsOn = function()
+{
+    return this._isOn;
+};
+
+UIButton.prototype.setIsOn = function(isOn)
+{
+    this._isOn = isOn;
+};
+
+UIButton.prototype.draw = function(context)
+{
+    if (!this._onImage._isLoaded ||
+        !this._offImage._isLoaded)
+        return;
+
+    if (this._isOn)
+        context.drawImage(this._onImage._image, this._x, this._y);
+    else
+        context.drawImage(this._offImage._image, this._x, this._y);
+}
+
+UIButton.prototype.click = function(event)
+{
+    if (!this._onImage._isLoaded ||
+        !this._offImage._isLoaded)
+        return true;
+
+    var mouseX = event.localX;
+    var mouseY = event.localY;
+        
+    var trackBox = new Rectangle(this._x, this._y, this._width, this._height);
+            
+    if (!trackBox.contains(mouseX, mouseY))
+        return true;
+
+    this._isOn = !this._isOn;
+
+    if (typeof this._changeCallback !== 'undefined')
+        this._changeCallback(this);
+
+    return false;
+};
