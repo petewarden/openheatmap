@@ -1,0 +1,172 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Valley Street",
+           "REGIONID": 275848.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "East Deering",
+           "REGIONID": 164673.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Ocean Avenue",
+           "REGIONID": 274871.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Libbytown",
+           "REGIONID": 165170.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "West End",
+           "REGIONID": 275965.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Parkside",
+           "REGIONID": 269945.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Nasons Corner",
+           "REGIONID": 165379.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Deering Center",
+           "REGIONID": 273451.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "East End",
+           "REGIONID": 164681.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "East Bayside-India Street",
+           "REGIONID": 273529.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "North Deering",
+           "REGIONID": 165435.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Stroudwater",
+           "REGIONID": 166014.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Rosemont",
+           "REGIONID": 165741.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Downtown",
+           "REGIONID": 269942.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Oakdale",
+           "REGIONID": 165525.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "Riverton",
+           "REGIONID": 165722.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "ME",
+           "COUNTY": "Cumberland",
+           "CITY": "Portland",
+           "NAME": "West Bayside",
+           "REGIONID": 269947.000000
+       }
+    }
+]

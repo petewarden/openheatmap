@@ -1,0 +1,6892 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Bal Harbour",
+           "REGIONID": 272845.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Bay Colony",
+           "REGIONID": 268883.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Bay Colony Club",
+           "REGIONID": 276200.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Bermuda Riviera",
+           "REGIONID": 268891.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Beverly Heights",
+           "REGIONID": 268892.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Birch Park",
+           "REGIONID": 272962.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Boulevard Park Isles",
+           "REGIONID": 268900.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Breakwater Surf",
+           "REGIONID": 273021.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Central Beach Alliance",
+           "REGIONID": 268915.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "City View Townhome",
+           "REGIONID": 273267.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Colee Hammock",
+           "REGIONID": 268926.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Coral Ridge",
+           "REGIONID": 124024.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Coral Ridge Country Club",
+           "REGIONID": 268936.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Coral Ridge Isles",
+           "REGIONID": 124025.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Coral Shores",
+           "REGIONID": 268937.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Croissant Park",
+           "REGIONID": 268944.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Dillard Park",
+           "REGIONID": 268949.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Dolphin Isles",
+           "REGIONID": 268952.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Dorsey-Riverbend",
+           "REGIONID": 273476.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Downtown",
+           "REGIONID": 273498.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Durrs Homeowners",
+           "REGIONID": 273517.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Edgewood",
+           "REGIONID": 273603.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Flagler Heights",
+           "REGIONID": 268984.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Flamingo Park",
+           "REGIONID": 268985.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Galt Mile",
+           "REGIONID": 273801.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Harbor Beach",
+           "REGIONID": 124652.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Harbor Drive",
+           "REGIONID": 273929.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Harbordale",
+           "REGIONID": 268999.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Harbour Inlet",
+           "REGIONID": 269001.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Harbour Isles",
+           "REGIONID": 269002.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Hendricks And Venice Isles",
+           "REGIONID": 273961.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Home Beautiful Park",
+           "REGIONID": 269017.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Idlewyld",
+           "REGIONID": 269018.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Imperial Point",
+           "REGIONID": 124811.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Knoll Ridge",
+           "REGIONID": 269029.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lake Aire Palm View",
+           "REGIONID": 269030.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lake Estates",
+           "REGIONID": 269037.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lake Ridge",
+           "REGIONID": 269049.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Landings",
+           "REGIONID": 269058.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Las Olas Isles",
+           "REGIONID": 269059.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lauderdale Beach",
+           "REGIONID": 269060.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lauderdale Harbours",
+           "REGIONID": 274282.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lauderdale Manors",
+           "REGIONID": 269062.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Lauderdale West",
+           "REGIONID": 269063.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Laudergate Isles",
+           "REGIONID": 269064.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Melrose Manors",
+           "REGIONID": 269085.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Middle River Terrace",
+           "REGIONID": 269088.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Navarrea Isle",
+           "REGIONID": 274639.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "North Golf Estates",
+           "REGIONID": 269106.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Nurmi Isles",
+           "REGIONID": 125488.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Palm-Aire Village",
+           "REGIONID": 274947.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Poinciana Park",
+           "REGIONID": 275063.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Poinsettia Heights",
+           "REGIONID": 269147.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Progresso Village",
+           "REGIONID": 269149.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Rio Vista",
+           "REGIONID": 275178.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "River Garden Sweeting Estate",
+           "REGIONID": 275182.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "River Oaks",
+           "REGIONID": 269158.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "River Run",
+           "REGIONID": 269159.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Riverside Park",
+           "REGIONID": 269163.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Riviera Isles",
+           "REGIONID": 269164.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Sailboat Bend",
+           "REGIONID": 269174.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Seven Isles",
+           "REGIONID": 269178.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Shady Banks",
+           "REGIONID": 269179.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "South Middle River",
+           "REGIONID": 269186.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Sunrise Intracoastal",
+           "REGIONID": 269203.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Sunrise Key",
+           "REGIONID": 126320.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Sunset",
+           "REGIONID": 275630.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Tarpon River",
+           "REGIONID": 269208.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Broward",
+           "CITY": "Fort Lauderdale",
+           "NAME": "Victoria Park",
+           "REGIONID": 269219.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Airport",
+           "REGIONID": 272731.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Aqualane Shore",
+           "REGIONID": 276185.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Bears Paw",
+           "REGIONID": 272892.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Keewaydin",
+           "REGIONID": 274165.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Lake Park",
+           "REGIONID": 274237.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Moorings-Coquina Sands",
+           "REGIONID": 274586.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Old Naples",
+           "REGIONID": 274885.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Park Shore",
+           "REGIONID": 276507.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Port Royal",
+           "REGIONID": 125840.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Collier",
+           "CITY": "Naples",
+           "NAME": "Sun Terrace",
+           "REGIONID": 275615.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "29th And Chase",
+           "REGIONID": 268865.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "45th And Moncrief",
+           "REGIONID": 268867.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Alderman Park",
+           "REGIONID": 268870.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Allendale",
+           "REGIONID": 268871.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Argyle Forest",
+           "REGIONID": 123468.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Arlington",
+           "REGIONID": 123471.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Arlington Hills",
+           "REGIONID": 268872.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Arlington Manor",
+           "REGIONID": 268873.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Arlingwood",
+           "REGIONID": 268874.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Arrowhead",
+           "REGIONID": 268875.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Atlantic Beach",
+           "REGIONID": 123490.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Atlantic Boulevard Estates",
+           "REGIONID": 268876.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Atlantic Highlands",
+           "REGIONID": 268877.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Avondale",
+           "REGIONID": 123507.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Baymeadows",
+           "REGIONID": 268885.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Beach Haven",
+           "REGIONID": 272887.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Beachwood",
+           "REGIONID": 268888.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Beacon Hills And Harbour",
+           "REGIONID": 268889.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Beauclerc",
+           "REGIONID": 123594.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Biltmore",
+           "REGIONID": 123667.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Biscayne",
+           "REGIONID": 268895.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Biscayne Terrace",
+           "REGIONID": 268896.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Black Hammock Island",
+           "REGIONID": 268897.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Blaunt-Quarantine Island",
+           "REGIONID": 272979.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Brakridge",
+           "REGIONID": 273014.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Brentwood",
+           "REGIONID": 123748.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Brierwood",
+           "REGIONID": 268903.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Brooklyn",
+           "REGIONID": 123769.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Brown Island",
+           "REGIONID": 268904.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Bulls Bay",
+           "REGIONID": 268907.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Carver Manor",
+           "REGIONID": 123871.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Cedar Hills",
+           "REGIONID": 123890.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Cedar Hills Estate",
+           "REGIONID": 273171.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Charter Point",
+           "REGIONID": 268918.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Chimney Lakes",
+           "REGIONID": 268919.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Cisco Gardens",
+           "REGIONID": 268921.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Clifton",
+           "REGIONID": 273283.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Cobblestone",
+           "REGIONID": 268925.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "College Gardens",
+           "REGIONID": 268927.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "College Park",
+           "REGIONID": 123986.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Colony Cove",
+           "REGIONID": 268931.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Commonwealth",
+           "REGIONID": 268932.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Confederate Point",
+           "REGIONID": 268933.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Copper Hill",
+           "REGIONID": 268934.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Cranzel T Brown Park",
+           "REGIONID": 273390.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Craven",
+           "REGIONID": 268942.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Crystal Springs",
+           "REGIONID": 273415.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Deercreek",
+           "REGIONID": 268945.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Deerwood",
+           "REGIONID": 268946.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Deerwood Center",
+           "REGIONID": 268947.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Del Rio",
+           "REGIONID": 273452.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Dinsmore",
+           "REGIONID": 124178.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Downtown Jacksonville",
+           "REGIONID": 273501.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Duclay",
+           "REGIONID": 268965.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Duclay Foest",
+           "REGIONID": 273514.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Duval",
+           "REGIONID": 124222.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Eagle Bend",
+           "REGIONID": 268968.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "East Arlington",
+           "REGIONID": 268970.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "East Jacksonville",
+           "REGIONID": 268972.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Eastport",
+           "REGIONID": 124249.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Edgewood",
+           "REGIONID": 124268.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Edgewood Manor",
+           "REGIONID": 268977.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Empire Point",
+           "REGIONID": 268980.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Englewood",
+           "REGIONID": 124309.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Fairfax",
+           "REGIONID": 268982.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Fairfield",
+           "REGIONID": 273667.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Fairways Forest",
+           "REGIONID": 268983.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Forest Trails",
+           "REGIONID": 268989.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Fort Caroline Shores",
+           "REGIONID": 268990.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Fort George Island",
+           "REGIONID": 124432.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Garden City",
+           "REGIONID": 124505.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Gilmore",
+           "REGIONID": 124532.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Girvin",
+           "REGIONID": 268992.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Glynlea-Grove Park",
+           "REGIONID": 276347.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Golden Glades-The Woods",
+           "REGIONID": 273842.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Goodby's Creek",
+           "REGIONID": 268995.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Grand Park",
+           "REGIONID": 124578.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Greenfield Manor",
+           "REGIONID": 268997.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Greenland",
+           "REGIONID": 124600.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Harborview]",
+           "REGIONID": 343434.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Herlong",
+           "REGIONID": 269004.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hidden Hills",
+           "REGIONID": 269006.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Highlands",
+           "REGIONID": 124725.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hillcrest",
+           "REGIONID": 269007.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hogan",
+           "REGIONID": 124745.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hogan's Creek",
+           "REGIONID": 269009.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Holiday Harbors",
+           "REGIONID": 269011.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Holiday Hill",
+           "REGIONID": 124750.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Holly Oaks",
+           "REGIONID": 269012.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hollyford",
+           "REGIONID": 269013.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Hyde Park",
+           "REGIONID": 124802.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Imeson Park",
+           "REGIONID": 269019.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Isle Of Palms",
+           "REGIONID": 124847.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Beach",
+           "REGIONID": 274121.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Farms-Terrace",
+           "REGIONID": 274122.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Heights",
+           "REGIONID": 124860.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Heights South",
+           "REGIONID": 269021.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Heights West",
+           "REGIONID": 269022.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville Naval Air Station",
+           "REGIONID": 274123.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville North Estate",
+           "REGIONID": 276396.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jacksonville University",
+           "REGIONID": 274124.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Jamestown",
+           "REGIONID": 274130.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Julington Creek",
+           "REGIONID": 269026.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Kennel Club",
+           "REGIONID": 274173.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Kilarney Shores",
+           "REGIONID": 274183.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lackawanna",
+           "REGIONID": 124967.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lake Forest",
+           "REGIONID": 124989.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lake Forest Hills",
+           "REGIONID": 124991.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lake Lucina",
+           "REGIONID": 269043.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lakeshore",
+           "REGIONID": 269056.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lakewood",
+           "REGIONID": 125044.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Larsen",
+           "REGIONID": 125061.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Lincoln Villas",
+           "REGIONID": 269070.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Longbranch",
+           "REGIONID": 269075.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Loretto",
+           "REGIONID": 125141.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Love Grove-Riviera Manor",
+           "REGIONID": 276429.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Magnolia Gardens",
+           "REGIONID": 125181.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Mandarin",
+           "REGIONID": 125198.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Mandarin Station-Losco",
+           "REGIONID": 276435.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Marietta",
+           "REGIONID": 125218.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "McGirts Creek",
+           "REGIONID": 269084.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Mid-Westside",
+           "REGIONID": 269090.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Midtown",
+           "REGIONID": 269089.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Miramar",
+           "REGIONID": 274550.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Mixon Town",
+           "REGIONID": 269092.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Monclair",
+           "REGIONID": 269094.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Moncrief Park",
+           "REGIONID": 269095.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Monterey",
+           "REGIONID": 269096.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Murray Hill",
+           "REGIONID": 125385.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Neptune Beach",
+           "REGIONID": 274655.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "New Town",
+           "REGIONID": 269101.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Normandy",
+           "REGIONID": 125453.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Normandy Estate",
+           "REGIONID": 274678.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Normandy Manor",
+           "REGIONID": 269103.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Normandy Village",
+           "REGIONID": 125455.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "North Beach",
+           "REGIONID": 274687.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Oak Haven",
+           "REGIONID": 269116.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Oak Hill",
+           "REGIONID": 125500.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Oceanway",
+           "REGIONID": 125531.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Ortega",
+           "REGIONID": 125593.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Ortega Farms",
+           "REGIONID": 125594.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Ortega Forest",
+           "REGIONID": 125595.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Ortega Hills",
+           "REGIONID": 269123.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Osceola Forest",
+           "REGIONID": 269125.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Otis",
+           "REGIONID": 125604.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Panama Park",
+           "REGIONID": 125663.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Park Ridge",
+           "REGIONID": 269135.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Pecan Park",
+           "REGIONID": 125695.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Phoenix",
+           "REGIONID": 269142.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Picketville",
+           "REGIONID": 269143.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Pickwick Park",
+           "REGIONID": 269144.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Pumpkin Hill",
+           "REGIONID": 269151.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Regency",
+           "REGIONID": 269153.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Ribault",
+           "REGIONID": 269154.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Riverside",
+           "REGIONID": 125932.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Riverview",
+           "REGIONID": 125937.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Robinson's Addition",
+           "REGIONID": 269165.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Rolling Hills",
+           "REGIONID": 275230.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Royal Lakes",
+           "REGIONID": 269172.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Royal Terrace",
+           "REGIONID": 125993.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Saint Johns Bluff",
+           "REGIONID": 269201.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Saint Nicholas",
+           "REGIONID": 269202.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "San Jose",
+           "REGIONID": 126042.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "San Jose Forest",
+           "REGIONID": 126043.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "San Marco",
+           "REGIONID": 126044.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "San Mateo",
+           "REGIONID": 126045.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sandalwood",
+           "REGIONID": 126056.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sans Pareil",
+           "REGIONID": 126069.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sans Souci",
+           "REGIONID": 275299.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Secret Cove",
+           "REGIONID": 269176.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Settlers Landing",
+           "REGIONID": 269177.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sherwood Forest",
+           "REGIONID": 126155.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "South Riverside",
+           "REGIONID": 269189.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Southpoint",
+           "REGIONID": 269194.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Southside",
+           "REGIONID": 269195.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Southsuide Estates",
+           "REGIONID": 275490.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Southwood",
+           "REGIONID": 269198.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Spring Glen",
+           "REGIONID": 126258.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Spring Park",
+           "REGIONID": 269200.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Springfield",
+           "REGIONID": 126264.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sunbeam",
+           "REGIONID": 126306.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Swamp",
+           "REGIONID": 275643.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Sweetwater",
+           "REGIONID": 126341.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Tallulah-North Shore",
+           "REGIONID": 275663.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Tallyrand",
+           "REGIONID": 269205.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "The Cape",
+           "REGIONID": 269209.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Tiger Hole-Secret Woods",
+           "REGIONID": 275746.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Turtle Creek",
+           "REGIONID": 269215.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "University Club",
+           "REGIONID": 275813.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "University Park",
+           "REGIONID": 275820.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Venetia",
+           "REGIONID": 126488.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Wesconnett",
+           "REGIONID": 126585.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Whitehouse",
+           "REGIONID": 126644.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Windy Hill",
+           "REGIONID": 269234.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Woodland Acres",
+           "REGIONID": 269235.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Woodmere",
+           "REGIONID": 276144.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Duval",
+           "CITY": "Jacksonville",
+           "NAME": "Woodstock",
+           "REGIONID": 269236.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Ballast Point",
+           "REGIONID": 268882.000000
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Bayshore Beautiful",
+           "REGIONID": 272879.000000
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Bayside West",
+           "REGIONID": 272884.000000
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Beach Park",
+           "REGIONID": 268887.000000
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Beasley",
+           "REGIONID": 272893.000000
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Belmar Gardens",
+           "REGIONID": 272929.000000
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Bon Air",
+           "REGIONID": 272997.000000
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Bon Air North",
+           "REGIONID": 273000.000000
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Carver City",
+           "REGIONID": 273148.000000
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Channelside",
+           "REGIONID": 273214.000000
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "College Hill",
+           "REGIONID": 273311.000000
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Cory Lake Isles",
+           "REGIONID": 273356.000000
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Courier City",
+           "REGIONID": 273378.000000
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Culbreath",
+           "REGIONID": 273418.000000
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Davis Island",
+           "REGIONID": 273437.000000
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Downtown",
+           "REGIONID": 268959.000000
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Drew Park",
+           "REGIONID": 124197.000000
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "East Tampa",
+           "REGIONID": 124243.000000
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "East Ybor",
+           "REGIONID": 273575.000000
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Fairoaks",
+           "REGIONID": 276329.000000
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Florence",
+           "REGIONID": 273739.000000
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Forest Hills",
+           "REGIONID": 273756.000000
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Gandy-Sun Bay South",
+           "REGIONID": 273803.000000
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Golf View",
+           "REGIONID": 273847.000000
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Grant Park",
+           "REGIONID": 276350.000000
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Harbour Island",
+           "REGIONID": 273934.000000
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Highland Pines",
+           "REGIONID": 274004.000000
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Historic Ybor",
+           "REGIONID": 274036.000000
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Hunters Green",
+           "REGIONID": 274072.000000
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Interbay",
+           "REGIONID": 276391.000000
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Live Oaks Square",
+           "REGIONID": 274335.000000
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Lowry Park Central",
+           "REGIONID": 274376.000000
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Macdill Afb Area",
+           "REGIONID": 274386.000000
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "New Tampa",
+           "REGIONID": 274666.000000
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "North Hyde Park",
+           "REGIONID": 274719.000000
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "North Tampa",
+           "REGIONID": 274749.000000
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Northeast",
+           "REGIONID": 274763.000000
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Northeast Macfarlane",
+           "REGIONID": 274774.000000
+       }
+    },
+    {
+       "index": 314,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Northview Hills",
+           "REGIONID": 274794.000000
+       }
+    },
+    {
+       "index": 315,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Oakford Park",
+           "REGIONID": 274847.000000
+       }
+    },
+    {
+       "index": 316,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Old Seminol Heights",
+           "REGIONID": 276500.000000
+       }
+    },
+    {
+       "index": 317,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Old West Tampa",
+           "REGIONID": 274902.000000
+       }
+    },
+    {
+       "index": 318,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Orient Park",
+           "REGIONID": 125585.000000
+       }
+    },
+    {
+       "index": 319,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Palma Ceia",
+           "REGIONID": 125649.000000
+       }
+    },
+    {
+       "index": 320,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Palma Ceia West",
+           "REGIONID": 274948.000000
+       }
+    },
+    {
+       "index": 321,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Palmetto Beach",
+           "REGIONID": 269130.000000
+       }
+    },
+    {
+       "index": 322,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Parkland Estates",
+           "REGIONID": 274976.000000
+       }
+    },
+    {
+       "index": 323,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Plaza Terrace",
+           "REGIONID": 275049.000000
+       }
+    },
+    {
+       "index": 324,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Port Tampa City",
+           "REGIONID": 275076.000000
+       }
+    },
+    {
+       "index": 325,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Rattlesnake",
+           "REGIONID": 125884.000000
+       }
+    },
+    {
+       "index": 326,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Ridgewood Park",
+           "REGIONID": 276534.000000
+       }
+    },
+    {
+       "index": 327,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "River Grove",
+           "REGIONID": 275184.000000
+       }
+    },
+    {
+       "index": 328,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Riverside",
+           "REGIONID": 276539.000000
+       }
+    },
+    {
+       "index": 329,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Riverside Heights",
+           "REGIONID": 275205.000000
+       }
+    },
+    {
+       "index": 330,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Seminol Heights",
+           "REGIONID": 275329.000000
+       }
+    },
+    {
+       "index": 331,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "South Seminol Heights",
+           "REGIONID": 275455.000000
+       }
+    },
+    {
+       "index": 332,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Sulphur Springs",
+           "REGIONID": 126292.000000
+       }
+    },
+    {
+       "index": 333,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Sunset Park",
+           "REGIONID": 275635.000000
+       }
+    },
+    {
+       "index": 334,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Swann Estates",
+           "REGIONID": 275645.000000
+       }
+    },
+    {
+       "index": 335,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Tampa Heights",
+           "REGIONID": 269206.000000
+       }
+    },
+    {
+       "index": 336,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Tampa International Airport Area",
+           "REGIONID": 275668.000000
+       }
+    },
+    {
+       "index": 337,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Tampa Palms",
+           "REGIONID": 269207.000000
+       }
+    },
+    {
+       "index": 338,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Tampa-Bayshore Gardens",
+           "REGIONID": 275669.000000
+       }
+    },
+    {
+       "index": 339,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Temple Crest",
+           "REGIONID": 275681.000000
+       }
+    },
+    {
+       "index": 340,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Temple Park",
+           "REGIONID": 275682.000000
+       }
+    },
+    {
+       "index": 341,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "University Square",
+           "REGIONID": 275825.000000
+       }
+    },
+    {
+       "index": 342,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Virginia Park",
+           "REGIONID": 275888.000000
+       }
+    },
+    {
+       "index": 343,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Wellswood",
+           "REGIONID": 276643.000000
+       }
+    },
+    {
+       "index": 344,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "West Meadows",
+           "REGIONID": 275976.000000
+       }
+    },
+    {
+       "index": 345,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "West Riverfront",
+           "REGIONID": 275984.000000
+       }
+    },
+    {
+       "index": 346,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "West Shore Palms",
+           "REGIONID": 275987.000000
+       }
+    },
+    {
+       "index": 347,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Woodland Terrace",
+           "REGIONID": 276668.000000
+       }
+    },
+    {
+       "index": 348,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Hillsborough",
+           "CITY": "Tampa",
+           "NAME": "Ybor City",
+           "REGIONID": 126709.000000
+       }
+    },
+    {
+       "index": 349,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Allapattah",
+           "REGIONID": 123423.000000
+       }
+    },
+    {
+       "index": 350,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Coral Way",
+           "REGIONID": 268938.000000
+       }
+    },
+    {
+       "index": 351,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Downtown",
+           "REGIONID": 268962.000000
+       }
+    },
+    {
+       "index": 352,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Flagami",
+           "REGIONID": 124381.000000
+       }
+    },
+    {
+       "index": 353,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Islands",
+           "REGIONID": 276394.000000
+       }
+    },
+    {
+       "index": 354,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Little Haiti",
+           "REGIONID": 269071.000000
+       }
+    },
+    {
+       "index": 355,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Little Havana",
+           "REGIONID": 269072.000000
+       }
+    },
+    {
+       "index": 356,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Model City",
+           "REGIONID": 269093.000000
+       }
+    },
+    {
+       "index": 357,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "North Coconut Grove",
+           "REGIONID": 269105.000000
+       }
+    },
+    {
+       "index": 358,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Overtown",
+           "REGIONID": 269126.000000
+       }
+    },
+    {
+       "index": 359,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "South Coconut Grove",
+           "REGIONID": 269181.000000
+       }
+    },
+    {
+       "index": 360,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Upper Eastside",
+           "REGIONID": 269216.000000
+       }
+    },
+    {
+       "index": 361,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "West Flagler",
+           "REGIONID": 269228.000000
+       }
+    },
+    {
+       "index": 362,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Miami-Dade",
+           "CITY": "Miami",
+           "NAME": "Wynwood",
+           "REGIONID": 276165.000000
+       }
+    },
+    {
+       "index": 363,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "33rd Saint Industrial",
+           "REGIONID": 268866.000000
+       }
+    },
+    {
+       "index": 364,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Airport North",
+           "REGIONID": 268868.000000
+       }
+    },
+    {
+       "index": 365,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Audubon Park",
+           "REGIONID": 268878.000000
+       }
+    },
+    {
+       "index": 366,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Bal Bay",
+           "REGIONID": 272844.000000
+       }
+    },
+    {
+       "index": 367,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Baldwin Park",
+           "REGIONID": 268881.000000
+       }
+    },
+    {
+       "index": 368,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Bel Air",
+           "REGIONID": 268890.000000
+       }
+    },
+    {
+       "index": 369,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Beltway Commerce Center",
+           "REGIONID": 272936.000000
+       }
+    },
+    {
+       "index": 370,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Boggy Creek",
+           "REGIONID": 268898.000000
+       }
+    },
+    {
+       "index": 371,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Bryn Mawr",
+           "REGIONID": 268906.000000
+       }
+    },
+    {
+       "index": 372,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Callahan",
+           "REGIONID": 273110.000000
+       }
+    },
+    {
+       "index": 373,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Camellia Gardens",
+           "REGIONID": 268909.000000
+       }
+    },
+    {
+       "index": 374,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Carver Shores",
+           "REGIONID": 268912.000000
+       }
+    },
+    {
+       "index": 375,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Catalina",
+           "REGIONID": 268914.000000
+       }
+    },
+    {
+       "index": 376,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Central Business District",
+           "REGIONID": 273192.000000
+       }
+    },
+    {
+       "index": 377,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "City Of Orlando-Goaa",
+           "REGIONID": 273265.000000
+       }
+    },
+    {
+       "index": 378,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Clear Lake",
+           "REGIONID": 268924.000000
+       }
+    },
+    {
+       "index": 379,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "College Park",
+           "REGIONID": 273314.000000
+       }
+    },
+    {
+       "index": 380,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Colonial Town Center",
+           "REGIONID": 268928.000000
+       }
+    },
+    {
+       "index": 381,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Colonicaltown North",
+           "REGIONID": 273327.000000
+       }
+    },
+    {
+       "index": 382,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Colonicaltown South",
+           "REGIONID": 276268.000000
+       }
+    },
+    {
+       "index": 383,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Countryside",
+           "REGIONID": 268940.000000
+       }
+    },
+    {
+       "index": 384,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Coytown",
+           "REGIONID": 268941.000000
+       }
+    },
+    {
+       "index": 385,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Crescent Park",
+           "REGIONID": 268943.000000
+       }
+    },
+    {
+       "index": 386,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Delancy Park",
+           "REGIONID": 276291.000000
+       }
+    },
+    {
+       "index": 387,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Dixie Belle",
+           "REGIONID": 268950.000000
+       }
+    },
+    {
+       "index": 388,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Dover Estates",
+           "REGIONID": 268955.000000
+       }
+    },
+    {
+       "index": 389,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Dover Manor",
+           "REGIONID": 268956.000000
+       }
+    },
+    {
+       "index": 390,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Dover Shores East",
+           "REGIONID": 268957.000000
+       }
+    },
+    {
+       "index": 391,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Dover Shores West",
+           "REGIONID": 268958.000000
+       }
+    },
+    {
+       "index": 392,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Eagles Nest",
+           "REGIONID": 268969.000000
+       }
+    },
+    {
+       "index": 393,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "East Central Park",
+           "REGIONID": 268971.000000
+       }
+    },
+    {
+       "index": 394,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "East Park",
+           "REGIONID": 268974.000000
+       }
+    },
+    {
+       "index": 395,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Englewood Park",
+           "REGIONID": 273645.000000
+       }
+    },
+    {
+       "index": 396,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Florida Center",
+           "REGIONID": 268987.000000
+       }
+    },
+    {
+       "index": 397,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Florida Center North",
+           "REGIONID": 268988.000000
+       }
+    },
+    {
+       "index": 398,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Haralson Estates",
+           "REGIONID": 268998.000000
+       }
+    },
+    {
+       "index": 399,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Hibiscus",
+           "REGIONID": 269005.000000
+       }
+    },
+    {
+       "index": 400,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Holden-Parramore",
+           "REGIONID": 274041.000000
+       }
+    },
+    {
+       "index": 401,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Johnson Village",
+           "REGIONID": 269025.000000
+       }
+    },
+    {
+       "index": 402,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Kirkman North",
+           "REGIONID": 269027.000000
+       }
+    },
+    {
+       "index": 403,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Kirkman South",
+           "REGIONID": 269028.000000
+       }
+    },
+    {
+       "index": 404,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Cherokee",
+           "REGIONID": 269032.000000
+       }
+    },
+    {
+       "index": 405,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Como",
+           "REGIONID": 274225.000000
+       }
+    },
+    {
+       "index": 406,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Copeland",
+           "REGIONID": 269033.000000
+       }
+    },
+    {
+       "index": 407,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Davis-Greenwood",
+           "REGIONID": 274226.000000
+       }
+    },
+    {
+       "index": 408,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Dot",
+           "REGIONID": 269035.000000
+       }
+    },
+    {
+       "index": 409,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Eola Heights",
+           "REGIONID": 269036.000000
+       }
+    },
+    {
+       "index": 410,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Fairview",
+           "REGIONID": 269038.000000
+       }
+    },
+    {
+       "index": 411,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Formosa",
+           "REGIONID": 269039.000000
+       }
+    },
+    {
+       "index": 412,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Frendrica",
+           "REGIONID": 274229.000000
+       }
+    },
+    {
+       "index": 413,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Holden",
+           "REGIONID": 269041.000000
+       }
+    },
+    {
+       "index": 414,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Mann Estates",
+           "REGIONID": 269045.000000
+       }
+    },
+    {
+       "index": 415,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Mann Gardens",
+           "REGIONID": 269046.000000
+       }
+    },
+    {
+       "index": 416,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Nona Central",
+           "REGIONID": 274233.000000
+       }
+    },
+    {
+       "index": 417,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Nona Estates",
+           "REGIONID": 274234.000000
+       }
+    },
+    {
+       "index": 418,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Nona South",
+           "REGIONID": 274235.000000
+       }
+    },
+    {
+       "index": 419,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Richmond",
+           "REGIONID": 269048.000000
+       }
+    },
+    {
+       "index": 420,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Shore Village",
+           "REGIONID": 269050.000000
+       }
+    },
+    {
+       "index": 421,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Sunset",
+           "REGIONID": 269051.000000
+       }
+    },
+    {
+       "index": 422,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Terrace",
+           "REGIONID": 269052.000000
+       }
+    },
+    {
+       "index": 423,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Underhill",
+           "REGIONID": 269053.000000
+       }
+    },
+    {
+       "index": 424,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lake Weldona",
+           "REGIONID": 269054.000000
+       }
+    },
+    {
+       "index": 425,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lancaster Park",
+           "REGIONID": 269057.000000
+       }
+    },
+    {
+       "index": 426,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lavina",
+           "REGIONID": 269066.000000
+       }
+    },
+    {
+       "index": 427,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lawsona-Fern Creek",
+           "REGIONID": 274286.000000
+       }
+    },
+    {
+       "index": 428,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Lorna Doone",
+           "REGIONID": 269076.000000
+       }
+    },
+    {
+       "index": 429,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Malibu Groves",
+           "REGIONID": 269080.000000
+       }
+    },
+    {
+       "index": 430,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Mariners Village",
+           "REGIONID": 274424.000000
+       }
+    },
+    {
+       "index": 431,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Mercy Drive",
+           "REGIONID": 269086.000000
+       }
+    },
+    {
+       "index": 432,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Metro West",
+           "REGIONID": 269087.000000
+       }
+    },
+    {
+       "index": 433,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Millenia",
+           "REGIONID": 269091.000000
+       }
+    },
+    {
+       "index": 434,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Monterey",
+           "REGIONID": 269097.000000
+       }
+    },
+    {
+       "index": 435,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Narcoossee Groves",
+           "REGIONID": 274635.000000
+       }
+    },
+    {
+       "index": 436,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "New Malibu",
+           "REGIONID": 269099.000000
+       }
+    },
+    {
+       "index": 437,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "North Orange",
+           "REGIONID": 269108.000000
+       }
+    },
+    {
+       "index": 438,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Northlake Park At Lake Nona",
+           "REGIONID": 274785.000000
+       }
+    },
+    {
+       "index": 439,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Orlando Executive",
+           "REGIONID": 274925.000000
+       }
+    },
+    {
+       "index": 440,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Orlando International Airport",
+           "REGIONID": 269122.000000
+       }
+    },
+    {
+       "index": 441,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Orwin Manor",
+           "REGIONID": 269124.000000
+       }
+    },
+    {
+       "index": 442,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Palomar",
+           "REGIONID": 269131.000000
+       }
+    },
+    {
+       "index": 443,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Park Central",
+           "REGIONID": 269132.000000
+       }
+    },
+    {
+       "index": 444,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Park Lake-Highland",
+           "REGIONID": 274967.000000
+       }
+    },
+    {
+       "index": 445,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Pershing",
+           "REGIONID": 269141.000000
+       }
+    },
+    {
+       "index": 446,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Pineloch",
+           "REGIONID": 269145.000000
+       }
+    },
+    {
+       "index": 447,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Princeton-Silver Star",
+           "REGIONID": 343605.000000
+       }
+    },
+    {
+       "index": 448,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Randal Park",
+           "REGIONID": 275133.000000
+       }
+    },
+    {
+       "index": 449,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Richmond Estates",
+           "REGIONID": 269155.000000
+       }
+    },
+    {
+       "index": 450,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Richmond Heights",
+           "REGIONID": 275162.000000
+       }
+    },
+    {
+       "index": 451,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rio Grande Park",
+           "REGIONID": 269156.000000
+       }
+    },
+    {
+       "index": 452,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rock Lake",
+           "REGIONID": 269166.000000
+       }
+    },
+    {
+       "index": 453,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Roosevelt Park",
+           "REGIONID": 269168.000000
+       }
+    },
+    {
+       "index": 454,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rose Isle",
+           "REGIONID": 269169.000000
+       }
+    },
+    {
+       "index": 455,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rosemont",
+           "REGIONID": 125976.000000
+       }
+    },
+    {
+       "index": 456,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rosemont North",
+           "REGIONID": 269170.000000
+       }
+    },
+    {
+       "index": 457,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Rowena Gardens",
+           "REGIONID": 269171.000000
+       }
+    },
+    {
+       "index": 458,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Seaboard Industrial",
+           "REGIONID": 269175.000000
+       }
+    },
+    {
+       "index": 459,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Signal Hill",
+           "REGIONID": 269180.000000
+       }
+    },
+    {
+       "index": 460,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "South Division",
+           "REGIONID": 269182.000000
+       }
+    },
+    {
+       "index": 461,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "South Eola",
+           "REGIONID": 269184.000000
+       }
+    },
+    {
+       "index": 462,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "South Orange",
+           "REGIONID": 269188.000000
+       }
+    },
+    {
+       "index": 463,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "South Semoran",
+           "REGIONID": 269190.000000
+       }
+    },
+    {
+       "index": 464,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Southern Oaks",
+           "REGIONID": 269191.000000
+       }
+    },
+    {
+       "index": 465,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Southport",
+           "REGIONID": 276577.000000
+       }
+    },
+    {
+       "index": 466,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Spring Lake",
+           "REGIONID": 275515.000000
+       }
+    },
+    {
+       "index": 467,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "The Dovers",
+           "REGIONID": 269210.000000
+       }
+    },
+    {
+       "index": 468,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "The Willows",
+           "REGIONID": 269211.000000
+       }
+    },
+    {
+       "index": 469,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Thornton Park",
+           "REGIONID": 269212.000000
+       }
+    },
+    {
+       "index": 470,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Ventura",
+           "REGIONID": 269218.000000
+       }
+    },
+    {
+       "index": 471,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Vista East",
+           "REGIONID": 269221.000000
+       }
+    },
+    {
+       "index": 472,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Vista Park",
+           "REGIONID": 269222.000000
+       }
+    },
+    {
+       "index": 473,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Wadeview Park",
+           "REGIONID": 269223.000000
+       }
+    },
+    {
+       "index": 474,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Washington Shores",
+           "REGIONID": 269224.000000
+       }
+    },
+    {
+       "index": 475,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Wedgewood Groves",
+           "REGIONID": 269225.000000
+       }
+    },
+    {
+       "index": 476,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "West Colonial",
+           "REGIONID": 269226.000000
+       }
+    },
+    {
+       "index": 477,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Westfield",
+           "REGIONID": 269230.000000
+       }
+    },
+    {
+       "index": 478,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Orange",
+           "CITY": "Orlando",
+           "NAME": "Windhover",
+           "REGIONID": 269233.000000
+       }
+    },
+    {
+       "index": 479,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Central Park",
+           "REGIONID": 268917.000000
+       }
+    },
+    {
+       "index": 480,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Downtown",
+           "REGIONID": 273481.000000
+       }
+    },
+    {
+       "index": 481,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Echo Lake",
+           "REGIONID": 268975.000000
+       }
+    },
+    {
+       "index": 482,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "El Cid",
+           "REGIONID": 268978.000000
+       }
+    },
+    {
+       "index": 483,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Flamingo Park",
+           "REGIONID": 268986.000000
+       }
+    },
+    {
+       "index": 484,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Grandview Heights",
+           "REGIONID": 268996.000000
+       }
+    },
+    {
+       "index": 485,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Lake Mangonia",
+           "REGIONID": 269044.000000
+       }
+    },
+    {
+       "index": 486,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Mango Promenade",
+           "REGIONID": 274405.000000
+       }
+    },
+    {
+       "index": 487,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "North Shore",
+           "REGIONID": 274745.000000
+       }
+    },
+    {
+       "index": 488,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "North Tamarind",
+           "REGIONID": 269109.000000
+       }
+    },
+    {
+       "index": 489,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Northwood",
+           "REGIONID": 274812.000000
+       }
+    },
+    {
+       "index": 490,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Northwood Hills",
+           "REGIONID": 269113.000000
+       }
+    },
+    {
+       "index": 491,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Northwood Pines",
+           "REGIONID": 269114.000000
+       }
+    },
+    {
+       "index": 492,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Northwood Shores",
+           "REGIONID": 269115.000000
+       }
+    },
+    {
+       "index": 493,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Old Northwood",
+           "REGIONID": 269119.000000
+       }
+    },
+    {
+       "index": 494,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Palm Beach Lakes",
+           "REGIONID": 125629.000000
+       }
+    },
+    {
+       "index": 495,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Palm Club Village",
+           "REGIONID": 269129.000000
+       }
+    },
+    {
+       "index": 496,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Parker Ridge",
+           "REGIONID": 269137.000000
+       }
+    },
+    {
+       "index": 497,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Pineapple Park-Ibis",
+           "REGIONID": 275031.000000
+       }
+    },
+    {
+       "index": 498,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Pinewood",
+           "REGIONID": 275035.000000
+       }
+    },
+    {
+       "index": 499,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Pinewood Park",
+           "REGIONID": 275037.000000
+       }
+    },
+    {
+       "index": 500,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Poinciana Park",
+           "REGIONID": 275062.000000
+       }
+    },
+    {
+       "index": 501,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Progressive North West",
+           "REGIONID": 275094.000000
+       }
+    },
+    {
+       "index": 502,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "River Walk",
+           "REGIONID": 275189.000000
+       }
+    },
+    {
+       "index": 503,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Roosevelt Estates",
+           "REGIONID": 269167.000000
+       }
+    },
+    {
+       "index": 504,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "South Side",
+           "REGIONID": 275457.000000
+       }
+    },
+    {
+       "index": 505,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Southland Park",
+           "REGIONID": 269193.000000
+       }
+    },
+    {
+       "index": 506,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Southwest",
+           "REGIONID": 269197.000000
+       }
+    },
+    {
+       "index": 507,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Spencer Lakes",
+           "REGIONID": 269199.000000
+       }
+    },
+    {
+       "index": 508,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Sunshine Park",
+           "REGIONID": 275640.000000
+       }
+    },
+    {
+       "index": 509,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Vedado",
+           "REGIONID": 269217.000000
+       }
+    },
+    {
+       "index": 510,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Villages Of Palm Beach Lakes",
+           "REGIONID": 269220.000000
+       }
+    },
+    {
+       "index": 511,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Water Catchment Area",
+           "REGIONID": 276638.000000
+       }
+    },
+    {
+       "index": 512,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Palm Beach",
+           "CITY": "West Palm Beach",
+           "NAME": "Westfield",
+           "REGIONID": 269231.000000
+       }
+    },
+    {
+       "index": 513,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Alcove",
+           "REGIONID": 343321.000000
+       }
+    },
+    {
+       "index": 514,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Ashland Heights",
+           "REGIONID": 343257.000000
+       }
+    },
+    {
+       "index": 515,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Bay Aristocrat Village",
+           "REGIONID": 343354.000000
+       }
+    },
+    {
+       "index": 516,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Brentwood Estates",
+           "REGIONID": 343317.000000
+       }
+    },
+    {
+       "index": 517,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Charter Oaks",
+           "REGIONID": 343308.000000
+       }
+    },
+    {
+       "index": 518,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Chateaux De Ville",
+           "REGIONID": 343355.000000
+       }
+    },
+    {
+       "index": 519,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Chevy Chase South",
+           "REGIONID": 343300.000000
+       }
+    },
+    {
+       "index": 520,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Clearwater Beach",
+           "REGIONID": 343271.000000
+       }
+    },
+    {
+       "index": 521,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Clearwater Golf View",
+           "REGIONID": 343339.000000
+       }
+    },
+    {
+       "index": 522,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Clubhouse Estates",
+           "REGIONID": 343262.000000
+       }
+    },
+    {
+       "index": 523,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Coachman Ridge",
+           "REGIONID": 343320.000000
+       }
+    },
+    {
+       "index": 524,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Country Club Estates",
+           "REGIONID": 343326.000000
+       }
+    },
+    {
+       "index": 525,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Countryside Estates",
+           "REGIONID": 343269.000000
+       }
+    },
+    {
+       "index": 526,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Countryside Northridge",
+           "REGIONID": 343254.000000
+       }
+    },
+    {
+       "index": 527,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Countryside Woods",
+           "REGIONID": 343255.000000
+       }
+    },
+    {
+       "index": 528,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Cypress Bend",
+           "REGIONID": 343275.000000
+       }
+    },
+    {
+       "index": 529,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Cypress Trace North",
+           "REGIONID": 343303.000000
+       }
+    },
+    {
+       "index": 530,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Del Oro Groves",
+           "REGIONID": 343325.000000
+       }
+    },
+    {
+       "index": 531,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Drew Park Plaza",
+           "REGIONID": 343327.000000
+       }
+    },
+    {
+       "index": 532,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Eagle Estates",
+           "REGIONID": 343264.000000
+       }
+    },
+    {
+       "index": 533,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Eagles Glen",
+           "REGIONID": 343263.000000
+       }
+    },
+    {
+       "index": 534,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Estancia Townes",
+           "REGIONID": 343265.000000
+       }
+    },
+    {
+       "index": 535,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Forest Run",
+           "REGIONID": 343260.000000
+       }
+    },
+    {
+       "index": 536,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Forest Wood",
+           "REGIONID": 343316.000000
+       }
+    },
+    {
+       "index": 537,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Greenbriar Club",
+           "REGIONID": 343288.000000
+       }
+    },
+    {
+       "index": 538,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Grovewood",
+           "REGIONID": 343343.000000
+       }
+    },
+    {
+       "index": 539,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Harbor Bluffs Waterfront",
+           "REGIONID": 343328.000000
+       }
+    },
+    {
+       "index": 540,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Harbor Oaks",
+           "REGIONID": 343340.000000
+       }
+    },
+    {
+       "index": 541,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Harbor Oaks Estates",
+           "REGIONID": 343311.000000
+       }
+    },
+    {
+       "index": 542,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Harbor Woods Village",
+           "REGIONID": 343281.000000
+       }
+    },
+    {
+       "index": 543,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Harbour Towne",
+           "REGIONID": 343329.000000
+       }
+    },
+    {
+       "index": 544,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Hillcrest Villas",
+           "REGIONID": 343304.000000
+       }
+    },
+    {
+       "index": 545,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Historic Bayview",
+           "REGIONID": 343337.000000
+       }
+    },
+    {
+       "index": 546,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Huntington Lakes",
+           "REGIONID": 343302.000000
+       }
+    },
+    {
+       "index": 547,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Huntington Trace",
+           "REGIONID": 343298.000000
+       }
+    },
+    {
+       "index": 548,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Huntington Trail",
+           "REGIONID": 343296.000000
+       }
+    },
+    {
+       "index": 549,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Imperial Courts",
+           "REGIONID": 343351.000000
+       }
+    },
+    {
+       "index": 550,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Imperial Cove",
+           "REGIONID": 343352.000000
+       }
+    },
+    {
+       "index": 551,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Imperial Park",
+           "REGIONID": 343350.000000
+       }
+    },
+    {
+       "index": 552,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Inverness Park",
+           "REGIONID": 343286.000000
+       }
+    },
+    {
+       "index": 553,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Island Estate",
+           "REGIONID": 343306.000000
+       }
+    },
+    {
+       "index": 554,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Keystone Manor",
+           "REGIONID": 343330.000000
+       }
+    },
+    {
+       "index": 555,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Landmark-Countryside",
+           "REGIONID": 343258.000000
+       }
+    },
+    {
+       "index": 556,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Los Prados",
+           "REGIONID": 343314.000000
+       }
+    },
+    {
+       "index": 557,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Mission Hills",
+           "REGIONID": 343322.000000
+       }
+    },
+    {
+       "index": 558,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Misty Springs",
+           "REGIONID": 343270.000000
+       }
+    },
+    {
+       "index": 559,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Montclair Lake Estates",
+           "REGIONID": 343309.000000
+       }
+    },
+    {
+       "index": 560,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Morningside-Meadows",
+           "REGIONID": 343345.000000
+       }
+    },
+    {
+       "index": 561,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Normandy Park",
+           "REGIONID": 343349.000000
+       }
+    },
+    {
+       "index": 562,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Northwood Estates",
+           "REGIONID": 343285.000000
+       }
+    },
+    {
+       "index": 563,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Northwood West",
+           "REGIONID": 343273.000000
+       }
+    },
+    {
+       "index": 564,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Oak Bluffs",
+           "REGIONID": 343333.000000
+       }
+    },
+    {
+       "index": 565,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Oak Creek At Countryside",
+           "REGIONID": 343256.000000
+       }
+    },
+    {
+       "index": 566,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Oak Forest Of Countryside",
+           "REGIONID": 343268.000000
+       }
+    },
+    {
+       "index": 567,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Oaks Of Northwood",
+           "REGIONID": 343293.000000
+       }
+    },
+    {
+       "index": 568,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Old Clearwater Bay",
+           "REGIONID": 343319.000000
+       }
+    },
+    {
+       "index": 569,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "On Top Of The World",
+           "REGIONID": 343295.000000
+       }
+    },
+    {
+       "index": 570,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Pierce",
+           "REGIONID": 343332.000000
+       }
+    },
+    {
+       "index": 571,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Prelude",
+           "REGIONID": 343334.000000
+       }
+    },
+    {
+       "index": 572,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Pride",
+           "REGIONID": 343348.000000
+       }
+    },
+    {
+       "index": 573,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Prospect Towers",
+           "REGIONID": 343335.000000
+       }
+    },
+    {
+       "index": 574,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Rainbow Farms North",
+           "REGIONID": 343272.000000
+       }
+    },
+    {
+       "index": 575,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Rainbow Farms South",
+           "REGIONID": 343279.000000
+       }
+    },
+    {
+       "index": 576,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Raintree Village",
+           "REGIONID": 343318.000000
+       }
+    },
+    {
+       "index": 577,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Rustlewood",
+           "REGIONID": 343274.000000
+       }
+    },
+    {
+       "index": 578,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Sand Key",
+           "REGIONID": 343331.000000
+       }
+    },
+    {
+       "index": 579,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Sandal Cove",
+           "REGIONID": 343323.000000
+       }
+    },
+    {
+       "index": 580,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Seville",
+           "REGIONID": 343344.000000
+       }
+    },
+    {
+       "index": 581,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Shady Oak Farms",
+           "REGIONID": 343297.000000
+       }
+    },
+    {
+       "index": 582,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Spring Lake South",
+           "REGIONID": 343305.000000
+       }
+    },
+    {
+       "index": 583,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Spring Lakes Of Clearwater",
+           "REGIONID": 343301.000000
+       }
+    },
+    {
+       "index": 584,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Springdale",
+           "REGIONID": 343259.000000
+       }
+    },
+    {
+       "index": 585,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Sunny Grove Mobile",
+           "REGIONID": 343338.000000
+       }
+    },
+    {
+       "index": 586,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Sunset Lake Estates",
+           "REGIONID": 343313.000000
+       }
+    },
+    {
+       "index": 587,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Sunshine Tower",
+           "REGIONID": 343347.000000
+       }
+    },
+    {
+       "index": 588,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Trails Of Countryside",
+           "REGIONID": 343357.000000
+       }
+    },
+    {
+       "index": 589,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "University Park",
+           "REGIONID": 343342.000000
+       }
+    },
+    {
+       "index": 590,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Valencia Park",
+           "REGIONID": 343310.000000
+       }
+    },
+    {
+       "index": 591,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Viewpoint On The Bay",
+           "REGIONID": 343336.000000
+       }
+    },
+    {
+       "index": 592,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Villas Of Lake Arbor",
+           "REGIONID": 343312.000000
+       }
+    },
+    {
+       "index": 593,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Weathersfield",
+           "REGIONID": 343287.000000
+       }
+    },
+    {
+       "index": 594,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Weatherstone",
+           "REGIONID": 343299.000000
+       }
+    },
+    {
+       "index": 595,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Westchester Lake",
+           "REGIONID": 343267.000000
+       }
+    },
+    {
+       "index": 596,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Wilshire Estates",
+           "REGIONID": 343266.000000
+       }
+    },
+    {
+       "index": 597,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Winding Wood",
+           "REGIONID": 343276.000000
+       }
+    },
+    {
+       "index": 598,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Windsor Park",
+           "REGIONID": 343307.000000
+       }
+    },
+    {
+       "index": 599,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Woodgate",
+           "REGIONID": 343292.000000
+       }
+    },
+    {
+       "index": 600,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Woodlake",
+           "REGIONID": 343315.000000
+       }
+    },
+    {
+       "index": 601,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Woodland Villas",
+           "REGIONID": 343261.000000
+       }
+    },
+    {
+       "index": 602,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Clearwater",
+           "NAME": "Wyatt Street",
+           "REGIONID": 343356.000000
+       }
+    },
+    {
+       "index": 603,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Pinellas",
+           "CITY": "Saint Petersburg",
+           "NAME": "Saint Petersburg",
+           "REGIONID": 343936.000000
+       }
+    },
+    {
+       "index": 604,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Beacon Hill",
+           "REGIONID": 343472.000000
+       }
+    },
+    {
+       "index": 605,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Camphor",
+           "REGIONID": 343473.000000
+       }
+    },
+    {
+       "index": 606,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Central Avenue",
+           "REGIONID": 343471.000000
+       }
+    },
+    {
+       "index": 607,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Cleveland Heights",
+           "REGIONID": 343452.000000
+       }
+    },
+    {
+       "index": 608,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Cleveland Heights Golf Course",
+           "REGIONID": 343455.000000
+       }
+    },
+    {
+       "index": 609,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Crystal Lake",
+           "REGIONID": 124085.000000
+       }
+    },
+    {
+       "index": 610,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Dixieland",
+           "REGIONID": 268951.000000
+       }
+    },
+    {
+       "index": 611,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Downtown",
+           "REGIONID": 343449.000000
+       }
+    },
+    {
+       "index": 612,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "East Lake Morton",
+           "REGIONID": 268973.000000
+       }
+    },
+    {
+       "index": 613,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Edgewater Beach",
+           "REGIONID": 343461.000000
+       }
+    },
+    {
+       "index": 614,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Edgewood",
+           "REGIONID": 343453.000000
+       }
+    },
+    {
+       "index": 615,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Florida Southern College",
+           "REGIONID": 343460.000000
+       }
+    },
+    {
+       "index": 616,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Francis Blvd",
+           "REGIONID": 343447.000000
+       }
+    },
+    {
+       "index": 617,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Imperial",
+           "REGIONID": 343451.000000
+       }
+    },
+    {
+       "index": 618,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Jefferson Ave",
+           "REGIONID": 343448.000000
+       }
+    },
+    {
+       "index": 619,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Jewel Avenue",
+           "REGIONID": 343467.000000
+       }
+    },
+    {
+       "index": 620,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "John Cox",
+           "REGIONID": 343444.000000
+       }
+    },
+    {
+       "index": 621,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Kathleen",
+           "REGIONID": 124905.000000
+       }
+    },
+    {
+       "index": 622,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Beulah",
+           "REGIONID": 343469.000000
+       }
+    },
+    {
+       "index": 623,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Bonnet",
+           "REGIONID": 343468.000000
+       }
+    },
+    {
+       "index": 624,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Bonny",
+           "REGIONID": 343462.000000
+       }
+    },
+    {
+       "index": 625,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Bonny Park",
+           "REGIONID": 343457.000000
+       }
+    },
+    {
+       "index": 626,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Hollingsworth",
+           "REGIONID": 343459.000000
+       }
+    },
+    {
+       "index": 627,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Horney",
+           "REGIONID": 343458.000000
+       }
+    },
+    {
+       "index": 628,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Hunter Terrace",
+           "REGIONID": 269042.000000
+       }
+    },
+    {
+       "index": 629,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Parker Park",
+           "REGIONID": 343441.000000
+       }
+    },
+    {
+       "index": 630,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lake Watkins",
+           "REGIONID": 343436.000000
+       }
+    },
+    {
+       "index": 631,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lakeshore",
+           "REGIONID": 343442.000000
+       }
+    },
+    {
+       "index": 632,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Lime Street",
+           "REGIONID": 343446.000000
+       }
+    },
+    {
+       "index": 633,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "N Martha",
+           "REGIONID": 343440.000000
+       }
+    },
+    {
+       "index": 634,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "New Jersey Rd",
+           "REGIONID": 343454.000000
+       }
+    },
+    {
+       "index": 635,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "North Lake Wire",
+           "REGIONID": 343437.000000
+       }
+    },
+    {
+       "index": 636,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Parker Street",
+           "REGIONID": 343450.000000
+       }
+    },
+    {
+       "index": 637,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Paul A Diggs",
+           "REGIONID": 343466.000000
+       }
+    },
+    {
+       "index": 638,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Pinehurst",
+           "REGIONID": 343463.000000
+       }
+    },
+    {
+       "index": 639,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Raintree",
+           "REGIONID": 343456.000000
+       }
+    },
+    {
+       "index": 640,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Shore Acres",
+           "REGIONID": 343445.000000
+       }
+    },
+    {
+       "index": 641,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "South Lake Morton",
+           "REGIONID": 269185.000000
+       }
+    },
+    {
+       "index": 642,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Southwest",
+           "REGIONID": 343474.000000
+       }
+    },
+    {
+       "index": 643,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Swannanoa",
+           "REGIONID": 343439.000000
+       }
+    },
+    {
+       "index": 644,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Tigertown",
+           "REGIONID": 343438.000000
+       }
+    },
+    {
+       "index": 645,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Watson",
+           "REGIONID": 343443.000000
+       }
+    },
+    {
+       "index": 646,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Webster Park North",
+           "REGIONID": 343465.000000
+       }
+    },
+    {
+       "index": 647,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Webster Park South",
+           "REGIONID": 343464.000000
+       }
+    },
+    {
+       "index": 648,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Polk",
+           "CITY": "Lakeland",
+           "NAME": "Westgate",
+           "REGIONID": 343470.000000
+       }
+    },
+    {
+       "index": 649,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "17th Street",
+           "REGIONID": 343992.000000
+       }
+    },
+    {
+       "index": 650,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Alta Vista",
+           "REGIONID": 343963.000000
+       }
+    },
+    {
+       "index": 651,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Amaryllis Park",
+           "REGIONID": 343971.000000
+       }
+    },
+    {
+       "index": 652,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Arlington Park",
+           "REGIONID": 343962.000000
+       }
+    },
+    {
+       "index": 653,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Avondale",
+           "REGIONID": 343953.000000
+       }
+    },
+    {
+       "index": 654,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Bay Isle-Siesta",
+           "REGIONID": 343985.000000
+       }
+    },
+    {
+       "index": 655,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Bayou Oaks",
+           "REGIONID": 343968.000000
+       }
+    },
+    {
+       "index": 656,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Bayview",
+           "REGIONID": 343958.000000
+       }
+    },
+    {
+       "index": 657,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Beechwood",
+           "REGIONID": 343988.000000
+       }
+    },
+    {
+       "index": 658,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Bellevue Terrace",
+           "REGIONID": 343980.000000
+       }
+    },
+    {
+       "index": 659,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Bird Key",
+           "REGIONID": 343981.000000
+       }
+    },
+    {
+       "index": 660,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Central Cocoanut",
+           "REGIONID": 343991.000000
+       }
+    },
+    {
+       "index": 661,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Cherokee Park",
+           "REGIONID": 343960.000000
+       }
+    },
+    {
+       "index": 662,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Downtown",
+           "REGIONID": 343974.000000
+       }
+    },
+    {
+       "index": 663,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Eastwood Oaks",
+           "REGIONID": 343978.000000
+       }
+    },
+    {
+       "index": 664,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Glen Oaks Estates",
+           "REGIONID": 343976.000000
+       }
+    },
+    {
+       "index": 665,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Glen Oaks Manor",
+           "REGIONID": 343977.000000
+       }
+    },
+    {
+       "index": 666,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Golden Gate Point",
+           "REGIONID": 343973.000000
+       }
+    },
+    {
+       "index": 667,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Granada",
+           "REGIONID": 343961.000000
+       }
+    },
+    {
+       "index": 668,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Harbor Acres",
+           "REGIONID": 343955.000000
+       }
+    },
+    {
+       "index": 669,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Hudson Bayou",
+           "REGIONID": 343957.000000
+       }
+    },
+    {
+       "index": 670,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Indian Beach-Sapphire Shores",
+           "REGIONID": 343969.000000
+       }
+    },
+    {
+       "index": 671,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "John Ringling",
+           "REGIONID": 343982.000000
+       }
+    },
+    {
+       "index": 672,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Jordan's Crossing",
+           "REGIONID": 343987.000000
+       }
+    },
+    {
+       "index": 673,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Laurel Park",
+           "REGIONID": 343972.000000
+       }
+    },
+    {
+       "index": 674,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Lido Key",
+           "REGIONID": 343984.000000
+       }
+    },
+    {
+       "index": 675,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Lido Shores",
+           "REGIONID": 343990.000000
+       }
+    },
+    {
+       "index": 676,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "McClellan Park",
+           "REGIONID": 343954.000000
+       }
+    },
+    {
+       "index": 677,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Oakwood Manor",
+           "REGIONID": 343979.000000
+       }
+    },
+    {
+       "index": 678,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Original Gillespie Park",
+           "REGIONID": 343967.000000
+       }
+    },
+    {
+       "index": 679,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Park East",
+           "REGIONID": 343970.000000
+       }
+    },
+    {
+       "index": 680,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Paver Park",
+           "REGIONID": 343964.000000
+       }
+    },
+    {
+       "index": 681,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Poinsettia Park",
+           "REGIONID": 343975.000000
+       }
+    },
+    {
+       "index": 682,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Ringling Park",
+           "REGIONID": 343965.000000
+       }
+    },
+    {
+       "index": 683,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Rosemary District",
+           "REGIONID": 343966.000000
+       }
+    },
+    {
+       "index": 684,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Saint Armands",
+           "REGIONID": 343983.000000
+       }
+    },
+    {
+       "index": 685,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "San Remo",
+           "REGIONID": 343986.000000
+       }
+    },
+    {
+       "index": 686,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "South Poinsettia",
+           "REGIONID": 343959.000000
+       }
+    },
+    {
+       "index": 687,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Southside Village",
+           "REGIONID": 343956.000000
+       }
+    },
+    {
+       "index": 688,
+       "attributes": {
+           "STATE": "FL",
+           "COUNTY": "Sarasota",
+           "CITY": "Sarasota",
+           "NAME": "Uplands",
+           "REGIONID": 343989.000000
+       }
+    }
+]

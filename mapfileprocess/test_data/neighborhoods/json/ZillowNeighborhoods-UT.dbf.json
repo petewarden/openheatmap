@@ -1,0 +1,192 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Central City-Liberty Welss",
+           "REGIONID": 273200.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Poplar Grove",
+           "REGIONID": 275071.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Yalecrest",
+           "REGIONID": 276166.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Greater Avenues",
+           "REGIONID": 273875.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Arcadia Heights",
+           "REGIONID": 272782.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Fairpark",
+           "REGIONID": 273685.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "East Central",
+           "REGIONID": 273537.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Rose Park",
+           "REGIONID": 240570.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Sugar House",
+           "REGIONID": 240748.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "People's Freeway",
+           "REGIONID": 275007.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Wasatch Hollow",
+           "REGIONID": 275924.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Downtown",
+           "REGIONID": 273488.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Glendale",
+           "REGIONID": 273832.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Capitol Hill",
+           "REGIONID": 271669.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Liberty Wells",
+           "REGIONID": 274303.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "East Bench",
+           "REGIONID": 271672.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Westpointe",
+           "REGIONID": 276658.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Central City",
+           "REGIONID": 273199.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "UT",
+           "COUNTY": "Salt Lake",
+           "CITY": "Salt Lake City",
+           "NAME": "Bonneville Hills",
+           "REGIONID": 273002.000000
+       }
+    }
+]

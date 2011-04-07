@@ -1,0 +1,3142 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Highlands Community",
+           "REGIONID": 343536.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sheridan Triangle",
+           "REGIONID": 343521.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Woodland Hills",
+           "REGIONID": 343538.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Walnut Grove",
+           "REGIONID": 343543.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Hillside",
+           "REGIONID": 274024.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Long View",
+           "REGIONID": 272159.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Southpoint",
+           "REGIONID": 272254.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Park Knoll",
+           "REGIONID": 272210.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Euclid Park",
+           "REGIONID": 272093.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Whitetail Ridge",
+           "REGIONID": 272303.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Tamarack Trails Community",
+           "REGIONID": 343560.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Meadowood",
+           "REGIONID": 343592.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Havenwoods",
+           "REGIONID": 272120.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Newberry Heights",
+           "REGIONID": 343589.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sherman Village",
+           "REGIONID": 343507.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Spring Harbor",
+           "REGIONID": 343532.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mack Acres",
+           "REGIONID": 272162.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Stone Meadows",
+           "REGIONID": 343576.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Wexford",
+           "REGIONID": 343533.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lincoln Creek",
+           "REGIONID": 272154.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Ridgewood",
+           "REGIONID": 272226.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Roosevelt Grove",
+           "REGIONID": 272233.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Clock Tower Acres",
+           "REGIONID": 272070.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lenox Heights",
+           "REGIONID": 272152.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "National Park",
+           "REGIONID": 272196.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Town And Country Manor",
+           "REGIONID": 343600.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Junction Ridge",
+           "REGIONID": 343552.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mill Valley",
+           "REGIONID": 272181.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Northridge",
+           "REGIONID": 272204.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "High Point Estates",
+           "REGIONID": 343569.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Cherokee Garden",
+           "REGIONID": 343571.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Morgan Heights",
+           "REGIONID": 272188.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Clayton Crest",
+           "REGIONID": 272069.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Hawthorne",
+           "REGIONID": 343522.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Hawthorne Glen",
+           "REGIONID": 272122.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Vilas",
+           "REGIONID": 343556.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Ridgeview",
+           "REGIONID": 272225.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Wyndemere",
+           "REGIONID": 343544.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Little Menomonee Parkway",
+           "REGIONID": 272158.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Golden Gate",
+           "REGIONID": 272103.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Indian Springs",
+           "REGIONID": 272137.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Summit Woods",
+           "REGIONID": 343583.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mitchell Park",
+           "REGIONID": 272185.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Oakbridge",
+           "REGIONID": 343566.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Estabrook Park",
+           "REGIONID": 272092.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Fair Park",
+           "REGIONID": 272094.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Honey Creek Manor",
+           "REGIONID": 272135.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Menomonee River Hills",
+           "REGIONID": 272173.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Hawk's Landing",
+           "REGIONID": 343579.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Waunona",
+           "REGIONID": 343568.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Polonia",
+           "REGIONID": 275066.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Dineen Park",
+           "REGIONID": 272078.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Dretzka Park",
+           "REGIONID": 272080.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Parkwood Hills",
+           "REGIONID": 343546.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Haymarket",
+           "REGIONID": 272123.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Parkwood West",
+           "REGIONID": 343565.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Uptown",
+           "REGIONID": 272280.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lindsay Park",
+           "REGIONID": 272157.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Bluemound Heights",
+           "REGIONID": 272043.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Southgate",
+           "REGIONID": 272253.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Mendota Hills",
+           "REGIONID": 343515.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Westmorland",
+           "REGIONID": 272297.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Cannon Park",
+           "REGIONID": 272059.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Sherman Park",
+           "REGIONID": 272244.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "North Division",
+           "REGIONID": 272199.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Columbus Park",
+           "REGIONID": 272073.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Park Ridge",
+           "REGIONID": 343591.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Tippecanoe",
+           "REGIONID": 272271.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Grover Heights",
+           "REGIONID": 272114.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Wick Field",
+           "REGIONID": 272304.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Merrill Park",
+           "REGIONID": 272177.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Golden Valley",
+           "REGIONID": 272104.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Silver Spring",
+           "REGIONID": 272248.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Florist Highlands",
+           "REGIONID": 272097.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Oakbridge Community",
+           "REGIONID": 343561.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Arbor Hills",
+           "REGIONID": 272034.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Hilltop Parish",
+           "REGIONID": 272131.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Berkley Oaks",
+           "REGIONID": 272041.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Park West",
+           "REGIONID": 272213.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Menomonee River Parkway",
+           "REGIONID": 272175.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Kennedy Heights",
+           "REGIONID": 343512.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Hawley Farms",
+           "REGIONID": 272121.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Highland Manor",
+           "REGIONID": 272128.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "North Granville",
+           "REGIONID": 272200.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Marquette",
+           "REGIONID": 343528.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Melody View",
+           "REGIONID": 272171.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Regent",
+           "REGIONID": 272223.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Valley Forge",
+           "REGIONID": 272282.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Leopold",
+           "REGIONID": 343598.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Vera Court",
+           "REGIONID": 343514.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Nash Park",
+           "REGIONID": 272195.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Brewer's Hill",
+           "REGIONID": 272049.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Williamsburg",
+           "REGIONID": 272305.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Norman Acres",
+           "REGIONID": 272198.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "McGovern Park",
+           "REGIONID": 272169.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sherman",
+           "REGIONID": 272243.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "South Campus",
+           "REGIONID": 272252.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Gra-Ram",
+           "REGIONID": 272110.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Downer Woods",
+           "REGIONID": 272079.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Marquette",
+           "REGIONID": 276440.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Marbella",
+           "REGIONID": 343586.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Freedom Village",
+           "REGIONID": 272100.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Eastmorland",
+           "REGIONID": 343526.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Allied Community",
+           "REGIONID": 343582.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Copernicus Park",
+           "REGIONID": 272076.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Maple Tree",
+           "REGIONID": 272164.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Reston Heights",
+           "REGIONID": 343588.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Bradley Estates",
+           "REGIONID": 272046.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Clarke Square",
+           "REGIONID": 272068.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Harbor View",
+           "REGIONID": 272118.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Elvehjem",
+           "REGIONID": 343535.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Truax",
+           "REGIONID": 343520.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Silver City",
+           "REGIONID": 272247.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mitchell Field",
+           "REGIONID": 272184.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Radio Park",
+           "REGIONID": 272221.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Bayview",
+           "REGIONID": 343558.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Fairfield",
+           "REGIONID": 276325.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Brynwood",
+           "REGIONID": 272052.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Miller Valley",
+           "REGIONID": 272182.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Old Middleton Greenway",
+           "REGIONID": 343578.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Historic Mitchell Street",
+           "REGIONID": 272132.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Maple Wood",
+           "REGIONID": 343523.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Northridge Lakes",
+           "REGIONID": 272205.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Valhalla",
+           "REGIONID": 272281.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Worthington Park",
+           "REGIONID": 272309.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Parkside Resident",
+           "REGIONID": 343563.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Calumet Farms",
+           "REGIONID": 272057.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Bay View",
+           "REGIONID": 272876.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Glendale",
+           "REGIONID": 343554.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Cambridge Heights",
+           "REGIONID": 272058.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lake Park",
+           "REGIONID": 272148.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Greystone",
+           "REGIONID": 343580.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Town Of Lake",
+           "REGIONID": 272273.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Menomonee River Valley",
+           "REGIONID": 272176.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Cherokee Park",
+           "REGIONID": 343506.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Timmerman West",
+           "REGIONID": 272270.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Westview Meadows",
+           "REGIONID": 343567.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Glacier Ridge",
+           "REGIONID": 343597.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Fairview",
+           "REGIONID": 273686.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "North Meadows",
+           "REGIONID": 272202.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Schlitz Park",
+           "REGIONID": 272240.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Garden Homes",
+           "REGIONID": 272101.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Honey Creek Parkway",
+           "REGIONID": 272136.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Appalachian Ridge",
+           "REGIONID": 343541.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Johnson's Woods",
+           "REGIONID": 272139.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Castle Manor",
+           "REGIONID": 272064.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Concordia",
+           "REGIONID": 272074.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Triangle",
+           "REGIONID": 272274.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Thurston Woods",
+           "REGIONID": 272268.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Blackhawk",
+           "REGIONID": 343584.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Walker's Point",
+           "REGIONID": 272287.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "East Bluff",
+           "REGIONID": 343516.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Grasslyn Manor",
+           "REGIONID": 272111.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Saukborough Homeowners",
+           "REGIONID": 343573.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "New Coeln",
+           "REGIONID": 272197.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Saveland Park",
+           "REGIONID": 272238.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Faircrest",
+           "REGIONID": 343585.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Vanchamasshe",
+           "REGIONID": 343599.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Richmond Hill",
+           "REGIONID": 272224.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "North Lake Mendota",
+           "REGIONID": 343508.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Capitol View Heights",
+           "REGIONID": 272062.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Skyview Meadows",
+           "REGIONID": 343594.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Cold Spring Park",
+           "REGIONID": 272071.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Parkwood Village",
+           "REGIONID": 343564.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lincoln Village",
+           "REGIONID": 272156.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Nakoma League",
+           "REGIONID": 272194.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Avenues West",
+           "REGIONID": 272037.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Servite Woods",
+           "REGIONID": 272241.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Walnut Hill",
+           "REGIONID": 272289.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Washington Heights",
+           "REGIONID": 272290.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Triangle North",
+           "REGIONID": 272275.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Granville Woods",
+           "REGIONID": 272109.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Brittingham Apartments",
+           "REGIONID": 343562.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Wedgewood",
+           "REGIONID": 272293.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Westhaven Trails",
+           "REGIONID": 343595.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Park Place",
+           "REGIONID": 272211.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Riverton Heights",
+           "REGIONID": 272229.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Burnham Park",
+           "REGIONID": 272055.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Pheasant Run",
+           "REGIONID": 272218.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Arlington Gardens",
+           "REGIONID": 272035.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Land Bank",
+           "REGIONID": 272150.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Martin Drive",
+           "REGIONID": 272168.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Rolling Green",
+           "REGIONID": 272231.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Woodland Court",
+           "REGIONID": 272307.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Enderis Park",
+           "REGIONID": 272090.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Rolling Meadows",
+           "REGIONID": 272232.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Saint Amelian's",
+           "REGIONID": 272256.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Parkway Hills",
+           "REGIONID": 272214.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Country Grove",
+           "REGIONID": 343570.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Capitol",
+           "REGIONID": 272060.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mount Olivet",
+           "REGIONID": 272191.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mitchell West",
+           "REGIONID": 272186.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Root Creek",
+           "REGIONID": 272234.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Burr Oaks",
+           "REGIONID": 272056.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Kilbourn Town",
+           "REGIONID": 272144.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Yankee Hill",
+           "REGIONID": 272312.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Wilson Park",
+           "REGIONID": 272306.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Prairie Hills",
+           "REGIONID": 343593.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Emerson East",
+           "REGIONID": 343524.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Skyview Terrace",
+           "REGIONID": 343534.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Maple-Prairie",
+           "REGIONID": 343596.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Sunset Heights",
+           "REGIONID": 272261.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Harambee",
+           "REGIONID": 272117.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lower East Side",
+           "REGIONID": 272160.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Brentwood Village",
+           "REGIONID": 343517.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Northpoint",
+           "REGIONID": 272203.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sunset Village",
+           "REGIONID": 272263.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Highwood Estates",
+           "REGIONID": 272130.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Bluff Acres",
+           "REGIONID": 272044.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Goldman Park",
+           "REGIONID": 272105.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Orchard Ridge Community",
+           "REGIONID": 343575.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Moorland-Rimrock",
+           "REGIONID": 272187.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Hill Farms-University Neighborh",
+           "REGIONID": 343553.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Vogel Park",
+           "REGIONID": 272285.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Layton Park",
+           "REGIONID": 272151.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Dudgeon-Monroe",
+           "REGIONID": 272081.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Hampton Heights",
+           "REGIONID": 272116.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Graceland",
+           "REGIONID": 272106.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Greentree",
+           "REGIONID": 343590.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Brown Deer Park",
+           "REGIONID": 272051.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "College Heights",
+           "REGIONID": 272072.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Trinity Park",
+           "REGIONID": 343572.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Historic Third Ward",
+           "REGIONID": 272133.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Holler Park",
+           "REGIONID": 272134.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Clarendon Hills",
+           "REGIONID": 272067.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Lake View Hill",
+           "REGIONID": 343510.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Juneau Town",
+           "REGIONID": 272142.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Morgandale",
+           "REGIONID": 272189.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Rufus King",
+           "REGIONID": 272235.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Mount Mary",
+           "REGIONID": 272190.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Halyard Park",
+           "REGIONID": 272115.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Baran Park",
+           "REGIONID": 272038.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Pollber Heights",
+           "REGIONID": 272219.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Riverwest",
+           "REGIONID": 272230.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Upper East Side",
+           "REGIONID": 272279.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Forest Home Hills",
+           "REGIONID": 272098.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Carpenter-Ridgeway",
+           "REGIONID": 343519.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Washington Park",
+           "REGIONID": 272291.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Franklin Heights",
+           "REGIONID": 272099.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Kops Park",
+           "REGIONID": 272146.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Green Moor",
+           "REGIONID": 272112.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Wisconsin Co-Op Housing",
+           "REGIONID": 343545.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Lake Edge",
+           "REGIONID": 343537.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Millstone",
+           "REGIONID": 343555.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Mayfair Park",
+           "REGIONID": 343518.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Muskego Way",
+           "REGIONID": 272193.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lincoln Park",
+           "REGIONID": 272155.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "The Valley-Pigsville",
+           "REGIONID": 275726.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Burke Heights",
+           "REGIONID": 272054.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Grantosa",
+           "REGIONID": 272107.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Midvale Heights Community",
+           "REGIONID": 343581.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Stonefield Woods-Ridge",
+           "REGIONID": 343539.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Bay Creek",
+           "REGIONID": 272039.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Woodlands",
+           "REGIONID": 343540.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Heistand",
+           "REGIONID": 272124.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Menomonee River Hills East",
+           "REGIONID": 272174.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Wexford Ridge",
+           "REGIONID": 343559.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Nobel Park",
+           "REGIONID": 343513.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Red Oak Heights",
+           "REGIONID": 272222.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Whispering Hills",
+           "REGIONID": 272301.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Lyons Park",
+           "REGIONID": 272161.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Alcott Park",
+           "REGIONID": 272031.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Glen Oak Hills",
+           "REGIONID": 343550.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Granville Station",
+           "REGIONID": 272108.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Bram's Addition",
+           "REGIONID": 272047.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "East Buckeye",
+           "REGIONID": 343548.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Arlington Heights",
+           "REGIONID": 272036.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Metcalfe Park",
+           "REGIONID": 272178.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Dunn's Marsh",
+           "REGIONID": 272082.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Capitol Heights",
+           "REGIONID": 272061.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "River Bend",
+           "REGIONID": 272227.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Westchester Gardens",
+           "REGIONID": 272295.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Timmerman Airport",
+           "REGIONID": 272269.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Borchert Field",
+           "REGIONID": 272045.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Tripoli Park",
+           "REGIONID": 272277.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Schenk-Atwood",
+           "REGIONID": 272239.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "University Apartments",
+           "REGIONID": 343531.000000
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sunset Hills",
+           "REGIONID": 272262.000000
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Lerdahl Park",
+           "REGIONID": 343511.000000
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Fernwood",
+           "REGIONID": 272096.000000
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sauk Creek",
+           "REGIONID": 343549.000000
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Oakwood Village",
+           "REGIONID": 343587.000000
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Wahl Park",
+           "REGIONID": 272286.000000
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Midtown",
+           "REGIONID": 272179.000000
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Old North Milwaukee",
+           "REGIONID": 272208.000000
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Buchel Park",
+           "REGIONID": 272053.000000
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Story Hill",
+           "REGIONID": 272260.000000
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Jackson Park",
+           "REGIONID": 272138.000000
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "McClellan Park",
+           "REGIONID": 343525.000000
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "High Crossing",
+           "REGIONID": 343509.000000
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "King Park",
+           "REGIONID": 272145.000000
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Greenbush",
+           "REGIONID": 343557.000000
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Riverside Park",
+           "REGIONID": 272228.000000
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Zoo",
+           "REGIONID": 272313.000000
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Wyrick Park",
+           "REGIONID": 272311.000000
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Broadway-Lakepoint",
+           "REGIONID": 343574.000000
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Cooper Park",
+           "REGIONID": 272075.000000
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "White Manor",
+           "REGIONID": 272302.000000
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Heritage Heights",
+           "REGIONID": 272126.000000
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Harder's Oaks",
+           "REGIONID": 272119.000000
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Tenney-Lapham",
+           "REGIONID": 343530.000000
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Eken Park",
+           "REGIONID": 272087.000000
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "West View",
+           "REGIONID": 272294.000000
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Murray Hill",
+           "REGIONID": 272192.000000
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Jones' Island",
+           "REGIONID": 272140.000000
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Heritage Heights",
+           "REGIONID": 343527.000000
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Sherman Terrace",
+           "REGIONID": 343529.000000
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Dane",
+           "CITY": "Madison",
+           "NAME": "Schenk-Atwood-Starkweather-Yahar",
+           "REGIONID": 343577.000000
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Veterans Affairs",
+           "REGIONID": 272284.000000
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Saint Joseph",
+           "REGIONID": 275271.000000
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Alverno",
+           "REGIONID": 272761.000000
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Silver Swan",
+           "REGIONID": 272249.000000
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Maitland Park",
+           "REGIONID": 272163.000000
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "STATE": "WI",
+           "COUNTY": "Milwaukee",
+           "CITY": "Milwaukee",
+           "NAME": "Park View",
+           "REGIONID": 272212.000000
+       }
+    }
+]

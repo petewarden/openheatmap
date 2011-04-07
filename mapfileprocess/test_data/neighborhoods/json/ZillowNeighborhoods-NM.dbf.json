@@ -1,0 +1,2272 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Coors Trail",
+           "REGIONID": 270373.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Fair West",
+           "REGIONID": 270396.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Conchas Park",
+           "REGIONID": 270372.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Palomas Park",
+           "REGIONID": 270458.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "San Jose",
+           "REGIONID": 191949.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Glenwood Hills",
+           "REGIONID": 270400.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Amberglen",
+           "REGIONID": 270354.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Big Bend",
+           "REGIONID": 270359.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Westgate Vecinos",
+           "REGIONID": 270550.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Kachina Hills",
+           "REGIONID": 270418.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Trumbull Village",
+           "REGIONID": 270528.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Yale Village",
+           "REGIONID": 270555.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Hodgin",
+           "REGIONID": 270408.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Tanoan East",
+           "REGIONID": 270522.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sandia Ridge",
+           "REGIONID": 270489.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Los Alamos",
+           "REGIONID": 274355.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Carmel",
+           "REGIONID": 342724.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Peppertree-Royal Oak",
+           "REGIONID": 270465.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "S Y Jackson",
+           "REGIONID": 270485.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Rio Grande",
+           "REGIONID": 342725.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Richland Hills",
+           "REGIONID": 270478.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Matheson Park",
+           "REGIONID": 270434.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Princess Jeanne",
+           "REGIONID": 270469.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Las Terrazas",
+           "REGIONID": 270425.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Winrock South",
+           "REGIONID": 270553.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Barelas",
+           "REGIONID": 190806.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Albuquerque Meadows",
+           "REGIONID": 270347.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alban Hills",
+           "REGIONID": 270346.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Cielito Lindo",
+           "REGIONID": 270369.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Cibola Addition",
+           "REGIONID": 270368.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy Park",
+           "REGIONID": 342730.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Eagle Ranch",
+           "REGIONID": 270386.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Los Altos",
+           "REGIONID": 342708.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Cottonwood Heights",
+           "REGIONID": 270374.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Quail Springs",
+           "REGIONID": 270472.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Holiday Park",
+           "REGIONID": 270409.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Desert Spring Flower",
+           "REGIONID": 270383.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Paradise Greens",
+           "REGIONID": 342731.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Monkbridge Gardens",
+           "REGIONID": 270438.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "SR Marmon",
+           "REGIONID": 270486.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Ventana Ranch",
+           "REGIONID": 270533.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "N Albuquerque Acres",
+           "REGIONID": 270441.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Plaza Vieja",
+           "REGIONID": 270467.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Singing Arrow",
+           "REGIONID": 270498.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Piedras Marcadas",
+           "REGIONID": 270466.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Paradise Heights",
+           "REGIONID": 270460.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Skyview Acres",
+           "REGIONID": 270500.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Enchanted Park",
+           "REGIONID": 270393.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Del Norte",
+           "REGIONID": 270381.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Rancho Sereno",
+           "REGIONID": 270476.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Los Poblanos",
+           "REGIONID": 270430.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Eagle Pointe",
+           "REGIONID": 342701.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "West Old Town",
+           "REGIONID": 270547.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Jeanne Bellamah East",
+           "REGIONID": 270415.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "University Hts",
+           "REGIONID": 270530.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Riverfronte",
+           "REGIONID": 342733.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Victory Hills",
+           "REGIONID": 270534.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Los Volcanes",
+           "REGIONID": 270431.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Paradise Hills",
+           "REGIONID": 342700.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Fair Heights",
+           "REGIONID": 270395.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Pat Hurley",
+           "REGIONID": 270464.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy Ridge East",
+           "REGIONID": 270343.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Huning Castle",
+           "REGIONID": 270410.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Uptown",
+           "REGIONID": 342721.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Crestview Bluff",
+           "REGIONID": 270378.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Tanoan",
+           "REGIONID": 342712.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Indian Moon",
+           "REGIONID": 270412.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Lee Acres",
+           "REGIONID": 191456.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alvarado Park",
+           "REGIONID": 270353.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Paloma Del Sol",
+           "REGIONID": 270457.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Taylor Ranch",
+           "REGIONID": 192099.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "La Mesa",
+           "REGIONID": 276406.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "North Eastern",
+           "REGIONID": 270448.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Matthew Meadows",
+           "REGIONID": 270435.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Stardust Skies Park",
+           "REGIONID": 270512.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Tierra Oeste",
+           "REGIONID": 270525.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Countrywood",
+           "REGIONID": 270376.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Santa Barbara",
+           "REGIONID": 342726.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sunrise",
+           "REGIONID": 342706.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Altura",
+           "REGIONID": 342720.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Heritage East",
+           "REGIONID": 270405.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Stinson Tower",
+           "REGIONID": 270513.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Northeast Valley",
+           "REGIONID": 270452.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Riverview Heights",
+           "REGIONID": 270483.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Quigley Park",
+           "REGIONID": 270474.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Stronghurst",
+           "REGIONID": 342713.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Oso Grande",
+           "REGIONID": 270454.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Four Hills Village",
+           "REGIONID": 270398.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Onate",
+           "REGIONID": 270453.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Towne Park",
+           "REGIONID": 270527.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "San Antonio",
+           "REGIONID": 342717.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sonora",
+           "REGIONID": 270504.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sandia",
+           "REGIONID": 342716.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Crestview Heights",
+           "REGIONID": 270379.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Huning Highland Historic District",
+           "REGIONID": 276386.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Mirabella",
+           "REGIONID": 270437.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "South Los Altos",
+           "REGIONID": 270508.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Del Rey R",
+           "REGIONID": 270382.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Netherwood Park",
+           "REGIONID": 270444.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Pleasant View",
+           "REGIONID": 270468.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Volcano Cliffs",
+           "REGIONID": 270543.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sawmill",
+           "REGIONID": 342702.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sun North Estates",
+           "REGIONID": 270517.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "La Sala Grande",
+           "REGIONID": 270422.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy North",
+           "REGIONID": 270341.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Shadow Hills",
+           "REGIONID": 270495.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Stardust Skies North",
+           "REGIONID": 270511.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Mark Twain",
+           "REGIONID": 270433.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Saragossa",
+           "REGIONID": 270491.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Nor Este",
+           "REGIONID": 270446.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Sandia Hoa",
+           "REGIONID": 275896.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Osuna Park",
+           "REGIONID": 342705.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Chelwood Vista",
+           "REGIONID": 270366.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Del Norte",
+           "REGIONID": 342707.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Avalon",
+           "REGIONID": 272830.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Silver Hill",
+           "REGIONID": 270497.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alamosa",
+           "REGIONID": 270345.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Ladera West",
+           "REGIONID": 270423.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Snow Heights",
+           "REGIONID": 270502.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Cherry Hills",
+           "REGIONID": 270367.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Eastrange-Piedra Vista",
+           "REGIONID": 270387.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Clayton Heights-Lomas Del Cielo",
+           "REGIONID": 342714.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Keystone",
+           "REGIONID": 342711.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Jerry Cline Park",
+           "REGIONID": 270416.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "North Hills",
+           "REGIONID": 270450.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy Estates East",
+           "REGIONID": 270339.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Villa De Paza",
+           "REGIONID": 270535.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "West Mesa",
+           "REGIONID": 270546.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Bosque Dell Acres",
+           "REGIONID": 270360.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Mossman",
+           "REGIONID": 274600.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alta Monte",
+           "REGIONID": 270348.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Skies West",
+           "REGIONID": 270499.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Thomas Village",
+           "REGIONID": 270523.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Heritage Hills",
+           "REGIONID": 270406.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Grande Hts",
+           "REGIONID": 270402.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Route 66 West",
+           "REGIONID": 270484.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "South San Pedro",
+           "REGIONID": 270509.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Quaker Heights",
+           "REGIONID": 270473.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "South Guadalupe Trail",
+           "REGIONID": 270507.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Candelmen",
+           "REGIONID": 270364.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Grande",
+           "REGIONID": 270539.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Guadalupe Village",
+           "REGIONID": 270404.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "West Bluff",
+           "REGIONID": 270545.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Boyds-Leslie Park",
+           "REGIONID": 270361.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Skyview West",
+           "REGIONID": 270501.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Wildflower",
+           "REGIONID": 342718.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Supper Rock",
+           "REGIONID": 270519.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Antelope Run",
+           "REGIONID": 270355.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Kirtland Community",
+           "REGIONID": 270420.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "West Park",
+           "REGIONID": 270548.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Tijeras Arroyo",
+           "REGIONID": 270526.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Del Mundo",
+           "REGIONID": 270537.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Eisenhower",
+           "REGIONID": 342734.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Bel-Air",
+           "REGIONID": 270358.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Encanto Village",
+           "REGIONID": 342722.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Montgomery Heights",
+           "REGIONID": 270439.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Quintessance",
+           "REGIONID": 270475.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Arroyo Del Oso North",
+           "REGIONID": 270356.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Eldorado Heights",
+           "REGIONID": 270390.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Elder Homestead",
+           "REGIONID": 270389.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Jackson Area",
+           "REGIONID": 270413.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Valley Gardens",
+           "REGIONID": 270531.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Laurelwood",
+           "REGIONID": 270426.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Rio Grande Blvd",
+           "REGIONID": 270479.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "McKinley",
+           "REGIONID": 270436.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alvarado Grdns",
+           "REGIONID": 270352.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "South Atrisco",
+           "REGIONID": 270505.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "North Wyoming",
+           "REGIONID": 270451.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Painted Sky",
+           "REGIONID": 342715.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "N Campus",
+           "REGIONID": 270442.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Louisiana",
+           "REGIONID": 342732.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Mountain View",
+           "REGIONID": 274614.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Highland",
+           "REGIONID": 342729.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Westgate Hts",
+           "REGIONID": 270549.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "John Robert",
+           "REGIONID": 342704.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Story Rock",
+           "REGIONID": 270514.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Broadway Central",
+           "REGIONID": 342735.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Greater Gardner",
+           "REGIONID": 270403.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Loma Del Rey",
+           "REGIONID": 270427.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vineyard Estates",
+           "REGIONID": 270536.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Las Lomitas",
+           "REGIONID": 270424.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Downtown",
+           "REGIONID": 270384.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Winterwood Park",
+           "REGIONID": 270554.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "San Gabriel",
+           "REGIONID": 342727.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Spruce Park",
+           "REGIONID": 270510.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Parkway",
+           "REGIONID": 270463.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Se Heights",
+           "REGIONID": 270493.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Four Hills Mhp",
+           "REGIONID": 270397.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sycamore",
+           "REGIONID": 270520.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy Acres North",
+           "REGIONID": 270338.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Wells Park",
+           "REGIONID": 270544.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Gavilan",
+           "REGIONID": 342728.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Jade Park",
+           "REGIONID": 270414.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Highlands North",
+           "REGIONID": 270407.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Magnifica",
+           "REGIONID": 270540.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Prospectors Ridge",
+           "REGIONID": 270470.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Classic Uptown",
+           "REGIONID": 270370.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Montgomery Park",
+           "REGIONID": 270440.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Bear Canyon",
+           "REGIONID": 270357.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Raynolds",
+           "REGIONID": 342709.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Quail Ridge",
+           "REGIONID": 270471.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "North Domingo Baca",
+           "REGIONID": 270447.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Near N Valley",
+           "REGIONID": 270443.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vecinos Del Bosque",
+           "REGIONID": 270532.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Glenwood Hills South Casa Grande",
+           "REGIONID": 273838.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Alameda N Valley",
+           "REGIONID": 270344.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Seven Bar North",
+           "REGIONID": 270494.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Estates At Tanoan",
+           "REGIONID": 342703.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Summit Park",
+           "REGIONID": 270516.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Willow Wood",
+           "REGIONID": 270552.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Martineztown",
+           "REGIONID": 342723.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Vista Montecito",
+           "REGIONID": 342710.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Sombra Del Monte",
+           "REGIONID": 270503.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Parkland Hills",
+           "REGIONID": 270462.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "South Broadway",
+           "REGIONID": 270506.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "La Luz De Sol",
+           "REGIONID": 270421.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Los Jardines",
+           "REGIONID": 270429.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Campus",
+           "REGIONID": 270363.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Academy Hills Park",
+           "REGIONID": 270340.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Siesta Hills",
+           "REGIONID": 270496.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "La Luz",
+           "REGIONID": 274213.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Zuni",
+           "REGIONID": 276180.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Nob Hill",
+           "REGIONID": 270445.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Inez",
+           "REGIONID": 274094.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "North Four Hills",
+           "REGIONID": 270449.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Embudo Canyon",
+           "REGIONID": 270391.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "NM",
+           "COUNTY": "Bernalillo",
+           "CITY": "Albuquerque",
+           "NAME": "Tuscany",
+           "REGIONID": 270529.000000
+       }
+    }
+]

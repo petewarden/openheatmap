@@ -1,0 +1,2772 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Madison Manor",
+           "REGIONID": 245297.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Hollywood Cemetery",
+           "REGIONID": 276381.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "Northeast",
+           "REGIONID": 344049.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Arlington Forest",
+           "REGIONID": 241316.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Biotech And MCV District",
+           "REGIONID": 272961.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Ridge St",
+           "REGIONID": 275167.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Nauck",
+           "REGIONID": 271750.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Magruder Area",
+           "REGIONID": 274397.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Lyon Village",
+           "REGIONID": 245282.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Langley Air Force Base",
+           "REGIONID": 274267.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Colonial Place",
+           "REGIONID": 273325.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Columbia Forest",
+           "REGIONID": 242690.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Main-Starr Hill",
+           "REGIONID": 274400.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Martha Jefferson",
+           "REGIONID": 274438.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Greater Wythe",
+           "REGIONID": 273885.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Pleasant Grove East",
+           "REGIONID": 275053.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Chimborazo",
+           "REGIONID": 273239.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Columbia Heghts",
+           "REGIONID": 273331.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Oxford",
+           "REGIONID": 246270.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "North King St",
+           "REGIONID": 274726.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Indian River",
+           "REGIONID": 276389.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "Northwest",
+           "REGIONID": 246031.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Green Park",
+           "REGIONID": 273886.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Westover Village",
+           "REGIONID": 271796.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Peter Paul",
+           "REGIONID": 275014.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Bellevue",
+           "REGIONID": 272920.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Fawnbrook",
+           "REGIONID": 273710.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Cherry Gardens",
+           "REGIONID": 273230.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Aberdeen",
+           "REGIONID": 272716.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Worthington",
+           "REGIONID": 276156.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Arlington View",
+           "REGIONID": 271679.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Whitcomb",
+           "REGIONID": 276055.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Stratford Hills",
+           "REGIONID": 247700.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "South Garden",
+           "REGIONID": 275433.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "5th Sw",
+           "REGIONID": 272711.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Fry Springs",
+           "REGIONID": 271722.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Leeway",
+           "REGIONID": 271742.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Colonial Village",
+           "REGIONID": 242681.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Greenbrier East",
+           "REGIONID": 273892.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Vcu",
+           "REGIONID": 275852.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Waverly Hills",
+           "REGIONID": 271792.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Woolen Mills",
+           "REGIONID": 276153.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Lyon Park",
+           "REGIONID": 245281.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Brookland Park",
+           "REGIONID": 273065.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Oregon Hill",
+           "REGIONID": 274924.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Northeast",
+           "REGIONID": 274766.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Arlington-East Falls",
+           "REGIONID": 272796.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Gilpin",
+           "REGIONID": 273822.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Ballston-Virginia Square",
+           "REGIONID": 271684.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Highland Park-Overlee Knolls",
+           "REGIONID": 274002.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Jeff Davis",
+           "REGIONID": 274132.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Oakwood Cemetery",
+           "REGIONID": 274867.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Oak Grove",
+           "REGIONID": 276489.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Jefferson Park",
+           "REGIONID": 274136.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Fairlington-Bradlee",
+           "REGIONID": 273679.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Lewis Mountain",
+           "REGIONID": 276420.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Gulf Branch",
+           "REGIONID": 271727.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Western Branch North",
+           "REGIONID": 276009.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "North Highland",
+           "REGIONID": 271758.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Randolph",
+           "REGIONID": 275134.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Old Town Manchester",
+           "REGIONID": 276501.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Belt Center",
+           "REGIONID": 272935.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Old Town",
+           "REGIONID": 274894.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Blackwell",
+           "REGIONID": 272977.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Olde Glebe",
+           "REGIONID": 274904.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Yorktown",
+           "REGIONID": 276173.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Bluemont",
+           "REGIONID": 276216.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Gambles Hill",
+           "REGIONID": 273802.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Union Hill",
+           "REGIONID": 275799.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "South Norfolk",
+           "REGIONID": 275448.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Malvern Gardens",
+           "REGIONID": 276434.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Bellevue Forest",
+           "REGIONID": 241598.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Laburnum Park",
+           "REGIONID": 274218.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Deep Creek South",
+           "REGIONID": 273444.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Alcova Heights",
+           "REGIONID": 241195.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Brsc",
+           "REGIONID": 273077.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "King St Metro",
+           "REGIONID": 274187.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Bellemeade",
+           "REGIONID": 272919.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Sauer's Gardens",
+           "REGIONID": 275310.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Pleasant Grove West",
+           "REGIONID": 275054.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "North Highland Park",
+           "REGIONID": 274713.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Greenbrier West",
+           "REGIONID": 276353.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Kelly Town-Rugby Heights",
+           "REGIONID": 274169.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Riverwood",
+           "REGIONID": 246964.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Belle And Mayo Islands",
+           "REGIONID": 272915.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Chippenham Forest",
+           "REGIONID": 273242.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Buckingham",
+           "REGIONID": 242058.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Glencarlyn",
+           "REGIONID": 243810.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Fairfield",
+           "REGIONID": 273668.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Jahnke",
+           "REGIONID": 274126.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "McGuire",
+           "REGIONID": 274465.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Stafford Albemarle Glebe",
+           "REGIONID": 275559.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Maymont",
+           "REGIONID": 274452.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Butts Station",
+           "REGIONID": 273098.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Highland Terrace",
+           "REGIONID": 274005.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Brookbury",
+           "REGIONID": 273060.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Forest View",
+           "REGIONID": 273762.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Old Diminion",
+           "REGIONID": 274880.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Oakwood",
+           "REGIONID": 274865.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Rock Spring",
+           "REGIONID": 271774.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "McGuire Manor",
+           "REGIONID": 274466.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Rivercrest",
+           "REGIONID": 246923.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Westlake Hills",
+           "REGIONID": 276025.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Cedarhurst",
+           "REGIONID": 273174.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "John Marshall",
+           "REGIONID": 274146.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Fifeville",
+           "REGIONID": 273718.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Newtowne West",
+           "REGIONID": 274675.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Downtown",
+           "REGIONID": 271703.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Woodland Heights",
+           "REGIONID": 276134.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Powhite Park",
+           "REGIONID": 275085.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Providence Park",
+           "REGIONID": 275102.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Midlothian",
+           "REGIONID": 274523.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Ashton Heights",
+           "REGIONID": 272813.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Foxcroft Heights",
+           "REGIONID": 271721.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Gravel Hill",
+           "REGIONID": 243905.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Creighton",
+           "REGIONID": 273397.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Forest Hill",
+           "REGIONID": 276334.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Woodmont",
+           "REGIONID": 248709.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "North East",
+           "REGIONID": 274704.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Clarendon-Courthouse",
+           "REGIONID": 271695.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Reedy Creek",
+           "REGIONID": 275148.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "British Camp Farms",
+           "REGIONID": 273043.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Ginter Park Terrace",
+           "REGIONID": 273823.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Wilton",
+           "REGIONID": 276094.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Three Chopt",
+           "REGIONID": 275740.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Windsor",
+           "REGIONID": 276098.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Broad Rock Sports Complex",
+           "REGIONID": 273047.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Stony Point",
+           "REGIONID": 275595.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Magnolia Industrial Center",
+           "REGIONID": 274394.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Parnell Industrial Area",
+           "REGIONID": 274985.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "The Fan",
+           "REGIONID": 275702.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Williamsburg",
+           "REGIONID": 276080.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "Dam Neck Naval Air Station",
+           "REGIONID": 344050.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Carver",
+           "REGIONID": 273147.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Shockoe Bottom",
+           "REGIONID": 275369.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Fairmount",
+           "REGIONID": 276328.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Broad Rock Industrial Park",
+           "REGIONID": 273046.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Stonewall Court",
+           "REGIONID": 275593.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Highland Park Southern Tip",
+           "REGIONID": 276374.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Tara-Leeway Heights",
+           "REGIONID": 271788.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Scott's Addition",
+           "REGIONID": 275322.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Douglas Park",
+           "REGIONID": 276301.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Great Bridge East",
+           "REGIONID": 273873.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Penrose",
+           "REGIONID": 271765.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "University Of Richmond",
+           "REGIONID": 276617.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Northampton",
+           "REGIONID": 274760.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Alexandria Wrest",
+           "REGIONID": 272744.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Longwood Dr",
+           "REGIONID": 274353.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Buckroe",
+           "REGIONID": 273084.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Northrop",
+           "REGIONID": 274790.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Woodville",
+           "REGIONID": 276671.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Westover Hills West",
+           "REGIONID": 276033.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Fulton",
+           "REGIONID": 276341.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Waycroft-Woodlawn",
+           "REGIONID": 271793.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Edgewood",
+           "REGIONID": 273600.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Monument Avenue Park",
+           "REGIONID": 276460.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Maymont Park",
+           "REGIONID": 274453.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Claremont",
+           "REGIONID": 242534.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Barcroft",
+           "REGIONID": 241444.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Rose Hill",
+           "REGIONID": 276546.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Braddock Road Metro",
+           "REGIONID": 273010.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Aurora Highlands",
+           "REGIONID": 271682.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Brauers",
+           "REGIONID": 273017.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Landmark-Van Dom",
+           "REGIONID": 274264.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Westover",
+           "REGIONID": 276031.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Fairlington-Shirlington",
+           "REGIONID": 271715.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Country Club Of Virginia",
+           "REGIONID": 273368.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Swanson",
+           "REGIONID": 275648.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Elkhardt",
+           "REGIONID": 273627.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Pine Camp",
+           "REGIONID": 275027.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Foxhill",
+           "REGIONID": 273778.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Virginia Union",
+           "REGIONID": 276633.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Potomac Yard-Potomac Greens",
+           "REGIONID": 275082.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "Fort Story",
+           "REGIONID": 344051.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Ginter Park",
+           "REGIONID": 243780.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Forest Hill Park",
+           "REGIONID": 276335.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Greenbrier",
+           "REGIONID": 273891.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Phoebus",
+           "REGIONID": 246460.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Deep Creek North",
+           "REGIONID": 273443.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Eisenhower Ave",
+           "REGIONID": 274186.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Church Hill",
+           "REGIONID": 242515.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "10th And Page",
+           "REGIONID": 272702.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Stadium",
+           "REGIONID": 275555.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Boulevard Manor",
+           "REGIONID": 273007.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Southwood",
+           "REGIONID": 275507.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Maywood",
+           "REGIONID": 271746.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Westover Hills",
+           "REGIONID": 248445.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Brookhaven Farms",
+           "REGIONID": 273061.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Willow Lawn",
+           "REGIONID": 276082.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Broad Rock",
+           "REGIONID": 273045.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Chamberlayne Industrial Center",
+           "REGIONID": 273210.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Taylor Run",
+           "REGIONID": 275675.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Warwick",
+           "REGIONID": 248278.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Capitol District",
+           "REGIONID": 273130.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Downtown",
+           "REGIONID": 273492.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "North Rosslyn",
+           "REGIONID": 274740.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Upper Shockoe Valley",
+           "REGIONID": 275831.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Forest Hill Terrace",
+           "REGIONID": 273754.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "29 North",
+           "REGIONID": 272707.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Hickory Hill",
+           "REGIONID": 273972.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Southampton",
+           "REGIONID": 275466.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Orangedale-Prospect Ave",
+           "REGIONID": 274920.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Davee Gardens",
+           "REGIONID": 273436.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Cofer",
+           "REGIONID": 273298.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Maury",
+           "REGIONID": 274448.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "US Navy Little Creek Amphibious Base",
+           "REGIONID": 344053.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Byrd Park",
+           "REGIONID": 276228.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Chain Bridge Forest",
+           "REGIONID": 271693.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Blue Ridge-Rugby Ave",
+           "REGIONID": 272987.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Mosby",
+           "REGIONID": 274598.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Charlottesville High",
+           "REGIONID": 273220.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Washington Park",
+           "REGIONID": 275928.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Bryan Park",
+           "REGIONID": 273078.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Radnor-Ft Myer Heights",
+           "REGIONID": 276524.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Hampton City",
+           "CITY": "Hampton",
+           "NAME": "Mercury Central",
+           "REGIONID": 274497.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Southern Barton Heights",
+           "REGIONID": 275478.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Seminary Hill",
+           "REGIONID": 275328.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Western Branch South",
+           "REGIONID": 276010.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Church Hill North",
+           "REGIONID": 273246.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Eisenhower East",
+           "REGIONID": 273610.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Carytown",
+           "REGIONID": 273150.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Little High",
+           "REGIONID": 274331.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Northern Barton Heights",
+           "REGIONID": 274776.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Glebewood",
+           "REGIONID": 271723.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Monroe Ward",
+           "REGIONID": 274576.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Shockoe Slip",
+           "REGIONID": 276564.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Arlington Ridge",
+           "REGIONID": 271678.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "The Museum District",
+           "REGIONID": 275714.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Willow Oaks",
+           "REGIONID": 276083.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Beaufont",
+           "REGIONID": 272895.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Arlington Heights",
+           "REGIONID": 241318.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Cottrell Farms",
+           "REGIONID": 276276.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Potomac West",
+           "REGIONID": 275081.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "McGuire Veterans Hospital",
+           "REGIONID": 274467.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Old Town North",
+           "REGIONID": 274897.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Swansboro West",
+           "REGIONID": 275647.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Deep Creek West-Dismal Swamp",
+           "REGIONID": 273445.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Huguenot",
+           "REGIONID": 274068.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Long Branch Creek",
+           "REGIONID": 271744.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Donaldson Run",
+           "REGIONID": 271701.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Belmont",
+           "REGIONID": 272932.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Locust Grove",
+           "REGIONID": 274341.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Cherrydale",
+           "REGIONID": 242442.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Chesapeake City",
+           "CITY": "Chesapeake",
+           "NAME": "Great Bridge",
+           "REGIONID": 243919.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Rosedale",
+           "REGIONID": 275249.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "North Downtown",
+           "REGIONID": 274703.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Walmsley",
+           "REGIONID": 275911.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Columbia Heights West",
+           "REGIONID": 273332.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Swansboro",
+           "REGIONID": 275646.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Deerbourne",
+           "REGIONID": 273449.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "The Meadows",
+           "REGIONID": 275713.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Johnson Village",
+           "REGIONID": 274147.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "North Ridge-Rosemont",
+           "REGIONID": 276479.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Dominion Hills",
+           "REGIONID": 243075.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "High View Park",
+           "REGIONID": 271729.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Jackson Ward",
+           "REGIONID": 274120.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Charlottesville City",
+           "CITY": "Charlottesville",
+           "NAME": "Venable",
+           "REGIONID": 271791.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Sherwood Park",
+           "REGIONID": 275365.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "The Diamond",
+           "REGIONID": 276603.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Eastview",
+           "REGIONID": 273588.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Cullenwood",
+           "REGIONID": 273420.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "City Center",
+           "REGIONID": 273258.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Forest Glen",
+           "REGIONID": 271718.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Fairfax",
+           "CITY": "Alexandria",
+           "NAME": "Southwest Wuadrant",
+           "REGIONID": 276580.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Piney Knolls",
+           "REGIONID": 275038.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Pocoshock",
+           "REGIONID": 275060.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Arlington",
+           "CITY": "Arlington",
+           "NAME": "Dover Crystal",
+           "REGIONID": 273479.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Hillside Court",
+           "REGIONID": 274026.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Hioaks",
+           "REGIONID": 274032.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Central Office",
+           "REGIONID": 273204.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Museums",
+           "REGIONID": 274629.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Mary Munford",
+           "REGIONID": 274441.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Windsor Farms",
+           "REGIONID": 248613.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Belmont Woods",
+           "REGIONID": 272934.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Virginia Beach City",
+           "CITY": "Virginia Beach",
+           "NAME": "North Central",
+           "REGIONID": 344052.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Carillon",
+           "REGIONID": 273136.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "STATE": "VA",
+           "COUNTY": "Henrico",
+           "CITY": "Richmond",
+           "NAME": "Woodhaven",
+           "REGIONID": 276126.000000
+       }
+    }
+]

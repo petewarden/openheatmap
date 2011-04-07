@@ -1,0 +1,952 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Crossroads",
+           "REGIONID": 268650.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Lynn Knoll",
+           "REGIONID": 342774.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Carriage Place",
+           "REGIONID": 342768.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Utah Park",
+           "REGIONID": 342746.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "City Park",
+           "REGIONID": 268636.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "West Colorado Springs",
+           "REGIONID": 275961.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Gateway-Green Valley Ranch",
+           "REGIONID": 273809.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Lodo",
+           "REGIONID": 268687.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Briargate",
+           "REGIONID": 268621.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Sunny Vale",
+           "REGIONID": 342770.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Southwestern Denver",
+           "REGIONID": 275505.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "City Center",
+           "REGIONID": 342755.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Central Colorado City",
+           "REGIONID": 273201.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "City Center North",
+           "REGIONID": 342754.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Auraria",
+           "REGIONID": 276193.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "East Boulder",
+           "REGIONID": 268656.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Sterling Hills",
+           "REGIONID": 342781.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Aurora Knolls-Hutchinson Heights",
+           "REGIONID": 342783.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Tower Triangle",
+           "REGIONID": 342740.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Mission Viejo",
+           "REGIONID": 342767.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "South Boulder",
+           "REGIONID": 268738.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Southeast Crossing",
+           "REGIONID": 342778.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Kingsborough",
+           "REGIONID": 342753.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Morris Heights",
+           "REGIONID": 342738.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Park Hill",
+           "REGIONID": 274964.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Horseshoe Park",
+           "REGIONID": 342752.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Alamo Placita",
+           "REGIONID": 119124.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Powers",
+           "REGIONID": 275084.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Jefferson Park",
+           "REGIONID": 268683.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Heather Ridge",
+           "REGIONID": 342747.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Laredo Highline",
+           "REGIONID": 342743.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Southeast Colorado Springs",
+           "REGIONID": 275471.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Colorado University",
+           "REGIONID": 268640.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Willow Park",
+           "REGIONID": 342763.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Five Points",
+           "REGIONID": 268662.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Highland Park",
+           "REGIONID": 342773.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Seven Hills",
+           "REGIONID": 342751.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Heather Gardens",
+           "REGIONID": 342758.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Tallyn's Reach",
+           "REGIONID": 342786.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Stapleton",
+           "REGIONID": 275564.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Dayton Triangle",
+           "REGIONID": 342761.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Sableridge",
+           "REGIONID": 342762.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "North Boulder",
+           "REGIONID": 268701.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Washington Park",
+           "REGIONID": 268772.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Northeast Colorado Springs",
+           "REGIONID": 274771.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Northgate",
+           "REGIONID": 274781.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Golden Triangle",
+           "REGIONID": 273844.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Baker",
+           "REGIONID": 268613.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Conservatory",
+           "REGIONID": 342782.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Southeast Boulder",
+           "REGIONID": 268741.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Saddle Rock Golf Club",
+           "REGIONID": 342785.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Meadow Wood",
+           "REGIONID": 342749.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Capitol Hill",
+           "REGIONID": 268628.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "North Aurora",
+           "REGIONID": 342737.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Aurora Highlands",
+           "REGIONID": 342766.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Sable Altura Chambers",
+           "REGIONID": 342779.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Murphy Creek",
+           "REGIONID": 342780.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "East Colorado Springs",
+           "REGIONID": 273540.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Northern Denver",
+           "REGIONID": 274777.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Expo Park",
+           "REGIONID": 342744.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Center Pointe",
+           "REGIONID": 342764.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Village East",
+           "REGIONID": 342741.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Rocky Ridge",
+           "REGIONID": 342757.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Heritage Eagle Bend",
+           "REGIONID": 342787.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Palo Park",
+           "REGIONID": 268714.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Northwest Colorado Springs",
+           "REGIONID": 274804.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Central Boulder",
+           "REGIONID": 268631.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Southeastern Denver",
+           "REGIONID": 275477.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Park Villas",
+           "REGIONID": 342789.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Central West Denver",
+           "REGIONID": 273207.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Meadow Hills",
+           "REGIONID": 342759.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Aurora Hills Golf Course",
+           "REGIONID": 342775.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Chambers Heights",
+           "REGIONID": 342742.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Delmar Parkway",
+           "REGIONID": 342769.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Cherry Creek",
+           "REGIONID": 268635.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Tollgate Overlook",
+           "REGIONID": 342765.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Shenandoah",
+           "REGIONID": 342776.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Lakeshore",
+           "REGIONID": 342784.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Norfolk Glen",
+           "REGIONID": 342739.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Side Creek",
+           "REGIONID": 342750.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Centretech",
+           "REGIONID": 342756.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Central East Denver",
+           "REGIONID": 273202.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Old Colorado City",
+           "REGIONID": 274879.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Highline Villages",
+           "REGIONID": 342772.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Aurora Hills",
+           "REGIONID": 342745.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Northwestern Denver",
+           "REGIONID": 274811.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "East Ridge-Ptarmigan Park",
+           "REGIONID": 342748.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Dam East-West",
+           "REGIONID": 342788.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Pheasant Run",
+           "REGIONID": 342760.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "University",
+           "REGIONID": 268760.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Denver",
+           "CITY": "Denver",
+           "NAME": "Highland",
+           "REGIONID": 273986.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Boulder",
+           "CITY": "Boulder",
+           "NAME": "Gunbarrel",
+           "REGIONID": 268670.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "El Paso",
+           "CITY": "Colorado Springs",
+           "NAME": "Southwest Colorado Springs",
+           "REGIONID": 275500.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Jewell Heights-Hoffman Heights",
+           "REGIONID": 342771.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "CO",
+           "COUNTY": "Arapahoe",
+           "CITY": "Aurora",
+           "NAME": "Prides Crossing",
+           "REGIONID": 342777.000000
+       }
+    }
+]

@@ -1,0 +1,342 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Takoma Park",
+           "REGIONID": 268831.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Catholic University-Brookland",
+           "REGIONID": 273159.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Anacostia",
+           "REGIONID": 121670.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Shaw",
+           "REGIONID": 121785.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Stadium-Armory",
+           "REGIONID": 275558.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Logan Circle",
+           "REGIONID": 121754.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Ledroit Park",
+           "REGIONID": 121750.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Chevy Chase",
+           "REGIONID": 121689.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Barnaby Woods",
+           "REGIONID": 121672.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Capitol Hill",
+           "REGIONID": 121685.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Friendship Heights",
+           "REGIONID": 121726.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Au-Tenleytown",
+           "REGIONID": 272818.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "The Palisades",
+           "REGIONID": 121797.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Cleveland Park",
+           "REGIONID": 121693.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Downtown",
+           "REGIONID": 273489.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Columbia Heights",
+           "REGIONID": 121697.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Fort Totten-Upper Northeast",
+           "REGIONID": 273767.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Deanwood",
+           "REGIONID": 121702.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Adams Morgan",
+           "REGIONID": 121668.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Petworth",
+           "REGIONID": 121774.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Foxhall Village",
+           "REGIONID": 121724.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Glover Park",
+           "REGIONID": 121731.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Kalorama",
+           "REGIONID": 268815.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Brentwood",
+           "REGIONID": 268803.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Mount Vernon Square",
+           "REGIONID": 121763.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Woodley Park",
+           "REGIONID": 121815.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Georgetown",
+           "REGIONID": 121729.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Foggy Bottom",
+           "REGIONID": 121716.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Berkley",
+           "REGIONID": 268801.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Mount Pleasant",
+           "REGIONID": 121762.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "U Street Corridor",
+           "REGIONID": 275794.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "South West",
+           "REGIONID": 275465.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Brightwood",
+           "REGIONID": 121679.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "DC",
+           "COUNTY": "District of Columbia",
+           "CITY": "Washington",
+           "NAME": "Dupont Circle",
+           "REGIONID": 121704.000000
+       }
+    }
+]

@@ -1,0 +1,6672 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "145 Association",
+           "REGIONID": 272703.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "165 Association",
+           "REGIONID": 272704.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "184 Association",
+           "REGIONID": 272705.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Adams Hill",
+           "REGIONID": 271281.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Alamo Farmsteads-Babcock Road",
+           "REGIONID": 272738.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Alamo Farmsteads-Babcock Road-Westfield",
+           "REGIONID": 343940.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Alta Vista",
+           "REGIONID": 271287.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Apple Creek",
+           "REGIONID": 275095.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Arbor At Sonoma Ranch",
+           "REGIONID": 272777.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Arboretum",
+           "REGIONID": 271289.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Arena District",
+           "REGIONID": 272787.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Artesia Community Guild",
+           "REGIONID": 272807.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Auburn Oaks",
+           "REGIONID": 276191.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Avenida Guadalupe",
+           "REGIONID": 271294.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Beacon Hill",
+           "REGIONID": 271297.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Big Country",
+           "REGIONID": 272958.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Big Springs",
+           "REGIONID": 276212.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Bitters Enclave",
+           "REGIONID": 272966.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Blanco Woods",
+           "REGIONID": 271300.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Blossom Park",
+           "REGIONID": 271301.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Bluff Creek",
+           "REGIONID": 272990.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Bluffview At Camino Real",
+           "REGIONID": 271302.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Brady Gardens",
+           "REGIONID": 273011.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Braun Hollow",
+           "REGIONID": 271306.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Braun Station East",
+           "REGIONID": 271308.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Braun Station West",
+           "REGIONID": 273018.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Braun Willow",
+           "REGIONID": 273019.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Brentfield",
+           "REGIONID": 271310.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Cable-Westwood",
+           "REGIONID": 276229.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Cadillac Drive",
+           "REGIONID": 271317.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Camelot",
+           "REGIONID": 273118.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Candlewood Park",
+           "REGIONID": 273124.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Canyon Creek Bluffs",
+           "REGIONID": 273126.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Canyon Creek Estates",
+           "REGIONID": 271320.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Canyon Creek Village",
+           "REGIONID": 273127.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Canyon View",
+           "REGIONID": 271321.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Castle Hills Forest",
+           "REGIONID": 271323.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Castle Wood Forest",
+           "REGIONID": 273155.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Cavalo Creek Estates",
+           "REGIONID": 273164.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Champions Ridge",
+           "REGIONID": 276251.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Champions Springs-Sundance",
+           "REGIONID": 273212.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Churchill Estates",
+           "REGIONID": 271328.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Churchill Heights",
+           "REGIONID": 273249.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Cielo Vista",
+           "REGIONID": 273250.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Citizens On Alert",
+           "REGIONID": 273255.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Coliseum Oaks",
+           "REGIONID": 273304.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Coliseum-Willow Park",
+           "REGIONID": 273305.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "College Park",
+           "REGIONID": 271331.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Collins Garden",
+           "REGIONID": 273318.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Colonies Village-Vance Jackson",
+           "REGIONID": 276269.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Community Workers Council",
+           "REGIONID": 273336.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Community Workers Council-Los Jardines",
+           "REGIONID": 276272.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Coolcrest",
+           "REGIONID": 271334.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Country View Village-Alamo Farmsteads-Babcock Road",
+           "REGIONID": 273376.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Countryside San Pedro",
+           "REGIONID": 276282.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Creekview Estates",
+           "REGIONID": 273396.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Crestlake",
+           "REGIONID": 273401.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Crown Meadows",
+           "REGIONID": 271340.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Crownhill Park",
+           "REGIONID": 271341.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Crownridge Of Texas",
+           "REGIONID": 273411.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Culebra Park",
+           "REGIONID": 271342.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Culebra Park-Third World",
+           "REGIONID": 273419.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Deer Hollow",
+           "REGIONID": 271344.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Deerfield",
+           "REGIONID": 271345.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dellcrest Area",
+           "REGIONID": 273457.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dellcrest Forrest",
+           "REGIONID": 271346.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dellview Area",
+           "REGIONID": 273458.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Denver Heights",
+           "REGIONID": 271348.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Devonshire S",
+           "REGIONID": 273467.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dignowity Hill",
+           "REGIONID": 271349.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dignowity Hill-St Paul Square",
+           "REGIONID": 273471.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Donaldson Terrace",
+           "REGIONID": 271351.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Downtown",
+           "REGIONID": 271352.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Dreamhill Estates Neighborhood",
+           "REGIONID": 273506.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "East Pyron-Symphony Lane-Mission San Jose",
+           "REGIONID": 273562.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "East Terrell Hills",
+           "REGIONID": 271364.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "East Village",
+           "REGIONID": 271365.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Eastgate",
+           "REGIONID": 273578.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Eastwood Village",
+           "REGIONID": 273591.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Eckhert Crossing",
+           "REGIONID": 271368.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Eden",
+           "REGIONID": 273593.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Edison",
+           "REGIONID": 271370.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "El Chaparral Fertile Valley",
+           "REGIONID": 273612.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "El Dorado",
+           "REGIONID": 271371.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Elm Creek",
+           "REGIONID": 276321.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Emerald Forest",
+           "REGIONID": 273632.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Enchanted Village-Greater Harmony Hills",
+           "REGIONID": 276323.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Encino Bluff",
+           "REGIONID": 271374.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Encino Creek",
+           "REGIONID": 271375.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Encino Park",
+           "REGIONID": 271376.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Encino Ranch",
+           "REGIONID": 273642.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Estates-Mission Hills",
+           "REGIONID": 273650.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Fairways Of Woodlake",
+           "REGIONID": 271379.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Feather Ridge",
+           "REGIONID": 273711.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Fieldstone",
+           "REGIONID": 271385.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Five Points",
+           "REGIONID": 273736.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Forest At Stone Oak",
+           "REGIONID": 273750.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Forest Oak",
+           "REGIONID": 271387.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Forests At Inwood",
+           "REGIONID": 273763.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Fox Run",
+           "REGIONID": 271390.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "French Creek Village",
+           "REGIONID": 273790.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Friends Of Friedrich Wilderness Park",
+           "REGIONID": 273795.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Gardens At Brookhollow",
+           "REGIONID": 271394.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "General Krueger",
+           "REGIONID": 273811.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Gold Canyon",
+           "REGIONID": 271399.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Government Hill Alliance",
+           "REGIONID": 273855.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Great Northwest",
+           "REGIONID": 271402.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Greater Gardendale",
+           "REGIONID": 273878.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Greater Harmony Hills",
+           "REGIONID": 273879.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Green Spring Valley",
+           "REGIONID": 271412.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Greystone Country Estates",
+           "REGIONID": 273906.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Guilbeau Park",
+           "REGIONID": 276358.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hampshire House",
+           "REGIONID": 273921.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hart Ranch Unit One",
+           "REGIONID": 273943.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Harvard Place-Eastlawn",
+           "REGIONID": 276368.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hein-Orchard",
+           "REGIONID": 273958.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Heritage",
+           "REGIONID": 271421.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hidden Cove-Indian Creek-Southwest",
+           "REGIONID": 273974.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hidden Forest",
+           "REGIONID": 271424.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hidden Meadow",
+           "REGIONID": 271425.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hidden Oaks Estates",
+           "REGIONID": 273976.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "High Country",
+           "REGIONID": 273983.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Highland Farms",
+           "REGIONID": 273993.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Highland Forest",
+           "REGIONID": 273994.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Highland Hills",
+           "REGIONID": 271427.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Highland Oaks",
+           "REGIONID": 273996.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Highland Park",
+           "REGIONID": 274001.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hill Country Villas",
+           "REGIONID": 274015.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hillcrest",
+           "REGIONID": 274018.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hills And Dales",
+           "REGIONID": 271429.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Historic Gardens",
+           "REGIONID": 274033.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hunters Brook-Hunters Chase",
+           "REGIONID": 274070.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hunters Chase",
+           "REGIONID": 274071.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hunters Creek",
+           "REGIONID": 271432.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Hunters Mill",
+           "REGIONID": 271433.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Huntington Place",
+           "REGIONID": 271435.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ingram Hills",
+           "REGIONID": 271440.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Inspiration Hills",
+           "REGIONID": 271441.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Inwood Homeowners",
+           "REGIONID": 276393.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jade Oaks",
+           "REGIONID": 276397.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jefferson",
+           "REGIONID": 274135.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jefferson Heights",
+           "REGIONID": 276399.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jefferson-Monticello Park",
+           "REGIONID": 274138.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jefferson-Monticello Park-Woodlawn Lake",
+           "REGIONID": 274139.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Jefferson-Woodlawn Lake",
+           "REGIONID": 274140.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Kensington Row",
+           "REGIONID": 274177.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "King William",
+           "REGIONID": 271444.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Kingsborough Ridge",
+           "REGIONID": 271445.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Knollcreek",
+           "REGIONID": 271446.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Laddie Place And North Wilson",
+           "REGIONID": 274219.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lafayette Place",
+           "REGIONID": 274220.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lago Vista-South Southwest",
+           "REGIONID": 274934.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lakeside",
+           "REGIONID": 276413.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Las Lomas-Stone Oak",
+           "REGIONID": 274274.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lavaca",
+           "REGIONID": 271451.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Legend Hills",
+           "REGIONID": 274292.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lindsey Place",
+           "REGIONID": 274324.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lockhill Estates",
+           "REGIONID": 271454.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Loma Park",
+           "REGIONID": 271455.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Loma Vista",
+           "REGIONID": 276427.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Longs Ridge",
+           "REGIONID": 274350.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lorrence Creek",
+           "REGIONID": 274354.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Los Angeles Heights-Keystone",
+           "REGIONID": 274356.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Los Jardines",
+           "REGIONID": 274360.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Lower Southeast Side",
+           "REGIONID": 274373.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mahncke Park",
+           "REGIONID": 271459.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Maverick Creek",
+           "REGIONID": 274449.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "McCreless Meadows",
+           "REGIONID": 274459.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Meadow Village",
+           "REGIONID": 271462.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Meadowbrook",
+           "REGIONID": 271463.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Memorial Heights",
+           "REGIONID": 271468.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mesa Vista-Stone Oak",
+           "REGIONID": 274506.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mission Ridge",
+           "REGIONID": 271470.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mission San Jose",
+           "REGIONID": 271471.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mission Trace-Vance Jackson",
+           "REGIONID": 274558.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Misty Oaks",
+           "REGIONID": 271473.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mockingbird Hill",
+           "REGIONID": 271476.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Monte Vista",
+           "REGIONID": 271477.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Mountain View Acres",
+           "REGIONID": 274615.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Nevada Street",
+           "REGIONID": 271484.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "North Castle Hills",
+           "REGIONID": 271491.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "North Central Heritage",
+           "REGIONID": 271493.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "North Central Thousand Oaks",
+           "REGIONID": 271494.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "North San Antonio Hills",
+           "REGIONID": 271498.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "North Shearer Hills",
+           "REGIONID": 271499.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northchase",
+           "REGIONID": 271502.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northern Heights",
+           "REGIONID": 271505.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northern Hills",
+           "REGIONID": 271506.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northern Hills Country Village",
+           "REGIONID": 271507.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northhampton",
+           "REGIONID": 275096.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northmoor",
+           "REGIONID": 274788.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northwest Crossing",
+           "REGIONID": 271512.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northwest Los Angeles Heights",
+           "REGIONID": 274809.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northwest Park",
+           "REGIONID": 271513.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Northwood Hills Improvement Club",
+           "REGIONID": 274813.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Bluff",
+           "REGIONID": 274826.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Creek",
+           "REGIONID": 271515.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Grove Estates",
+           "REGIONID": 274831.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Haven Heights",
+           "REGIONID": 271516.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Hills",
+           "REGIONID": 274832.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Hollow Park",
+           "REGIONID": 274833.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Meadow",
+           "REGIONID": 271519.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Park-Northwood",
+           "REGIONID": 274837.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oak Valley",
+           "REGIONID": 276494.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oakdell",
+           "REGIONID": 274846.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oakland Heights",
+           "REGIONID": 274854.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oakmont Downs",
+           "REGIONID": 271521.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oakwood",
+           "REGIONID": 276498.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Olmos Park Terrace",
+           "REGIONID": 271524.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Overlook Of Carriage Hills",
+           "REGIONID": 274931.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Oxbow",
+           "REGIONID": 271526.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Palm Heights",
+           "REGIONID": 274946.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Park Forest",
+           "REGIONID": 271527.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Park Place",
+           "REGIONID": 274971.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Park Village",
+           "REGIONID": 271528.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Parkwood Maintenance",
+           "REGIONID": 274984.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Pecan Valley",
+           "REGIONID": 271533.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Pecan Valley Heights-Pecan Valley",
+           "REGIONID": 274994.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Pecan Valley Park Estates-Pecan Valley",
+           "REGIONID": 276510.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Perrin Park",
+           "REGIONID": 271536.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Pipers Meadow",
+           "REGIONID": 271538.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Preston Hollow",
+           "REGIONID": 276520.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Promontory Pointe-Heights",
+           "REGIONID": 276521.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Prospect Hill",
+           "REGIONID": 275097.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Provincia Villas",
+           "REGIONID": 275104.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Quail Creek",
+           "REGIONID": 275110.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Quintana Community",
+           "REGIONID": 275119.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Rainbow Hills",
+           "REGIONID": 271540.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Randolph Hills",
+           "REGIONID": 275135.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Range Rider",
+           "REGIONID": 271541.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Redland Estates",
+           "REGIONID": 275143.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Redland Ridge",
+           "REGIONID": 275144.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Redland Springs",
+           "REGIONID": 275145.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Redland Woods",
+           "REGIONID": 271543.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Regency Meadow",
+           "REGIONID": 271544.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Regency Park",
+           "REGIONID": 271545.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Remington Heights",
+           "REGIONID": 275282.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ridge At Deerfield",
+           "REGIONID": 275166.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ridgehaven Volunteer",
+           "REGIONID": 275168.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ridgestone",
+           "REGIONID": 271548.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ridgestone No 9",
+           "REGIONID": 275171.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "River Road",
+           "REGIONID": 271549.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Riverside",
+           "REGIONID": 275202.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Riverside South",
+           "REGIONID": 275208.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Rolling Ridge Club",
+           "REGIONID": 271552.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Rolling Ridge Village-Rolling Ridge Club",
+           "REGIONID": 275233.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Roosevelt Park",
+           "REGIONID": 275241.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Roseheart",
+           "REGIONID": 275250.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Royal Ridge",
+           "REGIONID": 271553.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Royal View",
+           "REGIONID": 275260.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Saddlebrook Farms",
+           "REGIONID": 275267.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Saint Paul Square",
+           "REGIONID": 271589.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "San Antonio Cambridge Village-East Terrell Hills",
+           "REGIONID": 275280.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "San Antonio Creekside",
+           "REGIONID": 271556.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Santa Fe Trails",
+           "REGIONID": 271558.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Scattered Oaks",
+           "REGIONID": 271559.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Scenic Country Estates",
+           "REGIONID": 275314.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Shady Oaks",
+           "REGIONID": 275341.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Shavano Forest",
+           "REGIONID": 275347.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Shavano Garden Homes",
+           "REGIONID": 275348.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Shavano Heights",
+           "REGIONID": 275349.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Shearer Hills-Ridgeview",
+           "REGIONID": 275353.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sierra Springs",
+           "REGIONID": 275375.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sierra Vista",
+           "REGIONID": 275376.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Silverbrook",
+           "REGIONID": 275380.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Skyline Park",
+           "REGIONID": 271565.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sonoma Ranch",
+           "REGIONID": 275398.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sonterra",
+           "REGIONID": 275399.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sonterra-Stone Oak",
+           "REGIONID": 275400.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "South Southwest",
+           "REGIONID": 271575.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Southeast Side",
+           "REGIONID": 271579.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Southpark",
+           "REGIONID": 275484.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Southwest",
+           "REGIONID": 275497.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Spring Creek",
+           "REGIONID": 275514.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Springvale",
+           "REGIONID": 271586.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Spyglass Hill",
+           "REGIONID": 275530.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "St James Place",
+           "REGIONID": 275283.000000
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stablewood-Valley Hi North",
+           "REGIONID": 275554.000000
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stanton Run",
+           "REGIONID": 271590.000000
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Steeplebrook",
+           "REGIONID": 275571.000000
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Steubing Ranch",
+           "REGIONID": 275575.000000
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Mountain",
+           "REGIONID": 276591.000000
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Oak",
+           "REGIONID": 271591.000000
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Oak Communities",
+           "REGIONID": 275584.000000
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Oak Meadows",
+           "REGIONID": 275585.000000
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Oak Parke",
+           "REGIONID": 275586.000000
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Valley",
+           "REGIONID": 276592.000000
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stone Wood",
+           "REGIONID": 275587.000000
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stonefield",
+           "REGIONID": 275588.000000
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Stonegate Hills At Westover Hill",
+           "REGIONID": 275591.000000
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Summerglen",
+           "REGIONID": 275608.000000
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Summit At Bulverde Creek",
+           "REGIONID": 275610.000000
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Summit-Stone Oak",
+           "REGIONID": 276599.000000
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sun Gate",
+           "REGIONID": 275614.000000
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sunny Slope",
+           "REGIONID": 271595.000000
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sunrise",
+           "REGIONID": 275627.000000
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Sunshine Estates",
+           "REGIONID": 271597.000000
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tanglewood",
+           "REGIONID": 275671.000000
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Terrell Heights",
+           "REGIONID": 271601.000000
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tezel Heights",
+           "REGIONID": 275690.000000
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tezel Trails",
+           "REGIONID": 275691.000000
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Bluffs Of Henderson Pass",
+           "REGIONID": 275693.000000
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Champions Estates-Stone Oak",
+           "REGIONID": 275694.000000
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Crossing At Quail Creek",
+           "REGIONID": 275696.000000
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Dominion",
+           "REGIONID": 275697.000000
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Estates At Stonegate",
+           "REGIONID": 275700.000000
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Fountains At Deerfield",
+           "REGIONID": 275703.000000
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Heights At Stone Oak",
+           "REGIONID": 275708.000000
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Hills Of Park North",
+           "REGIONID": 275710.000000
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Oaks-Oak Park-Northwood",
+           "REGIONID": 275717.000000
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Overlook",
+           "REGIONID": 275718.000000
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Park At Deerfield",
+           "REGIONID": 275719.000000
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Park-Waters",
+           "REGIONID": 276605.000000
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Seventh At Sonterra-The Vineyard",
+           "REGIONID": 275722.000000
+       }
+    },
+    {
+       "index": 314,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Springs",
+           "REGIONID": 275724.000000
+       }
+    },
+    {
+       "index": 315,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Terraces At Encino Creek",
+           "REGIONID": 275725.000000
+       }
+    },
+    {
+       "index": 316,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Vineyard",
+           "REGIONID": 275729.000000
+       }
+    },
+    {
+       "index": 317,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "The Waters At Deerfield",
+           "REGIONID": 275731.000000
+       }
+    },
+    {
+       "index": 318,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Third World",
+           "REGIONID": 271604.000000
+       }
+    },
+    {
+       "index": 319,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Thompson Community",
+           "REGIONID": 271605.000000
+       }
+    },
+    {
+       "index": 320,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Thousand Oaks",
+           "REGIONID": 271606.000000
+       }
+    },
+    {
+       "index": 321,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Thunderbird Hills",
+           "REGIONID": 271607.000000
+       }
+    },
+    {
+       "index": 322,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tierra Del Sol",
+           "REGIONID": 271557.000000
+       }
+    },
+    {
+       "index": 323,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tierra Linda",
+           "REGIONID": 275744.000000
+       }
+    },
+    {
+       "index": 324,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Timber Ridge",
+           "REGIONID": 271608.000000
+       }
+    },
+    {
+       "index": 325,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Tobin Hill",
+           "REGIONID": 271609.000000
+       }
+    },
+    {
+       "index": 326,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Towne Lake Garden",
+           "REGIONID": 276612.000000
+       }
+    },
+    {
+       "index": 327,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Trophy Ridge",
+           "REGIONID": 276615.000000
+       }
+    },
+    {
+       "index": 328,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "United Homeowners",
+           "REGIONID": 275804.000000
+       }
+    },
+    {
+       "index": 329,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "United Westwood",
+           "REGIONID": 271612.000000
+       }
+    },
+    {
+       "index": 330,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "University Park",
+           "REGIONID": 276618.000000
+       }
+    },
+    {
+       "index": 331,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Valencia",
+           "REGIONID": 271619.000000
+       }
+    },
+    {
+       "index": 332,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Valley Forest",
+           "REGIONID": 275006.000000
+       }
+    },
+    {
+       "index": 333,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Valley Hi North",
+           "REGIONID": 275844.000000
+       }
+    },
+    {
+       "index": 334,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Vance Jackson",
+           "REGIONID": 271622.000000
+       }
+    },
+    {
+       "index": 335,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Ventura",
+           "REGIONID": 275854.000000
+       }
+    },
+    {
+       "index": 336,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Verde Hills",
+           "REGIONID": 271624.000000
+       }
+    },
+    {
+       "index": 337,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Villa De San Antonio",
+           "REGIONID": 275866.000000
+       }
+    },
+    {
+       "index": 338,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Village At Big Country",
+           "REGIONID": 276630.000000
+       }
+    },
+    {
+       "index": 339,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Village At Rustic Oaks",
+           "REGIONID": 275870.000000
+       }
+    },
+    {
+       "index": 340,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Village In The Woods",
+           "REGIONID": 276631.000000
+       }
+    },
+    {
+       "index": 341,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Village North One",
+           "REGIONID": 275874.000000
+       }
+    },
+    {
+       "index": 342,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Villages Of Westcreek",
+           "REGIONID": 271626.000000
+       }
+    },
+    {
+       "index": 343,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Villas At Redland Ranch",
+           "REGIONID": 275879.000000
+       }
+    },
+    {
+       "index": 344,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Villas De Esperanza",
+           "REGIONID": 275880.000000
+       }
+    },
+    {
+       "index": 345,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Villas Of Babcock-Summerwind",
+           "REGIONID": 275881.000000
+       }
+    },
+    {
+       "index": 346,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Vista",
+           "REGIONID": 275891.000000
+       }
+    },
+    {
+       "index": 347,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Vista Del Norte",
+           "REGIONID": 275893.000000
+       }
+    },
+    {
+       "index": 348,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Vistas Of Encino Park",
+           "REGIONID": 275897.000000
+       }
+    },
+    {
+       "index": 349,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Walden Meadows",
+           "REGIONID": 275906.000000
+       }
+    },
+    {
+       "index": 350,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Walker Ranch",
+           "REGIONID": 275908.000000
+       }
+    },
+    {
+       "index": 351,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wellsprings-Vance Jackson",
+           "REGIONID": 275945.000000
+       }
+    },
+    {
+       "index": 352,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Westfield",
+           "REGIONID": 274935.000000
+       }
+    },
+    {
+       "index": 353,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Westfort Alliance",
+           "REGIONID": 276019.000000
+       }
+    },
+    {
+       "index": 354,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Westwood Village",
+           "REGIONID": 276045.000000
+       }
+    },
+    {
+       "index": 355,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wheatley Heights",
+           "REGIONID": 271642.000000
+       }
+    },
+    {
+       "index": 356,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Whisper Hollow",
+           "REGIONID": 276052.000000
+       }
+    },
+    {
+       "index": 357,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Whispering Oaks",
+           "REGIONID": 271644.000000
+       }
+    },
+    {
+       "index": 358,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wilderness Pointe",
+           "REGIONID": 271646.000000
+       }
+    },
+    {
+       "index": 359,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wildwood West",
+           "REGIONID": 276076.000000
+       }
+    },
+    {
+       "index": 360,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wilshire",
+           "REGIONID": 271650.000000
+       }
+    },
+    {
+       "index": 361,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wilshire Village",
+           "REGIONID": 276091.000000
+       }
+    },
+    {
+       "index": 362,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woller Creek",
+           "REGIONID": 271656.000000
+       }
+    },
+    {
+       "index": 363,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodbridge At Monte Viejo",
+           "REGIONID": 276120.000000
+       }
+    },
+    {
+       "index": 364,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodglen",
+           "REGIONID": 276125.000000
+       }
+    },
+    {
+       "index": 365,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodlake",
+           "REGIONID": 276132.000000
+       }
+    },
+    {
+       "index": 366,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodlands Of Camino Real",
+           "REGIONID": 271657.000000
+       }
+    },
+    {
+       "index": 367,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodlawn Lake",
+           "REGIONID": 271659.000000
+       }
+    },
+    {
+       "index": 368,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodmont",
+           "REGIONID": 276146.000000
+       }
+    },
+    {
+       "index": 369,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodridge",
+           "REGIONID": 271661.000000
+       }
+    },
+    {
+       "index": 370,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woods Of Deerfield",
+           "REGIONID": 271662.000000
+       }
+    },
+    {
+       "index": 371,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woods Of Shavano",
+           "REGIONID": 271663.000000
+       }
+    },
+    {
+       "index": 372,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodstone",
+           "REGIONID": 271664.000000
+       }
+    },
+    {
+       "index": 373,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Woodthorn",
+           "REGIONID": 276150.000000
+       }
+    },
+    {
+       "index": 374,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Bexar",
+           "CITY": "San Antonio",
+           "NAME": "Wynnwood",
+           "REGIONID": 276164.000000
+       }
+    },
+    {
+       "index": 375,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Arts District",
+           "REGIONID": 276189.000000
+       }
+    },
+    {
+       "index": 376,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Bluffview",
+           "REGIONID": 272991.000000
+       }
+    },
+    {
+       "index": 377,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Cedar Crest",
+           "REGIONID": 273167.000000
+       }
+    },
+    {
+       "index": 378,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "City Center District",
+           "REGIONID": 273261.000000
+       }
+    },
+    {
+       "index": 379,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Cockrell Hill",
+           "REGIONID": 232211.000000
+       }
+    },
+    {
+       "index": 380,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Convention Center District",
+           "REGIONID": 273342.000000
+       }
+    },
+    {
+       "index": 381,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Eagle Ford",
+           "REGIONID": 232843.000000
+       }
+    },
+    {
+       "index": 382,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Far North",
+           "REGIONID": 273698.000000
+       }
+    },
+    {
+       "index": 383,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Farmers Market District",
+           "REGIONID": 273707.000000
+       }
+    },
+    {
+       "index": 384,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Five Mile Creek",
+           "REGIONID": 276332.000000
+       }
+    },
+    {
+       "index": 385,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Government District",
+           "REGIONID": 273854.000000
+       }
+    },
+    {
+       "index": 386,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Highland Park",
+           "REGIONID": 234035.000000
+       }
+    },
+    {
+       "index": 387,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Lake Caroline",
+           "REGIONID": 274223.000000
+       }
+    },
+    {
+       "index": 388,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Lake Highlands",
+           "REGIONID": 274230.000000
+       }
+    },
+    {
+       "index": 389,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Love Field Area",
+           "REGIONID": 274365.000000
+       }
+    },
+    {
+       "index": 390,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Main Street District",
+           "REGIONID": 274399.000000
+       }
+    },
+    {
+       "index": 391,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Near East",
+           "REGIONID": 276468.000000
+       }
+    },
+    {
+       "index": 392,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "North Dallas",
+           "REGIONID": 271495.000000
+       }
+    },
+    {
+       "index": 393,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Northeast Dallas",
+           "REGIONID": 274772.000000
+       }
+    },
+    {
+       "index": 394,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Northwest Dallas",
+           "REGIONID": 274805.000000
+       }
+    },
+    {
+       "index": 395,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Oak Cliff",
+           "REGIONID": 236102.000000
+       }
+    },
+    {
+       "index": 396,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Oak Lawn",
+           "REGIONID": 274835.000000
+       }
+    },
+    {
+       "index": 397,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Preston Hollow",
+           "REGIONID": 275090.000000
+       }
+    },
+    {
+       "index": 398,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Reunion District",
+           "REGIONID": 275154.000000
+       }
+    },
+    {
+       "index": 399,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "South Boulevard-Park Row",
+           "REGIONID": 275414.000000
+       }
+    },
+    {
+       "index": 400,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "South Dallas",
+           "REGIONID": 271568.000000
+       }
+    },
+    {
+       "index": 401,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Southeast Dallas",
+           "REGIONID": 275473.000000
+       }
+    },
+    {
+       "index": 402,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Southwest Dallas",
+           "REGIONID": 275501.000000
+       }
+    },
+    {
+       "index": 403,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "University Park",
+           "REGIONID": 238503.000000
+       }
+    },
+    {
+       "index": 404,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Urbandale-Parkdale",
+           "REGIONID": 275838.000000
+       }
+    },
+    {
+       "index": 405,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "West End Historic District",
+           "REGIONID": 275968.000000
+       }
+    },
+    {
+       "index": 406,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Winnetka Heights",
+           "REGIONID": 276107.000000
+       }
+    },
+    {
+       "index": 407,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "Wolf Creek",
+           "REGIONID": 276113.000000
+       }
+    },
+    {
+       "index": 408,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Dallas",
+           "NAME": "m Streets",
+           "REGIONID": 272701.000000
+       }
+    },
+    {
+       "index": 409,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Almeta-Bonita-Bella Vista",
+           "REGIONID": 272757.000000
+       }
+    },
+    {
+       "index": 410,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Apollo Arapaho And Camelot",
+           "REGIONID": 343419.000000
+       }
+    },
+    {
+       "index": 411,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Arbor Creek",
+           "REGIONID": 272778.000000
+       }
+    },
+    {
+       "index": 412,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Bellaire Heights",
+           "REGIONID": 272914.000000
+       }
+    },
+    {
+       "index": 413,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Brentwood Place",
+           "REGIONID": 273025.000000
+       }
+    },
+    {
+       "index": 414,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Brentwood Village",
+           "REGIONID": 273026.000000
+       }
+    },
+    {
+       "index": 415,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Briaroaks",
+           "REGIONID": 273031.000000
+       }
+    },
+    {
+       "index": 416,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Broadway Village",
+           "REGIONID": 273056.000000
+       }
+    },
+    {
+       "index": 417,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Buckingham North",
+           "REGIONID": 273083.000000
+       }
+    },
+    {
+       "index": 418,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Camelot",
+           "REGIONID": 276233.000000
+       }
+    },
+    {
+       "index": 419,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Camelot Community",
+           "REGIONID": 273120.000000
+       }
+    },
+    {
+       "index": 420,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Chandler Heights",
+           "REGIONID": 273213.000000
+       }
+    },
+    {
+       "index": 421,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Charleston Commons",
+           "REGIONID": 273218.000000
+       }
+    },
+    {
+       "index": 422,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Club Creek",
+           "REGIONID": 273292.000000
+       }
+    },
+    {
+       "index": 423,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Coomer Creek",
+           "REGIONID": 273343.000000
+       }
+    },
+    {
+       "index": 424,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Country Brook",
+           "REGIONID": 273363.000000
+       }
+    },
+    {
+       "index": 425,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Creek Bend",
+           "REGIONID": 273392.000000
+       }
+    },
+    {
+       "index": 426,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Creek Valley",
+           "REGIONID": 273393.000000
+       }
+    },
+    {
+       "index": 427,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Creekside",
+           "REGIONID": 273395.000000
+       }
+    },
+    {
+       "index": 428,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Creekside Village",
+           "REGIONID": 276283.000000
+       }
+    },
+    {
+       "index": 429,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Crows Nest",
+           "REGIONID": 273412.000000
+       }
+    },
+    {
+       "index": 430,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Crystal Falls",
+           "REGIONID": 273413.000000
+       }
+    },
+    {
+       "index": 431,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Crystal Lake",
+           "REGIONID": 273414.000000
+       }
+    },
+    {
+       "index": 432,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Dalcastle And Linda Heights",
+           "REGIONID": 343420.000000
+       }
+    },
+    {
+       "index": 433,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Duck Creek",
+           "REGIONID": 273512.000000
+       }
+    },
+    {
+       "index": 434,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Duck Creek Estates",
+           "REGIONID": 273513.000000
+       }
+    },
+    {
+       "index": 435,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Fall Creek Estates",
+           "REGIONID": 273694.000000
+       }
+    },
+    {
+       "index": 436,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Fernwood",
+           "REGIONID": 273716.000000
+       }
+    },
+    {
+       "index": 437,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Firewheel Estates",
+           "REGIONID": 273724.000000
+       }
+    },
+    {
+       "index": 438,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Firewheel Farms",
+           "REGIONID": 273725.000000
+       }
+    },
+    {
+       "index": 439,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "First Centerville",
+           "REGIONID": 273726.000000
+       }
+    },
+    {
+       "index": 440,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Forest Crest",
+           "REGIONID": 273751.000000
+       }
+    },
+    {
+       "index": 441,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Freemonteers",
+           "REGIONID": 273786.000000
+       }
+    },
+    {
+       "index": 442,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Gatewood Estates",
+           "REGIONID": 273810.000000
+       }
+    },
+    {
+       "index": 443,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Glynnhill Highland Estates",
+           "REGIONID": 273841.000000
+       }
+    },
+    {
+       "index": 444,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Greens",
+           "REGIONID": 273895.000000
+       }
+    },
+    {
+       "index": 445,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Greens Estates",
+           "REGIONID": 273896.000000
+       }
+    },
+    {
+       "index": 446,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Hidden Forest",
+           "REGIONID": 273975.000000
+       }
+    },
+    {
+       "index": 447,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Hills Of Firewheel",
+           "REGIONID": 274020.000000
+       }
+    },
+    {
+       "index": 448,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Holford",
+           "REGIONID": 274042.000000
+       }
+    },
+    {
+       "index": 449,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Holiday Park",
+           "REGIONID": 274043.000000
+       }
+    },
+    {
+       "index": 450,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Keningston Gardens",
+           "REGIONID": 274172.000000
+       }
+    },
+    {
+       "index": 451,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Lake Point S",
+           "REGIONID": 274238.000000
+       }
+    },
+    {
+       "index": 452,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Lakeview",
+           "REGIONID": 274255.000000
+       }
+    },
+    {
+       "index": 453,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Las Mariposas",
+           "REGIONID": 274275.000000
+       }
+    },
+    {
+       "index": 454,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Meadowcreek Village",
+           "REGIONID": 274482.000000
+       }
+    },
+    {
+       "index": 455,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Meadowood",
+           "REGIONID": 274485.000000
+       }
+    },
+    {
+       "index": 456,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Mill Creek Crossing",
+           "REGIONID": 276453.000000
+       }
+    },
+    {
+       "index": 457,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Monica Park",
+           "REGIONID": 274573.000000
+       }
+    },
+    {
+       "index": 458,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Monica Park Heights",
+           "REGIONID": 274574.000000
+       }
+    },
+    {
+       "index": 459,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "New West",
+           "REGIONID": 274668.000000
+       }
+    },
+    {
+       "index": 460,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Northeast Garland",
+           "REGIONID": 274773.000000
+       }
+    },
+    {
+       "index": 461,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Oakcrest",
+           "REGIONID": 274842.000000
+       }
+    },
+    {
+       "index": 462,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Oakridge",
+           "REGIONID": 274859.000000
+       }
+    },
+    {
+       "index": 463,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Oakridge On The Creek",
+           "REGIONID": 274860.000000
+       }
+    },
+    {
+       "index": 464,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Oaks",
+           "REGIONID": 274861.000000
+       }
+    },
+    {
+       "index": 465,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Oaks Of Stoney Creek",
+           "REGIONID": 274862.000000
+       }
+    },
+    {
+       "index": 466,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Orchard Hills",
+           "REGIONID": 276503.000000
+       }
+    },
+    {
+       "index": 467,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Park Groves",
+           "REGIONID": 274963.000000
+       }
+    },
+    {
+       "index": 468,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Park North",
+           "REGIONID": 274969.000000
+       }
+    },
+    {
+       "index": 469,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Picket Place",
+           "REGIONID": 275023.000000
+       }
+    },
+    {
+       "index": 470,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Place One",
+           "REGIONID": 275043.000000
+       }
+    },
+    {
+       "index": 471,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Rainbow Estates",
+           "REGIONID": 275122.000000
+       }
+    },
+    {
+       "index": 472,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Redbud",
+           "REGIONID": 276527.000000
+       }
+    },
+    {
+       "index": 473,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Retreat At Firewheel",
+           "REGIONID": 275153.000000
+       }
+    },
+    {
+       "index": 474,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Rustic Oaks",
+           "REGIONID": 276549.000000
+       }
+    },
+    {
+       "index": 475,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Shores Of Eastern Hills",
+           "REGIONID": 275370.000000
+       }
+    },
+    {
+       "index": 476,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Springfield Estates",
+           "REGIONID": 275517.000000
+       }
+    },
+    {
+       "index": 477,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Springpark",
+           "REGIONID": 275522.000000
+       }
+    },
+    {
+       "index": 478,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Summerfield Estates",
+           "REGIONID": 275607.000000
+       }
+    },
+    {
+       "index": 479,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Sutton Place",
+           "REGIONID": 275642.000000
+       }
+    },
+    {
+       "index": 480,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "The Enclave",
+           "REGIONID": 275699.000000
+       }
+    },
+    {
+       "index": 481,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "The Fairways At Firewheel",
+           "REGIONID": 275701.000000
+       }
+    },
+    {
+       "index": 482,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "The Hills Of Breckenridge",
+           "REGIONID": 276604.000000
+       }
+    },
+    {
+       "index": 483,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "The Shores Of Wellington",
+           "REGIONID": 275723.000000
+       }
+    },
+    {
+       "index": 484,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Town North Village",
+           "REGIONID": 275765.000000
+       }
+    },
+    {
+       "index": 485,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Towngate",
+           "REGIONID": 275767.000000
+       }
+    },
+    {
+       "index": 486,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Trails",
+           "REGIONID": 275769.000000
+       }
+    },
+    {
+       "index": 487,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Valley Creek",
+           "REGIONID": 275842.000000
+       }
+    },
+    {
+       "index": 488,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Valley Creek North",
+           "REGIONID": 275843.000000
+       }
+    },
+    {
+       "index": 489,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Village Green",
+           "REGIONID": 275873.000000
+       }
+    },
+    {
+       "index": 490,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Waterford Estates",
+           "REGIONID": 275932.000000
+       }
+    },
+    {
+       "index": 491,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Windsor Park",
+           "REGIONID": 276663.000000
+       }
+    },
+    {
+       "index": 492,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Wood Glen",
+           "REGIONID": 276666.000000
+       }
+    },
+    {
+       "index": 493,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Dallas",
+           "CITY": "Garland",
+           "NAME": "Wykeham Townhomes",
+           "REGIONID": 276161.000000
+       }
+    },
+    {
+       "index": 494,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "A Presidential Neighborhood",
+           "REGIONID": 276181.000000
+       }
+    },
+    {
+       "index": 495,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Alameda Business",
+           "REGIONID": 272735.000000
+       }
+    },
+    {
+       "index": 496,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Album Park",
+           "REGIONID": 272740.000000
+       }
+    },
+    {
+       "index": 497,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Borderland",
+           "REGIONID": 231541.000000
+       }
+    },
+    {
+       "index": 498,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Buena Vista",
+           "REGIONID": 231696.000000
+       }
+    },
+    {
+       "index": 499,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Carpenter",
+           "REGIONID": 273143.000000
+       }
+    },
+    {
+       "index": 500,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Castner Heights",
+           "REGIONID": 273156.000000
+       }
+    },
+    {
+       "index": 501,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Central",
+           "REGIONID": 273184.000000
+       }
+    },
+    {
+       "index": 502,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Chamizal",
+           "REGIONID": 273211.000000
+       }
+    },
+    {
+       "index": 503,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Chihuahuita",
+           "REGIONID": 343359.000000
+       }
+    },
+    {
+       "index": 504,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Cielo Vista",
+           "REGIONID": 232117.000000
+       }
+    },
+    {
+       "index": 505,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Coronado",
+           "REGIONID": 273353.000000
+       }
+    },
+    {
+       "index": 506,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Eagle",
+           "REGIONID": 276309.000000
+       }
+    },
+    {
+       "index": 507,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "East Side",
+           "REGIONID": 273566.000000
+       }
+    },
+    {
+       "index": 508,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "El Paso High",
+           "REGIONID": 273619.000000
+       }
+    },
+    {
+       "index": 509,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "El Paso Lower Valley",
+           "REGIONID": 273620.000000
+       }
+    },
+    {
+       "index": 510,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Five Points",
+           "REGIONID": 273735.000000
+       }
+    },
+    {
+       "index": 511,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Friends Of Karl Wyler",
+           "REGIONID": 273796.000000
+       }
+    },
+    {
+       "index": 512,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Golden Hills",
+           "REGIONID": 273843.000000
+       }
+    },
+    {
+       "index": 513,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Houston Park",
+           "REGIONID": 274063.000000
+       }
+    },
+    {
+       "index": 514,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "La Colonia Escondida",
+           "REGIONID": 274210.000000
+       }
+    },
+    {
+       "index": 515,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Lakeside",
+           "REGIONID": 234770.000000
+       }
+    },
+    {
+       "index": 516,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Las Palmas",
+           "REGIONID": 274276.000000
+       }
+    },
+    {
+       "index": 517,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Las Tierras",
+           "REGIONID": 274279.000000
+       }
+    },
+    {
+       "index": 518,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Little Bit Of Country",
+           "REGIONID": 274329.000000
+       }
+    },
+    {
+       "index": 519,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Lower Valley",
+           "REGIONID": 271457.000000
+       }
+    },
+    {
+       "index": 520,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Magoffin",
+           "REGIONID": 274396.000000
+       }
+    },
+    {
+       "index": 521,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Manhattan Heights",
+           "REGIONID": 274406.000000
+       }
+    },
+    {
+       "index": 522,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Medina",
+           "REGIONID": 274491.000000
+       }
+    },
+    {
+       "index": 523,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Mesa Hills",
+           "REGIONID": 274505.000000
+       }
+    },
+    {
+       "index": 524,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Mission Hills",
+           "REGIONID": 235644.000000
+       }
+    },
+    {
+       "index": 525,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Montoya Heights",
+           "REGIONID": 274581.000000
+       }
+    },
+    {
+       "index": 526,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Mountain Arroyos",
+           "REGIONID": 274608.000000
+       }
+    },
+    {
+       "index": 527,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Mountain Park",
+           "REGIONID": 274611.000000
+       }
+    },
+    {
+       "index": 528,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "North Hills",
+           "REGIONID": 274718.000000
+       }
+    },
+    {
+       "index": 529,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Northeast",
+           "REGIONID": 271503.000000
+       }
+    },
+    {
+       "index": 530,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Northwest",
+           "REGIONID": 271511.000000
+       }
+    },
+    {
+       "index": 531,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Pasadena",
+           "REGIONID": 274986.000000
+       }
+    },
+    {
+       "index": 532,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Redd-Mulberry",
+           "REGIONID": 275142.000000
+       }
+    },
+    {
+       "index": 533,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Rim Area",
+           "REGIONID": 275175.000000
+       }
+    },
+    {
+       "index": 534,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Roberts",
+           "REGIONID": 275219.000000
+       }
+    },
+    {
+       "index": 535,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Rosedale",
+           "REGIONID": 276547.000000
+       }
+    },
+    {
+       "index": 536,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "San Juan",
+           "REGIONID": 275291.000000
+       }
+    },
+    {
+       "index": 537,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Save The Valley 21",
+           "REGIONID": 275312.000000
+       }
+    },
+    {
+       "index": 538,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Silver Springs Village",
+           "REGIONID": 275379.000000
+       }
+    },
+    {
+       "index": 539,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "South Mesa",
+           "REGIONID": 275447.000000
+       }
+    },
+    {
+       "index": 540,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Stoneridge",
+           "REGIONID": 275592.000000
+       }
+    },
+    {
+       "index": 541,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Sunset Heights",
+           "REGIONID": 271596.000000
+       }
+    },
+    {
+       "index": 542,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Thomas Manor",
+           "REGIONID": 276607.000000
+       }
+    },
+    {
+       "index": 543,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Union Plaza",
+           "REGIONID": 275801.000000
+       }
+    },
+    {
+       "index": 544,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "United",
+           "REGIONID": 275803.000000
+       }
+    },
+    {
+       "index": 545,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Via Hermosa",
+           "REGIONID": 275859.000000
+       }
+    },
+    {
+       "index": 546,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Willow Bend One",
+           "REGIONID": 276081.000000
+       }
+    },
+    {
+       "index": 547,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Ysleta Mission Valley",
+           "REGIONID": 276177.000000
+       }
+    },
+    {
+       "index": 548,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "El Paso",
+           "CITY": "El Paso",
+           "NAME": "Zach White",
+           "REGIONID": 276179.000000
+       }
+    },
+    {
+       "index": 549,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Bellaire",
+           "REGIONID": 231300.000000
+       }
+    },
+    {
+       "index": 550,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Downtown",
+           "REGIONID": 271355.000000
+       }
+    },
+    {
+       "index": 551,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "East End",
+           "REGIONID": 273545.000000
+       }
+    },
+    {
+       "index": 552,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Far North",
+           "REGIONID": 273699.000000
+       }
+    },
+    {
+       "index": 553,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Far Northeast",
+           "REGIONID": 273701.000000
+       }
+    },
+    {
+       "index": 554,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Galleria-Uptown",
+           "REGIONID": 273800.000000
+       }
+    },
+    {
+       "index": 555,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Greater Heights",
+           "REGIONID": 276351.000000
+       }
+    },
+    {
+       "index": 556,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Greater Memorial",
+           "REGIONID": 273881.000000
+       }
+    },
+    {
+       "index": 557,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Medical",
+           "REGIONID": 274488.000000
+       }
+    },
+    {
+       "index": 558,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Meyerland",
+           "REGIONID": 235537.000000
+       }
+    },
+    {
+       "index": 559,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Midtown",
+           "REGIONID": 271469.000000
+       }
+    },
+    {
+       "index": 560,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Montrose",
+           "REGIONID": 271481.000000
+       }
+    },
+    {
+       "index": 561,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "North",
+           "REGIONID": 274681.000000
+       }
+    },
+    {
+       "index": 562,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Northeast",
+           "REGIONID": 274762.000000
+       }
+    },
+    {
+       "index": 563,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Northwest",
+           "REGIONID": 274796.000000
+       }
+    },
+    {
+       "index": 564,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Pasadina",
+           "REGIONID": 274987.000000
+       }
+    },
+    {
+       "index": 565,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Rice",
+           "REGIONID": 275157.000000
+       }
+    },
+    {
+       "index": 566,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Rice Military",
+           "REGIONID": 275158.000000
+       }
+    },
+    {
+       "index": 567,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "River Oaks",
+           "REGIONID": 275188.000000
+       }
+    },
+    {
+       "index": 568,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Southeast",
+           "REGIONID": 275468.000000
+       }
+    },
+    {
+       "index": 569,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Southwest",
+           "REGIONID": 276578.000000
+       }
+    },
+    {
+       "index": 570,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Spring Branch",
+           "REGIONID": 275513.000000
+       }
+    },
+    {
+       "index": 571,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Sugarland",
+           "REGIONID": 275603.000000
+       }
+    },
+    {
+       "index": 572,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "West Houston",
+           "REGIONID": 275971.000000
+       }
+    },
+    {
+       "index": 573,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "West University",
+           "REGIONID": 275995.000000
+       }
+    },
+    {
+       "index": 574,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Harris",
+           "CITY": "Houston",
+           "NAME": "Westchase",
+           "REGIONID": 271637.000000
+       }
+    },
+    {
+       "index": 575,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Bay Area",
+           "REGIONID": 272874.000000
+       }
+    },
+    {
+       "index": 576,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Calallen",
+           "REGIONID": 231786.000000
+       }
+    },
+    {
+       "index": 577,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Central City",
+           "REGIONID": 276246.000000
+       }
+    },
+    {
+       "index": 578,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Flour Bluff",
+           "REGIONID": 233290.000000
+       }
+    },
+    {
+       "index": 579,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Mustang-Padre Island",
+           "REGIONID": 276467.000000
+       }
+    },
+    {
+       "index": 580,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "Northwest",
+           "REGIONID": 274795.000000
+       }
+    },
+    {
+       "index": 581,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Nueces",
+           "CITY": "Corpus Christi",
+           "NAME": "South Side",
+           "REGIONID": 275456.000000
+       }
+    },
+    {
+       "index": 582,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "Central",
+           "REGIONID": 273180.000000
+       }
+    },
+    {
+       "index": 583,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "Dalworthington Gardens",
+           "REGIONID": 273431.000000
+       }
+    },
+    {
+       "index": 584,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "East",
+           "REGIONID": 273527.000000
+       }
+    },
+    {
+       "index": 585,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "North",
+           "REGIONID": 274680.000000
+       }
+    },
+    {
+       "index": 586,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "Pantego",
+           "REGIONID": 274952.000000
+       }
+    },
+    {
+       "index": 587,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "Southeast",
+           "REGIONID": 275467.000000
+       }
+    },
+    {
+       "index": 588,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "Southwest",
+           "REGIONID": 275492.000000
+       }
+    },
+    {
+       "index": 589,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Arlington",
+           "NAME": "West",
+           "REGIONID": 275950.000000
+       }
+    },
+    {
+       "index": 590,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Arlington Heights",
+           "REGIONID": 272794.000000
+       }
+    },
+    {
+       "index": 591,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Downtown",
+           "REGIONID": 271354.000000
+       }
+    },
+    {
+       "index": 592,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Eastside",
+           "REGIONID": 271367.000000
+       }
+    },
+    {
+       "index": 593,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Far North",
+           "REGIONID": 271380.000000
+       }
+    },
+    {
+       "index": 594,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Far Northwest",
+           "REGIONID": 271381.000000
+       }
+    },
+    {
+       "index": 595,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Far South",
+           "REGIONID": 271382.000000
+       }
+    },
+    {
+       "index": 596,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Far Southwest",
+           "REGIONID": 271383.000000
+       }
+    },
+    {
+       "index": 597,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Far West",
+           "REGIONID": 271384.000000
+       }
+    },
+    {
+       "index": 598,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Northeast",
+           "REGIONID": 271504.000000
+       }
+    },
+    {
+       "index": 599,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Northside",
+           "REGIONID": 274793.000000
+       }
+    },
+    {
+       "index": 600,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "South East",
+           "REGIONID": 275425.000000
+       }
+    },
+    {
+       "index": 601,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Southside",
+           "REGIONID": 271580.000000
+       }
+    },
+    {
+       "index": 602,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Sycamore",
+           "REGIONID": 275653.000000
+       }
+    },
+    {
+       "index": 603,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Tcu-West Cliff",
+           "REGIONID": 275677.000000
+       }
+    },
+    {
+       "index": 604,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Wedgwood",
+           "REGIONID": 275940.000000
+       }
+    },
+    {
+       "index": 605,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Tarrant",
+           "CITY": "Fort Worth",
+           "NAME": "Western Hills-Ridglea",
+           "REGIONID": 276013.000000
+       }
+    },
+    {
+       "index": 606,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Allandale",
+           "REGIONID": 271286.000000
+       }
+    },
+    {
+       "index": 607,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Barton Hills",
+           "REGIONID": 271296.000000
+       }
+    },
+    {
+       "index": 608,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Bouldin",
+           "REGIONID": 271303.000000
+       }
+    },
+    {
+       "index": 609,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Brentwood",
+           "REGIONID": 271311.000000
+       }
+    },
+    {
+       "index": 610,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Central East Austin",
+           "REGIONID": 271325.000000
+       }
+    },
+    {
+       "index": 611,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Chestnut",
+           "REGIONID": 271327.000000
+       }
+    },
+    {
+       "index": 612,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Coronado Hills",
+           "REGIONID": 273354.000000
+       }
+    },
+    {
+       "index": 613,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Crestview",
+           "REGIONID": 271339.000000
+       }
+    },
+    {
+       "index": 614,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Dawson",
+           "REGIONID": 273440.000000
+       }
+    },
+    {
+       "index": 615,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Downtown",
+           "REGIONID": 271353.000000
+       }
+    },
+    {
+       "index": 616,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "East Cesar Chavez",
+           "REGIONID": 271360.000000
+       }
+    },
+    {
+       "index": 617,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "East Congress",
+           "REGIONID": 271361.000000
+       }
+    },
+    {
+       "index": 618,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Franklin Park",
+           "REGIONID": 271391.000000
+       }
+    },
+    {
+       "index": 619,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Galindo",
+           "REGIONID": 271393.000000
+       }
+    },
+    {
+       "index": 620,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Garrison Park",
+           "REGIONID": 271395.000000
+       }
+    },
+    {
+       "index": 621,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Gateway",
+           "REGIONID": 271396.000000
+       }
+    },
+    {
+       "index": 622,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Georgian Acres",
+           "REGIONID": 271398.000000
+       }
+    },
+    {
+       "index": 623,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Govalle",
+           "REGIONID": 271400.000000
+       }
+    },
+    {
+       "index": 624,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Hancock",
+           "REGIONID": 273924.000000
+       }
+    },
+    {
+       "index": 625,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Heritage Hills",
+           "REGIONID": 271422.000000
+       }
+    },
+    {
+       "index": 626,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Highland",
+           "REGIONID": 273989.000000
+       }
+    },
+    {
+       "index": 627,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Holly",
+           "REGIONID": 274045.000000
+       }
+    },
+    {
+       "index": 628,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Hyde Park",
+           "REGIONID": 271437.000000
+       }
+    },
+    {
+       "index": 629,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Johnston Terrace",
+           "REGIONID": 271442.000000
+       }
+    },
+    {
+       "index": 630,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Martin Luther King-Hwy 183",
+           "REGIONID": 276459.000000
+       }
+    },
+    {
+       "index": 631,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "McKinney",
+           "REGIONID": 274474.000000
+       }
+    },
+    {
+       "index": 632,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Mlk",
+           "REGIONID": 271474.000000
+       }
+    },
+    {
+       "index": 633,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Montopolis",
+           "REGIONID": 235693.000000
+       }
+    },
+    {
+       "index": 634,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North Austin",
+           "REGIONID": 274685.000000
+       }
+    },
+    {
+       "index": 635,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North Burnett",
+           "REGIONID": 276473.000000
+       }
+    },
+    {
+       "index": 636,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North Lamar",
+           "REGIONID": 271497.000000
+       }
+    },
+    {
+       "index": 637,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North Loop",
+           "REGIONID": 274730.000000
+       }
+    },
+    {
+       "index": 638,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North Shoal Creek",
+           "REGIONID": 271500.000000
+       }
+    },
+    {
+       "index": 639,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "North University",
+           "REGIONID": 271501.000000
+       }
+    },
+    {
+       "index": 640,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Old West Austin",
+           "REGIONID": 274900.000000
+       }
+    },
+    {
+       "index": 641,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Parker Lane",
+           "REGIONID": 271529.000000
+       }
+    },
+    {
+       "index": 642,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Pecan Springs Springdale",
+           "REGIONID": 274993.000000
+       }
+    },
+    {
+       "index": 643,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Pleasant Valley",
+           "REGIONID": 275057.000000
+       }
+    },
+    {
+       "index": 644,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Riverside",
+           "REGIONID": 276540.000000
+       }
+    },
+    {
+       "index": 645,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Rmma",
+           "REGIONID": 271551.000000
+       }
+    },
+    {
+       "index": 646,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Rosedale",
+           "REGIONID": 275246.000000
+       }
+    },
+    {
+       "index": 647,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Rosewood",
+           "REGIONID": 275255.000000
+       }
+    },
+    {
+       "index": 648,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Saint Edwards",
+           "REGIONID": 271587.000000
+       }
+    },
+    {
+       "index": 649,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Saint Johns",
+           "REGIONID": 271588.000000
+       }
+    },
+    {
+       "index": 650,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "South Lamar",
+           "REGIONID": 271570.000000
+       }
+    },
+    {
+       "index": 651,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "South Manchaca",
+           "REGIONID": 271572.000000
+       }
+    },
+    {
+       "index": 652,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "South River City",
+           "REGIONID": 271574.000000
+       }
+    },
+    {
+       "index": 653,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Southeast",
+           "REGIONID": 271576.000000
+       }
+    },
+    {
+       "index": 654,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Sweet Briar",
+           "REGIONID": 275649.000000
+       }
+    },
+    {
+       "index": 655,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Triangle State",
+           "REGIONID": 271611.000000
+       }
+    },
+    {
+       "index": 656,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "University Hills",
+           "REGIONID": 271613.000000
+       }
+    },
+    {
+       "index": 657,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "University Of Texas",
+           "REGIONID": 271614.000000
+       }
+    },
+    {
+       "index": 658,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Upper Boggy Creek",
+           "REGIONID": 271616.000000
+       }
+    },
+    {
+       "index": 659,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "West Congress",
+           "REGIONID": 271632.000000
+       }
+    },
+    {
+       "index": 660,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "West Gate",
+           "REGIONID": 275969.000000
+       }
+    },
+    {
+       "index": 661,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "West University",
+           "REGIONID": 271635.000000
+       }
+    },
+    {
+       "index": 662,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Windsor Hills",
+           "REGIONID": 271651.000000
+       }
+    },
+    {
+       "index": 663,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Windsor Park",
+           "REGIONID": 271652.000000
+       }
+    },
+    {
+       "index": 664,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Windsor Road",
+           "REGIONID": 271653.000000
+       }
+    },
+    {
+       "index": 665,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Wooten",
+           "REGIONID": 271665.000000
+       }
+    },
+    {
+       "index": 666,
+       "attributes": {
+           "STATE": "TX",
+           "COUNTY": "Travis",
+           "CITY": "Austin",
+           "NAME": "Zilker",
+           "REGIONID": 271667.000000
+       }
+    }
+]

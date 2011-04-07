@@ -1,0 +1,1052 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Butchertown",
+           "REGIONID": 273097.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Cardinal Hill-Pine Meadow",
+           "REGIONID": 343475.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "University",
+           "REGIONID": 275807.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Southeastern Hills",
+           "REGIONID": 149902.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Hawthorne",
+           "REGIONID": 273948.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Gardenside-Colony",
+           "REGIONID": 343476.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Limerick",
+           "REGIONID": 274308.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Irish Hill",
+           "REGIONID": 274103.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Avondale Melbourne Heights",
+           "REGIONID": 272833.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Paristowne Point",
+           "REGIONID": 274957.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Central Business District",
+           "REGIONID": 273193.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Iroquios Park",
+           "REGIONID": 274106.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Parkland",
+           "REGIONID": 149190.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Crestwood-Hinda Heights",
+           "REGIONID": 343492.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Reservorir",
+           "REGIONID": 343489.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Edgewood",
+           "REGIONID": 273599.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Rock Creek Lexington Road",
+           "REGIONID": 275223.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Bonnycastle",
+           "REGIONID": 276218.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Soutland Park",
+           "REGIONID": 275510.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Douglas High School",
+           "REGIONID": 343483.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Thoroughbred Acres-Kingston",
+           "REGIONID": 343481.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Highlands Douglas",
+           "REGIONID": 274011.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Smoketown Jackson",
+           "REGIONID": 276566.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Algonquin",
+           "REGIONID": 272746.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Tyler Park",
+           "REGIONID": 275791.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Old Louisville",
+           "REGIONID": 274884.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Southside",
+           "REGIONID": 275486.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Douglas Park",
+           "REGIONID": 343485.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Meadowthorpe",
+           "REGIONID": 148756.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Lexington Cemetery",
+           "REGIONID": 343484.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Central Downtown",
+           "REGIONID": 343497.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Saint Joseph",
+           "REGIONID": 275270.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Shelby Park",
+           "REGIONID": 275361.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Eastland Park-Dixie Plantation",
+           "REGIONID": 343478.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Twin Oaks",
+           "REGIONID": 150214.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Crescent Hill",
+           "REGIONID": 273399.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Beechmont",
+           "REGIONID": 146388.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Klondike",
+           "REGIONID": 274200.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Merriwether",
+           "REGIONID": 274502.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Fairway-Liberty Heights",
+           "REGIONID": 343498.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Duncan Park",
+           "REGIONID": 343495.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Indian Hills-Stonewall Estates-Monticello",
+           "REGIONID": 343488.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Bashford Manor",
+           "REGIONID": 272865.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Deer Park",
+           "REGIONID": 276290.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Garden Springs",
+           "REGIONID": 147673.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Warrenton-Harmitage Hills-Pinehurst",
+           "REGIONID": 343479.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Blueberry Hill-Brigadoon-Stoneybrook-Baralto",
+           "REGIONID": 343487.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Holiday Hills",
+           "REGIONID": 148091.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Wilder Park",
+           "REGIONID": 150474.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Shawnee",
+           "REGIONID": 275352.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Elkhorn Parks-Radcliff",
+           "REGIONID": 343480.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Eastland",
+           "REGIONID": 147327.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Highland Park",
+           "REGIONID": 148038.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Cloverleaf",
+           "REGIONID": 273291.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Phoenix Hill",
+           "REGIONID": 275021.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Cherokee Seneca",
+           "REGIONID": 273226.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Park Duvalle",
+           "REGIONID": 274960.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Jamestown",
+           "REGIONID": 343486.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "University Of Kentucky",
+           "REGIONID": 343500.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Cherokee Triangle",
+           "REGIONID": 273227.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Chickasaw",
+           "REGIONID": 273236.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Prestonia",
+           "REGIONID": 149393.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Hikes Point",
+           "REGIONID": 276375.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Idle Hour",
+           "REGIONID": 148179.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Park Hill",
+           "REGIONID": 274965.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Marriott's Griffin Gate Golf Culb",
+           "REGIONID": 343482.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Kenawood-Rockwood",
+           "REGIONID": 343477.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Brookhaven-Lansdowne",
+           "REGIONID": 343491.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Portland",
+           "REGIONID": 149371.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Clifton Heights",
+           "REGIONID": 273286.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Hallmark",
+           "REGIONID": 276359.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Poplar Level",
+           "REGIONID": 275072.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Southland-Deerfield-Open Gates",
+           "REGIONID": 343502.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Kenwood Hill",
+           "REGIONID": 274180.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Bon Air",
+           "REGIONID": 272999.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Schnitzelburg",
+           "REGIONID": 276555.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Iroquois",
+           "REGIONID": 274107.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Brownsboro Zorn",
+           "REGIONID": 273076.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Camp Taylor",
+           "REGIONID": 146756.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Southern Park",
+           "REGIONID": 343496.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Lexington Manor",
+           "REGIONID": 148487.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Virginia Ave",
+           "REGIONID": 343503.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Clifton",
+           "REGIONID": 273284.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Russell",
+           "REGIONID": 275265.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Germantown",
+           "REGIONID": 273818.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Mount Vernon-Hollywood-Montclair",
+           "REGIONID": 343501.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Hayfield Dundee",
+           "REGIONID": 273949.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "South Louisville",
+           "REGIONID": 275446.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Jacobs",
+           "REGIONID": 274125.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Eastern State Hospital",
+           "REGIONID": 343494.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Highlands",
+           "REGIONID": 148041.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Chevy Chase-Ashland Park",
+           "REGIONID": 343490.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Northland",
+           "REGIONID": 149060.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Belknap",
+           "REGIONID": 272909.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Bowman",
+           "REGIONID": 273008.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "California",
+           "REGIONID": 273107.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Taylor Berry",
+           "REGIONID": 275673.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Audubon",
+           "REGIONID": 272822.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Wyandotte",
+           "REGIONID": 276158.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Fairgrounds",
+           "REGIONID": 273675.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Cherokee Gardens",
+           "REGIONID": 273224.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Hollow Creek",
+           "REGIONID": 343493.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Fayette",
+           "CITY": "Lexington",
+           "NAME": "Castlewood Park",
+           "REGIONID": 343499.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Gardiner Lane",
+           "REGIONID": 273805.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "KY",
+           "COUNTY": "Jefferson",
+           "CITY": "Louisville",
+           "NAME": "Hazelwood",
+           "REGIONID": 147968.000000
+       }
+    }
+]

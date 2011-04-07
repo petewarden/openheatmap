@@ -1,0 +1,452 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Landons",
+           "REGIONID": 274265.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Belmont",
+           "REGIONID": 186060.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Downtown",
+           "REGIONID": 273491.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Clinton",
+           "REGIONID": 273288.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Hitching Post Hills",
+           "REGIONID": 274037.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Meadowlane",
+           "REGIONID": 274483.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Capitol Beach",
+           "REGIONID": 276236.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Indian Village",
+           "REGIONID": 274090.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Taylor Park",
+           "REGIONID": 275674.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "University Place",
+           "REGIONID": 187050.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Pester Ridge",
+           "REGIONID": 275012.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "North Bottoms",
+           "REGIONID": 274691.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Bishop Park",
+           "REGIONID": 276213.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "East Campus",
+           "REGIONID": 273535.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "West A",
+           "REGIONID": 275951.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Bicentennial Estates",
+           "REGIONID": 272955.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "40th And A",
+           "REGIONID": 343504.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "High Ridge-Cushman",
+           "REGIONID": 273984.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Woods Park",
+           "REGIONID": 276148.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Tri-Court",
+           "REGIONID": 276613.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Colonial Hills",
+           "REGIONID": 273322.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Southern Hills",
+           "REGIONID": 275479.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Yankee Ridge",
+           "REGIONID": 276167.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Country Club",
+           "REGIONID": 273364.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Maple Village-Wedgewood",
+           "REGIONID": 274413.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Crown Pointe",
+           "REGIONID": 273410.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Sunset Acres",
+           "REGIONID": 275631.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Yankee Hill",
+           "REGIONID": 276673.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Eastridge",
+           "REGIONID": 273583.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Autumn Wood",
+           "REGIONID": 272829.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Highlands",
+           "REGIONID": 274010.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Far South",
+           "REGIONID": 273702.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Arnold Heights",
+           "REGIONID": 272799.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Porter Ridge",
+           "REGIONID": 275079.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Family Acres",
+           "REGIONID": 273697.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Antelope Park",
+           "REGIONID": 276184.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Greater South",
+           "REGIONID": 273884.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Amber Hills",
+           "REGIONID": 272763.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Near South",
+           "REGIONID": 274646.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Salt Valley View",
+           "REGIONID": 275277.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Everett",
+           "REGIONID": 273656.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "South 48th Street",
+           "REGIONID": 275407.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Hartley",
+           "REGIONID": 273944.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "Malone",
+           "REGIONID": 274404.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "NE",
+           "COUNTY": "Lancaster",
+           "CITY": "Lincoln",
+           "NAME": "South Salt Creek",
+           "REGIONID": 275453.000000
+       }
+    }
+]

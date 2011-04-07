@@ -34,7 +34,7 @@ g_openHeatMapUserData = {};
             mapName: 'openheatmap',
             width: 800,
             height: 600,
-            prefer: 'canvas',
+            prefer: 'flash',
             wmode: 'opaque',
             userData: null
         };
@@ -50,7 +50,7 @@ g_openHeatMapUserData = {};
             settings = defaults;
 
         if ((typeof settings.prefer==='undefined') || (settings.prefer===null) || (settings.prefer===''))
-            settings.prefer = 'canvas';
+            settings.prefer = 'flash';
  
         g_openHeatMapUserData[settings.mapName] = settings.userData;
  
@@ -4625,7 +4625,7 @@ Rectangle.prototype.intersection = function(toIntersect) {
 Rectangle.prototype.intersects = function(toIntersect) {
     var intersection = this.intersection(toIntersect);
     
-    return (typeof intersection !== 'undefined');
+    return (intersection !== null);
 };
 
 Rectangle.prototype.isEmpty = function() {

@@ -1,0 +1,1050 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="40.742968" lon="-111.869988"/>
+  <node id="3" lat="40.742442" lon="-111.887349"/>
+  <node id="4" lat="40.750279" lon="-111.887568"/>
+  <node id="5" lat="40.75026" lon="-111.870194"/>
+  <node id="7" lat="40.763158" lon="-111.913789"/>
+  <node id="8" lat="40.76149" lon="-111.913789"/>
+  <node id="9" lat="40.760419" lon="-111.913577"/>
+  <node id="10" lat="40.759329" lon="-111.91301"/>
+  <node id="11" lat="40.757039" lon="-111.911842"/>
+  <node id="12" lat="40.753702" lon="-111.909617"/>
+  <node id="13" lat="40.750364" lon="-111.909617"/>
+  <node id="14" lat="40.748417" lon="-112.063423"/>
+  <node id="15" lat="40.755371" lon="-112.063423"/>
+  <node id="16" lat="40.755371" lon="-112.080945"/>
+  <node id="17" lat="40.762602" lon="-112.080945"/>
+  <node id="18" lat="40.762602" lon="-112.090958"/>
+  <node id="19" lat="40.769555" lon="-112.090958"/>
+  <node id="20" lat="40.769833" lon="-112.100971"/>
+  <node id="21" lat="40.771502" lon="-112.100693"/>
+  <node id="22" lat="40.772058" lon="-111.909895"/>
+  <node id="23" lat="40.770112" lon="-111.911564"/>
+  <node id="24" lat="40.769609" lon="-111.911811"/>
+  <node id="25" lat="40.767785" lon="-111.912705"/>
+  <node id="26" lat="40.765383" lon="-111.913511"/>
+  <node id="28" lat="40.743135" lon="-111.83551"/>
+  <node id="29" lat="40.74296" lon="-111.853297"/>
+  <node id="30" lat="40.753032" lon="-111.853394"/>
+  <node id="31" lat="40.753032" lon="-111.851831"/>
+  <node id="32" lat="40.75199" lon="-111.849921"/>
+  <node id="33" lat="40.75199" lon="-111.835682"/>
+  <node id="35" lat="40.855132" lon="-111.741917"/>
+  <node id="36" lat="40.822314" lon="-111.741049"/>
+  <node id="37" lat="40.82214" lon="-111.751988"/>
+  <node id="38" lat="40.821967" lon="-111.756677"/>
+  <node id="39" lat="40.821446" lon="-111.763101"/>
+  <node id="40" lat="40.820578" lon="-111.770741"/>
+  <node id="41" lat="40.819709" lon="-111.778729"/>
+  <node id="42" lat="40.819188" lon="-111.788453"/>
+  <node id="43" lat="40.816584" lon="-111.788279"/>
+  <node id="44" lat="40.81259" lon="-111.800607"/>
+  <node id="45" lat="40.798178" lon="-111.80026"/>
+  <node id="46" lat="40.798352" lon="-111.815714"/>
+  <node id="47" lat="40.772132" lon="-111.814672"/>
+  <node id="48" lat="40.771959" lon="-111.84749"/>
+  <node id="49" lat="40.767791" lon="-111.846969"/>
+  <node id="50" lat="40.767795" lon="-111.851982"/>
+  <node id="51" lat="40.770049" lon="-111.852005"/>
+  <node id="52" lat="40.770222" lon="-111.870758"/>
+  <node id="53" lat="40.769916" lon="-111.888116"/>
+  <node id="54" lat="40.772306" lon="-111.887948"/>
+  <node id="55" lat="40.773174" lon="-111.886732"/>
+  <node id="56" lat="40.774737" lon="-111.885691"/>
+  <node id="57" lat="40.778731" lon="-111.884996"/>
+  <node id="58" lat="40.782377" lon="-111.884649"/>
+  <node id="59" lat="40.783592" lon="-111.883433"/>
+  <node id="60" lat="40.785329" lon="-111.884301"/>
+  <node id="61" lat="40.790364" lon="-111.878919"/>
+  <node id="62" lat="40.791753" lon="-111.878224"/>
+  <node id="63" lat="40.7954" lon="-111.876314"/>
+  <node id="64" lat="40.796615" lon="-111.875272"/>
+  <node id="65" lat="40.798352" lon="-111.874578"/>
+  <node id="66" lat="40.799046" lon="-111.873189"/>
+  <node id="67" lat="40.80304" lon="-111.871799"/>
+  <node id="68" lat="40.805818" lon="-111.855825"/>
+  <node id="69" lat="40.80686" lon="-111.852525"/>
+  <node id="70" lat="40.811201" lon="-111.837593"/>
+  <node id="71" lat="40.812764" lon="-111.83603"/>
+  <node id="72" lat="40.813111" lon="-111.833772"/>
+  <node id="73" lat="40.814327" lon="-111.830821"/>
+  <node id="74" lat="40.814847" lon="-111.829258"/>
+  <node id="75" lat="40.820578" lon="-111.808942"/>
+  <node id="76" lat="40.82214" lon="-111.808942"/>
+  <node id="77" lat="40.822661" lon="-111.809984"/>
+  <node id="78" lat="40.824571" lon="-111.812068"/>
+  <node id="79" lat="40.826481" lon="-111.813804"/>
+  <node id="80" lat="40.827697" lon="-111.814672"/>
+  <node id="81" lat="40.828565" lon="-111.814672"/>
+  <node id="82" lat="40.830128" lon="-111.814672"/>
+  <node id="83" lat="40.830822" lon="-111.81554"/>
+  <node id="84" lat="40.83117" lon="-111.816235"/>
+  <node id="85" lat="40.832211" lon="-111.816582"/>
+  <node id="86" lat="40.833427" lon="-111.816756"/>
+  <node id="87" lat="40.834295" lon="-111.817277"/>
+  <node id="88" lat="40.835163" lon="-111.817624"/>
+  <node id="89" lat="40.83881" lon="-111.81745"/>
+  <node id="90" lat="40.839504" lon="-111.815367"/>
+  <node id="91" lat="40.838983" lon="-111.813109"/>
+  <node id="92" lat="40.838983" lon="-111.811199"/>
+  <node id="93" lat="40.838983" lon="-111.808942"/>
+  <node id="94" lat="40.838983" lon="-111.807032"/>
+  <node id="95" lat="40.839678" lon="-111.804775"/>
+  <node id="96" lat="40.840893" lon="-111.803907"/>
+  <node id="97" lat="40.841067" lon="-111.801823"/>
+  <node id="98" lat="40.842977" lon="-111.799913"/>
+  <node id="99" lat="40.842977" lon="-111.798003"/>
+  <node id="100" lat="40.845582" lon="-111.795572"/>
+  <node id="101" lat="40.845408" lon="-111.793315"/>
+  <node id="102" lat="40.845408" lon="-111.791057"/>
+  <node id="103" lat="40.845408" lon="-111.789147"/>
+  <node id="104" lat="40.844192" lon="-111.787411"/>
+  <node id="105" lat="40.844192" lon="-111.785674"/>
+  <node id="106" lat="40.844366" lon="-111.783591"/>
+  <node id="107" lat="40.845234" lon="-111.78116"/>
+  <node id="108" lat="40.848186" lon="-111.779076"/>
+  <node id="109" lat="40.84836" lon="-111.776124"/>
+  <node id="110" lat="40.84836" lon="-111.773693"/>
+  <node id="111" lat="40.84836" lon="-111.772304"/>
+  <node id="112" lat="40.849402" lon="-111.770568"/>
+  <node id="113" lat="40.850096" lon="-111.768831"/>
+  <node id="114" lat="40.850096" lon="-111.767442"/>
+  <node id="115" lat="40.851138" lon="-111.765532"/>
+  <node id="116" lat="40.85218" lon="-111.764143"/>
+  <node id="117" lat="40.85218" lon="-111.762928"/>
+  <node id="118" lat="40.852353" lon="-111.761539"/>
+  <node id="119" lat="40.853395" lon="-111.759802"/>
+  <node id="120" lat="40.853395" lon="-111.758587"/>
+  <node id="121" lat="40.852701" lon="-111.757545"/>
+  <node id="122" lat="40.853569" lon="-111.756329"/>
+  <node id="123" lat="40.855132" lon="-111.753378"/>
+  <node id="125" lat="40.728886" lon="-111.81438"/>
+  <node id="126" lat="40.728913" lon="-111.81127"/>
+  <node id="127" lat="40.728254" lon="-111.808634"/>
+  <node id="128" lat="40.729572" lon="-111.805778"/>
+  <node id="129" lat="40.731674" lon="-111.804427"/>
+  <node id="130" lat="40.734974" lon="-111.800781"/>
+  <node id="131" lat="40.7348" lon="-111.794877"/>
+  <node id="132" lat="40.727854" lon="-111.794877"/>
+  <node id="133" lat="40.727681" lon="-111.80408"/>
+  <node id="134" lat="40.717089" lon="-111.803907"/>
+  <node id="135" lat="40.717089" lon="-111.805296"/>
+  <node id="136" lat="40.723513" lon="-111.810331"/>
+  <node id="138" lat="40.782614" lon="-111.905162"/>
+  <node id="139" lat="40.769622" lon="-111.904807"/>
+  <node id="140" lat="40.770801" lon="-111.910974"/>
+  <node id="141" lat="40.772036" lon="-111.917515"/>
+  <node id="142" lat="40.772002" lon="-111.929228"/>
+  <node id="143" lat="40.775018" lon="-111.929228"/>
+  <node id="144" lat="40.776438" lon="-111.930577"/>
+  <node id="145" lat="40.776438" lon="-111.932068"/>
+  <node id="146" lat="40.777715" lon="-111.933843"/>
+  <node id="147" lat="40.777715" lon="-111.934482"/>
+  <node id="148" lat="40.77807" lon="-111.934766"/>
+  <node id="149" lat="40.778496" lon="-111.935049"/>
+  <node id="150" lat="40.778496" lon="-111.935333"/>
+  <node id="151" lat="40.778496" lon="-111.93583"/>
+  <node id="152" lat="40.778354" lon="-111.935972"/>
+  <node id="153" lat="40.778212" lon="-111.936327"/>
+  <node id="154" lat="40.777999" lon="-111.936682"/>
+  <node id="155" lat="40.777715" lon="-111.937108"/>
+  <node id="156" lat="40.777786" lon="-111.937463"/>
+  <node id="157" lat="40.778141" lon="-111.937818"/>
+  <node id="158" lat="40.778567" lon="-111.938173"/>
+  <node id="159" lat="40.778851" lon="-111.938457"/>
+  <node id="160" lat="40.779348" lon="-111.938457"/>
+  <node id="161" lat="40.779632" lon="-111.938173"/>
+  <node id="162" lat="40.780058" lon="-111.938031"/>
+  <node id="163" lat="40.780555" lon="-111.938031"/>
+  <node id="164" lat="40.78091" lon="-111.937818"/>
+  <node id="165" lat="40.780981" lon="-111.937392"/>
+  <node id="166" lat="40.780981" lon="-111.936966"/>
+  <node id="167" lat="40.780981" lon="-111.936327"/>
+  <node id="168" lat="40.781478" lon="-111.936043"/>
+  <node id="169" lat="40.782401" lon="-111.936043"/>
+  <node id="170" lat="40.782756" lon="-111.936043"/>
+  <node id="171" lat="40.783253" lon="-111.936185"/>
+  <node id="172" lat="40.784318" lon="-111.936185"/>
+  <node id="173" lat="40.78375" lon="-111.935049"/>
+  <node id="174" lat="40.783679" lon="-111.934624"/>
+  <node id="175" lat="40.783395" lon="-111.93434"/>
+  <node id="176" lat="40.78304" lon="-111.933843"/>
+  <node id="177" lat="40.782685" lon="-111.933204"/>
+  <node id="179" lat="40.734974" lon="-111.85322"/>
+  <node id="180" lat="40.734452" lon="-111.869748"/>
+  <node id="182" lat="40.805044" lon="-111.939202"/>
+  <node id="183" lat="40.80767" lon="-111.939339"/>
+  <node id="184" lat="40.808625" lon="-111.940568"/>
+  <node id="185" lat="40.809171" lon="-111.940568"/>
+  <node id="186" lat="40.81115" lon="-111.942614"/>
+  <node id="187" lat="40.8119" lon="-111.942751"/>
+  <node id="188" lat="40.812924" lon="-111.942751"/>
+  <node id="189" lat="40.813674" lon="-111.942341"/>
+  <node id="190" lat="40.814493" lon="-111.94241"/>
+  <node id="191" lat="40.816881" lon="-111.943774"/>
+  <node id="192" lat="40.817699" lon="-111.943842"/>
+  <node id="193" lat="40.818723" lon="-111.942887"/>
+  <node id="194" lat="40.819951" lon="-111.942478"/>
+  <node id="195" lat="40.820838" lon="-111.942478"/>
+  <node id="196" lat="40.821179" lon="-111.917848"/>
+  <node id="197" lat="40.819883" lon="-111.917643"/>
+  <node id="198" lat="40.819064" lon="-111.917575"/>
+  <node id="199" lat="40.818313" lon="-111.918053"/>
+  <node id="200" lat="40.817495" lon="-111.918735"/>
+  <node id="201" lat="40.816608" lon="-111.919963"/>
+  <node id="202" lat="40.81497" lon="-111.92201"/>
+  <node id="203" lat="40.813401" lon="-111.923647"/>
+  <node id="204" lat="40.812651" lon="-111.924193"/>
+  <node id="205" lat="40.811081" lon="-111.925012"/>
+  <node id="206" lat="40.810058" lon="-111.925012"/>
+  <node id="207" lat="40.808694" lon="-111.924807"/>
+  <node id="208" lat="40.807124" lon="-111.92433"/>
+  <node id="209" lat="40.805214" lon="-111.923579"/>
+  <node id="210" lat="40.803372" lon="-111.922351"/>
+  <node id="211" lat="40.800165" lon="-111.920645"/>
+  <node id="212" lat="40.79846" lon="-111.919554"/>
+  <node id="213" lat="40.797368" lon="-111.918599"/>
+  <node id="214" lat="40.795389" lon="-111.917712"/>
+  <node id="215" lat="40.793138" lon="-111.917166"/>
+  <node id="216" lat="40.790136" lon="-111.915528"/>
+  <node id="217" lat="40.787816" lon="-111.913823"/>
+  <node id="218" lat="40.785292" lon="-111.911912"/>
+  <node id="219" lat="40.783723" lon="-111.910002"/>
+  <node id="220" lat="40.782625" lon="-111.90973"/>
+  <node id="221" lat="40.784082" lon="-111.935714"/>
+  <node id="222" lat="40.784602" lon="-111.939167"/>
+  <node id="224" lat="40.717089" lon="-111.813109"/>
+  <node id="225" lat="40.713616" lon="-111.81363"/>
+  <node id="226" lat="40.713269" lon="-111.822486"/>
+  <node id="227" lat="40.714137" lon="-111.822486"/>
+  <node id="228" lat="40.714137" lon="-111.830473"/>
+  <node id="229" lat="40.712748" lon="-111.830994"/>
+  <node id="230" lat="40.712227" lon="-111.832383"/>
+  <node id="231" lat="40.708754" lon="-111.832383"/>
+  <node id="232" lat="40.708754" lon="-111.837072"/>
+  <node id="233" lat="40.710664" lon="-111.837072"/>
+  <node id="234" lat="40.710664" lon="-111.839503"/>
+  <node id="235" lat="40.71188" lon="-111.839503"/>
+  <node id="236" lat="40.71188" lon="-111.841933"/>
+  <node id="237" lat="40.708407" lon="-111.841933"/>
+  <node id="238" lat="40.708407" lon="-111.857214"/>
+  <node id="239" lat="40.706844" lon="-111.857387"/>
+  <node id="240" lat="40.706844" lon="-111.853915"/>
+  <node id="241" lat="40.705281" lon="-111.852873"/>
+  <node id="242" lat="40.705108" lon="-111.849747"/>
+  <node id="243" lat="40.704239" lon="-111.849747"/>
+  <node id="244" lat="40.704066" lon="-111.852178"/>
+  <node id="245" lat="40.702503" lon="-111.851657"/>
+  <node id="246" lat="40.701982" lon="-111.85322"/>
+  <node id="247" lat="40.702329" lon="-111.854783"/>
+  <node id="248" lat="40.701808" lon="-111.858082"/>
+  <node id="249" lat="40.704066" lon="-111.858082"/>
+  <node id="250" lat="40.704066" lon="-111.859471"/>
+  <node id="251" lat="40.706844" lon="-111.859645"/>
+  <node id="252" lat="40.706844" lon="-111.858429"/>
+  <node id="253" lat="40.708407" lon="-111.858429"/>
+  <node id="254" lat="40.708407" lon="-111.860687"/>
+  <node id="255" lat="40.705455" lon="-111.860687"/>
+  <node id="256" lat="40.70476" lon="-111.862076"/>
+  <node id="257" lat="40.70476" lon="-111.863291"/>
+  <node id="258" lat="40.707712" lon="-111.863291"/>
+  <node id="259" lat="40.707886" lon="-111.86659"/>
+  <node id="260" lat="40.71379" lon="-111.86659"/>
+  <node id="261" lat="40.71379" lon="-111.869368"/>
+  <node id="262" lat="40.711532" lon="-111.869368"/>
+  <node id="263" lat="40.710664" lon="-111.872494"/>
+  <node id="264" lat="40.710838" lon="-111.87423"/>
+  <node id="265" lat="40.711706" lon="-111.875099"/>
+  <node id="266" lat="40.715873" lon="-111.875272"/>
+  <node id="267" lat="40.716568" lon="-111.875967"/>
+  <node id="268" lat="40.719346" lon="-111.875967"/>
+  <node id="269" lat="40.720909" lon="-111.875446"/>
+  <node id="270" lat="40.727108" lon="-111.875618"/>
+  <node id="271" lat="40.72716" lon="-111.869542"/>
+  <node id="272" lat="40.735248" lon="-111.835355"/>
+  <node id="273" lat="40.735494" lon="-111.81936"/>
+  <node id="275" lat="40.72701" lon="-111.886918"/>
+  <node id="276" lat="40.726873" lon="-111.902938"/>
+  <node id="277" lat="40.747124" lon="-111.903799"/>
+  <node id="278" lat="40.75946" lon="-111.887824"/>
+  <node id="282" lat="40.746262" lon="-111.903584"/>
+  <node id="283" lat="40.744754" lon="-111.903584"/>
+  <node id="284" lat="40.726873" lon="-111.923835"/>
+  <node id="285" lat="40.726011" lon="-111.923835"/>
+  <node id="286" lat="40.725365" lon="-111.94107"/>
+  <node id="287" lat="40.728165" lon="-111.96606"/>
+  <node id="288" lat="40.727519" lon="-111.976832"/>
+  <node id="289" lat="40.726873" lon="-112.068823"/>
+  <node id="290" lat="40.729889" lon="-112.068823"/>
+  <node id="291" lat="40.731181" lon="-112.066453"/>
+  <node id="292" lat="40.740876" lon="-112.066453"/>
+  <node id="293" lat="40.740876" lon="-112.063222"/>
+  <node id="295" lat="40.8012" lon="-111.921196"/>
+  <node id="296" lat="40.821272" lon="-111.873015"/>
+  <node id="297" lat="40.823529" lon="-111.871626"/>
+  <node id="298" lat="40.824224" lon="-111.870931"/>
+  <node id="299" lat="40.824224" lon="-111.866417"/>
+  <node id="300" lat="40.824745" lon="-111.86468"/>
+  <node id="301" lat="40.825266" lon="-111.863812"/>
+  <node id="302" lat="40.825266" lon="-111.862249"/>
+  <node id="303" lat="40.824745" lon="-111.86086"/>
+  <node id="304" lat="40.825613" lon="-111.860166"/>
+  <node id="305" lat="40.826481" lon="-111.859297"/>
+  <node id="306" lat="40.827002" lon="-111.858256"/>
+  <node id="307" lat="40.827349" lon="-111.857214"/>
+  <node id="308" lat="40.828218" lon="-111.856693"/>
+  <node id="309" lat="40.829259" lon="-111.856346"/>
+  <node id="310" lat="40.829259" lon="-111.854956"/>
+  <node id="311" lat="40.829259" lon="-111.853394"/>
+  <node id="312" lat="40.829433" lon="-111.852525"/>
+  <node id="313" lat="40.830301" lon="-111.851657"/>
+  <node id="314" lat="40.830301" lon="-111.850095"/>
+  <node id="315" lat="40.830128" lon="-111.848705"/>
+  <node id="316" lat="40.830649" lon="-111.847664"/>
+  <node id="317" lat="40.83169" lon="-111.846795"/>
+  <node id="318" lat="40.83169" lon="-111.84558"/>
+  <node id="319" lat="40.832038" lon="-111.844538"/>
+  <node id="320" lat="40.832559" lon="-111.844538"/>
+  <node id="321" lat="40.831864" lon="-111.843323"/>
+  <node id="322" lat="40.83117" lon="-111.842281"/>
+  <node id="323" lat="40.83117" lon="-111.841239"/>
+  <node id="324" lat="40.830649" lon="-111.839329"/>
+  <node id="325" lat="40.83117" lon="-111.837593"/>
+  <node id="326" lat="40.83169" lon="-111.83603"/>
+  <node id="327" lat="40.832211" lon="-111.834988"/>
+  <node id="328" lat="40.832211" lon="-111.833599"/>
+  <node id="329" lat="40.832211" lon="-111.832036"/>
+  <node id="330" lat="40.833774" lon="-111.831168"/>
+  <node id="331" lat="40.833774" lon="-111.825091"/>
+  <node id="332" lat="40.835337" lon="-111.823007"/>
+  <node id="333" lat="40.837421" lon="-111.821618"/>
+  <node id="334" lat="40.838462" lon="-111.820923"/>
+  <node id="335" lat="40.838462" lon="-111.81884"/>
+  <node id="338" lat="40.756566" lon="-111.814479"/>
+  <node id="339" lat="40.756566" lon="-111.800349"/>
+  <node id="340" lat="40.753032" lon="-111.800607"/>
+  <node id="341" lat="40.749212" lon="-111.799566"/>
+  <node id="342" lat="40.748344" lon="-111.802517"/>
+  <node id="343" lat="40.744176" lon="-111.802517"/>
+  <node id="344" lat="40.743482" lon="-111.801302"/>
+  <node id="345" lat="40.741051" lon="-111.804601"/>
+  <node id="346" lat="40.743122" lon="-111.82641"/>
+  <node id="347" lat="40.746955" lon="-111.829952"/>
+  <node id="348" lat="40.75199" lon="-111.829952"/>
+  <node id="350" lat="40.784471" lon="-112.011407"/>
+  <node id="351" lat="40.784227" lon="-112.10111"/>
+  <node id="352" lat="40.825946" lon="-112.101944"/>
+  <node id="353" lat="40.825946" lon="-112.073158"/>
+  <node id="354" lat="40.829701" lon="-112.073158"/>
+  <node id="355" lat="40.829701" lon="-112.063771"/>
+  <node id="356" lat="40.815725" lon="-112.063562"/>
+  <node id="357" lat="40.815725" lon="-112.059182"/>
+  <node id="358" lat="40.823026" lon="-112.059182"/>
+  <node id="359" lat="40.822609" lon="-112.039991"/>
+  <node id="360" lat="40.812179" lon="-112.039782"/>
+  <node id="361" lat="40.812179" lon="-112.034984"/>
+  <node id="362" lat="40.808841" lon="-112.034984"/>
+  <node id="363" lat="40.808633" lon="-112.030187"/>
+  <node id="364" lat="40.801332" lon="-112.029978"/>
+  <node id="365" lat="40.797785" lon="-112.02372"/>
+  <node id="366" lat="40.797994" lon="-112.006198"/>
+  <node id="367" lat="40.826155" lon="-112.006615"/>
+  <node id="368" lat="40.826572" lon="-111.968859"/>
+  <node id="369" lat="40.840548" lon="-111.969068"/>
+  <node id="370" lat="40.840548" lon="-111.959472"/>
+  <node id="371" lat="40.83721" lon="-111.959264"/>
+  <node id="372" lat="40.83721" lon="-111.964061"/>
+  <node id="373" lat="40.830118" lon="-111.964061"/>
+  <node id="374" lat="40.830118" lon="-111.959681"/>
+  <node id="375" lat="40.834707" lon="-111.959681"/>
+  <node id="376" lat="40.834707" lon="-111.955509"/>
+  <node id="377" lat="40.833456" lon="-111.954257"/>
+  <node id="378" lat="40.828866" lon="-111.954257"/>
+  <node id="379" lat="40.829284" lon="-111.946748"/>
+  <node id="380" lat="40.824069" lon="-111.948834"/>
+  <node id="381" lat="40.824069" lon="-111.954674"/>
+  <node id="382" lat="40.822191" lon="-111.954674"/>
+  <node id="383" lat="40.822191" lon="-111.968442"/>
+  <node id="384" lat="40.812387" lon="-111.968233"/>
+  <node id="385" lat="40.812387" lon="-111.961558"/>
+  <node id="386" lat="40.819271" lon="-111.961558"/>
+  <node id="387" lat="40.819271" lon="-111.954466"/>
+  <node id="388" lat="40.812387" lon="-111.954466"/>
+  <node id="389" lat="40.812387" lon="-111.959055"/>
+  <node id="390" lat="40.810719" lon="-111.959055"/>
+  <node id="391" lat="40.81051" lon="-111.954049"/>
+  <node id="392" lat="40.808841" lon="-111.954049"/>
+  <node id="393" lat="40.808841" lon="-111.947373"/>
+  <node id="394" lat="40.81051" lon="-111.947582"/>
+  <node id="395" lat="40.80759" lon="-111.94195"/>
+  <node id="396" lat="40.805086" lon="-111.94195"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="2"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Central City-Liberty Welss"/>
+    <tag k="REGIONID" v="273200"/>
+  </way>
+  <way id="000000006">
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="7"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Poplar Grove"/>
+    <tag k="REGIONID" v="275071"/>
+  </way>
+  <way id="000000027">
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="28"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Yalecrest"/>
+    <tag k="REGIONID" v="276166"/>
+  </way>
+  <way id="000000034">
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="49"/>
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="62"/>
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="86"/>
+    <nd ref="87"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="91"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="94"/>
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <nd ref="115"/>
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="120"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="35"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Greater Avenues"/>
+    <tag k="REGIONID" v="273875"/>
+  </way>
+  <way id="000000124">
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="133"/>
+    <nd ref="134"/>
+    <nd ref="135"/>
+    <nd ref="136"/>
+    <nd ref="125"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Arcadia Heights"/>
+    <tag k="REGIONID" v="272782"/>
+  </way>
+  <way id="000000137">
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="24"/>
+    <nd ref="23"/>
+    <nd ref="140"/>
+    <nd ref="22"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="145"/>
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="158"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="164"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="172"/>
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="138"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Fairpark"/>
+    <tag k="REGIONID" v="273685"/>
+  </way>
+  <way id="000000178">
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="50"/>
+    <nd ref="31"/>
+    <nd ref="30"/>
+    <nd ref="29"/>
+    <nd ref="179"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="East Central"/>
+    <tag k="REGIONID" v="273537"/>
+  </way>
+  <way id="000000181">
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="184"/>
+    <nd ref="185"/>
+    <nd ref="186"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="205"/>
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="217"/>
+    <nd ref="218"/>
+    <nd ref="219"/>
+    <nd ref="220"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="174"/>
+    <nd ref="173"/>
+    <nd ref="221"/>
+    <nd ref="172"/>
+    <nd ref="222"/>
+    <nd ref="182"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Rose Park"/>
+    <tag k="REGIONID" v="240570"/>
+  </way>
+  <way id="000000223">
+    <nd ref="224"/>
+    <nd ref="225"/>
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="236"/>
+    <nd ref="237"/>
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="243"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="259"/>
+    <nd ref="260"/>
+    <nd ref="261"/>
+    <nd ref="262"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="272"/>
+    <nd ref="273"/>
+    <nd ref="125"/>
+    <nd ref="136"/>
+    <nd ref="135"/>
+    <nd ref="224"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Sugar House"/>
+    <tag k="REGIONID" v="240748"/>
+  </way>
+  <way id="000000274">
+    <nd ref="275"/>
+    <nd ref="276"/>
+    <nd ref="277"/>
+    <nd ref="13"/>
+    <nd ref="12"/>
+    <nd ref="11"/>
+    <nd ref="10"/>
+    <nd ref="278"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="275"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="People's Freeway"/>
+    <tag k="REGIONID" v="275007"/>
+  </way>
+  <way id="000000279">
+    <nd ref="272"/>
+    <nd ref="179"/>
+    <nd ref="29"/>
+    <nd ref="28"/>
+    <nd ref="272"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Wasatch Hollow"/>
+    <tag k="REGIONID" v="275924"/>
+  </way>
+  <way id="000000280">
+    <nd ref="278"/>
+    <nd ref="10"/>
+    <nd ref="9"/>
+    <nd ref="8"/>
+    <nd ref="7"/>
+    <nd ref="26"/>
+    <nd ref="25"/>
+    <nd ref="24"/>
+    <nd ref="139"/>
+    <nd ref="53"/>
+    <nd ref="278"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Downtown"/>
+    <tag k="REGIONID" v="273488"/>
+  </way>
+  <way id="000000281">
+    <nd ref="13"/>
+    <nd ref="277"/>
+    <nd ref="282"/>
+    <nd ref="283"/>
+    <nd ref="276"/>
+    <nd ref="284"/>
+    <nd ref="285"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="14"/>
+    <nd ref="13"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Glendale"/>
+    <tag k="REGIONID" v="273832"/>
+  </way>
+  <way id="000000294">
+    <nd ref="83"/>
+    <nd ref="82"/>
+    <nd ref="81"/>
+    <nd ref="80"/>
+    <nd ref="79"/>
+    <nd ref="78"/>
+    <nd ref="77"/>
+    <nd ref="76"/>
+    <nd ref="75"/>
+    <nd ref="74"/>
+    <nd ref="73"/>
+    <nd ref="72"/>
+    <nd ref="71"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="67"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="64"/>
+    <nd ref="63"/>
+    <nd ref="62"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="220"/>
+    <nd ref="219"/>
+    <nd ref="218"/>
+    <nd ref="217"/>
+    <nd ref="216"/>
+    <nd ref="215"/>
+    <nd ref="214"/>
+    <nd ref="213"/>
+    <nd ref="212"/>
+    <nd ref="211"/>
+    <nd ref="295"/>
+    <nd ref="210"/>
+    <nd ref="209"/>
+    <nd ref="208"/>
+    <nd ref="207"/>
+    <nd ref="206"/>
+    <nd ref="205"/>
+    <nd ref="204"/>
+    <nd ref="203"/>
+    <nd ref="202"/>
+    <nd ref="201"/>
+    <nd ref="200"/>
+    <nd ref="198"/>
+    <nd ref="197"/>
+    <nd ref="196"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="300"/>
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <nd ref="308"/>
+    <nd ref="309"/>
+    <nd ref="310"/>
+    <nd ref="311"/>
+    <nd ref="312"/>
+    <nd ref="313"/>
+    <nd ref="314"/>
+    <nd ref="315"/>
+    <nd ref="316"/>
+    <nd ref="317"/>
+    <nd ref="318"/>
+    <nd ref="319"/>
+    <nd ref="320"/>
+    <nd ref="321"/>
+    <nd ref="322"/>
+    <nd ref="323"/>
+    <nd ref="324"/>
+    <nd ref="325"/>
+    <nd ref="326"/>
+    <nd ref="327"/>
+    <nd ref="328"/>
+    <nd ref="329"/>
+    <nd ref="330"/>
+    <nd ref="331"/>
+    <nd ref="332"/>
+    <nd ref="333"/>
+    <nd ref="334"/>
+    <nd ref="335"/>
+    <nd ref="89"/>
+    <nd ref="88"/>
+    <nd ref="87"/>
+    <nd ref="86"/>
+    <nd ref="85"/>
+    <nd ref="84"/>
+    <nd ref="83"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Capitol Hill"/>
+    <tag k="REGIONID" v="271669"/>
+  </way>
+  <way id="000000336">
+    <nd ref="271"/>
+    <nd ref="275"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="271"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Liberty Wells"/>
+    <tag k="REGIONID" v="274303"/>
+  </way>
+  <way id="000000337">
+    <nd ref="47"/>
+    <nd ref="338"/>
+    <nd ref="339"/>
+    <nd ref="340"/>
+    <nd ref="341"/>
+    <nd ref="342"/>
+    <nd ref="343"/>
+    <nd ref="344"/>
+    <nd ref="345"/>
+    <nd ref="129"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="125"/>
+    <nd ref="273"/>
+    <nd ref="346"/>
+    <nd ref="347"/>
+    <nd ref="348"/>
+    <nd ref="32"/>
+    <nd ref="31"/>
+    <nd ref="50"/>
+    <nd ref="49"/>
+    <nd ref="48"/>
+    <nd ref="47"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="East Bench"/>
+    <tag k="REGIONID" v="271672"/>
+  </way>
+  <way id="000000349">
+    <nd ref="350"/>
+    <nd ref="351"/>
+    <nd ref="352"/>
+    <nd ref="353"/>
+    <nd ref="354"/>
+    <nd ref="355"/>
+    <nd ref="356"/>
+    <nd ref="357"/>
+    <nd ref="358"/>
+    <nd ref="359"/>
+    <nd ref="360"/>
+    <nd ref="361"/>
+    <nd ref="362"/>
+    <nd ref="363"/>
+    <nd ref="364"/>
+    <nd ref="365"/>
+    <nd ref="366"/>
+    <nd ref="367"/>
+    <nd ref="368"/>
+    <nd ref="369"/>
+    <nd ref="370"/>
+    <nd ref="371"/>
+    <nd ref="372"/>
+    <nd ref="373"/>
+    <nd ref="374"/>
+    <nd ref="375"/>
+    <nd ref="376"/>
+    <nd ref="377"/>
+    <nd ref="378"/>
+    <nd ref="379"/>
+    <nd ref="380"/>
+    <nd ref="381"/>
+    <nd ref="382"/>
+    <nd ref="383"/>
+    <nd ref="384"/>
+    <nd ref="385"/>
+    <nd ref="386"/>
+    <nd ref="387"/>
+    <nd ref="388"/>
+    <nd ref="389"/>
+    <nd ref="390"/>
+    <nd ref="391"/>
+    <nd ref="392"/>
+    <nd ref="393"/>
+    <nd ref="394"/>
+    <nd ref="395"/>
+    <nd ref="396"/>
+    <nd ref="182"/>
+    <nd ref="222"/>
+    <nd ref="350"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Westpointe"/>
+    <tag k="REGIONID" v="276658"/>
+  </way>
+  <way id="000000397">
+    <nd ref="52"/>
+    <nd ref="5"/>
+    <nd ref="4"/>
+    <nd ref="278"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Central City"/>
+    <tag k="REGIONID" v="273199"/>
+  </way>
+  <way id="000000398">
+    <nd ref="273"/>
+    <nd ref="272"/>
+    <nd ref="28"/>
+    <nd ref="33"/>
+    <nd ref="348"/>
+    <nd ref="347"/>
+    <nd ref="346"/>
+    <nd ref="273"/>
+    <tag k="STATE" v="UT"/>
+    <tag k="COUNTY" v="Salt Lake"/>
+    <tag k="CITY" v="Salt Lake City"/>
+    <tag k="NAME" v="Bonneville Hills"/>
+    <tag k="REGIONID" v="273002"/>
+  </way>
+</osm>

@@ -1,0 +1,1092 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Hillsdale",
+           "REGIONID": 206987.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Creston-Kenilworth",
+           "REGIONID": 273402.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Downtown",
+           "REGIONID": 271082.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Arbor Lodge",
+           "REGIONID": 271060.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Trainsong",
+           "REGIONID": 271141.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Lents",
+           "REGIONID": 207108.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Lloyd",
+           "REGIONID": 274337.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Bridgeton",
+           "REGIONID": 271067.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Harlow",
+           "REGIONID": 271096.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Parkrose",
+           "REGIONID": 207340.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Powellhurst",
+           "REGIONID": 207384.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Sunderland",
+           "REGIONID": 271139.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Pleasant Valley",
+           "REGIONID": 275055.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Reed",
+           "REGIONID": 344057.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Far West",
+           "REGIONID": 271088.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Southwest Hills",
+           "REGIONID": 271136.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Linnton",
+           "REGIONID": 207125.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Raleigh West",
+           "REGIONID": 275125.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Historic Milwaukie",
+           "REGIONID": 274035.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "West University",
+           "REGIONID": 271148.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Linwood",
+           "REGIONID": 274327.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Laurel Hill Valley",
+           "REGIONID": 271106.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Denny Whitford",
+           "REGIONID": 276294.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Cathedral Park",
+           "REGIONID": 271070.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Roseway",
+           "REGIONID": 271127.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Greenway",
+           "REGIONID": 273899.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Kenton",
+           "REGIONID": 207061.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Woodstock",
+           "REGIONID": 207740.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Far Southwest",
+           "REGIONID": 271087.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Buckman",
+           "REGIONID": 271068.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "South Eugene High School",
+           "REGIONID": 275431.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Montavilla",
+           "REGIONID": 207230.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Kerns",
+           "REGIONID": 271104.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "U Of O Campus",
+           "REGIONID": 275793.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Milwaukie Business-Industry",
+           "REGIONID": 274545.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Irvington",
+           "REGIONID": 207031.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Foster Powell",
+           "REGIONID": 344054.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "King",
+           "REGIONID": 271105.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Maplewood-Ashcreek",
+           "REGIONID": 274417.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Brooklyn",
+           "REGIONID": 206562.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Eliot",
+           "REGIONID": 271085.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "River Road",
+           "REGIONID": 207425.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Old Town-Chinatown",
+           "REGIONID": 274898.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Bridlemile",
+           "REGIONID": 206554.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Fairmount",
+           "REGIONID": 271086.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Concordia",
+           "REGIONID": 271076.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Industrial Corridor",
+           "REGIONID": 271102.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Vose",
+           "REGIONID": 275899.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Cal Young",
+           "REGIONID": 271069.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Whiteaker",
+           "REGIONID": 271149.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Lewelling",
+           "REGIONID": 274295.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Crest Drive",
+           "REGIONID": 271077.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Eastmoreland",
+           "REGIONID": 206780.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Mount Tabor",
+           "REGIONID": 274605.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "West Slope",
+           "REGIONID": 275992.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "South University",
+           "REGIONID": 271134.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Forest Park",
+           "REGIONID": 271090.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Mill Park",
+           "REGIONID": 271111.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Boise",
+           "REGIONID": 271065.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Haden Island",
+           "REGIONID": 273912.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Saintjohns",
+           "REGIONID": 275553.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Pearl District",
+           "REGIONID": 271122.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Portsmith",
+           "REGIONID": 275080.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Brentwood-Darlington",
+           "REGIONID": 276222.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Homestead",
+           "REGIONID": 274053.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Downtown",
+           "REGIONID": 271081.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "South Beaverton",
+           "REGIONID": 275412.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Santa Clara",
+           "REGIONID": 207477.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "West Eugene",
+           "REGIONID": 271147.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "University Park",
+           "REGIONID": 207639.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Active Bethel",
+           "REGIONID": 272724.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Richmond",
+           "REGIONID": 276532.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Highlands",
+           "REGIONID": 274008.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Ross Island",
+           "REGIONID": 275256.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Ardenwald",
+           "REGIONID": 272783.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Triple Creek",
+           "REGIONID": 271142.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Alameda",
+           "REGIONID": 206428.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Madison South",
+           "REGIONID": 271108.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Woodlawn",
+           "REGIONID": 271152.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Marion",
+           "CITY": "Salem",
+           "NAME": "Salem",
+           "REGIONID": 207469.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Lake Road",
+           "REGIONID": 274239.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Overlook",
+           "REGIONID": 271119.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Amazon",
+           "REGIONID": 271059.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Central Beaverton",
+           "REGIONID": 273187.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Churchill Area",
+           "REGIONID": 273248.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "South Tabor",
+           "REGIONID": 344059.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Corbett-Terwilliger-Lair Hill",
+           "REGIONID": 273346.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Hayhurst",
+           "REGIONID": 271098.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Mount Scott",
+           "REGIONID": 274604.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Friendly Area",
+           "REGIONID": 271092.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Hosford",
+           "REGIONID": 274059.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Northwest",
+           "REGIONID": 274797.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Neighbors Southwest",
+           "REGIONID": 274653.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Hector Campbell",
+           "REGIONID": 273955.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Wilkes",
+           "REGIONID": 271150.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Sexton Mountain",
+           "REGIONID": 271131.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Argay",
+           "REGIONID": 271061.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "McLoughlin Industrial",
+           "REGIONID": 274478.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Jefferson Westside",
+           "REGIONID": 271103.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Lane",
+           "CITY": "Eugene",
+           "NAME": "Southeast",
+           "REGIONID": 271135.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Center",
+           "REGIONID": 271072.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Hazelwood",
+           "REGIONID": 206971.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Clackamas",
+           "CITY": "Milwaukie",
+           "NAME": "Island Station",
+           "REGIONID": 274111.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Sellwood-Moreland",
+           "REGIONID": 275327.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Cully",
+           "REGIONID": 271079.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Centennial",
+           "REGIONID": 271071.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "West Beaverton",
+           "REGIONID": 271146.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Washington",
+           "CITY": "Beaverton",
+           "NAME": "Five Oaks",
+           "REGIONID": 271089.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "OR",
+           "COUNTY": "Multnomah",
+           "CITY": "Portland",
+           "NAME": "Government Island",
+           "REGIONID": 273856.000000
+       }
+    }
+]

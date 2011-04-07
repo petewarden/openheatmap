@@ -1,0 +1,892 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Treme' Lafitte",
+           "REGIONID": 275771.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Freestate-North Highlands",
+           "REGIONID": 273787.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "East Riverside",
+           "REGIONID": 269697.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Central City",
+           "REGIONID": 269690.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Saint Claude",
+           "REGIONID": 275541.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Behrman",
+           "REGIONID": 272905.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lakeview",
+           "REGIONID": 152275.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Tall Timbers-Brechtel",
+           "REGIONID": 276601.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Leonidas",
+           "REGIONID": 274294.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "West Lake Forest",
+           "REGIONID": 269737.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Gentilly Terrace",
+           "REGIONID": 151772.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Bywater",
+           "REGIONID": 269688.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Highland-Stoner Hill",
+           "REGIONID": 274007.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Mid-City",
+           "REGIONID": 269717.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Broadmoor-Anderson Island-Shreve Isle",
+           "REGIONID": 273050.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Holy Cross",
+           "REGIONID": 269708.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Dillard",
+           "REGIONID": 269694.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Marlyville-Fontainebleau",
+           "REGIONID": 274434.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Pontchartrain Park",
+           "REGIONID": 269723.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Fischer Dev",
+           "REGIONID": 273728.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Read Blvd West",
+           "REGIONID": 275138.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Ceder Grove-Lynbrook",
+           "REGIONID": 273175.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lake Terrace And Oaks",
+           "REGIONID": 274240.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Fillmore",
+           "REGIONID": 273719.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Garden District",
+           "REGIONID": 151754.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Ellerbe Woods",
+           "REGIONID": 151552.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Village De L'est",
+           "REGIONID": 153682.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lower 9th Ward",
+           "REGIONID": 269713.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Central Business District",
+           "REGIONID": 269689.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Gentilly Woods",
+           "REGIONID": 269705.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Holly Grove",
+           "REGIONID": 276380.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Florida",
+           "REGIONID": 273740.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Airport-Pines Road",
+           "REGIONID": 276182.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "West Riverside",
+           "REGIONID": 269738.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "City Park",
+           "REGIONID": 269691.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Downtown Riverfront",
+           "REGIONID": 273504.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Saint Bernard Area",
+           "REGIONID": 275536.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Fairgrounds",
+           "REGIONID": 269698.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Marigny",
+           "REGIONID": 269714.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Saint Thomas",
+           "REGIONID": 275551.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Audubon",
+           "REGIONID": 272821.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Queensborough",
+           "REGIONID": 275117.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "West End",
+           "REGIONID": 153755.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lake Shore-Lake Vista",
+           "REGIONID": 276411.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Sunset Arcre-Garden Valley-Morningside",
+           "REGIONID": 275632.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Pines Village",
+           "REGIONID": 269721.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Desire",
+           "REGIONID": 273463.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Uptown",
+           "REGIONID": 269734.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Saint Anthony",
+           "REGIONID": 276585.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Whitney",
+           "REGIONID": 269739.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Algeirs Point",
+           "REGIONID": 272745.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Plum Orchard",
+           "REGIONID": 269722.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Dixon",
+           "REGIONID": 269695.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Gert Town",
+           "REGIONID": 269706.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Navarre",
+           "REGIONID": 269719.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Viavant-Venetian Isles",
+           "REGIONID": 275860.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "New Aurora-English Turn",
+           "REGIONID": 274660.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lakewood",
+           "REGIONID": 269711.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Caddo Heights-South Highlands",
+           "REGIONID": 276230.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Freret",
+           "REGIONID": 269704.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Western Hills And Yarborough",
+           "REGIONID": 276014.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "McDonogh",
+           "REGIONID": 269716.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lower Garden District",
+           "REGIONID": 152428.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "East Carollton",
+           "REGIONID": 273536.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Read Blvd East",
+           "REGIONID": 275137.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Broadmoor",
+           "REGIONID": 273048.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Us Naval Base",
+           "REGIONID": 276621.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Little Woods",
+           "REGIONID": 152379.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Lake Catherine",
+           "REGIONID": 274224.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Springlake-University Terrace",
+           "REGIONID": 275520.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Black Pearl",
+           "REGIONID": 272971.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Country Club Hills-Lakeshore Shopping",
+           "REGIONID": 273367.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Milan",
+           "REGIONID": 269718.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Hyde Park Brookwood-Southern Hills",
+           "REGIONID": 274080.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Mooretown And Hollywood Heights",
+           "REGIONID": 274585.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Seventh Ward",
+           "REGIONID": 269726.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Irish Channel",
+           "REGIONID": 269709.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "BW Cooper",
+           "REGIONID": 272835.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Allendale-Lakeside",
+           "REGIONID": 272752.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Old Aurora",
+           "REGIONID": 269720.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Bayou Saint John",
+           "REGIONID": 269685.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "French Quarter",
+           "REGIONID": 269703.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Touro",
+           "REGIONID": 269731.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Saint Roch",
+           "REGIONID": 275550.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Tulane-Gravier",
+           "REGIONID": 275781.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Jenkins-Pinecroft",
+           "REGIONID": 274142.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Caddo",
+           "CITY": "Shreveport",
+           "NAME": "Martin Luther King",
+           "REGIONID": 274440.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Milneburg",
+           "REGIONID": 152610.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "LA",
+           "COUNTY": "Orleans",
+           "CITY": "New Orleans",
+           "NAME": "Iberville",
+           "REGIONID": 274081.000000
+       }
+    }
+]

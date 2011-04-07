@@ -1,0 +1,532 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Somerset",
+           "REGIONID": 269510.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Salisbury Oaks",
+           "REGIONID": 269508.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Lower Beaver",
+           "REGIONID": 269498.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Chautauqua Park",
+           "REGIONID": 269479.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Downtown Des Moines",
+           "REGIONID": 273500.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Garton West",
+           "REGIONID": 269488.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Waterbury",
+           "REGIONID": 269515.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Frisbie Park",
+           "REGIONID": 273798.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Greater South Side",
+           "REGIONID": 269490.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Magnolia Park",
+           "REGIONID": 269499.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "McKinley School",
+           "REGIONID": 274472.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Cheatom Park",
+           "REGIONID": 269480.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Sherman Hill",
+           "REGIONID": 269509.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Valley High Manor",
+           "REGIONID": 269514.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Indianola Hills",
+           "REGIONID": 269492.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Mondamin Presidentia",
+           "REGIONID": 274571.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Drake",
+           "REGIONID": 269483.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Meredith",
+           "REGIONID": 269501.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Martin Luther King Jr Park",
+           "REGIONID": 276432.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Laurel Hill",
+           "REGIONID": 269496.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Drake Park",
+           "REGIONID": 269484.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Capitol View South",
+           "REGIONID": 273134.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Beaverdale",
+           "REGIONID": 272898.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Douglas Acres",
+           "REGIONID": 269481.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Accent",
+           "REGIONID": 269475.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Kirkwood Glen",
+           "REGIONID": 269495.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Jordan Park",
+           "REGIONID": 274156.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Gray's Woods",
+           "REGIONID": 269489.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Oak Park",
+           "REGIONID": 269506.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "North Of Grand",
+           "REGIONID": 269505.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "King-Irving Park",
+           "REGIONID": 269494.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Woodland Heights",
+           "REGIONID": 269518.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Capitol East",
+           "REGIONID": 269477.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Bloomfield-Allen",
+           "REGIONID": 272981.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Westwood",
+           "REGIONID": 276041.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Linden Heights",
+           "REGIONID": 269497.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Fairmont Park",
+           "REGIONID": 269487.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Ingersoll Park",
+           "REGIONID": 269493.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Merle Hay",
+           "REGIONID": 269502.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Greenwood",
+           "REGIONID": 273904.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Union Park",
+           "REGIONID": 269513.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Fairground",
+           "REGIONID": 269486.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Capitol Park",
+           "REGIONID": 269478.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Waveland Woods",
+           "REGIONID": 269517.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "South Park",
+           "REGIONID": 269511.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Highland Park",
+           "REGIONID": 274000.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Waveland Park",
+           "REGIONID": 269516.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "River Bend",
+           "REGIONID": 269507.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Carpenter",
+           "REGIONID": 276239.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "New Vision",
+           "REGIONID": 276471.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "East Village",
+           "REGIONID": 269485.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Arbor Peaks",
+           "REGIONID": 269476.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "IA",
+           "COUNTY": "Polk",
+           "CITY": "Des Moines",
+           "NAME": "Southwestern Hills",
+           "REGIONID": 269512.000000
+       }
+    }
+]

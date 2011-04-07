@@ -1,0 +1,2182 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Scottsdale",
+           "NAME": "North Scottsdale",
+           "REGIONID": 274742.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Thunderbird Heights-Wilmot Desert",
+           "REGIONID": 275743.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Alameda-Campus",
+           "REGIONID": 272736.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Ntna-Indian Bend",
+           "REGIONID": 274823.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Ntna-West Rio",
+           "REGIONID": 274824.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "South Harrison",
+           "REGIONID": 275439.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Flowing Wells",
+           "REGIONID": 111950.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Blue Moon",
+           "REGIONID": 272858.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "NTNA-Cavalier Hills",
+           "REGIONID": 274822.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Cherry Avenue",
+           "REGIONID": 273229.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Mitman",
+           "REGIONID": 274564.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Roberts",
+           "REGIONID": 275220.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Superstition",
+           "REGIONID": 267973.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "West Central",
+           "REGIONID": 275959.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Midtown",
+           "REGIONID": 274525.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Camelot Village",
+           "REGIONID": 267909.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rincon Heights",
+           "REGIONID": 275176.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Montevideo",
+           "REGIONID": 273618.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Tempe Gardens",
+           "REGIONID": 267977.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Peterson Park",
+           "REGIONID": 267964.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Silvercroft",
+           "REGIONID": 275381.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "McClintock",
+           "REGIONID": 267944.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "North University",
+           "REGIONID": 274755.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rillito",
+           "REGIONID": 275174.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rosemont East",
+           "REGIONID": 275253.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "Southeast",
+           "REGIONID": 276573.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Miracle Manor",
+           "REGIONID": 274549.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Miramonte",
+           "REGIONID": 274551.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Anita",
+           "REGIONID": 272857.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Glenn Heights",
+           "REGIONID": 273833.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Mesquite Ranch",
+           "REGIONID": 274507.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Kyrene-Superstition",
+           "REGIONID": 274208.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Optimist Park Ne",
+           "REGIONID": 274915.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Jen Tilly Terrace",
+           "REGIONID": 267936.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Broadmor",
+           "REGIONID": 267906.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Cyprus Southwest",
+           "REGIONID": 267916.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Balboa Heights",
+           "REGIONID": 272846.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Midvale Park",
+           "REGIONID": 274529.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Camelback East",
+           "REGIONID": 267908.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Vista Del Monte",
+           "REGIONID": 275892.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Brentwood-Cavalier",
+           "REGIONID": 273027.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Baseline-Hardy",
+           "REGIONID": 272864.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "University Park",
+           "REGIONID": 267981.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Marilyn Ann",
+           "REGIONID": 274421.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Ironwood Ridge",
+           "REGIONID": 274105.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Bravo Park Lane",
+           "REGIONID": 273020.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Ntna-College",
+           "REGIONID": 276487.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Pepperwood",
+           "REGIONID": 275008.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Santa Rosa",
+           "REGIONID": 272861.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Catalina Vista-Blenman-Elm",
+           "REGIONID": 273157.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Western Hills",
+           "REGIONID": 276015.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Fairgrounds",
+           "REGIONID": 273676.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Optimist Park Se",
+           "REGIONID": 274917.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Scottsdale",
+           "NAME": "South Scottsdale",
+           "REGIONID": 275454.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Shaheen Estates",
+           "REGIONID": 275342.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Blenman-Elm",
+           "REGIONID": 276214.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "South Mountain",
+           "REGIONID": 267971.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Holdeman",
+           "REGIONID": 267932.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Starr Pass",
+           "REGIONID": 276589.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Palo Verde",
+           "REGIONID": 274949.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Wakefield",
+           "REGIONID": 275903.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Santa Cruz Southwest",
+           "REGIONID": 275303.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Estrella",
+           "REGIONID": 273652.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Laveen",
+           "REGIONID": 112261.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Old Fort Lowell",
+           "REGIONID": 274882.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Toumey Park",
+           "REGIONID": 275757.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Alvernon Heights",
+           "REGIONID": 272762.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Duskfire",
+           "REGIONID": 267923.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Rural-Geneva",
+           "REGIONID": 275263.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rose",
+           "REGIONID": 275242.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Optimist Park Sw",
+           "REGIONID": 274918.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Escalante",
+           "REGIONID": 267927.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "University Heights",
+           "REGIONID": 267980.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Iron Horse",
+           "REGIONID": 274104.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Duskfire II",
+           "REGIONID": 273518.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Poets Square",
+           "REGIONID": 275061.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Richland Heights East",
+           "REGIONID": 275160.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Samos",
+           "REGIONID": 275279.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Wilshire Heights",
+           "REGIONID": 276090.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Parkway Terrace",
+           "REGIONID": 274982.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Hollywood",
+           "REGIONID": 276198.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "North Mountain",
+           "REGIONID": 267955.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Country Glenn",
+           "REGIONID": 273372.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Swan Way Park",
+           "REGIONID": 275644.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Meyer Park",
+           "REGIONID": 267946.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Campbell-Grant",
+           "REGIONID": 276234.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "North Dodge",
+           "REGIONID": 274701.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Dava-Lakeshore",
+           "REGIONID": 273435.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Broadway-Northeast",
+           "REGIONID": 273058.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Maple-Ash",
+           "REGIONID": 274414.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Highland Vista Cinco Via",
+           "REGIONID": 274006.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio San Antonio",
+           "REGIONID": 272860.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Santa Rita Park",
+           "REGIONID": 276551.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "San Clemente",
+           "REGIONID": 275285.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Broadmoor-Broadway",
+           "REGIONID": 273051.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Presidio",
+           "REGIONID": 276319.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Scottsdale",
+           "NAME": "Pinnacle Peak",
+           "REGIONID": 275040.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Evergreen",
+           "REGIONID": 267929.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Terra Del Sol",
+           "REGIONID": 275684.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Tucson Park West",
+           "REGIONID": 344048.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "East Rio",
+           "REGIONID": 267925.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Ocotillo Oracle",
+           "REGIONID": 274873.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Harrison East-South",
+           "REGIONID": 273940.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Gililland",
+           "REGIONID": 267931.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Saguaro Miraflores",
+           "REGIONID": 275269.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Dietz",
+           "REGIONID": 273470.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Alahambra",
+           "REGIONID": 272734.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Harlan Heights",
+           "REGIONID": 276364.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Mitchell Park East",
+           "REGIONID": 267950.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "Southwest",
+           "REGIONID": 275498.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Richland Heights West",
+           "REGIONID": 276531.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Raintree",
+           "REGIONID": 112680.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Campus Farm",
+           "REGIONID": 273122.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Maryvale",
+           "REGIONID": 112345.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Millville",
+           "REGIONID": 274543.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Eastside",
+           "REGIONID": 273585.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Hughes Acres",
+           "REGIONID": 267934.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rancho Buena",
+           "REGIONID": 275128.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Amphi",
+           "REGIONID": 272768.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "San Ignacio Yaqui",
+           "REGIONID": 275289.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Alegre Community",
+           "REGIONID": 267902.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Groves Lincoln Park",
+           "REGIONID": 276357.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Estate La Colina",
+           "REGIONID": 267928.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Hudson Manor",
+           "REGIONID": 267933.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "North Gateway",
+           "REGIONID": 267954.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Houghton",
+           "REGIONID": 274061.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Limberlost",
+           "REGIONID": 274306.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Riverside",
+           "REGIONID": 276541.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Mach 8",
+           "REGIONID": 267942.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Las Vistas",
+           "REGIONID": 276419.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Lindon Park",
+           "REGIONID": 267940.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Desert Palms Park",
+           "REGIONID": 273462.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "San Gabriel",
+           "REGIONID": 275286.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Alta Mira",
+           "REGIONID": 111394.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Avondale",
+           "REGIONID": 276195.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Bear Canyon",
+           "REGIONID": 272891.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Julia Keen",
+           "REGIONID": 274158.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Gheko",
+           "REGIONID": 273616.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Doolen-Fruitvale",
+           "REGIONID": 273475.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Rio Acres",
+           "REGIONID": 273621.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Westside Development",
+           "REGIONID": 276037.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Knoell Gardens",
+           "REGIONID": 267938.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Enchanted Hills",
+           "REGIONID": 273641.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "Central",
+           "REGIONID": 273185.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Mission Ridge",
+           "REGIONID": 267948.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Clark Park",
+           "REGIONID": 273275.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Pie Allen",
+           "REGIONID": 275025.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Sunset",
+           "REGIONID": 275628.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Sam Hughes",
+           "REGIONID": 267967.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Corbett",
+           "REGIONID": 273345.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Mountain View",
+           "REGIONID": 276465.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Sandahl",
+           "REGIONID": 267968.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Sunnyside",
+           "REGIONID": 275621.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Tally Ho Farms",
+           "REGIONID": 267974.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Cabrini",
+           "REGIONID": 273102.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "New Village",
+           "REGIONID": 274667.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Prince Tucson",
+           "REGIONID": 275091.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Saint Cyrils",
+           "REGIONID": 275542.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Desert Aire-Loma Linda",
+           "REGIONID": 273461.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Dunbar Spring",
+           "REGIONID": 273515.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Peter Howell",
+           "REGIONID": 275013.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Shalimar",
+           "REGIONID": 267970.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Corona Del Sol",
+           "REGIONID": 273352.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Ntna-Canal Park",
+           "REGIONID": 274821.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "A Mountain",
+           "REGIONID": 272713.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Daley Park",
+           "REGIONID": 267917.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Myers",
+           "REGIONID": 274631.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Warner Estates",
+           "REGIONID": 267983.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Lakeside Park",
+           "REGIONID": 274249.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Dodge Flower",
+           "REGIONID": 276298.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Keeling",
+           "REGIONID": 276401.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Armory Park",
+           "REGIONID": 272797.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Miles East West",
+           "REGIONID": 274533.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Colonia Del Valle",
+           "REGIONID": 273319.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Mountain First Avenue",
+           "REGIONID": 274609.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Sewell",
+           "REGIONID": 275338.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Tally Ho Farms North",
+           "REGIONID": 267975.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Menlo Park",
+           "REGIONID": 274496.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Drexel Park",
+           "REGIONID": 273507.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Desert View",
+           "REGIONID": 267919.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Ahwatukee Foothills",
+           "REGIONID": 267900.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Viejo",
+           "REGIONID": 272862.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Arroyo Chico",
+           "REGIONID": 272805.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Cortez",
+           "REGIONID": 273614.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Adelanto",
+           "REGIONID": 272726.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "La Madera",
+           "REGIONID": 274214.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Northwest",
+           "REGIONID": 274799.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rosemont West",
+           "REGIONID": 275254.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Naylor",
+           "REGIONID": 274640.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Oak Flower",
+           "REGIONID": 274829.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Central City",
+           "REGIONID": 267912.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Sunset Villa",
+           "REGIONID": 275639.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Mitchell Park West",
+           "REGIONID": 267951.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Paradise Valley",
+           "REGIONID": 112547.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "El Conquistador",
+           "REGIONID": 273613.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Elvira",
+           "REGIONID": 273631.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Sunburst Farms",
+           "REGIONID": 267972.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Udall Park",
+           "REGIONID": 275796.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "Northeast",
+           "REGIONID": 274768.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Rita Ranch",
+           "REGIONID": 275179.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "West University",
+           "REGIONID": 275996.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Bell De Mar Crossing",
+           "REGIONID": 267904.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Optimist Park Nw",
+           "REGIONID": 274916.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Hedrick Acres",
+           "REGIONID": 273956.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Jefferson Park",
+           "REGIONID": 274137.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Feldman's",
+           "REGIONID": 273714.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "University Estates",
+           "REGIONID": 267979.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Deer Valley",
+           "REGIONID": 111818.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Civano",
+           "REGIONID": 273268.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Stella Mann",
+           "REGIONID": 276590.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "South Park",
+           "REGIONID": 275451.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Barrio Centro",
+           "REGIONID": 272859.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Pima",
+           "CITY": "Tucson",
+           "NAME": "Mortimore",
+           "REGIONID": 274597.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Kiwanis Park",
+           "REGIONID": 267937.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Phoenix",
+           "NAME": "Encanto",
+           "REGIONID": 267926.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Wood Park",
+           "REGIONID": 267985.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Tempe",
+           "NAME": "Tempe Royal Estates",
+           "REGIONID": 267978.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "AZ",
+           "COUNTY": "Maricopa",
+           "CITY": "Mesa",
+           "NAME": "Northwest",
+           "REGIONID": 274802.000000
+       }
+    }
+]

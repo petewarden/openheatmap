@@ -1,0 +1,1452 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Briggs",
+           "REGIONID": 269960.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Brightmoor",
+           "REGIONID": 269961.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "South East Community",
+           "REGIONID": 275427.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Milwaukee Junction",
+           "REGIONID": 270031.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Medical Center",
+           "REGIONID": 270023.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Grandmont-Rosedale",
+           "REGIONID": 269999.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Downtown",
+           "REGIONID": 269977.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "McDougall-Hunt",
+           "REGIONID": 270022.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Blackstone Park",
+           "REGIONID": 269956.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Greensbriar",
+           "REGIONID": 270001.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Chandler Park",
+           "REGIONID": 269966.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Heartside",
+           "REGIONID": 270003.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Franklin Park",
+           "REGIONID": 269992.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Bagley",
+           "REGIONID": 272839.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Russell Woods",
+           "REGIONID": 270057.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Castle Rouge",
+           "REGIONID": 269965.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Arcadia",
+           "REGIONID": 272781.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Edison",
+           "REGIONID": 269984.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Roosevelt Park",
+           "REGIONID": 275240.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Aviation",
+           "REGIONID": 272832.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Green Acres",
+           "REGIONID": 270000.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Heritage Hill",
+           "REGIONID": 270004.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Core City",
+           "REGIONID": 269971.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Highland Park",
+           "REGIONID": 273998.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Michgan Oaks",
+           "REGIONID": 274511.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Kranz Woods",
+           "REGIONID": 270014.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Midtown",
+           "REGIONID": 270028.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "West Side Industrial",
+           "REGIONID": 270079.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Lasalle Gardens",
+           "REGIONID": 270017.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Stuart",
+           "REGIONID": 270067.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Chaldean Town",
+           "REGIONID": 273209.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Oakwood Heights",
+           "REGIONID": 270043.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "East Hills",
+           "REGIONID": 269979.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Poletown East",
+           "REGIONID": 270051.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Indian Village",
+           "REGIONID": 270008.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "South Westnedge",
+           "REGIONID": 270061.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Eastside",
+           "REGIONID": 269983.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "W Mu-Krph",
+           "REGIONID": 343435.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Westnedge Hill",
+           "REGIONID": 270081.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Forest Park",
+           "REGIONID": 269991.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "The Eye",
+           "REGIONID": 270069.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Corktown",
+           "REGIONID": 269972.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Southwest Detroit",
+           "REGIONID": 270064.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Carbon Works",
+           "REGIONID": 269964.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Old Redford",
+           "REGIONID": 270044.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Northside",
+           "REGIONID": 270038.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Eight Mile Wyoming",
+           "REGIONID": 269985.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Cherry Run",
+           "REGIONID": 269967.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Conner Creek Ind",
+           "REGIONID": 273341.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Sherwood Forest",
+           "REGIONID": 270058.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Parkview Hills",
+           "REGIONID": 270049.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "West Grand",
+           "REGIONID": 270077.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Gold Coast",
+           "REGIONID": 269996.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "West Main Hill",
+           "REGIONID": 270078.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "East English Village",
+           "REGIONID": 269978.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Rosedale Park",
+           "REGIONID": 270056.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Fitzgerald",
+           "REGIONID": 269990.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Morningside",
+           "REGIONID": 270034.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Millenium Village",
+           "REGIONID": 270029.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "South East End",
+           "REGIONID": 270059.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Midtown",
+           "REGIONID": 270027.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Ridgemoor",
+           "REGIONID": 270054.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Swan",
+           "REGIONID": 270068.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Westside Connection",
+           "REGIONID": 270082.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Riverdale",
+           "REGIONID": 275194.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Lasalle College Park",
+           "REGIONID": 270016.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Vine",
+           "REGIONID": 270072.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Barton-McFarland",
+           "REGIONID": 269952.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Marina District",
+           "REGIONID": 270020.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Art Center",
+           "REGIONID": 269950.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Park",
+           "REGIONID": 274958.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Elmwood Park",
+           "REGIONID": 269987.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "English Village",
+           "REGIONID": 269988.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Oakwood",
+           "REGIONID": 168193.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Lafayette Park",
+           "REGIONID": 270015.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Herman Gardens",
+           "REGIONID": 270005.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Ravendale",
+           "REGIONID": 270052.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "South Side",
+           "REGIONID": 275459.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Knollwood",
+           "REGIONID": 270013.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Norteast Citizens Action",
+           "REGIONID": 274679.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "West Douglas",
+           "REGIONID": 270076.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "West Village",
+           "REGIONID": 270080.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Mohican Regent",
+           "REGIONID": 270033.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Madison Area",
+           "REGIONID": 274391.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Van Steuban",
+           "REGIONID": 270071.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Rivertown",
+           "REGIONID": 270055.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Eastgate",
+           "REGIONID": 269981.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Grandmont",
+           "REGIONID": 343358.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Detroit Golf",
+           "REGIONID": 269975.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Burke Acres",
+           "REGIONID": 269963.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Fishkorn",
+           "REGIONID": 269989.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Jefferson Chalmers",
+           "REGIONID": 270010.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Weatherby",
+           "REGIONID": 270075.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Five Points",
+           "REGIONID": 276333.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Alden Park",
+           "REGIONID": 269948.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Belknap Lookout",
+           "REGIONID": 269953.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Baxter",
+           "REGIONID": 272871.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Westwood Park",
+           "REGIONID": 270083.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Wayne State",
+           "REGIONID": 270074.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Grandale",
+           "REGIONID": 269997.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Berg-Lasher",
+           "REGIONID": 269954.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "New Center",
+           "REGIONID": 270036.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "State Fair Grounds",
+           "REGIONID": 270066.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Eastown",
+           "REGIONID": 269982.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Auburn Hill",
+           "REGIONID": 276190.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Brush Park",
+           "REGIONID": 276225.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Islandview",
+           "REGIONID": 274112.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Regent Park",
+           "REGIONID": 270053.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Springwells",
+           "REGIONID": 270065.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Oakdale",
+           "REGIONID": 270040.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Warrendale",
+           "REGIONID": 270073.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Virginia Park",
+           "REGIONID": 275889.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "University District",
+           "REGIONID": 270070.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Cbd",
+           "REGIONID": 273165.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "John Ball Park",
+           "REGIONID": 270011.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Oakland-Winchell",
+           "REGIONID": 274851.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Black Hills",
+           "REGIONID": 269955.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Boynton",
+           "REGIONID": 269958.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Minock Park",
+           "REGIONID": 270032.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Nw Goldberg",
+           "REGIONID": 270039.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Hill An Brook",
+           "REGIONID": 276376.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Fulton Heights",
+           "REGIONID": 269994.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Creston",
+           "REGIONID": 269973.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Garfield Park",
+           "REGIONID": 269995.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Martin Park",
+           "REGIONID": 270021.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Alger Heights",
+           "REGIONID": 269949.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Milwood",
+           "REGIONID": 168021.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Hubbard-Richard",
+           "REGIONID": 270007.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Ottawa Hills",
+           "REGIONID": 270045.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Jefferies",
+           "REGIONID": 270009.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Millbrook",
+           "REGIONID": 274541.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Grixdale",
+           "REGIONID": 270002.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Woodbridge",
+           "REGIONID": 270084.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "North Rosedale Park",
+           "REGIONID": 270037.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Pulaski",
+           "REGIONID": 275108.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Joseph Barry",
+           "REGIONID": 270012.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Petosky-Otsego",
+           "REGIONID": 270050.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Eliza Howell",
+           "REGIONID": 269986.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Conant Gardens",
+           "REGIONID": 269969.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "Fuller Avenue",
+           "REGIONID": 269993.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kalamazoo",
+           "CITY": "Kalamazoo",
+           "NAME": "Colony Farm",
+           "REGIONID": 269968.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Belmont",
+           "REGIONID": 276209.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Kent",
+           "CITY": "Grand Rapids",
+           "NAME": "South Hill",
+           "REGIONID": 270060.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Palmer Woods",
+           "REGIONID": 270047.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "MI",
+           "COUNTY": "Wayne",
+           "CITY": "Detroit",
+           "NAME": "Michigan-Martin",
+           "REGIONID": 270026.000000
+       }
+    }
+]

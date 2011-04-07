@@ -1,0 +1,452 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "North Cambridge",
+           "REGIONID": 155158.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Bay",
+           "REGIONID": 272873.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Memorial Square",
+           "REGIONID": 274495.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "East Boston",
+           "REGIONID": 154399.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "McKnight",
+           "REGIONID": 276445.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Mit",
+           "REGIONID": 274562.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Roxbury",
+           "REGIONID": 155510.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Mattapan",
+           "REGIONID": 154970.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Aggasiz-Harvard",
+           "REGIONID": 272727.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Old Hill",
+           "REGIONID": 155281.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Cambridge Highlands",
+           "REGIONID": 276232.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Allston-Brighton",
+           "REGIONID": 272755.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "West Cambridge",
+           "REGIONID": 275956.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "West Roxbury",
+           "REGIONID": 155995.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Area Iv",
+           "REGIONID": 272786.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Indian Orchard",
+           "REGIONID": 154783.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Pine Point",
+           "REGIONID": 155354.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Mid-Cambridge",
+           "REGIONID": 274518.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "South End",
+           "REGIONID": 155649.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Metro Center",
+           "REGIONID": 274508.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Forest Park",
+           "REGIONID": 154558.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Neighborhood 9",
+           "REGIONID": 274652.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Sixteen Acres",
+           "REGIONID": 155607.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Liberty Heights",
+           "REGIONID": 154868.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Back Bay-Beacon Hill",
+           "REGIONID": 272836.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Roslindale",
+           "REGIONID": 155506.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "East Forest Park",
+           "REGIONID": 154418.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Fenway-Kenmore",
+           "REGIONID": 276331.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Boston Road",
+           "REGIONID": 273003.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "North Dorchester",
+           "REGIONID": 274702.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Jamaica Plain",
+           "REGIONID": 154795.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Wellington-Harrington",
+           "REGIONID": 275942.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Brightwood",
+           "REGIONID": 154078.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Cambridgeport",
+           "REGIONID": 273116.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "Riverside",
+           "REGIONID": 275199.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "South Boston",
+           "REGIONID": 155633.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Upper Hill",
+           "REGIONID": 155852.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "South Dorchester",
+           "REGIONID": 275424.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "Maple High-Six Corners",
+           "REGIONID": 276436.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Middlesex",
+           "CITY": "Cambridge",
+           "NAME": "East Cambridge",
+           "REGIONID": 273534.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Central",
+           "REGIONID": 273181.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Hampden",
+           "CITY": "Springfield",
+           "NAME": "East Springfield",
+           "REGIONID": 154455.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Charlestown",
+           "REGIONID": 154235.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "South End",
+           "REGIONID": 275429.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "MA",
+           "COUNTY": "Suffolk",
+           "CITY": "Boston",
+           "NAME": "Hyde Park",
+           "REGIONID": 154775.000000
+       }
+    }
+]

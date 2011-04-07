@@ -1,0 +1,1012 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Holland",
+           "REGIONID": 274044.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Lyndale",
+           "REGIONID": 274381.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "East Phillips",
+           "REGIONID": 273560.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Hiawatha",
+           "REGIONID": 270119.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Cedar-Isles-Dean",
+           "REGIONID": 273173.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Southeast Como",
+           "REGIONID": 275472.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Midway",
+           "REGIONID": 274530.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Northrup",
+           "REGIONID": 270149.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "St Anthony West",
+           "REGIONID": 270160.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Regina",
+           "REGIONID": 270154.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Willard Hay",
+           "REGIONID": 270177.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Summit Hill",
+           "REGIONID": 270163.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Wenonah",
+           "REGIONID": 270172.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Kenny",
+           "REGIONID": 270123.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Como",
+           "REGIONID": 270100.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Marcy Holmes",
+           "REGIONID": 270135.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Ventura Village",
+           "REGIONID": 270169.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "East Harriet",
+           "REGIONID": 270108.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Windom",
+           "REGIONID": 276096.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "St Anthony East",
+           "REGIONID": 275534.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Prospect Park",
+           "REGIONID": 270153.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Minnehaha",
+           "REGIONID": 270139.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Bancroft",
+           "REGIONID": 272851.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Jordan",
+           "REGIONID": 274154.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Howe",
+           "REGIONID": 270120.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Hale",
+           "REGIONID": 270116.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Downtown East",
+           "REGIONID": 270106.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Highland",
+           "REGIONID": 273987.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Dayton's Bluff",
+           "REGIONID": 270102.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "University District",
+           "REGIONID": 275815.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Downtown",
+           "REGIONID": 270105.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Armatage",
+           "REGIONID": 270085.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Cedar-Riverside",
+           "REGIONID": 270096.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Bryant",
+           "REGIONID": 270089.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "West Calhoun",
+           "REGIONID": 270174.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Sheridan",
+           "REGIONID": 270156.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "North End",
+           "REGIONID": 270145.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Merrlam Park",
+           "REGIONID": 274503.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Lynnhurst",
+           "REGIONID": 270133.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Beltrami",
+           "REGIONID": 276210.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Downtown West",
+           "REGIONID": 270107.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Midtown Phillips",
+           "REGIONID": 274528.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "East Bank-Nicollet Island",
+           "REGIONID": 276310.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Webber-Camden",
+           "REGIONID": 270171.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "West 7th",
+           "REGIONID": 270173.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Saint Anthony",
+           "REGIONID": 275535.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Payne Phallen",
+           "REGIONID": 274990.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Hawthorne",
+           "REGIONID": 270118.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Lowry Hill East",
+           "REGIONID": 270132.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Summit-University",
+           "REGIONID": 270164.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Fulton",
+           "REGIONID": 270114.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Lowry Hill",
+           "REGIONID": 270131.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Cleveland",
+           "REGIONID": 273280.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Kingfield",
+           "REGIONID": 274188.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "East Isles",
+           "REGIONID": 273553.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Near North",
+           "REGIONID": 270141.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Ericsson",
+           "REGIONID": 270111.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Battle Creek",
+           "REGIONID": 270087.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Waite Park",
+           "REGIONID": 275901.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Standish",
+           "REGIONID": 270161.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Stevens Square",
+           "REGIONID": 270162.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Harrison",
+           "REGIONID": 270117.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Logan Park",
+           "REGIONID": 270128.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Seward",
+           "REGIONID": 270155.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Northeast Park",
+           "REGIONID": 270148.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Bryn Mawr",
+           "REGIONID": 273079.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Field",
+           "REGIONID": 270112.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Loring Park",
+           "REGIONID": 270130.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Phillips West",
+           "REGIONID": 275020.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Whittier",
+           "REGIONID": 270176.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Greater Eastside",
+           "REGIONID": 273877.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Windom Park",
+           "REGIONID": 270178.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Powderhorn Park",
+           "REGIONID": 270152.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Linden Hills",
+           "REGIONID": 270127.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Victory",
+           "REGIONID": 270170.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "North Loop",
+           "REGIONID": 270146.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "East Calhoun",
+           "REGIONID": 273533.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Sumner-Glenwood",
+           "REGIONID": 275612.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Thomas Dale",
+           "REGIONID": 275734.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Page",
+           "REGIONID": 274943.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Calhoun",
+           "REGIONID": 273106.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Audubon Park",
+           "REGIONID": 270086.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Bottineau",
+           "REGIONID": 270088.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Folwell",
+           "REGIONID": 273744.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Kenwood",
+           "REGIONID": 274179.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Cooper",
+           "REGIONID": 270101.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Shingle Creek",
+           "REGIONID": 270157.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Marshall Terrace",
+           "REGIONID": 270136.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Columbia Park",
+           "REGIONID": 273333.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Lind-Bohanon",
+           "REGIONID": 274320.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Elliot Park",
+           "REGIONID": 270110.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Fuller Tangletown",
+           "REGIONID": 273799.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Diamond Lake",
+           "REGIONID": 270103.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Morris Park",
+           "REGIONID": 270140.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "Macalester-Groveland",
+           "REGIONID": 274385.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Ramsey",
+           "CITY": "Saint Paul",
+           "NAME": "West Side",
+           "REGIONID": 270175.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Longfellow",
+           "REGIONID": 270129.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Corcoran",
+           "REGIONID": 273347.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "McKinley",
+           "REGIONID": 274468.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Keewaydin",
+           "REGIONID": 270122.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "MN",
+           "COUNTY": "Hennepin",
+           "CITY": "Minneapolis",
+           "NAME": "Central",
+           "REGIONID": 273183.000000
+       }
+    }
+]

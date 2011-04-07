@@ -1,0 +1,552 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Ewing And Carroll",
+           "REGIONID": 344043.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Lower Roseville",
+           "REGIONID": 274372.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Hanover Academy",
+           "REGIONID": 273926.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Downtown",
+           "REGIONID": 273483.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Greenville",
+           "REGIONID": 189019.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "East Trenton",
+           "REGIONID": 273569.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Lower Clinton Hill",
+           "REGIONID": 274367.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Forest Hill",
+           "REGIONID": 273753.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "The Heights",
+           "REGIONID": 275707.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Villa Park",
+           "REGIONID": 275868.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Pennington-Prospect",
+           "REGIONID": 275000.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Chambersburg",
+           "REGIONID": 276250.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "The Waterfront",
+           "REGIONID": 275730.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "South Trenton",
+           "REGIONID": 276571.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "North 25",
+           "REGIONID": 274682.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Springfield-Belmont",
+           "REGIONID": 275519.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Chestnut Park",
+           "REGIONID": 273233.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Weequahic",
+           "REGIONID": 275941.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Seventh Avenue",
+           "REGIONID": 275335.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Downtown",
+           "REGIONID": 273493.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Glen Afton And Island",
+           "REGIONID": 344045.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Upper Vailsburg",
+           "REGIONID": 275833.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Liberty Park",
+           "REGIONID": 274302.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "North Ironbound",
+           "REGIONID": 274724.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Franklin Park",
+           "REGIONID": 273781.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Mount Pleasant",
+           "REGIONID": 274603.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Cadwalader And Hillcrest",
+           "REGIONID": 344046.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Lower Vailsburg",
+           "REGIONID": 274374.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Fairmuont",
+           "REGIONID": 273684.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Hiltonia",
+           "REGIONID": 274031.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Hackensack Riverfront",
+           "REGIONID": 273910.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "South Broad Street",
+           "REGIONID": 275415.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Berkeley Square And Parkside",
+           "REGIONID": 344044.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Central West",
+           "REGIONID": 273206.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "West Side",
+           "REGIONID": 275990.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Greenwood And Hamilton",
+           "REGIONID": 344047.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Bergen-Lafayette",
+           "REGIONID": 272945.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Lincoln Park",
+           "REGIONID": 274313.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "South Ironbound",
+           "REGIONID": 275443.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "University Heights",
+           "REGIONID": 276616.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Mill Hill",
+           "REGIONID": 274538.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "Journal Square",
+           "REGIONID": 274157.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "West End",
+           "REGIONID": 275967.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Upper Roseville",
+           "REGIONID": 275830.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "West Side",
+           "REGIONID": 276653.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Dayton-Weequahic Park",
+           "REGIONID": 273441.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "North Trenton",
+           "REGIONID": 274753.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Hudson",
+           "CITY": "Jersey City",
+           "NAME": "McGinley Square",
+           "REGIONID": 274464.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Top Road",
+           "REGIONID": 276611.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Stuyvesant-Prospect",
+           "REGIONID": 275600.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Central Business District",
+           "REGIONID": 273194.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Battle Monument",
+           "REGIONID": 272870.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "North Broadway",
+           "REGIONID": 274692.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Mercer",
+           "CITY": "Trenton",
+           "NAME": "Wilbur",
+           "REGIONID": 276068.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "NJ",
+           "COUNTY": "Essex",
+           "CITY": "Newark",
+           "NAME": "Upper Clinton Hill",
+           "REGIONID": 276619.000000
+       }
+    }
+]

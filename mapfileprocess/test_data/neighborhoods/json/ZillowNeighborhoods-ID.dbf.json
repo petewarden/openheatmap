@@ -1,0 +1,332 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Maple Grove-Franklin",
+           "REGIONID": 269536.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Riverland East",
+           "REGIONID": 275196.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "West Bench",
+           "REGIONID": 269559.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Southeast Boise",
+           "REGIONID": 269548.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Sunrise Rim",
+           "REGIONID": 269552.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Franklin Randolph",
+           "REGIONID": 276338.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Downtown",
+           "REGIONID": 269527.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Pioneer",
+           "REGIONID": 269542.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Warm Springs Mesa",
+           "REGIONID": 269558.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "West Valley",
+           "REGIONID": 269563.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Hillcrest",
+           "REGIONID": 136485.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Boise Heights",
+           "REGIONID": 269519.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "North End",
+           "REGIONID": 269539.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Winstead Park",
+           "REGIONID": 269565.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Stewart Gulch",
+           "REGIONID": 269551.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Harris Ranch",
+           "REGIONID": 269532.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "South Boise Village",
+           "REGIONID": 269547.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Highlands",
+           "REGIONID": 136483.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Northwest",
+           "REGIONID": 269540.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Veterans Park",
+           "REGIONID": 269554.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "East End",
+           "REGIONID": 269529.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Quail Ridge",
+           "REGIONID": 269543.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Depot Bench",
+           "REGIONID": 269526.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "West Cloverdale",
+           "REGIONID": 269560.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Morris Hill",
+           "REGIONID": 269538.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Central Rim",
+           "REGIONID": 269524.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Central Bench",
+           "REGIONID": 269523.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Collister",
+           "REGIONID": 269525.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Southwest Ada",
+           "REGIONID": 275499.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Harrison Blvd",
+           "REGIONID": 269533.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Sunset",
+           "REGIONID": 269553.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Warm Springs Estates",
+           "REGIONID": 269557.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "ID",
+           "COUNTY": "Ada",
+           "CITY": "Boise",
+           "NAME": "Vista",
+           "REGIONID": 269555.000000
+       }
+    }
+]

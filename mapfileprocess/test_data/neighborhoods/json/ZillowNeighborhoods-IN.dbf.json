@@ -1,0 +1,3452 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Rolling Hills",
+           "REGIONID": 276545.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Harrison Hill",
+           "REGIONID": 273941.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Old Brook Farm",
+           "REGIONID": 274876.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Greenfield",
+           "REGIONID": 273893.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Imperial Gardens",
+           "REGIONID": 274087.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bass-Leesburg",
+           "REGIONID": 343366.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oakborough",
+           "REGIONID": 274841.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Taylor Street",
+           "REGIONID": 275676.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Coves At West Lakes",
+           "REGIONID": 273384.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Liberty Hill",
+           "REGIONID": 276422.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Scottsdale Community",
+           "REGIONID": 275323.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Greater McMillen Park",
+           "REGIONID": 273880.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Pine View Farms",
+           "REGIONID": 275030.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wildwood Park",
+           "REGIONID": 276075.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "New Glenwood",
+           "REGIONID": 343411.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Copper Hill",
+           "REGIONID": 273344.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lake Pointe Villas",
+           "REGIONID": 276410.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Timber Lake-Covington Woods",
+           "REGIONID": 276608.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Valley Place",
+           "REGIONID": 276625.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hoevelwood",
+           "REGIONID": 343399.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Fairmont",
+           "REGIONID": 273681.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodmont",
+           "REGIONID": 276670.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westwood-Fairway",
+           "REGIONID": 276046.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodhurst",
+           "REGIONID": 343379.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Five Points",
+           "REGIONID": 273737.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lafayette Place",
+           "REGIONID": 343384.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Shores Of Oakborough",
+           "REGIONID": 275371.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Southtown Meadows",
+           "REGIONID": 275491.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Covington Chase",
+           "REGIONID": 273386.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westchester Lakes",
+           "REGIONID": 276004.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Harter Heights",
+           "REGIONID": 276367.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Villas At Chandlers Cove",
+           "REGIONID": 275878.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Interurban Acres",
+           "REGIONID": 274100.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tanbark Trails",
+           "REGIONID": 275670.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Irvington Park",
+           "REGIONID": 274110.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Limberlost Acres",
+           "REGIONID": 274307.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Cambridge Oaks",
+           "REGIONID": 273115.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Forest Park Boulevard",
+           "REGIONID": 276337.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oakmont",
+           "REGIONID": 274858.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Huth's",
+           "REGIONID": 343418.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Eastgate",
+           "REGIONID": 273580.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodlands Of Riverside",
+           "REGIONID": 276137.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Plantation Of Aboite",
+           "REGIONID": 275046.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Concord Hills",
+           "REGIONID": 273340.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Broad River",
+           "REGIONID": 273044.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Windrift",
+           "REGIONID": 276097.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Becketts Run",
+           "REGIONID": 272899.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Barrington Woods",
+           "REGIONID": 272856.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westmoor Park",
+           "REGIONID": 276030.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sunny Meadows",
+           "REGIONID": 275619.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Valley Park Forest",
+           "REGIONID": 275847.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brandonwood",
+           "REGIONID": 273015.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tara",
+           "REGIONID": 343385.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Howard Park-East Bank",
+           "REGIONID": 274065.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Audubon Park",
+           "REGIONID": 272824.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Near Westside Neighborhood",
+           "REGIONID": 276469.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Aboite Meadows",
+           "REGIONID": 272718.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westchester Ridge",
+           "REGIONID": 276005.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Lasalle Park",
+           "REGIONID": 274281.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Nebraska",
+           "REGIONID": 274650.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Bercliff",
+           "REGIONID": 272943.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brookside Park",
+           "REGIONID": 273071.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Williams-Woodland Park",
+           "REGIONID": 276079.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Aspen Village",
+           "REGIONID": 272815.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Belle Vista",
+           "REGIONID": 272918.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Fall Creek",
+           "REGIONID": 273692.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Maplewood Terrace And Downs",
+           "REGIONID": 276437.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sycamore Hills",
+           "REGIONID": 275655.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "West Lakes",
+           "REGIONID": 275974.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Maplewood Park",
+           "REGIONID": 142901.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Newfield",
+           "REGIONID": 274670.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Inverness Lakes",
+           "REGIONID": 276392.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Parkview",
+           "REGIONID": 343404.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Southeast Waynedale",
+           "REGIONID": 276576.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Briargate",
+           "REGIONID": 273030.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Anthony Wayne",
+           "REGIONID": 272774.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bullerman Park Forest",
+           "REGIONID": 273090.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Canterbury Green",
+           "REGIONID": 273125.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wyndemere",
+           "REGIONID": 276163.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Crown Colony",
+           "REGIONID": 273407.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Abby Place",
+           "REGIONID": 272714.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hillside Acres",
+           "REGIONID": 274025.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Northwest Passage",
+           "REGIONID": 274810.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Eldrado Hills",
+           "REGIONID": 273624.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Suburan Heights",
+           "REGIONID": 343392.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Frances Slocum",
+           "REGIONID": 273780.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wallen Hills",
+           "REGIONID": 275910.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hoagland Masterson",
+           "REGIONID": 274038.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Harris Meadows",
+           "REGIONID": 273937.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "New Kirkwood Park",
+           "REGIONID": 274664.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Cherry Hill",
+           "REGIONID": 273231.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Maplewood Gardens",
+           "REGIONID": 274416.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Caribe Colony",
+           "REGIONID": 343413.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Broadview Terrace",
+           "REGIONID": 343377.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Haverhill",
+           "REGIONID": 273946.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hazelwood",
+           "REGIONID": 273952.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westchester Glens",
+           "REGIONID": 276003.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sheffield Woods",
+           "REGIONID": 275358.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Fairfield Terrace-Belmont",
+           "REGIONID": 273670.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "East Side",
+           "REGIONID": 343395.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Highlands",
+           "REGIONID": 274715.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lexington Heights",
+           "REGIONID": 274300.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodmark",
+           "REGIONID": 343412.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "East Central",
+           "REGIONID": 273538.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Greentree",
+           "REGIONID": 273897.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Aboite Lake Estates",
+           "REGIONID": 272717.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Walden",
+           "REGIONID": 275905.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tall Oaks",
+           "REGIONID": 275661.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Arlington Heights",
+           "REGIONID": 276188.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Saint Marys River",
+           "REGIONID": 343373.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Pine Valley",
+           "REGIONID": 275029.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lakeshores",
+           "REGIONID": 343375.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Ranchwood",
+           "REGIONID": 275132.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Log Cabin Park",
+           "REGIONID": 276425.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Millstone",
+           "REGIONID": 274542.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Village Of Buckingham",
+           "REGIONID": 275875.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Beacon Heights",
+           "REGIONID": 343400.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lincoln Park",
+           "REGIONID": 343371.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Williams Park",
+           "REGIONID": 276078.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hamilton",
+           "REGIONID": 343369.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Inverness Hills",
+           "REGIONID": 274101.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Larez",
+           "REGIONID": 274271.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Summerfield",
+           "REGIONID": 275605.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Statewood Park",
+           "REGIONID": 275568.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Pettit-Rudisill",
+           "REGIONID": 275016.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Blackhawk Forest",
+           "REGIONID": 272975.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Centaur Acres",
+           "REGIONID": 273176.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Burnham Woods",
+           "REGIONID": 273093.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "The Knolls",
+           "REGIONID": 275712.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Edgewater",
+           "REGIONID": 273598.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Stone Lake",
+           "REGIONID": 275582.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Summit Ridge",
+           "REGIONID": 275611.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tamarak",
+           "REGIONID": 275667.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Wooded Estates",
+           "REGIONID": 276123.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "River Cove",
+           "REGIONID": 343396.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bellair",
+           "REGIONID": 272913.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westwood North",
+           "REGIONID": 276043.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kirkwood Park",
+           "REGIONID": 343397.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bohde Grove",
+           "REGIONID": 272995.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Monarch Park",
+           "REGIONID": 274569.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Fallen Timbers",
+           "REGIONID": 273695.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Blackhawk",
+           "REGIONID": 272973.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Casselwood Terrace",
+           "REGIONID": 343407.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westwood Valley",
+           "REGIONID": 276044.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Shannonside",
+           "REGIONID": 275344.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hamlets Of Woodland Ridge",
+           "REGIONID": 273919.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brookside-Parkerdale",
+           "REGIONID": 273070.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Northside",
+           "REGIONID": 276483.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Whispering Meadows",
+           "REGIONID": 276053.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Keller Park",
+           "REGIONID": 274167.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "River Bend Woods",
+           "REGIONID": 275180.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hillsboro",
+           "REGIONID": 274021.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Greenview",
+           "REGIONID": 276355.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Stonefield",
+           "REGIONID": 343380.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Illsley Place",
+           "REGIONID": 343376.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Rum Village",
+           "REGIONID": 275262.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Foxchase",
+           "REGIONID": 343394.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hampton Village",
+           "REGIONID": 273923.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Packard Reo",
+           "REGIONID": 274941.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Anthony Area",
+           "REGIONID": 274683.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Winterset",
+           "REGIONID": 276665.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Fnw",
+           "REGIONID": 273743.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oakhurst",
+           "REGIONID": 274849.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodland Lake",
+           "REGIONID": 276136.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kensington Downs",
+           "REGIONID": 274176.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Shorewood",
+           "REGIONID": 275373.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hillcrest",
+           "REGIONID": 142443.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Longwood",
+           "REGIONID": 274352.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lincoln Village",
+           "REGIONID": 274316.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Jonathon Oaks",
+           "REGIONID": 274150.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Colonial Park",
+           "REGIONID": 273324.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hanna-Creighton",
+           "REGIONID": 276363.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Trier Ridge Park",
+           "REGIONID": 343408.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Branning Hills",
+           "REGIONID": 273016.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Eagle Lake",
+           "REGIONID": 273524.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Victoria Park",
+           "REGIONID": 343398.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oakdale",
+           "REGIONID": 276495.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Nearnorthwest",
+           "REGIONID": 274649.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Old Trail",
+           "REGIONID": 274899.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kekionga Shores",
+           "REGIONID": 274166.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sawmill Woods",
+           "REGIONID": 343409.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Auburn Farms",
+           "REGIONID": 272819.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Lincoln Manor",
+           "REGIONID": 274312.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Chapel Oaks",
+           "REGIONID": 273217.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wheatridge",
+           "REGIONID": 343388.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Erskine Park",
+           "REGIONID": 273648.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Covington Pines",
+           "REGIONID": 273388.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Falls Of Beaver Creek",
+           "REGIONID": 273696.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "La Cabreah",
+           "REGIONID": 274209.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Shores Of Rock Creek",
+           "REGIONID": 275372.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "South Calhoun Place",
+           "REGIONID": 276567.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lofton Woods",
+           "REGIONID": 274342.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Ardmore Knolls",
+           "REGIONID": 343367.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Maysville Heights",
+           "REGIONID": 276441.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Southwood Park",
+           "REGIONID": 343378.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Poplar Ridge",
+           "REGIONID": 275073.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Manor Park",
+           "REGIONID": 274410.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "McKinley Terrace",
+           "REGIONID": 274473.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Michigan Avenue",
+           "REGIONID": 274512.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Avalon Place",
+           "REGIONID": 343372.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Villas Of La Cabreah",
+           "REGIONID": 275882.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Shoaff Park Rivers Estates",
+           "REGIONID": 275368.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sherwood To Pettit",
+           "REGIONID": 343383.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wilmarbee",
+           "REGIONID": 276087.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Homestead Hills",
+           "REGIONID": 274054.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Fairfield",
+           "REGIONID": 273669.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Curdes Homewood",
+           "REGIONID": 273426.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Winterfield",
+           "REGIONID": 276109.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Arlington Park",
+           "REGIONID": 272795.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Eldorado Hills",
+           "REGIONID": 273623.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Continental Park",
+           "REGIONID": 343402.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Barrington Lake Estates",
+           "REGIONID": 272855.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Centerhurst",
+           "REGIONID": 273178.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Mystic Woods",
+           "REGIONID": 274632.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Blum",
+           "REGIONID": 272992.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Village Green",
+           "REGIONID": 275872.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Concord Place",
+           "REGIONID": 276274.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lake Forest",
+           "REGIONID": 274227.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Monroe Park",
+           "REGIONID": 274575.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Sherwood Terrace And Silver Maples",
+           "REGIONID": 343389.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Windsor Woods",
+           "REGIONID": 276101.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Mill Creek Villas",
+           "REGIONID": 274537.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Saint Casimir",
+           "REGIONID": 275537.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brentwood Park",
+           "REGIONID": 273024.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kyle Road",
+           "REGIONID": 276405.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Mardego Hills",
+           "REGIONID": 274420.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "The Hollows",
+           "REGIONID": 275711.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "McKinnie-Senate",
+           "REGIONID": 274475.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Saratoga Park",
+           "REGIONID": 275307.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Aldale Acres",
+           "REGIONID": 272741.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Stillwood Villaminium",
+           "REGIONID": 275578.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Pinhook Area",
+           "REGIONID": 275039.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Springwood-Orchard Woods",
+           "REGIONID": 343387.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Lasalle Area",
+           "REGIONID": 274280.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Windswept",
+           "REGIONID": 276102.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lakewood Park",
+           "REGIONID": 343374.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Cove Of Chandlers Landing",
+           "REGIONID": 273381.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lake Forest Extended",
+           "REGIONID": 274228.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Windmill Ridge",
+           "REGIONID": 276095.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Effie Drive",
+           "REGIONID": 343393.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Amber Ridge Estates",
+           "REGIONID": 272764.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lima Meadows",
+           "REGIONID": 274305.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Triangle",
+           "REGIONID": 274754.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Nws Cooperative Alliance",
+           "REGIONID": 274825.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Waterswolde",
+           "REGIONID": 275935.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Elmhurst",
+           "REGIONID": 343368.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wallen Chase",
+           "REGIONID": 275909.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Rudisill-Plaza",
+           "REGIONID": 275261.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oxford",
+           "REGIONID": 274936.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Park State East",
+           "REGIONID": 274973.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Ferndale",
+           "REGIONID": 273715.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Paper Mill Bluffs",
+           "REGIONID": 274954.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "West Central",
+           "REGIONID": 275957.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Spy Run",
+           "REGIONID": 275529.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hickory Grove",
+           "REGIONID": 273971.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Ludwig Circle",
+           "REGIONID": 274377.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Colonial Heritage",
+           "REGIONID": 343406.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Deerfield Estates",
+           "REGIONID": 273450.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bloomingdale",
+           "REGIONID": 272983.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brierwood Hills",
+           "REGIONID": 276223.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bittersweet Lakes",
+           "REGIONID": 272967.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brookmill",
+           "REGIONID": 343370.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Candelite Park",
+           "REGIONID": 273123.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sand Point",
+           "REGIONID": 275294.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Abby Place Villas",
+           "REGIONID": 272715.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Brookview",
+           "REGIONID": 343381.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Southwest Waynedale",
+           "REGIONID": 275504.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodlea",
+           "REGIONID": 276142.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hearthstone",
+           "REGIONID": 273953.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Blackhawk Farms",
+           "REGIONID": 272974.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Countrybrook",
+           "REGIONID": 343417.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Springmill Woods",
+           "REGIONID": 343365.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Westside",
+           "REGIONID": 276035.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Breconshire",
+           "REGIONID": 273022.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Poplar",
+           "REGIONID": 275070.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Oakland Park",
+           "REGIONID": 274855.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lakes Of Buckingham",
+           "REGIONID": 343415.000000
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Auers",
+           "REGIONID": 343401.000000
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westlawn",
+           "REGIONID": 144366.000000
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hunters Point",
+           "REGIONID": 276387.000000
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Southeast Pond",
+           "REGIONID": 275475.000000
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Maumee Terrace",
+           "REGIONID": 274447.000000
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Village Woods",
+           "REGIONID": 275876.000000
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Pontiac Place",
+           "REGIONID": 275069.000000
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Woodmont Ridge",
+           "REGIONID": 276147.000000
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Council Oak",
+           "REGIONID": 276278.000000
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "McCormick Place",
+           "REGIONID": 343405.000000
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Casa Grande Place",
+           "REGIONID": 273151.000000
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Northwest Lima Woods",
+           "REGIONID": 274808.000000
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Harvester",
+           "REGIONID": 343403.000000
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Glenwood Park",
+           "REGIONID": 273840.000000
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Forest Ridge Estates",
+           "REGIONID": 273760.000000
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bellshire",
+           "REGIONID": 343416.000000
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Eagle Creek",
+           "REGIONID": 273523.000000
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Burning Tree",
+           "REGIONID": 273094.000000
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Sunset",
+           "REGIONID": 275629.000000
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Southwick Village",
+           "REGIONID": 343410.000000
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kingston Park",
+           "REGIONID": 274191.000000
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Georgetown Place",
+           "REGIONID": 273815.000000
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Whispering Woods",
+           "REGIONID": 276054.000000
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Twyckenham Hills",
+           "REGIONID": 275790.000000
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Still Water Place",
+           "REGIONID": 275577.000000
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Homesteads",
+           "REGIONID": 274055.000000
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Lake Of The Woods",
+           "REGIONID": 274236.000000
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Southeast Quality",
+           "REGIONID": 275476.000000
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Morningside Terrace",
+           "REGIONID": 274591.000000
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Wedgewood Place",
+           "REGIONID": 275939.000000
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Creighton Home",
+           "REGIONID": 273398.000000
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Mill Ridge Place",
+           "REGIONID": 274539.000000
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Bridlewood",
+           "REGIONID": 273037.000000
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Hickory Glen",
+           "REGIONID": 273970.000000
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Riverpark",
+           "REGIONID": 275197.000000
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Mount Vernon Park",
+           "REGIONID": 276464.000000
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Crestwood Colony",
+           "REGIONID": 343390.000000
+       }
+    },
+    {
+       "index": 314,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Liberty Hills West",
+           "REGIONID": 274301.000000
+       }
+    },
+    {
+       "index": 315,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Willshire Estates",
+           "REGIONID": 276086.000000
+       }
+    },
+    {
+       "index": 316,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Somerset Acres",
+           "REGIONID": 275397.000000
+       }
+    },
+    {
+       "index": 317,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Covington Bluffs",
+           "REGIONID": 273385.000000
+       }
+    },
+    {
+       "index": 318,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Westfield",
+           "REGIONID": 276018.000000
+       }
+    },
+    {
+       "index": 319,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Chandlers Landing",
+           "REGIONID": 276252.000000
+       }
+    },
+    {
+       "index": 320,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Rolling Rose",
+           "REGIONID": 275234.000000
+       }
+    },
+    {
+       "index": 321,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Glens Of Liberty Mill",
+           "REGIONID": 273835.000000
+       }
+    },
+    {
+       "index": 322,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tower Heights",
+           "REGIONID": 275762.000000
+       }
+    },
+    {
+       "index": 323,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Daus Suburban",
+           "REGIONID": 273434.000000
+       }
+    },
+    {
+       "index": 324,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Franke Park",
+           "REGIONID": 274708.000000
+       }
+    },
+    {
+       "index": 325,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Countryside",
+           "REGIONID": 276281.000000
+       }
+    },
+    {
+       "index": 326,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Northeast",
+           "REGIONID": 269648.000000
+       }
+    },
+    {
+       "index": 327,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "North Pointe Woods",
+           "REGIONID": 274737.000000
+       }
+    },
+    {
+       "index": 328,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "South Suburan",
+           "REGIONID": 343391.000000
+       }
+    },
+    {
+       "index": 329,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Kern Valley Meadows",
+           "REGIONID": 274181.000000
+       }
+    },
+    {
+       "index": 330,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "North Shore Triangle",
+           "REGIONID": 274747.000000
+       }
+    },
+    {
+       "index": 331,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Memorial Park",
+           "REGIONID": 276448.000000
+       }
+    },
+    {
+       "index": 332,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Parkway Hills",
+           "REGIONID": 274981.000000
+       }
+    },
+    {
+       "index": 333,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Saint Joseph",
+           "CITY": "South Bend",
+           "NAME": "Woodlawn",
+           "REGIONID": 276140.000000
+       }
+    },
+    {
+       "index": 334,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "South Wayne",
+           "REGIONID": 275464.000000
+       }
+    },
+    {
+       "index": 335,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Highland Park Forest",
+           "REGIONID": 343386.000000
+       }
+    },
+    {
+       "index": 336,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Reckeweg Road",
+           "REGIONID": 275139.000000
+       }
+    },
+    {
+       "index": 337,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Foster Park",
+           "REGIONID": 273768.000000
+       }
+    },
+    {
+       "index": 338,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Cedar Ridge",
+           "REGIONID": 273172.000000
+       }
+    },
+    {
+       "index": 339,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Vesey",
+           "REGIONID": 275858.000000
+       }
+    },
+    {
+       "index": 340,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Park Place",
+           "REGIONID": 343382.000000
+       }
+    },
+    {
+       "index": 341,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Tartans Glen",
+           "REGIONID": 276602.000000
+       }
+    },
+    {
+       "index": 342,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Villas Of The Marketplace",
+           "REGIONID": 275883.000000
+       }
+    },
+    {
+       "index": 343,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Northwood Park",
+           "REGIONID": 274814.000000
+       }
+    },
+    {
+       "index": 344,
+       "attributes": {
+           "STATE": "IN",
+           "COUNTY": "Allen",
+           "CITY": "Fort Wayne",
+           "NAME": "Camelot",
+           "REGIONID": 343414.000000
+       }
+    }
+]

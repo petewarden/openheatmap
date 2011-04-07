@@ -1,0 +1,2282 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Hyde Park",
+           "REGIONID": 270214.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Penrose",
+           "REGIONID": 270246.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Franz Park",
+           "REGIONID": 270204.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Verona Hills",
+           "REGIONID": 276628.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Marlborough Heights-Marlborough Pride",
+           "REGIONID": 274432.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Carr Square",
+           "REGIONID": 270187.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Tower Grove South",
+           "REGIONID": 270268.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oldham Farms",
+           "REGIONID": 274909.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ward Parkway Plaza",
+           "REGIONID": 275918.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Forest Park Southeast",
+           "REGIONID": 270201.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Fox Park",
+           "REGIONID": 273774.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Visitation Park",
+           "REGIONID": 270271.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Stanford Gardens",
+           "REGIONID": 275562.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Blue Hills",
+           "REGIONID": 272985.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Volker",
+           "REGIONID": 275898.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "North Point",
+           "REGIONID": 270239.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ivanhoe Southeast",
+           "REGIONID": 274114.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Coleman Highlands",
+           "REGIONID": 273300.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Indipendence Plaza",
+           "REGIONID": 274092.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Sunset Hill West",
+           "REGIONID": 275634.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Penrose Park",
+           "REGIONID": 275004.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "West Blue Valley",
+           "REGIONID": 275954.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Missouri Botanical Garden",
+           "REGIONID": 274561.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Brown Estates",
+           "REGIONID": 273074.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Kingsway West",
+           "REGIONID": 270221.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Lewis Heights",
+           "REGIONID": 274297.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Patch",
+           "REGIONID": 270244.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Shaw",
+           "REGIONID": 275351.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Unity Ridge",
+           "REGIONID": 275805.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Citadel",
+           "REGIONID": 273253.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Knoches Park",
+           "REGIONID": 274201.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Columbus Square",
+           "REGIONID": 270192.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "West Plaza",
+           "REGIONID": 275980.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Lindenwood Park",
+           "REGIONID": 270226.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "The Greater Ville",
+           "REGIONID": 270263.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Boulevard Heights",
+           "REGIONID": 270186.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "South Blue Valley",
+           "REGIONID": 275413.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Legacy East",
+           "REGIONID": 274290.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Little Blue Valley",
+           "REGIONID": 274330.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Tower Grove East",
+           "REGIONID": 270267.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "The Hill",
+           "REGIONID": 270264.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "McKinley Heights",
+           "REGIONID": 274471.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Martin City",
+           "REGIONID": 274439.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Self Help Neighborhood Council",
+           "REGIONID": 275326.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Faireway Hills",
+           "REGIONID": 276324.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Old Westport",
+           "REGIONID": 274903.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Santa Fe",
+           "REGIONID": 275304.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Saint Louis Place",
+           "REGIONID": 275546.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ward Parkway",
+           "REGIONID": 276636.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "East Blue Valley",
+           "REGIONID": 273530.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Valentine",
+           "REGIONID": 275841.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Wells-Goodfellow",
+           "REGIONID": 275944.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Norble And Gregory Ridge",
+           "REGIONID": 274677.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Downtown",
+           "REGIONID": 270197.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Kosciusko",
+           "REGIONID": 270222.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Broadway Gillham",
+           "REGIONID": 273055.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "North Riverfront",
+           "REGIONID": 270240.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Saint Catherine's Gardens",
+           "REGIONID": 275538.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Arnour Fields",
+           "REGIONID": 272800.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Wydown-Skinker",
+           "REGIONID": 276160.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "North Hampton",
+           "REGIONID": 270238.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "College Hill",
+           "REGIONID": 270191.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Blue Vue Hills",
+           "REGIONID": 272989.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Kirkside",
+           "REGIONID": 274196.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Linwood Homeowner-Ivanhoe",
+           "REGIONID": 274328.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Kingsway East",
+           "REGIONID": 270220.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Downtown West",
+           "REGIONID": 270198.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "White Oak",
+           "REGIONID": 276660.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Union Hill",
+           "REGIONID": 275798.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Dutchtown",
+           "REGIONID": 273519.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "South India Mound",
+           "REGIONID": 275442.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Plaza Westport",
+           "REGIONID": 275050.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Debaliviere Place",
+           "REGIONID": 270196.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Swope Parkway-Elmwood",
+           "REGIONID": 275652.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Fairground Neighborhood",
+           "REGIONID": 270199.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Benton Park",
+           "REGIONID": 270183.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Fairwood And Robandee",
+           "REGIONID": 273691.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oakwood",
+           "REGIONID": 276497.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Northest Industrial District",
+           "REGIONID": 274778.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Pendleton Heights",
+           "REGIONID": 274998.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Marlborough East",
+           "REGIONID": 274431.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Covenant Blu-Grand Center",
+           "REGIONID": 273383.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "East Sqope Highlands",
+           "REGIONID": 276313.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Hanover Place",
+           "REGIONID": 273927.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Central West End",
+           "REGIONID": 270188.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Soulard",
+           "REGIONID": 275402.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Southmoreland",
+           "REGIONID": 275483.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "North Town Fork Creek",
+           "REGIONID": 274751.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Willow Creek",
+           "REGIONID": 276662.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Benton Park West",
+           "REGIONID": 270184.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Royal Oaks",
+           "REGIONID": 275259.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "La Salle",
+           "REGIONID": 274217.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Riverview",
+           "REGIONID": 174708.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "East Meyer",
+           "REGIONID": 273556.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Blue Valley Industrial",
+           "REGIONID": 272988.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Birdlespur",
+           "REGIONID": 272964.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Hamilton Heights",
+           "REGIONID": 270210.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Clifton Heights",
+           "REGIONID": 172255.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Bonne Hills",
+           "REGIONID": 273001.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Skinker-Debaliviere",
+           "REGIONID": 275384.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Clayton-Tamm",
+           "REGIONID": 276262.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Park Farms",
+           "REGIONID": 274962.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Key Coalition",
+           "REGIONID": 276403.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Ellendale",
+           "REGIONID": 172651.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Mission Lake",
+           "REGIONID": 274556.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Botanical Heights",
+           "REGIONID": 273004.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Walnut Park East",
+           "REGIONID": 270273.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Palestine West And Oak Park Northeast",
+           "REGIONID": 274945.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ivanhoe Northeast",
+           "REGIONID": 276395.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Carondelet",
+           "REGIONID": 172101.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Blue Hills Estates",
+           "REGIONID": 272986.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Tower Homes",
+           "REGIONID": 275763.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "The Ville",
+           "REGIONID": 270265.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Compton Heights",
+           "REGIONID": 273337.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Eastwood Hills West",
+           "REGIONID": 276317.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Waldo Homes",
+           "REGIONID": 275907.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Westwood",
+           "REGIONID": 276040.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Greenway Fields",
+           "REGIONID": 273900.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Cunningham Ridge",
+           "REGIONID": 273425.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Oarondelet Park",
+           "REGIONID": 274870.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Western Hills",
+           "REGIONID": 276011.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oak Meyer Gardens",
+           "REGIONID": 276493.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "North India Mound",
+           "REGIONID": 274721.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Mark Twain",
+           "REGIONID": 270228.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Stayton Meadows",
+           "REGIONID": 275569.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Wendell Phillips",
+           "REGIONID": 275946.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Old North Saint Louis",
+           "REGIONID": 274886.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Sheffield",
+           "REGIONID": 275355.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Riss Lake",
+           "REGIONID": 276535.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Near North Riverfront",
+           "REGIONID": 270236.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Red Ridge South",
+           "REGIONID": 275141.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Red Bridge North",
+           "REGIONID": 275140.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Southwest Garden",
+           "REGIONID": 270258.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Vineyard Northwest",
+           "REGIONID": 275885.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Eastern 49-63",
+           "REGIONID": 273577.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Foxtown East",
+           "REGIONID": 273779.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Rolling Meadows",
+           "REGIONID": 275232.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Forest Park",
+           "REGIONID": 276336.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "West Blue Township",
+           "REGIONID": 275953.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Loma Vista",
+           "REGIONID": 274344.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Marine Villa",
+           "REGIONID": 270227.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Mount Hope",
+           "REGIONID": 274601.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "West Waldo",
+           "REGIONID": 275998.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Hickman Mills",
+           "REGIONID": 276371.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Highview Estates",
+           "REGIONID": 274013.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "East Community Team South",
+           "REGIONID": 273542.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "River Market",
+           "REGIONID": 275185.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Westside South",
+           "REGIONID": 276039.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Lewis Place",
+           "REGIONID": 274299.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Hillcrest",
+           "REGIONID": 274017.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Midtown",
+           "REGIONID": 270230.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Lafayette Square",
+           "REGIONID": 270223.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Armour Hills",
+           "REGIONID": 272798.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Central Business District-Downtown",
+           "REGIONID": 273196.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Roanoke",
+           "REGIONID": 275217.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Country Club Plaza",
+           "REGIONID": 273370.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Lea Manor",
+           "REGIONID": 274287.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ingleside",
+           "REGIONID": 274095.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "East Community Team North",
+           "REGIONID": 273541.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Country Lane Estates",
+           "REGIONID": 273373.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Cheltenham",
+           "REGIONID": 270189.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Vandeventer",
+           "REGIONID": 270269.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "North Blue Ridge",
+           "REGIONID": 274690.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Western 49-63",
+           "REGIONID": 276008.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Bleheim Square-Research Hospital",
+           "REGIONID": 272980.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Bevo Mill",
+           "REGIONID": 270185.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Kings Oak",
+           "REGIONID": 270218.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "South Plaza",
+           "REGIONID": 276568.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Central Blue Valley-Park Tower Grade",
+           "REGIONID": 273188.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "North Hyde Park",
+           "REGIONID": 274720.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Peabody-Darst-Webbe",
+           "REGIONID": 274992.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Vineyard",
+           "REGIONID": 276632.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Timber Valley",
+           "REGIONID": 275750.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ruskin Heights",
+           "REGIONID": 276548.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "South Town Fork Creek",
+           "REGIONID": 275462.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Princeton Heights",
+           "REGIONID": 270248.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ruskin Hills",
+           "REGIONID": 275264.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Squier Park",
+           "REGIONID": 275532.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Washington Weatley",
+           "REGIONID": 275931.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Hidden Valley",
+           "REGIONID": 273979.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Fountain Park",
+           "REGIONID": 270202.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Richards Gebaur",
+           "REGIONID": 275159.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Palestine East",
+           "REGIONID": 276504.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Longfellow",
+           "REGIONID": 274348.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Fairground Park",
+           "REGIONID": 273672.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Tiffany",
+           "REGIONID": 270266.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Eastwood Hill East",
+           "REGIONID": 273590.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Sarritt Point",
+           "REGIONID": 276552.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "South Hyde Park",
+           "REGIONID": 275441.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Stanford Estates",
+           "REGIONID": 275560.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Sterling Acres",
+           "REGIONID": 275574.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "The Gate District",
+           "REGIONID": 270262.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Bannister Ares",
+           "REGIONID": 272853.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Foxcroft And Glen Arbor",
+           "REGIONID": 273777.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Walnut Park West",
+           "REGIONID": 270274.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Academy",
+           "REGIONID": 270181.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Calvary-Bellefontaine Cemetery",
+           "REGIONID": 273113.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oak Park Southeast",
+           "REGIONID": 274839.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Gravois Park",
+           "REGIONID": 270208.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oak Park Northwest",
+           "REGIONID": 274838.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Sunset Hill",
+           "REGIONID": 275633.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Country Valley-Hawthorn Square",
+           "REGIONID": 273375.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Manheim Park",
+           "REGIONID": 274407.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Morningside",
+           "REGIONID": 274590.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Westside North",
+           "REGIONID": 276038.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Santa Fe Hills",
+           "REGIONID": 275305.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Saint Louis Hills",
+           "REGIONID": 276586.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "West End",
+           "REGIONID": 270280.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Fairlane",
+           "REGIONID": 273678.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Robandee South",
+           "REGIONID": 275218.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Hickman Mills South",
+           "REGIONID": 273969.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Crown Center",
+           "REGIONID": 273406.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Linden Hills And Indian Heights",
+           "REGIONID": 274321.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "South Hampton",
+           "REGIONID": 275437.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Ashland Ridge",
+           "REGIONID": 272810.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Central Hyde Park",
+           "REGIONID": 273203.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Holmes Park",
+           "REGIONID": 274050.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Wornall Homestead",
+           "REGIONID": 276155.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Hi-Pointe",
+           "REGIONID": 270212.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Lykins",
+           "REGIONID": 274379.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Jeffvanderlou",
+           "REGIONID": 270216.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Beacon Hills",
+           "REGIONID": 272889.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Mount Pleasant",
+           "REGIONID": 276463.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Baden",
+           "REGIONID": 171687.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Saint Louis",
+           "CITY": "Saint Louis",
+           "NAME": "Holly Hills",
+           "REGIONID": 270213.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Romanelli West",
+           "REGIONID": 275236.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Swope Park Campus",
+           "REGIONID": 275651.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "MO",
+           "COUNTY": "Jackson",
+           "CITY": "Kansas City",
+           "NAME": "Oak Park Southwest",
+           "REGIONID": 274840.000000
+       }
+    }
+]

@@ -1,0 +1,1472 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Fairywood",
+           "REGIONID": 271176.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Elmwood",
+           "REGIONID": 210296.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Mt Oliver",
+           "REGIONID": 271195.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Spring Garden",
+           "REGIONID": 343624.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Hunting Park",
+           "REGIONID": 211824.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Cedar Brook",
+           "REGIONID": 276242.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Stanton Heights",
+           "REGIONID": 215971.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Squirrel Hill South",
+           "REGIONID": 271220.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Brighton Heights",
+           "REGIONID": 271156.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Torresdale",
+           "REGIONID": 216392.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Richmond",
+           "REGIONID": 214976.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Bloomfield",
+           "REGIONID": 208472.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Juniata Park-Feltonville",
+           "REGIONID": 274159.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Chartiers City",
+           "REGIONID": 273221.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Elliott",
+           "REGIONID": 210276.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Schuylkill Southwest",
+           "REGIONID": 275317.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Beechview",
+           "REGIONID": 208228.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Saint Clair",
+           "REGIONID": 275539.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Somerton",
+           "REGIONID": 215792.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Oakland",
+           "REGIONID": 214069.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Perry North",
+           "REGIONID": 271206.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Point Breeze",
+           "REGIONID": 214645.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Roxborough",
+           "REGIONID": 215211.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Central Lawrenceville",
+           "REGIONID": 276248.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "East Liberty",
+           "REGIONID": 210081.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Spring Hill-City View",
+           "REGIONID": 343628.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "North Central",
+           "REGIONID": 271198.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "South Shore",
+           "REGIONID": 271216.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Allentown",
+           "REGIONID": 272753.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Central Business District",
+           "REGIONID": 271161.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Mount Washington",
+           "REGIONID": 213615.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Northview Heights",
+           "REGIONID": 271200.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Hays",
+           "REGIONID": 343635.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Carrick",
+           "REGIONID": 208967.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Lincoln Place",
+           "REGIONID": 343636.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Bedford Dwellings",
+           "REGIONID": 271154.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Hartranft",
+           "REGIONID": 271183.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Olney",
+           "REGIONID": 214146.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Logan-Fern Rock",
+           "REGIONID": 276426.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Fishtown",
+           "REGIONID": 271178.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Garfield",
+           "REGIONID": 273806.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Allegheny Center",
+           "REGIONID": 343638.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Germantown",
+           "REGIONID": 273817.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Bluff",
+           "REGIONID": 276217.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Southside Flats",
+           "REGIONID": 271217.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Rhawnhurst",
+           "REGIONID": 214954.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Haddington-Carroll Park",
+           "REGIONID": 273911.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Marshall-Shadeland",
+           "REGIONID": 343629.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Bustleton",
+           "REGIONID": 208850.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Troy Hill",
+           "REGIONID": 216452.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Homewood North",
+           "REGIONID": 271185.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Marconi Plaza-Packer Park",
+           "REGIONID": 274419.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Oak Lane",
+           "REGIONID": 274834.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Fine View",
+           "REGIONID": 343626.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Fairmount-Spring Garden",
+           "REGIONID": 273683.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Banksville",
+           "REGIONID": 208110.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Grays Ferry",
+           "REGIONID": 271181.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "East Falls",
+           "REGIONID": 210059.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Central Northside",
+           "REGIONID": 271162.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "California-Kirkbride",
+           "REGIONID": 343625.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Wharton-Hawthorne-Bella Vista",
+           "REGIONID": 276050.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Wind Gap",
+           "REGIONID": 343631.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Mount Airy",
+           "REGIONID": 213529.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "East Allegheny",
+           "REGIONID": 271169.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Mount Oliver",
+           "REGIONID": 343637.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Brewerytown",
+           "REGIONID": 271155.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "East Carnegie",
+           "REGIONID": 343630.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Manchester",
+           "REGIONID": 212921.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Southside Slopes",
+           "REGIONID": 271218.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Swisshelm Park",
+           "REGIONID": 271223.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Herrs Island",
+           "REGIONID": 271184.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "City Center East",
+           "REGIONID": 276259.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Homewood West",
+           "REGIONID": 271187.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Point Breeze",
+           "REGIONID": 275065.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Greenfield",
+           "REGIONID": 211218.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Byberry",
+           "REGIONID": 208863.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "West End",
+           "REGIONID": 216959.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Shadyside",
+           "REGIONID": 215515.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Brookline",
+           "REGIONID": 208709.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Belmont",
+           "REGIONID": 272931.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Harrowgate",
+           "REGIONID": 271182.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Eastwick",
+           "REGIONID": 210148.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Hazelwood",
+           "REGIONID": 211463.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Larimer",
+           "REGIONID": 274272.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Perry South",
+           "REGIONID": 271207.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Westwood",
+           "REGIONID": 343632.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Arlington",
+           "REGIONID": 272790.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Lincoln-Lemington-Belmar",
+           "REGIONID": 274318.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Morningside",
+           "REGIONID": 213494.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Alleghany West",
+           "REGIONID": 272748.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Friendship",
+           "REGIONID": 271179.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Highland Park",
+           "REGIONID": 273999.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Wissanoning",
+           "REGIONID": 276112.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Pennsport-Whitman-Queen",
+           "REGIONID": 275001.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Point Breeze North",
+           "REGIONID": 271208.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Fox Chase",
+           "REGIONID": 210745.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Tioga-Nicetown",
+           "REGIONID": 275751.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Glen Hazel",
+           "REGIONID": 273829.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Terrace Village",
+           "REGIONID": 271224.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Middle Hill",
+           "REGIONID": 271194.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Fairhill",
+           "REGIONID": 271175.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Strawberry Mansion",
+           "REGIONID": 271222.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "East Hills",
+           "REGIONID": 271172.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Allegheny West",
+           "REGIONID": 272749.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Academy Gardens",
+           "REGIONID": 272721.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Summer Hill",
+           "REGIONID": 343627.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Kensington",
+           "REGIONID": 212161.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Lower Lawrenceville",
+           "REGIONID": 271192.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Knoxville",
+           "REGIONID": 212283.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Morris Park",
+           "REGIONID": 274595.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Poplar-Ludlow-Yorktowne",
+           "REGIONID": 275074.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Riverfront",
+           "REGIONID": 271212.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Chestnut Hill",
+           "REGIONID": 209173.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Upper Lawrenceville",
+           "REGIONID": 271227.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Manayunk",
+           "REGIONID": 212919.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Ridgemont",
+           "REGIONID": 275170.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Crafton Heights",
+           "REGIONID": 343634.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Upper Hill",
+           "REGIONID": 271226.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Arlington Heights",
+           "REGIONID": 272793.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Girard Estates",
+           "REGIONID": 271180.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Beltzhoover",
+           "REGIONID": 208285.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Cobbs Creek",
+           "REGIONID": 271166.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Esplen",
+           "REGIONID": 210372.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Summerdale",
+           "REGIONID": 275604.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Bon Air",
+           "REGIONID": 272998.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "North Oakland",
+           "REGIONID": 274732.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Strip District",
+           "REGIONID": 216117.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "City Center West",
+           "REGIONID": 273262.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Chateau",
+           "REGIONID": 271165.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "West Oakland",
+           "REGIONID": 271231.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Regent Square",
+           "REGIONID": 271211.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Mayfield",
+           "REGIONID": 274451.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Brundis Island",
+           "REGIONID": 343639.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Oakwood",
+           "REGIONID": 343633.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Frankford",
+           "REGIONID": 210763.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Polish Hill",
+           "REGIONID": 271209.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Duquesne Heights",
+           "REGIONID": 210000.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "North Shore",
+           "REGIONID": 271199.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Holmesburry-Torresdale",
+           "REGIONID": 276383.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Sheraden",
+           "REGIONID": 215587.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Overbrook",
+           "REGIONID": 214217.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Wynnefield",
+           "REGIONID": 217363.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Crawford Roberts",
+           "REGIONID": 273391.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "Oxford Circle",
+           "REGIONID": 214232.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Squirrel Hill North",
+           "REGIONID": 271219.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Philadelphia",
+           "CITY": "Philadelphia",
+           "NAME": "South Philadelphia",
+           "REGIONID": 271215.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "PA",
+           "COUNTY": "Allegheny",
+           "CITY": "Pittsburgh",
+           "NAME": "Homewood South",
+           "REGIONID": 271186.000000
+       }
+    }
+]

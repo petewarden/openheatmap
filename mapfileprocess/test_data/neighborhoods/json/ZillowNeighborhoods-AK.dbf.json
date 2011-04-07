@@ -1,0 +1,382 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Northeast",
+           "REGIONID": 267847.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Old Seward-Oceanview",
+           "REGIONID": 274891.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Portage Valley",
+           "REGIONID": 275077.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Glen Alps",
+           "REGIONID": 267840.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Campbell Park",
+           "REGIONID": 267835.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Eagle River Valley",
+           "REGIONID": 267837.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Spenard",
+           "REGIONID": 102588.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Bear Valley",
+           "REGIONID": 267834.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Girdwood",
+           "REGIONID": 102224.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Taku-Campbell",
+           "REGIONID": 275659.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Hillside East",
+           "REGIONID": 267842.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Tudor Area",
+           "REGIONID": 267856.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "North Star",
+           "REGIONID": 267846.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Rabbit Creek",
+           "REGIONID": 267849.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Bayshore-Klatt",
+           "REGIONID": 272880.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Russian Jack Park",
+           "REGIONID": 267850.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Chugiak",
+           "REGIONID": 102116.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Eagle River",
+           "REGIONID": 102172.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Airport Heights",
+           "REGIONID": 267831.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Birchwood",
+           "REGIONID": 102065.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "South Fork",
+           "REGIONID": 267854.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Turnagain",
+           "REGIONID": 267857.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Abbott Loop",
+           "REGIONID": 267830.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Eklutna Valley",
+           "REGIONID": 267838.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "University Area",
+           "REGIONID": 275810.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Fairview",
+           "REGIONID": 267839.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Midtown",
+           "REGIONID": 267845.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "South Addition",
+           "REGIONID": 267853.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Turnagain Arm",
+           "REGIONID": 275783.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Scenic Foothills",
+           "REGIONID": 267852.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Mid-Hillside",
+           "REGIONID": 267844.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Rogers Park",
+           "REGIONID": 102543.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Government Hill",
+           "REGIONID": 267841.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Basher",
+           "REGIONID": 267832.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Sand Lake",
+           "REGIONID": 267851.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Downtown",
+           "REGIONID": 267836.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Huffman-O'malley",
+           "REGIONID": 276385.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "AK",
+           "COUNTY": "Anchorage",
+           "CITY": "Anchorage",
+           "NAME": "Mountain View",
+           "REGIONID": 102412.000000
+       }
+    }
+]

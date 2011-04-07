@@ -1,0 +1,1014 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mapfileprocess">
+  <node id="2" lat="38.97227" lon="-77.040056"/>
+  <node id="3" lat="38.972032" lon="-77.045436"/>
+  <node id="4" lat="38.982957" lon="-77.04498"/>
+  <node id="5" lat="38.987883" lon="-77.050779"/>
+  <node id="6" lat="38.995109" lon="-77.041"/>
+  <node id="7" lat="38.992909" lon="-77.0373"/>
+  <node id="8" lat="38.984691" lon="-77.026609"/>
+  <node id="9" lat="38.97701" lon="-77.0263"/>
+  <node id="10" lat="38.972343" lon="-77.026984"/>
+  <node id="11" lat="38.972324" lon="-77.031133"/>
+  <node id="13" lat="38.93511" lon="-76.9633"/>
+  <node id="14" lat="38.924509" lon="-76.9859"/>
+  <node id="15" lat="38.92661" lon="-77.0091"/>
+  <node id="16" lat="38.92621" lon="-77.0137"/>
+  <node id="17" lat="38.92861" lon="-77.0189"/>
+  <node id="18" lat="38.92808" lon="-77.02325"/>
+  <node id="19" lat="38.93527" lon="-77.02435"/>
+  <node id="20" lat="38.95144" lon="-77.02755"/>
+  <node id="21" lat="38.95349" lon="-77.02785"/>
+  <node id="22" lat="38.95414" lon="-77.01083"/>
+  <node id="23" lat="38.95571" lon="-77.0027"/>
+  <node id="24" lat="38.95761" lon="-76.9926"/>
+  <node id="26" lat="38.889691" lon="-76.962464"/>
+  <node id="27" lat="38.889809" lon="-76.913291"/>
+  <node id="28" lat="38.809809" lon="-77.015609"/>
+  <node id="29" lat="38.810109" lon="-77.0216"/>
+  <node id="30" lat="38.810752" lon="-77.02536"/>
+  <node id="31" lat="38.815987" lon="-77.027859"/>
+  <node id="32" lat="38.820745" lon="-77.027145"/>
+  <node id="33" lat="38.821578" lon="-77.018103"/>
+  <node id="34" lat="38.829334" lon="-77.017831"/>
+  <node id="35" lat="38.839522" lon="-77.009893"/>
+  <node id="36" lat="38.850944" lon="-77.008522"/>
+  <node id="37" lat="38.860172" lon="-77.004799"/>
+  <node id="38" lat="38.866214" lon="-77.003554"/>
+  <node id="39" lat="38.868024" lon="-77.004456"/>
+  <node id="40" lat="38.870188" lon="-77.001898"/>
+  <node id="41" lat="38.868817" lon="-76.995216"/>
+  <node id="42" lat="38.86876" lon="-76.99396"/>
+  <node id="43" lat="38.871044" lon="-76.989963"/>
+  <node id="44" lat="38.873957" lon="-76.983738"/>
+  <node id="45" lat="38.877555" lon="-76.97323"/>
+  <node id="46" lat="38.879439" lon="-76.971403"/>
+  <node id="47" lat="38.881438" lon="-76.969975"/>
+  <node id="48" lat="38.886178" lon="-76.964321"/>
+  <node id="50" lat="38.90553" lon="-77.01486"/>
+  <node id="51" lat="38.90567" lon="-77.0271"/>
+  <node id="52" lat="38.91398" lon="-77.02707"/>
+  <node id="53" lat="38.914" lon="-77.02402"/>
+  <node id="54" lat="38.91681" lon="-77.024"/>
+  <node id="55" lat="38.91616" lon="-77.02203"/>
+  <node id="56" lat="38.914" lon="-77.01677"/>
+  <node id="57" lat="38.91287" lon="-77.01414"/>
+  <node id="58" lat="38.91072" lon="-77.00904"/>
+  <node id="59" lat="38.908827" lon="-77.004673"/>
+  <node id="60" lat="38.905971" lon="-77.004692"/>
+  <node id="61" lat="38.90561" lon="-77.00902"/>
+  <node id="63" lat="38.875571" lon="-76.983715"/>
+  <node id="64" lat="38.900213" lon="-76.983658"/>
+  <node id="65" lat="38.90516" lon="-76.980083"/>
+  <node id="66" lat="38.907294" lon="-76.978061"/>
+  <node id="67" lat="38.90636" lon="-76.975001"/>
+  <node id="68" lat="38.906245" lon="-76.970261"/>
+  <node id="69" lat="38.904231" lon="-76.966688"/>
+  <node id="70" lat="38.903455" lon="-76.965313"/>
+  <node id="71" lat="38.901343" lon="-76.96608"/>
+  <node id="72" lat="38.899487" lon="-76.966336"/>
+  <node id="73" lat="38.897439" lon="-76.966016"/>
+  <node id="74" lat="38.895903" lon="-76.966464"/>
+  <node id="75" lat="38.895008" lon="-76.967104"/>
+  <node id="76" lat="38.894432" lon="-76.967808"/>
+  <node id="77" lat="38.893792" lon="-76.96832"/>
+  <node id="78" lat="38.893152" lon="-76.968704"/>
+  <node id="79" lat="38.892384" lon="-76.968576"/>
+  <node id="80" lat="38.89136" lon="-76.967936"/>
+  <node id="81" lat="38.890656" lon="-76.967424"/>
+  <node id="82" lat="38.889696" lon="-76.96736"/>
+  <node id="83" lat="38.887584" lon="-76.968256"/>
+  <node id="84" lat="38.879265" lon="-76.973376"/>
+  <node id="85" lat="38.878183" lon="-76.974943"/>
+  <node id="87" lat="38.91394" lon="-77.03633"/>
+  <node id="88" lat="38.90375" lon="-77.02698"/>
+  <node id="89" lat="38.905535" lon="-77.032113"/>
+  <node id="90" lat="38.90721" lon="-77.0361"/>
+  <node id="92" lat="38.92221" lon="-77.00908"/>
+  <node id="93" lat="38.916709" lon="-77.009064"/>
+  <node id="95" lat="38.960809" lon="-77.085736"/>
+  <node id="96" lat="38.97171" lon="-77.071878"/>
+  <node id="97" lat="38.97111" lon="-77.0711"/>
+  <node id="98" lat="38.96071" lon="-77.06633"/>
+  <node id="99" lat="38.95801" lon="-77.0652"/>
+  <node id="100" lat="38.95711" lon="-77.0593"/>
+  <node id="101" lat="38.953764" lon="-77.056191"/>
+  <node id="102" lat="38.951564" lon="-77.053064"/>
+  <node id="103" lat="38.951508" lon="-77.046978"/>
+  <node id="104" lat="38.941217" lon="-77.049662"/>
+  <node id="105" lat="38.941161" lon="-77.078806"/>
+  <node id="106" lat="38.9459" lon="-77.0792"/>
+  <node id="107" lat="38.94849" lon="-77.08034"/>
+  <node id="108" lat="38.954607" lon="-77.078897"/>
+  <node id="109" lat="38.95461" lon="-77.0773"/>
+  <node id="110" lat="38.95818" lon="-77.07727"/>
+  <node id="111" lat="38.95887" lon="-77.07837"/>
+  <node id="112" lat="38.96081" lon="-77.0801"/>
+  <node id="114" lat="38.963181" lon="-77.046407"/>
+  <node id="116" lat="38.896018" lon="-77.007309"/>
+  <node id="117" lat="38.897064" lon="-77.007755"/>
+  <node id="118" lat="38.89891" lon="-77.0127"/>
+  <node id="119" lat="38.90002" lon="-77.0129"/>
+  <node id="120" lat="38.900087" lon="-76.98366"/>
+  <node id="121" lat="38.872018" lon="-76.991327"/>
+  <node id="122" lat="38.876309" lon="-76.991755"/>
+  <node id="123" lat="38.875964" lon="-76.998491"/>
+  <node id="124" lat="38.872691" lon="-76.998718"/>
+  <node id="125" lat="38.8713" lon="-77.006"/>
+  <node id="126" lat="38.866576" lon="-77.009137"/>
+  <node id="127" lat="38.881578" lon="-77.009034"/>
+  <node id="128" lat="38.88193" lon="-77.01091"/>
+  <node id="129" lat="38.88581" lon="-77.01284"/>
+  <node id="130" lat="38.88854" lon="-77.01335"/>
+  <node id="131" lat="38.89191" lon="-77.0144"/>
+  <node id="132" lat="38.89191" lon="-77.0132"/>
+  <node id="134" lat="38.956455" lon="-77.091264"/>
+  <node id="135" lat="38.954617" lon="-77.088753"/>
+  <node id="137" lat="38.935735" lon="-77.079548"/>
+  <node id="138" lat="38.931909" lon="-77.080176"/>
+  <node id="139" lat="38.925911" lon="-77.083778"/>
+  <node id="140" lat="38.92632" lon="-77.09045"/>
+  <node id="141" lat="38.92661" lon="-77.09233"/>
+  <node id="142" lat="38.925582" lon="-77.095917"/>
+  <node id="143" lat="38.9219" lon="-77.098264"/>
+  <node id="144" lat="38.941893" lon="-77.110302"/>
+  <node id="146" lat="38.904134" lon="-77.078578"/>
+  <node id="147" lat="38.904409" lon="-77.0826"/>
+  <node id="148" lat="38.907609" lon="-77.0932"/>
+  <node id="149" lat="38.911909" lon="-77.0999"/>
+  <node id="150" lat="38.913409" lon="-77.1017"/>
+  <node id="151" lat="38.9192" lon="-77.102773"/>
+  <node id="152" lat="38.936473" lon="-77.117236"/>
+  <node id="153" lat="38.91745" lon="-77.095271"/>
+  <node id="154" lat="38.912165" lon="-77.090113"/>
+  <node id="155" lat="38.909643" lon="-77.087019"/>
+  <node id="156" lat="38.906318" lon="-77.080636"/>
+  <node id="157" lat="38.90591" lon="-77.0789"/>
+  <node id="159" lat="38.935849" lon="-77.047778"/>
+  <node id="160" lat="38.932868" lon="-77.048749"/>
+  <node id="161" lat="38.932563" lon="-77.058403"/>
+  <node id="162" lat="38.931181" lon="-77.064913"/>
+  <node id="163" lat="38.93175" lon="-77.07272"/>
+  <node id="165" lat="38.89195" lon="-77.03914"/>
+  <node id="166" lat="38.89871" lon="-77.0391"/>
+  <node id="167" lat="38.90231" lon="-77.0391"/>
+  <node id="168" lat="38.90537" lon="-77.04089"/>
+  <node id="169" lat="38.90087" lon="-77.02703"/>
+  <node id="170" lat="38.90201" lon="-77.0241"/>
+  <node id="171" lat="38.90201" lon="-77.022"/>
+  <node id="173" lat="38.926897" lon="-77.036358"/>
+  <node id="174" lat="38.93808" lon="-77.03644"/>
+  <node id="175" lat="38.937773" lon="-77.034364"/>
+  <node id="176" lat="38.9365" lon="-77.0312"/>
+  <node id="177" lat="38.93511" lon="-77.0261"/>
+  <node id="178" lat="38.91761" lon="-77.02408"/>
+  <node id="179" lat="38.92031" lon="-77.026"/>
+  <node id="180" lat="38.92069" lon="-77.02724"/>
+  <node id="181" lat="38.91971" lon="-77.03357"/>
+  <node id="182" lat="38.91903" lon="-77.03458"/>
+  <node id="183" lat="38.91901" lon="-77.03636"/>
+  <node id="185" lat="38.960471" lon="-77.027912"/>
+  <node id="187" lat="38.897075" lon="-76.960918"/>
+  <node id="188" lat="38.899107" lon="-76.96158"/>
+  <node id="189" lat="38.900991" lon="-76.960495"/>
+  <node id="190" lat="38.902815" lon="-76.958913"/>
+  <node id="191" lat="38.905823" lon="-76.957121"/>
+  <node id="192" lat="38.908254" lon="-76.956225"/>
+  <node id="193" lat="38.909022" lon="-76.955649"/>
+  <node id="194" lat="38.911006" lon="-76.953985"/>
+  <node id="195" lat="38.912606" lon="-76.953537"/>
+  <node id="196" lat="38.913822" lon="-76.953217"/>
+  <node id="197" lat="38.914654" lon="-76.952642"/>
+  <node id="198" lat="38.91491" lon="-76.951618"/>
+  <node id="199" lat="38.914846" lon="-76.946306"/>
+  <node id="200" lat="38.915806" lon="-76.94445"/>
+  <node id="201" lat="38.917406" lon="-76.942658"/>
+  <node id="202" lat="38.918709" lon="-76.9423"/>
+  <node id="203" lat="38.914818" lon="-76.937055"/>
+  <node id="204" lat="38.892809" lon="-76.909334"/>
+  <node id="206" lat="38.91801" lon="-77.0396"/>
+  <node id="207" lat="38.916766" lon="-77.040879"/>
+  <node id="208" lat="38.91422" lon="-77.04588"/>
+  <node id="209" lat="38.91631" lon="-77.0464"/>
+  <node id="210" lat="38.9184" lon="-77.04789"/>
+  <node id="211" lat="38.91863" lon="-77.04875"/>
+  <node id="212" lat="38.921087" lon="-77.050062"/>
+  <node id="213" lat="38.9232" lon="-77.04921"/>
+  <node id="214" lat="38.926755" lon="-77.04904"/>
+  <node id="215" lat="38.92736" lon="-77.04429"/>
+  <node id="216" lat="38.927158" lon="-77.04155"/>
+  <node id="218" lat="38.95151" lon="-77.03327"/>
+  <node id="220" lat="38.909562" lon="-77.078676"/>
+  <node id="221" lat="38.913453" lon="-77.088647"/>
+  <node id="222" lat="38.914309" lon="-77.086591"/>
+  <node id="223" lat="38.915166" lon="-77.08385"/>
+  <node id="224" lat="38.91448" lon="-77.080766"/>
+  <node id="226" lat="38.92611" lon="-77.07026"/>
+  <node id="227" lat="38.92421" lon="-77.0678"/>
+  <node id="228" lat="38.917401" lon="-77.065229"/>
+  <node id="229" lat="38.91699" lon="-77.06755"/>
+  <node id="230" lat="38.91644" lon="-77.06852"/>
+  <node id="231" lat="38.91623" lon="-77.07115"/>
+  <node id="232" lat="38.91651" lon="-77.0728"/>
+  <node id="233" lat="38.918561" lon="-77.075028"/>
+  <node id="234" lat="38.918342" lon="-77.08229"/>
+  <node id="235" lat="38.922104" lon="-77.08442"/>
+  <node id="236" lat="38.92611" lon="-77.07333"/>
+  <node id="238" lat="38.910778" lon="-77.048914"/>
+  <node id="239" lat="38.910732" lon="-77.050819"/>
+  <node id="240" lat="38.916747" lon="-77.059542"/>
+  <node id="241" lat="38.91325" lon="-77.04684"/>
+  <node id="242" lat="38.91162" lon="-77.04826"/>
+  <node id="244" lat="38.91587" lon="-76.945474"/>
+  <node id="245" lat="38.915422" lon="-76.94701"/>
+  <node id="246" lat="38.915422" lon="-76.952066"/>
+  <node id="247" lat="38.915358" lon="-76.952961"/>
+  <node id="248" lat="38.914526" lon="-76.953665"/>
+  <node id="249" lat="38.91363" lon="-76.953793"/>
+  <node id="250" lat="38.912606" lon="-76.954305"/>
+  <node id="251" lat="38.910658" lon="-76.95553"/>
+  <node id="252" lat="38.907679" lon="-76.957697"/>
+  <node id="253" lat="38.90819" lon="-76.959297"/>
+  <node id="254" lat="38.907999" lon="-76.960705"/>
+  <node id="255" lat="38.907423" lon="-76.961793"/>
+  <node id="256" lat="38.906207" lon="-76.962753"/>
+  <node id="257" lat="38.904669" lon="-76.963553"/>
+  <node id="258" lat="38.904159" lon="-76.964545"/>
+  <node id="261" lat="38.915947" lon="-77.061084"/>
+  <node id="263" lat="38.90951" lon="-77.0499"/>
+  <node id="264" lat="38.908444" lon="-77.050185"/>
+  <node id="265" lat="38.908753" lon="-77.052564"/>
+  <node id="266" lat="38.908063" lon="-77.053873"/>
+  <node id="267" lat="38.904399" lon="-77.055705"/>
+  <node id="268" lat="38.902828" lon="-77.055991"/>
+  <node id="269" lat="38.901329" lon="-77.05749"/>
+  <node id="270" lat="38.899664" lon="-77.057395"/>
+  <node id="271" lat="38.901609" lon="-77.0624"/>
+  <node id="272" lat="38.90361" lon="-77.0692"/>
+  <node id="274" lat="38.89212" lon="-77.05186"/>
+  <node id="275" lat="38.893081" lon="-77.056164"/>
+  <node id="276" lat="38.90685" lon="-77.054468"/>
+  <node id="277" lat="38.90489" lon="-77.04857"/>
+  <node id="278" lat="38.90491" lon="-77.04729"/>
+  <node id="279" lat="38.90531" lon="-77.04694"/>
+  <node id="283" lat="38.91393" lon="-77.03822"/>
+  <node id="284" lat="38.91841" lon="-77.0383"/>
+  <node id="286" lat="38.864839" lon="-77.010041"/>
+  <node id="287" lat="38.86324" lon="-77.01164"/>
+  <node id="288" lat="38.863409" lon="-77.0135"/>
+  <node id="289" lat="38.863297" lon="-77.014667"/>
+  <node id="290" lat="38.86107" lon="-77.015124"/>
+  <node id="291" lat="38.859985" lon="-77.01758"/>
+  <node id="292" lat="38.860728" lon="-77.019179"/>
+  <node id="293" lat="38.871692" lon="-77.019978"/>
+  <node id="294" lat="38.875975" lon="-77.022377"/>
+  <node id="295" lat="38.88185" lon="-77.029405"/>
+  <node id="296" lat="38.881909" lon="-77.0338"/>
+  <node id="297" lat="38.884827" lon="-77.036448"/>
+  <node id="298" lat="38.887625" lon="-77.039018"/>
+  <node id="299" lat="38.887721" lon="-77.013197"/>
+  <way id="000000001">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="2"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Takoma Park"/>
+    <tag k="REGIONID" v="268831"/>
+  </way>
+  <way id="000000012">
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="13"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Catholic University-Brookland"/>
+    <tag k="REGIONID" v="273159"/>
+  </way>
+  <way id="000000025">
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="37"/>
+    <nd ref="38"/>
+    <nd ref="39"/>
+    <nd ref="40"/>
+    <nd ref="41"/>
+    <nd ref="42"/>
+    <nd ref="43"/>
+    <nd ref="44"/>
+    <nd ref="45"/>
+    <nd ref="46"/>
+    <nd ref="47"/>
+    <nd ref="48"/>
+    <nd ref="26"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Anacostia"/>
+    <tag k="REGIONID" v="121670"/>
+  </way>
+  <way id="000000049">
+    <nd ref="50"/>
+    <nd ref="51"/>
+    <nd ref="52"/>
+    <nd ref="53"/>
+    <nd ref="54"/>
+    <nd ref="55"/>
+    <nd ref="56"/>
+    <nd ref="57"/>
+    <nd ref="58"/>
+    <nd ref="59"/>
+    <nd ref="60"/>
+    <nd ref="61"/>
+    <nd ref="50"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Shaw"/>
+    <tag k="REGIONID" v="121785"/>
+  </way>
+  <way id="000000062">
+    <nd ref="63"/>
+    <nd ref="64"/>
+    <nd ref="65"/>
+    <nd ref="66"/>
+    <nd ref="67"/>
+    <nd ref="68"/>
+    <nd ref="69"/>
+    <nd ref="70"/>
+    <nd ref="71"/>
+    <nd ref="72"/>
+    <nd ref="73"/>
+    <nd ref="74"/>
+    <nd ref="75"/>
+    <nd ref="76"/>
+    <nd ref="77"/>
+    <nd ref="78"/>
+    <nd ref="79"/>
+    <nd ref="80"/>
+    <nd ref="81"/>
+    <nd ref="82"/>
+    <nd ref="83"/>
+    <nd ref="84"/>
+    <nd ref="85"/>
+    <nd ref="63"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Stadium-Armory"/>
+    <tag k="REGIONID" v="275558"/>
+  </way>
+  <way id="000000086">
+    <nd ref="87"/>
+    <nd ref="52"/>
+    <nd ref="51"/>
+    <nd ref="88"/>
+    <nd ref="89"/>
+    <nd ref="90"/>
+    <nd ref="87"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Logan Circle"/>
+    <tag k="REGIONID" v="121754"/>
+  </way>
+  <way id="000000091">
+    <nd ref="55"/>
+    <nd ref="18"/>
+    <nd ref="17"/>
+    <nd ref="16"/>
+    <nd ref="15"/>
+    <nd ref="92"/>
+    <nd ref="93"/>
+    <nd ref="58"/>
+    <nd ref="57"/>
+    <nd ref="56"/>
+    <nd ref="55"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Ledroit Park"/>
+    <tag k="REGIONID" v="121750"/>
+  </way>
+  <way id="000000094">
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="97"/>
+    <nd ref="98"/>
+    <nd ref="99"/>
+    <nd ref="100"/>
+    <nd ref="101"/>
+    <nd ref="102"/>
+    <nd ref="103"/>
+    <nd ref="104"/>
+    <nd ref="105"/>
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <nd ref="110"/>
+    <nd ref="111"/>
+    <nd ref="112"/>
+    <nd ref="95"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Chevy Chase"/>
+    <tag k="REGIONID" v="121689"/>
+  </way>
+  <way id="000000113">
+    <nd ref="96"/>
+    <nd ref="5"/>
+    <nd ref="4"/>
+    <nd ref="3"/>
+    <nd ref="114"/>
+    <nd ref="103"/>
+    <nd ref="102"/>
+    <nd ref="101"/>
+    <nd ref="100"/>
+    <nd ref="99"/>
+    <nd ref="97"/>
+    <nd ref="96"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Barnaby Woods"/>
+    <tag k="REGIONID" v="121672"/>
+  </way>
+  <way id="000000115">
+    <nd ref="116"/>
+    <nd ref="117"/>
+    <nd ref="118"/>
+    <nd ref="119"/>
+    <nd ref="50"/>
+    <nd ref="61"/>
+    <nd ref="60"/>
+    <nd ref="66"/>
+    <nd ref="65"/>
+    <nd ref="120"/>
+    <nd ref="63"/>
+    <nd ref="121"/>
+    <nd ref="122"/>
+    <nd ref="123"/>
+    <nd ref="124"/>
+    <nd ref="125"/>
+    <nd ref="126"/>
+    <nd ref="127"/>
+    <nd ref="128"/>
+    <nd ref="129"/>
+    <nd ref="130"/>
+    <nd ref="131"/>
+    <nd ref="132"/>
+    <nd ref="116"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Capitol Hill"/>
+    <tag k="REGIONID" v="121685"/>
+  </way>
+  <way id="000000133">
+    <nd ref="134"/>
+    <nd ref="95"/>
+    <nd ref="112"/>
+    <nd ref="111"/>
+    <nd ref="110"/>
+    <nd ref="109"/>
+    <nd ref="108"/>
+    <nd ref="107"/>
+    <nd ref="135"/>
+    <nd ref="134"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Friendship Heights"/>
+    <tag k="REGIONID" v="121726"/>
+  </way>
+  <way id="000000136">
+    <nd ref="134"/>
+    <nd ref="107"/>
+    <nd ref="106"/>
+    <nd ref="105"/>
+    <nd ref="137"/>
+    <nd ref="138"/>
+    <nd ref="139"/>
+    <nd ref="140"/>
+    <nd ref="141"/>
+    <nd ref="142"/>
+    <nd ref="143"/>
+    <nd ref="144"/>
+    <nd ref="134"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Au-Tenleytown"/>
+    <tag k="REGIONID" v="272818"/>
+  </way>
+  <way id="000000145">
+    <nd ref="146"/>
+    <nd ref="147"/>
+    <nd ref="148"/>
+    <nd ref="149"/>
+    <nd ref="150"/>
+    <nd ref="151"/>
+    <nd ref="152"/>
+    <nd ref="144"/>
+    <nd ref="143"/>
+    <nd ref="153"/>
+    <nd ref="154"/>
+    <nd ref="155"/>
+    <nd ref="156"/>
+    <nd ref="157"/>
+    <nd ref="146"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="The Palisades"/>
+    <tag k="REGIONID" v="121797"/>
+  </way>
+  <way id="000000158">
+    <nd ref="104"/>
+    <nd ref="159"/>
+    <nd ref="160"/>
+    <nd ref="161"/>
+    <nd ref="162"/>
+    <nd ref="163"/>
+    <nd ref="138"/>
+    <nd ref="137"/>
+    <nd ref="105"/>
+    <nd ref="104"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Cleveland Park"/>
+    <tag k="REGIONID" v="121693"/>
+  </way>
+  <way id="000000164">
+    <nd ref="117"/>
+    <nd ref="116"/>
+    <nd ref="132"/>
+    <nd ref="165"/>
+    <nd ref="166"/>
+    <nd ref="167"/>
+    <nd ref="168"/>
+    <nd ref="90"/>
+    <nd ref="89"/>
+    <nd ref="88"/>
+    <nd ref="169"/>
+    <nd ref="170"/>
+    <nd ref="171"/>
+    <nd ref="118"/>
+    <nd ref="117"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Downtown"/>
+    <tag k="REGIONID" v="273489"/>
+  </way>
+  <way id="000000172">
+    <nd ref="173"/>
+    <nd ref="174"/>
+    <nd ref="175"/>
+    <nd ref="176"/>
+    <nd ref="177"/>
+    <nd ref="19"/>
+    <nd ref="18"/>
+    <nd ref="55"/>
+    <nd ref="54"/>
+    <nd ref="178"/>
+    <nd ref="179"/>
+    <nd ref="180"/>
+    <nd ref="181"/>
+    <nd ref="182"/>
+    <nd ref="183"/>
+    <nd ref="173"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Columbia Heights"/>
+    <tag k="REGIONID" v="121697"/>
+  </way>
+  <way id="000000184">
+    <nd ref="22"/>
+    <nd ref="21"/>
+    <nd ref="185"/>
+    <nd ref="10"/>
+    <nd ref="9"/>
+    <nd ref="8"/>
+    <nd ref="24"/>
+    <nd ref="23"/>
+    <nd ref="22"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Fort Totten-Upper Northeast"/>
+    <tag k="REGIONID" v="273767"/>
+  </way>
+  <way id="000000186">
+    <nd ref="26"/>
+    <nd ref="187"/>
+    <nd ref="188"/>
+    <nd ref="189"/>
+    <nd ref="190"/>
+    <nd ref="191"/>
+    <nd ref="192"/>
+    <nd ref="193"/>
+    <nd ref="194"/>
+    <nd ref="195"/>
+    <nd ref="196"/>
+    <nd ref="197"/>
+    <nd ref="198"/>
+    <nd ref="199"/>
+    <nd ref="200"/>
+    <nd ref="201"/>
+    <nd ref="202"/>
+    <nd ref="203"/>
+    <nd ref="204"/>
+    <nd ref="27"/>
+    <nd ref="26"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Deanwood"/>
+    <tag k="REGIONID" v="121702"/>
+  </way>
+  <way id="000000205">
+    <nd ref="206"/>
+    <nd ref="207"/>
+    <nd ref="208"/>
+    <nd ref="209"/>
+    <nd ref="210"/>
+    <nd ref="211"/>
+    <nd ref="212"/>
+    <nd ref="213"/>
+    <nd ref="214"/>
+    <nd ref="215"/>
+    <nd ref="216"/>
+    <nd ref="173"/>
+    <nd ref="183"/>
+    <nd ref="206"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Adams Morgan"/>
+    <tag k="REGIONID" v="121668"/>
+  </way>
+  <way id="000000217">
+    <nd ref="19"/>
+    <nd ref="177"/>
+    <nd ref="176"/>
+    <nd ref="175"/>
+    <nd ref="174"/>
+    <nd ref="159"/>
+    <nd ref="104"/>
+    <nd ref="103"/>
+    <nd ref="218"/>
+    <nd ref="20"/>
+    <nd ref="19"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Petworth"/>
+    <tag k="REGIONID" v="121774"/>
+  </way>
+  <way id="000000219">
+    <nd ref="220"/>
+    <nd ref="157"/>
+    <nd ref="156"/>
+    <nd ref="155"/>
+    <nd ref="154"/>
+    <nd ref="221"/>
+    <nd ref="222"/>
+    <nd ref="223"/>
+    <nd ref="224"/>
+    <nd ref="220"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Foxhall Village"/>
+    <tag k="REGIONID" v="121724"/>
+  </way>
+  <way id="000000225">
+    <nd ref="226"/>
+    <nd ref="227"/>
+    <nd ref="228"/>
+    <nd ref="229"/>
+    <nd ref="230"/>
+    <nd ref="231"/>
+    <nd ref="232"/>
+    <nd ref="233"/>
+    <nd ref="234"/>
+    <nd ref="235"/>
+    <nd ref="139"/>
+    <nd ref="138"/>
+    <nd ref="163"/>
+    <nd ref="236"/>
+    <nd ref="226"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Glover Park"/>
+    <tag k="REGIONID" v="121731"/>
+  </way>
+  <way id="000000237">
+    <nd ref="238"/>
+    <nd ref="239"/>
+    <nd ref="240"/>
+    <nd ref="212"/>
+    <nd ref="211"/>
+    <nd ref="210"/>
+    <nd ref="209"/>
+    <nd ref="208"/>
+    <nd ref="241"/>
+    <nd ref="242"/>
+    <nd ref="238"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Kalorama"/>
+    <tag k="REGIONID" v="268815"/>
+  </way>
+  <way id="000000243">
+    <nd ref="92"/>
+    <nd ref="15"/>
+    <nd ref="14"/>
+    <nd ref="13"/>
+    <nd ref="202"/>
+    <nd ref="244"/>
+    <nd ref="245"/>
+    <nd ref="246"/>
+    <nd ref="247"/>
+    <nd ref="248"/>
+    <nd ref="249"/>
+    <nd ref="250"/>
+    <nd ref="251"/>
+    <nd ref="252"/>
+    <nd ref="253"/>
+    <nd ref="254"/>
+    <nd ref="255"/>
+    <nd ref="256"/>
+    <nd ref="257"/>
+    <nd ref="258"/>
+    <nd ref="70"/>
+    <nd ref="69"/>
+    <nd ref="68"/>
+    <nd ref="67"/>
+    <nd ref="66"/>
+    <nd ref="60"/>
+    <nd ref="59"/>
+    <nd ref="58"/>
+    <nd ref="92"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Brentwood"/>
+    <tag k="REGIONID" v="268803"/>
+  </way>
+  <way id="000000259">
+    <nd ref="88"/>
+    <nd ref="51"/>
+    <nd ref="50"/>
+    <nd ref="119"/>
+    <nd ref="118"/>
+    <nd ref="171"/>
+    <nd ref="170"/>
+    <nd ref="169"/>
+    <nd ref="88"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Mount Vernon Square"/>
+    <tag k="REGIONID" v="121763"/>
+  </way>
+  <way id="000000260">
+    <nd ref="163"/>
+    <nd ref="162"/>
+    <nd ref="161"/>
+    <nd ref="160"/>
+    <nd ref="214"/>
+    <nd ref="213"/>
+    <nd ref="212"/>
+    <nd ref="240"/>
+    <nd ref="261"/>
+    <nd ref="228"/>
+    <nd ref="227"/>
+    <nd ref="226"/>
+    <nd ref="236"/>
+    <nd ref="163"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Woodley Park"/>
+    <tag k="REGIONID" v="121815"/>
+  </way>
+  <way id="000000262">
+    <nd ref="234"/>
+    <nd ref="233"/>
+    <nd ref="232"/>
+    <nd ref="231"/>
+    <nd ref="230"/>
+    <nd ref="229"/>
+    <nd ref="228"/>
+    <nd ref="261"/>
+    <nd ref="240"/>
+    <nd ref="239"/>
+    <nd ref="263"/>
+    <nd ref="264"/>
+    <nd ref="265"/>
+    <nd ref="266"/>
+    <nd ref="267"/>
+    <nd ref="268"/>
+    <nd ref="269"/>
+    <nd ref="270"/>
+    <nd ref="271"/>
+    <nd ref="272"/>
+    <nd ref="146"/>
+    <nd ref="157"/>
+    <nd ref="220"/>
+    <nd ref="224"/>
+    <nd ref="234"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Georgetown"/>
+    <tag k="REGIONID" v="121729"/>
+  </way>
+  <way id="000000273">
+    <nd ref="165"/>
+    <nd ref="274"/>
+    <nd ref="275"/>
+    <nd ref="270"/>
+    <nd ref="269"/>
+    <nd ref="268"/>
+    <nd ref="267"/>
+    <nd ref="276"/>
+    <nd ref="266"/>
+    <nd ref="265"/>
+    <nd ref="264"/>
+    <nd ref="277"/>
+    <nd ref="278"/>
+    <nd ref="279"/>
+    <nd ref="168"/>
+    <nd ref="167"/>
+    <nd ref="166"/>
+    <nd ref="165"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Foggy Bottom"/>
+    <tag k="REGIONID" v="121716"/>
+  </way>
+  <way id="000000280">
+    <nd ref="139"/>
+    <nd ref="235"/>
+    <nd ref="234"/>
+    <nd ref="224"/>
+    <nd ref="223"/>
+    <nd ref="222"/>
+    <nd ref="221"/>
+    <nd ref="154"/>
+    <nd ref="153"/>
+    <nd ref="143"/>
+    <nd ref="142"/>
+    <nd ref="141"/>
+    <nd ref="140"/>
+    <nd ref="139"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Berkley"/>
+    <tag k="REGIONID" v="268801"/>
+  </way>
+  <way id="000000281">
+    <nd ref="215"/>
+    <nd ref="214"/>
+    <nd ref="160"/>
+    <nd ref="159"/>
+    <nd ref="174"/>
+    <nd ref="173"/>
+    <nd ref="216"/>
+    <nd ref="215"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Mount Pleasant"/>
+    <tag k="REGIONID" v="121762"/>
+  </way>
+  <way id="000000282">
+    <nd ref="87"/>
+    <nd ref="283"/>
+    <nd ref="284"/>
+    <nd ref="183"/>
+    <nd ref="182"/>
+    <nd ref="181"/>
+    <nd ref="180"/>
+    <nd ref="179"/>
+    <nd ref="178"/>
+    <nd ref="54"/>
+    <nd ref="53"/>
+    <nd ref="52"/>
+    <nd ref="87"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="U Street Corridor"/>
+    <tag k="REGIONID" v="275794"/>
+  </way>
+  <way id="000000285">
+    <nd ref="127"/>
+    <nd ref="126"/>
+    <nd ref="286"/>
+    <nd ref="287"/>
+    <nd ref="288"/>
+    <nd ref="289"/>
+    <nd ref="290"/>
+    <nd ref="291"/>
+    <nd ref="292"/>
+    <nd ref="293"/>
+    <nd ref="294"/>
+    <nd ref="295"/>
+    <nd ref="296"/>
+    <nd ref="297"/>
+    <nd ref="298"/>
+    <nd ref="299"/>
+    <nd ref="129"/>
+    <nd ref="128"/>
+    <nd ref="127"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="South West"/>
+    <tag k="REGIONID" v="275465"/>
+  </way>
+  <way id="000000300">
+    <nd ref="21"/>
+    <nd ref="20"/>
+    <nd ref="218"/>
+    <nd ref="103"/>
+    <nd ref="114"/>
+    <nd ref="3"/>
+    <nd ref="2"/>
+    <nd ref="11"/>
+    <nd ref="10"/>
+    <nd ref="185"/>
+    <nd ref="21"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Brightwood"/>
+    <tag k="REGIONID" v="121679"/>
+  </way>
+  <way id="000000301">
+    <nd ref="283"/>
+    <nd ref="87"/>
+    <nd ref="90"/>
+    <nd ref="168"/>
+    <nd ref="279"/>
+    <nd ref="278"/>
+    <nd ref="277"/>
+    <nd ref="264"/>
+    <nd ref="263"/>
+    <nd ref="239"/>
+    <nd ref="238"/>
+    <nd ref="242"/>
+    <nd ref="241"/>
+    <nd ref="208"/>
+    <nd ref="207"/>
+    <nd ref="206"/>
+    <nd ref="284"/>
+    <nd ref="283"/>
+    <tag k="STATE" v="DC"/>
+    <tag k="COUNTY" v="District of Columbia"/>
+    <tag k="CITY" v="Washington"/>
+    <tag k="NAME" v="Dupont Circle"/>
+    <tag k="REGIONID" v="121704"/>
+  </way>
+</osm>

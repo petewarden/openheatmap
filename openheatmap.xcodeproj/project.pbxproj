@@ -371,6 +371,7 @@
 		597B388B127CF7150010CA82 /* mapvalues.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = mapvalues.php; sourceTree = "<group>"; };
 		597B388C127E1C990010CA82 /* salesforcelocations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = salesforcelocations.php; sourceTree = "<group>"; };
 		597B3975127F9EF70010CA82 /* salesforceapi.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = salesforceapi.php; sourceTree = "<group>"; };
+		597D87D5132DF2030042C251 /* creategeodictosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = creategeodictosm.php; path = mapfileprocess/creategeodictosm.php; sourceTree = "<group>"; };
 		59820B7711A44A9F0047D5FC /* bucketgrid.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = bucketgrid.php; path = mapfileprocess/bucketgrid.php; sourceTree = "<group>"; };
 		59820B7811A44A9F0047D5FC /* cliargs.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = cliargs.php; path = mapfileprocess/cliargs.php; sourceTree = "<group>"; };
 		59820B7911A44A9F0047D5FC /* convertasciitoosm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = convertasciitoosm.php; path = mapfileprocess/convertasciitoosm.php; sourceTree = "<group>"; };
@@ -1410,6 +1411,7 @@
 				590D2C2911CAB31100954586 /* crawlelectiondata.php */,
 				59820B7A11A44A9F0047D5FC /* createblatofips.php */,
 				59E63700121B433B0076D3B4 /* createcitytables.php */,
+				597D87D5132DF2030042C251 /* creategeodictosm.php */,
 				59F507D312E798B100F8DBA6 /* createhkconstituencytables.php */,
 				59691A761270FE9B001FA47E /* createstatemaps.php */,
 				59691A78127114B2001FA47E /* createstatetagtables.php */,

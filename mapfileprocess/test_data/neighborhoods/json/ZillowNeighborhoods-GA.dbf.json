@@ -1,0 +1,832 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Buckhead",
+           "REGIONID": 127460.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Old Fourth Ward",
+           "REGIONID": 269397.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Wheeless Road",
+           "REGIONID": 269465.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Gracewood",
+           "REGIONID": 128980.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Goshen",
+           "REGIONID": 273852.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Oakland City",
+           "REGIONID": 269396.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Hancock Mill",
+           "REGIONID": 276361.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "East Augusta",
+           "REGIONID": 269310.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Summerville",
+           "REGIONID": 132047.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Thomasville",
+           "REGIONID": 132238.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Home Park",
+           "REGIONID": 269345.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Mcbean",
+           "REGIONID": 276442.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Rockdale",
+           "REGIONID": 131406.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "North Leg",
+           "REGIONID": 269392.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "West End",
+           "REGIONID": 132606.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Grove Park",
+           "REGIONID": 129069.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Old Savannah",
+           "REGIONID": 269398.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Cascade Heights",
+           "REGIONID": 127629.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Virginia-Highland",
+           "REGIONID": 275890.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Montclair",
+           "REGIONID": 130303.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Central Bus Dist",
+           "REGIONID": 276244.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Barton Chapel",
+           "REGIONID": 269258.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Grant Park",
+           "REGIONID": 269330.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Pinetucky",
+           "REGIONID": 275034.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Meadowbrook",
+           "REGIONID": 130182.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Lake Aumond",
+           "REGIONID": 269360.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Five Points",
+           "REGIONID": 128655.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Adamsville",
+           "REGIONID": 126753.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Bennock Mill",
+           "REGIONID": 272938.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Vine City",
+           "REGIONID": 269452.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Ormewood Park-East Atlanta",
+           "REGIONID": 274926.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "National Hills",
+           "REGIONID": 130438.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Richmond Hill",
+           "REGIONID": 275163.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Ben Hill",
+           "REGIONID": 127120.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Southside",
+           "REGIONID": 269435.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Academy Baker Ave",
+           "REGIONID": 272720.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Blythe",
+           "REGIONID": 272993.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Lakewood Heights-Southeastern Atlanta",
+           "REGIONID": 274258.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Industrial District",
+           "REGIONID": 274093.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Kissingbower",
+           "REGIONID": 274198.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Mechanicsville",
+           "REGIONID": 274487.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Uptown",
+           "REGIONID": 269448.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Atlanta-Inman Park",
+           "REGIONID": 272817.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "McDade",
+           "REGIONID": 274462.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "May Park",
+           "REGIONID": 269375.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Jamestown",
+           "REGIONID": 274129.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Pepperidge",
+           "REGIONID": 130878.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Midtown",
+           "REGIONID": 269381.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Old Town",
+           "REGIONID": 274892.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Sandtown-Southeastern Atlanta",
+           "REGIONID": 275298.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Sweet Auburn",
+           "REGIONID": 276600.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Center Hill",
+           "REGIONID": 127692.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "South Turpin Hill",
+           "REGIONID": 269433.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Richmond Factory",
+           "REGIONID": 275161.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Cross Creek",
+           "REGIONID": 273405.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "West End",
+           "REGIONID": 275963.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Adams Park",
+           "REGIONID": 269239.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Adair Park",
+           "REGIONID": 269238.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Albion Acres",
+           "REGIONID": 269240.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Edgewood-Kirkwood",
+           "REGIONID": 273604.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Hephziba",
+           "REGIONID": 273962.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Downtown",
+           "REGIONID": 269306.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Oakdale",
+           "REGIONID": 130640.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Forrest Hills",
+           "REGIONID": 273764.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Highland Park",
+           "REGIONID": 273997.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Windsor Spring",
+           "REGIONID": 132791.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Bath-Edie",
+           "REGIONID": 272868.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Goodale Landing",
+           "REGIONID": 273849.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Candler Park",
+           "REGIONID": 269285.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Poncey-Highland",
+           "REGIONID": 276516.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Harrisburg",
+           "REGIONID": 273939.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Farmers Bridge",
+           "REGIONID": 273706.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Pendelton King",
+           "REGIONID": 269409.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Laney Walker",
+           "REGIONID": 269364.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Belair",
+           "REGIONID": 272907.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Morningside-Lenox Park",
+           "REGIONID": 274592.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "West Side",
+           "REGIONID": 275988.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Bethlehem",
+           "REGIONID": 272949.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Turpin Hill",
+           "REGIONID": 269445.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Sand Hills",
+           "REGIONID": 269430.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "Lakemont",
+           "REGIONID": 274243.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Fulton",
+           "CITY": "Atlanta",
+           "NAME": "Cabbage Town",
+           "REGIONID": 127516.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "GA",
+           "COUNTY": "Richmond",
+           "CITY": "Augusta",
+           "NAME": "West Augusta",
+           "REGIONID": 269457.000000
+       }
+    }
+]

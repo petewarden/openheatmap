@@ -1,0 +1,1202 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Fort Sanders",
+           "REGIONID": 271262.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Eastwood",
+           "REGIONID": 226381.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Harpeth Valley Park",
+           "REGIONID": 273936.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "South Hampton",
+           "REGIONID": 275436.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "East End",
+           "REGIONID": 273547.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hoggett Ford Road",
+           "REGIONID": 274040.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Salemtown",
+           "REGIONID": 275274.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Windyke-Southwind",
+           "REGIONID": 276103.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Berclair-Highland Heights",
+           "REGIONID": 272942.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hillsboro West End",
+           "REGIONID": 274022.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Germantown",
+           "REGIONID": 226807.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Green Hills",
+           "REGIONID": 226951.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Melrose",
+           "REGIONID": 274492.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Fourth And Gill",
+           "REGIONID": 271263.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Marrowbone",
+           "REGIONID": 228105.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Centenary",
+           "REGIONID": 276243.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Fisk-Meharry",
+           "REGIONID": 273732.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Heron Walk",
+           "REGIONID": 273965.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Sylvan Heights",
+           "REGIONID": 275656.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hickory Woods",
+           "REGIONID": 276373.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Oakwood",
+           "REGIONID": 276499.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Osage-North Fisk",
+           "REGIONID": 274927.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Park City",
+           "REGIONID": 228856.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "River Oaks-Kirby-Balmoral",
+           "REGIONID": 276537.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "West Meade Park",
+           "REGIONID": 276650.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Villages Of Larchwood",
+           "REGIONID": 275877.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Capitol View",
+           "REGIONID": 273133.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "McKissack Park",
+           "REGIONID": 274476.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hadley Park",
+           "REGIONID": 273914.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Shepherd Hills",
+           "REGIONID": 275362.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Your Neighborhood Group",
+           "REGIONID": 276176.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "CCSI-South Inglewood",
+           "REGIONID": 273166.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Whites Bend",
+           "REGIONID": 276059.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hadley-Washngton",
+           "REGIONID": 273913.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "East Memphis-Colonial-Yorkshire",
+           "REGIONID": 273555.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Belle Morris",
+           "REGIONID": 272916.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Brandywine Farms",
+           "REGIONID": 276221.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "College Heights-Clifton",
+           "REGIONID": 273309.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Greenwood",
+           "REGIONID": 276356.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Raleigh",
+           "REGIONID": 229214.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Dalemere Area",
+           "REGIONID": 273430.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Pennington Bend",
+           "REGIONID": 274999.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Old City",
+           "REGIONID": 274877.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Shelby Hills",
+           "REGIONID": 275360.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Barclay Drive",
+           "REGIONID": 272854.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Donelson Hills",
+           "REGIONID": 273474.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Antioch",
+           "REGIONID": 224911.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Glencliff",
+           "REGIONID": 226842.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Bellmont Hillsboro",
+           "REGIONID": 272925.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Shelby Forest-Frayser",
+           "REGIONID": 275359.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Cumberland Gardens",
+           "REGIONID": 273423.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Cordova-Appling",
+           "REGIONID": 273348.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hillwood Estates",
+           "REGIONID": 274030.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Stadium Area",
+           "REGIONID": 275556.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Gra-Mar Acres",
+           "REGIONID": 273859.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Edgehill",
+           "REGIONID": 273596.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Parkway Village-Oakhaven",
+           "REGIONID": 274983.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Haynes Area",
+           "REGIONID": 273950.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Crieve Hall",
+           "REGIONID": 226065.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Lockeland Springs",
+           "REGIONID": 274338.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Mornngside",
+           "REGIONID": 274593.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Neelys Bend",
+           "REGIONID": 274651.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Poplar Creek Estates",
+           "REGIONID": 276518.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "College Hills",
+           "REGIONID": 271257.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Tulip Grove",
+           "REGIONID": 230221.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Hickory Ridge-South Riverdale",
+           "REGIONID": 273973.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "McMurray-Huntingdon",
+           "REGIONID": 274479.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "White Bridge",
+           "REGIONID": 276056.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Beaumont",
+           "REGIONID": 271254.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Downtown",
+           "REGIONID": 273496.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Stanford Estates",
+           "REGIONID": 275561.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Sylvan Park",
+           "REGIONID": 275657.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Cherokee Park",
+           "REGIONID": 273225.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Elizabeth Park",
+           "REGIONID": 273626.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Edgewood",
+           "REGIONID": 273602.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "South Harpeth Area",
+           "REGIONID": 275438.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Southeast",
+           "REGIONID": 276572.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Scottsboro",
+           "REGIONID": 229588.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Linton South Harpeth",
+           "REGIONID": 274325.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "White Haven-Coro Lake",
+           "REGIONID": 276659.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Buena Vista Heights",
+           "REGIONID": 273085.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Jones-Buena Vista",
+           "REGIONID": 274152.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Baxter Road",
+           "REGIONID": 272872.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Bordeaux",
+           "REGIONID": 225359.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Bakers Grove",
+           "REGIONID": 272842.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Four Corners",
+           "REGIONID": 273770.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "South Knoxville",
+           "REGIONID": 229812.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Edmondson-Cloverland",
+           "REGIONID": 273606.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Parkridge",
+           "REGIONID": 274977.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Cleveland Park",
+           "REGIONID": 273281.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Una",
+           "REGIONID": 230254.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Talbot's Corner",
+           "REGIONID": 275660.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Downtown Knoxville",
+           "REGIONID": 273502.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Rayon City",
+           "REGIONID": 229237.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Sheffield On The Harpeth",
+           "REGIONID": 275357.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Nashboro Village",
+           "REGIONID": 274636.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "West Meade",
+           "REGIONID": 230477.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Buena Vista",
+           "REGIONID": 276226.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Mechanicsville",
+           "REGIONID": 271264.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Historic Edgefield",
+           "REGIONID": 276378.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Woodbine",
+           "REGIONID": 230664.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Charlotte Park",
+           "REGIONID": 225760.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Hermitage Hills",
+           "REGIONID": 227190.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Cahal Street",
+           "REGIONID": 273104.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Woodycrest",
+           "REGIONID": 276152.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "McFerrin Park",
+           "REGIONID": 276444.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Rosebank",
+           "REGIONID": 275245.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Old Sevier",
+           "REGIONID": 271270.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Rachel Jackson",
+           "REGIONID": 275120.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Brick Church Bellshire",
+           "REGIONID": 273034.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Southside",
+           "REGIONID": 275487.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Midtown",
+           "REGIONID": 274526.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Shelby",
+           "CITY": "Memphis",
+           "NAME": "Eads-Fisherville",
+           "REGIONID": 273521.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Merry Oaks",
+           "REGIONID": 228214.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Knox",
+           "CITY": "Knoxville",
+           "NAME": "Old North Knoxville",
+           "REGIONID": 271269.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Granny White",
+           "REGIONID": 273870.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Bells Bend",
+           "REGIONID": 272926.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Enchanted Hills",
+           "REGIONID": 273640.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Inglewood-Riverwood",
+           "REGIONID": 274096.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "TN",
+           "COUNTY": "Davidson",
+           "CITY": "Nashville",
+           "NAME": "Bellshire Estates",
+           "REGIONID": 272928.000000
+       }
+    }
+]

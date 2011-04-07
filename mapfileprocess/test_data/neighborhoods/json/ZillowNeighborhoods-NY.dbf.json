@@ -1,0 +1,2662 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Ellwanger-Barry",
+           "REGIONID": 343894.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "West Village",
+           "REGIONID": 270964.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Bensonhurst",
+           "REGIONID": 193285.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "South Park",
+           "REGIONID": 270935.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "East Village",
+           "REGIONID": 270829.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Park South",
+           "REGIONID": 342684.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Meadowbrook",
+           "REGIONID": 274481.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Auburndale",
+           "REGIONID": 270797.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Rosebank",
+           "REGIONID": 197599.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Downtown",
+           "REGIONID": 273487.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Salt Springs",
+           "REGIONID": 275276.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Starin Central",
+           "REGIONID": 270940.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Cold Spring",
+           "REGIONID": 273299.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Battery Park",
+           "REGIONID": 272869.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Charlotte",
+           "REGIONID": 193771.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Throggs Neck",
+           "REGIONID": 343210.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Carnegie Hill",
+           "REGIONID": 270810.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "College Point",
+           "REGIONID": 193942.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Leroy",
+           "REGIONID": 270869.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Mariners Harbor",
+           "REGIONID": 196213.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Lancaster",
+           "REGIONID": 342699.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Rossville",
+           "REGIONID": 197623.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "First Ward",
+           "REGIONID": 270836.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "East Avenue",
+           "REGIONID": 343907.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Douglastown-Little Neck",
+           "REGIONID": 273478.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Queens Village",
+           "REGIONID": 275115.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Morris Park",
+           "REGIONID": 343212.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Gramercy",
+           "REGIONID": 273860.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Baychester",
+           "REGIONID": 343223.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Middle Village",
+           "REGIONID": 196338.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Great Kills",
+           "REGIONID": 195087.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Fordham",
+           "REGIONID": 343214.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Beechwood",
+           "REGIONID": 343881.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Near Westside",
+           "REGIONID": 274648.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Normanskill",
+           "REGIONID": 342687.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Parkside",
+           "REGIONID": 274979.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Melrose",
+           "REGIONID": 342698.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "New Brighton",
+           "REGIONID": 196583.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Northside",
+           "REGIONID": 274792.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Westside",
+           "REGIONID": 276034.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Corn Hill",
+           "REGIONID": 343889.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Valley",
+           "REGIONID": 270959.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Spuyten Duyvil",
+           "REGIONID": 343218.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Soho",
+           "REGIONID": 270928.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Woodside",
+           "REGIONID": 199091.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Rosedale",
+           "REGIONID": 275247.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Bryant",
+           "REGIONID": 270807.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Mott Haven",
+           "REGIONID": 343204.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Ettingville",
+           "REGIONID": 273653.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Strathmore",
+           "REGIONID": 276596.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Nkew Gardens",
+           "REGIONID": 274676.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "South Marketview Heights",
+           "REGIONID": 343906.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Mapleton-Flatlands",
+           "REGIONID": 274415.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Genesee Moselle",
+           "REGIONID": 270843.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Genesee-Jefferson",
+           "REGIONID": 343884.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Bay Ridge",
+           "REGIONID": 193189.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Center Square",
+           "REGIONID": 342690.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Delaware-West Ferry",
+           "REGIONID": 273455.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Second Avenue",
+           "REGIONID": 342691.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Williams Bridge",
+           "REGIONID": 343222.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Port Richmond",
+           "REGIONID": 197303.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "University",
+           "REGIONID": 270955.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Brighton",
+           "REGIONID": 273038.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Lincoln Park",
+           "REGIONID": 274314.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Boerum Hill",
+           "REGIONID": 272994.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Whitestone",
+           "REGIONID": 276060.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Murray Hill",
+           "REGIONID": 274627.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Cobble Hill",
+           "REGIONID": 270816.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Downtown",
+           "REGIONID": 270825.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Union Port",
+           "REGIONID": 343209.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Woodrow",
+           "REGIONID": 199080.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Central Business District",
+           "REGIONID": 276245.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Woodhaven-Richmond Hill",
+           "REGIONID": 276128.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Far West-Side",
+           "REGIONID": 273703.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Coney Island",
+           "REGIONID": 193974.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Delaware Avenue",
+           "REGIONID": 342683.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Soundview",
+           "REGIONID": 343205.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Jamaica",
+           "REGIONID": 195621.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Laurelton",
+           "REGIONID": 274285.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Bishop's Gate",
+           "REGIONID": 342694.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Little Italy",
+           "REGIONID": 270873.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Park Avenue",
+           "REGIONID": 343908.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Sunset Park",
+           "REGIONID": 270945.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Borough Park",
+           "REGIONID": 193406.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Black Rock",
+           "REGIONID": 272972.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Jackson Heights",
+           "REGIONID": 274117.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "East Brooklyn",
+           "REGIONID": 273532.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Park Meadow",
+           "REGIONID": 270906.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Bedford-Stuyvesant",
+           "REGIONID": 272902.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Maspeth",
+           "REGIONID": 196238.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Broadway-Fillmore",
+           "REGIONID": 273057.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Central Park",
+           "REGIONID": 273205.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Flatbush",
+           "REGIONID": 194737.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Pine Hills",
+           "REGIONID": 342680.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Morris Heights",
+           "REGIONID": 343216.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Charlestown-Richmond Valley",
+           "REGIONID": 273219.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Glendale",
+           "REGIONID": 276345.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Schiller Park",
+           "REGIONID": 270925.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Lasalle",
+           "REGIONID": 270867.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Waterfront",
+           "REGIONID": 270962.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Country Club",
+           "REGIONID": 343226.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Buckingham Lake-Crestwood",
+           "REGIONID": 342695.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Lovejoy",
+           "REGIONID": 270874.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Near Eastside",
+           "REGIONID": 274643.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Greenwich Village",
+           "REGIONID": 195133.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Park Slope",
+           "REGIONID": 197044.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Midtown",
+           "REGIONID": 270885.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Skunk City",
+           "REGIONID": 275385.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "West Hill",
+           "REGIONID": 342679.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Triangle",
+           "REGIONID": 275775.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Morningside Heights",
+           "REGIONID": 270891.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Albright",
+           "REGIONID": 270794.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Kaisertown",
+           "REGIONID": 274161.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Huguenot",
+           "REGIONID": 195511.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Harlem",
+           "REGIONID": 195267.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Dunes",
+           "REGIONID": 342686.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Bloomfield-Chelsea-Travis",
+           "REGIONID": 272982.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Steinway",
+           "REGIONID": 198200.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Genesee Valley Park",
+           "REGIONID": 343895.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Tifft",
+           "REGIONID": 270949.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Flushing",
+           "REGIONID": 194755.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Williamsburg",
+           "REGIONID": 199001.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Kingsley",
+           "REGIONID": 270866.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Campus Area-University District",
+           "REGIONID": 342696.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Richmondtown",
+           "REGIONID": 275164.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "19th Ward",
+           "REGIONID": 343902.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Hamilton Heights",
+           "REGIONID": 270850.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Kings Bridge",
+           "REGIONID": 343220.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Sheridan Hollow",
+           "REGIONID": 342678.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "University Heights",
+           "REGIONID": 343213.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Canarsie",
+           "REGIONID": 193640.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Greenwood",
+           "REGIONID": 273903.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Front Park",
+           "REGIONID": 270840.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Cazenovia Park",
+           "REGIONID": 270813.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Northland-Lyceum",
+           "REGIONID": 343886.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "City Island",
+           "REGIONID": 343207.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Saintalbans",
+           "REGIONID": 275552.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Annandale",
+           "REGIONID": 272771.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Mlk Park",
+           "REGIONID": 270890.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Delaware Park",
+           "REGIONID": 276292.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Tribeca",
+           "REGIONID": 270951.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Strong",
+           "REGIONID": 343911.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Babcock",
+           "REGIONID": 270798.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Outer Comstock",
+           "REGIONID": 274929.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Gravesend-Sheepshead Bay",
+           "REGIONID": 273871.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Plymouth-Exchange",
+           "REGIONID": 343883.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Lakefront",
+           "REGIONID": 274242.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Red Hook",
+           "REGIONID": 197427.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Best",
+           "REGIONID": 343897.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Midland Beach",
+           "REGIONID": 196350.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Duran Eastman Park",
+           "REGIONID": 343887.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "North Marketview Heights",
+           "REGIONID": 343904.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Carroll Gardens",
+           "REGIONID": 270811.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Hamlin Park",
+           "REGIONID": 270851.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Queensboro Hill",
+           "REGIONID": 270916.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Springfield Gardens",
+           "REGIONID": 275518.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "North Sutton Area",
+           "REGIONID": 274748.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "North Park",
+           "REGIONID": 270899.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Astoria-Long Island City",
+           "REGIONID": 272816.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Culver-Winton",
+           "REGIONID": 343882.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "North Albany-Shaker Park",
+           "REGIONID": 342676.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Upper East Side",
+           "REGIONID": 270957.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Wescott",
+           "REGIONID": 276644.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Emerson",
+           "REGIONID": 273635.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Dyker Heights",
+           "REGIONID": 194318.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Forest",
+           "REGIONID": 273749.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Cobbs Hill",
+           "REGIONID": 343885.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Medical Park",
+           "REGIONID": 270884.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "South Abbott",
+           "REGIONID": 270930.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Financial District",
+           "REGIONID": 270835.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Susan B Anthony",
+           "REGIONID": 343898.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Skytop-South Campus",
+           "REGIONID": 275390.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Central Business District",
+           "REGIONID": 343888.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "North Valley",
+           "REGIONID": 274757.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Inwood",
+           "REGIONID": 195576.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Squaw Island",
+           "REGIONID": 275531.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Bedford Park",
+           "REGIONID": 343221.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Brown Square",
+           "REGIONID": 343909.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Sedgewick",
+           "REGIONID": 275325.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Maplewood",
+           "REGIONID": 343877.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Grant Ferry",
+           "REGIONID": 270847.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Sunny Side",
+           "REGIONID": 275620.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Chelsea",
+           "REGIONID": 276254.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Central Avenue",
+           "REGIONID": 342689.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Highland",
+           "REGIONID": 343879.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Lower East Side",
+           "REGIONID": 270875.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "South Wedge",
+           "REGIONID": 343912.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Wakefield-Williamsbridge",
+           "REGIONID": 343225.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Oakwood",
+           "REGIONID": 196875.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Krank Park-Cherry Hill",
+           "REGIONID": 342692.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "South Beach",
+           "REGIONID": 197995.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Hunts Point",
+           "REGIONID": 343203.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Dutchtown",
+           "REGIONID": 343900.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Abbott McKinley",
+           "REGIONID": 270793.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Tottensville",
+           "REGIONID": 275754.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Washington Square",
+           "REGIONID": 275929.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Chinatown",
+           "REGIONID": 193821.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Military",
+           "REGIONID": 270887.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Ridgewood",
+           "REGIONID": 275173.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Charles House",
+           "REGIONID": 343899.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Forest Hills",
+           "REGIONID": 273757.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Columbus",
+           "REGIONID": 273335.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Homestead Heights",
+           "REGIONID": 343891.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Elmwood",
+           "REGIONID": 276322.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Seneca",
+           "REGIONID": 270927.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Washington Heights",
+           "REGIONID": 198687.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Brownsville",
+           "REGIONID": 193526.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Bushwick",
+           "REGIONID": 193587.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Howland Hook",
+           "REGIONID": 270856.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Edgerton",
+           "REGIONID": 343910.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Kenfield",
+           "REGIONID": 270862.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "The Rockaways",
+           "REGIONID": 275720.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Upper West Side",
+           "REGIONID": 270958.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Ardon Heights",
+           "REGIONID": 272785.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "New Scotland",
+           "REGIONID": 342681.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Prince's Bay",
+           "REGIONID": 270912.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Kings",
+           "CITY": "New York City-Brooklyn",
+           "NAME": "Fort Green",
+           "REGIONID": 273766.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Clinton",
+           "REGIONID": 273289.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Lakeview",
+           "REGIONID": 274254.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "South Ellicott",
+           "REGIONID": 270932.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Swillburg",
+           "REGIONID": 343893.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "University Hill",
+           "REGIONID": 275818.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Fresh Kills",
+           "REGIONID": 194861.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Yorkville",
+           "REGIONID": 276174.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Clearview",
+           "REGIONID": 273278.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Near Northeast",
+           "REGIONID": 274645.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Arbor Hill",
+           "REGIONID": 342677.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "High Bridge",
+           "REGIONID": 343208.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Eastwood",
+           "REGIONID": 194503.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Mayor's Heights",
+           "REGIONID": 343896.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Pearl-Meigs-Monroe",
+           "REGIONID": 343878.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Riverdale",
+           "REGIONID": 343219.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Eastchester",
+           "REGIONID": 343224.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Helderberg",
+           "REGIONID": 342682.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Woodlawn-Nordwood",
+           "REGIONID": 343206.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "Southwest",
+           "REGIONID": 275495.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "South End",
+           "REGIONID": 342693.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Upper Falls",
+           "REGIONID": 343905.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Browncroft",
+           "REGIONID": 343892.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Tremont",
+           "REGIONID": 343215.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Howard Beach",
+           "REGIONID": 195489.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Clifton",
+           "REGIONID": 193879.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "South Valley",
+           "REGIONID": 275463.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Emslie",
+           "REGIONID": 270833.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Utopia",
+           "REGIONID": 276623.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "Parkchester",
+           "REGIONID": 343211.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Bayside",
+           "REGIONID": 193200.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Todt Hill",
+           "REGIONID": 270950.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Lyell-Otis",
+           "REGIONID": 343880.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Bronx",
+           "CITY": "New York City-Bronx",
+           "NAME": "South Bronx",
+           "REGIONID": 343217.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "Garment District",
+           "REGIONID": 270842.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "New York",
+           "CITY": "New York City-Manhattan",
+           "NAME": "East Harlem",
+           "REGIONID": 270828.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Willert Park",
+           "REGIONID": 270966.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Riverside Park",
+           "REGIONID": 275206.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "North Delaware",
+           "REGIONID": 276474.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Kensington",
+           "REGIONID": 274175.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Allen",
+           "REGIONID": 272750.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Richmond",
+           "CITY": "New York City-Staten Island",
+           "NAME": "Westerleigh-Castleton",
+           "REGIONID": 276006.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Upper Washington Avenue",
+           "REGIONID": 342697.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Whitehall",
+           "REGIONID": 342688.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Albany",
+           "CITY": "Albany",
+           "NAME": "Mansion Area",
+           "REGIONID": 342685.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Masten Park",
+           "REGIONID": 270883.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Onondaga",
+           "CITY": "Syracuse",
+           "NAME": "University",
+           "REGIONID": 275808.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Monroe",
+           "CITY": "Rochester",
+           "NAME": "Atlantic-University",
+           "REGIONID": 343903.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Queens",
+           "CITY": "New York City-Queens",
+           "NAME": "Corona",
+           "REGIONID": 194032.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "STATE": "NY",
+           "COUNTY": "Erie",
+           "CITY": "Buffalo",
+           "NAME": "Grider",
+           "REGIONID": 270849.000000
+       }
+    }
+]

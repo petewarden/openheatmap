@@ -1,0 +1,242 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Elmhurst",
+           "REGIONID": 271238.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Lower South Providence",
+           "REGIONID": 271242.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Mount Hope",
+           "REGIONID": 271243.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "South Elmwood",
+           "REGIONID": 271248.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Downtown",
+           "REGIONID": 271237.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Blackstone",
+           "REGIONID": 271234.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Fox Point",
+           "REGIONID": 271240.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Smith Hill",
+           "REGIONID": 271247.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Hartford",
+           "REGIONID": 271241.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Federal Hill",
+           "REGIONID": 271239.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Mount Pleasant",
+           "REGIONID": 271244.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Elmwood",
+           "REGIONID": 219666.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Manton",
+           "REGIONID": 219763.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Olneyville",
+           "REGIONID": 219812.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Reservoir",
+           "REGIONID": 271245.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Hope",
+           "REGIONID": 276384.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Washington Park",
+           "REGIONID": 271251.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Charles",
+           "REGIONID": 271235.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "College Hill",
+           "REGIONID": 271236.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Wanskuck",
+           "REGIONID": 219911.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Wayland",
+           "REGIONID": 219917.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "West End",
+           "REGIONID": 271252.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Silverlake",
+           "REGIONID": 275382.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "RI",
+           "COUNTY": "Providence",
+           "CITY": "Providence",
+           "NAME": "Valley",
+           "REGIONID": 271250.000000
+       }
+    }
+]

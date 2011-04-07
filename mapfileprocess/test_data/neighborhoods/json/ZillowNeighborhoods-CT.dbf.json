@@ -1,0 +1,532 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Downtown",
+           "REGIONID": 268787.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "North East",
+           "REGIONID": 268790.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Frog Hollow",
+           "REGIONID": 268788.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Downtown",
+           "REGIONID": 273494.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Blue Hills",
+           "REGIONID": 272984.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "West River",
+           "REGIONID": 275983.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Westville",
+           "REGIONID": 121628.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Westover",
+           "REGIONID": 276657.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Newfield",
+           "REGIONID": 121211.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Sheldon Charter Oak",
+           "REGIONID": 276561.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Quinnipiac",
+           "REGIONID": 275118.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Downtown",
+           "REGIONID": 276304.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "South Meadows",
+           "REGIONID": 268794.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Turn Of River",
+           "REGIONID": 121553.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Annex",
+           "REGIONID": 272772.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "North Meadows",
+           "REGIONID": 268791.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "South End",
+           "REGIONID": 121462.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Waterside",
+           "REGIONID": 276639.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Edgewood",
+           "REGIONID": 273601.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Hill",
+           "REGIONID": 274014.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "West Rock",
+           "REGIONID": 275986.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "South End",
+           "REGIONID": 275430.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Upper Albany",
+           "REGIONID": 268796.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Dwight",
+           "REGIONID": 273520.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Dixwell",
+           "REGIONID": 276297.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Mill River",
+           "REGIONID": 274540.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Glenbrook",
+           "REGIONID": 120957.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "South West",
+           "REGIONID": 268795.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Clay Arsenal",
+           "REGIONID": 268786.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Palmers Hill",
+           "REGIONID": 121298.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Roxbury",
+           "REGIONID": 121402.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Newhallville",
+           "REGIONID": 274671.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "East Shore",
+           "REGIONID": 276312.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "West Side",
+           "REGIONID": 275991.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Long Wharf",
+           "REGIONID": 274347.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "South Green",
+           "REGIONID": 268793.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Parkville",
+           "REGIONID": 121300.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Amity",
+           "REGIONID": 272767.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Ridgeway",
+           "REGIONID": 121373.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Belltown",
+           "REGIONID": 120704.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Fair Haven",
+           "REGIONID": 120904.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Cove-East Side",
+           "REGIONID": 273380.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Behind The Rocks",
+           "REGIONID": 268785.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Asylum Hill",
+           "REGIONID": 268783.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Springdale",
+           "REGIONID": 121489.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "North Stamford",
+           "REGIONID": 121248.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "West End",
+           "REGIONID": 268797.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "East Rock",
+           "REGIONID": 273564.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Fairfield",
+           "CITY": "Stamford",
+           "NAME": "Shippan",
+           "REGIONID": 275367.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "Hartford",
+           "CITY": "Hartford",
+           "NAME": "Barry Square",
+           "REGIONID": 268784.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Prospect Hill",
+           "REGIONID": 275098.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Wooster Square",
+           "REGIONID": 276154.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "CT",
+           "COUNTY": "New Haven",
+           "CITY": "New Haven",
+           "NAME": "Beaver Hills",
+           "REGIONID": 272897.000000
+       }
+    }
+]

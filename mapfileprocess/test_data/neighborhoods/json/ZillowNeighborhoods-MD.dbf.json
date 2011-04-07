@@ -1,0 +1,542 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Orangeville",
+           "REGIONID": 161389.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Fairfield Area",
+           "REGIONID": 269809.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Canton",
+           "REGIONID": 157180.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Hopkins-Middle East",
+           "REGIONID": 274058.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Brooklyn-Curtis Bay",
+           "REGIONID": 273067.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "West Baltimore",
+           "REGIONID": 163743.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Highlandtown",
+           "REGIONID": 159490.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Govans",
+           "REGIONID": 273853.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Fells Point",
+           "REGIONID": 158479.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Midway-Coldstream",
+           "REGIONID": 274531.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Federal Hill",
+           "REGIONID": 273712.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Madison-Eastend",
+           "REGIONID": 274393.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Beechfielf-Irvington Area",
+           "REGIONID": 272904.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Riverside",
+           "REGIONID": 275198.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Chinquapin Park-Belvedere",
+           "REGIONID": 273241.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Greenmount East",
+           "REGIONID": 276354.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Wakefield",
+           "REGIONID": 163593.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Pulaski",
+           "REGIONID": 275107.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Hampden-Woodberry-Remington",
+           "REGIONID": 273920.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Cherry Hill",
+           "REGIONID": 157467.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Pimlico",
+           "REGIONID": 161629.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Grove Park",
+           "REGIONID": 269822.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Belaire-Edison",
+           "REGIONID": 272908.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Westgate",
+           "REGIONID": 276020.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Cedonia",
+           "REGIONID": 157365.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Dundalk Cityside",
+           "REGIONID": 273516.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Downtown",
+           "REGIONID": 269797.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Greater Rosemont",
+           "REGIONID": 273883.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Cheswolde Area",
+           "REGIONID": 273235.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Greater Mount Washington",
+           "REGIONID": 273882.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Monument Street Area",
+           "REGIONID": 274583.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Charles Village",
+           "REGIONID": 157423.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Bayview Area",
+           "REGIONID": 276202.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Berea Area",
+           "REGIONID": 272944.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Morrell Park",
+           "REGIONID": 160898.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Winsor Hills",
+           "REGIONID": 276108.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Reservoir Hill-Bolton Hill Area",
+           "REGIONID": 275152.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Lakeland",
+           "REGIONID": 160124.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Roland Parl-Homewood-Guilford",
+           "REGIONID": 275228.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Glen-Fallstaff Area",
+           "REGIONID": 273831.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Upper Northwood",
+           "REGIONID": 275829.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Franklintown",
+           "REGIONID": 273783.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Mondawin-Walbrook Area",
+           "REGIONID": 274572.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Hunting Ridge",
+           "REGIONID": 159728.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Inner Harbor",
+           "REGIONID": 269836.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Old Town Area",
+           "REGIONID": 274896.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Locust Point",
+           "REGIONID": 269849.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Howard Park",
+           "REGIONID": 159670.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Park Heights",
+           "REGIONID": 276506.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Hamilton Area",
+           "REGIONID": 273916.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Jonestown",
+           "REGIONID": 274153.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Forest Park",
+           "REGIONID": 158580.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Lower Northwood",
+           "REGIONID": 276430.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "MD",
+           "COUNTY": "Baltimore City",
+           "CITY": "Baltimore",
+           "NAME": "Patterson Park East",
+           "REGIONID": 274988.000000
+       }
+    }
+]

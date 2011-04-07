@@ -1,0 +1,772 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Chatham",
+           "REGIONID": 273222.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "North Center",
+           "REGIONID": 269600.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "O'hare",
+           "REGIONID": 269603.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Washington Park",
+           "REGIONID": 275927.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Garfield Ridge",
+           "REGIONID": 269584.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Beverly",
+           "REGIONID": 272951.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Ashburn",
+           "REGIONID": 269570.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Forest Glen",
+           "REGIONID": 269580.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Edison Park",
+           "REGIONID": 269579.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Riverdale",
+           "REGIONID": 275192.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Woodlawn",
+           "REGIONID": 276138.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Lincoln Park",
+           "REGIONID": 269590.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Englewood",
+           "REGIONID": 138261.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Jefferson Park",
+           "REGIONID": 269588.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Hermosa",
+           "REGIONID": 273964.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Loop",
+           "REGIONID": 269593.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Morgan Park",
+           "REGIONID": 269595.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Near South Side",
+           "REGIONID": 269598.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "South Chicago",
+           "REGIONID": 140437.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "North Lawndale",
+           "REGIONID": 269601.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Mount Greenwood",
+           "REGIONID": 269596.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Fuller Park",
+           "REGIONID": 269581.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Uptown",
+           "REGIONID": 269609.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "North Park",
+           "REGIONID": 276477.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Dunning",
+           "REGIONID": 138129.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "East Side",
+           "REGIONID": 138166.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Pottage Park",
+           "REGIONID": 275083.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Edgewater",
+           "REGIONID": 269578.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Garfield Park",
+           "REGIONID": 269613.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Roseland",
+           "REGIONID": 275251.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Irving Park",
+           "REGIONID": 269587.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Englewood",
+           "REGIONID": 269612.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Auburn Gresham",
+           "REGIONID": 269571.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Chicago Lawn",
+           "REGIONID": 269576.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Town",
+           "REGIONID": 269615.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Bridgeport",
+           "REGIONID": 273035.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Hegewisch",
+           "REGIONID": 138732.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Lower West Side",
+           "REGIONID": 269594.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Brighton Park",
+           "REGIONID": 273040.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Avalon Park",
+           "REGIONID": 269572.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Burnside",
+           "REGIONID": 137634.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "South Shore",
+           "REGIONID": 269608.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Belmont Cragin",
+           "REGIONID": 269574.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "New City",
+           "REGIONID": 274661.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Oakland",
+           "REGIONID": 274850.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Washington Heights",
+           "REGIONID": 269610.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Albany Park",
+           "REGIONID": 269566.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Ridge",
+           "REGIONID": 275982.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Douglas",
+           "REGIONID": 273477.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Pullman",
+           "REGIONID": 140913.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Rogers Park",
+           "REGIONID": 269605.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Pullman",
+           "REGIONID": 140024.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Austin",
+           "REGIONID": 137304.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Logan Square",
+           "REGIONID": 269592.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Archer Heights",
+           "REGIONID": 269568.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Near North Side",
+           "REGIONID": 269597.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Lake View",
+           "REGIONID": 269589.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Lawn",
+           "REGIONID": 269614.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "West Elsdon",
+           "REGIONID": 269611.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Avondale",
+           "REGIONID": 269573.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Armour Square",
+           "REGIONID": 269569.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Kenwood",
+           "REGIONID": 274178.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Clearing",
+           "REGIONID": 137841.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "South Deering",
+           "REGIONID": 140440.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Near West Side",
+           "REGIONID": 269599.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Calumet Heights",
+           "REGIONID": 273111.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Grand Boulevard",
+           "REGIONID": 273862.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Norwood Park",
+           "REGIONID": 269602.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Humboldt Park",
+           "REGIONID": 269585.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Lincoln Square",
+           "REGIONID": 269591.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Montclare",
+           "REGIONID": 274579.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "East Garfield Park",
+           "REGIONID": 269577.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Hyde Park",
+           "REGIONID": 269586.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "South Lawndale",
+           "REGIONID": 269606.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Gage Park",
+           "REGIONID": 269582.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "McKinley Park",
+           "REGIONID": 139408.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "IL",
+           "COUNTY": "Cook",
+           "CITY": "Chicago",
+           "NAME": "Grand Crossing",
+           "REGIONID": 276349.000000
+       }
+    }
+]

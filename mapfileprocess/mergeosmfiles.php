@@ -47,6 +47,7 @@ if (empty($input_files))
 $output_osm_ways = null;
 foreach ($input_files as $input_file)
 {
+error_log("Looking at $input_file");
     $input_osm_ways = new OSMWays();
     $input_contents = file_get_contents($input_file) or die("Couldn't read file '$input_file'");
     $input_osm_ways->deserialize_from_xml($input_contents);

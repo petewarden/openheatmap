@@ -1,0 +1,232 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "West",
+           "REGIONID": 343425.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Riverfront",
+           "REGIONID": 270304.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Northside",
+           "REGIONID": 270303.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Westside",
+           "REGIONID": 270309.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "Southeast",
+           "REGIONID": 343423.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Moose Can Gully",
+           "REGIONID": 270302.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "Central",
+           "REGIONID": 343424.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Rose Park",
+           "REGIONID": 270305.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Lewis And Clark",
+           "REGIONID": 270299.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Grant Creek",
+           "REGIONID": 270297.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Heart Of Missoula",
+           "REGIONID": 270298.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Southgate Triangle",
+           "REGIONID": 270306.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Farviews And Pattee Canyon",
+           "REGIONID": 343601.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "South 39th Street",
+           "REGIONID": 275406.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "Euclid Ave North",
+           "REGIONID": 343421.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Upper Rattlesnake",
+           "REGIONID": 270308.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Franklin To The Fort",
+           "REGIONID": 270296.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Miller Creek",
+           "REGIONID": 270301.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "University District",
+           "REGIONID": 270307.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Emma Dickinson Orchard Homes",
+           "REGIONID": 273637.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Missoula",
+           "CITY": "Missoula",
+           "NAME": "Lower Rattlesnake",
+           "REGIONID": 270300.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "Euclid Ave South",
+           "REGIONID": 343426.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "MT",
+           "COUNTY": "Lewis and Clark",
+           "CITY": "Helena",
+           "NAME": "North",
+           "REGIONID": 343422.000000
+       }
+    }
+]

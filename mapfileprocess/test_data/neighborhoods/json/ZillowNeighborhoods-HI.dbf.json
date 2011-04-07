@@ -1,0 +1,352 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kahaluu",
+           "REGIONID": 133195.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Mililani-Waipio-Melemanu",
+           "REGIONID": 274535.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Aiea",
+           "REGIONID": 133075.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Mokapu",
+           "REGIONID": 274568.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kuliouou-Kalani Iki",
+           "REGIONID": 274206.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "North Shore",
+           "REGIONID": 274746.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kalihi Valley",
+           "REGIONID": 274162.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Koolauloa",
+           "REGIONID": 274203.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Pearl City",
+           "REGIONID": 133437.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Manoa",
+           "REGIONID": 274409.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kaneohe",
+           "REGIONID": 133229.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Palolo",
+           "REGIONID": 274950.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Aliamanu",
+           "REGIONID": 343430.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kailua",
+           "REGIONID": 133203.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Mxcully-Moiliili",
+           "REGIONID": 343428.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Nuuanu-Punchbowl",
+           "REGIONID": 276488.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Waimanalo",
+           "REGIONID": 133547.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Downtown",
+           "REGIONID": 273490.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Airport",
+           "REGIONID": 272730.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Hawaii Kai",
+           "REGIONID": 133141.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Mililani Mauka-Launani Valley",
+           "REGIONID": 343431.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Waikiki",
+           "REGIONID": 133535.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Waianae",
+           "REGIONID": 133524.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Ewa",
+           "REGIONID": 133101.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Moanalua",
+           "REGIONID": 274565.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kaimuki",
+           "REGIONID": 133207.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Makiki",
+           "REGIONID": 343429.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Kalihi-Palama",
+           "REGIONID": 276400.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Makakilo-Kapolei",
+           "REGIONID": 274401.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Waipahu",
+           "REGIONID": 133558.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Liliha-Kapalama",
+           "REGIONID": 274304.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Diamond Head-Kapahulu",
+           "REGIONID": 343427.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Wahiawa",
+           "REGIONID": 133514.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Ala Moana-Kakaako",
+           "REGIONID": 272733.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "HI",
+           "COUNTY": "Honolulu",
+           "CITY": "Honolulu",
+           "NAME": "Waialae-Kahala",
+           "REGIONID": 275900.000000
+       }
+    }
+]

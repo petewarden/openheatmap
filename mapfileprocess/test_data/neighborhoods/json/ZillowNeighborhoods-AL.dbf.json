@@ -1,0 +1,1612 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Oakleigh",
+           "REGIONID": 276496.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Theodore Industrial Park",
+           "REGIONID": 275732.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Usa",
+           "REGIONID": 275839.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Yorkwood",
+           "REGIONID": 276175.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Plateau",
+           "REGIONID": 106234.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Pleasant Valley",
+           "REGIONID": 275058.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Reichlieu",
+           "REGIONID": 275149.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Dawes",
+           "REGIONID": 273439.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Hannon Park",
+           "REGIONID": 273925.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Second Creek",
+           "REGIONID": 276556.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Autumndale",
+           "REGIONID": 276194.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Neshota",
+           "REGIONID": 105769.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Winfield",
+           "REGIONID": 276104.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Colonial Heights",
+           "REGIONID": 273320.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Brookley Industrial Park",
+           "REGIONID": 273066.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Huron",
+           "REGIONID": 274076.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Hillsdale",
+           "REGIONID": 274023.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Azalea",
+           "REGIONID": 272834.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Deer River",
+           "REGIONID": 273447.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Georgia Avenue",
+           "REGIONID": 273816.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Mooncrest",
+           "REGIONID": 274584.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bellewood",
+           "REGIONID": 272922.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Terrace Hills",
+           "REGIONID": 275687.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bell Aire",
+           "REGIONID": 272910.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bienville",
+           "REGIONID": 272957.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Baker",
+           "REGIONID": 272841.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Greenmound",
+           "REGIONID": 273894.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bates",
+           "REGIONID": 272867.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Tillman",
+           "REGIONID": 275747.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Beau Terra",
+           "REGIONID": 276204.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Millers Creek",
+           "REGIONID": 276454.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Warwick",
+           "REGIONID": 275922.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Westfield",
+           "REGIONID": 276017.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Parkhill",
+           "REGIONID": 274975.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Jackson Heights",
+           "REGIONID": 104898.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Mobile Terrace",
+           "REGIONID": 274566.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Fisher",
+           "REGIONID": 273729.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Fire Tower",
+           "REGIONID": 273722.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Jackson Creek",
+           "REGIONID": 274116.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Riverfront Industrial Area",
+           "REGIONID": 275195.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Nevius",
+           "REGIONID": 274659.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rose Haven",
+           "REGIONID": 275244.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Forest Highland",
+           "REGIONID": 273752.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Llanfair",
+           "REGIONID": 274336.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Claremont",
+           "REGIONID": 273273.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Muddy Creek",
+           "REGIONID": 274625.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Pierce Creek",
+           "REGIONID": 275026.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bellfontaine",
+           "REGIONID": 272923.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Summerville",
+           "REGIONID": 107033.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bayside",
+           "REGIONID": 272882.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Texas Street",
+           "REGIONID": 275689.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bellmont",
+           "REGIONID": 272924.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Riviere De Chien",
+           "REGIONID": 276544.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Twin Lakes",
+           "REGIONID": 275788.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Irvington",
+           "REGIONID": 274109.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Lourdes",
+           "REGIONID": 274364.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Driftwood",
+           "REGIONID": 273508.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Pine Grove",
+           "REGIONID": 106170.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "McVoy",
+           "REGIONID": 274480.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Owens",
+           "REGIONID": 274933.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Country Club",
+           "REGIONID": 276280.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Cedar Grove",
+           "REGIONID": 273170.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Canterbury",
+           "REGIONID": 276235.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Cypress Shores",
+           "REGIONID": 276286.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Lyons Park",
+           "REGIONID": 274383.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Westavia",
+           "REGIONID": 276001.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Ridgeway",
+           "REGIONID": 275172.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Overlook",
+           "REGIONID": 274930.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Skyland Park",
+           "REGIONID": 275387.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Westhill",
+           "REGIONID": 276022.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Overton",
+           "REGIONID": 274932.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Cypress Branch",
+           "REGIONID": 273428.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Maryvale",
+           "REGIONID": 274442.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Devonshire",
+           "REGIONID": 273466.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Churchill",
+           "REGIONID": 273247.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bayview",
+           "REGIONID": 272886.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Garland",
+           "REGIONID": 273807.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Hamilton",
+           "REGIONID": 276360.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Washington Square",
+           "REGIONID": 275930.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Belmeade",
+           "REGIONID": 272930.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Jefferson",
+           "REGIONID": 274134.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Woodlawn",
+           "REGIONID": 276139.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Lott Road",
+           "REGIONID": 274362.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Mohawk",
+           "REGIONID": 274567.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Airmont",
+           "REGIONID": 272728.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Arlington",
+           "REGIONID": 276187.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Venetia",
+           "REGIONID": 275853.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Malibar Heights",
+           "REGIONID": 274403.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "College Park",
+           "REGIONID": 273315.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Pinewood",
+           "REGIONID": 275036.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "North Industrial Area",
+           "REGIONID": 274723.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Grove Hill",
+           "REGIONID": 273909.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Redstone",
+           "REGIONID": 275146.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Happy Hill",
+           "REGIONID": 273928.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Beverly",
+           "REGIONID": 272952.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Plantation",
+           "REGIONID": 275045.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Melrose",
+           "REGIONID": 274493.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "North Crichton",
+           "REGIONID": 274699.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Argyle",
+           "REGIONID": 272788.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Goldmine",
+           "REGIONID": 273845.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Di Grado",
+           "REGIONID": 273468.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Greenwich Hills",
+           "REGIONID": 273901.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Milkhouse",
+           "REGIONID": 274536.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rolling Acres",
+           "REGIONID": 275229.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Cody",
+           "REGIONID": 273297.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Ferry",
+           "REGIONID": 273717.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Seminole",
+           "REGIONID": 275330.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Audubon",
+           "REGIONID": 272823.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rothfield",
+           "REGIONID": 275258.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Thornhill",
+           "REGIONID": 275737.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Sunnyvale",
+           "REGIONID": 275624.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Camelia",
+           "REGIONID": 273117.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Gorgas",
+           "REGIONID": 273851.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Carver",
+           "REGIONID": 273146.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Hillview",
+           "REGIONID": 274029.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "South Crichton",
+           "REGIONID": 275422.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Westlake",
+           "REGIONID": 276024.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Travis",
+           "REGIONID": 275770.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Kimberline",
+           "REGIONID": 274185.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Riviera",
+           "REGIONID": 275214.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Fowl River",
+           "REGIONID": 273772.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Berkleigh",
+           "REGIONID": 272947.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Koolman",
+           "REGIONID": 274204.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Cottage Park",
+           "REGIONID": 273359.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Red Creek",
+           "REGIONID": 276526.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Baltimore",
+           "REGIONID": 272850.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Brookwood",
+           "REGIONID": 273073.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Dauphin Acres",
+           "REGIONID": 273433.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Larkspur",
+           "REGIONID": 274273.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rosedale",
+           "REGIONID": 275248.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Riverside",
+           "REGIONID": 275201.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Sheldon",
+           "REGIONID": 276560.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Glen Acres",
+           "REGIONID": 273826.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Prospect",
+           "REGIONID": 276522.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Spring Valley",
+           "REGIONID": 276583.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Alderbrook",
+           "REGIONID": 272742.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Orange Grove",
+           "REGIONID": 274919.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rochon",
+           "REGIONID": 275221.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Leinkauf",
+           "REGIONID": 267875.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Bolton",
+           "REGIONID": 272996.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Navco",
+           "REGIONID": 105745.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Maysville",
+           "REGIONID": 274454.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Park Place",
+           "REGIONID": 274970.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Highland",
+           "REGIONID": 273990.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Mertz",
+           "REGIONID": 105508.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "D Iberville",
+           "REGIONID": 276287.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Alligator Bayou",
+           "REGIONID": 272754.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "McCrary",
+           "REGIONID": 276443.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Westmont",
+           "REGIONID": 276028.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Loma Vista",
+           "REGIONID": 274345.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Oakdale",
+           "REGIONID": 274844.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Pamona",
+           "REGIONID": 274951.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Central Business District",
+           "REGIONID": 273195.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Edington",
+           "REGIONID": 273605.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Blackstone",
+           "REGIONID": 272976.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Big Creek",
+           "REGIONID": 272959.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Crestview",
+           "REGIONID": 276284.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Rickarby",
+           "REGIONID": 275165.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Neely",
+           "REGIONID": 105758.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Scenic Hill",
+           "REGIONID": 276554.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "STATE": "AL",
+           "COUNTY": "Mobile",
+           "CITY": "Mobile",
+           "NAME": "Carlen",
+           "REGIONID": 276238.000000
+       }
+    }
+]

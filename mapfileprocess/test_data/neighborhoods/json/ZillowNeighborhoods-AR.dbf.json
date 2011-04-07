@@ -1,0 +1,282 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Midtown",
+           "REGIONID": 276451.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "John Barrow",
+           "REGIONID": 274145.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Rock Creek",
+           "REGIONID": 275222.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "South End",
+           "REGIONID": 267896.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Boyle Park",
+           "REGIONID": 273009.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Downtown",
+           "REGIONID": 273503.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Heights",
+           "REGIONID": 273957.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Upper Baseline",
+           "REGIONID": 267898.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Medical Center",
+           "REGIONID": 274489.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Chicot West",
+           "REGIONID": 273237.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "East Of I-30",
+           "REGIONID": 273559.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Walnut Valley",
+           "REGIONID": 275915.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Otter Creek Crystal",
+           "REGIONID": 267895.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Hillcrest",
+           "REGIONID": 274016.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Briarwood",
+           "REGIONID": 273032.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Oak Forest",
+           "REGIONID": 109943.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "West Markham",
+           "REGIONID": 275975.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Westwood-Pecan Lake",
+           "REGIONID": 276042.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Capital View-Stiff",
+           "REGIONID": 273129.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "South Geyer Springs",
+           "REGIONID": 267897.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "65th Street West",
+           "REGIONID": 272712.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Wakefield",
+           "REGIONID": 267899.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Cloverdale Watson",
+           "REGIONID": 267892.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Reservoir",
+           "REGIONID": 276529.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Stephens",
+           "REGIONID": 275573.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "River Mountain",
+           "REGIONID": 275186.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Big Dickinson Lake",
+           "REGIONID": 272960.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "AR",
+           "COUNTY": "Pulaski",
+           "CITY": "Little Rock",
+           "NAME": "Central High",
+           "REGIONID": 267891.000000
+       }
+    }
+]

@@ -1,0 +1,732 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Indian Hills",
+           "REGIONID": 274089.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Northwest Big River",
+           "REGIONID": 274803.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Comotara Mainsgate Villa",
+           "REGIONID": 276273.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Schweiter",
+           "REGIONID": 275318.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Courtland",
+           "REGIONID": 273379.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "McAdams",
+           "REGIONID": 274455.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "K-15",
+           "REGIONID": 274160.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Crown Heights",
+           "REGIONID": 273408.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Northeast Millair",
+           "REGIONID": 274775.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Brookhollow",
+           "REGIONID": 273063.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Orchard Park",
+           "REGIONID": 274922.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Harrison Park Rk",
+           "REGIONID": 276366.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Planeview United",
+           "REGIONID": 275044.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Southwest Village",
+           "REGIONID": 275503.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Uptown",
+           "REGIONID": 275836.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "North Riverside",
+           "REGIONID": 276481.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Sunflower",
+           "REGIONID": 275617.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Jones Park",
+           "REGIONID": 274151.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Delano Township",
+           "REGIONID": 273454.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Crown Heights South",
+           "REGIONID": 273409.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Central 2000",
+           "REGIONID": 273186.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Oakview",
+           "REGIONID": 274863.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Eastridge",
+           "REGIONID": 276316.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Southwest",
+           "REGIONID": 269678.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Riverside",
+           "REGIONID": 145754.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Matlock Heights",
+           "REGIONID": 274445.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Benjamin Hills",
+           "REGIONID": 272937.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "College Hill",
+           "REGIONID": 276265.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Power",
+           "REGIONID": 276519.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "The Elm",
+           "REGIONID": 275698.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "New Salem",
+           "REGIONID": 276470.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "South Central Improvemen",
+           "REGIONID": 275420.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "East Mt Vernon Na",
+           "REGIONID": 273558.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Sleepy Hollow",
+           "REGIONID": 275392.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Fairmount",
+           "REGIONID": 273682.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "North Central",
+           "REGIONID": 274694.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Northeast Heights",
+           "REGIONID": 276482.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Sunnyside",
+           "REGIONID": 275622.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "East Front",
+           "REGIONID": 273549.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Schweiter East",
+           "REGIONID": 275319.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Fabrique",
+           "REGIONID": 273662.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Sherwood Glen",
+           "REGIONID": 275364.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Stanley-Aley",
+           "REGIONID": 275563.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Rockhurst",
+           "REGIONID": 275224.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Park Meadows",
+           "REGIONID": 274968.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Chisholm Creek",
+           "REGIONID": 273243.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Murdock",
+           "REGIONID": 274626.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "La Placita Park",
+           "REGIONID": 274215.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Macdonald",
+           "REGIONID": 274387.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Maple Hills",
+           "REGIONID": 274412.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Indian Hills Riverbend",
+           "REGIONID": 276388.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Pleasant Valley",
+           "REGIONID": 275056.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Orchard Breeze",
+           "REGIONID": 274921.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "McCormick",
+           "REGIONID": 274457.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Delano",
+           "REGIONID": 273453.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Longview",
+           "REGIONID": 274351.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Westlink",
+           "REGIONID": 276027.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Village",
+           "REGIONID": 276629.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Pueblo",
+           "REGIONID": 275105.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Country Overlook",
+           "REGIONID": 273374.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Ken-Mar",
+           "REGIONID": 274170.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Linwood",
+           "REGIONID": 274326.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Historic Midtown",
+           "REGIONID": 274034.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Grandview Heights",
+           "REGIONID": 273869.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Meadowlark",
+           "REGIONID": 274484.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Hilltop",
+           "REGIONID": 274027.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "South Area",
+           "REGIONID": 275410.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Kellogg School",
+           "REGIONID": 274168.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Lambsdale",
+           "REGIONID": 274263.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Hilltop-Jefferson",
+           "REGIONID": 274028.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "South City Community",
+           "REGIONID": 275421.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Cottonwood Village",
+           "REGIONID": 273361.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "STATE": "KS",
+           "COUNTY": "Sedgwick",
+           "CITY": "Wichita",
+           "NAME": "Mead",
+           "REGIONID": 276447.000000
+       }
+    }
+]
