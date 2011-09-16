@@ -32,3 +32,23 @@ for row in reader:
     writer.writerow([city, population, state_code, lat, lon ])
 
 
+import csv, math
+
+input = csv.reader(open('input.csv', 'r'))
+precision = 100
+buckets = {}
+for row in input:
+  lat = float(row[0])
+  lon = float(row[1])
+  lat_index = math.floor(lat*precision)  
+  lon_index = math.floor(lon*precision)
+  key = str(lat_index)+','+str(lon_index)
+  buckets[key] = buckets.get(key, 0) + 1
+
+output = csv.writer(open('output.csv', 'w'))
+output.writerow(['lat', 'lon', 'value'])
+for key, count in buckets.items():
+  lat_index, lon_index = key.split(',')
+  lat = float(lat_index)/precision
+  lon = float(lon_index)/precision
+  output.writerow([lat, lon, count])

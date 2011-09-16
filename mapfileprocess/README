@@ -23,3 +23,93 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+Creating OHM on DSTK:
+
+sudo mkdir /localmnt
+sudo mkdir /localmnt/openheatmap.com
+sudo chown ubuntu /localmnt/openheatmap.com
+sudo mkdir /localmnt/invitesdoneright.com
+sudo chown ubuntu /localmnt/invitesdoneright.com
+sudo mkdir /localmnt/pagerankgraph.com
+sudo chown ubuntu /localmnt/pagerankgraph.com
+sudo mkdir /localmnt/geodict
+sudo chown ubuntu /localmnt/geodict
+
+sudo aptitude update
+sudo aptitude install -y libapache2-mod-php5
+cd /etc/apache2/mods-enabled/
+sudo ln -s ../mods-available/php5.conf ./php5.conf
+sudo ln -s ../mods-available/php5.load ./php5.load
+sudo ln -s ../mods-available/proxy.load ../mods-enabled/
+sudo ln -s ../mods-available/proxy_http.load ../mods-enabled/
+
+sudo aptitude install -y wamerican-insane php5-curl
+
+sudo nano /etc/php5/apache2/php.ini
+php.ini:
+include_path = ".:/localmnt/openheatmap.com/phplib"
+
+sudo nano /etc/apache2/apache2.conf
+<VirtualHost *:80>
+    ServerName openheatmap.com
+    ServerAlias www.openheatmap.com
+    ServerAlias <public DNS name here>
+    ServerAlias ubu.openheatmap.com
+    DocumentRoot /localmnt/openheatmap.com/www
+    ServerAlias mailana.com
+    ServerAlias www.mailana.com
+    Options -Indexes
+    RewriteEngine On
+#    RewriteRule ^/data/(.*) http://data.openheatmap.com/$1 [p]
+#    RewriteRule ^/static/(.*) http://static.openheatmap.com/$1 [p]
+    ProxyPass /data/ http://data.openheatmap.com/
+    ProxyPass /static/ http://static.openheatmap.com/
+    RewriteRule ^/images/([^?#]*)\.jpg http://$1.jpg [p]
+    RewriteRule ^/images/([^?#]*)\.jpeg http://$1.jpeg [p]
+    RewriteRule ^/images/([^?#]*)\.png http://$1.png [p]
+    RewriteRule ^/images/([^?#]*)\.gif http://$1.gif [p]
+    RewriteCond %{HTTP_HOST} ^openheatmap.com$ [NC]
+    RewriteRule ^(.*)$ http://www.openheatmap.com$1 [R=301,L]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^/salesforce/(.*) https://%{HTTP_HOST}%{REQUEST_URI}
+    php_admin_value open_basedir /localmnt/openheatmap.com/www:/localmnt/openheatmap.com/phplib:/usr/share/dict/words:/tmp:/usr/local/share/GeoIP
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName forcemapper.com
+    ServerAlias www.forcemapper.com
+    DocumentRoot /localmnt/openheatmap.com/www
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName invitesdoneright.com
+    ServerAlias www.invitesdoneright.com
+    DocumentRoot /localmnt/invitesdoneright.com/invite_targeter
+    Options -Indexes
+    php_admin_value open_basedir /mnt/invitesdoneright.com/:/tmp 
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName pagerankgraph.com
+    ServerAlias www.pagerankgraph.com
+    DocumentRoot /mnt/pagerankgraph.com
+    Options -Indexes
+    php_admin_value open_basedir /localmnt/pagerankgraph.com/ 
+</VirtualHost>
+
+sudo /etc/init.d/apache2 restart
+
+cd /usr/local/share/GeoIP/
+sudo wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+sudo gunzip GeoLiteCity.dat.gz
+sudo chown ubuntu GeoLiteCity.dat
+
+sudo crontab -e
+0 0 * * * rm -rf /var/log/apache2/* && reboot
+

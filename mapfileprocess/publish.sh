@@ -1,13 +1,13 @@
 #!/bin/sh
 
-SSH_KEY=/Users/petewarden/.ec2/id_rsa-pstam-keypair
+SSH_KEY=/Users/petewarden/.ssh/id_rsa-pstam-keypair
 LOCAL_PATH=/Users/petewarden/Projects/openheatmap/website/
 STATIC_PATH=${LOCAL_PATH}../static/
-SERVER_PATH=/mnt/openheatmap.com/
+SERVER_PATH=/localmnt/openheatmap.com/
 S3_BUCKET=s3://static.openheatmap.com/
 
 #SERVER_LIST=( ec2-204-236-225-17.compute-1.amazonaws.com ec2-75-101-175-72.compute-1.amazonaws.com ec2-184-72-137-100.compute-1.amazonaws.com)
-SERVER_LIST=( ec2-174-129-38-60.compute-1.amazonaws.com )
+SERVER_LIST=( www.openheatmap.com )
 SERVER_COUNT=${#SERVER_LIST[@]}
 
 for ((i=0;i<$SERVER_COUNT;i++)); do
@@ -19,10 +19,10 @@ for ((i=0;i<$SERVER_COUNT;i++)); do
 
   rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}* ${SERVER_FULL}
 
-  rsync -e "ssh -i $SSH_KEY" -avz /mnt/geodict/* ${SERVER_HOST}:/mnt/geodict/
+  rsync -e "ssh -i $SSH_KEY" -avz /mnt/geodict/* ${SERVER_HOST}:/localmnt/geodict/
 
 done
 
-s3sync.rb -r -p -v ${STATIC_PATH} static.openheatmap.com:
-cp ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
-s3sync.rb -r -p -v ${LOCAL_PATH}../maprender/bin-debug/ static.openheatmap.com:
+#s3sync.rb -r -p -v ${STATIC_PATH} static.openheatmap.com:
+#cp ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
+#s3sync.rb -r -p -v ${LOCAL_PATH}../maprender/bin-debug/ static.openheatmap.com:
