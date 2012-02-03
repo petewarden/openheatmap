@@ -4479,333 +4479,323 @@ function Rectangle(x, y, width, height)
     this.y = y;
     this.width = width;
     this.height = height;
-
-    this.bottom = function(newY) {
-        if (typeof newY !== 'undefined')
-            this.height = (newY-this.y);
-        return (this.y+this.height);
-    };
-    
-    this.bottomRight = function() {
-        return new Point(this.right(), this.bottom());
-    };
-
-    this.left = function(newX) {
-        if (typeof newX !== 'undefined')
-        {
-            this.width += (this.x-newX);
-            this.x = newX;
-        }
-        return this.x;
-    };
-    
-    this.right = function(newX) {
-        if (typeof newX !== 'undefined')
-            this.width = (newX-this.x);
-        return (this.x+this.width);
-    };
-    
-    this.size = function() {
-        return new Point(this.width, this.height);
-    };
-    
-    this.top = function(newY) {
-        if (typeof newY !== 'undefined')
-        {
-            this.height += (this.y-newY);
-            this.y = newY;
-        }
-        return this.y;
-    };
-
-    this.topLeft = function() {
-        return new Point(this.x, this.y);
-    };
-
-    this.clone = function() {
-        return new Rectangle(this.x, this.y, this.width, this.height);
-    };
-    
-    this.contains = function(x, y) {
-        var isInside = 
-            (x>=this.x)&&
-            (y>=this.y)&&
-            (x<this.right())&&
-            (y<this.bottom());
-        return isInside;
-    };
-    
-    this.containsPoint = function(point) {
-        return this.contains(point.x, point.y);
-    };
-    
-    this.containsRect = function(rect) {
-        var isInside = 
-            (rect.x>=this.x)&&
-            (rect.y>=this.y)&&
-            (rect.right()<=this.right())&&
-            (rect.bottom()<=this.bottom());
-        return isInside;    
-    };
-    
-    this.equals = function(toCompare) {
-        var isIdentical =
-            (toCompare.x===this.x)&&
-            (toCompare.y===this.y)&&
-            (toCompare.width===this.width)&&
-            (toCompare.height===this.height);
-        return isIdentical;
-    };
-    
-    this.inflate = function(dx, dy) {
-        this.x -= dx;
-        this.y -= dy;
-        this.width += (2*dx);
-        this.height += (2*dy);
-    };
-    
-    this.inflatePoint = function(point) {
-        this.inflate(point.x, point.y);
-    };
-    
-    this.inclusiveRangeContains = function(value, min, max) {
-        var isInside =
-            (value>=min)&&
-            (value<=max);
-            
-        return isInside;
-    };
-    
-    this.intersectRange = function(aMin, aMax, bMin, bMax) {
-
-        var maxMin = Math.max(aMin, bMin);
-        if (!this.inclusiveRangeContains(maxMin, aMin, aMax)||
-            !this.inclusiveRangeContains(maxMin, bMin, bMax))
-            return null;
-            
-        var minMax = Math.min(aMax, bMax);
-        
-        if (!this.inclusiveRangeContains(minMax, aMin, aMax)||
-            !this.inclusiveRangeContains(minMax, bMin, bMax))
-            return null;
-    
-        return { min: maxMin, max: minMax };
-    };
-    
-    this.intersection = function(toIntersect) {
-        var xSpan = this.intersectRange(
-            this.x, this.right(),
-            toIntersect.x, toIntersect.right());
-        
-        if (!xSpan)
-            return null;
-            
-        var ySpan = this.intersectRange(
-            this.y, this.bottom(),
-            toIntersect.y, toIntersect.bottom());
-        
-        if (!ySpan)
-            return null;
-            
-        var result = new Rectangle(
-            xSpan.min,
-            ySpan.min,
-            (xSpan.max-xSpan.min),
-            (ySpan.max-ySpan.min));
-        
-        return result;
-    };
-    
-    this.intersects = function(toIntersect) {
-        var intersection = this.intersection(toIntersect);
-        
-        return (typeof intersection !== 'undefined');
-    };
-    
-    this.isEmpty = function() {
-        return ((this.width<=0)||(this.height<=0));
-    };
-    
-    this.offset = function(dx, dy) {
-        this.x += dx;
-        this.y += dy;
-    };
-    
-    this.offsetPoint = function(point) {
-        this.offset(point.x, point.y);
-    };
-    
-    this.setEmpty = function() {
-        this.x = 0;
-        this.y = 0;
-        this.width = 0;
-        this.height = 0;
-    };
-    
-    this.toString = function() {
-        var result = '{';
-        result += '"x":'+this.x+',';
-        result += '"y":'+this.y+',';
-        result += '"width":'+this.width+',';
-        result += '"height":'+this.height+'}';
-        
-        return result;
-    };
-    
-    this.union = function(toUnion) {
-        var minX = Math.min(toUnion.x, this.x);
-        var maxX = Math.max(toUnion.right(), this.right());
-        var minY = Math.min(toUnion.y, this.y);
-        var maxY = Math.max(toUnion.bottom(), this.bottom());
-
-        var result = new Rectangle(
-            minX,
-            minY,
-            (maxX-minX),
-            (maxY-minY));
-        
-        return result;
-    };
     
     return this;
 }
+Rectangle.prototype.bottom = function(newY) {
+    if (typeof newY !== 'undefined')
+        this.height = (newY-this.y);
+    return (this.y+this.height);
+};
+
+Rectangle.prototype.bottomRight = function() {
+    return new Point(this.right(), this.bottom());
+};
+
+Rectangle.prototype.left = function(newX) {
+    if (typeof newX !== 'undefined')
+    {
+        this.width += (this.x-newX);
+        this.x = newX;
+    }
+    return this.x;
+};
+
+Rectangle.prototype.right = function(newX) {
+    if (typeof newX !== 'undefined')
+        this.width = (newX-this.x);
+    return (this.x+this.width);
+};
+    
+Rectangle.prototype.size = function() {
+    return new Point(this.width, this.height);
+};
+Rectangle.prototype.top = function(newY) {
+    if (typeof newY !== 'undefined')
+    {
+        this.height += (this.y-newY);
+        this.y = newY;
+    }
+    return this.y;
+};
+
+Rectangle.prototype.topLeft = function() {
+    return new Point(this.x, this.y);
+};
+
+Rectangle.prototype.clone = function() {
+    return new Rectangle(this.x, this.y, this.width, this.height);
+};
+
+Rectangle.prototype.contains = function(x, y) {
+    var isInside =
+        (x>=this.x)&&
+        (y>=this.y)&&
+        (x<this.right())&&
+        (y<this.bottom());
+    return isInside;
+};
+
+Rectangle.prototype.containsPoint = function(point) {
+    return this.contains(point.x, point.y);
+};
+
+Rectangle.prototype.containsRect = function(rect) {
+    var isInside =
+        (rect.x>=this.x)&&
+        (rect.y>=this.y)&&
+        (rect.right()<=this.right())&&
+        (rect.bottom()<=this.bottom());
+    return isInside;
+};
+    
+Rectangle.prototype.equals = function(toCompare) {
+    var isIdentical =
+        (toCompare.x===this.x)&&
+        (toCompare.y===this.y)&&
+        (toCompare.width===this.width)&&
+        (toCompare.height===this.height);
+    return isIdentical;
+};
+
+Rectangle.prototype.inflate = function(dx, dy) {
+    this.x -= dx;
+    this.y -= dy;
+    this.width += (2*dx);
+    this.height += (2*dy);
+};
+
+Rectangle.prototype.inflatePoint = function(point) {
+    this.inflate(point.x, point.y);
+};
+
+Rectangle.prototype.inclusiveRangeContains = function(value, min, max) {
+    var isInside =
+        (value>=min)&&
+        (value<=max);
+    
+    return isInside;
+};
+
+Rectangle.prototype.intersectRange = function(aMin, aMax, bMin, bMax) {
+
+    var maxMin = Math.max(aMin, bMin);
+    if (!this.inclusiveRangeContains(maxMin, aMin, aMax)||
+        !this.inclusiveRangeContains(maxMin, bMin, bMax))
+        return null;
+    
+    var minMax = Math.min(aMax, bMax);
+    
+    if (!this.inclusiveRangeContains(minMax, aMin, aMax)||
+        !this.inclusiveRangeContains(minMax, bMin, bMax))
+        return null;
+
+    return { min: maxMin, max: minMax };
+};
+
+Rectangle.prototype.intersection = function(toIntersect) {
+    var xSpan = this.intersectRange(
+        this.x, this.right(),
+        toIntersect.x, toIntersect.right());
+    
+    if (!xSpan)
+        return null;
+    
+    var ySpan = this.intersectRange(
+        this.y, this.bottom(),
+        toIntersect.y, toIntersect.bottom());
+    
+    if (!ySpan)
+        return null;
+    
+    var result = new Rectangle(
+        xSpan.min,
+        ySpan.min,
+        (xSpan.max-xSpan.min),
+        (ySpan.max-ySpan.min));
+    
+    return result;
+};
+
+Rectangle.prototype.intersects = function(toIntersect) {
+    var intersection = this.intersection(toIntersect);
+    
+    return (typeof intersection !== 'undefined');
+};
+
+Rectangle.prototype.isEmpty = function() {
+    return ((this.width<=0)||(this.height<=0));
+};
+
+Rectangle.prototype.offset = function(dx, dy) {
+    this.x += dx;
+    this.y += dy;
+};
+
+Rectangle.prototype.offsetPoint = function(point) {
+    this.offset(point.x, point.y);
+};
+
+Rectangle.prototype.setEmpty = function() {
+    this.x = 0;
+    this.y = 0;
+    this.width = 0;
+    this.height = 0;
+};
+
+Rectangle.prototype.toString = function() {
+    var result = '{';
+    result += '"x":'+this.x+',';
+    result += '"y":'+this.y+',';
+    result += '"width":'+this.width+',';
+    result += '"height":'+this.height+'}';
+    
+    return result;
+};
+
+Rectangle.prototype.union = function(toUnion) {
+    var minX = Math.min(toUnion.x, this.x);
+    var maxX = Math.max(toUnion.right(), this.right());
+    var minY = Math.min(toUnion.y, this.y);
+    var maxY = Math.max(toUnion.bottom(), this.bottom());
+
+    var result = new Rectangle(
+        minX,
+        minY,
+        (maxX-minX),
+        (maxY-minY));
+    
+    return result;
+};
 
 function BucketGrid(boundingBox, rows, columns)
 {
-    this.__constructor = function(boundingBox, rows, columns)
-    {
-        this._boundingBox = boundingBox;
-        this._rows = rows;
-        this._columns = columns;
-        
-        this._grid = [];
-        
-        this._originLeft = boundingBox.left();
-        this._originTop = boundingBox.top();
-        
-        this._columnWidth = this._boundingBox.width/this._columns;
-        this._rowHeight = this._boundingBox.height/this._rows;
-        
-        for (var rowIndex = 0; rowIndex<this._rows; rowIndex+=1)
-        {
-            this._grid[rowIndex] = [];
-            
-            var rowTop = (this._originTop+(this._rowHeight*rowIndex));
-            
-            for (var columnIndex = 0; columnIndex<this._columns; columnIndex+=1)
-            {
-                var columnLeft = (this._originLeft+(this._columnWidth*columnIndex));
-                this._grid[rowIndex][columnIndex] = {
-                    head_index: 0,
-                    contents: { }
-                };
-            }
-        }			
-
-    };
+    this._boundingBox = boundingBox;
+    this._rows = rows;
+    this._columns = columns;
     
-    this.insertObjectAtPoint = function(point, object)
-    {
-        this.insertObjectAt(new Rectangle(point.x, point.y, 0, 0), object);
-    }
+    this._grid = [];
     
-    this.insertObjectAt = function(boundingBox, object)
+    this._originLeft = boundingBox.left();
+    this._originTop = boundingBox.top();
+    
+    this._columnWidth = this._boundingBox.width/this._columns;
+    this._rowHeight = this._boundingBox.height/this._rows;
+    
+    for (var rowIndex = 0; rowIndex<this._rows; rowIndex+=1)
     {
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+        this._grid[rowIndex] = [];
+        
+        var rowTop = (this._originTop+(this._rowHeight*rowIndex));
+        
+        for (var columnIndex = 0; columnIndex<this._columns; columnIndex+=1)
         {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
-            {
-                var bucket = this._grid[rowIndex][columnIndex];
-                bucket.contents[bucket.head_index] = object;
-                bucket.head_index += 1;
-            }
+            var columnLeft = (this._originLeft+(this._columnWidth*columnIndex));
+            this._grid[rowIndex][columnIndex] = {
+                head_index: 0,
+                contents: { }
+            };
         }
-        
-    };
+    }
+    return this;
+};
 
-    this.removeObjectAt = function(boundingBox, object)
+BucketGrid.prototype.insertObjectAtPoint = function(point, object)
+{
+    this.insertObjectAt(new Rectangle(point.x, point.y, 0, 0), object);
+};
+
+BucketGrid.prototype.insertObjectAt = function(boundingBox, object)
+{
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
     {
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
         {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
+            var bucket = this._grid[rowIndex][columnIndex];
+            bucket.contents[bucket.head_index] = object;
+            bucket.head_index += 1;
+        }
+    }
+};
+
+BucketGrid.prototype.removeObjectAt = function(boundingBox, object)
+{
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+    {
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
+        {
+            var bucket = this._grid[rowIndex][columnIndex];
+            for (var index=0; index<bucket.contents.length; index+=1)
             {
-                var bucket = this._grid[rowIndex][columnIndex];
-                for (var index=0; index<bucket.contents.length; index+=1)
+                if (bucket.contents[index]==object)
                 {
-                    if (bucket.contents[index]==object)
-                    {
-                        delete bucket.contents[index];
-                        break;
-                    }
+                    delete bucket.contents[index];
+                    break;
                 }
             }
         }
-        
-    };
+    }
     
-    this.getContentsAtPoint = function(point)
+};
+
+BucketGrid.prototype.getContentsAtPoint = function(point)
+{
+    return this.getContentsAt(new Rectangle(point.x, point.y, 0, 0));
+};
+
+BucketGrid.prototype.getContentsAt = function(boundingBox)
+{
+    var result = [];
+
+    var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
+    var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
+    var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
+    var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
+
+    leftIndex = Math.max(leftIndex, 0);
+    rightIndex = Math.min(rightIndex, (this._columns-1));
+    topIndex = Math.max(topIndex, 0);
+    bottomIndex = Math.min(bottomIndex, (this._rows-1));
+
+    for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
     {
-        return this.getContentsAt(new Rectangle(point.x, point.y, 0, 0));
-    };
-    
-    this.getContentsAt = function(boundingBox)
-    {
-        var result = [];
-
-        var leftIndex = Math.floor((boundingBox.left()-this._originLeft)/this._columnWidth);
-        var rightIndex = Math.floor((boundingBox.right()-this._originLeft)/this._columnWidth);
-        var topIndex = Math.floor((boundingBox.top()-this._originTop)/this._rowHeight);
-        var bottomIndex = Math.floor((boundingBox.bottom()-this._originTop)/this._rowHeight);
-
-        leftIndex = Math.max(leftIndex, 0);
-        rightIndex = Math.min(rightIndex, (this._columns-1));
-        topIndex = Math.max(topIndex, 0);
-        bottomIndex = Math.min(bottomIndex, (this._rows-1));
-
-        for (var rowIndex = topIndex; rowIndex<=bottomIndex; rowIndex+=1)
+        for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
         {
-            for (var columnIndex = leftIndex; columnIndex<=rightIndex; columnIndex+=1)
-            { 
-                var bucket = this._grid[rowIndex][columnIndex];
-                for (var objectIndex in bucket.contents)
-                    result.push(bucket.contents[objectIndex]);
-            }
+            var bucket = this._grid[rowIndex][columnIndex];
+            for (var objectIndex in bucket.contents)
+                result.push(bucket.contents[objectIndex]);
         }
-        
-        return result;
-    };
-
-    this.__constructor(boundingBox, rows, columns);
+    }
     
-    return this;
-}
+    return result;
+};
 
 function ExternalImageView(imagePath, width, height, myParent)
 {
     this.__constructor = function(imagePath, width, height, myParent)
     {
         this._myParent = myParent;
-		this._isLoaded = false;
+        this._isLoaded = false;
         this._image = new Image();
         
         var instance = this;
