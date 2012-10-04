@@ -41,8 +41,6 @@ sudo chown ubuntu /localmnt/geodict
 sudo aptitude update
 sudo aptitude install -y libapache2-mod-php5
 cd /etc/apache2/mods-enabled/
-sudo ln -s ../mods-available/php5.conf ./php5.conf
-sudo ln -s ../mods-available/php5.load ./php5.load
 sudo ln -s ../mods-available/proxy.load ../mods-enabled/
 sudo ln -s ../mods-available/proxy_http.load ../mods-enabled/
 
@@ -51,6 +49,7 @@ sudo aptitude install -y wamerican-insane php5-curl
 sudo nano /etc/php5/apache2/php.ini
 php.ini:
 include_path = ".:/localmnt/openheatmap.com/phplib"
+post_max_size = 256M
 
 sudo nano /etc/apache2/apache2.conf
 <VirtualHost *:80>
@@ -103,6 +102,16 @@ sudo nano /etc/apache2/apache2.conf
     php_admin_value open_basedir /localmnt/pagerankgraph.com/ 
 </VirtualHost>
 
+<VirtualHost *:80>
+    ServerName mailana.com
+    ServerAlias www.mailana.com
+    ServerAlias web.mailana.com
+    DocumentRoot /vol/www/html/
+</VirtualHost>
+
+sudo ln -s /etc/apache2/mods-available/proxy.load /etc/apache2/mods-enabled/proxy.load
+sudo ln -s /etc/apache2/mods-available/proxy_http.load /etc/apache2/mods-enabled/
+
 sudo /etc/init.d/apache2 restart
 
 cd /usr/local/share/GeoIP/
@@ -110,6 +119,9 @@ sudo wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.d
 sudo gunzip GeoLiteCity.dat.gz
 sudo chown ubuntu GeoLiteCity.dat
 
-sudo crontab -e
-0 0 * * * rm -rf /var/log/apache2/* && reboot
+cd ~/sources/dstk
+git pull origin master
+touch tmp/restart.txt
 
+<Attach volume>
+sudo mount /dev/sdh /vol

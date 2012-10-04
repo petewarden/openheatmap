@@ -180,4 +180,134 @@ function normalize_name($input)
     return $output;
 }
 
+  define('DSTK_BASE_URL', 'http://www.datasciencetoolkit.org');
+  
+
+function text2places($text) {
+  
+  $dstk_url = DSTK_BASE_URL.'/text2places';
+  
+  $post_data = $text;
+
+  $ch = curl_init();
+  
+  curl_setopt($ch, CURLOPT_URL, $dstk_url);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_CONNECTTIMEOUT,30);
+  curl_setopt($ch, CURLOPT_FAILONERROR, 1);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+  
+  $output = curl_exec($ch);
+  
+  $response_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  
+  if ($response_code!=200)
+  {
+    $this->_last_error = 'Bad response code: ' . $response_code . ' : '. curl_error($ch);
+    $output = false;
+  }
+  else if(curl_errno($ch))
+  {
+    $this->_last_error = 'Curl error: ' . curl_error($ch);
+    $output = false;
+  }
+  curl_close($ch);
+  
+  $result_hash = json_decode($output, true);
+  if (count($result_hash) < 1) {
+      return null;
+  }
+
+  $found_place = $result_hash[0];
+  
+  return $found_place;
+}
+
+function street2coordinates($text) {
+  
+  $dstk_url = DSTK_BASE_URL.'/street2coordinates';
+  
+  $post_data = $text;
+  
+  $ch = curl_init();
+  
+  curl_setopt($ch, CURLOPT_URL, $dstk_url);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_CONNECTTIMEOUT,30);
+  curl_setopt($ch, CURLOPT_FAILONERROR, 1);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+  
+  $output = curl_exec($ch);
+  
+  $response_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  
+  if ($response_code!=200)
+  {
+    error_log('Bad response code: ' . $response_code . ' : '. curl_error($ch));
+    $output = false;
+  }
+  else if(curl_errno($ch))
+  {
+    $this->_last_error = 'Curl error: ' . curl_error($ch);
+    $output = false;
+  }
+  curl_close($ch);
+  
+  $result_hash = json_decode($output, true);
+  if (count($result_hash) < 1) {
+    return null;
+  }
+  
+  $found_place = $result_hash[$text];
+  
+  return $found_place;  
+}
+
+function text2times($text) {
+  
+  $dstk_url = DSTK_BASE_URL.'/text2times';
+  
+  $post_data = $text;
+  
+  $ch = curl_init();
+  
+  curl_setopt($ch, CURLOPT_URL, $dstk_url);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_CONNECTTIMEOUT,30);
+  curl_setopt($ch, CURLOPT_FAILONERROR, 1);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+  
+  $output = curl_exec($ch);
+  
+  $response_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  
+  if ($response_code!=200)
+  {
+    $this->_last_error = 'Bad response code: ' . $response_code . ' : '. curl_error($ch);
+    $output = false;
+  }
+  else if(curl_errno($ch))
+  {
+    $this->_last_error = 'Curl error: ' . curl_error($ch);
+    $output = false;
+  }
+  curl_close($ch);
+  
+  $result_hash = json_decode($output, true);
+  if (count($result_hash) < 1) {
+    return null;
+  }
+  
+  $found_time = $result_hash[0];
+  
+  return $found_time;
+}
+
+
 ?>

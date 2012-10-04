@@ -406,6 +406,7 @@
 		5984752F1284D1F500D91AAE /* search.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = search.php; sourceTree = "<group>"; };
 		598475581284E12600D91AAE /* searchvalues.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = searchvalues.php; sourceTree = "<group>"; };
 		598475591284E15400D91AAE /* searchdata.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = searchdata.php; sourceTree = "<group>"; };
+		599A8E7014D75AED0051079B /* addzip.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; name = addzip.php; path = mapfileprocess/addzip.php; sourceTree = "<group>"; };
 		599DCC1311EF973F0082DE3F /* twitterlocations.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterlocations.php; path = mapfileprocess/twitterlocations.php; sourceTree = "<group>"; };
 		599DCC1411EFAD500082DE3F /* twitterquantize.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twitterquantize.php; path = mapfileprocess/twitterquantize.php; sourceTree = "<group>"; };
 		599DCC1511EFAF330082DE3F /* twittercount.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = twittercount.php; path = mapfileprocess/twittercount.php; sourceTree = "<group>"; };
@@ -1402,6 +1403,7 @@
 			isa = PBXGroup;
 			children = (
 				59FC5C3011F90BE000A4E6F1 /* Geo-Coder-US-1.00 */,
+				599A8E7014D75AED0051079B /* addzip.php */,
 				59820B7711A44A9F0047D5FC /* bucketgrid.php */,
 				59820CE511A8789A0047D5FC /* cleanmesh.php */,
 				59820B7811A44A9F0047D5FC /* cliargs.php */,

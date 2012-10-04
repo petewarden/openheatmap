@@ -92,7 +92,7 @@ function onUploadComplete(responseString64)
         $('#next_button').hide();
         $('#upload_button').show();
 
-        $('#guidance_message').html('There were some errors uploading the data.<br> Email the file to <a href="mailto:pete@mailana.com">pete@mailana.com</a> and I\'ll be happy to investigate what\'s going wrong.<br> I\'m so keen to get bug reports, I\'ll even send you a t-shirt!');
+        $('#guidance_message').html('There were some errors uploading the data.<br> Email the file to <a href="mailto:pete@mailana.com">pete@mailana.com</a> and I\'ll be happy to investigate what\'s going wrong.');
 
         SnapABug.startChat('<b>Pete Warden:</b> Sorry your upload didn\'t work!<br> If I\'m online I\'d be happy to look at your spreadsheet and figure out what went wrong');
     }

@@ -22,6 +22,10 @@ Copyright (C) 2010 Pete Warden <pete@petewarden.com>
 require_once('cliargs.php');
 require_once('osmways.php');
 
+ini_set('memory_limit', '-1');
+
+$g_code_maps = array();
+
 function does_match($key, $value, $rule_list)
 {
     foreach ($rule_list as $match_key => $match_value)
@@ -36,6 +40,8 @@ function does_match($key, $value, $rule_list)
 
 function remap_single_tag($key, $value, $rules)
 {
+    global $g_code_maps;
+
     $result = array($key => $value);
     if (isset($rules['to_delete'])&&
         does_match($key, $value, $rules['to_delete']))
@@ -86,6 +92,29 @@ function remap_single_tag($key, $value, $rules)
                 $result[$key] = $new_value;
             }
         }
+    }
+    
+    if (isset($rules['to_unique_code']))
+    {
+      foreach ($rules['to_unique_code'] as $match_key => $output_key)
+      {
+        if (preg_match('/'.$match_key.'/i', $key))
+        {
+          if (!isset($g_code_maps[$key]))
+          {
+            $g_code_maps[$key] = array();
+            error_log("Created new array for $key");
+          }
+          $current_map = &$g_code_maps[$key];
+          if (!isset($current_map[$value]))
+          {
+            $current_map[$value] = count($current_map);
+            $unique_value = $current_map[$value];
+            error_log("Found unique value $unique_value for $value");
+          }
+          $result[$output_key] = $current_map[$value];
+        }
+      }
     }
     
     return $result;
