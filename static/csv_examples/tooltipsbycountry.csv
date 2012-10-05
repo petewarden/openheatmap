@@ -1,0 +1,4 @@
+location,value,tooltip
+France,1,"<a href=""http://bbc.co.uk"">France</a>"
+Germany,2,"<a href=""http://www.google.com"">Germany</a>"
+Italy,3,"<a href=""http://www.openheatmap.com"">Italy</a>"

@@ -1,0 +1,12 @@
+{
+    "to_delete": {
+        "CAPITAL": ".*",
+        "CODIGO": ".*"
+    },
+    "to_rename": {
+        "MUNICIPIO": "name"
+    },
+    "to_unique_code": {
+        "MUNICIPIO": "ven_municipalities_code"
+    }
+}

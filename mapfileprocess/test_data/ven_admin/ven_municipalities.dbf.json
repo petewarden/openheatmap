@@ -1,0 +1,3143 @@
+[
+    {
+       "index": 0,
+       "attributes": {
+           "MUNICIPIO": "ATURES",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "PUERTO AYACUCHO",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 1,
+       "attributes": {
+           "MUNICIPIO": "ATABAPO",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "SAN FERNANDO DE ATABAPO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 2,
+       "attributes": {
+           "MUNICIPIO": "MAROA",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "MAROA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 3,
+       "attributes": {
+           "MUNICIPIO": "RIO NEGRO",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "SAN CARLOS DE RIO NEGRO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 4,
+       "attributes": {
+           "MUNICIPIO": "AUTANA",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "ISLA DE RATON",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 5,
+       "attributes": {
+           "MUNICIPIO": "MANAPIARE",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "SAN JUAN DE MANAPIARE",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 6,
+       "attributes": {
+           "MUNICIPIO": "ALTO ORINOCO",
+           "ESTADO": "AMAZONAS",
+           "CAPITAL": "LA ESMERALDA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 7,
+       "attributes": {
+           "MUNICIPIO": "ANACO",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "ANACO",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 8,
+       "attributes": {
+           "MUNICIPIO": "ARAGUA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "ARAGUA DE BARCELONA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 9,
+       "attributes": {
+           "MUNICIPIO": "BRUZUAL",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "CLARINES",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 10,
+       "attributes": {
+           "MUNICIPIO": "CAJIGAL",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "ONOTO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 11,
+       "attributes": {
+           "MUNICIPIO": "FREITES",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "CANTAURA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 12,
+       "attributes": {
+           "MUNICIPIO": "INDEPENDENCIA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "SOLEDAD",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 13,
+       "attributes": {
+           "MUNICIPIO": "LIBERTAD",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "SAN MATEO",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 14,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "PARIAGUAN",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 15,
+       "attributes": {
+           "MUNICIPIO": "MONAGAS",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "MAPIRE",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 16,
+       "attributes": {
+           "MUNICIPIO": "SIMON RODRIGUEZ",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "EL TIGRE",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 17,
+       "attributes": {
+           "MUNICIPIO": "CARVAJAL",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "VALLE GUANAPE",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 18,
+       "attributes": {
+           "MUNICIPIO": "SANTA ANA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "SANTA ANA",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 19,
+       "attributes": {
+           "MUNICIPIO": "MC. GREGOR",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "EL CHAPARRO",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 20,
+       "attributes": {
+           "MUNICIPIO": "SAN JUAN DE CAPISTRANO",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "BOCA DE UCHIRE",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 21,
+       "attributes": {
+           "MUNICIPIO": "ACHAGUAS",
+           "ESTADO": "APURE",
+           "CAPITAL": "ACHAGUAS",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 22,
+       "attributes": {
+           "MUNICIPIO": "MUÑOZ",
+           "ESTADO": "APURE",
+           "CAPITAL": "BRUZUAL",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 23,
+       "attributes": {
+           "MUNICIPIO": "PAEZ",
+           "ESTADO": "APURE",
+           "CAPITAL": "GUASDUALITO",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 24,
+       "attributes": {
+           "MUNICIPIO": "PEDRO CAMEJO",
+           "ESTADO": "APURE",
+           "CAPITAL": "SAN JUAN DE PAYARA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 25,
+       "attributes": {
+           "MUNICIPIO": "ROMULO GALLEGOS",
+           "ESTADO": "APURE",
+           "CAPITAL": "ELORZA",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 26,
+       "attributes": {
+           "MUNICIPIO": "SAN FERNANDO",
+           "ESTADO": "APURE",
+           "CAPITAL": "SAN FERNANDO DE APURE",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 27,
+       "attributes": {
+           "MUNICIPIO": "BIRUACA",
+           "ESTADO": "APURE",
+           "CAPITAL": "BIRUACA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 28,
+       "attributes": {
+           "MUNICIPIO": "GIRARDOT",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "MARACAY",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 29,
+       "attributes": {
+           "MUNICIPIO": "SANTIAGO MARIÑO",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "TURMERO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 30,
+       "attributes": {
+           "MUNICIPIO": "JOSE FELIX RIBAS",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "LA VICTORIA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 31,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "CAGUA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 32,
+       "attributes": {
+           "MUNICIPIO": "RAFAEL URDANETA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "BARBACOAS",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 33,
+       "attributes": {
+           "MUNICIPIO": "EZEQUIEL ZAMORA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "VILLA DE CURA",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 34,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "PALO NEGRO",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 35,
+       "attributes": {
+           "MUNICIPIO": "JOSE ANGEL LAMAS",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "SANTA CRUZ",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 36,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "SAN MATEO",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 37,
+       "attributes": {
+           "MUNICIPIO": "MARIO BRICEÑO IRAGORRI",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "EL LIMON",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 38,
+       "attributes": {
+           "MUNICIPIO": "TOVAR",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "COLONIA TOVAR",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 39,
+       "attributes": {
+           "MUNICIPIO": "CAMATAGUA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "CAMATAGUA",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 40,
+       "attributes": {
+           "MUNICIPIO": "JOSE RAFAEL REVENGA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "EL CONSEJO",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 41,
+       "attributes": {
+           "MUNICIPIO": "FRANCISCO LINARES ALCANTARA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "SANTA RITA",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 42,
+       "attributes": {
+           "MUNICIPIO": "OBISPOS",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "OBISPOS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 43,
+       "attributes": {
+           "MUNICIPIO": "ANTONIO JOSE DE SUCRE",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "SOCOPO",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 44,
+       "attributes": {
+           "MUNICIPIO": "PEDRAZA",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "CIUDAD BOLIVIA",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 45,
+       "attributes": {
+           "MUNICIPIO": "EZEQUIEL ZAMORA",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "SANTA BARBARA",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 46,
+       "attributes": {
+           "MUNICIPIO": "BARINAS",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "BARINAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 47,
+       "attributes": {
+           "MUNICIPIO": "ROJAS",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "LIBERTAD",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 48,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "BARINITAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 49,
+       "attributes": {
+           "MUNICIPIO": "SOSA",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "CIUDAD DE NUTRIAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 50,
+       "attributes": {
+           "MUNICIPIO": "ARISMENDI",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "ARISMENDI",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 51,
+       "attributes": {
+           "MUNICIPIO": "CRUZ PAREDES",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "BARRANCAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 52,
+       "attributes": {
+           "MUNICIPIO": "ARVELO",
+           "ESTADO": "BARINAS",
+           "CAPITAL": "SABANETA",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 53,
+       "attributes": {
+           "MUNICIPIO": "CARONI",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "CIUDAD GUAYANA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 54,
+       "attributes": {
+           "MUNICIPIO": "CEDEÑO",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "CAICARA DEL ORINOCO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 55,
+       "attributes": {
+           "MUNICIPIO": "HERES",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "CIUDAD BOLIVAR",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 56,
+       "attributes": {
+           "MUNICIPIO": "PIAR",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "UPATA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 57,
+       "attributes": {
+           "MUNICIPIO": "ROSCIO",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "GUASIPATI",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 58,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "MARIPA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 59,
+       "attributes": {
+           "MUNICIPIO": "SIFONTES",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "TUMEREMO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 60,
+       "attributes": {
+           "MUNICIPIO": "RAUL LEONI",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "CIUDAD PIAR",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 61,
+       "attributes": {
+           "MUNICIPIO": "GRAN SABANA",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "SANTA ELENA DE UAIREN",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 62,
+       "attributes": {
+           "MUNICIPIO": "EL CALLAO",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "EL CALLAO",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 63,
+       "attributes": {
+           "MUNICIPIO": "PADRE PEDRO CHIEN",
+           "ESTADO": "BOLIVAR",
+           "CAPITAL": "EL PALMAR",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 64,
+       "attributes": {
+           "MUNICIPIO": "BEJUMA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "BEJUMA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 65,
+       "attributes": {
+           "MUNICIPIO": "CARLOS ARVELO",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "GÜIGÜE",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 66,
+       "attributes": {
+           "MUNICIPIO": "DIEGO IBARRA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "MARIARA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 67,
+       "attributes": {
+           "MUNICIPIO": "GUACARA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "GUACARA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 68,
+       "attributes": {
+           "MUNICIPIO": "MONTALBAN",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "MONTALBAN",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 69,
+       "attributes": {
+           "MUNICIPIO": "JUAN JOSE MORA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "MORON",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 70,
+       "attributes": {
+           "MUNICIPIO": "PUERTO CABELLO",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "PUERTO CABELLO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 71,
+       "attributes": {
+           "MUNICIPIO": "SAN JOAQUIN",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "SAN JOAQUIN",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 72,
+       "attributes": {
+           "MUNICIPIO": "VALENCIA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "VALENCIA",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 73,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "MIRANDA",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 74,
+       "attributes": {
+           "MUNICIPIO": "LOS GUAYOS",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "LOS GUAYOS",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 75,
+       "attributes": {
+           "MUNICIPIO": "NAGUANAGUA",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "NAGUANAGUA",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 76,
+       "attributes": {
+           "MUNICIPIO": "SAN DIEGO",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "SAN DIEGO",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 77,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "CARABOBO",
+           "CAPITAL": "TOCUYITO",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 78,
+       "attributes": {
+           "MUNICIPIO": "ANZOATEGUI",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "COJEDES",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 79,
+       "attributes": {
+           "MUNICIPIO": "FALCON",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "TINAQUILLO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 80,
+       "attributes": {
+           "MUNICIPIO": "PAO DE SAN JUAN BAUTISTA",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "EL PAO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 81,
+       "attributes": {
+           "MUNICIPIO": "RICAURTE",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "LIBERTAD",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 82,
+       "attributes": {
+           "MUNICIPIO": "SAN CARLOS",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "SAN CARLOS",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 83,
+       "attributes": {
+           "MUNICIPIO": "TINACO",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "TINACO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 84,
+       "attributes": {
+           "MUNICIPIO": "LIMA BLANCO",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "MACAPO",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 85,
+       "attributes": {
+           "MUNICIPIO": "ROMULO GALLEGOS",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "LAS VEGAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 86,
+       "attributes": {
+           "MUNICIPIO": "TUCUPITA",
+           "ESTADO": "DELTA AMACURO",
+           "CAPITAL": "TUCUPITA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 87,
+       "attributes": {
+           "MUNICIPIO": "CASACOIMA",
+           "ESTADO": "DELTA AMACURO",
+           "CAPITAL": "SIERRA DE IMATACA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 88,
+       "attributes": {
+           "MUNICIPIO": "ACOSTA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "SAN JUAN DE LOS CAYOS",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 89,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "FALCON",
+           "CAPITAL": "SAN LUIS",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 90,
+       "attributes": {
+           "MUNICIPIO": "BUCHIVACOA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "CAPATARIDA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 91,
+       "attributes": {
+           "MUNICIPIO": "CARIRUBANA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PUNTO FIJO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 92,
+       "attributes": {
+           "MUNICIPIO": "COLINA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "LA VELA DE CORO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 93,
+       "attributes": {
+           "MUNICIPIO": "DEMOCRACIA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PEDREGAL",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 94,
+       "attributes": {
+           "MUNICIPIO": "FALCON",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PUEBLO NUEVO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 95,
+       "attributes": {
+           "MUNICIPIO": "FEDERACION",
+           "ESTADO": "FALCON",
+           "CAPITAL": "CHURUGUARA",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 96,
+       "attributes": {
+           "MUNICIPIO": "MAUROA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "MENE DE MAUROA",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 97,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "SANTA ANA DE CORO",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 98,
+       "attributes": {
+           "MUNICIPIO": "PETIT",
+           "ESTADO": "FALCON",
+           "CAPITAL": "CABURE",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 99,
+       "attributes": {
+           "MUNICIPIO": "SILVA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "TUCACAS",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 100,
+       "attributes": {
+           "MUNICIPIO": "ZAMORA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PUERTO CUMAREBO",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 101,
+       "attributes": {
+           "MUNICIPIO": "DABAJURO",
+           "ESTADO": "FALCON",
+           "CAPITAL": "DABAJURO",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 102,
+       "attributes": {
+           "MUNICIPIO": "MONSEÑOR ITURRIZA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "CHICHIRIVICHE",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 103,
+       "attributes": {
+           "MUNICIPIO": "LOS TAQUES",
+           "ESTADO": "FALCON",
+           "CAPITAL": "SANTA CRUZ DE LOS TAQUES",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 104,
+       "attributes": {
+           "MUNICIPIO": "PIRITU",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PIRITU",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 105,
+       "attributes": {
+           "MUNICIPIO": "UNION",
+           "ESTADO": "FALCON",
+           "CAPITAL": "SANTA CRUZ DE BUCARAL",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 106,
+       "attributes": {
+           "MUNICIPIO": "SAN FRANCISCO",
+           "ESTADO": "FALCON",
+           "CAPITAL": "MIRIMIRE",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 107,
+       "attributes": {
+           "MUNICIPIO": "JACURA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "JACURA",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 108,
+       "attributes": {
+           "MUNICIPIO": "CACIQUE MANAURE",
+           "ESTADO": "FALCON",
+           "CAPITAL": "YARACAL",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 109,
+       "attributes": {
+           "MUNICIPIO": "PALMASOLA",
+           "ESTADO": "FALCON",
+           "CAPITAL": "PALMASOLA",
+           "CODIGO": 22.000000
+       }
+    },
+    {
+       "index": 110,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "FALCON",
+           "CAPITAL": "LA CRUZ DE TARATARA",
+           "CODIGO": 23.000000
+       }
+    },
+    {
+       "index": 111,
+       "attributes": {
+           "MUNICIPIO": "URUMACO",
+           "ESTADO": "FALCON",
+           "CAPITAL": "URUMACO",
+           "CODIGO": 24.000000
+       }
+    },
+    {
+       "index": 112,
+       "attributes": {
+           "MUNICIPIO": "TOCOPERO",
+           "ESTADO": "FALCON",
+           "CAPITAL": "TOCOPERO",
+           "CODIGO": 25.000000
+       }
+    },
+    {
+       "index": 113,
+       "attributes": {
+           "MUNICIPIO": "INFANTE",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "VALLE DE LA PASCUA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 114,
+       "attributes": {
+           "MUNICIPIO": "MELLADO",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "EL SOMBRERO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 115,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "CALABOZO",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 116,
+       "attributes": {
+           "MUNICIPIO": "MONAGAS",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "ALTAGRACIA DE ORITUCO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 117,
+       "attributes": {
+           "MUNICIPIO": "RIBAS",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "TUCUPIDO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 118,
+       "attributes": {
+           "MUNICIPIO": "ROSCIO",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "SAN JUAN DE LOS MORROS",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 119,
+       "attributes": {
+           "MUNICIPIO": "ZARAZA",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "ZARAZA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 120,
+       "attributes": {
+           "MUNICIPIO": "CAMAGUAN",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "CAMAGUAN",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 121,
+       "attributes": {
+           "MUNICIPIO": "SAN JOSE DE GUARIBE",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "SAN JOSE DE GUARIBE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 122,
+       "attributes": {
+           "MUNICIPIO": "LAS MERCEDES",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "LAS MERCEDES",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 123,
+       "attributes": {
+           "MUNICIPIO": "EL SOCORRO",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "EL SOCORRO",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 124,
+       "attributes": {
+           "MUNICIPIO": "ORTIZ",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "ORTIZ",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 125,
+       "attributes": {
+           "MUNICIPIO": "SANTA MARIA DE IPIRE",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "SANTA MARIA DE IPIRE",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 126,
+       "attributes": {
+           "MUNICIPIO": "CHAGUARAMAS",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "CHAGUARAMAS",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 127,
+       "attributes": {
+           "MUNICIPIO": "SAN GERONIMO DE GUAYABAL",
+           "ESTADO": "GUARICO",
+           "CAPITAL": "GUAYABAL",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 128,
+       "attributes": {
+           "MUNICIPIO": "CRESPO",
+           "ESTADO": "LARA",
+           "CAPITAL": "DUACA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 129,
+       "attributes": {
+           "MUNICIPIO": "IRIBARREN",
+           "ESTADO": "LARA",
+           "CAPITAL": "BARQUISIMETO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 130,
+       "attributes": {
+           "MUNICIPIO": "MORAN",
+           "ESTADO": "LARA",
+           "CAPITAL": "EL TOCUYO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 131,
+       "attributes": {
+           "MUNICIPIO": "PALAVECINO",
+           "ESTADO": "LARA",
+           "CAPITAL": "CABUDARE",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 132,
+       "attributes": {
+           "MUNICIPIO": "TORRES",
+           "ESTADO": "LARA",
+           "CAPITAL": "CARORA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 133,
+       "attributes": {
+           "MUNICIPIO": "URDANETA",
+           "ESTADO": "LARA",
+           "CAPITAL": "SIQUISIQUE",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 134,
+       "attributes": {
+           "MUNICIPIO": "ANDRES ELOY BLANCO",
+           "ESTADO": "LARA",
+           "CAPITAL": "SANARE",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 135,
+       "attributes": {
+           "MUNICIPIO": "SIMON PLANAS",
+           "ESTADO": "LARA",
+           "CAPITAL": "SARARE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 136,
+       "attributes": {
+           "MUNICIPIO": "ALBERTO ADRIANI",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "EL VIGIA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 137,
+       "attributes": {
+           "MUNICIPIO": "ANDRES BELLO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "LA AZULITA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 138,
+       "attributes": {
+           "MUNICIPIO": "ARZOBISPO CHACON",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "CANAGUA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 139,
+       "attributes": {
+           "MUNICIPIO": "CAMPO ELIAS",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "EJIDO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 140,
+       "attributes": {
+           "MUNICIPIO": "GUARAQUE",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "GUARAQUE",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 141,
+       "attributes": {
+           "MUNICIPIO": "JULIO CESAR SALAS",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "ARAPUEY",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 142,
+       "attributes": {
+           "MUNICIPIO": "JUSTO BRICEÑO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "TORONDOY",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 143,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "MERIDA",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 144,
+       "attributes": {
+           "MUNICIPIO": "SANTOS MARQUINA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "TABAY",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 145,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "TIMOTES",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 146,
+       "attributes": {
+           "MUNICIPIO": "ANTONIO PINTO SALINAS",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "SANTA CRUZ DE MORA",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 147,
+       "attributes": {
+           "MUNICIPIO": "CARACCIOLO PARRA OLMEDO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "TUCANI",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 148,
+       "attributes": {
+           "MUNICIPIO": "CARDENAL QUINTERO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "SANTO DOMINGO",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 149,
+       "attributes": {
+           "MUNICIPIO": "PUEBLO LLANO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "PUEBLO LLANO",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 150,
+       "attributes": {
+           "MUNICIPIO": "RANGEL",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "MUCUCHIES",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 151,
+       "attributes": {
+           "MUNICIPIO": "RIVAS DAVILA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "BAILADORES",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 152,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "LAGUNILLAS",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 153,
+       "attributes": {
+           "MUNICIPIO": "TOVAR",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "TOVAR",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 154,
+       "attributes": {
+           "MUNICIPIO": "TULIO FEBRES CORDERO",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "NUEVA BOLIVIA",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 155,
+       "attributes": {
+           "MUNICIPIO": "PADRE NOGUERA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "SANTA MARIA DE CAPARO",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 156,
+       "attributes": {
+           "MUNICIPIO": "ARICAGUA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "ARICAGUA",
+           "CODIGO": 22.000000
+       }
+    },
+    {
+       "index": 157,
+       "attributes": {
+           "MUNICIPIO": "ZEA",
+           "ESTADO": "MERIDA",
+           "CAPITAL": "ZEA",
+           "CODIGO": 23.000000
+       }
+    },
+    {
+       "index": 158,
+       "attributes": {
+           "MUNICIPIO": "ACEVEDO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CAUCAGUA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 159,
+       "attributes": {
+           "MUNICIPIO": "BRION",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "HIGUEROTE",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 160,
+       "attributes": {
+           "MUNICIPIO": "GUAICAIPURO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "LOS TEQUES",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 161,
+       "attributes": {
+           "MUNICIPIO": "INDEPENDENCIA",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "SANTA TERESA DEL TUY",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 162,
+       "attributes": {
+           "MUNICIPIO": "LANDER",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "OCUMARE DEL TUY",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 163,
+       "attributes": {
+           "MUNICIPIO": "PAZ CASTILLO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "SANTA LUCÍA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 164,
+       "attributes": {
+           "MUNICIPIO": "PLAZA",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "GUARENAS",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 165,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "PETARE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 166,
+       "attributes": {
+           "MUNICIPIO": "URDANETA",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CUA",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 167,
+       "attributes": {
+           "MUNICIPIO": "ZAMORA",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "GUATIRE",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 168,
+       "attributes": {
+           "MUNICIPIO": "CRISTOBAL ROJAS",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CHARALLAVE",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 169,
+       "attributes": {
+           "MUNICIPIO": "LOS SALIAS",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "SAN ANTONIO DE LOS ALTOS",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 170,
+       "attributes": {
+           "MUNICIPIO": "ANDRES BELLO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "SAN JOSE DE BARLOVENTO",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 171,
+       "attributes": {
+           "MUNICIPIO": "SIMON BBOLIVAR",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "SAN FRANCISCO DE YARE",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 172,
+       "attributes": {
+           "MUNICIPIO": "BARUTA",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "NUESTRA SEÑORA DEL ROSARIO DE BARUTA",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 173,
+       "attributes": {
+           "MUNICIPIO": "CARRIZAL",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CARRIZAL",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 174,
+       "attributes": {
+           "MUNICIPIO": "CHACAO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CHACAO",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 175,
+       "attributes": {
+           "MUNICIPIO": "EL HATILLO",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "EL HATILLO",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 176,
+       "attributes": {
+           "MUNICIPIO": "BUROZ",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "MAMPORAL",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 177,
+       "attributes": {
+           "MUNICIPIO": "PEDRO GUAL",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "CUPIRA",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 178,
+       "attributes": {
+           "MUNICIPIO": "ACOSTA",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "SAN ANTONIO",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 179,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "CARIPITO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 180,
+       "attributes": {
+           "MUNICIPIO": "CARIPE",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "CARIPE",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 181,
+       "attributes": {
+           "MUNICIPIO": "CEDEÑO",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "CAICARA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 182,
+       "attributes": {
+           "MUNICIPIO": "EZEQUIEL ZAMORA",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "PUNTA DE MATA",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 183,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "TEMBLADOR",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 184,
+       "attributes": {
+           "MUNICIPIO": "MATURIN",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "MATURIN",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 185,
+       "attributes": {
+           "MUNICIPIO": "SOTILLO",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "BARRANCAS",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 186,
+       "attributes": {
+           "MUNICIPIO": "AGUASAY",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "AGUASAY",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 187,
+       "attributes": {
+           "MUNICIPIO": "SANTA BARBARA",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "SANTA BARBARA",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 188,
+       "attributes": {
+           "MUNICIPIO": "URACOA",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "URACOA",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 189,
+       "attributes": {
+           "MUNICIPIO": "ARISMENDI",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "LA ASUNCION",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 190,
+       "attributes": {
+           "MUNICIPIO": "GOMEZ",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "SANTA ANA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 191,
+       "attributes": {
+           "MUNICIPIO": "MANEIRO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PAMPATAR",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 192,
+       "attributes": {
+           "MUNICIPIO": "MARCANO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "JUANGRIEGO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 193,
+       "attributes": {
+           "MUNICIPIO": "MARIÑO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PORLAMAR",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 194,
+       "attributes": {
+           "MUNICIPIO": "VILLALBA",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "SAN PEDRO DE COCHE",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 195,
+       "attributes": {
+           "MUNICIPIO": "ANTOLIN DEL CAMPO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "LA PLAZA DE PARAGUACHI",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 196,
+       "attributes": {
+           "MUNICIPIO": "GARCIA",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "EL VALLE DEL ESPIRITU SANTO",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 197,
+       "attributes": {
+           "MUNICIPIO": "ARAURE",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "ARAURE",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 198,
+       "attributes": {
+           "MUNICIPIO": "ESTELLER",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "PIRITU",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 199,
+       "attributes": {
+           "MUNICIPIO": "GUANARE",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "GUANARE",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 200,
+       "attributes": {
+           "MUNICIPIO": "GUANARITO",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "GUANARITO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 201,
+       "attributes": {
+           "MUNICIPIO": "OSPINO",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "OSPINO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 202,
+       "attributes": {
+           "MUNICIPIO": "PAEZ",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "ACARIGUA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 203,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "BISCUCUY",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 204,
+       "attributes": {
+           "MUNICIPIO": "TUREN",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "VILLA BRUZUAL",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 205,
+       "attributes": {
+           "MUNICIPIO": "MONSEÑOR JOSE VICENTE DE UNDA",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "CHABASQUEN",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 206,
+       "attributes": {
+           "MUNICIPIO": "AGUA BLANCA",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "AGUA BLANCA",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 207,
+       "attributes": {
+           "MUNICIPIO": "PAPELON",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "PAPELON",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 208,
+       "attributes": {
+           "MUNICIPIO": "SAN GENARO DE BOCONOITO",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "BOCONOITO",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 209,
+       "attributes": {
+           "MUNICIPIO": "SAN RAFAEL DE ONOTO",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "SAN RAFAEL DE ONOTO",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 210,
+       "attributes": {
+           "MUNICIPIO": "SANTA ROSALIA",
+           "ESTADO": "PORTUGUESA",
+           "CAPITAL": "EL PLAYON",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 211,
+       "attributes": {
+           "MUNICIPIO": "BENITEZ",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "EL PILAR",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 212,
+       "attributes": {
+           "MUNICIPIO": "CAJIGAL",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "YAGUARAPARO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 213,
+       "attributes": {
+           "MUNICIPIO": "MARIÑO",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "IRAPA",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 214,
+       "attributes": {
+           "MUNICIPIO": "MEJIA",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "SAN ANTONIO DEL GOLFO",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 215,
+       "attributes": {
+           "MUNICIPIO": "MONTES",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "CUMANACOA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 216,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "CUMANA",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 217,
+       "attributes": {
+           "MUNICIPIO": "BERMUDEZ",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "CUMANA",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 218,
+       "attributes": {
+           "MUNICIPIO": "VALDEZ",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "GUIRIA",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 219,
+       "attributes": {
+           "MUNICIPIO": "LIBBERTADOR",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "TUNAPUY",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 220,
+       "attributes": {
+           "MUNICIPIO": "ANDRES MATA",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "SAN JOSE DE AEROCUAR",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 221,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "MARIGUITAR",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 222,
+       "attributes": {
+           "MUNICIPIO": "CRUZ SALMERON ACOSTA",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "ARAYA",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 223,
+       "attributes": {
+           "MUNICIPIO": "AYACUCHO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "COLON",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 224,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN ANTONIO DEL TACHIRA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 225,
+       "attributes": {
+           "MUNICIPIO": "INDEPENDENCIA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "CAPACHO NUEVO",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 226,
+       "attributes": {
+           "MUNICIPIO": "CARDENAS",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "TARIBA",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 227,
+       "attributes": {
+           "MUNICIPIO": "JAUREGUI",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "LA  GRITA",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 228,
+       "attributes": {
+           "MUNICIPIO": "JUNIN",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "RUBIO",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 229,
+       "attributes": {
+           "MUNICIPIO": "LOBATERA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "LOBATERA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 230,
+       "attributes": {
+           "MUNICIPIO": "SAN CRISTOBAL",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN CRISTOBAL",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 231,
+       "attributes": {
+           "MUNICIPIO": "URIBANTE",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "PREGONERO",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 232,
+       "attributes": {
+           "MUNICIPIO": "CORDOVA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SANTA ANA DEL TÁCHIRA",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 233,
+       "attributes": {
+           "MUNICIPIO": "GARCIA DE HEVIA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "LA FRIA",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 234,
+       "attributes": {
+           "MUNICIPIO": "GUASIMOS",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "PALMIRA",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 235,
+       "attributes": {
+           "MUNICIPIO": "MICHELENA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "MICHELENA",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 236,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "ABEJALES",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 237,
+       "attributes": {
+           "MUNICIPIO": "PANAMERICANO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "COLONCITO",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 238,
+       "attributes": {
+           "MUNICIPIO": "PEDRO MARIA UREÑA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "UREÑA",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 239,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "QUENIQUEA",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 240,
+       "attributes": {
+           "MUNICIPIO": "ANDRES BELLO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "CORDERO",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 241,
+       "attributes": {
+           "MUNICIPIO": "FERNANDEZ FEO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN RAFAEL DEL PIÑAL",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 242,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADTACHIRA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "CAPACHO VIEJO",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 243,
+       "attributes": {
+           "MUNICIPIO": "SAMUEL DARIO MALDONADO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "LA TENDIDA",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 244,
+       "attributes": {
+           "MUNICIPIO": "SEBORUCO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SEBORUCO",
+           "CODIGO": 22.000000
+       }
+    },
+    {
+       "index": 245,
+       "attributes": {
+           "MUNICIPIO": "ANTONIO ROMULO ACOSTA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "LAS MESAS",
+           "CODIGO": 23.000000
+       }
+    },
+    {
+       "index": 246,
+       "attributes": {
+           "MUNICIPIO": "FRANCISCO DE MIRANDA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN JOSÉ DE BOLÍVAR",
+           "CODIGO": 24.000000
+       }
+    },
+    {
+       "index": 247,
+       "attributes": {
+           "MUNICIPIO": "JOSE MARIA VARGAS",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "EL COBRE",
+           "CODIGO": 25.000000
+       }
+    },
+    {
+       "index": 248,
+       "attributes": {
+           "MUNICIPIO": "RAFAEL URDANETA",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "DELICIAS",
+           "CODIGO": 26.000000
+       }
+    },
+    {
+       "index": 249,
+       "attributes": {
+           "MUNICIPIO": "SIMON RODRIGUEZ",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN SIMON",
+           "CODIGO": 27.000000
+       }
+    },
+    {
+       "index": 250,
+       "attributes": {
+           "MUNICIPIO": "TORBES",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "SAN JOSECITO",
+           "CODIGO": 28.000000
+       }
+    },
+    {
+       "index": 251,
+       "attributes": {
+           "MUNICIPIO": "SAN JUDAS TADEO",
+           "ESTADO": "TACHIRA",
+           "CAPITAL": "UMUQUENA",
+           "CODIGO": 29.000000
+       }
+    },
+    {
+       "index": 252,
+       "attributes": {
+           "MUNICIPIO": "RAFAEL RANGEL",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "BETIJOQUE",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 253,
+       "attributes": {
+           "MUNICIPIO": "BOCONO",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "BOCONO",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 254,
+       "attributes": {
+           "MUNICIPIO": "CARACHE",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "CARACHE",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 255,
+       "attributes": {
+           "MUNICIPIO": "ESCUQUE",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "ESCUQUE",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 256,
+       "attributes": {
+           "MUNICIPIO": "TRUJILLO",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "TRUJILLO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 257,
+       "attributes": {
+           "MUNICIPIO": "URDANETA",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "LA QUEBRADA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 258,
+       "attributes": {
+           "MUNICIPIO": "VALERA",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "VALERA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 259,
+       "attributes": {
+           "MUNICIPIO": "MIRANDA",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "EL DIVIDIVE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 260,
+       "attributes": {
+           "MUNICIPIO": "MONTE CARMELO",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "MONTE CARMELO",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 261,
+       "attributes": {
+           "MUNICIPIO": "MOTATAN",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "MOTATAN",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 262,
+       "attributes": {
+           "MUNICIPIO": "PAMPAN",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "PAMPAN",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 263,
+       "attributes": {
+           "MUNICIPIO": "SAN RAFAEL DE CARVAJAL",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "CARVAJAL",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 264,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "SABANA DE MENDOZA",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 265,
+       "attributes": {
+           "MUNICIPIO": "ANDRES BELLO",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "SANTA ISABEL",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 266,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "SABANA GRANDE",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 267,
+       "attributes": {
+           "MUNICIPIO": "JOSE FELIPE MARQUEZ CAÑIZALEZ",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "EL PARADERO",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 268,
+       "attributes": {
+           "MUNICIPIO": "JUAN VICENTE CAMPO ELIAS",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "CAMPO ELIAS",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 269,
+       "attributes": {
+           "MUNICIPIO": "LA CEIBA",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "SANTA APOLONIA",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 270,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "AROA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 271,
+       "attributes": {
+           "MUNICIPIO": "BRUZUAL",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "CHIVACOA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 272,
+       "attributes": {
+           "MUNICIPIO": "NIRGUA",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "NIRGUA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 273,
+       "attributes": {
+           "MUNICIPIO": "SAN FELIPE",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "SAN FELIPE",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 274,
+       "attributes": {
+           "MUNICIPIO": "SUCRE",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "GUAMA",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 275,
+       "attributes": {
+           "MUNICIPIO": "URACHICHE",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "URACHICHE",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 276,
+       "attributes": {
+           "MUNICIPIO": "PEÑA",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "YARITAGUA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 277,
+       "attributes": {
+           "MUNICIPIO": "JOSE ANTONIO PAEZ",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "SABANA DE PARRA",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 278,
+       "attributes": {
+           "MUNICIPIO": "LA TRINIDAD",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "BORAURE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 279,
+       "attributes": {
+           "MUNICIPIO": "COCOROTE",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "COCOROTE",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 280,
+       "attributes": {
+           "MUNICIPIO": "INDEPENDENCIA",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "INDEPENDENCIA",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 281,
+       "attributes": {
+           "MUNICIPIO": "ARISTIDES BASTIDAS",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "SAN PABLO",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 282,
+       "attributes": {
+           "MUNICIPIO": "MANUEL MONGE",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "YUMARE",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 283,
+       "attributes": {
+           "MUNICIPIO": "VEROES",
+           "ESTADO": "YARACUY",
+           "CAPITAL": "FARRIAR",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 284,
+       "attributes": {
+           "MUNICIPIO": "BARALT",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SAN TIMOTEO",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 285,
+       "attributes": {
+           "MUNICIPIO": "SANTA RITA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SANTA RITA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 286,
+       "attributes": {
+           "MUNICIPIO": "COLON",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SAN CARLOS DEL ZULIA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 287,
+       "attributes": {
+           "MUNICIPIO": "MARA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SAN RAFAEL DEL MOJAN",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 288,
+       "attributes": {
+           "MUNICIPIO": "MARACAIBO",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "MARACAIBO",
+           "CODIGO": 5.000000
+       }
+    },
+    {
+       "index": 289,
+       "attributes": {
+           "MUNICIPIO": "FRANCISCO DE MIRANDA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "LOS PUERTOS DE ALTAGRACIA",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 290,
+       "attributes": {
+           "MUNICIPIO": "PAEZ",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SINAMAICA",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 291,
+       "attributes": {
+           "MUNICIPIO": "MACHIQUES DE PERIJA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "MACHIQUES",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 292,
+       "attributes": {
+           "MUNICIPIO": "ANTONIO JOSE DE SUCRE",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "BOBURES",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 293,
+       "attributes": {
+           "MUNICIPIO": "LA CAÑADA DE URDANETA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "CONCEPCION",
+           "CODIGO": 10.000000
+       }
+    },
+    {
+       "index": 294,
+       "attributes": {
+           "MUNICIPIO": "LAGUNILLAS",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "CIUDAD OJEDA",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 295,
+       "attributes": {
+           "MUNICIPIO": "CATATUMBO",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "ENCONTRADOS",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 296,
+       "attributes": {
+           "MUNICIPIO": "ROSARIO DE PERIJA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "LA VILLA DEL ROSARIO",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 297,
+       "attributes": {
+           "MUNICIPIO": "CABIMAS",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "CABIMAS",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 298,
+       "attributes": {
+           "MUNICIPIO": "VALMORE RODRIGUEZ",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "BACHAQUERO",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 299,
+       "attributes": {
+           "MUNICIPIO": "JESUS ENRIQUE LOSSADA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "LA CONCEPCION",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 300,
+       "attributes": {
+           "MUNICIPIO": "ALMIRANTE PADILLA",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "EL TORO",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 301,
+       "attributes": {
+           "MUNICIPIO": "SAN FRANCISCO",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "SAN FRANCISCO",
+           "CODIGO": 18.000000
+       }
+    },
+    {
+       "index": 302,
+       "attributes": {
+           "MUNICIPIO": "JESUS MARIA SEMPRUM",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "CASIGUA, EL CUBO",
+           "CODIGO": 19.000000
+       }
+    },
+    {
+       "index": 303,
+       "attributes": {
+           "MUNICIPIO": "FRANCISCO JAVIER PULGAR",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "PUEBLO NUEVO EL CHIVO",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 304,
+       "attributes": {
+           "MUNICIPIO": "SIMON BOLIVAR",
+           "ESTADO": "ZULIA",
+           "CAPITAL": "TIA JUANA",
+           "CODIGO": 21.000000
+       }
+    },
+    {
+       "index": 305,
+       "attributes": {
+           "MUNICIPIO": "PAMPANITO",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "PAMPANITO",
+           "CODIGO": 20.000000
+       }
+    },
+    {
+       "index": 306,
+       "attributes": {
+           "MUNICIPIO": "CANDELARIA",
+           "ESTADO": "TRUJILLO",
+           "CAPITAL": "CHEJENDE",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 307,
+       "attributes": {
+           "MUNICIPIO": "JIMENEZ",
+           "ESTADO": "LARA",
+           "CAPITAL": "QUIBOR",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 308,
+       "attributes": {
+           "MUNICIPIO": "PUNCERES",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "QUIRIQUIRE",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 309,
+       "attributes": {
+           "MUNICIPIO": "PIAR",
+           "ESTADO": "MONAGAS",
+           "CAPITAL": "ARAGUA",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 310,
+       "attributes": {
+           "MUNICIPIO": "PAEZ",
+           "ESTADO": "MIRANDA",
+           "CAPITAL": "RIO CHICO",
+           "CODIGO": 6.000000
+       }
+    },
+    {
+       "index": 311,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 312,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 313,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 314,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 315,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 316,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 317,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 318,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 319,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 320,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 321,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 322,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 323,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 324,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 325,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 326,
+       "attributes": {
+           "MUNICIPIO": "PENINSULA DE MACANAO",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "BOCA DE RIO",
+           "CODIGO": 7.000000
+       }
+    },
+    {
+       "index": 327,
+       "attributes": {
+           "MUNICIPIO": "TUBORES",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "PUNTA DE PIEDRAS",
+           "CODIGO": 9.000000
+       }
+    },
+    {
+       "index": 328,
+       "attributes": {
+           "MUNICIPIO": "DIAZ",
+           "ESTADO": "NUEVA ESPARTA",
+           "CAPITAL": "SAN JUAN BAUTISTA",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 329,
+       "attributes": {
+           "MUNICIPIO": "ANTONIO DIAZ",
+           "ESTADO": "DELTA AMACURO",
+           "CAPITAL": "CURIAPO",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 330,
+       "attributes": {
+           "MUNICIPIO": "BOLIVAR",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "BARCELONA",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 331,
+       "attributes": {
+           "MUNICIPIO": "LIC. DIEGO BAUTISTA URBANEJA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "LECHERIAS",
+           "CODIGO": 17.000000
+       }
+    },
+    {
+       "index": 332,
+       "attributes": {
+           "MUNICIPIO": "SOTILLO",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "PUERTO LA CRUZ",
+           "CODIGO": 13.000000
+       }
+    },
+    {
+       "index": 333,
+       "attributes": {
+           "MUNICIPIO": "GUANTA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "GUANTA",
+           "CODIGO": 15.000000
+       }
+    },
+    {
+       "index": 334,
+       "attributes": {
+           "MUNICIPIO": "VARGAS",
+           "ESTADO": "VARGAS",
+           "CAPITAL": "LA GUAIRA",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 335,
+       "attributes": {
+           "MUNICIPIO": "RUBERO",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "CARIACO",
+           "CODIGO": 8.000000
+       }
+    },
+    {
+       "index": 336,
+       "attributes": {
+           "MUNICIPIO": "ARISMENDI",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "RIO CARIBE",
+           "CODIGO": 1.000000
+       }
+    },
+    {
+       "index": 337,
+       "attributes": {
+           "MUNICIPIO": "PEDERNALES",
+           "ESTADO": "DELTA AMACURO",
+           "CAPITAL": "PEDERNALES",
+           "CODIGO": 2.000000
+       }
+    },
+    {
+       "index": 338,
+       "attributes": {
+           "MUNICIPIO": "GUANIPA",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "SAN JOSE DE GUANIPA(EL TIGRITO)",
+           "CODIGO": 14.000000
+       }
+    },
+    {
+       "index": 339,
+       "attributes": {
+           "MUNICIPIO": "PEÑALVER",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "PUERTO PIRITU",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 340,
+       "attributes": {
+           "MUNICIPIO": "PIRITU",
+           "ESTADO": "ANZOATEGUI",
+           "CAPITAL": "PIRITU",
+           "CODIGO": 16.000000
+       }
+    },
+    {
+       "index": 341,
+       "attributes": {
+           "MUNICIPIO": "GIRARDOT",
+           "ESTADO": "COJEDES",
+           "CAPITAL": "EL BAUL",
+           "CODIGO": 3.000000
+       }
+    },
+    {
+       "index": 342,
+       "attributes": {
+           "MUNICIPIO": "ANDRES ELOY BLANCO",
+           "ESTADO": "SUCRE",
+           "CAPITAL": "CASANAY",
+           "CODIGO": 11.000000
+       }
+    },
+    {
+       "index": 343,
+       "attributes": {
+           "MUNICIPIO": "AQUILES NAZOA",
+           "ESTADO": "DISTRITO FEDERAL",
+           "CAPITAL": "CARACAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 344,
+       "attributes": {
+           "MUNICIPIO": "LIBERTADOR",
+           "ESTADO": "DISTRITO FEDERAL",
+           "CAPITAL": "CARACAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 345,
+       "attributes": {
+           "MUNICIPIO": "AVILA",
+           "ESTADO": "DISTRITO FEDERAL",
+           "CAPITAL": "CARACAS",
+           "CODIGO": 0.000000
+       }
+    },
+    {
+       "index": 346,
+       "attributes": {
+           "MUNICIPIO": "SANTOS MICHELENA",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "LAS TEJERIAS",
+           "CODIGO": 12.000000
+       }
+    },
+    {
+       "index": 347,
+       "attributes": {
+           "MUNICIPIO": "SAN CASIMIRO",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "SAN CASIMIRO",
+           "CODIGO": 4.000000
+       }
+    },
+    {
+       "index": 348,
+       "attributes": {
+           "MUNICIPIO": "SAN SEBASTIAN",
+           "ESTADO": "ARAGUA",
+           "CAPITAL": "SAN SEBASTIAN",
+           "CODIGO": 5.000000
+       }
+    }
+]
