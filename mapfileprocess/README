@@ -31,12 +31,6 @@ Creating OHM on DSTK:
 sudo mkdir /localmnt
 sudo mkdir /localmnt/openheatmap.com
 sudo chown ubuntu /localmnt/openheatmap.com
-sudo mkdir /localmnt/invitesdoneright.com
-sudo chown ubuntu /localmnt/invitesdoneright.com
-sudo mkdir /localmnt/pagerankgraph.com
-sudo chown ubuntu /localmnt/pagerankgraph.com
-sudo mkdir /localmnt/geodict
-sudo chown ubuntu /localmnt/geodict
 
 sudo aptitude update
 sudo aptitude install -y libapache2-mod-php5
@@ -77,41 +71,6 @@ sudo nano /etc/apache2/apache2.conf
     php_admin_value open_basedir /localmnt/openheatmap.com/www:/localmnt/openheatmap.com/phplib:/usr/share/dict/words:/tmp:/usr/local/share/GeoIP
 </VirtualHost>
 
-<VirtualHost *:80>
-    ServerName forcemapper.com
-    ServerAlias www.forcemapper.com
-    DocumentRoot /localmnt/openheatmap.com/www
-    RewriteEngine On
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI}
-</VirtualHost>
-
-<VirtualHost *:80>
-    ServerName invitesdoneright.com
-    ServerAlias www.invitesdoneright.com
-    DocumentRoot /localmnt/invitesdoneright.com/invite_targeter
-    Options -Indexes
-    php_admin_value open_basedir /mnt/invitesdoneright.com/:/tmp 
-</VirtualHost>
-
-<VirtualHost *:80>
-    ServerName pagerankgraph.com
-    ServerAlias www.pagerankgraph.com
-    DocumentRoot /mnt/pagerankgraph.com
-    Options -Indexes
-    php_admin_value open_basedir /localmnt/pagerankgraph.com/ 
-</VirtualHost>
-
-<VirtualHost *:80>
-    ServerName mailana.com
-    ServerAlias www.mailana.com
-    ServerAlias web.mailana.com
-    DocumentRoot /vol/www/html/
-</VirtualHost>
-
-sudo ln -s /etc/apache2/mods-available/proxy.load /etc/apache2/mods-enabled/proxy.load
-sudo ln -s /etc/apache2/mods-available/proxy_http.load /etc/apache2/mods-enabled/
-
 sudo /etc/init.d/apache2 restart
 
 cd /usr/local/share/GeoIP/
@@ -123,5 +82,8 @@ cd ~/sources/dstk
 git pull origin master
 touch tmp/restart.txt
 
-<Attach volume>
-sudo mount /dev/sdh /vol
+sudo sed -i "s/shared_buffers = [0-9A-Za-z]*/shared_buffers = 512MB/" /etc/postgresql/8.4/main/postgresql.conf
+sudo sysctl -w kernel.shmmax=556870912
+sudo bash -c 'echo "kernel.shmmax=556870912" >> /etc/sysctl.conf'
+sudo bash -c 'echo "vm.overcommit_memory=2" >> /etc/sysctl.conf'
+<reboot>
