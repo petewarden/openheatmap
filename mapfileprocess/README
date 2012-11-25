@@ -71,6 +71,7 @@ sudo nano /etc/apache2/apache2.conf
     php_admin_value open_basedir /localmnt/openheatmap.com/www:/localmnt/openheatmap.com/phplib:/usr/share/dict/words:/tmp:/usr/local/share/GeoIP
 </VirtualHost>
 
+sudo sed -i 's/^memory_limit.*$/memory_limit = 4000M/' /etc/php5/apache2/php.ini
 sudo /etc/init.d/apache2 restart
 
 cd /usr/local/share/GeoIP/
