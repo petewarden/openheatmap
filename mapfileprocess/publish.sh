@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -x
 
 SSH_KEY=/Users/petewarden/.ssh/ohm
 LOCAL_PATH=/Users/petewarden/Projects/openheatmap/website/

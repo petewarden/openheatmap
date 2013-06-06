@@ -1478,7 +1478,7 @@ function OpenHeatMap(canvas, width, height)
         this._tooltipColumnIndex = -1;
         for(var headerIndex = 0; headerIndex < this._valueHeaders.length; headerIndex++ )
         {
-            var header = this._valueHeaders[headerIndex].toLowerCase();
+            var header = this._valueHeaders[headerIndex].toLowerCase().trim();
             if (header==='time')
                 this._timeColumnIndex = headerIndex;	
             else if (header==='value')

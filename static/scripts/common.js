@@ -917,7 +917,7 @@ g_fipsToStateName = {
     '54': 'West Virginia',
     '26': 'Michigan',
     '55': 'Wisconsin',
-    '27': 'Minnesotta',
+    '27': 'Minnesota',
     '56': 'Wyoming',
     '28': 'Mississippi'
 };

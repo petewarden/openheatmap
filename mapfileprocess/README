@@ -49,8 +49,6 @@ sudo nano /etc/apache2/apache2.conf
 <VirtualHost *:80>
     ServerName openheatmap.com
     ServerAlias www.openheatmap.com
-    ServerAlias <public DNS name here>
-    ServerAlias ubu.openheatmap.com
     DocumentRoot /localmnt/openheatmap.com/www
     ServerAlias mailana.com
     ServerAlias www.mailana.com
@@ -71,6 +69,16 @@ sudo nano /etc/apache2/apache2.conf
     php_admin_value open_basedir /localmnt/openheatmap.com/www:/localmnt/openheatmap.com/phplib:/usr/share/dict/words:/tmp:/usr/local/share/GeoIP
 </VirtualHost>
 
+<VirtualHost *:80>
+    ServerName petewarden.com
+    ServerAlias www.petewarden.com
+    ServerAlias ubu.openheatmap.com
+    DocumentRoot /localmnt/openheatmap.com/www
+    Options -Indexes
+    RewriteEngine On
+    ProxyPass / http://petewarden.github.com/petesplugins/
+</VirtualHost>
+
 sudo sed -i 's/^memory_limit.*$/memory_limit = 4000M/' /etc/php5/apache2/php.ini
 sudo /etc/init.d/apache2 restart
 
@@ -84,7 +92,9 @@ git pull origin master
 touch tmp/restart.txt
 
 sudo sed -i "s/shared_buffers = [0-9A-Za-z]*/shared_buffers = 512MB/" /etc/postgresql/8.4/main/postgresql.conf
-sudo sysctl -w kernel.shmmax=556870912
-sudo bash -c 'echo "kernel.shmmax=556870912" >> /etc/sysctl.conf'
 sudo bash -c 'echo "vm.overcommit_memory=2" >> /etc/sysctl.conf'
+
+sudo iptables -A INPUT -s 166.78.2.38 -j DROP
+sudo iptables -A INPUT -s 67.228.177.126 -j DROP
+
 <reboot>
