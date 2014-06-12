@@ -1,11 +1,22 @@
-var _kmq = _kmq || [];
+var _kmk = _kmk || '73b1181c5c8d827398435c1aa9a6a6d9c381b2f7';
 function _kms(u){
-    setTimeout(function(){
-        var s = document.createElement('script'); var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true;
-        s.src = u; f.parentNode.insertBefore(s, f);
-    }, 1);
+  setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0],
+    s = d.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = u;
+    f.parentNode.insertBefore(s, f);
+  }, 1);
 }
-_kms('//i.kissmetrics.com/i.js');_kms('//doug1izaerwt3.cloudfront.net/7e2410e274ede95acd5551c3260ff85fba13f337.1.js');
+_kms('//i.kissmetrics.com/i.js');
+_kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51913500-1', 'openheatmap.com');
+ga('send', 'pageview');
 
 var g_hasSetResultMessage = false;
 

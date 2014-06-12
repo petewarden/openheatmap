@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 SSH_KEY=/Users/petewarden/.ssh/ohm
-LOCAL_PATH=/Users/petewarden/Projects/openheatmap/website/
+LOCAL_PATH=/Users/petewarden/projects/openheatmap/website/
 STATIC_PATH=${LOCAL_PATH}../static/
 SERVER_PATH=/localmnt/openheatmap.com/
 S3_BUCKET=s3://static.openheatmap.com/
@@ -19,10 +19,8 @@ for ((i=0;i<$SERVER_COUNT;i++)); do
 
   rsync -e "ssh -i $SSH_KEY" -avz ${LOCAL_PATH}* ${SERVER_FULL}
 
-  rsync -e "ssh -i $SSH_KEY" -avz /mnt/geodict/* ${SERVER_HOST}:/localmnt/geodict/
+#  rsync -e "ssh -i $SSH_KEY" -avz /mnt/geodict/* ${SERVER_HOST}:/localmnt/geodict/
 
 done
 
-s3sync.rb -r -p -v ${STATIC_PATH} static.openheatmap.com:
-cp ${LOCAL_PATH}../maprender/bin-debug/maprender.swf ${LOCAL_PATH}../maprender/bin-debug/openheatmap.swf
-s3sync.rb -r -p -v ${LOCAL_PATH}../maprender/bin-debug/ static.openheatmap.com:
+s3cmd sync --config ~/.s3cfg_mailana --recursive --parallel --acl-public -p ${STATIC_PATH} s3://static.openheatmap.com/
