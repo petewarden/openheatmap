@@ -320,9 +320,9 @@ function updateOpenHeatMapMessage(event)
                 
                 if (value!==null)
                 {
-                    description += ' - ';
+                    description += ' : ';
                     var valueAsNumber = Number(value);
-                    if (valueAsNumber<0.1)
+                    if ((valueAsNumber > -0.1) && (valueAsNumber < 0.1))
                         description += valueAsNumber.toPrecision(3);
                     else
                         description += valueAsNumber.toFixed(2);
